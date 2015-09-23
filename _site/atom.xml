@@ -4,7 +4,7 @@
  <title>Enquist Lab</title>
  <link href="http://enquistlab.github.io/" rel="self"/>
  <link href="http://enquistlab.github.io"/>
- <updated>2015-09-23T15:47:17-07:00</updated>
+ <updated>2015-09-23T16:07:33-07:00</updated>
  <id>http://enquistlab.github.io</id>
  <author>
    <name>Enquist Lab</name>
@@ -18,7 +18,32 @@
    <updated>2015-09-23T00:00:00-07:00</updated>
    <id>http://enquistlab.github.io/2015/09/23/hello-post</id>
    <content type="html">
-&lt;h1 id=&quot;this-is-a-post&quot;&gt;This is a post!&lt;/h1&gt;
+&lt;h1 id=&quot;simple-python-program&quot;&gt;Simple Python Program&lt;/h1&gt;
+
+&lt;p&gt;Below is a simple python program.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+#!/usr/bin/python
+
+&quot;&quot;&quot;
+  
+  Daniel Guaderrama
+  Simple Python Program
+
+&quot;&quot;&quot;
+
+class helloWorld(object):
+
+    @staticmethod
+
+    def greeting(self):
+        print &quot;Hello World!&quot;
+
+helloWorld.greeting()
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Can you guess what this program will do when executed?&lt;/p&gt;
 </content>
  </entry>
  
