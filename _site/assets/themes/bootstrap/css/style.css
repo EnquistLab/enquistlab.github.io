@@ -1,3 +1,8 @@
+/* remove advertisements */
+.iab-ad__wrapper {
+  display: none !important;
+}
+
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
