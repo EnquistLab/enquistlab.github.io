@@ -26,7 +26,7 @@ class helloWorld(object):
 
     @staticmethod
 
-    def greeting(self):
+    def greeting():
         print "Hello World!"
 
 helloWorld.greeting()

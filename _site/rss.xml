@@ -5,8 +5,8 @@
         <description>Enquist Lab - Enquist Lab</description>
         <link>http://enquistlab.github.io</link>
         <link>http://enquistlab.github.io</link>
-        <lastBuildDate>2015-09-23T17:01:27-07:00</lastBuildDate>
-        <pubDate>2015-09-23T17:01:27-07:00</pubDate>
+        <lastBuildDate>2015-09-23T17:05:13-07:00</lastBuildDate>
+        <pubDate>2015-09-23T17:05:13-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -95,7 +95,7 @@ class helloWorld(object):
 
     @staticmethod
 
-    def greeting(self):
+    def greeting():
         print &quot;Hello World!&quot;
 
 helloWorld.greeting()
