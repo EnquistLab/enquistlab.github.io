@@ -4,13 +4,196 @@
  <title>Enquist Lab</title>
  <link href="http://enquistlab.github.io/" rel="self"/>
  <link href="http://enquistlab.github.io"/>
- <updated>2015-09-23T17:13:29-07:00</updated>
+ <updated>2015-09-24T11:30:08-07:00</updated>
  <id>http://enquistlab.github.io</id>
  <author>
    <name>Enquist Lab</name>
    <email>dguaderrama@email.arizona.edu</email>
  </author>
 
+ 
+ <entry>
+   <title>Intro to UNIX/Linux</title>
+   <link href="http://enquistlab.github.io/unix-linux/2015/09/24/intro-to-unixlinux"/>
+   <updated>2015-09-24T00:00:00-07:00</updated>
+   <id>http://enquistlab.github.io/unix-linux/2015/09/24/intro-to-unixlinux</id>
+   <content type="html">
+&lt;h1 id=&quot;what-is-unix&quot;&gt;What is UNIX?&lt;/h1&gt;
+
+&lt;p&gt;Unix (all-caps UNIX for the trademark) is a family of multitasking, multiuser computer operating systems that derive from the original AT&amp;amp;T Unix, developed in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-linux&quot;&gt;What is Linux?&lt;/h1&gt;
+
+&lt;p&gt;Linux is a Unix-like operating system (OS) assembled under the model of free and open-source software development and distribution. The defining component of Linux is the Linux kernel, an operating system kernel first released on 5 October 1991 by Linus Torvalds.&lt;/p&gt;
+
+&lt;h1 id=&quot;whats-the-difference&quot;&gt;What’s the difference?&lt;/h1&gt;
+
+&lt;p&gt;Linux is free, UNIX is not.&lt;/p&gt;
+
+&lt;p&gt;Mac OSX is UNIX. There are many different flavors of Linux distributions (distros for short), most common distro is Ubuntu. Each distro is customized for specific needs. Kali Linux is designed for penetration testing and “ethical” hacking.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_distribution#/media/File:Linux_Distribution_Timeline_with_Android.svg&quot; target=&quot;_blank&quot;&gt;Here’s and image of the timeline representing the development of various Linux distributions.&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;accessing-the-shell&quot;&gt;Accessing the shell&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+ALT+CTRL+t
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mac:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+ALT+spacebar &amp;amp; search &quot;terminal&quot;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/themes//images/terminal.png&quot; alt=&quot;Ubuntu terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;basic-usage&quot;&gt;Basic usage&lt;/h2&gt;
+
+&lt;p&gt;The following commands are used for navigation through your filesystem.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;List files in current directory:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ ls
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;List all files in current directory:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ ls -al
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Change directories&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ cd &amp;lt;dir_name&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Change to directory “project” within your current directory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ cd project/
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Change to directory not within current directory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ cd /home/username/blogs/enquistlab.github.io
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Pressing TAB will autocomplete the file path or directory, rather than typing to full path yourself.&lt;/p&gt;
+
+&lt;h2 id=&quot;opening-a-file&quot;&gt;Opening a file&lt;/h2&gt;
+
+&lt;p&gt;UNIX and Linux allow you to open any file type using command line text editors. Open an image and see what it looks like.&lt;/p&gt;
+
+&lt;p&gt;Common command line text editors:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Vim&lt;/li&gt;
+  &lt;li&gt;Vi&lt;/li&gt;
+  &lt;li&gt;Nano&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Sure, there are more out there but these are most common.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Open a file:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ vim /path/to/file
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;command-line-text-editor-vs-word-etc&quot;&gt;Command line text editor vs. Word, etc:&lt;/h4&gt;
+
+&lt;p&gt;Word and Excel will run out of memory very quickly with large files.&lt;/p&gt;
+
+&lt;h2 id=&quot;viewing-printing-files-to-the-standard-output-stdout&quot;&gt;Viewing (printing) files to the standard output (stdout)&lt;/h2&gt;
+
+&lt;h4 id=&quot;what-is-stdout&quot;&gt;What is stdout?&lt;/h4&gt;
+
+&lt;p&gt;Standard output, sometimes abbreviated stdout, refers to the standardized streams of data that are produced by command line programs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;View file in stdout:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ cat /path/to/file
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;View head of file:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ head /path/to/file
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;View tail of file:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ tail /path/to/file
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;viewing-help-and-man-pages&quot;&gt;Viewing Help and Man pages:&lt;/h2&gt;
+
+&lt;p&gt;How do I use this command line tool?&lt;/p&gt;
+
+&lt;p&gt;Below are the easiest method to viewing help and man pages (manual):&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Help:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ head --help
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Man pages:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ man head
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;These are basically the same but each show the different parameters or flags for different options. The following line will print the first 10 lines of a given file, rather than just the header or head of the file.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ head -n 10 /path/to/file
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Reading material and sources:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.tldp.org/guides.html&quot; target=&quot;_blank&quot;&gt;The Linux Documentation Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Linux&quot; target=&quot;_blank&quot;&gt;Wiki: Linux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Unix&quot; target=&quot;_blank&quot;&gt;Wiki: Unix&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.linfo.org/index.html&quot; target=&quot;_blank&quot;&gt;The Linux Information Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;PDF Books&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://vic.gedris.org/Manual-ShellIntro/1.2/ShellIntro.pdf&quot; target=&quot;_blank&quot;&gt;An Introduction to the Linux Command Shell For Beginners&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rcsg-gsir.imsb-dsgi.nrc-cnrc.gc.ca/documents/basic.pdf&quot; target=&quot;_blank&quot;&gt;Basic Introduction to UNIX/Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Github in RStudio</title>
+   <link href="http://enquistlab.github.io/r/2015/09/24/github_in_r"/>
+   <updated>2015-09-24T00:00:00-07:00</updated>
+   <id>http://enquistlab.github.io/r/2015/09/24/github_in_r</id>
+   <content type="html">
+&lt;h1 id=&quot;github-in-rstudio&quot;&gt;Github in RStudio&lt;/h1&gt;
+
+&lt;p&gt;This website provides a very useful introduction to using Github with R and R studio and points out fixes for some of the common issues that arise.&lt;/p&gt;
+
+&lt;p&gt;http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Intro to Git</title>

@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Intro to UNIX/Linux</title>
+    <meta name="description" content="">
+    <meta name="author" content="Enquist Lab">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/assets/themes/bootstrap/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!--[if lt IE 9]>
+      <script src="/assets/themes/bootstrap/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Enquist Lab</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      
+<div class="page-header">
+  <h1>Intro to UNIX/Linux </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-md-12">
+    <div class="date">
+      <span>24 September 2015</span>
+    </div>
+    <div class="content">
+      
+<h1 id="what-is-unix">What is UNIX?</h1>
+
+<p>Unix (all-caps UNIX for the trademark) is a family of multitasking, multiuser computer operating systems that derive from the original AT&amp;T Unix, developed in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.</p>
+
+<h1 id="what-is-linux">What is Linux?</h1>
+
+<p>Linux is a Unix-like operating system (OS) assembled under the model of free and open-source software development and distribution. The defining component of Linux is the Linux kernel, an operating system kernel first released on 5 October 1991 by Linus Torvalds.</p>
+
+<h1 id="whats-the-difference">What’s the difference?</h1>
+
+<p>Linux is free, UNIX is not.</p>
+
+<p>Mac OSX is UNIX. There are many different flavors of Linux distributions (distros for short), most common distro is Ubuntu. Each distro is customized for specific needs. Kali Linux is designed for penetration testing and “ethical” hacking.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Linux_distribution#/media/File:Linux_Distribution_Timeline_with_Android.svg" target="_blank">Here’s and image of the timeline representing the development of various Linux distributions.</a></p>
+
+<hr />
+
+<h2 id="accessing-the-shell">Accessing the shell</h2>
+
+<p><strong>Linux:</strong></p>
+
+<p><code>
+ALT+CTRL+t
+</code></p>
+
+<p><strong>Mac:</strong></p>
+
+<p><code>
+ALT+spacebar &amp; search "terminal"
+</code></p>
+
+<p><img src="/assets/themes//images/terminal.png" alt="Ubuntu terminal" /></p>
+
+<h2 id="basic-usage">Basic usage</h2>
+
+<p>The following commands are used for navigation through your filesystem.</p>
+
+<p><strong>List files in current directory:</strong></p>
+
+<p><code>
+$ ls
+</code></p>
+
+<p><strong>List all files in current directory:</strong></p>
+
+<p><code>
+$ ls -al
+</code></p>
+
+<p><strong>Change directories</strong></p>
+
+<p><code>
+$ cd &lt;dir_name&gt;
+</code></p>
+
+<p><strong>Change to directory “project” within your current directory</strong></p>
+
+<p><code>
+$ cd project/
+</code></p>
+
+<p><strong>Change to directory not within current directory</strong></p>
+
+<p><code>
+$ cd /home/username/blogs/enquistlab.github.io
+</code></p>
+
+<p>Pressing TAB will autocomplete the file path or directory, rather than typing to full path yourself.</p>
+
+<h2 id="opening-a-file">Opening a file</h2>
+
+<p>UNIX and Linux allow you to open any file type using command line text editors. Open an image and see what it looks like.</p>
+
+<p>Common command line text editors:</p>
+
+<ol>
+  <li>Vim</li>
+  <li>Vi</li>
+  <li>Nano</li>
+</ol>
+
+<p>Sure, there are more out there but these are most common.</p>
+
+<p><strong>Open a file:</strong></p>
+
+<p><code>
+$ vim /path/to/file
+</code></p>
+
+<h4 id="command-line-text-editor-vs-word-etc">Command line text editor vs. Word, etc:</h4>
+
+<p>Word and Excel will run out of memory very quickly with large files.</p>
+
+<h2 id="viewing-printing-files-to-the-standard-output-stdout">Viewing (printing) files to the standard output (stdout)</h2>
+
+<h4 id="what-is-stdout">What is stdout?</h4>
+
+<p>Standard output, sometimes abbreviated stdout, refers to the standardized streams of data that are produced by command line programs.</p>
+
+<p><strong>View file in stdout:</strong></p>
+
+<p><code>
+$ cat /path/to/file
+</code></p>
+
+<p><strong>View head of file:</strong></p>
+
+<p><code>
+$ head /path/to/file
+</code></p>
+
+<p><strong>View tail of file:</strong></p>
+
+<p><code>
+$ tail /path/to/file
+</code></p>
+
+<h2 id="viewing-help-and-man-pages">Viewing Help and Man pages:</h2>
+
+<p>How do I use this command line tool?</p>
+
+<p>Below are the easiest method to viewing help and man pages (manual):</p>
+
+<p><strong>Help:</strong></p>
+
+<p><code>
+$ head --help
+</code></p>
+
+<p><strong>Man pages:</strong></p>
+
+<p><code>
+$ man head
+</code></p>
+
+<p>These are basically the same but each show the different parameters or flags for different options. The following line will print the first 10 lines of a given file, rather than just the header or head of the file.</p>
+
+<p><code>
+$ head -n 10 /path/to/file
+</code></p>
+
+<hr />
+
+<p>Reading material and sources:</p>
+
+<ol>
+  <li><a href="http://www.tldp.org/guides.html" target="_blank">The Linux Documentation Project</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Wiki: Linux</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Unix" target="_blank">Wiki: Unix</a></li>
+  <li><a href="http://www.linfo.org/index.html" target="_blank">The Linux Information Project</a></li>
+</ol>
+
+<p>PDF Books</p>
+
+<ol>
+  <li><a href="http://vic.gedris.org/Manual-ShellIntro/1.2/ShellIntro.pdf" target="_blank">An Introduction to the Linux Command Shell For Beginners</a></li>
+  <li><a href="http://rcsg-gsir.imsb-dsgi.nrc-cnrc.gc.ca/documents/basic.pdf" target="_blank">Basic Introduction to UNIX/Linux</a></li>
+</ol>
+
+
+    </div>
+
+    <!--
+      <ul class="tag_box inline">
+        <li><i class="icon-folder-open"></i></li>
+        
+        
+
+
+  
+     
+    	<li><a href="/categories.html#unix-linux-ref">
+    		unix-linux <span>1</span>
+    	</a></li>
+    
+  
+
+
+      </ul>
+    -->
+
+    <hr>
+
+    <!--
+      <h6>Tags</h6>
+      <ul class="tag_box inline">
+        <li><i class="icon-tags"></i></li>
+        
+        
+
+
+  
+     
+    	<li><a href="/tags.html#unix-ref">unix <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#linux-ref">linux <span>1</span></a></li>
+    
+  
+
+
+
+      </ul>
+    
+
+    <hr>
+    -->
+
+    <ul class="pagination">
+      
+        <li class="prev"><a href="/r/2015/09/24/github_in_r" title="Github in RStudio">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+    </ul>
+    <hr>
+    <!-- removed until sponsored ads are blocked/removed -->
+    <!--
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+-->
+  </div>
+</div>
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2015 Enquist Lab
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap 3.0.3</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="/assets/themes/bootstrap/resources/jquery/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap/resources/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
