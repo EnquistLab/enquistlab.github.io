@@ -5,10 +5,74 @@
         <description>Enquist Lab - Enquist Lab</description>
         <link>http://enquistlab.github.io</link>
         <link>http://enquistlab.github.io</link>
-        <lastBuildDate>2015-09-23T16:07:33-07:00</lastBuildDate>
-        <pubDate>2015-09-23T16:07:33-07:00</pubDate>
+        <lastBuildDate>2015-09-23T17:01:27-07:00</lastBuildDate>
+        <pubDate>2015-09-23T17:01:27-07:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Intro to Git</title>
+                <description>
+&lt;h1 id=&quot;git---distributed-is-the-new-centralized&quot;&gt;git –distributed-is-the-new-centralized&lt;/h1&gt;
+
+&lt;p&gt;Straight from the horse’s mouth:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Git was initially designed and developed by Linus Torvalds for Linux kernel development in 2005.&lt;/p&gt;
+
+&lt;p&gt;Git documentation: &lt;a href=&quot;https://git-scm.com/documentation&quot; target=&quot;_blank&quot;&gt;https://git-scm.com/documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Learn Git in your browser for free with &lt;a href=&quot;http://try.github.com/&quot; target=&quot;_blank&quot;&gt;Try Git&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Two main Web-based Git repository hosting services: &lt;a href=&quot;https://github.com&quot; target=&quot;_blank&quot;&gt;GitHub.com&lt;/a&gt; and &lt;a href=&quot;https://bitbucket.org&quot; target=&quot;_blank&quot;&gt;BitBucket.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;basic-commands&quot;&gt;Basic commands:&lt;/h3&gt;
+
+&lt;p&gt;The following commands are used in the command line. They assume you’re within the repository directory on your filesystem.&lt;/p&gt;
+
+&lt;h4 id=&quot;clone&quot;&gt;Clone&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ git clone https://github.com/username/repo.git
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;add&quot;&gt;Add&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ git add --all
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;commit&quot;&gt;Commit&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ git commit -m &quot;Message about changes/additions&quot;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;push&quot;&gt;Push&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ git push origin master
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;github-with-r-and-rstudio&quot;&gt;GitHub with R and RStudio&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/&quot; target=&quot;_blank&quot;&gt;http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://enquistlab.github.io/2015/09/23/intro-to-git</link>
+                <guid>http://enquistlab.github.io/2015/09/23/intro-to-git</guid>
+                <pubDate>2015-09-23T00:00:00-07:00</pubDate>
+        </item>
 
         <item>
                 <title>Hello Post</title>
