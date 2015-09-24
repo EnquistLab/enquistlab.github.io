@@ -5,13 +5,13 @@
         <description>Enquist Lab - Enquist Lab</description>
         <link>http://enquistlab.github.io</link>
         <link>http://enquistlab.github.io</link>
-        <lastBuildDate>2015-09-24T11:30:08-07:00</lastBuildDate>
-        <pubDate>2015-09-24T11:30:08-07:00</pubDate>
+        <lastBuildDate>2015-09-24T11:46:18-07:00</lastBuildDate>
+        <pubDate>2015-09-24T11:46:18-07:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
-                <title>Intro to UNIX/Linux</title>
+                <title>Intro to UNIX/Linux Shell</title>
                 <description>
 &lt;h1 id=&quot;what-is-unix&quot;&gt;What is UNIX?&lt;/h1&gt;
 
@@ -47,7 +47,7 @@ ALT+spacebar &amp;amp; search &quot;terminal&quot;
 
 &lt;p&gt;&lt;img src=&quot;/assets/themes//images/terminal.png&quot; alt=&quot;Ubuntu terminal&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;basic-usage&quot;&gt;Basic usage&lt;/h2&gt;
+&lt;h2 id=&quot;naviagtion&quot;&gt;Naviagtion&lt;/h2&gt;
 
 &lt;p&gt;The following commands are used for navigation through your filesystem.&lt;/p&gt;
 
@@ -83,6 +83,20 @@ $ cd /home/username/blogs/enquistlab.github.io
 
 &lt;p&gt;Pressing TAB will autocomplete the file path or directory, rather than typing to full path yourself.&lt;/p&gt;
 
+&lt;p&gt;Understanding your filesystem will help you navigate. In the example above, notice the backslash before &lt;code&gt;home&lt;/code&gt;. This is called &lt;code&gt;root&lt;/code&gt;, where your filesystem begins. If you executed &lt;code&gt;$ rm -rf /*&lt;/code&gt; then you’ll delete your entire filesystem. Don’t try this at home. We’ll cover the &lt;code&gt;rm&lt;/code&gt; tool and flags/switches later.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-a-file&quot;&gt;Creating a file&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ touch /path/to/file
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;removing-deleting-a-file&quot;&gt;Removing (deleting) a file&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ rm /path/to/file
+&lt;/code&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;opening-a-file&quot;&gt;Opening a file&lt;/h2&gt;
 
 &lt;p&gt;UNIX and Linux allow you to open any file type using command line text editors. Open an image and see what it looks like.&lt;/p&gt;
@@ -102,6 +116,8 @@ $ cd /home/username/blogs/enquistlab.github.io
 &lt;p&gt;&lt;code&gt;
 $ vim /path/to/file
 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Creating a file then opening it is redundant. &lt;code&gt;$ vim /path/to/file&lt;/code&gt; will create then open the file. Be sure to save before exiting.&lt;/p&gt;
 
 &lt;h4 id=&quot;command-line-text-editor-vs-word-etc&quot;&gt;Command line text editor vs. Word, etc:&lt;/h4&gt;
 
@@ -149,7 +165,7 @@ $ head --help
 $ man head
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;These are basically the same but each show the different parameters or flags for different options. The following line will print the first 10 lines of a given file, rather than just the header or head of the file.&lt;/p&gt;
+&lt;p&gt;These are basically the same but each show the different parameters or flags/switches for different options. The following line will print the first 10 lines of a given file, rather than just the header or head of the file.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;
 $ head -n 10 /path/to/file
@@ -160,6 +176,7 @@ $ head -n 10 /path/to/file
 &lt;p&gt;Reading material and sources:&lt;/p&gt;
 
 &lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ee.surrey.ac.uk/Teaching/Unix/&quot; target=&quot;_blank&quot;&gt;UNIX Tuforial for Beginners&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.tldp.org/guides.html&quot; target=&quot;_blank&quot;&gt;The Linux Documentation Project&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Linux&quot; target=&quot;_blank&quot;&gt;Wiki: Linux&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Unix&quot; target=&quot;_blank&quot;&gt;Wiki: Unix&lt;/a&gt;&lt;/li&gt;
@@ -174,8 +191,8 @@ $ head -n 10 /path/to/file
 &lt;/ol&gt;
 
 </description>
-                <link>http://enquistlab.github.io/unix-linux/2015/09/24/intro-to-unixlinux</link>
-                <guid>http://enquistlab.github.io/unix-linux/2015/09/24/intro-to-unixlinux</guid>
+                <link>http://enquistlab.github.io/unix-linux/2015/09/24/intro-to-unixlinux-shell</link>
+                <guid>http://enquistlab.github.io/unix-linux/2015/09/24/intro-to-unixlinux-shell</guid>
                 <pubDate>2015-09-24T00:00:00-07:00</pubDate>
         </item>
 

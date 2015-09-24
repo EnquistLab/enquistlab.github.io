@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intro to UNIX/Linux"
+title: "Intro to UNIX/Linux Shell"
 description: ""
 category: UNIX-Linux 
 tags: [unix,linux]
@@ -41,7 +41,7 @@ ALT+spacebar & search "terminal"
 
 ![Ubuntu terminal]({{ASSET_PATH}}/images/terminal.png)
 
-## Basic usage
+## Naviagtion
 
 The following commands are used for navigation through your filesystem.
 
@@ -77,6 +77,20 @@ $ cd /home/username/blogs/enquistlab.github.io
 
 Pressing TAB will autocomplete the file path or directory, rather than typing to full path yourself.
 
+Understanding your filesystem will help you navigate. In the example above, notice the backslash before `home`. This is called `root`, where your filesystem begins. If you executed `$ rm -rf /*` then you'll delete your entire filesystem. Don't try this at home. We'll cover the `rm` tool and flags/switches later.
+
+## Creating a file
+
+```
+$ touch /path/to/file
+```
+
+## Removing (deleting) a file
+
+```
+$ rm /path/to/file
+```
+
 ## Opening a file
 
 UNIX and Linux allow you to open any file type using command line text editors. Open an image and see what it looks like.
@@ -94,6 +108,8 @@ Sure, there are more out there but these are most common.
 ```
 $ vim /path/to/file
 ```
+
+Creating a file then opening it is redundant. `$ vim /path/to/file` will create then open the file. Be sure to save before exiting.
 
 #### Command line text editor vs. Word, etc:
 
@@ -142,7 +158,7 @@ $ head --help
 $ man head
 ```
 
-These are basically the same but each show the different parameters or flags for different options. The following line will print the first 10 lines of a given file, rather than just the header or head of the file.
+These are basically the same but each show the different parameters or flags/switches for different options. The following line will print the first 10 lines of a given file, rather than just the header or head of the file.
 
 ```
 $ head -n 10 /path/to/file
@@ -152,6 +168,7 @@ $ head -n 10 /path/to/file
 
 Reading material and sources:
 
+1. <a href="http://www.ee.surrey.ac.uk/Teaching/Unix/" target="_blank">UNIX Tuforial for Beginners</a>
 1. <a href="http://www.tldp.org/guides.html" target="_blank">The Linux Documentation Project</a>
 1. <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Wiki: Linux</a>
 1. <a href="https://en.wikipedia.org/wiki/Unix" target="_blank">Wiki: Unix</a>

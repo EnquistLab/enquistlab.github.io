@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Intro to UNIX/Linux</title>
+    <title>Intro to UNIX/Linux Shell</title>
     <meta name="description" content="">
     <meta name="author" content="Enquist Lab">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,7 +99,7 @@
     <div class="container">
       
 <div class="page-header">
-  <h1>Intro to UNIX/Linux </h1>
+  <h1>Intro to UNIX/Linux Shell </h1>
 </div>
 
 <div class="row post-full">
@@ -143,7 +143,7 @@ ALT+spacebar &amp; search "terminal"
 
 <p><img src="/assets/themes//images/terminal.png" alt="Ubuntu terminal" /></p>
 
-<h2 id="basic-usage">Basic usage</h2>
+<h2 id="naviagtion">Naviagtion</h2>
 
 <p>The following commands are used for navigation through your filesystem.</p>
 
@@ -179,6 +179,20 @@ $ cd /home/username/blogs/enquistlab.github.io
 
 <p>Pressing TAB will autocomplete the file path or directory, rather than typing to full path yourself.</p>
 
+<p>Understanding your filesystem will help you navigate. In the example above, notice the backslash before <code>home</code>. This is called <code>root</code>, where your filesystem begins. If you executed <code>$ rm -rf /*</code> then you’ll delete your entire filesystem. Don’t try this at home. We’ll cover the <code>rm</code> tool and flags/switches later.</p>
+
+<h2 id="creating-a-file">Creating a file</h2>
+
+<p><code>
+$ touch /path/to/file
+</code></p>
+
+<h2 id="removing-deleting-a-file">Removing (deleting) a file</h2>
+
+<p><code>
+$ rm /path/to/file
+</code></p>
+
 <h2 id="opening-a-file">Opening a file</h2>
 
 <p>UNIX and Linux allow you to open any file type using command line text editors. Open an image and see what it looks like.</p>
@@ -198,6 +212,8 @@ $ cd /home/username/blogs/enquistlab.github.io
 <p><code>
 $ vim /path/to/file
 </code></p>
+
+<p>Creating a file then opening it is redundant. <code>$ vim /path/to/file</code> will create then open the file. Be sure to save before exiting.</p>
 
 <h4 id="command-line-text-editor-vs-word-etc">Command line text editor vs. Word, etc:</h4>
 
@@ -245,7 +261,7 @@ $ head --help
 $ man head
 </code></p>
 
-<p>These are basically the same but each show the different parameters or flags for different options. The following line will print the first 10 lines of a given file, rather than just the header or head of the file.</p>
+<p>These are basically the same but each show the different parameters or flags/switches for different options. The following line will print the first 10 lines of a given file, rather than just the header or head of the file.</p>
 
 <p><code>
 $ head -n 10 /path/to/file
@@ -256,6 +272,7 @@ $ head -n 10 /path/to/file
 <p>Reading material and sources:</p>
 
 <ol>
+  <li><a href="http://www.ee.surrey.ac.uk/Teaching/Unix/" target="_blank">UNIX Tuforial for Beginners</a></li>
   <li><a href="http://www.tldp.org/guides.html" target="_blank">The Linux Documentation Project</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Wiki: Linux</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Unix" target="_blank">Wiki: Unix</a></li>
