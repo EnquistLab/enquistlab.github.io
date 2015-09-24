@@ -2,8 +2,8 @@
 layout: post
 title: "Github in RStudio"
 description: "link"
-category: R 
-tags: [R][github]
+category: "R"
+tags: [github]
 ---
 {% include JB/setup %}
 
