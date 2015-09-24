@@ -4,7 +4,7 @@
  <title>Enquist Lab</title>
  <link href="http://enquistlab.github.io/" rel="self"/>
  <link href="http://enquistlab.github.io"/>
- <updated>2015-09-23T17:05:13-07:00</updated>
+ <updated>2015-09-23T17:07:51-07:00</updated>
  <id>http://enquistlab.github.io</id>
  <author>
    <name>Enquist Lab</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Intro to Git</title>
-   <link href="http://enquistlab.github.io/2015/09/23/intro-to-git"/>
+   <link href="http://enquistlab.github.io/git/2015/09/23/intro-to-git"/>
    <updated>2015-09-23T00:00:00-07:00</updated>
-   <id>http://enquistlab.github.io/2015/09/23/intro-to-git</id>
+   <id>http://enquistlab.github.io/git/2015/09/23/intro-to-git</id>
    <content type="html">
 &lt;h1 id=&quot;git---distributed-is-the-new-centralized&quot;&gt;git –distributed-is-the-new-centralized&lt;/h1&gt;
 
@@ -78,9 +78,9 @@ $ git push origin master
  
  <entry>
    <title>Hello Post</title>
-   <link href="http://enquistlab.github.io/2015/09/23/hello-post"/>
+   <link href="http://enquistlab.github.io/python/2015/09/23/hello-post"/>
    <updated>2015-09-23T00:00:00-07:00</updated>
-   <id>http://enquistlab.github.io/2015/09/23/hello-post</id>
+   <id>http://enquistlab.github.io/python/2015/09/23/hello-post</id>
    <content type="html">
 &lt;h1 id=&quot;simple-python-program&quot;&gt;Simple Python Program&lt;/h1&gt;
 
@@ -113,9 +113,9 @@ helloWorld.greeting()
  
  <entry>
    <title>example.R</title>
-   <link href="http://enquistlab.github.io/2015/09/23/exampler"/>
+   <link href="http://enquistlab.github.io/r/2015/09/23/exampler"/>
    <updated>2015-09-23T00:00:00-07:00</updated>
-   <id>http://enquistlab.github.io/2015/09/23/exampler</id>
+   <id>http://enquistlab.github.io/r/2015/09/23/exampler</id>
    <content type="html">
 &lt;div style=&quot;padding-top: 25px&quot;&gt;&lt;/div&gt;
 &lt;pre&gt;

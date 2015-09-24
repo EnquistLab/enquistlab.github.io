@@ -2,8 +2,8 @@
 layout: post
 title: "Hello Post"
 description: ""
-category: 
-tags: []
+category: Python 
+tags: [python]
 ---
 {% include JB/setup %}
 

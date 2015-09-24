@@ -5,8 +5,8 @@
         <description>Enquist Lab - Enquist Lab</description>
         <link>http://enquistlab.github.io</link>
         <link>http://enquistlab.github.io</link>
-        <lastBuildDate>2015-09-23T17:05:13-07:00</lastBuildDate>
-        <pubDate>2015-09-23T17:05:13-07:00</pubDate>
+        <lastBuildDate>2015-09-23T17:07:51-07:00</lastBuildDate>
+        <pubDate>2015-09-23T17:07:51-07:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -69,8 +69,8 @@ $ git push origin master
 
 &lt;p&gt;&lt;a href=&quot;http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/&quot; target=&quot;_blank&quot;&gt;http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/&lt;/a&gt;&lt;/p&gt;
 </description>
-                <link>http://enquistlab.github.io/2015/09/23/intro-to-git</link>
-                <guid>http://enquistlab.github.io/2015/09/23/intro-to-git</guid>
+                <link>http://enquistlab.github.io/git/2015/09/23/intro-to-git</link>
+                <guid>http://enquistlab.github.io/git/2015/09/23/intro-to-git</guid>
                 <pubDate>2015-09-23T00:00:00-07:00</pubDate>
         </item>
 
@@ -104,8 +104,8 @@ helloWorld.greeting()
 
 &lt;p&gt;Can you guess what this program will do when executed?&lt;/p&gt;
 </description>
-                <link>http://enquistlab.github.io/2015/09/23/hello-post</link>
-                <guid>http://enquistlab.github.io/2015/09/23/hello-post</guid>
+                <link>http://enquistlab.github.io/python/2015/09/23/hello-post</link>
+                <guid>http://enquistlab.github.io/python/2015/09/23/hello-post</guid>
                 <pubDate>2015-09-23T00:00:00-07:00</pubDate>
         </item>
 
@@ -127,8 +127,8 @@ helloWorld.greeting()
 
 &lt;/whatever&gt;&lt;/code&gt;&lt;/pre&gt;
 </description>
-                <link>http://enquistlab.github.io/2015/09/23/exampler</link>
-                <guid>http://enquistlab.github.io/2015/09/23/exampler</guid>
+                <link>http://enquistlab.github.io/r/2015/09/23/exampler</link>
+                <guid>http://enquistlab.github.io/r/2015/09/23/exampler</guid>
                 <pubDate>2015-09-23T00:00:00-07:00</pubDate>
         </item>
 

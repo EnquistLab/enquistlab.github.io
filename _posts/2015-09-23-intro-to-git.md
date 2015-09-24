@@ -2,8 +2,8 @@
 layout: post
 title: "Intro to Git"
 description: ""
-category: 
-tags: []
+category: Git 
+tags: [git]
 ---
 {% include JB/setup %}
 
