@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Mac GIS tools</title>
+    <meta name="description" content="">
+    <meta name="author" content="Enquist Lab">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/assets/themes/bootstrap/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!--[if lt IE 9]>
+      <script src="/assets/themes/bootstrap/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Enquist Lab</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      
+<div class="page-header">
+  <h1>Mac GIS tools </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-md-12">
+    <div class="date">
+      <span>08 October 2015</span>
+    </div>
+    <div class="content">
+      
+<h1 id="mac-gis-tools">Mac GIS Tools</h1>
+
+<p>This is documentation on how to configure your Mac system for GIS tools.</p>
+
+<h2 id="install-brewsh---the-missing-package-manager-for-os-x">Install brew.sh - the missing package manager for OS X</h2>
+
+<p><a href="http://brew.sh" target="_blank">http://brew.sh</a></p>
+
+<p>Homebrew installs the stuff you need that Apple didn’t.</p>
+
+<p>Follow the instructions. Requires termial:</p>
+
+<p><code>COMMAND + spacebar &gt; search 'terminal'</code></p>
+
+<p>Paste command:</p>
+
+<p><code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></p>
+
+<p>Confirm install:</p>
+
+<p><code>$ brew --help</code></p>
+
+<h2 id="easy-installations">Easy installations:</h2>
+
+<p>QGIS requires: Python2.7, GDAL, PROJ.4, NumPy, SciPy, Matplotlib</p>
+
+<p>Install the libraries/software in the order below.</p>
+
+<ul>
+  <li>To allow unrecognized developers/apps to be installed: CONTROL + CLICK on .pkg to open</li>
+</ul>
+
+<p>GDAL:</p>
+
+<ul>
+  <li><a href="http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-1.11.dmg" target="_blank">GDAL 1.11 Complete</a></li>
+</ul>
+
+<p>PROJ:</p>
+
+<ul>
+  <li><a href="http://www.kyngchaos.com/files/software/frameworks/PROJ_Framework-4.9.2-1.dmg" target="_blank">PROJ.4</a></li>
+</ul>
+
+<p>NumPy:</p>
+
+<p>Included on the GDAL Framework disk image.</p>
+
+<ul>
+  <li><a href="http://www.kyngchaos.com/files/software/python/NumPy-1.9.2-1.dmg" target="_blank">NumPy 1.9.2-1</a></li>
+  <li><a href="http://www.kyngchaos.com/files/software/python/NumPy-1.8.0-1.dmg" target="_blank">NumPy 1.8.0-1 (32+64bit, Snow Leopard+)</a></li>
+</ul>
+
+<p><strong>Matplotlib:</strong></p>
+
+<p>Requires: NumPy</p>
+
+<ul>
+  <li><a href="http://www.kyngchaos.com/files/software/python/matplotlib-1.4.3-1.dmg">matplotlib 1.4.3-1</a></li>
+</ul>
+
+<p><strong>QGIS:</strong></p>
+
+<ul>
+  <li><a href="http://www.kyngchaos.com/files/software/qgis/QGIS-2.10.1-1.dmg">QGIS 2.10.1-1</a></li>
+</ul>
+
+<h4 id="optional-python-modules">Optional Python modules:</h4>
+
+<p><strong>SciPy:</strong></p>
+
+<p>Requires: NumPy</p>
+
+<ul>
+  <li><a href="http://www.kyngchaos.com/files/software/python/SciPy-0.16.0-1.dmg" target="_blank">SciPy 0.16.0-1</a></li>
+  <li><a href="http://www.kyngchaos.com/files/software/python/SciPy-0.13.1-1.dmg" target="_blank">SciPy 0.13.1-1 (32+64bit, Snow Leopard+)</a></li>
+</ul>
+
+<p><strong>Python Imaging Library (PIL):</strong></p>
+
+<p>Requires: UnixImageIO, FreeType</p>
+
+<ul>
+  <li><a href="http://www.kyngchaos.com/files/software/python/PIL-1.1.7-4.dmg" target="_blank">PIL 1.1.7-4 (32+64bit, Snow Leopard+)</a></li>
+</ul>
+
+<p><strong>psycopg2:</strong></p>
+
+<p>PostgreSQL interface</p>
+
+<ul>
+  <li><a href="http://www.kyngchaos.com/files/software/python/Psycopg2-2.4.5-2.dmg">Psycopg2 2.4.5-2</a></li>
+</ul>
+
+<p><strong>RPy2:</strong></p>
+
+<p>Requires: R 3.1</p>
+
+<ul>
+  <li><a href="http://www.kyngchaos.com/files/software/python/RPy2-2.5.4-1.dmg">RPy2 2.5.4-1 for R 3.1</a></li>
+</ul>
+
+<p><strong>Pythoni Spatial Analysis Library (PySAL):</strong></p>
+
+<p>Requires: NumPy, SciPy</p>
+
+<p><code>$ sudo easy_install pysal</code></p>
+
+<h2 id="gdal-for-terminal">GDAL for terminal</h2>
+
+<p>This installation will allow command line access to GDAL for scripting geoprocessing and PostgreSQL support. BuildingOnMac documentation is located <a href="https://trac.osgeo.org/gdal/wiki/BuildingOnMac" target="_blank">here</a>.</p>
+
+<p>Open terminal:</p>
+
+<p><code>COMMAND + SPACEBAR &gt; search 'terminal'</code></p>
+
+<p>Install GDAL:</p>
+
+<p>This one will take some time.</p>
+
+<p><code>$ brew install gdal --with-unsupported --with-libkml --with-postgresql-9.4</code></p>
+
+<p>Confirm install:</p>
+
+<p><code>$ gdalinfo</code></p>
+
+
+    </div>
+
+    <!---->
+
+    <hr>
+
+    <!--
+
+    <hr>
+    -->
+
+    <ul class="pagination">
+      
+        <li class="prev"><a href="/2015/10/08/gis-101" title="GIS 101">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+    </ul>
+    <hr>
+    <!-- removed until sponsored ads are blocked/removed -->
+    <!--
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+-->
+  </div>
+</div>
+
+
+      <hr>
+      <footer>
+        <p>
+          &copy; 2015 Enquist Lab
+          <span class="pull-right text-muted">
+            powered by
+            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
+            and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap 3.0.3</a>
+          </span>
+        </p>
+      </footer>
+    </div>
+
+    
+
+    <script src="/assets/themes/bootstrap/resources/jquery/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap/resources/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

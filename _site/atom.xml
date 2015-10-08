@@ -4,13 +4,199 @@
  <title>Enquist Lab</title>
  <link href="http://enquistlab.github.io/" rel="self"/>
  <link href="http://enquistlab.github.io"/>
- <updated>2015-09-24T11:46:18-07:00</updated>
+ <updated>2015-10-08T07:01:46-07:00</updated>
  <id>http://enquistlab.github.io</id>
  <author>
    <name>Enquist Lab</name>
    <email>dguaderrama@email.arizona.edu</email>
  </author>
 
+ 
+ <entry>
+   <title>Mac GIS tools</title>
+   <link href="http://enquistlab.github.io/2015/10/08/mac-gis-tools"/>
+   <updated>2015-10-08T00:00:00-07:00</updated>
+   <id>http://enquistlab.github.io/2015/10/08/mac-gis-tools</id>
+   <content type="html">
+&lt;h1 id=&quot;mac-gis-tools&quot;&gt;Mac GIS Tools&lt;/h1&gt;
+
+&lt;p&gt;This is documentation on how to configure your Mac system for GIS tools.&lt;/p&gt;
+
+&lt;h2 id=&quot;install-brewsh---the-missing-package-manager-for-os-x&quot;&gt;Install brew.sh - the missing package manager for OS X&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://brew.sh&quot; target=&quot;_blank&quot;&gt;http://brew.sh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Homebrew installs the stuff you need that Apple didn’t.&lt;/p&gt;
+
+&lt;p&gt;Follow the instructions. Requires termial:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;COMMAND + spacebar &amp;gt; search &#39;terminal&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Paste command:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Confirm install:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ brew --help&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;easy-installations&quot;&gt;Easy installations:&lt;/h2&gt;
+
+&lt;p&gt;QGIS requires: Python2.7, GDAL, PROJ.4, NumPy, SciPy, Matplotlib&lt;/p&gt;
+
+&lt;p&gt;Install the libraries/software in the order below.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To allow unrecognized developers/apps to be installed: CONTROL + CLICK on .pkg to open&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;GDAL:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-1.11.dmg&quot; target=&quot;_blank&quot;&gt;GDAL 1.11 Complete&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PROJ:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/frameworks/PROJ_Framework-4.9.2-1.dmg&quot; target=&quot;_blank&quot;&gt;PROJ.4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;NumPy:&lt;/p&gt;
+
+&lt;p&gt;Included on the GDAL Framework disk image.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/python/NumPy-1.9.2-1.dmg&quot; target=&quot;_blank&quot;&gt;NumPy 1.9.2-1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/python/NumPy-1.8.0-1.dmg&quot; target=&quot;_blank&quot;&gt;NumPy 1.8.0-1 (32+64bit, Snow Leopard+)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Matplotlib:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Requires: NumPy&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/python/matplotlib-1.4.3-1.dmg&quot;&gt;matplotlib 1.4.3-1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QGIS:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/qgis/QGIS-2.10.1-1.dmg&quot;&gt;QGIS 2.10.1-1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;optional-python-modules&quot;&gt;Optional Python modules:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;SciPy:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Requires: NumPy&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/python/SciPy-0.16.0-1.dmg&quot; target=&quot;_blank&quot;&gt;SciPy 0.16.0-1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/python/SciPy-0.13.1-1.dmg&quot; target=&quot;_blank&quot;&gt;SciPy 0.13.1-1 (32+64bit, Snow Leopard+)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Python Imaging Library (PIL):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Requires: UnixImageIO, FreeType&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/python/PIL-1.1.7-4.dmg&quot; target=&quot;_blank&quot;&gt;PIL 1.1.7-4 (32+64bit, Snow Leopard+)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;psycopg2:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;PostgreSQL interface&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/python/Psycopg2-2.4.5-2.dmg&quot;&gt;Psycopg2 2.4.5-2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;RPy2:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Requires: R 3.1&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kyngchaos.com/files/software/python/RPy2-2.5.4-1.dmg&quot;&gt;RPy2 2.5.4-1 for R 3.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Pythoni Spatial Analysis Library (PySAL):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Requires: NumPy, SciPy&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ sudo easy_install pysal&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gdal-for-terminal&quot;&gt;GDAL for terminal&lt;/h2&gt;
+
+&lt;p&gt;This installation will allow command line access to GDAL for scripting geoprocessing and PostgreSQL support. BuildingOnMac documentation is located &lt;a href=&quot;https://trac.osgeo.org/gdal/wiki/BuildingOnMac&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Open terminal:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;COMMAND + SPACEBAR &amp;gt; search &#39;terminal&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Install GDAL:&lt;/p&gt;
+
+&lt;p&gt;This one will take some time.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ brew install gdal --with-unsupported --with-libkml --with-postgresql-9.4&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Confirm install:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ gdalinfo&lt;/code&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GIS 101</title>
+   <link href="http://enquistlab.github.io/2015/10/08/gis-101"/>
+   <updated>2015-10-08T00:00:00-07:00</updated>
+   <id>http://enquistlab.github.io/2015/10/08/gis-101</id>
+   <content type="html">
+&lt;h1 id=&quot;gis-basics&quot;&gt;GIS Basics&lt;/h1&gt;
+
+&lt;p&gt;This post will cover shapefiles, rasters, and WorldClim (.hdr) data. Be sure &lt;a href=&quot;http://www.qgis.org/en/site/&quot; target=&quot;_blank&quot;&gt;QGIS&lt;/a&gt; is installed. Mac users see &lt;a href=&quot;http://localhost:4000/2015/10/08/mac-gis-tools/&quot; target=&quot;_blank&quot;&gt;this post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;rasters&quot;&gt;Rasters&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open raster&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vectors-shapefiles&quot;&gt;Vectors (Shapefiles)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open shapefile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;create-shapefile-from-csv-includes-latlon&quot;&gt;Create shapefile from csv (includes lat/lon)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Assign Geographic Coordinate System (WGS84)&lt;/li&gt;
+  &lt;li&gt;reproject as needed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;worldclim&quot;&gt;WorldClim&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reference-systems&quot;&gt;Reference Systems&lt;/h3&gt;
+
+&lt;p&gt;See &lt;a href=&quot;http://spatialreference.org/&quot; target=&quot;_blank&quot;&gt;spatialreference.org&lt;/a&gt; for details of each projection.&lt;/p&gt;
+
+&lt;p&gt;Sir Nathan Casler’s explanation of reference system’s: &lt;a href=&quot;http://spatialcarpentry.github.io/basics/know%20the%20basics/projections/&quot; target=&quot;_blank&quot;&gt;SpatialCarpentry.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;raster&quot;&gt;Raster&lt;/h4&gt;
+
+&lt;p&gt;Standard global raster projection is plate carrée or known as the equidistant cylindrical projection.&lt;/p&gt;
+
+&lt;h4 id=&quot;vector&quot;&gt;Vector&lt;/h4&gt;
+
+&lt;p&gt;Web standard is EPSG:3857.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Intro to UNIX/Linux Shell</title>
