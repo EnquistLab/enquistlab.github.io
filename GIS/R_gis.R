@@ -100,3 +100,6 @@ for(i in 1:length(caecillians)){
   diversity_output<-diversity_output+rasterized_i
   plot(diversity_output) 
 }
+
+
+plot(getValues(diversity_output)~getValues(bioclim1))
