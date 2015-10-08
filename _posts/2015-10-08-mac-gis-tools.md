@@ -2,8 +2,8 @@
 layout: post
 title: "Mac GIS tools"
 description: ""
-category: 
-tags: []
+category: GIS
+tags: [mac,gis,tools,configuration]
 ---
 {% include JB/setup %}
 
