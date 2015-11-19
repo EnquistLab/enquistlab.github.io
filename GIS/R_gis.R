@@ -11,6 +11,7 @@ require(taxize)
 require(ape)
 require(Hmisc)
 require(maps)
+require(rgeos)
 #although I hate to do it this way, for the sake of this class, let's set our working directory:
 setwd("C:/Users/Brian/Desktop/BIEN_API_WORK/test_junk/enquistlab.github.io/GIS/")
 
