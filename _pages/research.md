@@ -7,9 +7,19 @@ nav: true
 nav_order: 2
 ---
 
-## Scaling from Cells to the Biosphere
+## Current Research Themes
 
-Our lab develops and tests theory to understand how biological scaling principles govern the structure, function, and diversity of life. We work across scales — from individual plant physiology to global biodiversity patterns — integrating theory, data, and computation.
+Our lab develops and tests theory to understand how biological scaling principles govern the structure, function, and diversity of life. We work across scales from individual plant physiology to global biodiversity patterns, integrating theory, data, and computation.
+
+Lab research is currently focused on the following areas:
+
+- Scaling in biology and allometry
+- Forecasting the fate of biodiversity and the biosphere
+- Trait-based ecology as a foundation for predictive ecology and biodiversity science
+- Biodiversity informatics
+- Macroecology of biodiversity gradients
+- Ecology and evolution of plant functional and physiological integration
+- Long-term monitoring of populations, ecological communities, and ecosystems in tropical, temperate, and alpine environments
 
 ---
 
@@ -50,6 +60,18 @@ We forecast how plant communities will respond to climate change using trait-bas
 - Trait-based range shift forecasting
 - Detecting signals of climate-driven community turnover in BIEN data
 - Assessing vulnerability of tropical and montane floras
+
+---
+
+### Collaborative Initiatives
+
+We actively collaborate with local and international initiatives that support field work, synthesis, and training for students, postdocs, and collaborators. These collaborations include biodiversity forecasting and conservation planning efforts, including SPARC and related protected-area prioritization projects.
+
+---
+
+### Long-Term Ecology
+
+Our long-term work integrates repeated forest censuses, elevational transects, and distributed plot networks to quantify demographic and compositional change through time and to improve ecological prediction.
 
 ---
 

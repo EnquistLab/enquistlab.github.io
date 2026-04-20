@@ -14,15 +14,69 @@ nav_order: 3
 
 ---
 
-## Current Lab Members
+## Postdoctoral Researchers
 
-*This page is being updated. Please check back soon for current graduate students, postdocs, and staff.*
-
-If you are interested in joining the lab, see the [Join Us]({{ '/join/' | relative_url }}) page.
+- Sandra Duran
+- Julia Chacon-Labella
+- Cesar Hinojo Hinojo
+- Teresa Bohner
+- Erica Newman (BBCS Postdoc)
+- Robbie Burger (BBCS Postdoc)
+- Xiao Feng (BBCS Postdoc)
 
 ---
 
-## Lab Alumni
+## Graduate Students
 
-The Enquist Lab has trained numerous graduate students and postdoctoral researchers who have gone on to faculty positions, research institutes, and conservation organizations worldwide. A full list of alumni will be posted here.
+- Adam Chmurzynski (PhD)
+- Brian Maitner (PhD)
+- Lorah Patterson (PhD)
+- Michiel Pillet (PhD)
+- Matiss Castorena Salaks (PhD)
+- Joceyln Navarro (PhD)
+- Lindsay Backhaus (MS)
+
+---
+
+## Visiting Graduate Students
+
+- Johanna Andrea Matinez Villa (Universite du Quebec a Montreal)
+- Ragnhild Gya (Norway)
+- Mia Vedel Sorensen (Norway)
+- Jehova Lourenco Junior (Brazil)
+- Yaoqi Li (Peking University)
+- Jiaxin Zhang (Chinese Academy of Sciences)
+
+---
+
+## Lab Team and Technical Staff
+
+- Christine Schirmer (Lab Manager)
+- Brad Boyle
+- Jeanine McGann
+- Anjeanette Mckay
+- Daniele Guaderrama
+- Nathan Castler
+- Amanda Henderson
+
+---
+
+## Undergraduate Researchers
+
+- Connor Wilson
+- Cecina Babich Morrow
+- Elisabeth Bergman
+- Kenji Hayashi
+
+---
+
+## Extended Lab Network
+
+Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente Graae, Deborah Goldberg, Jens-Christian Svenning, Yadvinder Malhi, Cory Merow, Henry Horn, Angelina Martinez-Yrizar, Ruben Milla, Choy Huang, Van Savage, Richard Strimbeck, and Vigdis Vandvik.
+
+---
+
+## Alumni
+
+Former postdocs include Noah Charney and Margaret Evans, along with many additional alumni now in academia, government, and non-profit science.
 

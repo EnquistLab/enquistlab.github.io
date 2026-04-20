@@ -7,9 +7,17 @@ nav: true
 nav_order: 7
 ---
 
-## Field Sites & Long-Term Research
+## Field Sites and Long-Term Research
 
-The Enquist Lab conducts field research at sites spanning tropical to boreal biomes, with a focus on understanding how plant traits, community composition, and ecosystem function vary across environmental gradients.
+The Enquist Lab works in many places around the globe, with core programs focused on long-term tropical forest dynamics, elevational transects, distributed Gentry-style forest plots, and international field training.
+
+---
+
+### San Emilio Forest Dynamics Plot (SEFDP), Costa Rica
+
+We organize a long-term tropical dry forest dynamics plot in Santa Rosa National Park, Area de Conservacion Guanacaste. This approximately 16 ha permanent plot is among the largest and longest-running tropical forest dynamics datasets in the New World and is now part of the ForestGEO network.
+
+Repeated censuses over multiple decades are used to quantify growth, recruitment, mortality, and compositional turnover.
 
 ---
 
@@ -33,9 +41,21 @@ A network of plant inventory plots across the Americas, used to document biodive
 
 ---
 
+### Gentry Plot Network
+
+We use distributed Gentry-style forest plots across latitude and elevation to evaluate macroecological gradients in forest structure, diversity, and functional composition.
+
+---
+
 ### Sonoran Desert & Sky Islands
 
 Local field sites in southern Arizona examining trait variation, phenology, and community responses to drought and temperature extremes.
+
+---
+
+### International Field Training
+
+Field training associated with plant functional trait courses and collaborative projects has included North America, Europe, and tropical systems in Central and South America.
 
 ---
 

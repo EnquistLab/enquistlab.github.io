@@ -9,6 +9,11 @@ nav_order: 6
 
 ## Software & Open Data
 
+Code and public tools associated with current and ongoing lab projects.
+
+- [Enquist Lab on GitHub](https://github.com/EnquistLab)
+- [BIEN](https://biendata.org/)
+
 ---
 
 ### BIEN R Package
@@ -33,6 +38,14 @@ sp <- BIEN_occurrence_species("Pinus ponderosa")
 The BIEN GeoSpatial portal provides web-based access to New World plant occurrence, range, and trait data with QA/QC, taxonomic harmonization, and geographic filtering.
 
 - **Portal:** [biendata.org](https://biendata.org/)
+
+---
+
+### APIs and Services
+
+- **Taxonomic Name Resolution Service (TNRS):** standardize plant scientific names, spelling variants, and synonyms
+- **Native Species Resolver (NSR):** determine whether records are native or introduced by political geography
+- **BIEN data access tools:** retrieval of occurrences, traits, and range products
 
 ---
 

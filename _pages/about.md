@@ -29,7 +29,7 @@ latest_posts:
   limit: 3
 ---
 
-I am a Professor in the [Department of Ecology & Evolutionary Biology](https://eeb.arizona.edu/) at the University of Arizona and an External Professor at the [Santa Fe Institute](https://www.santafe.edu/). My research spans macroecology, functional biology, and biodiversity science — with a focus on understanding how biological scaling principles, from cells to the biosphere, govern the structure, function, and diversity of life on Earth.
+I am a Professor in the [Department of Ecology & Evolutionary Biology](https://eeb.arizona.edu/) at the University of Arizona, an External Professor at the [Santa Fe Institute](https://www.santafe.edu/), and Co-director of the Bridging Biodiversity and Conservation Science group at the University of Arizona. My research spans macroecology, functional biology, and biodiversity science with a focus on understanding how biological scaling principles, from cells to the biosphere, govern the structure, function, and diversity of life on Earth.
 
 **Research themes:**
 
@@ -40,5 +40,7 @@ I am a Professor in the [Department of Ecology & Evolutionary Biology](https://e
 - **Open science** — developing the [BIEN R package](https://cran.r-project.org/package=BIEN) and contributing to [OpenTraits](https://opentraits.org/)
 
 My lab integrates theory, large-scale databases, remote sensing, and field experiments to link functional biology with macroecology. I collaborate across the biological, computational, and physical sciences.
+
+I am an elected Fellow of the American Association for the Advancement of Science (AAAS) and the Ecological Society of America (ESA).
 
 **Affiliations:** University of Arizona &bull; Santa Fe Institute &bull; BIEN Network &bull; OpenTraits Initiative

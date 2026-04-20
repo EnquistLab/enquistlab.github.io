@@ -95,6 +95,10 @@ giscus:
 disqus_shortname:
 
 external_sources:
+  - name: wordpress
+    rss_url: https://brianjenquist.wordpress.com/feed/
+    categories: [legacy-wordpress]
+    tags: [wordpress, archive]
 
 # -----------------------------------------------------------------------------
 # Newsletter
