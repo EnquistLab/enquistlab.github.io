@@ -163,7 +163,6 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
-  - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
@@ -254,7 +253,7 @@ external_links:
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 imagemagick:
-  enabled: true
+  enabled: false
   widths: [480, 800, 1400]
   input_directories:
     - assets/img/
