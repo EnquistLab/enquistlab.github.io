@@ -23,3 +23,8 @@ Outcome: Replaced template CV data with populated Brian Enquist CV content in re
 Prompt: Go through WordPress collaborators, field-sites-and-long-term-research, join-us, and people pages and use their information and pictures; resolve duplicate People tabs.
 Source session: VS Code Copilot Chat
 Outcome: Removed duplicate People nav conflict, refreshed People page wording and imagery, created a dedicated Collaborators page, and expanded Field Sites/Join pages with additional WordPress-imported images.
+
+5. Date: 2026-04-20
+Prompt: Implement the 5 recommended design and information architecture fixes (remove template nav pages, simplify nav ordering, add Contact and Press & Media pages, clean People details, and improve media accessibility/performance).
+Source session: VS Code Copilot Chat
+Outcome: Hid template nav pages from production menu, normalized nav order across key sections, created Contact and Press & Media pages, corrected People page wording/details, improved image alt text, and compressed largest media assets.

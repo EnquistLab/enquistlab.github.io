@@ -4,7 +4,7 @@ title: teaching
 permalink: /teaching/
 description: Courses, workshops, and training resources
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 ## Current and Recent Courses

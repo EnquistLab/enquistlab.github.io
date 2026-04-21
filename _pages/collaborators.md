@@ -26,7 +26,7 @@ Current collaborative themes include:
 
 SPARC is a collaboration involving Conservation International and international university partners to identify conservation priorities under current and future climates. The objective is to reduce extinction risk while sustaining ecosystem services.
 
-![SPARC planning map]({{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }})
+![SPARC map showing conservation priorities under climate change]({{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }})
 
 ---
 
@@ -34,7 +34,7 @@ SPARC is a collaboration involving Conservation International and international 
 
 Our lab collaborates across BIEN, OpenTraits, and partner groups to integrate taxonomy, occurrences, traits, and environmental layers for reproducible biodiversity forecasting.
 
-![Functional ecology collaboration diagram]({{ '/assets/img/wordpress/funcab_diagram.jpg' | relative_url }})
+![Diagram of functional biodiversity synthesis collaborations]({{ '/assets/img/wordpress/funcab_diagram.jpg' | relative_url }})
 
 ---
 
@@ -42,4 +42,4 @@ Our lab collaborates across BIEN, OpenTraits, and partner groups to integrate ta
 
 Collaborative field campaigns include tropical forest dynamics plots, elevational transects, and training-centered field programs that pair long-term monitoring with quantitative synthesis.
 
-![Collaborative fieldwork team]({{ '/assets/img/wordpress/dsc_2963.jpg' | relative_url }})
+![Collaborative field team during tropical research campaign]({{ '/assets/img/wordpress/dsc_2963.jpg' | relative_url }})

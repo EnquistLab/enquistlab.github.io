@@ -35,17 +35,17 @@ nav_order: 3
 - Lorah Patterson (PhD)
 - Michiel Pillet (PhD)
 - Matiss Castorena Salaks (PhD)
-- Joceyln Navarro (PhD)
+- Jocelyn Navarro (PhD)
 - Lindsay Backhaus (MS)
 
 ---
 
 ## Visiting Graduate Students
 
-- Johanna Andrea Matinez Villa (Universite du Quebec a Montreal)
+- Johanna Andrea Martinez Villa (Universite du Quebec a Montreal)
 - Ragnhild Gya (Norway)
 - Mia Vedel Sorensen (Norway)
-- Jehova Lourenco Junior (Brazil)
+- Jeova Lourenco Junior (Brazil)
 - Yaoqi Li (Peking University)
 - Jiaxin Zhang (Chinese Academy of Sciences)
 
@@ -82,7 +82,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 
 Former postdocs include Noah Charney and Margaret Evans, along with many additional alumni now in academia, government, and non-profit science.
 
-![Lab and field team at work]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
+![Lab team portrait from collaborative field program]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
 
-![Field team at Rocky Mountain Biological Laboratory]({{ '/assets/img/wordpress/dsc_5672.jpg' | relative_url }})
+![Field team at Rocky Mountain Biological Laboratory transect site]({{ '/assets/img/wordpress/dsc_5672.jpg' | relative_url }})
 

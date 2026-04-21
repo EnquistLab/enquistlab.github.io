@@ -4,7 +4,7 @@ title: join us
 permalink: /join/
 description: Opportunities to join the Enquist Macroecology Lab
 nav: true
-nav_order: 8
+nav_order: 10
 ---
 
 ## Join the Lab
@@ -48,7 +48,7 @@ UA undergraduates interested in research in macroecology, bioinformatics, or dat
 
 We welcome international visiting students and researchers. Contact Brian directly to discuss potential collaborations and funding sources.
 
-![Lab meeting and field mentorship culture]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
+![Lab group field meeting and mentorship setting]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
 
-![University of Arizona and Tucson context]({{ '/assets/img/wordpress/downtown.jpg' | relative_url }})
+![Tucson campus and city context for prospective lab members]({{ '/assets/img/wordpress/downtown.jpg' | relative_url }})
 

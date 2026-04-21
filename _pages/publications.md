@@ -11,7 +11,7 @@ nav_order: 4
 
 - [Google Scholar profile](https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en)
 - [ResearchGate profile](https://www.researchgate.net/profile/Brian-Enquist)
-- CV available upon request or via profile links above.
+- Full CV: [View the CV page]({{ '/cv/' | relative_url }})
 
 ---
 

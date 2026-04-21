@@ -4,7 +4,7 @@ title: field sites
 permalink: /field-sites/
 description: Long-term research sites and field programs
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 
 ## Field Sites and Long-Term Research
@@ -61,9 +61,9 @@ Field training associated with plant functional trait courses and collaborative 
 
 *For access to data from these sites, contact the lab or visit [biendata.org](https://biendata.org/).*
 
-![RMBL ridge landscape]({{ '/assets/img/wordpress/avery-ridge.jpg' | relative_url }})
+![Avery Peak landscape near RMBL field sites]({{ '/assets/img/wordpress/avery-ridge.jpg' | relative_url }})
 
-![Tropical station context]({{ '/assets/img/wordpress/bci-station.jpg' | relative_url }})
+![Tropical forest field station context]({{ '/assets/img/wordpress/bci-station.jpg' | relative_url }})
 
-![Field access and sampling map]({{ '/assets/img/wordpress/bci-trail-map.jpg' | relative_url }})
+![Trail map used for tropical field sampling logistics]({{ '/assets/img/wordpress/bci-trail-map.jpg' | relative_url }})
 
