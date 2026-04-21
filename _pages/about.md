@@ -31,7 +31,9 @@ latest_posts:
 
 ## Predictive Biodiversity Science Across Scales
 
-We build quantitative frameworks that connect organismal form and function with community, ecosystem, and biogeographic patterns.
+We live in a world of unprecedented rapid climate and land use change. A central goal of ecology and evolutionary biology is to understand the origin, maintenance, and fate of organismal form, function, and diversity — and then to predict how these processes scale up to influence the functioning of ecosystems and the biosphere.
+
+The Macroecology Lab is an international network of broadly trained ecologists, botanists, physiologists, evolutionary biologists, macroecologists, and informaticians. We seek to discover general processes of how organisms (mainly plants, though we often stray into other systems) work and interact with each other and their environment. Our shared goal is to synthesize and build a more predictive biodiversity science. We work in tropical and temperate forests and high alpine ecosystems, using combinations of theoretical, computational, informatics, biophysical, trait-based, physiological, and ecophysiological approaches.
 
 [Explore Research]({{ '/research/' | relative_url }}){: .btn .btn-sm .z-depth-0 role="button"}
 [View Publications]({{ '/publications/' | relative_url }}){: .btn .btn-sm .z-depth-0 role="button"}
