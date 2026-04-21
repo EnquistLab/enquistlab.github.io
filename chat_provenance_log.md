@@ -18,3 +18,8 @@ Outcome: Rewrote core page copy for cleaner style, imported selected WordPress i
 Prompt: do a dedicated CV pass next and fully populate
 Source session: VS Code Copilot Chat
 Outcome: Replaced template CV data with populated Brian Enquist CV content in rendercv format, including appointments, education, honors, editorial roles, profile links, and selected recent publications; updated CV page metadata and CV document link.
+
+4. Date: 2026-04-20
+Prompt: Go through WordPress collaborators, field-sites-and-long-term-research, join-us, and people pages and use their information and pictures; resolve duplicate People tabs.
+Source session: VS Code Copilot Chat
+Outcome: Removed duplicate People nav conflict, refreshed People page wording and imagery, created a dedicated Collaborators page, and expanded Field Sites/Join pages with additional WordPress-imported images.

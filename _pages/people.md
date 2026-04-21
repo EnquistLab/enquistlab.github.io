@@ -12,6 +12,8 @@ nav_order: 3
 **Brian J. Enquist** - Professor, Department of Ecology and Evolutionary Biology, University of Arizona; External Professor, Santa Fe Institute.
 [Google Scholar](https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en) | [GitHub](https://github.com/bjenquist) | [Email](mailto:benquist@arizona.edu)
 
+"If you want to build a ship, do not drum up people to collect wood and assign tasks, but rather teach them to long for the endless immensity of the sea." - Antoine de Saint-Exupery
+
 ---
 
 ## Postdoctoral Researchers
@@ -65,8 +67,8 @@ nav_order: 3
 
 - Connor Wilson
 - Cecina Babich Morrow
-- Elisabeth Bergman
-- Kenji Hayashi
+- Elisabeth Bergman (University of Arizona, honors project)
+- Kenji Hayashi (Brown University, honors project)
 
 ---
 
@@ -81,4 +83,6 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 Former postdocs include Noah Charney and Margaret Evans, along with many additional alumni now in academia, government, and non-profit science.
 
 ![Lab and field team at work]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
+
+![Field team at Rocky Mountain Biological Laboratory]({{ '/assets/img/wordpress/dsc_5672.jpg' | relative_url }})
 

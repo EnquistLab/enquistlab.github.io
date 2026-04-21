@@ -65,3 +65,5 @@ Field training associated with plant functional trait courses and collaborative 
 
 ![Tropical station context]({{ '/assets/img/wordpress/bci-station.jpg' | relative_url }})
 
+![Field access and sampling map]({{ '/assets/img/wordpress/bci-trail-map.jpg' | relative_url }})
+

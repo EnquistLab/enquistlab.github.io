@@ -50,3 +50,5 @@ We welcome international visiting students and researchers. Contact Brian direct
 
 ![Lab meeting and field mentorship culture]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
 
+![University of Arizona and Tucson context]({{ '/assets/img/wordpress/downtown.jpg' | relative_url }})
+
