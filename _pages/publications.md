@@ -27,3 +27,11 @@ The bibliography below is rendered from the site BibTeX database and can be expa
 {% bibliography %}
 
 </div>
+
+---
+
+## Complete Publication List
+
+The list below is synchronized from the shared Google Doc CV/publications source and includes the full peer-reviewed publication record.
+
+{% include publications_full_from_doc.md %}
