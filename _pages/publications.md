@@ -19,11 +19,59 @@ nav_order: 5
 
 Use the search box to filter the complete publication list below.
 
+<input
+	type="text"
+	id="fullpubsearch"
+	spellcheck="false"
+	autocomplete="off"
+	class="search bibsearch-form-input"
+	placeholder="Type to filter complete publication list"
+>
 
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
+<div id="full-publication-list">
+{% include publications_full_from_doc.md %}
 </div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		const input = document.getElementById('fullpubsearch');
+		const container = document.getElementById('full-publication-list');
+		if (!input || !container) return;
+
+		const yearHeaders = Array.from(container.querySelectorAll('h3'));
+
+		function applyFilter() {
+			const query = input.value.trim().toLowerCase();
+
+			yearHeaders.forEach((header) => {
+				let node = header.nextElementSibling;
+				let visibleCount = 0;
+				while (node && node.tagName !== 'H3') {
+					if (node.tagName === 'UL') {
+						const items = Array.from(node.querySelectorAll('li'));
+						items.forEach((li) => {
+							const text = li.textContent.toLowerCase();
+							const match = query === '' || text.includes(query);
+							li.style.display = match ? '' : 'none';
+							if (match) visibleCount += 1;
+						});
+					}
+					node = node.nextElementSibling;
+				}
+
+				const showYear = visibleCount > 0 || query === '';
+				header.style.display = showYear ? '' : 'none';
+
+				node = header.nextElementSibling;
+				while (node && node.tagName !== 'H3') {
+					if (node.tagName === 'UL') {
+						node.style.display = showYear ? '' : 'none';
+					}
+					node = node.nextElementSibling;
+				}
+			});
+		}
+
+		input.addEventListener('input', applyFilter);
+	});
+</script>
