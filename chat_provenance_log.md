@@ -43,3 +43,8 @@ Outcome: Removed duplicate Home tab by disabling Home page nav flag (header alre
 Prompt: https://docs.google.com/document/d/1OMolpDfY6c73qRgUFgYh0XbMS8EykUoy_hvrI8fnTn0/edit?usp=sharing
 Source session: VS Code Copilot Chat
 Outcome: Successfully accessed Google Doc export, extracted the full peer-reviewed publication section (332 entries), generated a markdown include, and embedded it on the publications page under a complete publication list section.
+
+9. Date: 2026-04-21
+Prompt: yes for https://enquistlab.github.io/publications/ do a cleanup pass to de-duplicate a few repeated entries and normalize formatting in the long list.
+Source session: VS Code Copilot Chat
+Outcome: Rebuilt the imported publication include from source text, removed confirmed duplicate entries, corrected malformed repeated title text, and normalized list formatting to one citation per bullet line.
