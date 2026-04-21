@@ -38,3 +38,8 @@ Outcome: Completed final QA sweep across public pages, corrected remaining Peopl
 Prompt: Good. But there are TWO Home tabs.. Also, the publications tab needs all publications from a provided Google Doc; can you access this Google Doc?
 Source session: VS Code Copilot Chat
 Outcome: Removed duplicate Home tab by disabling Home page nav flag (header already renders Home explicitly); verified Google Doc is not accessible from this environment due sign-in requirement and requested a shareable export/public link for full publication ingestion.
+
+8. Date: 2026-04-21
+Prompt: https://docs.google.com/document/d/1OMolpDfY6c73qRgUFgYh0XbMS8EykUoy_hvrI8fnTn0/edit?usp=sharing
+Source session: VS Code Copilot Chat
+Outcome: Successfully accessed Google Doc export, extracted the full peer-reviewed publication section (332 entries), generated a markdown include, and embedded it on the publications page under a complete publication list section.
