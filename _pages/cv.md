@@ -4,9 +4,9 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: https://docs.google.com/document/d/1OMolpDfY6c73qRgUFgYh0XbMS8EykUoy_hvrI8fnTn0/edit
+cv_format: rendercv
+description: Curriculum vitae for Brian J. Enquist, including appointments, education, honors, editorial roles, and selected publications.
 toc:
   sidebar: left
 ---

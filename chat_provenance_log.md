@@ -13,3 +13,8 @@ Outcome: Migrated core content from legacy WordPress pages into al-folio pages (
 Prompt: yes, do a second pass to clean typography and formatting from the WordPress-imported text so each page reads more polished and less archive-like. also import pictures etc
 Source session: VS Code Copilot Chat
 Outcome: Rewrote core page copy for cleaner style, imported selected WordPress images into assets/img/wordpress, and embedded images across About, Research, People, Teaching, Field Sites, Join, and Software pages.
+
+3. Date: 2026-04-20
+Prompt: do a dedicated CV pass next and fully populate
+Source session: VS Code Copilot Chat
+Outcome: Replaced template CV data with populated Brian Enquist CV content in rendercv format, including appointments, education, honors, editorial roles, profile links, and selected recent publications; updated CV page metadata and CV document link.
