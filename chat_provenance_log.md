@@ -33,3 +33,8 @@ Outcome: Hid template nav pages from production menu, normalized nav order acros
 Prompt: Final content QA pass page-by-page.
 Source session: VS Code Copilot Chat
 Outcome: Completed final QA sweep across public pages, corrected remaining People details, upgraded remaining external links to HTTPS where available, and refined Field Sites wording for clarity.
+
+7. Date: 2026-04-21
+Prompt: Good. But there are TWO Home tabs.. Also, the publications tab needs all publications from a provided Google Doc; can you access this Google Doc?
+Source session: VS Code Copilot Chat
+Outcome: Removed duplicate Home tab by disabling Home page nav flag (header already renders Home explicitly); verified Google Doc is not accessible from this environment due sign-in requirement and requested a shareable export/public link for full publication ingestion.
