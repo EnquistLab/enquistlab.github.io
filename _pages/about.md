@@ -1,19 +1,20 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
+nav: true
+nav_order: 2
 subtitle: >
   Professor of Ecology & Evolutionary Biology, <a href="https://eeb.arizona.edu/" target="_blank">University of Arizona</a> |
   External Professor, <a href="https://www.santafe.edu/" target="_blank">Santa Fe Institute</a>
+
+header_image: /assets/img/field/field_opening.jpeg
+header_image_alt: "Field research — forest dynamics plot survey, Costa Rica"
 
 profile:
   align: right
   image: wordpress/brian-enquist-feb2020-020.jpg
   image_circular: false
-  more_info: >
-    <p>Room 310, Biological Sciences West</p>
-    <p>1041 E. Lowell St., Tucson, AZ 85721</p>
-    <p>&#128222; (520) 626-3336</p>
 
 selected_papers: true
 social: true
@@ -29,9 +30,7 @@ latest_posts:
   limit: 2
 ---
 
-<div class="hero-photo">
-  <img src="{{ "/assets/img/field/field_opening.jpeg" | relative_url }}" alt="Field research opening — forest dynamics plot survey" loading="eager">
-</div>
+---
 
 ## Predictive Biodiversity Science Across Scales
 
@@ -94,3 +93,11 @@ I am an elected Fellow of the American Association for the Advancement of Scienc
 ![Field research and synthesis work across systems]({{ '/assets/img/wordpress/brian-enquist-feb2020-088.jpg' | relative_url }})
 
 For opportunities to work with the lab, see [Join Us]({{ '/join/' | relative_url }}).
+
+---
+
+**Enquist Macroecology Lab**  
+Department of Ecology and Evolutionary Biology  
+Room 310, Biological Sciences West  
+1041 E. Lowell St., Tucson, AZ 85721  
+&#128222; (520) 626-3336 · [benquist@arizona.edu](mailto:benquist@arizona.edu)

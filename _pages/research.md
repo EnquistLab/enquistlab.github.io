@@ -4,7 +4,7 @@ title: research
 permalink: /research/
 description: Current research themes and projects in the Enquist Macroecology Lab
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 ## Research Program

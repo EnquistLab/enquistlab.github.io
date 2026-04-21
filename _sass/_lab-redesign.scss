@@ -83,6 +83,11 @@ h6,
     object-position: center 40%;
     display: block;
   }
+
+  // When injected by the about.liquid layout — bleeds above post padding
+  &--page {
+    margin-top: -2rem;
+  }
 }
 
 // Wide editorial story image — single site/section accent
@@ -158,5 +163,150 @@ h6,
 
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
+  }
+}
+
+// ── Home landing page ──────────────────────────────────────────────────────
+
+// Hero with text overlay
+.hero-home {
+  position: relative;
+
+  &__overlay {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2rem;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.55);
+  }
+
+  &__title {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 600;
+    margin: 0 0 0.2rem;
+    letter-spacing: 0.02em;
+    color: #fff;
+  }
+
+  &__sub {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    font-weight: 400;
+    margin: 0;
+    opacity: 0.92;
+    color: #fff;
+  }
+}
+
+// Mission statement
+.home-mission {
+  text-align: center;
+  max-width: 56ch;
+  margin: 2.5rem auto 3rem;
+
+  p {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: clamp(1.05rem, 2vw, 1.25rem);
+    line-height: 1.7;
+    color: var(--global-text-color);
+    max-width: 56ch;
+  }
+}
+
+// Card grid
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 3rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.home-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__img {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__body {
+    padding: 1rem 1.1rem 1.15rem;
+
+    h3 {
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 0 0 0.3rem;
+      color: var(--global-theme-color);
+    }
+
+    p {
+      font-family: "Source Sans 3", sans-serif;
+      font-size: 0.88rem;
+      color: var(--global-text-color-light);
+      margin: 0;
+      max-width: none;
+      line-height: 1.5;
+    }
+  }
+}
+
+// ── Team page ──────────────────────────────────────────────────────────────
+
+.team-pi {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+
+  &__photo {
+    width: 160px;
+    min-width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 4px;
+    border: 1px solid var(--global-divider-color);
+  }
+
+  &__bio {
+    h3 { margin-top: 0; }
+    blockquote {
+      border-left: 3px solid var(--global-theme-color);
+      margin: 0.75rem 0 0;
+      padding: 0.4rem 1rem;
+      font-style: italic;
+      color: var(--global-text-color-light);
+      font-size: 0.92rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    &__photo { width: 100%; min-width: unset; height: 220px; }
   }
 }

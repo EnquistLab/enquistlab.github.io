@@ -2,6 +2,12 @@
 layout: default
 ---
 <div class="post">
+  {% if page.header_image %}
+    <div class="hero-photo hero-photo--page">
+      <img src="{{ page.header_image | relative_url }}" alt="{{ page.header_image_alt | default: 'Lab field work' }}" loading="eager">
+    </div>
+  {% endif %}
+
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
