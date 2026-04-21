@@ -1,10 +1,10 @@
 ---
 layout: page
-title: software & data
+title: resources
 permalink: /software/
 description: Open-source tools and databases from the Enquist Lab
 nav: true
-nav_order: 7
+nav_order: 5
 ---
 
 ## Software & Open Data
@@ -13,6 +13,13 @@ Code and public tools associated with current and ongoing lab projects.
 
 - [Enquist Lab on GitHub](https://github.com/EnquistLab)
 - [BIEN](https://biendata.org/)
+
+### Additional Lab Resources
+
+- [Teaching and training]({{ '/teaching/' | relative_url }})
+- [News archive]({{ '/news/' | relative_url }})
+- [Blog]({{ '/blog/' | relative_url }})
+- [Press and media]({{ '/press-media/' | relative_url }})
 
 ---
 

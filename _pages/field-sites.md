@@ -3,8 +3,7 @@ layout: page
 title: field sites
 permalink: /field-sites/
 description: Long-term research sites and field programs
-nav: true
-nav_order: 8
+nav: false
 ---
 
 ## Field Sites and Long-Term Research

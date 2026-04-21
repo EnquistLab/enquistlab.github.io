@@ -1,0 +1,64 @@
+@use "variables" as v;
+
+:root {
+  --global-bg-color: #f7f6f2;
+  --global-text-color: #1e2a2f;
+  --global-text-color-light: #4c5b61;
+  --global-theme-color: #1f5a44;
+  --global-hover-color: #2e7c84;
+  --global-divider-color: #d9d6cd;
+  --global-card-bg-color: #fefdfb;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #6ab79d;
+  --global-hover-color: #7fc5cc;
+}
+
+body {
+  font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.post-header .post-title {
+  font-family: "Source Serif 4", Georgia, serif;
+  letter-spacing: 0.01em;
+}
+
+.post-title {
+  margin-bottom: 0.65rem;
+}
+
+.post .post-header .desc {
+  color: var(--global-text-color-light);
+  max-width: 48rem;
+}
+
+.post p,
+.post li {
+  max-width: 68ch;
+}
+
+.post hr {
+  margin: 1.5rem 0;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.btn {
+  border-color: var(--global-theme-color);
+}
+
+.btn:hover {
+  border-color: var(--global-hover-color);
+}

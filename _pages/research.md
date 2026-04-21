@@ -11,6 +11,8 @@ nav_order: 2
 
 Our lab develops theory and data-driven tools to explain how biodiversity is organized across scales, and how it is changing under climate and land-use pressure.
 
+We organize our work as a connected process: observations and traits -> scaling and trait-based theory -> predictive models -> uncertainty-aware ecological forecasting.
+
 Current themes include:
 
 - Scaling in biology and allometry
@@ -61,17 +63,23 @@ We forecast how plant communities may respond to climate change using trait-base
 - Detecting signals of climate-driven community turnover in BIEN data
 - Assessing vulnerability of tropical and montane floras
 
+**Uncertainty and transferability:** We report assumptions, data coverage limits, and scenario sensitivity when projecting biodiversity responses across regions and time.
+
 ---
 
 ### Collaborative Initiatives
 
 We actively collaborate with local and international initiatives that support field work, synthesis, and training for students, postdocs, and collaborators. These collaborations include biodiversity forecasting and conservation planning efforts, including SPARC and related protected-area prioritization projects.
 
+See [collaborators]({{ '/collaborators/' | relative_url }}) for examples.
+
 ---
 
 ### Long-Term Ecology
 
 Our long-term work integrates repeated forest censuses, elevational transects, and distributed plot networks to quantify demographic and compositional change through time and to improve ecological prediction.
+
+See [field sites]({{ '/field-sites/' | relative_url }}) for site details.
 
 ![SPARC biodiversity planning map]({{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }})
 

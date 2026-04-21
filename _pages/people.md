@@ -1,6 +1,6 @@
 ---
 layout: page
-title: people
+title: team
 permalink: /people/
 description: Members and alumni of the Enquist Macroecology Lab
 nav: true

@@ -3,8 +3,7 @@ layout: page
 title: collaborators
 permalink: /collaborators/
 description: Major research collaborations and initiatives
-nav: true
-nav_order: 9
+nav: false
 ---
 
 ## Collaborations and Initiatives

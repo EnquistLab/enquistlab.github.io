@@ -3,8 +3,7 @@ layout: page
 title: teaching
 permalink: /teaching/
 description: Courses, workshops, and training resources
-nav: true
-nav_order: 6
+nav: false
 ---
 
 ## Current and Recent Courses

@@ -3,8 +3,7 @@ layout: page
 title: press & media
 permalink: /press-media/
 description: Press features, invited talks, and public-facing resources
-nav: true
-nav_order: 13
+nav: false
 ---
 
 ## Press and Media

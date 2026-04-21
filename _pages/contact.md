@@ -4,7 +4,7 @@ title: contact
 permalink: /contact/
 description: Contact information for the Enquist Lab
 nav: true
-nav_order: 12
+nav_order: 7
 ---
 
 ## Contact
