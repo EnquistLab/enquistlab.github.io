@@ -9,7 +9,7 @@ nav_order: 3
 
 ## Principal Investigator
 
-**Brian J. Enquist** — Professor, Department of Ecology & Evolutionary Biology, University of Arizona; External Professor, Santa Fe Institute.
+**Brian J. Enquist** - Professor, Department of Ecology and Evolutionary Biology, University of Arizona; External Professor, Santa Fe Institute.
 [Google Scholar](https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en) | [GitHub](https://github.com/bjenquist) | [Email](mailto:benquist@arizona.edu)
 
 ---
@@ -79,4 +79,6 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 ## Alumni
 
 Former postdocs include Noah Charney and Margaret Evans, along with many additional alumni now in academia, government, and non-profit science.
+
+![Lab and field team at work]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
 

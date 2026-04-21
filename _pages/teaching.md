@@ -2,7 +2,7 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: Courses taught by Brian J. Enquist at the University of Arizona
+description: Courses, workshops, and training resources
 nav: true
 nav_order: 5
 ---
@@ -10,7 +10,7 @@ nav_order: 5
 ## Current and Recent Courses
 
 - **ECOL 340**: Evolution of Plant Form, Function, and Diversity
-- **ECOL 596x**: EEB R Workshops for PhD students and postdocs
+- **ECOL 596x**: EEB R workshops for PhD students and postdocs
 - **ECOL 586**: Biological Scaling and Macroscopic Processes
 - **ECOL 596W**: New Methods in Trait-based Ecology and Evolution
 - **ECOL 600**: Ecology and Evolution Core Class
@@ -19,7 +19,7 @@ nav_order: 5
 
 ## Courses at the University of Arizona
 
-### ECOL 586 — Biological Scaling
+### ECOL 586 - Biological Scaling
 A graduate seminar tracing the theoretical and empirical foundations of biological scaling from cells to ecosystems. Topics include metabolic theory, allometric relationships, and macroecological patterns.
 
 [Course blog](http://ecol586.wordpress.com/)
@@ -28,7 +28,7 @@ A graduate seminar tracing the theoretical and empirical foundations of biologic
 
 ### Plant Functional Traits Courses
 
-Prof. Enquist has co-organized and taught in several international Plant Functional Traits Courses held in Norway (PFTC 1–5), providing hands-on training in trait measurement, data synthesis, and trait-based theory.
+Prof. Enquist has co-organized and taught in several international Plant Functional Traits Courses held in Norway (PFTC 1-5), providing hands-on training in trait measurement, data synthesis, and trait-based theory.
 
 ---
 
@@ -59,4 +59,6 @@ Prof. Enquist has co-organized and taught in several international Plant Functio
 - [BIEN R package vignettes](https://cran.r-project.org/package=BIEN)
 - [OpenTraits data standards](https://opentraits.org/)
 - ECOL 586 lecture archive on the course blog
+
+![Field-based training in plant functional ecology]({{ '/assets/img/wordpress/img_5586.jpeg' | relative_url }})
 

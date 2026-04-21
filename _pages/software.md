@@ -18,7 +18,7 @@ Code and public tools associated with current and ongoing lab projects.
 
 ### BIEN R Package
 
-The `BIEN` R package provides programmatic access to the Botanical Information and Ecology Network database — including occurrence records, trait data, species range maps, and plot data for >170,000 plant species in the Western Hemisphere.
+The `BIEN` R package provides programmatic access to the Botanical Information and Ecology Network database, including occurrence records, trait data, species range maps, and plot data for New World plants.
 
 - **CRAN:** [BIEN on CRAN](https://cran.r-project.org/package=BIEN)
 - **GitHub:** [EnquistLab/BIEN](https://github.com/EnquistLab/BIEN)
@@ -38,6 +38,8 @@ sp <- BIEN_occurrence_species("Pinus ponderosa")
 The BIEN GeoSpatial portal provides web-based access to New World plant occurrence, range, and trait data with QA/QC, taxonomic harmonization, and geographic filtering.
 
 - **Portal:** [biendata.org](https://biendata.org/)
+
+![BIEN network logo]({{ '/assets/img/wordpress/bien_logo_notext-1.png' | relative_url }})
 
 ---
 

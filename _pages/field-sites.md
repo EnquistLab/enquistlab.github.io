@@ -9,7 +9,7 @@ nav_order: 7
 
 ## Field Sites and Long-Term Research
 
-The Enquist Lab works in many places around the globe, with core programs focused on long-term tropical forest dynamics, elevational transects, distributed Gentry-style forest plots, and international field training.
+The Enquist Lab works across tropical, temperate, and montane systems, with a focus on long-term ecological change and comparative field design.
 
 ---
 
@@ -23,7 +23,7 @@ Repeated censuses over multiple decades are used to quantify growth, recruitment
 
 ### Rocky Mountain Biological Laboratory (RMBL)
 
-Gothic, Colorado — long-term research on plant community responses to climate change in subalpine meadows.
+Gothic, Colorado: long-term research on plant community responses to climate change in subalpine systems.
 
 [RMBL website](https://www.rmbl.org/)
 
@@ -60,4 +60,8 @@ Field training associated with plant functional trait courses and collaborative 
 ---
 
 *For access to data from these sites, contact the lab or visit [biendata.org](https://biendata.org/).*
+
+![RMBL ridge landscape]({{ '/assets/img/wordpress/avery-ridge.jpg' | relative_url }})
+
+![Tropical station context]({{ '/assets/img/wordpress/bci-station.jpg' | relative_url }})
 

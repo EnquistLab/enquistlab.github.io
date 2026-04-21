@@ -8,7 +8,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: wordpress/brian-enquist-feb2020-020.jpg
   image_circular: false
   more_info: >
     <p>Room 310, Biological Sciences West</p>
@@ -29,18 +29,20 @@ latest_posts:
   limit: 3
 ---
 
-I am a Professor in the [Department of Ecology & Evolutionary Biology](https://eeb.arizona.edu/) at the University of Arizona, an External Professor at the [Santa Fe Institute](https://www.santafe.edu/), and Co-director of the Bridging Biodiversity and Conservation Science group at the University of Arizona. My research spans macroecology, functional biology, and biodiversity science with a focus on understanding how biological scaling principles, from cells to the biosphere, govern the structure, function, and diversity of life on Earth.
+I am a Professor in the [Department of Ecology and Evolutionary Biology](https://eeb.arizona.edu/) at the University of Arizona, an External Professor at the [Santa Fe Institute](https://www.santafe.edu/), and Co-director of the Bridging Biodiversity and Conservation Science group.
 
-**Research themes:**
+My lab develops quantitative and predictive frameworks that connect organismal form and function with community, ecosystem, and biogeographic patterns. We combine field ecology, theory, synthesis databases, and computational methods to study biodiversity across scales.
 
-- **Metabolic and allometric scaling** — developing and testing theory linking organismal physiology to ecosystem-level patterns
-- **Trait-based ecology** — using plant functional traits to predict community and ecosystem responses to global change ([Trait Driver Theory](https://www.nature.com/articles/s41477-019-0506-6))
-- **Biodiversity informatics** — co-leading the [BIEN project](https://biendata.org/) (Botanical Information and Ecology Network), one of the largest databases of New World plant distributions and traits
-- **Global change biology** — forecasting range shifts, trait shifts, and community turnover under climate change
-- **Open science** — developing the [BIEN R package](https://cran.r-project.org/package=BIEN) and contributing to [OpenTraits](https://opentraits.org/)
+## Research Focus
 
-My lab integrates theory, large-scale databases, remote sensing, and field experiments to link functional biology with macroecology. I collaborate across the biological, computational, and physical sciences.
+- Metabolic and allometric scaling
+- Trait-based ecology and Trait Driver Theory
+- Biodiversity informatics and data integration
+- Global change biology and forecasting
+- Open and reproducible ecological science
 
 I am an elected Fellow of the American Association for the Advancement of Science (AAAS) and the Ecological Society of America (ESA).
 
-**Affiliations:** University of Arizona &bull; Santa Fe Institute &bull; BIEN Network &bull; OpenTraits Initiative
+![Field research and synthesis work across systems]({{ '/assets/img/wordpress/brian-enquist-feb2020-088.jpg' | relative_url }})
+
+Affiliations: University of Arizona | Santa Fe Institute | BIEN Network | OpenTraits Initiative

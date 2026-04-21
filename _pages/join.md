@@ -9,7 +9,7 @@ nav_order: 8
 
 ## Join the Lab
 
-The Enquist Lab welcomes motivated students and researchers interested in macroecology, functional biology, biodiversity informatics, and global change biology.
+The Enquist Lab welcomes students and researchers interested in macroecology, functional biology, biodiversity informatics, and global change biology.
 
 ---
 
@@ -47,4 +47,6 @@ UA undergraduates interested in research in macroecology, bioinformatics, or dat
 ### Visiting Researchers
 
 We welcome international visiting students and researchers. Contact Brian directly to discuss potential collaborations and funding sources.
+
+![Lab meeting and field mentorship culture]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
 
