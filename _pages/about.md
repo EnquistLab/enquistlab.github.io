@@ -29,6 +29,10 @@ latest_posts:
   limit: 2
 ---
 
+<div class="hero-photo">
+  <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/dsc_3443.jpeg" alt="Field research opening — forest dynamics plot survey" loading="eager">
+</div>
+
 ## Predictive Biodiversity Science Across Scales
 
 We live in a world of unprecedented rapid climate and land use change. A central goal of ecology and evolutionary biology is to understand the origin, maintenance, and fate of organismal form, function, and diversity — and then to predict how these processes scale up to influence the functioning of ecosystems and the biosphere.
@@ -57,6 +61,11 @@ We use Trait Driver Theory to connect trait distributions with community assembl
 We integrate occurrence, trait, and environmental data to generate reproducible biodiversity forecasts.
 
 ---
+
+<figure class="story-photo">
+  <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/img_5090.jpeg" alt="SEFDP resurvey team, Costa Rica tropical forest dynamics plot" loading="lazy">
+  <figcaption>Resurvey team at the San Emilio Forest Dynamics Plot, Costa Rica — one of the longest-running forest monitoring programs in the New World.</figcaption>
+</figure>
 
 ## From Data to Prediction
 

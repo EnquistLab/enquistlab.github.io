@@ -9,6 +9,11 @@ nav_order: 2
 
 ## Research Program
 
+<figure class="field-photo">
+  <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/brian5.jpg" alt="Brian Enquist conducting field measurements" loading="lazy">
+  <figcaption>Field measurements — connecting individual-level physiology to ecosystem-scale patterns.</figcaption>
+</figure>
+
 Our lab develops theory and data-driven tools to explain how biodiversity is organized across scales, and how it is changing under climate and land-use pressure.
 
 We organize our work as a connected process: observations and traits -> scaling and trait-based theory -> predictive models -> uncertainty-aware ecological forecasting.
