@@ -20,11 +20,11 @@ The SEFDP was originally censused in 1976 by George Stevens and Stephen Hubbell.
 
 <div class="photo-pair">
   <figure>
-    <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/img_5090.jpeg" alt="SEFDP resurvey team in Costa Rica tropical forest" loading="lazy">
+    <img src="{{ "/assets/img/field/sefdp_resurvey_team.jpeg" | relative_url }}" alt="SEFDP resurvey team in Costa Rica tropical forest" loading="lazy">
     <figcaption>Resurvey team at SEFDP, Costa Rica, 2019–2021.</figcaption>
   </figure>
   <figure>
-    <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/fig1.jpg" alt="LiDAR coverage map of the San Emilio Forest Dynamics Plot" loading="lazy">
+    <img src="{{ "/assets/img/field/sefdp_lidar.jpg" | relative_url }}" alt="LiDAR coverage map of the San Emilio Forest Dynamics Plot" loading="lazy">
     <figcaption>LiDAR coverage of the SEFDP plot area.</figcaption>
   </figure>
 </div>
@@ -39,11 +39,11 @@ Since 2003 we have been monitoring ecosystem carbon fluxes, species composition 
 
 <div class="photo-pair">
   <figure>
-    <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2015/11/img_3325.jpg" alt="RMBL Colorado field site" loading="lazy">
+    <img src="{{ "/assets/img/field/rmbl_fieldwork.jpg" | relative_url }}" alt="RMBL Colorado field site" loading="lazy">
     <figcaption>Field work at the elevational gradient transect, Gothic, Colorado.</figcaption>
   </figure>
   <figure>
-    <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2015/11/9168499015_e06b374ca6_k.jpg" alt="Alpine meadow at Rocky Mountain Biological Laboratory" loading="lazy">
+    <img src="{{ "/assets/img/field/rmbl_alpine.jpg" | relative_url }}" alt="Alpine meadow at Rocky Mountain Biological Laboratory" loading="lazy">
     <figcaption>Alpine meadow — upper end of the RMBL elevational gradient.</figcaption>
   </figure>
 </div>
@@ -56,11 +56,11 @@ Our international [Plant Functional Trait Courses](https://plantfunctionaltraits
 
 <div class="photo-pair">
   <figure>
-    <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/dsc_3414.jpeg" alt="PFTC student researchers in Peru" loading="lazy">
+    <img src="{{ "/assets/img/field/pftc_peru_students.jpeg" | relative_url }}" alt="PFTC student researchers in Peru" loading="lazy">
     <figcaption>PFTC students collecting functional trait data, Peru.</figcaption>
   </figure>
   <figure>
-    <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/dsc_2976.jpeg" alt="PFTC 5 fieldwork, Peru" loading="lazy">
+    <img src="{{ "/assets/img/field/pftc5_peru.jpeg" | relative_url }}" alt="PFTC 5 fieldwork, Peru" loading="lazy">
     <figcaption>PFTC 5 field course, Andes, Peru.</figcaption>
   </figure>
 </div>
@@ -72,7 +72,7 @@ Our international [Plant Functional Trait Courses](https://plantfunctionaltraits
 The eastern slope of the Andes harbors Earth's highest biodiversity and is among the areas most threatened by climate change. The [ABERG group](https://www.andesconservation.org/) is a team of researchers focused on a 3.5 km elevational gradient spanning from Andean highlands to Amazonian lowlands as a laboratory for understanding biodiversity and ecosystem function. Since 2003, we have studied forest community dynamics, trait variation, and ecosystem flux along this gradient. Since 2018 we have extended work into the Puna ecosystem above the forest in collaboration with the PFTC group. The program combines modern and paleoecology, climate science, distributional ecology, and remote sensing.
 
 <figure class="field-photo">
-  <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/dsc_3236.jpeg" alt="Andes biodiversity research, ABERG elevational gradient" loading="lazy">
+  <img src="{{ "/assets/img/field/aberg_andes.jpeg" | relative_url }}" alt="Andes biodiversity research, ABERG elevational gradient" loading="lazy">
   <figcaption>Elevational transect fieldwork in the Andes — spanning cloud forest to Puna grasslands.</figcaption>
 </figure>
 
@@ -84,11 +84,11 @@ The [Forest MacroSystems Network](https://www.forestmacrosystems.org/) consists 
 
 <div class="photo-pair">
   <figure>
-    <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/img_0597.jpg" alt="Forest MacroSystems network overview" loading="lazy">
+    <img src="{{ "/assets/img/field/fms_network_overview.jpg" | relative_url }}" alt="Forest MacroSystems network overview" loading="lazy">
     <figcaption>Forest MacroSystems Network — nine long-term monitoring sites across a latitudinal gradient.</figcaption>
   </figure>
   <figure>
-    <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/thu-5.png" alt="Forest plot network map" loading="lazy">
+    <img src="{{ "/assets/img/field/fms_site_map.png" | relative_url }}" alt="Forest plot network map" loading="lazy">
     <figcaption>Site distribution map of the Forest MacroSystems Network.</figcaption>
   </figure>
 </div>

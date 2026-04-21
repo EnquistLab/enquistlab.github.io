@@ -30,7 +30,7 @@ latest_posts:
 ---
 
 <div class="hero-photo">
-  <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/dsc_3443.jpeg" alt="Field research opening — forest dynamics plot survey" loading="eager">
+  <img src="{{ "/assets/img/field/field_opening.jpeg" | relative_url }}" alt="Field research opening — forest dynamics plot survey" loading="eager">
 </div>
 
 ## Predictive Biodiversity Science Across Scales
@@ -63,7 +63,7 @@ We integrate occurrence, trait, and environmental data to generate reproducible 
 ---
 
 <figure class="story-photo">
-  <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/img_5090.jpeg" alt="SEFDP resurvey team, Costa Rica tropical forest dynamics plot" loading="lazy">
+  <img src="{{ "/assets/img/field/sefdp_resurvey_team.jpeg" | relative_url }}" alt="SEFDP resurvey team, Costa Rica tropical forest dynamics plot" loading="lazy">
   <figcaption>Resurvey team at the San Emilio Forest Dynamics Plot, Costa Rica — one of the longest-running forest monitoring programs in the New World.</figcaption>
 </figure>
 

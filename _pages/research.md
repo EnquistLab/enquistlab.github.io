@@ -10,7 +10,7 @@ nav_order: 2
 ## Research Program
 
 <figure class="field-photo">
-  <img src="https://brianjenquist.wordpress.com/wp-content/uploads/2020/12/brian5.jpg" alt="Brian Enquist conducting field measurements" loading="lazy">
+  <img src="{{ "/assets/img/field/brian_field.jpg" | relative_url }}" alt="Brian Enquist conducting field measurements" loading="lazy">
   <figcaption>Field measurements — connecting individual-level physiology to ecosystem-scale patterns.</figcaption>
 </figure>
 
