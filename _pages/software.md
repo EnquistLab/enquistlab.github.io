@@ -72,7 +72,7 @@ Code and tutorials for applying Trait Driver Theory to community data:
 
 | Resource | Description | Link |
 |---|---|---|
-| SALVIAS | Plant inventory plots database | [salvias.net](http://www.salvias.net/) |
+| SALVIAS | Plant inventory plots database | [salvias.net](https://www.salvias.net/) |
 | BIEN Traits | Validated plant trait measurements | [biendata.org](https://biendata.org/) |
-| GBIF / TNRS | Taxonomic resolution tools | [tnrs.biendata.org](http://tnrs.biendata.org/) |
+| GBIF / TNRS | Taxonomic resolution tools | [tnrs.biendata.org](https://tnrs.biendata.org/) |
 

@@ -42,10 +42,10 @@ nav_order: 3
 
 ## Visiting Graduate Students
 
-- Johanna Andrea Martinez Villa (Universite du Quebec a Montreal)
+- Johanna Andrea Martinez Villa (Universite du Quebec a Montreal, UQAM)
 - Ragnhild Gya (Norway)
 - Mia Vedel Sorensen (Norway)
-- Jeova Lourenco Junior (Brazil)
+- Jehova Lourenco Junior (Brazil)
 - Yaoqi Li (Peking University)
 - Jiaxin Zhang (Chinese Academy of Sciences)
 

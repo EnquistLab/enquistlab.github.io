@@ -28,3 +28,8 @@ Outcome: Removed duplicate People nav conflict, refreshed People page wording an
 Prompt: Implement the 5 recommended design and information architecture fixes (remove template nav pages, simplify nav ordering, add Contact and Press & Media pages, clean People details, and improve media accessibility/performance).
 Source session: VS Code Copilot Chat
 Outcome: Hid template nav pages from production menu, normalized nav order across key sections, created Contact and Press & Media pages, corrected People page wording/details, improved image alt text, and compressed largest media assets.
+
+6. Date: 2026-04-20
+Prompt: Final content QA pass page-by-page.
+Source session: VS Code Copilot Chat
+Outcome: Completed final QA sweep across public pages, corrected remaining People details, upgraded remaining external links to HTTPS where available, and refined Field Sites wording for clarity.

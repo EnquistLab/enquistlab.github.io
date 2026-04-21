@@ -31,7 +31,7 @@ Gothic, Colorado: long-term research on plant community responses to climate cha
 
 ### CHAMBASA — Amazon
 
-Chambre de Bassin Amazonien: long-term forest monitoring plots in Peru and Brazil examining tree growth, mortality, and trait variation across Amazonian environmental gradients.
+CHAMBASA collaborative forest monitoring in Peru and Brazil examines tree growth, mortality, and trait variation across Amazonian environmental gradients.
 
 ---
 

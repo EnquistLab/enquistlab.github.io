@@ -22,7 +22,7 @@ nav_order: 6
 ### ECOL 586 - Biological Scaling
 A graduate seminar tracing the theoretical and empirical foundations of biological scaling from cells to ecosystems. Topics include metabolic theory, allometric relationships, and macroecological patterns.
 
-[Course blog](http://ecol586.wordpress.com/)
+[Course blog](https://ecol586.wordpress.com/)
 
 ---
 
