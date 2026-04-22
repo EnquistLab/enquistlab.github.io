@@ -15,9 +15,31 @@ Code and public tools associated with current and ongoing lab projects.
 - [Oxford Ecosystems Lab on GitHub](https://github.com/OxfordEcosystemsLab)
 - [BIEN Data Portal](https://biendata.org/)
 
-![Macroecology lab fieldwork in Peru]({{ '/assets/img/wordpress/dsc_3443.jpeg' | relative_url }})
+<figure class="resources-hero-banner">
+  <img src="{{ '/assets/img/wordpress/dsc_3225.jpg' | relative_url }}" alt="Researcher conducting leaf gas-exchange measurements at an Andean high-altitude field station, cloud-forest slopes visible through the window" loading="lazy">
+  <figcaption>High-Andes field station: leaf-level gas-exchange measurements linking plant physiology to ecosystem function.</figcaption>
+</figure>
 
-*WordPress archive photo: field campaign work integrating traits, climate, and ecosystem measurements.*
+<style>
+  .resources-hero-banner {
+    margin: 1.5rem 0 2rem;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  .resources-hero-banner img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
+  }
+  .resources-hero-banner figcaption {
+    font-size: 0.82rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.4rem;
+    letter-spacing: 0.01em;
+  }
+</style>
 
 ### Additional Lab Resources
 

@@ -47,6 +47,13 @@ h6,
   max-width: 68ch;
 }
 
+// Publication list items should not be constrained to 68ch —
+// paper titles and author strings need the full column width.
+#full-publication-list li,
+#full-publication-list p {
+  max-width: none;
+}
+
 .post hr {
   margin: 1.5rem 0;
 }

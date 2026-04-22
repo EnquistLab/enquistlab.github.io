@@ -103,6 +103,19 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		background: color-mix(in srgb, var(--global-theme-color) 10%, transparent);
 		color: var(--global-text-color);
 	}
+
+	/* Publication list width — give papers more breathing room */
+	#full-publication-list ol,
+	#full-publication-list ul {
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+		max-width: 100%;
+	}
+
+	#full-publication-list li {
+		margin-bottom: 0.4rem;
+		max-width: none;
+	}
 </style>
 
 <script>
