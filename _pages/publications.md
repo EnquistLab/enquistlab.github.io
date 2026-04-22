@@ -29,7 +29,8 @@ Use the search box to filter the complete publication list below.
 >
 
 <div id="full-publication-list">
-{% include publications_full_from_doc.md %}
+{% capture full_publication_markdown %}{% include publications_full_from_doc.md %}{% endcapture %}
+{{ full_publication_markdown | markdownify }}
 </div>
 
 <script>
