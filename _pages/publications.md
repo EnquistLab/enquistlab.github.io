@@ -323,6 +323,13 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 					{ pattern: /name resolution/i, weight: 3 },
 					{ pattern: /cyberinfrastructure/i, weight: 2 },
 					{ pattern: /informatics/i, weight: 2 },
+					{ pattern: /thesaurus/i, weight: 3 },
+					{ pattern: /code sharing/i, weight: 3 },
+					{ pattern: /open science/i, weight: 2 },
+					{ pattern: /academic software/i, weight: 3 },
+					{ pattern: /future.{0,3}proof.*trait|trait.*future.{0,3}proof/i, weight: 3 },
+					{ pattern: /\bsPlot\b/i, weight: 3 },
+					{ pattern: /Plant-O-Matic/i, weight: 3 },
 				],
 			},
 		];
