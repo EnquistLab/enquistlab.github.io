@@ -5,22 +5,39 @@
 # It is regenerated automatically by the "Sync People Sheet"
 # GitHub Actions workflow (see .github/workflows/sync-people-sheet.yml).
 #
-# To add or update your entry, fill in the Google Form:
-#   https://forms.gle/REPLACE_WITH_YOUR_FORM_LINK
+# To add or update your entry, fill in the Google Form linked in the lab wiki.
+# Google Sheet (responses land here – do not edit directly):
+#   https://docs.google.com/spreadsheets/d/1oW_QHLvJ1DGIFUP956T4W2nwn8xThw5t6QmaM_nxDjM/edit
 #
 # Manual edits to this file will be overwritten the next time
 # the sync workflow runs.
 # ============================================================
 
-postdocs:
+postdocs: []
+
+grad_students:
+  - name: Robert MacArthur
+    role: PhD Student
+    institution: Princeton University
+    degree: PhD
+    photo: ""
+    bio: I do Ecology
+    google_scholar: ""
+    website: "https://www.RobertMacArthur.com"
+    github: ""
+    email: ""
+    quote: "I shall return"
+
+visiting_students: []
+
+alumni:
+  # ── Former Postdoctoral Researchers ─────────────────────────────────────
   - name: Sandra Duran
     role: Postdoctoral Researcher
     photo: ""
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Julia Chacon-Labella
     role: Postdoctoral Researcher
@@ -28,8 +45,6 @@ postdocs:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Cesar Hinojo Hinojo
     role: Postdoctoral Researcher
@@ -37,8 +52,6 @@ postdocs:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Teresa Bohner
     role: Postdoctoral Researcher
@@ -46,8 +59,6 @@ postdocs:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Erica Newman
     role: Postdoctoral Researcher
@@ -56,8 +67,6 @@ postdocs:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Robbie Burger
     role: Postdoctoral Researcher
@@ -66,8 +75,6 @@ postdocs:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Xiao Feng
     role: Postdoctoral Researcher
@@ -76,10 +83,8 @@ postdocs:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
-grad_students:
+  # ── Former Graduate Students ─────────────────────────────────────────────
   - name: Adam Chmurzynski
     role: Graduate Student
     degree: PhD
@@ -87,8 +92,6 @@ grad_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Brian Maitner
     role: Graduate Student
@@ -97,8 +100,6 @@ grad_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Lorah Patterson
     role: Graduate Student
@@ -107,8 +108,6 @@ grad_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Michiel Pillet
     role: Graduate Student
@@ -117,8 +116,6 @@ grad_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Matiss Castorena Salaks
     role: Graduate Student
@@ -127,8 +124,6 @@ grad_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Jocelyn Navarro
     role: Graduate Student
@@ -137,8 +132,6 @@ grad_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Lindsay Backhaus
     role: Graduate Student
@@ -147,10 +140,8 @@ grad_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
-visiting_students:
+  # ── Former Visiting Graduate Students ────────────────────────────────────
   - name: Johanna Andrea Martinez Villa
     role: Visiting Graduate Student
     institution: Université du Québec à Montréal
@@ -158,8 +149,6 @@ visiting_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Ragnhild Gya
     role: Visiting Graduate Student
@@ -168,8 +157,6 @@ visiting_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Mia Vedel Sorensen
     role: Visiting Graduate Student
@@ -178,8 +165,6 @@ visiting_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Jehova Lourenco Junior
     role: Visiting Graduate Student
@@ -188,8 +173,6 @@ visiting_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Yaoqi Li
     role: Visiting Graduate Student
@@ -198,8 +181,6 @@ visiting_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
   - name: Jiaxin Zhang
     role: Visiting Graduate Student
@@ -208,8 +189,6 @@ visiting_students:
     bio: ""
     google_scholar: ""
     website: ""
-    github: ""
-    email: ""
 
 staff:
   - name: Christine Schirmer

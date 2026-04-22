@@ -46,6 +46,7 @@ nav_order: 4
 
 ---
 
+{% if site.data.people.postdocs.size > 0 %}
 ## Postdoctoral Researchers
 
 <div class="team-grid">
@@ -74,9 +75,11 @@ nav_order: 4
   </div>
 {% endfor %}
 </div>
+{% endif %}
 
 ---
 
+{% if site.data.people.grad_students.size > 0 %}
 ## Graduate Students
 
 <div class="team-grid">
@@ -105,9 +108,11 @@ nav_order: 4
   </div>
 {% endfor %}
 </div>
+{% endif %}
 
 ---
 
+{% if site.data.people.visiting_students.size > 0 %}
 ## Visiting Graduate Students
 
 <div class="team-grid">
@@ -136,6 +141,7 @@ nav_order: 4
   </div>
 {% endfor %}
 </div>
+{% endif %}
 
 ---
 
@@ -194,7 +200,31 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 
 ## Alumni
 
-Former postdocs include Noah Charney and Margaret Evans, along with many additional alumni now in academia, government, and non-profit science.
+{% if site.data.people.alumni.size > 0 %}
+<div class="team-grid team-grid--alumni">
+{% for person in site.data.people.alumni %}
+  <div class="team-card team-card--alumni">
+    {% if person.photo and person.photo != "" %}
+      <img src="{{ '/assets/img/team/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="team-card__photo" loading="lazy">
+    {% else %}
+      <div class="team-card__photo team-card__photo--placeholder" aria-hidden="true">
+        <span>{{ person.name | split: " " | map: "first" | join: "" | truncate: 2, "" | upcase }}</span>
+      </div>
+    {% endif %}
+    <p class="team-card__name">{{ person.name }}</p>
+    <p class="team-card__role">
+      {{ person.role }}{% if person.degree and person.degree != "" %} ({{ person.degree }}){% endif %}{% if person.institution and person.institution != "" %} · {{ person.institution }}{% elsif person.affiliation and person.affiliation != "" %} · {{ person.affiliation }}{% endif %}
+    </p>
+    <p class="team-card__links">
+      {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" title="Google Scholar" target="_blank" rel="noopener">Scholar</a>{% endif %}
+      {% if person.website and person.website != "" %}{% if person.google_scholar and person.google_scholar != "" %} · {% endif %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
+    </p>
+  </div>
+{% endfor %}
+</div>
+{% endif %}
+
+Former postdocs also include Noah Charney, Margaret Evans, and many additional alumni now in academia, government, and non-profit science.
 
 ![Lab team portrait from collaborative field program]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
 

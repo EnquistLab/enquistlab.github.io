@@ -325,6 +325,13 @@ h6,
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1.5rem 1.25rem;
   margin-bottom: 2rem;
+
+  // Alumni grid: smaller cards, more columns, muted palette
+  &--alumni {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 1rem 0.9rem;
+    opacity: 0.82;
+  }
 }
 
 .team-card {
