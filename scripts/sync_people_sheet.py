@@ -7,21 +7,23 @@ Reads lab member data from a Google Sheet and writes:
   - assets/img/team/<name>.jpg  (photos downloaded from Google Drive share links)
 
 Usage (locally):
-  export GOOGLE_API_KEY=<your_key>        # OR use a service-account JSON
+  export GOOGLE_API_KEY=<your_key>
   export PEOPLE_SHEET_ID=<sheet_id>
   python scripts/sync_people_sheet.py
 
 In GitHub Actions the two secrets GOOGLE_API_KEY and PEOPLE_SHEET_ID are
 injected automatically (see .github/workflows/sync-people-sheet.yml).
 
-Google Sheet expected columns (row 1 = headers):
-  Timestamp | Full Name | Role | Institution/Affiliation | Degree |
+Google Sheet row 1 MUST contain these exact headers (order flexible):
+  Full Name | Role | Institution/Affiliation | Degree |
   Short Bio | Google Scholar URL | Personal Website URL | GitHub URL |
-  Email | Google Drive Photo Link | Quote
+  Email | Photo (Google Drive link) | Favorite Quote
+
+Column lookup is by header name, so column order does not matter.
 
 Role values (case-insensitive, partial match):
   postdoc / postdoctoral → postdocs
-  phd / ms / grad        → grad_students
+  phd / ms / grad / student → grad_students
   visiting               → visiting_students
   staff / manager / tech → staff
 """
@@ -52,7 +54,7 @@ PHOTO_DIR.mkdir(parents=True, exist_ok=True)
 # ---------------------------------------------------------------------------
 # Config from environment
 # ---------------------------------------------------------------------------
-SHEET_ID = os.environ.get("PEOPLE_SHEET_ID", "")
+SHEET_ID = os.environ.get("PEOPLE_SHEET_ID", "1oW_QHLvJ1DGIFUP956T4W2nwn8xThw5t6QmaM_nxDjM")
 API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 
 if not SHEET_ID:
@@ -62,8 +64,9 @@ if not API_KEY:
     print("ERROR: GOOGLE_API_KEY environment variable is not set.", file=sys.stderr)
     sys.exit(1)
 
-# Google Sheets tab/range – adjust if the form responses land on a different sheet
-SHEET_RANGE = "Form Responses 1!A:L"
+# Google Sheets tab name – the direct-edit sheet (not a Form responses tab)
+SHEET_TAB = os.environ.get("PEOPLE_SHEET_TAB", "Sheet1")
+SHEET_RANGE = f"{SHEET_TAB}!A:Z"
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -169,34 +172,73 @@ def col(row: list[str], idx: int) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Column indices (0-based) – must match the Google Form / Sheet layout
+# Expected header names (case-insensitive match, leading/trailing whitespace ignored)
+# Row 1 of the sheet must contain these exact strings.
 # ---------------------------------------------------------------------------
-COL_TIMESTAMP = 0
-COL_NAME = 1
-COL_ROLE = 2
-COL_INSTITUTION = 3
-COL_DEGREE = 4
-COL_BIO = 5
-COL_SCHOLAR = 6
-COL_WEBSITE = 7
-COL_GITHUB = 8
-COL_EMAIL = 9
-COL_PHOTO = 10
-COL_QUOTE = 11
+HEADERS = {
+    "name":       "Full Name",
+    "role":       "Role",
+    "institution":"Institution/Affiliation",
+    "degree":     "Degree",
+    "bio":        "Short Bio",
+    "scholar":    "Google Scholar URL",
+    "website":    "Personal Website URL",
+    "github":     "GitHub URL",
+    "email":      "Email",
+    "photo":      "Photo (Google Drive link)",
+    "quote":      "Favorite Quote",
+}
+
+
+def build_index(header_row: list[str]) -> dict[str, int]:
+    """Return {field_key: column_index} by matching HEADERS against row 1."""
+    normalised = {h.strip().lower(): i for i, h in enumerate(header_row)}
+    index: dict[str, int] = {}
+    missing = []
+    for key, label in HEADERS.items():
+        idx = normalised.get(label.lower())
+        if idx is None:
+            if key == "name":  # name is required
+                missing.append(label)
+            # optional fields just won't appear in entries
+        else:
+            index[key] = idx
+    if missing:
+        print(
+            f"ERROR: Required column(s) not found in sheet header row: {missing}\n"
+            f"  Found: {list(header_row)}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    return index
+
+
+def get(row: list[str], index: dict[str, int], key: str) -> str:
+    """Return the cell value for a named field, or '' if absent/out-of-range."""
+    idx = index.get(key)
+    if idx is None:
+        return ""
+    try:
+        return row[idx].strip()
+    except IndexError:
+        return ""
+
 
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    print(f"Fetching people data from Google Sheet {SHEET_ID} …")
+    print(f"Fetching people data from Google Sheet {SHEET_ID} (tab: {SHEET_TAB}) …")
     rows = fetch_sheet_rows(SHEET_ID, API_KEY, SHEET_RANGE)
 
     if not rows:
         print("WARNING: Sheet returned no data. Nothing written.", file=sys.stderr)
         return
 
-    # Skip header row
+    header_row = rows[0]
+    index = build_index(header_row)
+
     data_rows = rows[1:]
     if not data_rows:
         print("WARNING: Sheet has only a header row and no member data.", file=sys.stderr)
@@ -210,14 +252,14 @@ def main() -> None:
     }
 
     for row in data_rows:
-        name = col(row, COL_NAME)
+        name = get(row, index, "name")
         if not name:
             continue  # skip blank rows
 
-        raw_role = col(row, COL_ROLE)
+        raw_role = get(row, index, "role")
         section = classify_role(raw_role)
 
-        photo_url = col(row, COL_PHOTO)
+        photo_url = get(row, index, "photo")
         photo_filename = ""
         if photo_url:
             safe_name = sanitize_filename(name)
@@ -231,16 +273,16 @@ def main() -> None:
             "name": name,
             "role": raw_role,
             "photo": photo_filename,
-            "bio": col(row, COL_BIO),
-            "google_scholar": col(row, COL_SCHOLAR),
-            "website": col(row, COL_WEBSITE),
-            "github": col(row, COL_GITHUB),
-            "email": col(row, COL_EMAIL),
+            "bio": get(row, index, "bio"),
+            "google_scholar": get(row, index, "scholar"),
+            "website": get(row, index, "website"),
+            "github": get(row, index, "github"),
+            "email": get(row, index, "email"),
         }
 
-        institution = col(row, COL_INSTITUTION)
-        degree = col(row, COL_DEGREE)
-        quote = col(row, COL_QUOTE)
+        institution = get(row, index, "institution")
+        degree = get(row, index, "degree")
+        quote = get(row, index, "quote")
 
         if institution:
             entry["institution"] = institution
