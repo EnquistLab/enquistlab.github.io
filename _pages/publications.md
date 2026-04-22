@@ -116,6 +116,78 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		margin-bottom: 0.4rem;
 		max-width: none;
 	}
+
+	/* Year headers — typographic chapter markers */
+	.pub-year-header {
+		font-size: 2rem !important;
+		font-weight: 800 !important;
+		color: var(--global-theme-color) !important;
+		margin: 2.75rem 0 0.5rem !important;
+		padding: 0 0 0.4rem !important;
+		border-bottom: 2px solid var(--global-divider-color) !important;
+		letter-spacing: -0.03em;
+		line-height: 1;
+		scroll-margin-top: 5rem;
+	}
+
+	/* Year navigator — fixed right-rail timeline */
+	#year-nav {
+		position: fixed;
+		top: 50%;
+		right: 1.25rem;
+		transform: translateY(-50%);
+		z-index: 200;
+		pointer-events: none;
+		max-height: 80vh;
+	}
+
+	@media (max-width: 1280px) {
+		#year-nav { display: none; }
+	}
+
+	#year-nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0 0 0 0.8rem;
+		border-left: 2px solid var(--global-divider-color);
+		display: flex;
+		flex-direction: column;
+		gap: 0.1rem;
+		pointer-events: all;
+		max-height: 80vh;
+		overflow-y: auto;
+		scrollbar-width: none;
+	}
+
+	#year-nav ul::-webkit-scrollbar { display: none; }
+
+	#year-nav li a {
+		display: block;
+		font-size: 0.69rem;
+		font-weight: 500;
+		color: var(--global-text-color-light);
+		text-decoration: none;
+		padding: 0.08rem 0.5rem;
+		border-radius: 999px;
+		transition: color 0.18s ease, background 0.18s ease, transform 0.18s ease, font-size 0.18s ease, font-weight 0.18s ease;
+		letter-spacing: 0.03em;
+		white-space: nowrap;
+		line-height: 1.75;
+	}
+
+	#year-nav li a:hover {
+		color: var(--global-theme-color);
+		background: color-mix(in srgb, var(--global-theme-color) 10%, transparent);
+		transform: translateX(-2px);
+	}
+
+	#year-nav li.is-active a {
+		color: var(--global-theme-color);
+		font-weight: 700;
+		font-size: 0.78rem;
+	}
+
+	#year-nav li[hidden] { display: none; }
 </style>
 
 <script>
@@ -256,6 +328,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		];
 
 		let activeTopic = 'all';
+		let navItems = null; // populated after year navigator is built
 
 		const yearHeaders = Array.from(container.querySelectorAll('p')).filter((p) => {
 			const t = p.textContent.trim();
@@ -370,9 +443,83 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			});
 
 			emptyState.hidden = visibleTotal !== 0;
+
+			// Sync year nav pill visibility with current filter state
+			if (navItems) {
+				navItems.forEach((navItem) => {
+					const section = yearSections.find((s) => s.header.id === 'year-' + navItem.dataset.navYear);
+					if (section) {
+						const anyVisible = section.items.some((li) => li.style.display !== 'none');
+						navItem.hidden = !anyVisible;
+					}
+				});
+			}
 		}
 
 		input.addEventListener('input', applyFilter);
 		applyFilter();
+
+		// --- Year Navigator ---
+		// Stamp id + class onto each year header for anchoring and styling
+		yearSections.forEach(({ header }) => {
+			const year = header.textContent.trim().replace(/\s/g, '');
+			header.id = 'year-' + year;
+			header.classList.add('pub-year-header');
+		});
+
+		// Build the sidebar rail nav
+		const yearNav = document.createElement('nav');
+		yearNav.id = 'year-nav';
+		yearNav.setAttribute('aria-label', 'Jump to publication year');
+
+		const yearNavList = document.createElement('ul');
+		yearSections.forEach(({ header }) => {
+			const year = header.id.replace('year-', '');
+			const li = document.createElement('li');
+			li.dataset.navYear = year;
+			const a = document.createElement('a');
+			a.href = '#' + header.id;
+			a.textContent = year;
+			a.addEventListener('click', (e) => {
+				e.preventDefault();
+				header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			});
+			li.appendChild(a);
+			yearNavList.appendChild(li);
+		});
+		yearNav.appendChild(yearNavList);
+		document.body.appendChild(yearNav);
+
+		navItems = Array.from(yearNavList.querySelectorAll('li'));
+
+		// Sync initial nav pill visibility with current filter state
+		navItems.forEach((navItem) => {
+			const section = yearSections.find((s) => s.header.id === 'year-' + navItem.dataset.navYear);
+			if (section) {
+				const anyVisible = section.items.some((li) => li.style.display !== 'none');
+				navItem.hidden = !anyVisible;
+			}
+		});
+
+		// IntersectionObserver — highlight the year currently scrolled into view
+		let currentActiveNavYear = null;
+		const yearObserver = new IntersectionObserver(
+			(entries) => {
+				const intersecting = entries
+					.filter((e) => e.isIntersecting)
+					.sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+				if (intersecting.length > 0) {
+					const year = intersecting[0].target.id.replace('year-', '');
+					if (year !== currentActiveNavYear) {
+						currentActiveNavYear = year;
+						navItems.forEach((item) => {
+							item.classList.toggle('is-active', item.dataset.navYear === year);
+						});
+					}
+				}
+			},
+			{ rootMargin: '-8% 0px -85% 0px', threshold: 0 }
+		);
+		yearSections.forEach(({ header }) => yearObserver.observe(header));
 	});
 </script>
