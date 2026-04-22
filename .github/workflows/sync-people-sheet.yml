@@ -1,0 +1,46 @@
+name: Sync People Sheet
+
+on:
+  # Run every day at 06:00 UTC so new form submissions appear within 24 hours
+  schedule:
+    - cron: "0 6 * * *"
+  # Allow manual trigger from the GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-people:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Sync people data from Google Sheet
+        env:
+          PEOPLE_SHEET_ID: ${{ secrets.PEOPLE_SHEET_ID }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python scripts/sync_people_sheet.py
+
+      - name: Commit changes when data or photos changed
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/people.yml assets/img/team/
+          git commit -m "chore(people): sync lab member data from Google Sheet"
+          git push
