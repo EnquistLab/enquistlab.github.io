@@ -48,3 +48,8 @@ Outcome: Successfully accessed Google Doc export, extracted the full peer-review
 Prompt: yes for https://enquistlab.github.io/publications/ do a cleanup pass to de-duplicate a few repeated entries and normalize formatting in the long list.
 Source session: VS Code Copilot Chat
 Outcome: Rebuilt the imported publication include from source text, removed confirmed duplicate entries, corrected malformed repeated title text, and normalized list formatting to one citation per bullet line.
+
+10. Date: 2026-04-21
+Prompt: No, none of the papers have clickable hyperlinks. Try again; title of the paper should have a hyperlink and the Google Doc has embedded hyperlinks.
+Source session: VS Code Copilot Chat
+Outcome: Regenerated the publications include directly from Google Doc export HTML to preserve embedded title anchors and updated publications page filtering logic to work with the new HTML year/list structure.
