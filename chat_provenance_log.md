@@ -53,3 +53,8 @@ Outcome: Rebuilt the imported publication include from source text, removed conf
 Prompt: No, none of the papers have clickable hyperlinks. Try again; title of the paper should have a hyperlink and the Google Doc has embedded hyperlinks.
 Source session: VS Code Copilot Chat
 Outcome: Regenerated the publications include directly from Google Doc export HTML to preserve embedded title anchors and updated publications page filtering logic to work with the new HTML year/list structure.
+
+11. Date: 2026-04-21
+Prompt: Add subject-area tabs for the complete publication list so papers can be grouped chronologically under Macroecology, Metabolic Scaling and Allometry, Trait-based Ecology, Ecophysiology, Functional Ecology, Tropical Ecology, Arctic and Alpine, and Biodiversity Informatics.
+Source session: VS Code Copilot Chat
+Outcome: Added client-side subject tabs above the full chronological publication list, with automatic keyword-based paper grouping and search that filters within the active subject tab.
