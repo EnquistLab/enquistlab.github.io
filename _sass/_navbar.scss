@@ -61,6 +61,10 @@
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    // Compact horizontal padding so all nav items fit without overflow on a 930px container
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+    font-size: 0.92rem;
 
     &:hover {
       color: var(--global-hover-color);
