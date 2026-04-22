@@ -78,3 +78,8 @@ Outcome: Added a scheduled GitHub Actions workflow and sync script that poll Goo
 Prompt: Yes — proceed with the follow-up pass to make Resources explicit in nav/path, add exact TNRS wording, and add a prominent BIEN web-services card grid.
 Source session: VS Code Copilot Chat
 Outcome: Updated resources permalink to /resources/, rewired internal links from /software/ to /resources/, inserted the exact TNRS sentence text, and added a top-level BIEN service card grid linking TNRS/GNRS/NSR/GVS.
+
+16. Date: 2026-04-22
+Prompt: Review the website design, add more science-in-action photos to Contact and Join, and add Plant Functional Trait Course resources to the Resources page.
+Source session: VS Code Copilot Chat
+Outcome: Reworked Contact and Join into more visual editorial pages with captioned field and training photos, and added a prominent Plant Functional Trait Course resources section with course, teaching-material, data-workflow, curation, community, trait, and lecture links on the Resources page.

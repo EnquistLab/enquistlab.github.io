@@ -9,7 +9,24 @@ nav_order: 7
 
 ## Join the Lab
 
-The Enquist Lab welcomes students and researchers interested in macroecology, functional biology, biodiversity informatics, and global change biology.
+The Enquist Lab welcomes students and researchers interested in macroecology, functional biology, biodiversity informatics, and global change biology. Much of the work combines field ecology, plant physiology, trait data, large synthesis datasets, and theory-driven quantitative analysis.
+
+<div class="photo-pair">
+	<figure>
+		<img src="{{ '/assets/img/team/lab_group_peru.jpeg' | relative_url }}" alt="Lab members during collaborative field research in Peru" loading="lazy">
+		<figcaption>Collaborative field campaigns link measurement, mentoring, and synthesis across sites.</figcaption>
+	</figure>
+	<figure>
+		<img src="{{ '/assets/img/team/pftc_group.jpeg' | relative_url }}" alt="Plant Functional Trait Course group in the field" loading="lazy">
+		<figcaption>Plant Functional Trait Course cohorts combine field training, quantitative analysis, and team science.</figcaption>
+	</figure>
+</div>
+
+### What Makes A Strong Fit
+
+1. Clear scientific questions that connect organismal biology to community, ecosystem, or macroecological patterns
+2. Interest in combining field measurements with quantitative, computational, or data-synthesis approaches
+3. Evidence of initiative: research experience, coding, open-science practice, or independent project development
 
 ---
 
@@ -27,6 +44,11 @@ Prospective students should:
 2. Email Brian ([benquist@arizona.edu](mailto:benquist@arizona.edu)) with a brief statement of interest, CV, and any relevant publications or projects
 
 Applications are typically due in **December** for the following fall. Strong applications will have prior research experience, programming skills (R or Python), and clear scientific questions.
+
+<figure class="field-photo">
+	<img src="{{ '/assets/img/field/pftc_peru_students.jpeg' | relative_url }}" alt="Students collecting plant functional trait data in Peru" loading="lazy">
+	<figcaption>Field-based training is a core part of the lab's research culture, especially in plant functional traits, community ecology, and climate-gradient science.</figcaption>
+</figure>
 
 ---
 
@@ -48,7 +70,14 @@ UA undergraduates interested in research in macroecology, bioinformatics, or dat
 
 We welcome international visiting students and researchers. Contact Brian directly to discuss potential collaborations and funding sources.
 
-![Lab group field meeting and mentorship setting]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
-
-![Tucson campus and city context for prospective lab members]({{ '/assets/img/wordpress/downtown.jpg' | relative_url }})
+<div class="photo-pair">
+	<figure>
+		<img src="{{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }}" alt="Lab group meeting outdoors during field training" loading="lazy">
+		<figcaption>Field meetings are used to connect theory, methods, and project design in real time.</figcaption>
+	</figure>
+	<figure>
+		<img src="{{ '/assets/img/field/rmbl_fieldwork.jpg' | relative_url }}" alt="Fieldwork at the Rocky Mountain Biological Laboratory elevational gradient" loading="lazy">
+		<figcaption>Research opportunities span tropical forests, alpine systems, and cross-site synthesis projects.</figcaption>
+	</figure>
+</div>
 

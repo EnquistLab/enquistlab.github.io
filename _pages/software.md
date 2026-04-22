@@ -50,6 +50,54 @@ Code and public tools associated with current and ongoing lab projects.
 
 ---
 
+### Plant Functional Trait Course (PFTC) Resources <span class="tool-tags"><span class="tool-tag">training</span><span class="tool-tag">trait ecology</span><span class="tool-tag">field methods</span></span>
+
+The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.no/) are a major training pipeline for the lab's field-based trait ecology work. They combine hands-on sampling, data curation, community ecology, and quantitative analysis across diverse field settings.
+
+<div class="photo-pair">
+  <figure>
+    <img src="{{ '/assets/img/field/pftc_peru_students.jpeg' | relative_url }}" alt="Students collecting plant functional trait data during a PFTC field course in Peru" loading="lazy">
+    <figcaption>PFTC students measuring and documenting plant traits in Peru.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/field/pftc5_peru.jpeg' | relative_url }}" alt="Plant Functional Trait Course fieldwork in the Andes" loading="lazy">
+    <figcaption>Trait-course field campaigns link sampling design, climate gradients, and open data workflows.</figcaption>
+  </figure>
+</div>
+
+<div class="resource-link-grid">
+	<a class="resource-link-card" href="https://plantfunctionaltraitscourses.w.uib.no/">
+		<h4>PFTC Website</h4>
+		<p>Course overview, field locations, and program context.</p>
+	</a>
+	<a class="resource-link-card" href="https://plant-functional-trait-course.github.io/PFTC_teaching_material/">
+		<h4>Teaching Material</h4>
+		<p>Central course documentation and open teaching modules.</p>
+	</a>
+	<a class="resource-link-card" href="https://plant-functional-trait-course.github.io/PFTC_teaching_material/6_pftc_data.html">
+		<h4>Working With PFTC Data</h4>
+		<p>Data structure, workflow, and analysis orientation for course datasets.</p>
+	</a>
+	<a class="resource-link-card" href="https://plant-functional-trait-course.github.io/PFTC_teaching_material/9_data_curation.html">
+		<h4>Data Curation</h4>
+		<p>Cleaning, documentation, and QA practices for trait datasets.</p>
+	</a>
+	<a class="resource-link-card" href="https://plant-functional-trait-course.github.io/PFTC_teaching_material/10_community.html">
+		<h4>Community And Sampling Data</h4>
+		<p>Plot structure, community measurements, and sampling design guidance.</p>
+	</a>
+	<a class="resource-link-card" href="https://plant-functional-trait-course.github.io/PFTC_teaching_material/12_traits.html">
+		<h4>Plant Functional Trait Data</h4>
+		<p>Trait definitions, measurement protocols, and interpretation notes.</p>
+	</a>
+	<a class="resource-link-card" href="https://plantfunctionaltraitscourses.w.uib.no/course-lectures/">
+		<h4>PFTC Lectures</h4>
+		<p>Lecture archive covering methods, theory, and field applications.</p>
+	</a>
+</div>
+
+---
+
 ### BIEN R Package <span class="tool-tags"><span class="tool-tag">occurrence</span><span class="tool-tag">trait</span><span class="tool-tag">range</span></span>
 
 The `BIEN` R package provides programmatic access to the Botanical Information and Ecology Network database — ~85 million botanical observations, ~100,000 species range maps, and plant trait data for the New World.
@@ -110,6 +158,7 @@ These services support a complete biodiversity data QA workflow from names to ge
 </div>
 
 <style>
+	.resource-link-grid,
 	.bien-services-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -117,6 +166,7 @@ These services support a complete biodiversity data QA workflow from names to ge
 		margin: 0.8rem 0 1.1rem;
 	}
 
+	.resource-link-card,
 	.bien-service-card {
 		border: 1px solid var(--global-divider-color);
 		border-radius: 0.7rem;
@@ -127,6 +177,8 @@ These services support a complete biodiversity data QA workflow from names to ge
 		transition: border-color 0.2s ease, transform 0.2s ease;
 	}
 
+	.resource-link-card:hover,
+	.resource-link-card:focus-visible,
 	.bien-service-card:hover,
 	.bien-service-card:focus-visible {
 		border-color: var(--global-theme-color);
@@ -134,11 +186,13 @@ These services support a complete biodiversity data QA workflow from names to ge
 		text-decoration: none;
 	}
 
+	.resource-link-card h4,
 	.bien-service-card h4 {
 		margin: 0 0 0.25rem;
 		color: var(--global-theme-color);
 	}
 
+	.resource-link-card p,
 	.bien-service-card p {
 		margin: 0;
 		font-size: 0.94rem;
