@@ -172,31 +172,37 @@ def col(row: list[str], idx: int) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Expected header names (case-insensitive match, leading/trailing whitespace ignored)
-# Row 1 of the sheet must contain these exact strings.
+# Header keywords used for column lookup.
+# Each value is a lowercase substring that must appear in the column header.
+# This substring match is case-insensitive, so minor wording differences
+# in the sheet (e.g. "Role (e.g. PhD...)") still resolve correctly.
 # ---------------------------------------------------------------------------
-HEADERS = {
-    "name":       "Full Name",
-    "role":       "Role",
-    "institution":"Institution/Affiliation",
-    "degree":     "Degree",
-    "bio":        "Short Bio",
-    "scholar":    "Google Scholar URL",
-    "website":    "Personal Website URL",
-    "github":     "GitHub URL",
-    "email":      "Email",
-    "photo":      "Photo (Google Drive link)",
-    "quote":      "Favorite Quote",
+HEADER_KEYWORDS: dict[str, str] = {
+    "name":        "full name",
+    "role":        "role",
+    "institution": "institution",
+    "degree":      "degree",
+    "bio":         "short bio",
+    "scholar":     "google scholar",
+    "website":     "personal website",
+    "github":      "github",
+    "email":       "email",
+    "photo":       "photo",
+    "quote":       "quote",
 }
 
 
 def build_index(header_row: list[str]) -> dict[str, int]:
-    """Return {field_key: column_index} by matching HEADERS against row 1."""
-    normalised = {h.strip().lower(): i for i, h in enumerate(header_row)}
+    """Return {field_key: column_index} by substring-matching HEADER_KEYWORDS.
+    Each column header is searched for the keyword; first match wins.
+    """
     index: dict[str, int] = {}
     missing = []
-    for key, label in HEADERS.items():
-        idx = normalised.get(label.lower())
+    for key, keyword in HEADER_KEYWORDS.items():
+        idx = next(
+            (i for i, h in enumerate(header_row) if keyword in h.strip().lower()),
+            None,
+        )
         if idx is None:
             if key == "name":  # name is required
                 missing.append(label)
