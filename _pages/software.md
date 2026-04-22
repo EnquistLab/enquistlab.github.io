@@ -1,7 +1,7 @@
 ---
 layout: page
 title: resources
-permalink: /software/
+permalink: /resources/
 description: Open-source tools and databases from the Enquist Lab
 nav: true
 nav_order: 6
@@ -56,6 +56,8 @@ The BIEN GeoSpatial portal provides web-based access to New World plant occurren
 
 Computer-assisted standardization of plant scientific names: corrects spelling errors, resolves synonyms, and maps names to accepted taxonomy.
 
+An online tool for the standardization of plant taxonomic names.
+
 - [tnrs.biendata.org](https://tnrs.biendata.org/)
 - [GitHub source](https://github.com/iPlantCollaborativeOpenSource/TNRS)
 - Featured in *Nature* (2011)
@@ -65,6 +67,61 @@ Computer-assisted standardization of plant scientific names: corrects spelling e
 ### BIEN Web Services
 
 These services support a complete biodiversity data QA workflow from names to geography:
+
+<div class="bien-services-grid">
+	<a class="bien-service-card" href="https://tnrs.biendata.org/">
+		<h4>TNRS</h4>
+		<p>Taxonomic Name Resolution Service</p>
+	</a>
+	<a class="bien-service-card" href="https://gnrs.biendata.org/">
+		<h4>GNRS</h4>
+		<p>Geographic Name Resolution Service</p>
+	</a>
+	<a class="bien-service-card" href="https://nsr.biendata.org/">
+		<h4>NSR</h4>
+		<p>Native Species Resolver</p>
+	</a>
+	<a class="bien-service-card" href="https://gvs.biendata.org/">
+		<h4>GVS</h4>
+		<p>Geocoordinate Validation Service</p>
+	</a>
+</div>
+
+<style>
+	.bien-services-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 0.8rem;
+		margin: 0.8rem 0 1.1rem;
+	}
+
+	.bien-service-card {
+		border: 1px solid var(--global-divider-color);
+		border-radius: 0.7rem;
+		padding: 0.85rem 0.9rem;
+		background: color-mix(in srgb, var(--global-card-bg-color) 90%, var(--global-theme-color) 10%);
+		text-decoration: none;
+		color: var(--global-text-color);
+		transition: border-color 0.2s ease, transform 0.2s ease;
+	}
+
+	.bien-service-card:hover,
+	.bien-service-card:focus-visible {
+		border-color: var(--global-theme-color);
+		transform: translateY(-1px);
+		text-decoration: none;
+	}
+
+	.bien-service-card h4 {
+		margin: 0 0 0.25rem;
+		color: var(--global-theme-color);
+	}
+
+	.bien-service-card p {
+		margin: 0;
+		font-size: 0.94rem;
+	}
+</style>
 
 - **TNRS (Taxonomic Name Resolution Service):** an online tool for the standardization of plant taxonomic names.
 - **GNRS (Geographic Name Resolution Service):** standardizes political division names globally.

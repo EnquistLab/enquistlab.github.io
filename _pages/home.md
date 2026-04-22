@@ -60,7 +60,7 @@ nav_order: 1
     </div>
   </a>
 
-  <a class="home-card" href="{{ '/software/' | relative_url }}">
+  <a class="home-card" href="{{ '/resources/' | relative_url }}">
     <div class="home-card__img" style="background-image: url('{{ "/assets/img/field/fms_network_overview.jpg" | relative_url }}')"></div>
     <div class="home-card__body">
       <h3>Resources</h3>

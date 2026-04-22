@@ -73,3 +73,8 @@ Outcome: Imported additional WordPress images into local assets, added new photo
 Prompt: Set up an automated check for Google Docs CV updates and update the website CV when the source document changes.
 Source session: VS Code Copilot Chat
 Outcome: Added a scheduled GitHub Actions workflow and sync script that poll Google Docs export content, detect changes via hash, and auto-commit refreshed CV artifacts (PDF/text/hash) only when updates are detected.
+
+15. Date: 2026-04-22
+Prompt: Yes — proceed with the follow-up pass to make Resources explicit in nav/path, add exact TNRS wording, and add a prominent BIEN web-services card grid.
+Source session: VS Code Copilot Chat
+Outcome: Updated resources permalink to /resources/, rewired internal links from /software/ to /resources/, inserted the exact TNRS sentence text, and added a top-level BIEN service card grid linking TNRS/GNRS/NSR/GVS.
