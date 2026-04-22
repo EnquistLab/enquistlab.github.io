@@ -15,6 +15,10 @@ Code and public tools associated with current and ongoing lab projects.
 - [Oxford Ecosystems Lab on GitHub](https://github.com/OxfordEcosystemsLab)
 - [BIEN Data Portal](https://biendata.org/)
 
+![Macroecology lab fieldwork in Peru]({{ '/assets/img/wordpress/dsc_3443.jpeg' | relative_url }})
+
+*WordPress archive photo: field campaign work integrating traits, climate, and ecosystem measurements.*
+
 ### Additional Lab Resources
 
 - [Teaching and training]({{ '/teaching/' | relative_url }})
@@ -55,6 +59,31 @@ Computer-assisted standardization of plant scientific names: corrects spelling e
 - [tnrs.biendata.org](https://tnrs.biendata.org/)
 - [GitHub source](https://github.com/iPlantCollaborativeOpenSource/TNRS)
 - Featured in *Nature* (2011)
+
+---
+
+### BIEN Web Services
+
+These services support a complete biodiversity data QA workflow from names to geography:
+
+- **TNRS (Taxonomic Name Resolution Service):** an online tool for the standardization of plant taxonomic names.
+- **GNRS (Geographic Name Resolution Service):** standardizes political division names globally.
+- **NSR (Native Species Resolver):** flags potentially introduced occurrences by political division.
+- **GVS (Geocoordinate Validation Service):** validates and corrects geocoordinates and returns political context.
+
+#### Our Other Services
+
+- [Geographic Name Resolution Service](https://gnrs.biendata.org/)
+- [Native Species Resolver](https://nsr.biendata.org/)
+- [Geocoordinate Validation Service](https://gvs.biendata.org/)
+
+#### R Vignettes
+
+- [Taxonomic Names Resolution Service (TNRS vignette)](https://cran.r-project.org/web/packages/TNRS/vignettes/TNRS_vignette.html)
+- [Geographic Name Resolution Service (GNRS vignette)](https://cran.r-project.org/web/packages/GNRS/vignettes/GNRS.html)
+- [Native Species Resolver (NSR vignette)](https://cran.r-project.org/web/packages/NSR/vignettes/NSR.html)
+- [Geocoordinate Validation Service (GVS vignette)](https://cran.r-project.org/web/packages/GVS/vignettes/GVS.html)
+- [BIEN R package vignette](https://cran.r-project.org/web/packages/BIEN/vignettes/BIEN.html)
 
 ---
 
@@ -114,6 +143,22 @@ We co-lead the [OpenTraits Network](https://opentraits.org/), which promotes ope
 Code and tutorials for applying Trait Driver Theory to community data:
 
 - **GitHub:** [EnquistLab/TraitDriverTheory](https://github.com/EnquistLab/)
+
+---
+
+### Additional R Packages
+
+#### fluxible
+
+Tools for processing ecosystem gas flux time series and QA workflows.
+
+- **CRAN:** [fluxible](https://cran.r-project.org/web/packages/fluxible/index.html)
+
+#### traitstrap
+
+Bootstrap and uncertainty tools for trait-based ecological analyses.
+
+- **CRAN:** [traitstrap](https://cran.r-project.org/web/packages/traitstrap/index.html)
 
 ---
 

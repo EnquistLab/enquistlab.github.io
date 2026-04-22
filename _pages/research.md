@@ -94,3 +94,25 @@ See [field sites]({{ '/field-sites/' | relative_url }}) for site details.
 
 We are co-founders of the [OpenTraits Network](https://opentraits.org/), which promotes open, standardized, and interoperable trait data across all organisms. Related informatics work includes data standards (Darwin Core extensions for traits), quality control pipelines, and synthesis databases.
 
+---
+
+### Lab and Field Photo Highlights
+
+![WordPress archive photo: high-Andes field campaign]({{ '/assets/img/wordpress/dsc_3225.jpg' | relative_url }})
+
+*Andes fieldwork linking elevational gradients, plant traits, and ecosystem function.*
+
+![WordPress archive photo: global forest network field context]({{ '/assets/img/wordpress/img_0597.jpg' | relative_url }})
+
+*Forest MacroSystems network work spanning latitudinal and elevational gradients.*
+
+---
+
+### Theory and Equation Figures
+
+![Self-thinning conceptual figure from WordPress archive]({{ '/assets/img/wordpress/yoda_self_thinning_fig1.png' | relative_url }})
+
+![Self-thinning scaling derivation figure from WordPress archive]({{ '/assets/img/wordpress/yoda_self_thinning_fig2.png' | relative_url }})
+
+*Historical self-thinning figures that motivate allometric and macroecological scaling analyses used in current lab theory work.*
+

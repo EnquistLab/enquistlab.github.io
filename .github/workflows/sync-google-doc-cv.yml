@@ -1,0 +1,35 @@
+name: Sync Google Doc CV
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync CV from Google Docs export
+        env:
+          GOOGLE_DOC_CV_ID: ${{ secrets.GOOGLE_DOC_CV_ID }}
+        run: |
+          bash scripts/sync_google_doc_cv.sh
+
+      - name: Commit CV updates when changed
+        run: |
+          if git diff --quiet; then
+            echo "No synced CV changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/pdf/enquist_cv.pdf assets/cv/google_doc_cv_latest.txt assets/cv/google_doc_cv.sha256
+          git commit -m "chore(cv): sync CV from Google Doc"
+          git push
