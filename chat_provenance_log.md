@@ -83,3 +83,18 @@ Outcome: Updated resources permalink to /resources/, rewired internal links from
 Prompt: Review the website design, add more science-in-action photos to Contact and Join, and add Plant Functional Trait Course resources to the Resources page.
 Source session: VS Code Copilot Chat
 Outcome: Reworked Contact and Join into more visual editorial pages with captioned field and training photos, and added a prominent Plant Functional Trait Course resources section with course, teaching-material, data-workflow, curation, community, trait, and lecture links on the Resources page.
+
+12. Date: 2026-04-22
+Prompt: Add a Google Form → Google Sheet → GitHub Actions pipeline to keep enquistlab.github.io/people/ up to date; implement _data/people.yml, Liquid-based people.md, team-grid CSS, sync_people_sheet.py, and sync-people-sheet.yml workflow.
+Source session: VS Code Copilot Chat (always-gate task)
+Outcome: Created _data/people.yml with all current lab members (postdocs, grad students, visiting students, staff) in YAML; rewrote _pages/people.md to use Liquid loops over site.data.people rendering .team-card grids per section; added .team-grid and .team-card SCSS components to _sass/_lab-redesign.scss; added scripts/sync_people_sheet.py reading Google Sheet via Sheets v4 REST API and downloading Drive photos; added .github/workflows/sync-people-sheet.yml running daily and on manual trigger. Committed as feat(people): Google Sheet sync pipeline for lab member listings (4f5f558) and pushed to EnquistLab/enquistlab.github.io main.
+
+17. Date: 2026-04-22
+Prompt: Refactor sync_people_sheet.py to use header-name column lookup for direct-edit Google Sheet; provide sheet header row template.
+Source session: VS Code Copilot Chat
+Outcome: Replaced fixed integer column indices with dynamic header-name lookup (row[headers.index(COL_NAME)]) so the sync script works with a hand-edited Google Sheet whose column order may differ from a Google Form. Committed as "refactor(people): header-name column lookup for direct-edit Google Sheet" (805d1c9) and pushed to EnquistLab/enquistlab.github.io main.
+
+18. Date: 2026-04-22
+Prompt: Update enquistlab.github.io so Resources uses several distinct top visuals, Join stops repeating People-page photos, and a new Conservation Impacts tab is added.
+Source session: VS Code Copilot Chat
+Outcome: Replaced the Resources single hero with a three-part field/planning composition, swapped Join's repeated group photos for distinct WordPress fieldwork images, and added a new Conservation Impacts page covering conservation planning, extinction risk, protected-area design, uncertainty, and linked example papers.
