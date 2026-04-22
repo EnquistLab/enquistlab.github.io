@@ -29,7 +29,6 @@ jobs:
       - name: Sync people data from Google Sheet
         env:
           PEOPLE_SHEET_ID: ${{ secrets.PEOPLE_SHEET_ID }}
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python scripts/sync_people_sheet.py
 
       - name: Commit changes when data or photos changed
