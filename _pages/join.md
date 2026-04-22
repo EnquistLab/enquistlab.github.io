@@ -13,12 +13,12 @@ The Enquist Lab welcomes students and researchers interested in macroecology, fu
 
 <div class="photo-pair">
 	<figure>
-		<img src="{{ '/assets/img/team/lab_group_peru.jpeg' | relative_url }}" alt="Lab members during collaborative field research in Peru" loading="lazy">
-		<figcaption>Collaborative field campaigns link measurement, mentoring, and synthesis across sites.</figcaption>
+		<img src="{{ '/assets/img/wordpress/dsc_3414.jpeg' | relative_url }}" alt="Andean ridgeline overlooking layered cloud-forest valleys during field sampling" loading="lazy">
+		<figcaption>Research training begins with ecological gradients that make climate, traits, and biodiversity legible in the field.</figcaption>
 	</figure>
 	<figure>
-		<img src="{{ '/assets/img/team/pftc_group.jpeg' | relative_url }}" alt="Plant Functional Trait Course group in the field" loading="lazy">
-		<figcaption>Plant Functional Trait Course cohorts combine field training, quantitative analysis, and team science.</figcaption>
+		<img src="{{ '/assets/img/wordpress/img_5090.jpeg' | relative_url }}" alt="Researchers measuring a tropical tree in a forest plot" loading="lazy">
+		<figcaption>Students and collaborators learn by working directly with plot methods, field measurements, and long-term forest data.</figcaption>
 	</figure>
 </div>
 
@@ -72,8 +72,8 @@ We welcome international visiting students and researchers. Contact Brian direct
 
 <div class="photo-pair">
 	<figure>
-		<img src="{{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }}" alt="Lab group meeting outdoors during field training" loading="lazy">
-		<figcaption>Field meetings are used to connect theory, methods, and project design in real time.</figcaption>
+		<img src="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}" alt="Researchers crossing a canopy bridge during tropical field training" loading="lazy">
+		<figcaption>Training often happens in motion: moving through field infrastructure, comparing methods, and designing the next measurement step.</figcaption>
 	</figure>
 	<figure>
 		<img src="{{ '/assets/img/field/rmbl_fieldwork.jpg' | relative_url }}" alt="Fieldwork at the Rocky Mountain Biological Laboratory elevational gradient" loading="lazy">

@@ -15,29 +15,67 @@ Code and public tools associated with current and ongoing lab projects.
 - [Oxford Ecosystems Lab on GitHub](https://github.com/OxfordEcosystemsLab)
 - [BIEN Data Portal](https://biendata.org/)
 
-<figure class="resources-hero-banner">
-  <img src="{{ '/assets/img/wordpress/dsc_3225.jpg' | relative_url }}" alt="Researcher conducting leaf gas-exchange measurements at an Andean high-altitude field station, cloud-forest slopes visible through the window" loading="lazy">
-  <figcaption>High-Andes field station: leaf-level gas-exchange measurements linking plant physiology to ecosystem function.</figcaption>
-</figure>
+<div class="resources-hero-grid">
+  <figure class="resources-hero-grid__lead">
+    <img src="{{ '/assets/img/wordpress/dsc_2976.jpeg' | relative_url }}" alt="Field team sampling on an Andean ridge above layered cloud-forest valleys" loading="lazy">
+    <figcaption>Elevational campaigns tie field sampling to climate gradients and synthesis-ready datasets.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/img_0597.jpg' | relative_url }}" alt="Researchers working among tall old-growth conifers in a structurally complex forest" loading="lazy">
+    <figcaption>Long-term plot measurements connect forest structure, demography, and open data workflows.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }}" alt="SPARC conservation planning map showing protected-area prioritization across the Americas" loading="lazy">
+    <figcaption>Planning tools translate biodiversity data into conservation-priority maps and scenario comparisons.</figcaption>
+  </figure>
+</div>
+<p class="resources-hero-note">Lab software and open data products are built from the same pipeline: field observations, curated synthesis databases, and decision-oriented spatial analyses.</p>
 
 <style>
-  .resources-hero-banner {
-    margin: 1.5rem auto 2rem;
-    max-width: 420px;
-    border-radius: 4px;
+  .resources-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: 0.85rem;
+    margin: 1.5rem 0 0.8rem;
+    align-items: stretch;
   }
-  .resources-hero-banner img {
+  .resources-hero-grid figure {
+    margin: 0;
+  }
+  .resources-hero-grid__lead {
+    grid-row: span 2;
+  }
+  .resources-hero-grid img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    min-height: 220px;
+    object-fit: cover;
     display: block;
-    border-radius: 4px;
+    border-radius: 0.5rem;
   }
-  .resources-hero-banner figcaption {
-    font-size: 0.82rem;
+  .resources-hero-grid figcaption,
+  .resources-hero-note {
+    font-size: 0.84rem;
     color: var(--global-text-color-light);
-    margin-top: 0.4rem;
     letter-spacing: 0.01em;
-    text-align: center;
+  }
+  .resources-hero-grid figcaption {
+    margin-top: 0.45rem;
+  }
+  .resources-hero-note {
+    margin: 0 0 2rem;
+    max-width: 48rem;
+  }
+  @media (max-width: 768px) {
+    .resources-hero-grid {
+      grid-template-columns: 1fr;
+    }
+    .resources-hero-grid__lead {
+      grid-row: auto;
+    }
+    .resources-hero-grid img {
+      min-height: 200px;
+    }
   }
 </style>
 
