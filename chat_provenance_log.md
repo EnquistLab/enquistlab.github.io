@@ -58,3 +58,8 @@ Outcome: Regenerated the publications include directly from Google Doc export HT
 Prompt: Add subject-area tabs for the complete publication list so papers can be grouped chronologically under Macroecology, Metabolic Scaling and Allometry, Trait-based Ecology, Ecophysiology, Functional Ecology, Tropical Ecology, Arctic and Alpine, and Biodiversity Informatics.
 Source session: VS Code Copilot Chat
 Outcome: Added client-side subject tabs above the full chronological publication list, with automatic keyword-based paper grouping and search that filters within the active subject tab.
+
+12. Date: 2026-04-22
+Prompt: Good.Now lets do a broader net pass through of my papers to assign them more correctly to each category. For ecophysiology you can place papers with 'Flux' in the title as well as 'stoichiometry'
+Source session: VS Code Copilot Chat
+Outcome: Broadened the ecophysiology topic matcher rules on the publications page to classify flux-, stoichiometry-, carbon-exchange-, and primary-productivity-related papers more accurately within the subject tabs.
