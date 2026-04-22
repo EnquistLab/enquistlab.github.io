@@ -15,7 +15,7 @@ The lab works in many places around the globe, but much of our field work has fo
 
 ### (1) San Emilio Forest Dynamics Plot (SEFDP), Costa Rica
 
-We organize a long-term forest dynamics plot in Santa Rosa National Park, Area de Conservacion Guanacaste — the largest and longest-running forest dynamics plot in the New World, now part of the [ForestGEO global forest network](https://forestgeo.si.edu/san-emilio).
+We organize a long-term forest dynamics plot in Santa Rosa National Park, Area de Conservacion Guanacaste — the largest and longest-running forest dynamics plot in the New World, now part of the [ForestGEO global forest network](https://forestgeo.si.edu/sites/san-emilio).
 
 The SEFDP was originally censused in 1976 by George Stevens and Stephen Hubbell. All woody stems ≥ 3 cm diameter within a ~15 ha plot were measured and mapped. The plot was recensused in 1995–96, again in 2006–07, and most recently in a full resurvey in 2019–2021 (ForestGEO protocols, stems ≥ 1 cm). The plot contains approximately 50,000 individual trees of ~200 woody species. Research focuses on tree population dynamics, trait-based and ecophysiological approaches, and the influence of local soil and climate on forest change over nearly 50 years.
 
@@ -72,10 +72,16 @@ Our international [Plant Functional Trait Courses](https://plantfunctionaltraits
 
 The eastern slope of the Andes harbors Earth's highest biodiversity and is among the areas most threatened by climate change. The [ABERG group](https://www.andesconservation.org/) is a team of researchers focused on a 3.5 km elevational gradient spanning from Andean highlands to Amazonian lowlands as a laboratory for understanding biodiversity and ecosystem function. Since 2003, we have studied forest community dynamics, trait variation, and ecosystem flux along this gradient. Since 2018 we have extended work into the Puna ecosystem above the forest in collaboration with the PFTC group. The program combines modern and paleoecology, climate science, distributional ecology, and remote sensing.
 
-<figure class="field-photo">
-  <img src="{{ "/assets/img/field/aberg_andes.jpeg" | relative_url }}" alt="Andes biodiversity research, ABERG elevational gradient" loading="lazy">
-  <figcaption>Elevational transect fieldwork in the Andes — spanning cloud forest to Puna grasslands.</figcaption>
-</figure>
+<div class="photo-pair">
+  <figure>
+    <img src="{{ '/assets/img/field/aberg_andes.jpeg' | relative_url }}" alt="ABERG elevational transect fieldwork, Andes cloud forest" loading="lazy">
+    <figcaption>Elevational transect fieldwork — cloud forest to Puna grassland, Andes.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/dsc_3443.jpeg' | relative_url }}" alt="Andean snowcap peaks above the ABERG study gradient, Peru" loading="lazy">
+    <figcaption>The high Andes snowcap above the ABERG gradient — spanning nearly 3.5 km of elevation.</figcaption>
+  </figure>
+</div>
 
 ---
 
@@ -89,8 +95,8 @@ The [Forest MacroSystems Network](https://www.forestmacrosystems.org/) consists 
     <figcaption>Forest MacroSystems Network — nine long-term monitoring sites across a latitudinal gradient.</figcaption>
   </figure>
   <figure>
-    <img src="{{ "/assets/img/field/fms_site_map.png" | relative_url }}" alt="Forest plot network map" loading="lazy">
-    <figcaption>Site distribution map of the Forest MacroSystems Network.</figcaption>
+    <img src="{{ '/assets/img/wordpress/img_5586.jpeg' | relative_url }}" alt="Researchers at a Forest MacroSystems Network temperate forest monitoring site" loading="lazy">
+    <figcaption>Ground-level forest monitoring — one of nine sites across the latitudinal network.</figcaption>
   </figure>
 </div>
 
