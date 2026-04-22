@@ -7,6 +7,11 @@ nav: true
 nav_order: 45
 ---
 
+<style>
+/* Remove the global paragraph max-width cap — let text fill the page container on this page */
+.post p, .post li { max-width: none !important; }
+</style>
+
 ## Field Sites and Long-Term Research
 
 The lab works in many places around the globe, but much of our field work has focused on three primary systems: (i) long-term dynamics within a tropical forest in the Area de Conservacion Guanacaste, Costa Rica; (ii) an elevation transect at the Rocky Mountain Biological Lab in Colorado; and (iii) a global network of Gentry forest plots across latitudinal and elevational gradients. We also co-organize an international Plant Functional Trait Course program.
@@ -21,12 +26,12 @@ The SEFDP was originally censused in 1976 by George Stevens and Stephen Hubbell.
 
 <div class="photo-pair">
   <figure>
-    <img src="{{ "/assets/img/field/sefdp_resurvey_team.jpeg" | relative_url }}" alt="SEFDP resurvey team in Costa Rica tropical forest" loading="lazy">
-    <figcaption>Resurvey team at SEFDP, Costa Rica, 2019–2021.</figcaption>
+    <img src="{{ "/assets/img/field/sefdp_diameter_measure.jpg" | relative_url }}" alt="Researcher measuring Guanacaste tree diameter at San Emilio FDP, Costa Rica" loading="lazy">
+    <figcaption>Measuring a Guanacaste tree (<em>Enterolobium cyclocarpum</em>) during the 2019–2021 SEFDP census. Photo: ForestGEO / Flickr.</figcaption>
   </figure>
   <figure>
-    <img src="{{ "/assets/img/field/sefdp_lidar.jpg" | relative_url }}" alt="LiDAR coverage map of the San Emilio Forest Dynamics Plot" loading="lazy">
-    <figcaption>LiDAR coverage of the SEFDP plot area.</figcaption>
+    <img src="{{ "/assets/img/field/sefdp_forest_canopy.jpg" | relative_url }}" alt="San Emilio Forest Dynamics Plot canopy view, Costa Rica" loading="lazy">
+    <figcaption>Forest canopy at the San Emilio FDP — a seasonally dry tropical forest in the Área de Conservación Guanacaste. Photo: ForestGEO / Flickr.</figcaption>
   </figure>
 </div>
 
