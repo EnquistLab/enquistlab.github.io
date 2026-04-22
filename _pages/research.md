@@ -58,6 +58,26 @@ The [BIEN project](https://biendata.org/) compiles and standardizes occurrence r
 
 **Tools:** [BIEN R package](https://cran.r-project.org/package=BIEN) | [GeoSpatial portal](https://biendata.org/)
 
+<details class="bien-quickstart">
+<summary>Quick start: access BIEN data in R</summary>
+
+```r
+install.packages("BIEN")
+library(BIEN)
+
+# Occurrence records for a species
+occ <- BIEN_occurrence_species("Pinus ponderosa")
+
+# Plant traits
+traits <- BIEN_trait_species("Quercus agrifolia")
+
+# Species range map
+range <- BIEN_ranges_load_species("Populus tremuloides")
+```
+
+Full docs: [BIEN vignette](https://cran.r-project.org/web/packages/BIEN/vignettes/BIEN.html) · [All lab tools]({{ '/resources/' | relative_url }})
+</details>
+
 ---
 
 ### Global Change Biology
@@ -110,9 +130,14 @@ We are co-founders of the [OpenTraits Network](https://opentraits.org/), which p
 
 ### Theory and Equation Figures
 
-![Self-thinning conceptual figure from WordPress archive]({{ '/assets/img/wordpress/yoda_self_thinning_fig1.png' | relative_url }})
-
-![Self-thinning scaling derivation figure from WordPress archive]({{ '/assets/img/wordpress/yoda_self_thinning_fig2.png' | relative_url }})
-
-*Historical self-thinning figures that motivate allometric and macroecological scaling analyses used in current lab theory work.*
+<div class="theory-figure-pair">
+  <figure>
+    <img src="{{ '/assets/img/wordpress/yoda_self_thinning_fig1.png' | relative_url }}" alt="Self-thinning conceptual figure: plant density declines as a power function of mean plant mass during stand development" loading="lazy">
+    <figcaption>Self-thinning law — plant density declines as a power function of mean plant mass as a stand develops, a foundational prediction of metabolic scaling theory.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/yoda_self_thinning_fig2.png' | relative_url }}" alt="Self-thinning scaling derivation: allometric exponents derived from metabolic scaling first principles" loading="lazy">
+    <figcaption>Derivation of self-thinning exponents from allometric first principles — underpinning current lab work on forest structure, carbon dynamics, and demography.</figcaption>
+  </figure>
+</div>
 

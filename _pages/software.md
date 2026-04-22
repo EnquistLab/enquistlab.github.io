@@ -50,7 +50,7 @@ Code and public tools associated with current and ongoing lab projects.
 
 ---
 
-### BIEN R Package
+### BIEN R Package <span class="tool-tags"><span class="tool-tag">occurrence</span><span class="tool-tag">trait</span><span class="tool-tag">range</span></span>
 
 The `BIEN` R package provides programmatic access to the Botanical Information and Ecology Network database — ~85 million botanical observations, ~100,000 species range maps, and plant trait data for the New World.
 
@@ -66,7 +66,7 @@ sp <- BIEN_occurrence_species("Pinus ponderosa")
 
 ---
 
-### BIEN Data Portal
+### BIEN Data Portal <span class="tool-tags"><span class="tool-tag">occurrence</span><span class="tool-tag">spatial</span></span>
 
 The BIEN GeoSpatial portal provides web-based access to New World plant occurrence, range, and trait data with QA/QC, taxonomic harmonization, and geographic filtering.
 
@@ -74,7 +74,7 @@ The BIEN GeoSpatial portal provides web-based access to New World plant occurren
 
 ---
 
-### Taxonomic Name Resolution Service (TNRS)
+### Taxonomic Name Resolution Service (TNRS) <span class="tool-tags"><span class="tool-tag">taxonomy</span></span>
 
 Computer-assisted standardization of plant scientific names: corrects spelling errors, resolves synonyms, and maps names to accepted taxonomy.
 
@@ -145,16 +145,7 @@ These services support a complete biodiversity data QA workflow from names to ge
 	}
 </style>
 
-- **TNRS (Taxonomic Name Resolution Service):** an online tool for the standardization of plant taxonomic names.
-- **GNRS (Geographic Name Resolution Service):** standardizes political division names globally.
-- **NSR (Native Species Resolver):** flags potentially introduced occurrences by political division.
 - **GVS (Geocoordinate Validation Service):** validates and corrects geocoordinates and returns political context.
-
-#### Our Other Services
-
-- [Geographic Name Resolution Service](https://gnrs.biendata.org/)
-- [Native Species Resolver](https://nsr.biendata.org/)
-- [Geocoordinate Validation Service](https://gvs.biendata.org/)
 
 #### R Vignettes
 
@@ -166,7 +157,7 @@ These services support a complete biodiversity data QA workflow from names to ge
 
 ---
 
-### Native Species Resolver (NSR)
+### Native Species Resolver (NSR) <span class="tool-tags"><span class="tool-tag">taxonomy</span><span class="tool-tag">native status</span></span>
 
 Uses regional taxonomic checklists to determine whether observations of a species within political divisions (country, state/province, county) are native or introduced.
 
@@ -174,7 +165,7 @@ Uses regional taxonomic checklists to determine whether observations of a specie
 
 ---
 
-### Hypervolumes R Package
+### Hypervolumes R Package <span class="tool-tags"><span class="tool-tag">trait</span><span class="tool-tag">niche</span></span>
 
 Estimates the shape and volume of high-dimensional ecological objects (niches, trait distributions) and performs set operations including intersection, union, and overlap. Used for n-dimensional niche measurement and species distribution modeling.
 
@@ -183,7 +174,7 @@ Estimates the shape and volume of high-dimensional ecological objects (niches, t
 
 ---
 
-### netassoc R Package
+### netassoc R Package <span class="tool-tags"><span class="tool-tag">occurrence</span><span class="tool-tag">co-occurrence</span></span>
 
 Infers species associations from community co-occurrence matrices using partial correlations and Gaussian graphical models with null modeling.
 
@@ -192,7 +183,7 @@ Infers species associations from community co-occurrence matrices using partial 
 
 ---
 
-### comclim R Package
+### comclim R Package <span class="tool-tags"><span class="tool-tag">trait</span><span class="tool-tag">climate</span></span>
 
 Computes community climate statistics for volume and mismatch using species' climate niches, scaled relative to a regional species pool. Used to infer community assembly processes.
 
@@ -227,13 +218,13 @@ Code and tutorials for applying Trait Driver Theory to community data:
 
 ### Additional R Packages
 
-#### fluxible
+#### fluxible <span class="tool-tags"><span class="tool-tag">flux</span></span>
 
 Tools for processing ecosystem gas flux time series and QA workflows.
 
 - **CRAN:** [fluxible](https://cran.r-project.org/web/packages/fluxible/index.html)
 
-#### traitstrap
+#### traitstrap <span class="tool-tags"><span class="tool-tag">trait</span></span>
 
 Bootstrap and uncertainty tools for trait-based ecological analyses.
 

@@ -18,6 +18,21 @@ nav_order: 1
   <p>We build predictive theories of life — from cells to ecosystems — grounded in field data, allometric scaling, and biodiversity informatics.</p>
 </div>
 
+<div class="home-stats">
+  <div class="home-stat">
+    <span class="home-stat__number">~85M</span>
+    <span class="home-stat__label">botanical records</span>
+  </div>
+  <div class="home-stat">
+    <span class="home-stat__number">100k+</span>
+    <span class="home-stat__label">species range maps</span>
+  </div>
+  <div class="home-stat">
+    <span class="home-stat__number">400+</span>
+    <span class="home-stat__label">publications</span>
+  </div>
+</div>
+
 <div class="home-cards">
 
   <a class="home-card" href="{{ '/about/' | relative_url }}">
