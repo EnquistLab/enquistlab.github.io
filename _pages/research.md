@@ -106,25 +106,16 @@ Our long-term work integrates repeated forest censuses, elevational transects, a
 
 See [field sites]({{ '/field-sites/' | relative_url }}) for site details.
 
-![SPARC biodiversity planning map]({{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }})
+<figure class="field-photo" style="max-height:320px;">
+  <img src="{{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }}" alt="SPARC biodiversity planning map — protected area prioritization across the Americas" loading="lazy" style="height:320px;object-fit:contain;background:#f7f6f2;">
+  <figcaption>SPARC protected-area prioritization analysis — integrating BIEN occurrence and trait data to identify conservation priority regions across the Americas.</figcaption>
+</figure>
 
 ---
 
 ### OpenTraits & Biodiversity Informatics
 
 We are co-founders of the [OpenTraits Network](https://opentraits.org/), which promotes open, standardized, and interoperable trait data across all organisms. Related informatics work includes data standards (Darwin Core extensions for traits), quality control pipelines, and synthesis databases.
-
----
-
-### Lab and Field Photo Highlights
-
-![WordPress archive photo: high-Andes field campaign]({{ '/assets/img/wordpress/dsc_3225.jpg' | relative_url }})
-
-*Andes fieldwork linking elevational gradients, plant traits, and ecosystem function.*
-
-![WordPress archive photo: global forest network field context]({{ '/assets/img/wordpress/img_0597.jpg' | relative_url }})
-
-*Forest MacroSystems network work spanning latitudinal and elevational gradients.*
 
 ---
 
