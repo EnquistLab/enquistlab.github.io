@@ -191,6 +191,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 					{ pattern: /carbon exchange/i, weight: 2 },
 					{ pattern: /primary productivity/i, weight: 1 },
 					{ pattern: /water relations/i, weight: 2 },
+					{ pattern: /vein\b|venation|leaf vein/i, weight: 2 },
 					{ pattern: /physiolog/i, weight: 1 },
 				],
 			},
