@@ -63,3 +63,13 @@ Outcome: Added client-side subject tabs above the full chronological publication
 Prompt: Good.Now lets do a broader net pass through of my papers to assign them more correctly to each category. For ecophysiology you can place papers with 'Flux' in the title as well as 'stoichiometry'
 Source session: VS Code Copilot Chat
 Outcome: Broadened the ecophysiology topic matcher rules on the publications page to classify flux-, stoichiometry-, carbon-exchange-, and primary-productivity-related papers more accurately within the subject tabs.
+
+13. Date: 2026-04-22
+Prompt: Populate the website with more photos from the WordPress site (including equation figures) and update the Resources page with BIEN web services, TNRS note, service links, vignettes, and CRAN links for fluxible and traitstrap.
+Source session: VS Code Copilot Chat
+Outcome: Imported additional WordPress images into local assets, added new photo and equation-figure sections to the research/resources content, and expanded the resources page with BIEN web services, R vignette links, and fluxible/traitstrap package references.
+
+14. Date: 2026-04-22
+Prompt: Set up an automated check for Google Docs CV updates and update the website CV when the source document changes.
+Source session: VS Code Copilot Chat
+Outcome: Added a scheduled GitHub Actions workflow and sync script that poll Google Docs export content, detect changes via hash, and auto-commit refreshed CV artifacts (PDF/text/hash) only when updates are detected.

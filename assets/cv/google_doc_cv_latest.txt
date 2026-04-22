@@ -1,0 +1,655 @@
+﻿Dec. 4th, 2025
+Brian Joseph Enquist, Ph.D, D.Sci
+https://brianjenquist.wordpress.com/
+benquist@arizona.edu
+
+
+Professor
+Department of Ecology and Evolutionary Biology
+University of Arizona, Tucson, Arizona, USA
+
+
+External Professor
+The Santa Fe Institute, 
+Santa Fe, New Mexico, USA
+
+
+Research Associate
+Oxford University
+The School of Geography and the Environment
+Leverhulme Centre
+Oxford, UK
+
+
+Co-director
+Bridging Biodiversity and Conservation Science
+Lovejoy Center
+University of Arizona
+Education                
+* PhD Biology (Ecology Program) July 1998. University New Mexico, Albuquerque, NM, USA; Major Advisor, James H. Brown  
+* MS Biology (Ecology Program) Feb.1994. University of New Mexico, Albuquerque, NM, USA  
+* BA Biology, (With Distinction), May 1991. Colorado College Colorado Springs, CO, USA
+
+
+Professional Employment Appointments
+* External Faculty, The Santa Fe Institute, Santa Fe, New Mexico (2007-   ).
+* Professor, Department of Ecology & Evolutionary Biology, The University of Arizona, Tucson, Arizona  (2009 -     ).
+* Honorary Research Associate, Oxford University, Oxford, UK (2025-     )
+* Associate Professor, Department of Ecology & Evolutionary Biology, The University of Arizona, Tucson, Arizona (2005- 2009).
+* Assistant Professor, Department of  Ecology Evolutionary Biology, The University of Arizona, Tucson, Arizona (2001-2005). 
+* NSF Postdoctoral Fellow, NCEAS (National Center for Ecological Analysis and Synthesis), University of California, Santa Barbara, CA (Sept. 1999 – Dec. 2000).
+* NSF Postdoctoral Fellow, SFI (The Santa Fe Institute), Santa Fe, New Mexico. (Aug. 1998 - Sept 1999). 
+Academic Honors
+* Ecological Society of America, ESA Fellow (2018)
+* American Association for the Advancement of Science, AAAS Fellow (2012).
+* Honorary Degree, Doctor of Science – D.Sci, The Colorado College (2007).
+Awards, Fellowships, and Honors
+Fulbright Fellow, National Geographic Explorer, Oxford University Martin School Fellow, Web of Science Highly Cited Researcher, ESA George C. Mercer Award, National Science Foundation CAREER Award 
+
+
+* Nominated to serve on National Academy of Sciences panel on developing a national report on Continental Scale Biology (2023-2024)
+* Web of Science, Highly Cited Researcher (2018, 2019, 2020, 2025)
+* National Geographic Explorer (2020)
+* Leverhulme Professorship, Oxford University, UK (2017).
+* Martin School Fellow, Oxford University, UK (2017).
+* College of Science Galileo Circle Fellow, University of Arizona (2011).  
+* Elected Chair, Gordon Research Conference, Metabolic Basis Ecology Evolution (2010).
+* Charles University, Center for Theoretical Study, International Mobility Fellow, Prague, Czech Republic (2009).
+* Centre National de la Recherche Scientifique (CNRS), Associate Research Fellow, Montpellier, France (2009).
+* TEAM Fellow, Conservation International (2007).
+* ISI Essential Science Indicators (ESI), Author with the highest percent increase in total citations in the field of Environment and Ecology (2005).
+* Popular Science Magazine, “Top 10 Brilliant Young Scientists” (2004).
+* NSF CAREER Young Investigators Award (2002-2007).
+* Center for Applied Biodiversity Science Fellow, Conservation International (2002-2004)
+* George C. Mercer Award, Ecological Society of America, Awarded for best ecological paper by a researcher under the age of 40 (2001).
+* NSF Postdoctoral Research Fellowship (1998-2000). 
+* Santa Fe Institute Postdoctoral Research Fellowship, Declined (1998).
+* Visiting Scholar, Silwood Park, Imperial College, UK (May, 1998).
+* Best research poster, UNM Biology Research Day (1994 & 1998). 
+* NSF Graduate Research Training Fellowship (1996-1998). 
+* Santa Fe Institute Complex Systems Summer School (1997). 
+* Fulbright Fellow, Costa Rica (1995-1996). 
+* Richard G. and Reba Beidleman Award, Colorado College, Honors Convocation, For Excellence in Ecology (1991).
+* Graduation with Distinction in Biology, Colorado College (1991).
+Editorial Boards
+* Associate Editor, Ecology Letters (Nov. 2007 –     ).
+* Associate Editor, Global Ecology and Biogeography (Summer 2010 -     ).      
+* Invited Guest Editor, Annual Review of Ecology, Evolution, & Systematics (2009 - 2010).
+* Editorial Board, Global Ecology and Biogeography (2003- 2006).
+* Member of Faculty of 1000 (Nov. 2005 – Jan. 2007).
+Social Media/Open Science 
+* Bluesky - https://bsky.app/profile/bjenquist.bsky.social
+* GitHub - https://github.com/EnquistLab
+* Enquist lab - YouTube Channel 
+* FigShare - https://figshare.com/authors/Brian_Enquist/663712
+* Lab website and blog - https://brianjenquist.wordpress.com
+* Google Scholar - https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en
+* ResearchGate - https://www.researchgate.net/profile/Brian_Enquist
+Scholarly Publications
+* Google Scholar, 10/20/2025: Citations = 70,625, h-index = 115. 
+Books
+* Enquist, B.J., Kempes, C., O’Connor, M. Biological Scaling: A general theory for scaling the form and function of biology and biodiversity. Santa Fe Institute Press (In Prep).
+* National Academies of Sciences, Engineering, and Medicine. 2024. A Vision for Continental-Scale Biology: Research Across Multiple Scales. Washington, DC: The National Academies Press. https://doi.org/10.17226/27285.
+Reports
+* UNESCO and IUCN (2023) UNESCO - World Heritage: A unique contribution to biodiversity conservation.  by the United Nations Educational, Scientic and Cultural Organization (UNESCO), 7, place de Fontenoy, 75352 Paris 07 SP, France, and the International Union for Conservation of Nature (IUCN), Rue Mauverney 28, 1196 Gland, Switzerland. https://unesdoc.unesco.org/ark:/48223/pf0000385392  https://sparc-apps.shinyapps.io/biodiversity_explorer/
+* IPBES (Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services) Chapter 3 Status and trends of biodiversity and ecosystem functions underpinning nature’s benefit to people. In IPBES (2018): The IPBES regional assessment report on biodiversity and ecosystem services for the Americas. Rice, J., Seixas, C. S., Zaccagnini, M. E., Bedoya-Gaitán, M., and Valderrama, N. (eds.). Secretariat of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services, Bonn, Germany, pp. 207-297. https://www.ipbes.net/system/tdf/ipbes-6-inf-4-rev.1.pdf?file=1&type=node&id=16517
+Peer Reviewed Journal Aricles
+
+
+2026
+1. Enquist, B.J. et al. (2026) BIEN: A biodiversity informatics ecosystem advancing open and reproducible workflows for plant observation, plot, and trait data. Methods in Ecology and Evolution.  In Press.
+2. Guo, W.-Y., Serra-Diaz, J. M., Guo, K., Boonman, C. C. F., Schrodt, F., Maitner, B. S., Merow, C., Violle, C., Anand, M., Bruun, H. H. K., Byun, C., Catford, J. A., Cerabolini, B. E. L., Chacón-Madrigal, E., Ciccarelli, D., Dang-Le, A. T., Dias, A. S., Giroldo, A. B., Gutiérrez, Á. G., Jansen, S., Kattge, J., Kindt, R., Klein, T., Kramer, K., Lusk, C. H., Martin, A. R., Michaletz, S. T., Minden, V., Mori, A. S., Niinemets, Ü., Onoda, Y., Peñuelas, J., Pisek, J., Robroek, B. J. M., Schamp, B., Soudzilovskaia, N. A., Thiffault, N., van der Plas, F., Enquist, B. J., & Svenning, J.-C. (2026). Global functional shifts in trees driven by alien naturalization and native extinction. Nature Plants  In Press.
+3. Brock, C., Roehrdanz, P. R., Beringer, T., Chaplin-Kramer, R., Enquist, B. J., Frazier, A. E., Johnson, J. A., Kennedy, C. M., Kiesecker, J., Larsen, A. E., Loyola, R., Marquet, P. A., Neugarten, R. A., Oakleaf, J. R., Roopsind, A., Schuster, R., Williams, D. R., Wu, G. C., Zvoleff, A., & Hannah, L. (2026). Balancing land use for conservation, agriculture, and renewable energy. Nature Communications. In press. https://doi.org/10.1038/s41467-026-69952-6
+2025
+4. Moulatlet, G. M., Merow, C., Maitner, B., Boyle, B., Feng, X., Frazier, A. E., Hinojo-Hinojo, C., Newman, E. A., Roehrdanz, P. R., Song, L., Villalobos, F., Marquet, P. A., Svenning, J.-C., & Enquist, B. J. (2025). General laws of biodiversity: Climatic niches predict plant range size and ecological dominance globally. Proceedings of the National Academy of Sciences 122.46: e2517585122.
+5. Zuidema, Pieter A., et al. Pantropical tree rings show small effects of drought on stem growth. Science 389.6759 (2025): 532-538.
+6. Vasseur, F., Mahaut, L., Enquist, B.J., and C. Violle (2025) From organism traits to ecosystem processes: why size is so important. Annual Review of Ecology, Evolution, Systematics 56.
+7. Boonman, C.C., Hoeks, S., Serra-Diaz, J.M., Guo, W.Y., Enquist, B.J., Maitner, B., Merow, C. and Svenning, J.C., 2025. High tree diversity exposed to unprecedented macroclimatic conditions even under minimal anthropogenic climate change. Proceedings of the National Academy of Sciences, 122(26), p.e2420059122.
+8. Cruz, A. R., & Enquist, B. J. (2025). Allometry and phylogeny of within-diaspore biomass allocation: A global analysis. Biology Letters, 21(11).
+9. Mouquet, N., Mahaut, L., Thuiller, W., Auber, A., Casajus, N., Enquist, B. J., ... & Violle, C. (2025). Spatial Insurance of Distinct Ecological Functions. Ecology Letters, 28(11), e70266.
+10. Halbritter, Aud H., et al. Effects of Warming, Nitrogen and Grazing on Plant Functional Traits Differ Between Alpine and Sub‐Alpine Grasslands. Journal of Vegetation Science 36.5 (2025): e70061.
+11. Gaudard, J., Telford, R. J., Chacon‐Labella, J., Dawson, H. R., Enquist, B. J., Töpper, J. P., ... & Halbritter, A. H. (2025). fluxible:An R package to process ecosystem gas fluxes from closed‐loop chambers in an automated and reproducible way. Methods in Ecology and Evolution.
+12. Feng X, Smith AB, Boyle B, Chen X, Enquist BJ, Gallagher R, Hammock J, Ho JC, Lien AM, Maitner B, Sokol ER. (2025). The next stage of biodiversity informatics: community-driven synthesis and integration of biodiversity databases. BioScience,  75(11), 913-925.
+13. Halbritter, A. H., Vandvik, V., Bison, N. N., Clark, V. R., Cross, M., Greve, M., ... & Enquist, B. J. (2025). Plant traits and associated ecological data from Afromontane grasslands of Maloti-Drakensberg, South Africa. Scientific data, 12(1), 1778.
+14. Vandvik, V., Halbritter, A. H., Macias-Fauria, M., Maitner, B. S., Michaletz, S. T., Telford, R. J., ... & Enquist, B. J. (2025). Plant traits and associated ecological data from global change experiments and climate gradients in Norway. Scientific data, 12(1), 1477.
+15. Hordijk, I., Poorter, L., Liang, J., Reich, P. B., De-Miguel, S., Nabuurs, G. J., et al. & Pfautsch, S. (2025). Effect of climate on traits of dominant and rare tree species in the world’s forests. Nature Communications, 16(1), 4773.
+16. Groenendijk, P., Babst, F., Trouet, V., Fan, Z. X., Granato-Souza, D., Locosselli, G. M., ... & Wils, T. (2025). The importance of tropical tree-ring chronologies for global change research. Quaternary Science Reviews, 355, 109233.
+17. Veldhuisen, L. N., Zepeda, V., Enquist, B. J., & Dlugosch, K. M. (2025). Rare species do not disproportionately contribute to phylogenetic diversity in a subalpine plant community. American Journal of Botany, e70061.
+18. Matos, Ilaine Silveira, et al. Leaf venation network evolution across clades and scales. Nature Plants (2025): 1-15.
+19. Roos, Ruben E., et al. Marine‐derived nutrients shape the functional composition of High Arctic plant communities. Functional Ecology (2025).
+20. Groenendijk, Peter, et al. The importance of tropical tree-ring chronologies for global change research.  Quaternary Science Reviews 355 (2025): 109233.
+21. Aguirre-Gutiérrez, Jesús, et al. Tropical forests in the Americas are changing too slowly to track climate change. Science 387.6738 (2025): eadl5414.
+22. Aguirre-Gutiérrez, J., Rifai, S.W., Deng, X. et al. Canopy functional trait variation across Earth’s tropical forests. Nature (2025).
+23. Cruz, A. R., Enquist, B. J., & Burger, J. R. (2025). Scaling COVID-19 rates with population size in the United States. Journal of the Royal Society Interface, 22(224), 20240839.
+24. Lowe, A.J., Royer, D.L., Wieczynski, D.J., Butrim, M.J., Reichgelt, T., Azevedo‐Schmidt, L., Peppe, D.J., Enquist, B.J., Kerkoff, A.J., Michaletz, S.T. and Strömberg, C.A., 2025. Global patterns in community‐scale leaf mass per area distributions of extant woody non‐monocot angiosperms and their utility in the fossil record. American Journal of Botany, 112(4), p.e70019.
+25. Araujo, D.S., Enquist, B.J., Frazier, A.E., Merow, C., Roehrdanz, P.R., Moulatlet, G.M., Zvoleff, A., Song, L., Maitner, B. and Nikolopoulos, E.I., 2025. Global Future Drought Layers Based on Downscaled CMIP6 Models and Multiple Socioeconomic Pathways. Scientific Data, 12(1), p.295. Global Future Drought Layers Based on Downscaled CMIP6 Models and Multiple Socioeconomic Pathways. Scientific Data 12, no. 1 (2025): 295.
+2024
+26. Enquist, B.J., Kempes, C.P. and G.B. West (2024) Developing a predictive Science of the Biosphere requires the integration of scientific cultures.  Proceedings of the National Academy of Sciences,121(19), e2209196121. https://www.pnas.org/doi/10.1073/pnas.2209196121
+27. Westgeest, Adrianus J., François Vasseur, Brian J. Enquist, Rubén Milla, Alicia Gómez‐Fernández, David Pot, Denis Vile, and Cyrille Violle. An allometry perspective on crops. New Phytologist 244, no. 4 (2024): 1223-1237.
+28. Enquist, B.J., Erwin, D., Savage, V.,  and P.A. Marquet (2024) Scaling approaches and Macroecology provide a foundation for assessing ecological resilience in the Anthropocene. Philosophical Transactions B, 379: 20230010. 
+29. Bektaş, Billur, et al.  Colonization and extinction lags drive non‐linear responses to warming in mountain plant communities across the Northern Hemisphere. Ecography (2024): e07378.
+30. Mo, Lidong, et al. The global distribution and drivers of wood density and their impact on forest carbon stocks. Nature Ecology & Evolution (2024): 1-18.
+31. Grady, J.M., Read, Q.D., Record, S., Rüger, N., Zarnetske, P.L., Dell, A.I., Hubbell, S.P., Michaletz, S.T. and B.J. Enquist (2024) Life history scaling in a tropical forest. Journal of Ecology. 112(3), pp.487-500.
+32. Hordijk, Iris, et al. Dominance and rarity in tree communities across the globe: Patterns, predictors and threats. Global Ecology and Biogeography 33.10 (2024): e13889.
+33. Boonman, CCF, J.M. Serra-Diaz, S.Hoeks, W. Guo, B.J. Enquist, B. Maitner, Y.Malhi, C. Merow, R. Buitenwerf, and J.Svenning (2024) More than 17,000 tree species are at risk from rapid global change. Nature Communications 15, no. 1: 166.
+34. Maitner, Brian, et al. Code sharing in ecology and evolution increases citation rates but remains uncommon. Ecology and Evolution 14.8 (2024): e70030.
+35. Halbritter, A. H., Vandvik, V., Cotner, S. H., Farfan-Rios, W., Maitner, B. S., Michaletz, S. T., ... & Enquist, B. J. (2024). Plant trait and vegetation data along a 1314 m elevation gradient with fire history in Puna grasslands, Perú. Scientific Data, 11(1), 225.
+36. Ngute, Alain Senghor K., et al. (2024) Global dominance of lianas over trees is driven by forest disturbance, climate and topography. Global Change Biology 30.1: e17140.
+37. Martínez‐Villa, J. A., Durán, S. M., Enquist, B. J., Duque, A., Messier, C., & Paquette, A. (2024). Temporal shifts in the functional composition of Andean forests at different elevations are driven by climate change. Global Ecology and Biogeography, 33(1), 85-99.
+38. Serra‐Diaz JM, Borderieux J, Maitner B, Boonman CC, Park D, Guo WY, Callebaut A, Enquist BJ, Svenning JC, Merow C. occTest: An integrated approach for quality control of species occurrence data. Global Ecology and Biogeography. 2024:e13847
+
+
+
+
+2023
+39. Maitner, B. S., Halbritter, A. H., Telford, R. J., Strydom, T., Chacon, J., Lamanna, C., ... & Enquist, B. J. (2023). Bootstrapping outperforms community‐weighted approaches for estimating the shapes of phenotypic distributions. Methods in Ecology and Evolution, 14(10), 2592-2610.
+40. Mo, Lidong, et al. (2023) Integrated global assessment of the natural forest carbon potential. Nature: 1-10.
+41. Ma, Haozhi, et al. (2023) The global biogeography of tree leaf form and habit. Nature Plants 9.11: 1795-1809.
+42. Gallagher, Rachael V., et al. Global shortfalls in threat assessments for endemic flora by country. Plants, People, Planet 5.6 (2023): 885-898.
+43. Guo, Wen-Yong, et al. Climate change and land use threaten global hotspots of phylogenetic endemism for trees. Nature Communications 14.1 (2023): 6950.
+44. Vandvik, V., Halbritter, A. H., Althuizen, I. H., Christiansen, C. T., Henn, J. J., Jónsdóttir, I. S., ... & Enquist, B. J. (2023). Plant traits and associated data from a warming experiment, a seabird colony, and along elevation in Svalbard. Scientific Data, 10(1), 578.
+45. Delavaux, C. et al. (2023)  Native diversity buffers against severity of non-native tree invasions. Nature 621,773–781. 
+46. Duncanson L, Liang M, Leitold V, Armston J, Krishna Moorthy SM, Dubayah R, Costedoat S, Enquist BJ, Fatoyinbo L, Goetz SJ, Gonzalez-Roglich M., Merow, C, Roehrdanz, P. R., Tabor,  K.  & A. Zvoleff (2023) The effectiveness of global protected areas for climate change mitigation. Nature Communications. 2023 Jun 1;14(1):2908.
+47. Munoz, F. et al. (2023) The ecological causes of functional distinctiveness in communities. Letters 26.8 (2023): 1452-1465.
+48. Xu, W. B., Guo, W. Y., Serra-Diaz, J. M., Schrodt, F., Eiserhardt, W. L., Enquist, B. J. et al.  & Ordonez, A. (2023). Global beta-diversity of angiosperm trees is shaped by Quaternary climate change. Science Advances, 9(14), eadd8553.
+49. Hordijk, Iris, et al. (2023)  Evenness mediates the global relationship between forest productivity and richness. Journal of Ecology 111(6), 1308-1326.
+50. Jónsdóttir, Ingibjörg S., et al. "Intraspecific trait variability is a key feature underlying high Arctic plant community resistance to climate warming." Ecological Monographs (2022): e1555.
+51. Keller, A., Ankenbrand, M. J., Bruelheide, H., Dekeyzer, S., Enquist, B. J., Erfanian, M. B., ... & Penone, C. (2023). Ten (mostly) simple rules to future proof trait data in ecological and evolutionary sciences. Methods in Ecology and Evolution 14(2), pp.444-458.
+52. Merow, C., Boyle, B., Enquist, B.J., Feng, X., Kass, J.M., Maitner, B.S., McGill, B., Owens, H., Park, D.S., Paz, A. and G.E. Pinilla-Buitrago (2023) Better incentives are needed to reward academic software development. Nature Ecology & Evolution, pp.1-2.
+2022
+53. Chacón-Labella, J., Hinojo-Hinojo, C., Bohner, T., Castorena, M., Violle, C., Vandvik, V. and B.J. Enquist (2022)  How to improve scaling from traits to ecosystem processes. Trends in Ecology & Evolution, 38(3), pp:228-237.
+54. Castorena, M., Olson, M.E., Enquist, B.J. and A. Fajardo (2022) Toward a general theory of plant carbon economics. Trends in Ecology & Evolution 37(10), pp: 829-837
+55. Pillet, M., Goettsch, B., Merow, C., Maitner, B., Feng, X., Roehrdanz, P., and B.J. Enquist (2022). Elevated extinction risk of cacti under climate change. Nature Plants 8, 366–372.
+56. Burger, J. R., Okie, J. G., Hatton, I. A., Weinberger, V. P., Shrestha, M., Liedtke, K. J., ... & Enquist, B. J. (2022). Global city densities: re-examining urban scaling theory. Frontiers in Conservation Science, 3, 125.
+57. Díaz, Sandra, et al. (2022) The global spectrum of plant form and function: enhanced species-level trait dataset. Scientific Data 9.1: 755.
+58. Zuidema, P. A., Babst, F., Groenendijk, P., Trouet, V., Abiyu, A., Acuña-Soto, R., et al.  & Zhou, Z. K. (2022). Tropical tree growth driven by dry-season climate variability. Nature Geoscience, 1-8.
+59. Guo, Wen-Yong, et al. (2022) High exposure of global tree diversity to human pressure. Proceedings of the National Academy of Sciences 119.25: e2026733119.
+60. Krieger, J., Duarte, G., Boakes, E., Capellao, R., Chaplin-Kramer, R., Enquist, B., Feng, X., Gomes, F., et al. (2022) Ambitious goals require inclusive and integrated spatial planning: Recommendations for the post-2020 Global Biodiversity Framework (2022) International Institute for Sustainability. http://pure.iiasa.ac.at/id/eprint/17841/ 
+61. Chaplin-Kramer, R., Brauman, K. A., Cavender-Bares, J., Díaz, S., Duarte, G. T., Enquist, B. J., ... & Zafra-Calvo, N. (2022). Conservation needs to integrate knowledge across scales. Nature Ecology & Evolution, 6(2), 118-119.
+62. Feng, X., Enquist, B. J., Park, D. S., Boyle, B., Breshears, D. D., Gallagher, R. V., ... & López‐Hoffman, L. (2022)  A review of the heterogeneous landscape of biodiversity databases: opportunities and challenges for a synthesized biodiversity knowledge base. Global Ecology and Biogeography. 2022 Apr 18.
+63. Boyle, B. L., Maitner, B. S., Barbosa, G. G., Sajja, R. K., Feng, X., Merow, C., ... & Enquist, B. J. (2022). Geographic name resolution service: A tool for the standardization and indexing of world political division names, with applications to species distribution modeling. Plos One, 17(11), e0268162.
+64. Maitner, B. S., Park, D. S., Enquist, B. J., & Dlugosch, K. M. (2022). Where we've been and where we're going: the importance of source communities in predicting establishment success from phylogenetic relationships. Ecography, 2022(6), e05406.
+65. Aguirre-Gutiérrez, Jesús, et al. Functional susceptibility of tropical forests to climate change. Nature Ecology & Evolution (2022): 1-12.
+66. Wieczynski, D.J., Díaz, S., Durán, S.M., Fyllas, N.M., Salinas, N., Martin, R.E., Shenkin, A., Silman, M.R., Asner, G.P., Bentley, L.P., Malhi, Y., B.J. Enquist and V.M. Savage (2022) Improving landscape scale productivity estimates by integrating trait-based models and remotely-sensed foliar trait and canopy structural data. Ecography, p.e06078.
+67. Lourenço Junior J, Enquist BJ, von Arx G, Sonsin Oliveira J, Morino K, Thomaz LD, Milanez CR. (2022)  Hydraulic tradeoffs underlie local variation in tropical forest functional diversity and sensitivity to drought. New Phytologist. 234 (1), 50-63
+68. Gatti, R.G. et al. (2022) The number of tree species on Earth. Proceedings of the National Academy of Sciences, U.S.A  DOI: 10.1073/pnas.2115329119
+69. Maitner BS, Park DS, Enquist BJ, Dlugosch KM. (2022) Both source and recipient range phylogenetic community structure can predict the outcome of avian introductions. Ecography. 
+70. Brun, P., Violle, C., Mouillot, D., Mouquet, N., Enquist, B.J., Munoz, F., Münkemüller, T., Ostling, A., Zimmermann, N.E. and W. Thuiller  (2022). Plant community impact on productivity: Trait diversity or key (stone) species effects? Ecology Letters. 25(4), 913-925.
+2021
+71. Enquist, B. J. (2021)  How Pandemics Rapidly Reshape the Evolutionary & Ecological Landscape, In: The Complex Alternative: Complexity Scientists on the COVID-19 Pandemic, T-033, D.C. Krakauer and G.West (eds), The Santa Fe Institute Press, Santa Fe, NM.
+72. Feng X, Merow C, Liu Z, Park DS, Roehrdanz PR, Maitner B, Newman EA, Boyle BL, Lien A, Burger JR, Pires MM. P. M. Brando, M.B. Bush, C.N.H. McMichael, D.M. Neves, E. Nikolopoulos, S.R. Saleska, L. Hannah, D.D. Breshears, T. Evans, J. R. Soto, K.Ernst and B.J. Enquist (2021) How deregulation, drought, and increasing fire impact Amazonian biodiversity Nature. 2021 Sep;597(7877):516-21.
+73. Neves DM, Kerkhoff AJ, Echeverría-Londoño S, Merow C, Morueta-Holme N, Peet RK, Sandel B, Svenning JC, Wiser SK, Enquist BJ. (2021) The adaptive challenge of extreme conditions shapes evolutionary diversity of plant assemblages at continental scales. Proceedings of the National Academy of Sciences. 2021 Sep 14;118(37)​​.  
+74. Huang, C.Y., Durán, S.M., Hu, K.T., Li, H.J., Swenson, N.G. and B.J. Enquist (2021) Remotely sensed assessment of increasing chronic and episodic drought effects on a Costa Rican tropical dry forest. Ecosphere, 12(11), p.e03824.
+75. Chaplin-Kramer, R., Brauman, K.A., Cavender-Bares, J., Díaz, S., Duarte, G.T., Enquist, B.J., Garibaldi, L.A., Geldmann, J., Halpern, B.S., Hertel, T.W. and Khoury, C.K., (2021) Conservation needs to integrate knowledge across scales. Nature Ecology & Evolution, pp.1-2.
+76. Jung, M, et al. (2021) Areas of global importance for conserving terrestrial biodiversity, carbon and water. Nature Ecology & Evolution 5.11: 1499-1509.
+77. Kühn, N., Tovar, C., Carretero, J., Vandvik, V., Enquist, B.J. and Willis, K.J., (2021). Globally important plant functional traits for coping with climate change. Frontiers of Biogeography, 13(4).
+78. Charney, N.D., Record, Gerstn,S.B., Merow, C., Zarnetske, P., B. J Enquist  (2021) A test of species distribution model transferability across environmental and geographic space for 108 western North American tree species. Frontiers in Ecology and Evolution ​​9, p.689295.
+79. Lourenco Jr, J., Newman, E. A., Ventura, J. A., Milanez, C. R. D., Thomaz, L. D., Wandekoken, D. T., & Enquist, B. J. (2021). Soil‐associated drivers of plant traits and functional composition in Atlantic Forest coastal tree communities. Ecosphere, 12(7), e03629.
+80. Flower, C.,  Hodgson, W.C., Salywon, A. M.  Maitner, B. S., Enquist, B.J., Peeples, M. A. and  B. Blonder. 2021. Human food use increases plant geographical ranges in the Sonoran Desert. Global Ecology and Biogeography. https://doi.org/10.1111/geb.13311
+81. Jehová, L., E. Newman, J., Ventura, R. Extensão, C. Milanez, L. Thomaz, D. Wandekoken, Douglas, and B. J. Enquist (2021) Soil-associated drivers of plant traits and forest functional composition in Atlantic Forest coastal plant communities. Ecosphere 12, no. 7: e03629.
+82. Kemppinen, J., Niittynen, P., le Roux, P.C., Momberg, M., Happonen, K., Aalto, J., Rautakoski, H., Enquist, B.J., Vandvik, V., Halbritter, A.H. and Maitner, B., 2021. Consistent trait–environment relationships within and across tundra plant communities. Nature Ecology & Evolution, 5(4), pp.458-467.
+83. Brummer, A., B., Panagiotis Lymperopoulos, J. Shen, E.Tekin, L. P. Bentley, V. Buzzard, A.Gray, I.Oliveras, B.J. Enquist, and V M. Savage. (2021) Branching principles of animal and plant networks identified by combining extensive data, machine learning and modelling. Journal of the Royal Society Interface 18, no. 174 (2021): 20200624.
+84. Aguirre-Gutiérrez, J., Rifai, S., Shenkin, et al. 2021. Pantropical modelling of canopy functional traits using Sentinel-2 remote sensing data. Remote Sensing of Environment, 252, p.112122.
+85. Labella, J. C., Boakye, M., Enquist, B., Farfan-Rios, W., Gya, R., Halbritter, A., ... & Vandvik, V. (2021). From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond. Ecology and Evolution, 11:3588–3596.
+2020
+86. Enquist, B. J., Abraham, A. J., Harfoot, M. B., Malhi, Y., & Doughty, C. E. (2020). The megabiota are disproportionately important for biosphere functioning. Nature communications, 11(1), 1-11.
+87. Swenson, N.G., C. M. Hulshof, M. Katabuchi, and B.J. Enquist. Long-term shifts in the functional composition and diversity of a tropical dry forest: a 30-yr study. Ecological Monographs 90(3), p.e01408.
+88. Park, D.S., Feng, X., Maitner, B.S., Ernst, K.C., and  B.J. Enquist (2020) Darwin’s naturalization conundrum can be explained by spatial scale. PNAS, 117:10904-1091.
+89. Enquist, B.J. (2020) Pandemics rapidly reshape the evolutionary and ecological landscape and have cascading social, economic, and other system-level effects. (Transmission T-033). Santa Fe Institute. https://www.santafe.edu/news-center/news/transmission-t-033-brian-enquist-how-pandemics-rapidly-reshape-evolutionary-and-ecological-landscape . See also, https://sfi-edu.s3.amazonaws.com/sfi-edu/production/uploads/ckeditor/2020/05/29/t-033-enquist_long.pdf 
+90. Halpern, B.S., Berlow, E., Williams, R., Borer, E.T., Davis, F.W., Dobson, A., Enquist, B.J., Froehlich, H.E., Gerber, L.R., Lortie, C.J. and M.I. O'Connor (2020)  Ecological Synthesis and Its Role in Advancing Knowledge. BioScience, 70(11), pp.1005-1014.
+91. Gallagher, R. V., Falster, D. S., Maitner, B. S., Salguero-Gómez, R., Vandvik, V., Pearse, W. D., ... & B.J. Enquist (2020). Open Science principles for accelerating trait-based science across the Tree of Life. Nature ecology & evolution, 4(3), 294-303.
+92. Geange, Sonya R., et al. Next‐generation field courses: Integrating Open Science and online learning. Ecology and Evolution 11, no. 8 (2021): 3577-3587.
+93. Vandvik, V., Halbritter, A.H., Yang, Y., He, H., Zhang, L., Brummer, A.B., Klanderud, K., Maitner, B.S., Michaletz, S.T., Sun, X. and Telford, R.J. et al. and B.J. Enquist 2020. Plant traits and vegetation data from climate warming experiments along an 1100 m elevation gradient in Gongga Mountains, China. Scientific data, 7(1), pp.1-15.
+94. Li, Y., P. B. Reich , N. Shrestha , B. Schmid , X. Feng , T. Lyu , B. S. Maitner , X. Xu , Yichao Li , D. Zou , Zheng-Hong Tan , X. Su , Zhiyao Tang , Q.Guo , X. Feng , B.J Enquist  and Z. Wang (2020) Leaf size of woody dicots predicts ecosystem primary productivity. Ecology Letters, 23(6):1003-1013.
+95. Wainwright, H., Steefel, C., Trutner, S.,  Henderson, A., Nikolopoulos, E., Chadwick, K. Falco, N., Wilmer, C., Steltzer, H., Williams, K., Hubbard, S., Schaettle, K., Brown, J., and B.J. Enquist (2020) Satellite-derived Foresummer Drought Sensitivity of Plant Productivity in Rocky Mountain Headwater Catchments: Spatial Heterogeneity and Geological-Geomorphological Control. Environmental Research Letters, 15:084018.
+96. Feng, X., Qiao, H., & Enquist, B. J. (2020). Doubling demands in programming skills call for ecoinformatics education. Frontiers in Ecology and the Environment, 18(3), 123-124.
+97. Kuppler, J., Albert, C.H., Ames, G.M., Armbruster, W.S., Boenisch, G., Boucher, F.C., Campbell, D.R., Carneiro, L.T., Chacón‐Madrigal, E., Enquist, B.J. and Fonseca, C.R., 2020. Global gradients in intraspecific variation in vegetative and floral traits are partially associated with climate and species richness. Global Ecology and Biogeography, 29:992-1007.
+98. Oliveras, Imma, et al. (2020) The influence of taxonomy and environment on leaf trait variation along tropical abiotic gradients." Frontiers in Forests and Global Change 3:18.
+99. Patrick, L., Thompson, S., Halbritter, A.H., Enquist, B.J., Vandvik, V. and Cotner, S., Adding Value to a Field‐Based Course with a Science Communication Module on Local Perceptions of Climate Change. The Bulletin of the Ecological Society of America, p.e01680.
+100. Martin, R.E., G. P. Asner, L. P. Bentley, A. F. Shenkin, N. Salinas, K. Q. Huaypar, M. M.Pillco, F. Delis C. Alverez, B. J Enquist, S. Diaz, Y. Malhi (2020) Covariance of Sun and Shade Leaf Traits Along a Tropical Forest Elevation Gradient. Frontiers in Plant Science, 10:1810.
+101. Hannah, L., Roehrdanz, P.R., Marquet, P.A., Enquist, B.J., Midgley, G., Foden, W., Lovett, J.C., Corlett, R.T., Corcoran, D., Butchart, S.H. and Boyle, B. (2020) 30% land conservation and climate action reduces tropical extinction risk by more than 50%. Ecography, 43:943-953. 
+2019
+102. Enquist, B.J. et al. (2019) The commonness of rarity: Global and future distribution of rarity across land plants. Science Advances, 5 (11), eaaz0414. 
+103. Buzzard, V., Michaletz, S. T., Deng, Y., He, Z., Ning, D., Shen, L., ... & Enquist, B. J. (2019). Continental scale structuring of forest and soil diversity via functional traits. Nature Ecology and Evolution, 3 (9), 1298-1308. 
+104. Durán, S.M., Martin,R.E., Díaz, S., Maitner, B.S., Malhi, Y., Salinas, N., Shenkin, A., Silman, M.L., Wieczynski, D.J., Asner, G.P., Bentley, L.P., Savage, V.M. and B.J. Enquist. Informing trait-based ecology by assessing remotely-sensed functional diversity across a broad tropical temperature gradient. Science Advances 5 (12), eaaw8114.
+105. Wieczynski, D., B. Boyle , V. Buzzard , S. Duran , A. Henderson , C. Hulshof , A. Kerkhoff , M. McCarthy , S. Michaletz , N. Swenson , G. Asner , L. Bentley , B. J. Enquist and V. Savage  Climate shapes and shifts functional biodiversity in forests worldwide. PNAS,116:587-592.
+106. Varadharajan C, Agarwal DA, Brown W, Burrus M, Carroll RW, Christianson DS, Dafflon B, Dwivedi D, Enquist BJ, Faybishenko B, Henderson A. Challenges in Building an End-to-End System for Acquisition, Management, and Integration of Diverse Data From Sensor Networks in Watersheds: Lessons From a Mountainous Community Observatory in East River, Colorado. IEEE Access. 2019 Dec 5;7:182796-813. 
+107. McFadden, I.R., Sandel, B., Tsirogiannis, C., Morueta‐Holme, N., Svenning, J.C., Enquist, B.J. and Kraft, N.J., (2019) Temperature shapes opposing latitudinal gradients of plant taxonomic and phylogenetic β diversity. Ecology Letters, 22:1126-1135.
+108. Chavana-Bryant, C., Malhi, Y., Anastasiou, A., Enquist, B.J., Cosio, E.G., Keenan, T.F. and Gerard, F.F., Leaf age effects on the spectral predictability of leaf traits in Amazonian canopy trees. Science of the Total Environment 666 (2019): 1301-1315.
+109. Sørensen, M.V., Graae, B.J., Classen, A., Enquist, B.J. and Strimbeck, R. Biotic and abiotic drivers of C cycling in three arctic-alpine tundra plant communities:potential mechanisms. Arctic, Antarctic and Alpine Research 51(1), pp.128-147.
+110. Merow, C., Maitner, B.S., Owens, H.L., Kass, J.M., Enquist, B.J., Jetz, W. and Guralnick, R., (2019) RMMS: Species’ Range Model Metadata Standards. Global Ecology and Biogeography, DOI:10.1111/geb.12993
+111. Bruelheide, H. et al. (2019) sPlot–A new tool for global vegetation analyses. Journal of Vegetation Science 30, no. 2: 161-186.
+112. Weiser, M.D., Ning. D., Buzzard, V., Michaletz, S.T., He., Z., Enquist, B.J., Waide, R.B., Zhou, J., and M. Kaspari. Thermal disruption of soil bacterial assemblages decreases diversity and assemblage similarity. Ecosphere, 10(2), p.e02598.
+113. Hogan, J.A., McMahon, S.M., Buzzard, V., Michaletz, S.T., Enquist, B.J., Thompson, J., Swenson, N.G. and Zimmerman, J.K., (2019) Drought and the interannual variability of stem growth in an aseasonal, everwet forest. Biotropica 51(2), pp.139-154.
+114. Aguirre‐Gutiérrez, J., Oliveras, I., Rifai, S., Fauset, S., Adu‐Bredu, S., Affum‐Baffoe, K., Baker, T.R., Feldpausch, T.R., Gvozdevaite, A., Hubau, W., N.J.B. Kraft, S.L. Lewis, S. Moore, Ü. Niinemets, T.Peprah, O.L. Phillips, K.Ziemińska, B.J. Enquist, and Y.Malhi (2019) Drier tropical forests are more susceptible to functional changes in response to a long term drought. Ecology Letters 22(5), pp.855-865.
+115. Steidinger et al. (2019)  Climatic controls of decomposition drive the global biogeography of forest tree symbioses. Nature 569(7756), p.404.
+116. Dillon, K.T., Henderson, A.N., Lodge, A.G., Hamilton, N.I., Sloat, L.L., Enquist, B.J., Price, C.A. and Kerkhoff, A.J. (2019) On the relationships between size and abundance in plants: beyond forest communities. Ecosphere 10(9), p.e02856.
+117. Barnett, D.T., Adler, P.B., Chemel, B.R., Duffy, P.A., Enquist, B.J., Grace, J.B., Harrison, S., Peet, R.K., Schimel, D.S., Stohlgren, T.J. and M. Vellend (2019) The plant diversity sampling design for The National Ecological Observatory Network. Ecosphere 10, no. 2: e02603.
+118. Šímová, I., Sandel, B., Enquist, B.J., Michaletz, S.T., Kattge, J., Violle, C., McGill, B.J., Blonder, B., Engemann, K., Peet, R.K. and Wiser, S.K. (2019) The relationship of woody plant size and leaf nutrient content to large‐scale productivity for forests across the Americas. Journal of Ecology, 107(5), pp.2278-2290.
+2018
+119. Doughty, C.E., Santos-Andrade, P.E., Shenkin, A., Goldsmith, G.R., Bentley, L.P., Blonder, B., Díaz, S., Salinas, N., Enquist, B.J., Martin, R.E. Asner, G.P. and Y. Malhi (2018) Tropical forest leaves may darken in response to climate change. Nature Climate Change, 2:1918–1924.
+120. Bjorkman, A.D. et al. (2018) (50+ international authors)  Plant functional trait change across a warming tundra biome Nature, 562:57–62.
+121. Echeverría-Londoño, S., Enquist, B.J., Neves, D.M., Violle, C., Boyle, B., Nathan J.B. Kraft, N.J.B., Maitner, B.S., McGill, B., Peet, R.K., Sandel, B., Smith, S.A., Svenning, J. Wiser, S.K., and Kerkhoff, A.J.,  (2018) Plant functional diversity and the biogeography of biomes in North and South America. Frontiers in Ecology and Evolution, 6:219.
+122. Henn, J.J., B. J. Enquist, A. H. Halbritter, K. Klanderud, B.S. Maitner, L. Patterson, C. Pöstch,  R.Telford, Y.Yang, and V.Vandvik. (2018)  The role of intraspecific trait variation and plasticity in mediating alpine plant response to climate change. Frontiers in Plant Science, 9:1548.
+123. Blonder, B., Enquist, B.J., Graae, B.J., Kattge, J., Maitner, B.S., Morueta‐Holme, N., Ordonez, A., Šímová, I., Singarayer, J., Svenning, J.C. and Valdes, P.J.  Late Quaternary climate legacies in contemporary plant functional composition. Global Change Biology, 24:4827-4840.
+124. Babst, F., Bodesheim, P., Charney, N., Friend, A.D., Girardin, M.P., Klesse, S., Moore, D.J., Seftigen, K., Björklund, J., Bouriaud, O., Dawson, A.,  DeRose, R.J., Dietze, M.C.,  Eckes, A., Enquist, B.J., Frank, D.C., Mahecha, M.D., Poulter, B., Record, S., Trouet, V.,  Turton, R., Zhang, Z., & M.E.K. Evans. When tree rings go global: challenges and opportunities for retro- and prospective insight. Quaternary Science Reviews 197:1-20.
+125. Messier, J., Violle, C., Enquist, B.J., Lechowicz, M.J., and B.J. McGill (2018) Similarities and differences in intrapopulation trait correlations of co‐occurring tree species: consistent water‐use relationships amid widely different correlation patterns. American Journal of Botany, 9:1477-1490.
+126. Taylor, T., McMahon, S., Smith, M., Boyle, B.,Violle, C., van Haren, Joost, Simova, I., Meir, P., Ferreira, L., de Camargo, P., da Costa, A., Enquist, BJ., and S. Saleska  (2018) Isoprene emission structures tropical tree biogeography and community assembly responses to climate. New Phytologist 220:435-446.
+127. Eiserhardt, W.L., Antonelli, A., Bennett, D.J., Botigué, L.R., Burleigh, J.G., Dodsworth, S., Enquist, B.J., Forest, F., Kim, J.T., Kozlov, A.M., Leitch, I.J., Maitner, B.S., Mirarab, S., Piel, W.H.,  Pérez‐Escobar, O.A., Pokorny, L.,  Rahbek, C., Sandel, B., Smith, S.A.  Stamatakis, A., Vos, R.A, Warnow, T., and W.J. Baker (2018) A roadmap for global synthesis of the plant tree of life. American Journal of Botany, 105:614-622.
+128. Vasseur, F., Exposito-Alonso, M., Ayala-Garay, O., Wang, G., Enquist, B.J., Violle, C. Vile, D. and D. Weigel (2018) Adaptive diversification of plant allometry in Arabidopsis thaliana. Proceedings of the National Academy of Sciences,115: 3416-3421.
+129. Maitner, B.S., B. Boyle, N. Casler, R. Condit, J. Donoghue II, S. M. Durán, D. Guaderrama, C. E Hinchliff, P. M. Jørgensen, N. J. B. Kraft, B. McGill, C. Merow, N. Morueta-Holme, R. K. Peet, B. Sandel, M. Schildhauer, S. A. Smith, Jens-Christian Svenning, B. Thiers, C. Violle, S. Wiser, and B. J. Enquist. (2018) The BIEN R package: A tool to access the Botanical Information and Ecology Network (BIEN) Database. Methods in Ecology and Evolution, 9:373-379.
+130. Michaletz ST, AJ Kerkhoff & BJ Enquist (2018) Drivers of terrestrial plant production across broad geographic gradients. Global Ecology and Biogeography 27:166-174.
+131. Blonder, B., Salinas, N., Patrick Bentley, L., Shenkin, A., Chambi Porroa, P.O., Valdez Tejeira, Y., Boza Espinoza, T.E., Goldsmith, G.R., Enrico, L., Martin, R., Asner, G.P., Díaz, S., Enquist, B.J., and Y. Malhi. (2018) Structural and defensive roles of angiosperm leaf venation network reticulation across an Andes‐Amazon elevation gradient. Journal of Ecology 106:1683-1699. 
+132. Poorter, L., van der Sande, M.T., Arets, E.J., Ascarrunz, N., Enquist, B., Finegan, B., Carlos Licona, J., Martínez‐Ramos, M., Mazzei, L., Meave, J.A. and Muñoz, R. (2018) Biodiversity and climate determine the functioning of Neotropical forests. Global Ecology and Biogeography, 27:389-390.
+133. Šímová I, Violle C, Svenning JC, Kattge J, Engemann K, Sandel B, Peet RK, Wiser SK, Blonder B, McGill BJ, Boyle B and B.J. Enquist (2018)  Spatial patterns and climate relationships of major plant traits in the New World differ between woody and herbaceous species. Journal of Biogeography, 45:895-916.
+134. Serra-Diaz JM, Enquist B.J., Maitner B., Merow C., and Svenning J.C. (2018) Big data of tree species distributions: how big and how good?  Forest Ecosystems 1:30. https://doi.org/10.1186/s40663-017-0120-0.
+135. Oliveras, I., Román‐Cuesta, R.M., Urquiaga‐Flores, E., Quintano Loayza, J.A., Kala, J., Huamán, V., Lizárraga, N., Sans, G., Quispe, K., Lopez, E., Lopez, D., Torres, I.C. Enquist, B.J. and Y. Malhi (2018) Fire effects and ecological recovery pathways of tropical montane cloud forests along a time chronosequence. Global Change Biology, 24:758-77.
+2017
+136. Enquist, B.J., L.P. Bentley, A. Shenkin, B. Maitner, V. Savage,  S. Michaletz, B. Blonder, V. Buzzard, T. E. Boza Espinoza, W. Farfan-Rios, C. Doughty, G. R. Goldsmith, R. E. Martin, N. Salinas, M. Silman, S. Díaz, G. P. Asner, & Y. Malhi (2017) Assessing trait-based scaling theory in tropical forests spanning a broad temperature gradient Global Ecology and Biogeography, 26:1357-137
+137. Blonder, B., Morrow, C.B., Maitner, B., Harris, D.J., Lamanna, C., Violle, C., Enquist, B.J. and Kerkhoff, A.J., 2018. New approaches for delineating n-dimensional hypervolumes. Methods in Ecology and Evolution, 9:305-319. 
+138. Doughty CE, Santos‐Andrade PE, Goldsmith GR, Blonder B, Shenkin A, Bentley LP, Chavana‐Bryant C, Huaraca‐Huasco W, Díaz S, Salinas N, Enquist BJ et al. (2017) Can Leaf Spectroscopy Predict Leaf and Forest Traits Along a Peruvian Tropical Forest Elevation Gradient? Journal of Geophysical Research: Biogeosciences, 122:2952-65.
+139. Willis, K.J., Carretero, J., Enquist, B.J., Kuhn, N., Tovar, C. and V. Vandvik (2017) Climate change – which plants will be the winners? In: Willis, K.J. (ed.) State of the World’s Plants 2017. Report. Royal Botanic Gardens, Kew. ISBN: 978-1-84246-647-6.Which traits are favored under climate change? https://stateoftheworldsplants.com/2017/climate- change.html
+140. Blonder, B., Lamanna, C., Violle, C. and Enquist, B.J., 2017. Using n‐dimensional hypervolumes for species distribution modelling: A response to Qiao et al.(). Global Ecology and Biogeography, 26:1071-1075.
+141. Weiser MD, Michaletz ST, Buzzard V, Deng Y, He Z, Shen L, Enquist BJ, Waide RB, Zhou J, and Kaspari M. (2018) Toward a theory for diversity gradients: the Abundance-Adaptation Hypothesis. Ecography 41:255-64.
+142. Brummer, A.B., Savage, V.M., and B. J. Enquist (2017) A General Model for Metabolic Scaling in Self-Similar Asymmetric Networks. PLoS Computational Biology, 13: e1005394.
+143. Stark, J., Lehman, R., Crawford, L., Enquist, B.J. and B. Blonder (2017) Does environmental heterogeneity drive functional trait variation? A test in montane and alpine meadows. Oikos 126:1650-1659.
+144. Messier J, Lechowicz MJ, McGill BJ, Violle C, and B.J. Enquist (2017) Interspecific integration of trait dimensions at local scales: The plant phenotype as an integrated network. Journal of Ecology, 105:1775-90. 
+145. Fyllas, N.M., Patrick Bentley, L., Shenkin, A., Asner, G.P., Atkin, O.K.,  Díaz, S., Enquist, B.J., Farfan-Rios, W.,  Gloor, E.,  Guerrieri, R.,  Huaraca Huasco, W.,  Ishida, Y.,  Martin, R.E.,  Meir, P.,  Phillips, O.,  Salinas, N., Silman, M.,  Weerasinghe, L.K.,   Zaragoza-Castells, J., and Y. Malhi. (2017) Solar radiation and functional traits explain the decline of forest primary productivity along a tropical elevation gradient. Ecology Letters, 20:730-740.
+146. Blonder, B., Moulton, D.E., Blois, J., Enquist, B.J., Graae, B.J., Macias-Fauria, M., McGill, B.J., Nogué, S., Ordonez, A., Sandel, B., and J. Svenning (2017).  Predictability in community dynamics. Ecology Letters, 20: 293–306.
+147. Weiser, M. D., Swenson, N.G., Enquist, B.J., Michaletz, S.T.,  Waide, R.B., Zhou, J., and M. Kaspari (2017) Taxonomic Decomposition of the Latitudinal Gradient in Species Diversity of North American Floras.  Journal of Biogeography, 45:418-428.
+148. Csergo, A.M., Salguero-Gomez, R.,  Broennimann, O., Coutts, S.R.,Guisan, A., Angert, A.L.,  Welk, E., Stott, I.,  Enquist, B.J.,  McGill, B., Svenning, J., Violle, C.,  and Y. M. Buckley (2017)  Less favourable climates constrain demographic strategies in plants.  Ecology Letters, 20(8), pp.969-980.
+149. Kaspari, M., J. Bujan, D. Ning, S.T. Michaletz, Z. He, B.J. Enquist, R.B. Waide, J. Zhou, M.D. Weiser, B. Turner and S.J. Wright (2017). Biogeochemistry drives abundance and diversity in the prokaryotes, fungi, and invertebrates of a Panama forest. Ecology, 98:2019–2028.
+150. María Natalia Umaña, X. Mi, Min Cao, B.J. Enquist, Z. Ha, R. Howe, Y. Iida, D. Johnson, L. Lin, X. Liu, K. Ma , I-Fang Sun , J. Thompson , M. Uriarte , X. Wang , A. Wolf , J. Yang, J. K. Zimmerman, and N. G. Swenson (2017). The role of functional uniqueness and spatial aggregation in explaining rarity in trees. Global Ecology and Biogeography, 26:777-786.
+151. Sørensen, M., Strimbeck, R., Nystuen, K., Kapas R., Enquist, B.J. and B. Graae (2017) Draining the pool? Carbon storage and fluxes in three alpine plant communities. Ecosystems, 21:316-330.
+152. Blonder, B., Salinas, N., Patrick Bentley, L., Shenkin, A., Chambi Porroa P.O., Valdez Tejeria, Y., Violle, C., Fyllas, N.M., Goldsmith, G.R., Martin, R., Asner, G.P., Diaz, S., Enquist, B.J. and Y. Malhi (2017) Predicting trait-environment relationships for venation networks along an Andes-Amazon elevation gradient. Ecology, 98:1239-1255.
+153. Gallet, R.M, Violle, C., Fromin, N., Zahab, R., Enquist, B.J., and T. Lenormand (2017). The evolution of bacterial cell size: the internal diffusion-constraint hypothesis. The ISME Journal, 11:1559—1568.
+154. Asner, G.P., R. E. Martin, C. B. Anderson, K. Kryston, N. Vaughn, D. E. Knapp, L. P. Bentley, A. Shenkin, N. Salinas, F. Sinca, R. Tupayachi, K. Q. Huaypar, M. M. Pillco, F. D. Ccori Álvarez, S. Diaz, B.J. Enquist, Y. Malhi. (2016) Scale-dependence of Canopy Trait Distributions Along a Tropical Forest Elevation Gradient. New Phytologist, 214: 973-988.
+
+
+2016
+155. Enquist, B. J., Condit, R., Peet, R. K., Schildhauer, M., & Thiers, B. M. (2016). Cyberinfrastructure for an integrated botanical information network to investigate the ecological impacts of global climate change on plant biodiversity (No. e2615v1). PeerJ Preprints.
+156. Michaletz, S.T., M.D. Weiser,N.G. McDowell, J. Zhou, M. Kaspari, B.R. Helliker, and B. J. Enquist (2016). The energetic and carbon economic origins of leaf thermoregulation. Nature Plants, 2:16129.
+157. Evans, M., Merow, C., Record, S., McMahon, S. and B.J. Enquist (2016) Towards process-based range modeling of many species. Trends In Ecology and Evolution, 31: 860-871.
+158. Charney, N.D., Babst, F., Poulter, B., Record, S., Trouet, V.M., Frank, D., Enquist, B.J. and M. E. K. Evans. (2016) Observed forest sensitivity to climate implies large changes in 21st century North American forest growth. Ecology Letters, 19:1119-1128.
+159. Carey, Joanna C., Jianwu Tang, Pamela H. Templer, Kevin D. Kroeger, Thomas W. Crowther, Andrew J. Burton, Jeffrey S. Dukes et al. Temperature response of soil respiration largely unaltered with experimental warming (2016). Proceedings of the National Academy of Sciences 113: 13797-13802.
+160. Zhou, J.  Y.Deng, L. Shen, C. Wen, Q.Yan, D.Ning, Y.Qin, K. Xue, L.Wu, Z.He, J. Voordeckers, J.V. Nostrand, V.Buzzard, S. Michaletz, B. J. Enquist, M. Weiser, M. Kaspari, R.Waide, Y.Yang, and J.H.Brown. (2016) Temperature mediates continental-scale diversity of microbes in forest soils. Nature Communications, doi:10.1038/ncomms12083.
+161. Garnier, E., U.Stahl, M. Laporte, J. Kattge, I. Mougenot, I. Kühn, B. Laporte, B. Amiaud, F. S. Arrestant, G. Bönisch, D. E. Bunker, J. H. C. Cornelissen, S. Díaz, B. J. Enquist, S. Machet, P. Jaureguiberry, M. Kleber, S. Lavorel, L. Mancher, N. Pérez-Harguindeguy, H. Poorter, M. Schildhauer, B. Shipley, C. Violle, E. Weiher, C. Wirth, I. J. Wright, S. Klotz. (2016) Towards a thesaurus of plant characteristics: an ecological contribution. Journal of Ecology, 10.1111/1365-2745.12698
+162. Neyret, M., Bentley, L.P., I. Oliveras, B.S. Marimon, B.H. Marimon-Junior, E. Almeida de Oliveira, Fábio Barbosa Passos, R. Castro Ccoscco, J. dos Santos, S.M. Reis, P. Morandi, G.R. Paucar, A. R. Cáceres, Y.Valdez Tejeira, Y. Yllanes, Choque, Norma Salinas, A. Shenkin, G.P. Asner, S. Díaz, B. J. Enquist and Y.Malhi. (2016) Examining variation in the leaf mass per area of dominant species across two contrasting tropical gradients in light of community assembly. Ecology and Evolution, doi:10.1002/ece3.2281
+163. Messier, J., McGill, B.J., Enquist, B.J., and M. Lechowicz (2016) Trait variation and integration across scales: Is the leaf economic spectrum present at local scales? Ecography doi:10.1111/ecog.02006
+164. Feakins, S.J, T. Peters, M.S. Wu, A. Shenkin, N. Salinas, C.A.J. Girardin, L. P. Bentley, B. Blonder, B. J. Enquist, R.E. Martin, G. P. Asner, Y. Malhi (2016) Production of leaf wax n-alkanes across a tropical forest elevation transect. Organic Geochemistry 100: 89–100.
+165. Feakins, S.J., Bentley, L.P., Salinas, N., Shenkin, A., Blonder, B., Goldsmith, G.R., Ponton, C., Arvina, L.J., Sin Wua, M., Peters, T., West, A.J., Martin, R.E., Enquist, B.J., Asner, G.P., Malhi, Y. (2016) Plant leaf wax biomarkers capture gradients in hydrogen isotopes of precipitation from the Andes and Amazon. Geochimica et Cosmochimica Acta, 182: 155-172.
+166. Goldsmith, G.R., L.P. Bentley, A.Shenkin, N. Salinas, B. Blonder, R. E. Martin, R. Castro-Ccossco, P. Chambi-Porroa, S. Diaz, B. J. Enquist, G. P. Asner and Y. Malhi (2016) Variation in leaf wettability traits along a tropical montane elevation gradient. New Phytologist, doi: 10.1111/nph.14121.
+167. Chavana-Bryant, C., Malhi, Y., Wu, J., Asner, G.P., Anastasiou, A., Enquist, B.J., E.G. Cosio Caravasi, C. E. Doughty, S.R. Saleska, Martin, R.E., and F. F. Gerard (2016) Leaf aging of Amazonian canopy trees as revealed by spectral and physiochemical measurements. New Phytologist, doi: 10.1111/nph.13853
+168. Morueta-Holme, N., Blonder, B., Sandel, B., McGill, B.J., Peet, R.K., Ott, J., Violle, C., Enquist, B.J., Jorgensen, P. M., and J. Svenning. (2016) A network approach for inferring species associations from co-occurrence data. Ecography, 39: 1139–1150.
+169. Goldsmith, G.R., Morueta-Holme, N., Sandel, B. Fitz, E.D., Fitz, S.D., Boyle, B., Casler,N. Engemann, K., Jorgensen, P.M., Kraft, N.J.B., McGill, B., Peet, R.K., Piel, W.H., Spencer, N., Svenning, J.C., Thiers, B.M., Violle, C., Wiser, S.K., and B.J. Enquist. (2016) Plant-O-Matic: A dynamic and mobile guide to all plants of the Americas. Methods in Ecology and Evolution, doi: 10.1111/2041-210X.12548.
+170. Enquist, B.J., Michaletz S.T., and A.J. Kerhkoff (2016) Toward a General Scaling Theory for Linking Traits, Stoichiometry, and Body Size to Ecosystem Function. In: Ecosystems: A Biogeoscience Approach. E. A. Johnson and Y.E. Martin (editors), Cambridge University Press.
+171. Buzzard, V., Hulshof, C.M., Birt, T., Violle, C., and B.J. Enquist (2016) Re-growing a tropical dry forest: Functional plant trait diversity and community assembly during succession. Functional Ecology, 30: 1006–1013.
+172. Qichao Tu, Ye Deng, Qingyun Yan, Lina Shen,Lu Lin, Zhili He, Liyou Wu, Joy Van Nostrand, Vanessa Buzzard, Sean T. Michaletz, Brian J. Enquist, Michael D. Weiser, Michael Kaspari, Robert Waide, James H. Brown, Jizhong Zho (2016) Biogeographic Patterns of Soil Diazotrophic Communities across Six Forests in North America. Molecular Ecology, 10.1111/mec.13651
+173. Enquist, B.J. (2016) Biology Distilled. Nature, 531:34.
+174. Blonder, B.W., Baldwin, B.G., Enquist, B.J. and Robichaux, R.H. (2016) Variation and macroevolution in leaf functional traits in the Hawaiian silversword alliance (Asteraceae). Journal of Ecology, 104:219-28.
+175. Doughty, C., A. Wolf, N. Morueta-Holme, P.M. Jørgensen, B. Sandel, C. Violle, B. Boyle, N.J.B. Kraft, R.K. Peet, B. Enquist, J.-C. Svenning, S. Blake, M. Galetti. (2016). Megafauna extinction, tree species range reduction, and carbon storage in Amazonian forests. Ecography, 39: 194–203.
+176. Engemann, K., Sandel, B., Morueta-Holme, N., Enquist, B.J., Peet, R.K., Wiser, S. and J.C. Svenning (2016) Patterns and drivers of plant functional group dominance across the Western Hemisphere – a macroecological re-assessment based on a massive botanical dataset. Botanical Journal of the Linnaean Society, 180:141-60.
+
+
+2015
+177. Enquist, B.J., Norberg, J., Bonsor, S.P., Violle, C., Webb, C.T., Henderson, A., Sloat, L.L., and V.M. Savage (2015) Scaling from traits to ecosystems: Developing a general Trait Driver Theory via integrating trait-based and metabolic scaling theories. Advances in Ecological Research, 52: 249–318.
+178. Michaletz, S.T., M. D. Weiser, J.Zhou, M.Kaspari, B. R. Helliker, and B. J. Enquist (2015).  Plant thermoregulation: Energetics, trait-environment interactions, and carbon economics. Trends in Ecology and Evolution, 30:714-724.
+179. Duncanson, L.I., Dubayah, R.O, and  B. J. Enquist  Assessing the general patterns of forest structure: Quantifying tree and forest allometric scaling relationships in the United States. Global Ecology and Biogeography, 24:1465-1475.
+180. Blonder, B., Vasseur, F., Violle, C., Shipley, B., Enquist, B.J. and D. Vile. Testing models for the leaf economics spectrum with leaf and whole-plant traits in Arabidopsis thaliana. AoB Plants, 7:plv049. doi: 10.1093/aobpla/plv049. Selected as an Editor’s Choice publication.
+181. Stark, S.C., Enquist, B.J., Saleska, S.R., Leitold, V., Schietti, J.,  Longo, M.,  Alves, L.F., Camargo, P.B., and R. C. Oliveira (2015) Linking canopy leaf area and light environments with tree size distributions to explain Amazon forest demography. Ecology Letters, 18:636-45.
+182. Poorter, L., M.T. van der Sande, J. Thompson, E.J.M.M. Arets, A. Alarcón, J. Álvarez-Sánchez, N. Ascarrunz, P. Balvanera, G. Barajas-Guzmán, A. Boit, F. Bongers, F.A. Carvalho, F. Casanoves, G. Cornejo-Tenorio, F.R.C. Costa, C.V. de Castilho, J.F. Duivenvoorden, L.P. Dutrieux, B.J. Enquist, F. Fernández-Méndez, B. Finegan, L.H.L. Gormley, J.R. Healey, M.R. Hoosbeek, G. Ibarra-Manríquez, A.B. Junqueira, C. Levis, J.C. Licona, L.S. Lisboa, W.E. Magnusson, M. Martínez-Ramos, A. Martínez-Yrizar, L.G. Martorano, L.C. Maskell, L. Mazzei, J.A. Meave, F. Mora, R. Muñoz, C. Nytch, M.P. Pansonato, T.W. Parr, H. Paz, M. Simoes Penello, E.A. Pérez-García, L.Y. Rentería, J. Rodríguez-Velazquez, D.M.A. Rozendaal, A.R. Ruschel, B. Sakschewski, B. Salgado Negret, J. Schietti, F.L. Sinclair, P.F. Souza, F.C. Souza, J. Stropp, H. ter Steege, N.G. Swenson, K. Thonicke, M. Toledo, M. Uriarte, P. van der Hout, P. Walker, N. Zamora, and M. Peña-Claros. (2015). Diversity enhances carbon storage in tropical forests. Global Ecology and Biogeography, 24: 1314-1328.
+183. Grady, J.M., Enquist,B.J., Dettweiler-Robinson, E., Wright, N. A.,  and F. A. Smith (2015)  TECHNICAL COMMENTS: Response to Comments on “Evidence for mesothermy in dinosaurs. Science, 348: 982.
+184. Sloat, L.L., Henserson, A.N., Lamanna, C.A., and B.J. Enquist (2015) The effect of the foresummer drought on carbon exchange in subalpine meadows. Ecosystems.18: 533-545.
+185. Blonder, B., Nogués-Bravo, D., Borregaard, M.K., Donoghue II, J.C., Jørgensen, P.M., Kraft, N.J.B., Lessard, J-P., Morueta-Holme, N., Sandel, B., Svenning, J.C., Violle, C., Rahbek, C. and B.J. Enquist (2015) Linking environmental filtering and disequilibrium to biogeography with a community climate framework. Ecology, 96:972–985.
+186. Li, Y., Dlugosch, K., Enquist, B.J. (2015) Novel spatial analysis methods reveal scale-dependent spread and its limiting factors in invasive Sahara mustard. Ecography 38:311-320.
+187. Engemann, Kristine, Brian J. Enquist, Brody Sandel, Brad Boyle, Peter M. Jørgensen, Naia Morueta‐Holme, Robert K. Peet, Cyrille Violle, and Jens‐Christian Svenning. (2015) Limited sampling hampers “big data” estimation of species richness in a tropical biodiversity hotspot. Ecology and Evolution, 5:807-820.
+188. Marquet, P.A., A.P. Allen, J.H. Brown, J.A. Dunne, B.J. Enquist, J.F.Gillooly, P.A. Gowaty, J.Harte, S.P. Hubbell, J.G. Okie, A. Ostling, M.Ritchie, D.Storch, and G.B.West (2015) On the Importance of First Principles in Ecological Theory Development. BioScience, 65: 342-343 doi:10.1093/biosci/biv015.
+189. Šímová, I., C..Violle, C.,  N. J. B. Kraft, D. Storch, J. C. Svenning, B. Boyle, J. Donoghue, P. Jørgensen, B. J. McGill,  N. Morueta-Holme, W. H. Piel,  R. K. Peet,  J. Regetz, M. Schildhauer, N. Spencer, B. Thiers, S.  Wiser and B. J. Enquist (2015) Shifts in trait means and variances in North American tree assemblages: species richness patterns are loosely related to the functional space. Ecography 38: 649–658.
+2014
+190. Michaletz, S.T., Cheng, D., Kerkhoff, A.J., and B.J. Enquist (2014). Convergence of woody plant production across global climate gradients.  Nature,  512: 39-43.  Corrigendum  Nature  (2016)  doi:10.1038/nature18269
+191. Grady, J.M., Enquist, B.J., Dettweiler-Robinson, E., Wright, N.A. and F.A. Smith. (2014) Evidence for mesothermy in dinosaurs.Science, 344:1268-1272.
+192. Lamanna, C. A., Blonder, B., Violle, C. Kraft, N. J. B., Sandel, B. Simova, I. Donoghue, J., Svenning, J.C., McGill, B.J. Boyle, B. Dolins, S. Jørgensen Marcuse-Kubitza, , P. M. A., Morueta-Holme, N., Peet, R.K., Piel, W., Regetz, J., Schildhauer, M., Spencer, N. Theirs, M., Wiser, S. K., and B. J. Enquist (2014). Testing theories for the latitudinal diversity gradient in functional trait space. PNAS (Special Issue on ‘Functional Biogeography’) 111:13745-13750.
+193. Violle, C., Reich, P. B., Pacala, S. W., Enquist, B.J., and J. Kattge. (2014) The Emergence and Promise of Functional Biogeography.PNAS (Introductory paper for PNAS special Issue on ‘Functional Biogeography’) 111: 13690–13696.
+194. Marquet,P.A., A.P. Allen, , J. H. Brown, J. Dunne, B.J. Enquist, J. Gillooly, P.A. Gowaty, J. L. Green, D. Storch, J. Harte, S. P. Hubbell, J. O´Dwyer, J. Okie, M. Ritchie, A. Ostling, and G. B. West. (2014) On theory in ecology. BioScience, 4: 701-710.
+195. Blonder, B., Royer, D.L., Johnson, K. R., Miller, I., and B.J. Enquist (2014) Plant ecological strategies shift across the Cretaceous-Paleogene boundary PLoS Biology, DOI: 10.1371/journal.pbio.1001949  Click here for PLoS Biology access.  News and View article, A Plant’s Guide to Surviving the Chicxulub Impact by J. M. Chase
+196. Blonder B, Sloat L, Enquist B.J., McGill B (2014) Separating Macroecological Pattern and Process: Comparing Ecological, Economic, and Geological Systems. PLoS ONE 9(11): e112850. doi:10.1371/journal.pone.0112850
+197. Barnagaud, J., Kissling,W.D., Sandel, B, Eiserhardt, L., Sekercioglu, C.H., Enquist, B.J., Tsirogiannis,, C., and J. Svenning (2014) Ecological traits influence the phylogenetic structure of bird species co-occurrences worldwide. Ecology Letters, DOI: 10.1111/ele.12285
+198. Blonder, B., Lamanna, C., Violle, C, and B.J. Enquist (2014) The n-dimensional hypervolume. Global Ecology and Biogeography, 23:595-609.
+199. Blonder, B. and B.J. Enquist. (2014) Inferring climate from angiosperm leaf venation network geometry. New Phytologist, 204: 116-126.
+200. Blonder, B., Violle, C., Patrick Bentley, L., and B.J. Enquist (2014) Inclusion of vein traits improves predictive power for the leaf economic spectrum: A response to Sack et al. (2013). Journal of Experimental Botany, DOI: 10.1093/jxb/eru143
+201. Sides, C. B., Enquist, B. J., Ebersole, J. J., Smith, M. N., Henderson, A. N., & Sloat, L. L. (2014). Revisiting Darwin’s hypothesis: Does greater intraspecific variability increase species’ ecological breadth? American Journal of Botany, 101: 56-62.
+202. Smith, D. D., Sperry, J. S., Enquist, B. J., Savage, V. M., McCulloh, K. A., & Bentley, L. P. (2014). Deviation from symmetrically self-similar branching in trees predicts altered hydraulics, mechanics, light interception and metabolic scaling. New Phytologist, 201: 217-229.
+203. Hulshof, C.M., Martínez-Yrízar, A., Burquez, A., Boyle, B., and B.J. Enquist (2014) Plant functional trait variation in tropical dry forests: A review and synthesis. In: Tropical Dry Forests in the Americas, (Editors Jennifer Powers and Arturo Sanchez-Azofeifa), Pp 129-140, CRC Press.
+2013
+204. Morueta-Holme, N., Enquist, B.J., McGill, B.J., Boyle, B., Jørgensen, P. M., Ott, J. E., Peet, R. K., Simova, I., Sloat, L., Thiers, B., Violle, C. Wiser, S. K., Dolins, S., Donoghue, J. C. II, Kraft, N.J.B., Regetz, J., Schildhauer, M., Spencer, N, and J.C., Svenning. (2013) Habitat area and climate stability determine geographical variation in plant species range sizes. Ecology Letters, 16:1446-1454.
+205. Blonder, B., Violle, C. and B.J. Enquist. (2013) Assessing the causes and scales of the leaf economics spectrum using  venation networks in Populus tremuloides. Journal of Ecology, 101: 981-989.
+206. Boyle, B., Lu. Z., Hopkins, N., Piel, W., Antonio, J., Garay, R., Gregory, S., Lowry, S., Matasci, N., Mckay, S.J., Narro, M.L., Skidmore, E. and B.J. Enquist (2013) The Taxonomic Name Resolution Service: an online tool for automated standardization of plant names. BMC Bioinformatics, 14:16(http://www.biomedcentral.com/1471-2105/14/16).
+207. Hulshof, C.M., Violle, C., Spasojevic, M., McGill, B., Damschen, E., Harrison, S., and B.J. Enquist. (2013) Intra-specific and inter-specific variation in specific leaf area reveal the importance of abiotic and biotic drivers of species diversity across elevation and latitude. Journal of Vegetation Science, 24: 921-931.
+208. Bentley, L., Stegen, J., Savage, V., Smith, D., von Allmen, E., Sperry, J., P. Reich, and B.J. Enquist (2013). An empirical assessment of tree branching networks and implications for plant allometric scaling models. Ecology Letters, 16: 1069-1078.
+209. Moles, A.T., et al. (2013) Correlations between physical and chemical defenses in plants: tradeoffs, syndromes, or just many different ways to skin a herbivorous cat? New Phytologist, 198:252-263.
+
+
+2012
+210. Blonder, B., Buzzard, V., Simova, I., Sloat, L., Boyle, B. (and 49 middle school students) and B.J. Enquist (2012) The leaf area shrinkage effect can bias paleoclimate and ecology research. American Journal of Botany, 99:1756-1763.
+211. Blonder, B., De Carlo, F., Rivers, M. and B.J. Enquist (2012) Synchrotron x-ray imaging of leaf venation networks. New Phytologist, 196:1274-1282.
+212. Violle, C., Enquist, B.J., McGill, B.J., Jian, L., Albert, C.H., Hulshof, C., Jung, V, and J. Messier (2012). Viva la variance! Trends in Ecology and Evolution, 27:475-476.
+213. Enquist, B. J., Boyle, B. (2012): SALVIAS – the SALVIAS vegetation inventory database. – In: Dengler, J., Oldeland, J., Jansen, F., Chytrý, M., Ewald, J., Finckh, M., Glöckler, F., Lopez-Gonzalez, G., Peet, R.K., Schaminée, J.H.J. [Eds.]: Vegetation databases for the 21st century. – Biodiversity & Ecology 4: 288–288. DOI: 10.7809/b-e.00086.
+214. Vasseur, F., Violle, C., Enquist, B.J., Granier, C. and D. Vile (2012) A common genetic basis to the origin of the leaf economics spectrum and metabolic scaling allometry. Ecology Letters, 15:1149-1157.
+215. Sperry, J., Smith, D., Savage, V.M., Enquist, B.J., McCulloh, K., Reich, P.B., Bentley, L.P.,von Allmen, E. (2012) A species’ specific model of the hydraulic and metabolic allometry of trees I: model description, predictions across functional types, and implications for inter-specific scaling. Functional Ecology, 5:1054-1065.
+216. von Allmen, E., Sperry, J., Smith, D., Savage, V.M., Enquist, B.J., Reich, P.B., Bentley, L.P. (2012) A species’ specific model of the hydraulic and metabolic allometry of trees II: testing predictions of water use and growth scaling in ring- and diffuse-porous species.Functional Ecology, 5:1066-1076.
+217. Stegen, J., B.J. Enquist, and R. Ferriere (2012) Eco-Evolutionary community dynamics: Covariation between diversity and invisibility across temperature gradients. American Naturalist, 180:E110-E126.
+218. Violle, C., Enquist, B.J., McGill, B.J. Jiang, L., Albert, C.H., Hulshof, C., Jung, V., Messier, J. (2012) The return of the variance: intraspecific variability in community ecology. Trends in Ecology and Evolution, 27:244-252.
+219. Stegen, J.C., Ferriere, R. and B.J. Enquist (2012) Evolving ecological networks and the emergence of biodiversity patterns across temperature gradients. Proc. Roy. Soc. B. 279:1051-1060.
+220. Enquist, B.J. and L. Patrick Bentley (2012) Metabolic scaling in land plants: new theoretical directions and empirical prospects. In: Metabolic Theory of Ecology, pp 164-187. JH. Brown, A. Kodric-Brown, R. Sibley Eds. Oxford University Press.
+
+
+221. Swenson, N.G., Enquist, B.J., Pither, J., Kerkhoff, A.J., Boyle, , Weiser, M.D., Elser, J.J., Fagan, W.F., N. J.B. Kraft, A. T. Moles, O. L. Phillips, Price,, C.A., Reich, P.B., Stegen, J.C., Valencia, R., Wright, I.J., Andelman, S., Hulshof, C.F., Jørgensen, P.M., Lacher Jr., T.E., Abel Monteagudo, M. Percy Núñez Vargas, Vasquez, R. (2012). The biogeography and filtering of woody plant functional diversity in North and South America. Global Ecology and Biogeography, 21:798-808.
+222. Hulshof, C.M., Swenson, N.G., Stegen, J.C. Enquist, C.A.F., and B.J. Enquist. (2012) Interannual variability of growth and reproduction in Bursera simaruba: The role of allometry and climatic variability. Ecology 93:180-190.
+223. Fuller, M. and B.J. Enquist (2012) Accounting for spatial autocorrelation in null models of tree species association. Ecography 35:510-51.
+
+
+2011
+224. S. A. Goff, M. Vaughn, S. McKay, E. Lyons, A. E. Stapleton, D. Gessler, N. Matasci, L. Wang, M. Hanlon, A. Lenards, A. Muir, N. Merchant, S. Lowry, S. Mock, M. Helmke, A. Kubach, M. Narro, N. Hopkins1, D. Micklos, U. Hilgert, M. Gonzales, C. Jordan, E. Skidmore, R. Dooley, J. Cazes, R. McLay, Z. Lu, S. Pasternak, L. Koesterke, W. H. Piel, R. Grene, C. Noutsos, K. Gendler, X. Feng, C. Tang, M. Lent, S. Kim, K. Kvilekval, B. S. Manjunath, V. Tannen, A. Stamatakis, M. Sanderson, S. M. Welch, K. Cranston, P. Soltis, D. Soltis, B. O’Meara, C. Ane, T. Brutnell, D. J. Kleibenstein, J. W. White, J. Leebens-Mack, M. J. Donoghue, E. P. Spalding, T. J. Vision, C. R. Myers, D. Lowenthal, B. J. Enquist, B. Boyle, A. Akoglu, G. Andrews, S. Ram, D. Ware, L. Stein, and D. Stanzione (2011) The iPlant collaborative: cyberinfrastructure for plant biology. Frontiers in Plant Science, 2:1-16. A. Goff, M. Vaughn, S. McKay, E. Lyons, A. E. Stapleton, D. Gessler, N. Matasci, L. Wang, M. Hanlon, A. Lenards, A. Muir, N. Merchant, S. Lowry, S. Mock, M. Helmke, A. Kubach, M. Narro, N. Hopkins1, D. Micklos, U. Hilgert, M. Gonzales, C. Jordan, E. Skidmore, R. Dooley, J. Cazes, R. McLay, Z. Lu, S. Pasternak, L. Koesterke, W. H. Piel, R. Grene, C. Noutsos, K. Gendler, X. Feng, C. Tang, M. Lent, S. Kim, K. Kvilekval, B. S. Manjunath, V. Tannen, A. Stamatakis, M. Sanderson, S. M. Welch, K. Cranston, P. Soltis, D. Soltis, B. O’Meara, C. Ane, T. Brutnell, D. J. Kleibenstein, J. W. White, J. Leebens-Mack, M. J. Donoghue, E. P. Spalding, T. J. Vision, C. R. Myers, D. Lowenthal, B. J. Enquist, B. Boyle, A. Akoglu, G. Andrews, S. Ram, D. Ware, L. Stein, and D. Stanzione (2011) The iPlant collaborative: cyberinfrastructure for plant biology. Frontiers in Plant Science, 2:1-16.
+225. Enquist, B.J. (2011) Forest annual carbon cost: comment. Ecology, 92:1994-1998.
+226. Kattge, J., Díaz, S., Lavorel S. et al. (2011) TRY – a global database of plant traits. Global Change Biology, 17:2905-2935.
+227. Moles, A.T., I.R. Wallis, W.J. Foley, et al. (2011) Putting plant resistance traits on the map: a test of the idea that plants are better defended at lower latitudes. New Phytologist, 191:777-788.
+228. Blonder, B., Violle, C., Bently, L.P., and B.J. Enquist (2011) Leaf venation networks and the origin of the leaf economic spectrum. Ecology Letters, 14:91-100.
+229. Símová, I., Storch, D., Keil, P., Boyle, B., Phillips, O.L., and B.J. Enquist (2011) Global species-energy relationship in forest plots: role of abundance, temperature and species’ climatic tolerances. Global Ecology and Biogeography, 14:91-100.
+230. Riveros, A.J., and B.J. Enquist (2011) Metabolic scaling in insects supports predictions of the WBE model. Journal of Insect Physiology, 57: 688-693.
+231. Stegen, J.C., Swenson, N.G., Enquist, B.J., White, E.P., Phillips, O.L., Jørgensen, P.M., Weiser, M.D., Monteagudo, A., and P.N. Vargas. (2011) Variation in above-ground forest biomass across broad climatic gradients. Global Ecology and Biogeography, 20:744-754.
+232. Stark, S.C., Bentley, L. P., and B.J. Enquist (2011) Response to Coomes & Allen (2009) ‘Testing the metabolic scaling theory of tree growth’. Functional Ecology doi: 10.1111/j.1365-2745.2010.01719.x
+233. Enquist, B.J. and C.A.F. Enquist (2011) Long-term change within a Neotropical forest: Assessing differential functional and floristic responses to drought and past disturbance. Global Change Biology, 17:1408-1424.
+
+
+2010
+234. Savage, V. M., Bentley, L. P., Enquist, B. J., Sperry, J. S., Smith, D. D., Reich, P. B. and E. I. von Allmen (2010) Hydraulic tradeoffs and space-filling enable predictions of vascular structure and function in plants. PNAS 107, 22722-22727.
+235. Enquist, B.J. (2010) Wanted: A General and Predictive Theory for Trait-based Plant Ecology. BioScience, 60:854-855. 
+236. Elser, J. J., Fagan, W. F., Kerkhoff, A. J., Swenson, N.G., and J. Enquist (2010) Biological stoichiometry of plant production: metabolism, scaling, and ecosystem response to global change. New Phytologist (Invited Tansley Review) 186, 593-608.
+
+
+2009
+237. Price, C. A. and J. Enquist (2009) Comment on Coomes et al. “Scaling of xylem vessels and veins within the leaves of oak species”. Biology Letters. 5, 380.
+238. Stegen, J.C., Enquist, B.J. and R. Ferriere. (2009) Advancing metabolic theory of diversity by unifying ecology and evolution. Ecology Letters 12, 1001-1015.
+239. Swenson, N.G. and J. Enquist (2009) Opposing assembly mechanisms in a Neotropical dry forest: implications for phylogenetic and functional community ecology. Ecology 90:2161-2170.
+240. Poore, B., Lamanna, C., Ebersole, J.J., and J. Enquist. (2009) Controls on radial growth of Mountain Big Sagebrush and implications for climate change. Western North American Naturalist, 69(4):556-562.
+241. Morlon, H., White, E.P., Etienne, R.S., Green, J.L. Ostling, A., Alonso, D., Enquist, B.J., He, F., Hulbert, A., Magurran, A.E., Maurer, B.A., McGill, B.J., Olff, H., Storch, D., and T. Zillo. (2009) Taking abundance distributions beyond individuals. Ecology Letters 12:488-501.
+242. West, G.B., Enquist, B.J. and J. H. Brown (2009) Metabolic scaling of forest structure and dynamics: A general theory PNAS, 106:7040-7045. Supplemental Document 
+243. Enquist, B.J., G.B.West, and J.H. Brown (2009) Metabolic scaling of forest structure and dynamics: Theoretical extensions and empirical evaluations. PNAS, 106:7046-7051. Supplemental Document
+244. Kerkhoff, A.J. and J. Enquist (2009) Multiplicative by nature: Why logarithmic transformation is necessary in allometry. Journal of Theoretical Biology 257:519-521.
+245. Stegen, J.C., Swenson, N.G. Enquist, B.J. and J.K. Zimmerman (2009) Above‐ground forest biomass is not consistently related to wood density in tropical forests. Global Ecology and Biogeography, 5:617-625.
+246. Conlisk, E., Conlisk, J., Enquist, B.J., Thompson, J. and J. Harte (2009) Improved abundance prediction from presence-absence data. Global Ecology and Biogeography 18, 1-10.
+
+
+2008
+247. Bryant, J., Lamanna, C., Morlon, H., Kerkhoff, A.J., Enquist, B.J. and J. L. Green (2008) Microbes on mountainsides: Contrasting elevational patterns of bacterial and plant diversity. PNAS 105:11505-11511.
+248. Swenson, N.G. and J. Enquist (2008) The relationship between stem and branch wood specific gravity and the ability of each measure to predict leaf area. American Journal of Botany, 95:515-519.
+249. White, E.P., Enquist, B.J. and J. L. Green (2008). On estimating the exponent of power-law frequency distributions. Ecology, 89:905-912.
+250. Fuller, M.M., Enquist, B.J. and A. Wagner (2008). Using network analysis to characterize forest structure.  Natural Resource Modeling, 21:225-247.
+251. Boyle, B., Meyer, H.W., Enquist, B.J., and Salas, S. (2008) Higher taxa as paleoecological and paleoclimatic indicators: A search for the modern analog of the Florissant fossil flora, in Meyer, H.W. and Smith, D.M. eds. Paleontology of the Upper Eocene Florissant Formation, Colorado: Geological Society of America Special Paper 435, p. 33-51, doi:10.1130/2008.2435(03).
+
+
+2007
+252. Enquist, B.J., Kerkhoff, A.J., Stark, S.C., Swenson, N.G., McCarthy, M.C. and C.A. Price (2007). A general integrative model for scaling plant growth, carbon flux, and functional trait spectra Nature 449:218-222.
+253. Enquist, B.J. (2007). Journal Club – An ecologist wonders how biotic feedback matters to global-change research. Nature 450:139.
+254. Price, C.A., J. Enquist and V.M. Savage (2007) A General Model for Allometric Covariation in Botanical Form and Function. PNAS104:13204-13209.
+255. Enquist, B.J. and S.C. Stark (2007) Correspondence – Follow Thompson to make biology a capital-S Science. Nature 446:611.
+256. Savage, V.M., Enquist, B.J. and G.B. West (2007). Comment on Chaui-Berlinck (2006) A critical understanding of the fractal model of metabolic scaling. Journal of Experimental Biology 210:3873-3874.
+257. White, E.P., Ernest, S.K.M., Kerkhoff, A.J. and J. Enquist (2007) Relationships between body size and abundance in ecology. Trends in Ecology and Evolution 22:323-330.
+258. Enquist, B.J., Kerkhokff, A.J., Huxman, T.E., and E.P. Economo (2007) Adaptive differences in plant physiology and ecosystem paradoxes: Insights from Metabolic Scaling Theory. Global Change Biology 13:591-609.
+259. McGill, B., Etienne, R., Gray, J., Alonso, D., Anderson, M., Benecha, H.; Dornelas, M., Enquist, B., Green, J., He, F., Hurlbert, A., Magurran, A., Marquet, P., Maurer, B., Ostling, A., Soykan, C., Ugland, K., White, E. (2007) Species Abundance Distributions: moving beyond single prediction theories to integration within an ecological framework Ecology Letters 10:995-1015.
+260. McCarthy, M.C. and J. Enquist (2007) Consistency between an allometric approach and optimal partitioning theory in global patterns of plant biomass allocation. Functional Ecology 21:713-720.
+261. Enquist, B.J., Tiffney, and K.J. Niklas (2007). Metabolic scaling and the evolutionary dynamics of plant size, form and diversity: Toward a synthesis of ecology, evolution, and paleontology. International Journal of Plant Sciences 168:729-749.
+262. McCarthy, M.C., Enquist, B.J., and A. J. Kerkhoff (2007). Assessing the relative importance of phylogenetic, life history, and leaf traits on plant biomass partitioning. International Journal of Plant Sciences 168:729-749.
+263. Swenson, N.G., Enquist, B.J., Thompson, J. and J.K. Zimmerman (2007). The scale dependency of competitive and neutral processes in tropical forest communities reveled by phylogenetic analyses. Ecology 87:2418-2424.
+264. Swenson, N.G. and J. Enquist (2007). Ecological and evolutionary determinants of a key plant functional trait: Wood density and its community-wide variation across latitude and elevation. American Journal of Botany 94:451-459.
+265. Price, C.P. and J. Enquist (2007). Scaling mass and morphology in leaves: An extension of the WBE model. Ecology 88:1132-1141.
+266. Weiser, M.D, Enquist, B.J., Boyle, B., Killeen, T.J., Jorgensen, P.M., Fonseca, G., Jennings, M.D., Kerkhoff, A.J., Larcher, T.E., Monteagudo, A., Nunez Vargus, M.P., Phillips, O.L., Swenson, N.G., and R. Vasquez Martinez (2007). Latitudinal patterns of range size and species richness of New World woody plants. Global Ecology and Biogeography 16: 679-688.
+267. Kerkhoff, A.J. and J. Enquist (2007). Implications of scaling approaches for understanding resilience and reorganization in ecosystems. BioScience 57:489-499.
+268. Conlisk, E, Bloxham, M, Conlisk, J., Enquist, B.J. and J. Harte (2007) A class of null models of spatial distribution. Ecological Monographs 77:269-284.
+269. Enquist, B.J., Allen, A.P., Brown, J.H., Gillooly, J.F., Kerkhoff, A.J., Niklas, K.J., Price, C.A., and G.B. West. (2007) Comment – Biological scaling: Does the exception prove the rule? Nature 445:E9-E10.
+
+
+2006
+270. Kerkhoff, A.J. Fagan, W.F., Elser, J.J. and B.J. Enquist (2006) Phylogenetic and growth form variation in the scaling of nitrogen and phosphorus in the seed plants. American Naturalist 168:E103-E122.
+271. McGill, B., Enquist, B.J., Weiher, E. and M. Westoby (2006) Response to Kearney and Porter: Both functional and community ecologists need to do more for each other. Trends in Ecology and Evolution 21:482-483.
+272. Swenson, N.G., Enquist, B.J., Pither, J., Thompson, J. and J. Zimmerman (2006) The problem and promise of scale dependency in community phylogenetics. Ecology 87:2418-2424.
+273. Savage, V.M., White, E.P., Moses, M.E., Ernest, S.K.M., Enquist, B.J., Charnov, E.L. (2006) Comment on “The Illusion of Invariant Quantities in Life Histories”. Science, 312: 198b.
+274. Kerkhoff, A. and B.J. Enquist (2006) Ecosystem allometry: the scaling of nutrient stocks and primary productivity across plant communities. Ecology Letters, 9:419-427.
+275. McGill, B. Enquist, B.J., Weiher, E. and M. Westoby (2006) Rebuilding community ecology from functional traits. Trends in Ecology and Evolution, 21:178-185.
+276. Price, C.A. and J. Enquist (2006) Scaling of mass and morphology in plants with minimal branching: An extension of the WBE model. Functional Ecology, 20: 11-20.
+277. Potts, D.L., Huxman, T.E., Enquist, B.J., Weltzin, J.F., and D.G. Williams (2006) Resilience and resistance of ecosystem functional response to a precipitation pulse in a semi-arid grassland. Journal of Ecology 94:23-30.
+
+
+2005
+278. Kerkhoff, A.J., Enquist, J., W.F. Fagan, and J.J. Elser. (2005) Plant allometry, ecological stoichiometry and the temperature-dependence of terrestrial primary production. Global Ecology and Biogeography, 14:585-598.
+279. Brown, J.H., West, G.B. and B.J. Enquist (2005) Yes, West, Brown and Enquist’s model of allometric scaling is both mathematically correct and biologically relevant. Functional Ecology 19:735-738.
+280. Economo, E, P., Kerkhoff, A.J. and Enquist, B.J. (2005) Allometric growth, life-history invariants and population energetics. Ecology Letters, 8:353-360.
+281. McCarthy, M.C. and B.J. Enquist. (2005) Organismal size, metabolism and the evolution of complexity in Metazoans. Evolutionary Ecology Research, 7:681-696.
+
+
+2004
+282. Maurer, B.A., Alroy, J., Brown, J.H., Dayan, T, Enquist, B.J., Ernest, S.K.M., Hadly, E.A., Haskell, J.P., Jablonski, D., Jones, K.E., Kaufman, D.M., Lyons, S.K., Niklas, K.J., Porter, W.P., Roy, K., Smith, F.A., Tiffney, B. and M.R. Willig. (2004)  Similarities in body size distributions of small-bodied flying vertebrates. Evolutionary Ecology Research, 6:783-797.
+283. Maurer, B.A., Alroy, J., Brown, J.H., Dayan, T, Enquist, B.J., Ernest, S.K.M., Hadly, E.A., Haskell, J.P., Jablonski, D., Jones, K.E., Kaufman, D.M., Lyons, S.K., Niklas, K.J., Porter, W.P., Roy, K., Smith, F.A., Tiffney, B. and M.R. Willig. (2004) Similarities in body size distributions of small-bodied flying vertebrates. Evolutionary Ecology Research, 6:783-797.
+284. Smith, F.A., Brown, J.H., Haskell, J.P., Lyons, S.K., Alroy, J., Charnov, E.L., Dayan, T., Enquist, B.J., Ernest, S.K.M., Hadly, E.A., Jablonski, D., Jones, K.E., Kaufman, D.M., Marquet, P.A., Maurer, B.A., Niklas, K.J., Porter, W.P., Roy, K., Tiffney, B., and M.R. Willig. (2004). Similarity of mammalian body size across the taxonomic hierarchy and across space and time. American Naturalist, 163:672-691.
+285. Savage, V.M., J. F. Gillooly, W.H. Woodruff, G.B. West, A. P. Allen, B. J. Enquist, J. H. Brown. (2004). The predominance of quarter-power scaling in biology. Functional Ecology, 18:257-282.
+286. West, G.B., Brown, J.H. and B. J. Enquist (2004) Growth models based on first principles or phenomonology? Functional Ecology,18:188-196.
+287. Fuller, M.M., Enquist, B.J. and A. Wagner (2004). Neutrality is Size-Dependent in Tropical Understory Trees (2004). SFI WORKING PAPER: 2004-06-016.
+288. Fuller, M.M., Enquist, B.J. and A. Wagner (2004). Species Association Networks of Tropical Trees Have a Non-neutral Structure. SFI WORKING PAPER: 2004-06-015.
+289. Niklas, K. J., and J. Enquist. 2004. Biomass Allocation and Growth Data of Seeded Plants. Data set. Available on-line, https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=703; from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A.
+
+
+2003
+290. Enquist, B.J., Economo, E.P., Huxman, T.E., Allen, A. P. Ignace, D. D. and J. F. Gillooly (2003) Scaling metabolism from organisms to ecosystems. Nature, 423:639-642.
+291. Ernest, S.K.M., Enquist, B.J., Brown, J.H., Charnov, E.L., Gillooly, J.F., Savage, V.M., White, E.P., Smith, F.A., Alroy, J., Dayan, T., Hadly, E.A., Haskell, J.P., Lyons, S.K., Maurer, B.A., Niklas, K.J., Porter, W., and B. Tiffney (2003) Thermodynamic and metabolic effects on the scaling of production and abundance. Ecology Letters, 6:990-996.
+292. Enquist, B.J. (2003) Scaling the macroecological and evolutionary implications of size and metabolism within and across plant taxa. In: Macroecology: Pattern and Process, pp 321-341 (T. Blackburn and K. Gaston Eds.), Oxford University Press, Oxford.
+293. West, G.B., V. M. Savage, J. Gillooly, J. Enquist, William H. Woodruff and James H. Brown. (2003). Brief Communication – But Why DoesMetabolic Rate Scale with Body Size? Nature 421: 713.
+294. Niklas, K.J., J.J. Midgley, and J. Enquist (2003) A general model for mass-growth-density relations across plant communities.Evolutionary Ecology Research 5:459-468.
+295. Enquist, B.J. (2003) Cope’s Rule and the evolution of long distance transport in vascular plants: Allometric scaling, biomass partitioning, and optimization. Plant Cell and Environment 26:151-161.
+296. Niklas, K.J. and J. Enquist (2003) The allometric scaling of seed plant reproduction. Evolutionary Ecology Research 5:79-88.
+
+
+ 2002
+297. West, G.B. B.J. Enquist, J.H. Brown (2002) Ontogenetic growth: Modeling universality and scaling (Brief Communication) Nature 420: 626-627.
+298. Enquist, B.J., Haskell, J. P., and Tiffney, B. H. (2002). General patterns of taxonomic diversity and biomass partitioning across tree dominated communities. Nature 419:610-613.
+299. Enquist, B.J. (2002) Universal scaling in vascular plants: Toward a general quantitative theory for linking plant processes from leaves to ecosystems. Tree Physiology 22: 1045–1064.
+300. Belgrano, A. , Allen, A.A., .J. Enquist and J.F. Gillooly. (2002) Allometric scaling of maximum population density: a common rule for marine phytoplankton and terrestrial plants. Ecology Letters 5:611-613.
+301. Enquist, B.J. and K.J. Niklas (2002) Global allocation rules for patterns of biomass partitioning – Technical Comment Science 296:1923a
+302. Niklas, K.J. and B.J. Enquist (2002) Canonical rules for plant organ biomass partitioning and growth allocation. American Journal of Botany 89:812-819.
+303. Niklas, K.J. and B.J. Enquist (2002) On the vegetative biomass partitioning of seed plant leaves, stems, and roots. American Naturalist159:482-497.
+304. Enquist, B.J., J. Sanderson, and M.D. Weiser (2002) Modeling macroscopic patterns in ecology.  Science 295:1517-1520.
+305. Enquist, B.J. and K.J. Niklas (2002) Global allocation rules for biomass partitioning in seed plants. Science 295:1517-1520.
+306. Leffler, A. J. & J. Enquist. (2002) Carbon isotope composition of tree leaves from dry tropical forests of Guanacaste, Costa Rica: Comparison across tropical ecosystems and tree life history. Journal of Tropical Ecology 18:151-159.
+307. West, G.B., Savage, V.M., Gillooly, J., Enquist, B.J. Woodruff, W.H. and J.H. Brown (2002). Red herrings and rotten fish. arXiv:physics/0211058.
+
+
+2001
+308. West, G.B., J.H. Brown, and B.J. Enquist (2001) A general allometric model of ontogenetic growth. Nature: 413: 628-631.
+309. Enquist, B.J. and K.J. Niklas (2001). Invariant scaling relations across tree-dominated communities. Nature 410:655-660.
+310. Niklas, K. J. and B.J. Enquist (2001). Invariant scaling relationships for interspecific plant biomass production rates and body size. Proceedings of the National Academy of Sciences (USA): 98:2922-2927.
+311. Enquist, B.J. & A. J. Leffler (2001). Long-term tree ring chronologies from sympatric tropical dry-forest trees: individualistic responses to climate variation. Journal of Tropical Ecology 17:41-60.
+312. Enquist, B.J., Haskell, J., Niklas, K.J., & B. H. Tiffney (2001). The evolution of plant communities: biodiversity and community structure through time. In: Encyclopedia of Biodiversity. Pp 631-643. Levin (ed.). Academic Press.
+313. Enquist, B.J. and J.J. Sullivan (2001) Vegetative key and descriptions of tree species of tropical dry forests of upland Sector Santa Rosa, Area de Conservacion Guanacaste, Costa Rica. Published on-line Area de Conservacion Guanacaste (acguanacaste.ac.cr/paginas_especie/plantae/magnoliophyta/ text_principal_plantae2.html).
+
+
+2000
+314. Kiflawi, M., Enquist, B.J. & M.A. Jordan (2000). Developmental instability and relative position within the geographic range: an analysis of sympatric populations within Pleistocene and Contemporary Local Communities. Ecography 23, 539-546.
+315. Brown, J.H., West, G.B., & B.J. Enquist. (2000) Scaling in Biology: Patterns and processes, causes and consequences. In: Scaling in Biology J.H. Brown and G.B. West (eds.). Oxford University Press.
+316. Enquist , B.J., West, G.B. & J.H. Brown. (2000) The origin and ecological consequences of quarter-power allometric scaling in vascular plants. In: Scaling in Biology James H. Brown and G.B. West (eds.). Oxford University Press.
+317. West, G.B., Brown, J.H. & B.J. Enquist. (2000) The origin of universal scaling laws in biology. In: Scaling in Biology J.H. Brown and G.B. West (eds.). Oxford University Press.
+318. West, G.B., Brown, J.H. & B.J. Enquist (1999) The fourth dimension of life: Fractal geometry and allometric scaling of organisms. Science 284:1677-1679.
+
+
+1999
+319. Enquist, B.J., West, G.B., Charnov, E.L., & J.H. Brown (1999) Allometric scaling of production and life history variation in vascular plants. Nature 401: 907-911. (This paper was awarded the 2001 Ecological Society of America Mercer Award:)
+320. West, G.B., Brown, J.H. & B.J. Enquist. (1999) A general model for the structure, and allometry of plant vascular systems. Nature 400: 664-667.
+321. Enquist, B.J., Brown, J.H. & West, G.B. (1999) Plant energetics and population density Response. Nature 398:572-573.
+322. Enquist, B.J. (1999) Deducing underlying principles of vascular plant structure and function. A review of: Schieving, Feike 1998. Plato’s Plant: On the Mathematical Structure of Simple Plants and Canopies. Backhuys Publishers, Leiden, The Netherlands, 360p. ISBN 90-5782-003-X. Ecology 80:2455-2456.
+
+
+1998
+323. Guo, Q, Brown, J.H. & B.J. Enquist (1998) Using constraint lines to characterize plant performance. Oikos 83:237-245.
+324. Enquist, B.J., Brown, J.H. & G.B. West. (1998) Allometric scaling of plant energetics and population density. Nature 395:163-166.
+325. Brown, J.H., Enquist, B.J., & G.B. West (1998) Allometric scaling in biology –Technical Comment. Science. 281: 751a
+326. Stevens, G.C., & B.J. Enquist (1998) Macroecological limits to the abundance and distribution of Pinus. In: Ecology and Biogeography of the genus Pinus. D.M. Richardson (ed.), pp 183-190. Cambridge University Press, Cambridge, U.K.
+
+
+1997
+327. Brown, J.H., Enquist, B.J. & G.B. West (1997) Allometric scaling laws in biology –Response. Science 278:372-373.
+328. West, G.B., Brown, J.H. & B.J.Enquist (1997) A general model for the origin of allometric scaling laws in biology. Science 276:122-126.
+
+
+1996- 1993
+329. Enquist, B.J., Jordan, M.A. & J.H. Brown (1995). Connections between ecology, biogeography and paleobiology: relationship between local abundance and geographic distribution in fossil and recent organisms. Evolutionary Ecology 9:586-604.
+330. Enquist, B.J. & J. J. Ebersole (1994) Effects of added water on photosynthesis of Bistorta vivipara: The importance of water relations and leaf nitrogen in two alpine communities, Pikes Peak, Colorado, USA. Arctic and Alpine Research 26:29-34.
+331. Enquist, B.J. , I.S. Cornel, and R. Thorstrom (1993). A preliminary multivariate analysis of nesting habitat of Barred and Collared Forest-Falcons (Micraster ruficollis and semitorquatus): The use of tree species composition and forest architecture to characterize favorable habitat. The Maya project: Use of Raptors as Environmental Indices for design and Management of Protected Areas and for Building Local Capacity for Conservation in Latin America. W.A. Burnham and D.F. Whitacre eds., The Peregrine Fund, Boise, Id.
+332. Mitchell, R, D. Bleakly, R. Cabin, R. Chan, B.J. Enquist , A. Evans, T. Lowrey, D. Marshall, S. Reed, G. Stevens, & N. Wasser (1993). Species concepts, response to Ernst Mayr: Speciation and hybridization in plants. Nature 364:20.
+Other Publications 
+ 
+Electronic Publications and Preprints
+1. Enquist B.J., Condit R., Peet R.K., Schildhauer M. & Thiers B.M. (2009). The Botanical Information and Ecology Network (BIEN):  Cyberinfrastructure for an integrated botanical information network to investigate the ecological impacts of global climate change on plant biodiversity. [The iPlant Collaborative]. URL www.iplantcollaborative.org/sites/default/files/BIEN_White_Paper.pdf
+2.  West, G.B., Savage, V.M., Gillooly, J., Enquist, B.J. Woodruff, W.H. and J.H. Brown (2002).  Red herrings and rotten fish. arXiv. <http://arxiv.org/abs/physics/ 0211058>. 
+3. Fuller, M.M., Enquist, B.J. and A. Wagner. Neutrality is Size-Dependent in Tropical Understory Trees.  A preprint of this manuscript is available as a Santa Fe Institute Working Paper www.santafe.edu/research/publications/wplist/2004
+4. Fuller, M.M., Enquist, B.J. and A. Wagner. Species Association Networks of Tropical Trees Have a Non-neutral Structure. A preprint of this manuscript is available as a Santa Fe Institute Working Paper www.santafe.edu/research/publications/wplist/2004.
+
+
+Field Guides, Natural History Publications, Botanical Collections  
+1. Enquist, B. & J. Sullivan (2001) Vegetative key and descriptions of tree species of the tropical dry forests of upland Sector Santa Rosa, Área de Conservación Guanacaste, Guanacaste, Costa Rica. Published electronically via the Área de Conservación Guanacaste.
+2. Lucely L. Vilca, Paul Santos, Jonathan Sallo, Vigdis Vandvik, Brian J. Enquist and William Farfan-Rios (2020) Common Plants of the grasslands of Manu ––Manu Biosphere Reserve, Paucartambo, Cusco, Peru; 2800 to 4100 msnm. Environmental & Conservation Programs, The Field Museum, Chicago, IL 60605 USA. https://paulefrensa.rbind.io/publication/2022-02-01-manu_grassland/ [rrc@fieldmuseum.org] [www.fmnh.org/plantguides/] https://fieldguides.fieldmuseum.org/guides/guide/1452
+3. Botanical Collections associated with my laboratory field campaigns are deposited in numerous herbaria. Many are in the University of Arizona Herbarium and can be accessed via SEINet here https://swbiodiversity.org/seinet/collections/harvestparams.php?db=2 Search for Enquist under ‘Collector Criteria’.
+
+
+Commentary, News, & Popular Literature
+
+
+* Cotner, S., Enquist, B.J., Farfan-Rios, W., Michaletz, S., Gauthier, T.J., Vandvik, V., Hošková, K., Pierfederici, M.E., Diaz, E.S., Jessup, L., Strydom, T., and Von Oppen, J. (2020) International scientists need better support during global emergencies. Times Higher Education. 
+* Enquist, B.J. (2023) Tree Theory, Biogeography, Branching. pp 29-33. In: The Language of Trees: A Rewilding of Literature and Landscape Ed. Katie Holten. Tin House Press.  New York, NY.. Over 50 writings from notable authors, philosophers, scientists and artists.
+* Enquist, B.J. (2015) Tree Theory, Biogeography, Branching. pp 31-35. In: All About Trees Ed. Katie Holten. Dimanche Press.  Berlin, Germany.   A collection of essays and works. from 50 different authors / scientists / poets
+Data and Databases 
+
+
+* BIEN - Enquist, B.J. et al. The Botanical Information and Ecology Network (BIEN) databaset: A global compilation of plant observation data and biodiversity informatics workflow. https://biendata.org/ also accessible via, Maitner, B.S., B. Boyle, N. Casler, R. Condit, J. Donoghue II, S. M. Durán, D. Guaderrama, C. E Hinchliff, P. M. Jørgensen, N. J. B. Kraft, B. McGill, C. Merow, N. Morueta-Holme, R. K. Peet, B. Sandel, M. Schildhauer, S. A. Smith, Jens-Christian Svenning, B. Thiers, C. Violle, S. Wiser, and B. J. Enquist. (2018) The BIEN R package: A tool to access the Botanical Information and Ecology Network (BIEN) Database. Methods in Ecology and Evolution, 9:373-379.
+* ForestGEO - San Emilio Forest Dynamics Plot (SEFDP) Over the past ~45 years, field crews have censused the San Emilio plot four times. The forest plot is15.64-ha, subject to a distinct wet (June-December) and dry (January-May) season, and located within the Área de Conservación de Guanacaste (ACG) in the Guanacaste Province of Costa Rica. Brian Enquist and Nate Swenson are the Principal Investigators of the San Emilio plot.  https://forestgeo.si.edu/sites/san-emilio
+* Global Plant Biomass Allocation and Growth Data. Niklas, K. J., and B.J. Enquist. 2004. Biomass Allocation and Growth Data of Seeded Plants. Data set. Available on-line, <http://www.daac.ornl.gov> from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A.
+* CHAMBASA, Peru Forest Plot Trait Data - Shenkin, A., Bentley, L. P., Girardin, C., Blonder, B., Boyle, B., Doughty, C. E., ... Malhi, Y. (2017). GEMTraits: A database and R package for accessing and analyzing plant functional traits from the Global Ecosystems Monitoring Network. Oxford University Research Archive. Retrieved from https://doi.org/10.5287/bodleian:v0BD04N7o
+* Peru PFTC Data - Halbritter, A. H., Vandvik, V., Cotner, S. H., Farfan-Rios, W., Maitner, B. S., Michaletz, S. T., ... & Enquist, B. J. (2024). Plant trait and vegetation data along a 1314 m elevation gradient with fire history in Puna grasslands, Perú. Scientific Data, 11(1), 225.
+* Svalbard PFTC Data - Vandvik, V., Halbritter, A. H., Althuizen, I. H., Christiansen, C. T., Henn, J. J., Jónsdóttir, I. S., ... & Enquist, B. J. (2023). Plant traits and associated data from a warming experiment, a seabird colony, and along elevation in Svalbard. Scientific Data, 10(1), 578.
+* China PFTC Data - Vandvik, V., Halbritter, A.H., Yang, Y., He, H., Zhang, L., Brummer, A.B., Klanderud, K., Maitner, B.S., Michaletz, S.T., Sun, X. and Telford, R.J. et al. and B.J. Enquist 2020. Plant traits and vegetation data from climate warming experiments along an 1100 m elevation gradient in Gongga Mountains, China. Scientific data, 7(1), pp.1-15.
+* Norway PFTC Data - Coming soon!
+* South Africa PFTC Data - Coming soon!
+Software and Online Biodiversity Informatics Tools
+* TNRS - The Taxonomic Name Resolution Service – webservice and API - https://tnrs.biendata.org/ Standardize your plant names here using the TNRS web site or here using the TNRS R package. The TNRS is a critical tool for integration of any botanical data. Click here for the TNRS publication. Nature featured the TNRS in a News & Views story.  
+* GNRS - The Geographic Name Resolution Service – webservice and API https://gnrs.biendata.org/ like the TNRS but for geographic names. Standardize your geographic names and locations here. The GNRS corrects and standardizes political division names according to the standards of the GeoNames database. Standardization of country, state and county names is the crucial first step in validating the accuracy of geocoordinates ("geovalidation"). BIEN geovalidations include checking that the coordinates of an observation fall within the boundaries of its declared political divisions.
+* NSR -Native Species Resolver – webservice and API https://nsr.biendata.org/ This specimen record of Cattleya skinneri in Peru, is it native or introduced? Ask the NSR! Currently, the NSR can be accessed via a web service and in batch mode (shell access to server required).
+* GVS - Geocordinate Validation Service -webservice and API  https://gvs.biendata.org/ (coming soon!) The Geocoordinate Validation Service (GVS) is a tool for the detection of errors in geographic coordinates.
+* occTest - An integrated approach for quality control of species occurrence data. https://github.com/pepbioalerts/occTest Species occurrence data are valuable information that enables one to estimate geographical distributions, characterize niches and their evolution, and guide spatial conservation planning. However, persistent quality issues in occurrence data can impact the accuracy of scientific findings. offers a structured set of algorithms to identify potential problems with species occurrence records by employing a hierarchical organization of multiple tests.
+* R Package - Maitner, B.S., B. Boyle, N. Casler, R. Condit, J. Donoghue II, S. M. Durán, D. Guaderrama, C. E Hinchliff, P. M. Jørgensen, N. J. B. Kraft, B. McGill, C. Merow, N. Morueta-Holme, R. K. Peet, B. Sandel, M. Schildhauer, S. A. Smith, Jens-Christian Svenning, B. Thiers, C. Violle, S. Wiser, and B. J. Enquist. (2018) The BIEN R package: A tool to access the Botanical Information and Ecology Network (BIEN) Database. Methods in Ecology and Evolution, 9:373-379.
+* R Package occTest - Serra‐Diaz JM, Borderieux J, Maitner B, Boonman CC, Park D, Guo WY, Callebaut A, Enquist BJ, Svenning JC, Merow C. occTest: An integrated approach for quality control of species occurrence data. Global Ecology and Biogeography. 2024:e13847
+* R Package RTNRS -  https://github.com/EnquistLab/RTNRS The TNRS R package (also known as RTNRS) provides access to the Taxonomic Name Resolution Service API, which is a tool for automated standardization of plant scientific names. The TNRS corrects spelling errors and alternative spellings to a standard list of names, and converts out of date names (synonyms) to the current accepted name.
+* R Package RGNRS - https://github.com/EnquistLab/RGNRS The GNRS package for R (a.k.a. the RGNRS) provides users with access to the Geographic Name Resolution Service (GNRS) API in R. The Geographic Name Resolution Service takes in the names of political units and standardizes them following https://www.geonames.org/ 
+* R Package RNSR - https://github.com/EnquistLab/RNSR The NSR package for R (a.k.a. the RNSR) provides users with access to the Native Species Resolver (NSR) API in R. The Native Species Resolver takes taxonomic and political information as input and returns information on whether a given plant species is thought to be native, introduced, etc., as well as the basis for that decision.
+* R Package RCDS - https://github.com/EnquistLab/RCDS - R package for accessing the Centroid Detection Service. 
+Sampling of Open-source Lectures (Not Peer Reviewed)
+1. Enquist, Brian (2015): A quick (and rough) introduction to trait-based ecology. figshare. http://dx.doi.org/10.6084/m9.figshare.1396511
+2. Enquist, Brian (2014): Overview lecture on Macroecology. figshare. http://dx.doi.org/10.6084/m9.figshare.1247653
+3. Enquist, Brian (2014): Introduction to Metabolic Scaling Theory – From cells to ecosystems. figshare. http://dx.doi.org/10.6084/m9.figshare.1275197.
+4. Enquist, Brian (2016): How to think About Your Data: Introduction to Data Science & Management (what they don’t – but should – teach you about the scientific method). 
+figshare. https://dx.doi.org/10.6084/m9.figshare.4251953.v1
+5. Enquist, Brian; Savage, Van (2017): Trait driver theory: A basis to integrate and scale from plant form, function and strategies to ecosystems worldwide. figshare.
+https://doi.org/10.6084/m9.figshare.5328004.v1
+6. Enquist, Brian; Merow, Cory; McGill, Brian; Boyle, Brad; Casler, Nathan; Feng, Xiao; et al. (2018): Muy BIEN: Next steps in a global workflow for integrating plant botanical observations. figshare. Paper. https://doi.org/10.6084/m9.figshare.6983024.v1
+7. Enquist, Brian (2020). #PlantBlindness: Why plants matter and why we study traits.. figshare. Presentation. https://doi.org/10.6084/m9.figshare.12084966.v1
+8. Enquist, Brian (2020). An introduction to trait based ecology. figshare. Presentation. https://doi.org/10.6084/m9.figshare.11704383.v1
+Grants, Awards, and Fellowships
+* National Science Foundation, BioDiversity on a Changing Planet (2022-2025),  BoCP: BioFI Biodiversity Forecastign Initiative to Understand Population, Community, and Ecosystem Function Under Global Change. PI Brian Enquist
+* Department of Energy (2020-2023) Biogeochemical Dynamics from Genomes to Watershed Scales; The Watershed Function Scientific Focus Area (SFA) PIs Susan Hubbard and Ken Williams, LBNL, Berkeley Lab. 
+* National Science Foundation, Harnessing the Data Revolution, Harnessing the Data Revolution, (2019-2022) Collaborative Research: Near term forecasts of global plant distribution, community structure, and ecosystem function. PI B.J. Enquist
+* National Geographic Explorers Grant (2019-2021) Analyzing the future of tropical dry forests using new technologies and low-cost laser scanning. PIs B.J. Enquist and Adam Chumurzynski.
+* Department of Energy (2017-2020) Biogeochemical Dynamics from Genomes to Watershed Scales; The Watershed Function Scientific Focus Area (SFA) PIs Susan Hubbard and Ken Williams, LBNL, Berkeley Lab. 
+* Norwegian Research Council (2017 - 2023) TraitTrain:  Comparing climate change  impacts on High North vs. Alpine ecosystems through research and training in  trait-based approaches. PI Vigdis Vandvik; 
+* Norwegian Research Council (2018 - 2021) INCLINE:  Indirect  climate  change  impacts on alpine plant communities (Forskerprosjekt  -  FRIMEDBIO). PI Vigdis Vandvik.
+* National Science Foundation (2016-2019) ABI  Development:  Creating  a  generic  workflow  for  scaling  up  the  production  of  species  ranges  PI BJ. Enquist; Collaborative proposal with Brian McGill (University of Maine) and Cory Merrow (Yale University).
+* National Science Foundation (2016-2019) RUI: Niche evolution, ecological limits, and the macroecology of land plant biodiversity. NSF (DEB Populations and Community Ecology). PI BJ. Enquist; Collaborative proposal with A. Kerkhoff (Kenyon College).
+* National Science Foundation (2015-2018) Developing integrated trait-based scaling theory to predict community change and forest function in light of global change. NSF (DEB Ecosystems).  PI BJ. Enquist; Collaborative proposal with V.M. Savage (UCLA), L.Patrick-Bentley, and G. Asner (Carnegie/Stanford).
+* Global Environment Facility (GEF) and Conservation International (2016-2019) Spatial Planning for Protected Areas in Response to Climate Change (SPARC) PI Lee Hannah.
+* Department of Homeland Security (2016-2018). A general informatics workflow, database, and geospatial tools for the dissemination of high quality biodiversity data across space and time.  PI BJ. Enquist.
+* NERC: UK Research Grant (2013 – 2015) - Tree communities, airborne remote sensing and ecosystem function: new connections through a traits framework applied to a tropical elevation gradient. PI Yadvinder Malhi (Oxford University). 
+* University of Arizona, Institute for the Environment (2013) - Process-based Models for Forecasting Geographic Ranges – Integrating Plant Distributions, Demography, and Traits in a Bayesian, Informatics Framework. Institute for the Environment Faculty Exploratory Grant, PIs B.J. Enquist and M. Evans.
+* Aspen Center for Environmental Studies (ACES) Grant (2013 – 2015) - Future Forest Distribution Model” and website in order to forecast and visualize Western tree species responses to climate change.
+* National Science Foundation – Dissertation Improvement Grant (2008 – 2010) Graduate fellowship for Benjamin Blonder – Paleoclimate reconstruction from leaf venation networks, NSF DEB.
+* National Science Foundation (2013-2016). Novel lessons from ancient plants: Water transport in the earliest tracheophytes. Jarmilla Pitterman, PI, UC Santa Cruz.
+* National Science Foundation (2012-2015). Research Opportunity Award (ROA). PI Enquist, B.J., Supplemental funding to - Collaborative Research: Experimental Macroecology: Effects of Temperature on Biodiversity.
+* National Science Foundation, Macrosystems (2011- 2015). Experimental Macroecology. Collaborative proposal with J. H. Brown, Kaspari, M., Wade, B., J. Zhou, C. Hou.
+* National Science Foundation via the iPlant Collaborative (2010 – 2012). Developing BIEN – The Botanical Information and Ecology Network - to investigate the ecological impacts of global climate change on plant biodiversity. PI B.J. Enquist, Co-PI Condit, R., Theirs, B., M. Schildhauer and B. Peet. 
+* National Science Foundation (2010 – 2013). Semantic Web Informatics for Species in Space and Time. PI Dunne, J., Co-PI B.J. Enquist, J. Golbeck, R. Williams and N. Martinez.
+* National Science Foundation (2008-2012). Major Research Instrumentation. Acquisition of a Distributed Environmental Sensor Network by the Rocky Mountain Biological Laboratory PI: Ian Billick, Co-PIs: C.Still, B.J. Enquist, B. Peckarsky, and S. Wissinger.
+* National Center for Ecological Analysis and Synthesis and iPlant (2008 – 2012). Enquist, B.J. PI with Co-PIs R. Condit, R. Peet, B. Boyle, and S. Dolins, National Center for Ecological Analysis and Synthesis (NCEAS) working group, “Developing BIEN – The Botanical Information and Ecology Network - to investigate the ecological impacts of global climate change on plant biodiversity”. Support of participant costs for 5 working group meetings 2008 - 2012.
+* National Science Foundation – Advancing Theory in Biology, ATB (2008-2011) Combining Theories For Plant Architecture, Allometry, and Traits to Develop the Next Generation of Scaling Theory Enquist, B.J. PI, Collaborative proposal with V. Savage (UCLA), J. Sperry (Utah), and P. Reich (Minnesota).
+* National Science Foundation – Dissertation Improvement Grant (2008 – 2010). Graduate Fellowship for Scott Stark – Testing multiple determinants of growth rate-mass scaling relationships in an Amazonian Forest.
+* Center for Applied Biodiversity Science, Conservation International, CABS Fellowship (2008-2009). Developing a general macroecological framework for scaling plant community, diversity, biomass, and dynamics across time and space.
+* National Park Service Research Grant (2008-2009) Assessing plant taxonomic and functional diversity across elevational gradients. Enquist, B.J. PI, B.Boyle (Co-PI).
+* Center for Applied Biodiversity Science, Conservation International, CABS Fellowship (2007-2008). Developing a general macroecological framework for scaling plant community, diversity, biomass, and dynamics across time and space. PI: B.J. Enquist.
+* National Science Foundation Post-doctoral BioInformatics Fellowship (2006-2008) (E.P. White (PI), Enquist, B.J. CoPI).
+* National Science Foundation Young Investigator CAREER Award (2002-2007). Scaling plant life-history, ontogeny, diversity, and ecology: Elaboration of a general model. PI- B.J. Enquist. NSF DEB-0133974.
+* United States Geological Survey (USGS) Post-doctoral Research Grant (2003-2004) Developing a general framework for scaling plant community diversity, biomass, and dynamics across time and space – SALVIAS (Synthesis and Analysis of Local Vegetation Inventories Across Scales). PI - Enquist, B.J., Co-PI J. Pither.
+* National Parks Service Research Grant (2003-2004). Assessing Floristic Communities along an Elevational Gradient In Tropical Mexico – Comparison to Florissant National Monument, CO.PI Enquist, B.J. Co-PI B. Boyle and D. Kerkhoff.
+* Center for Applied Biodiversity Science, Conservation International, CABS Fellowship (2002-2004) Developing a general macroecological framework for scaling plant community, diversity, biomass, and dynamics across time and space;  PI - Enquist, B.J.
+* Department of Energy (DOE), Los Alamos National Labs (2003-2004) Scaling Relationships in Biology: Developing and Applying a Unifying Theory from Molecular through Biosphere Scales. PI D. D. Breshears,; Co-PIs Unkefer, P.J., West, G.B., Woodruff, W.H., Donohoe, R.J., Ebinger, M.H., Cremers, D.A.; Collaborators Enquist, B.J., Brown, J.H. and Allen, C.D.
+Organized Meetings, Workshops, Symposia
+* 2022 International Workshop: Synthesizing Biological Scaling: Towards a Universal Theory November 15, 2022 – November 17, 2022 Our proposed symposium will bring a much needed and belated round of synthesis in biological scaling. We will bring together aspects of the theory and communicate the syntheses that exist to the broader community. https://www.santafe.edu/events/synthesizing-biological-scaling-towards-universal-theory
+* 2018 International workshop: OpenTraits, New Orleans, August, 4-5th, 2018- Organized and led the first OpenTraits workshop part of a coordinated, international series of meetings focused on facilitating open collaboration and standardization in the collection and sharing of trait data. http://opentraits.org/
+* 2018-Symposium: Ecoinformatics Advances: Building Technosocial Systems for Open Data and Big Science Ecological Society of America, Annual Meeting 2018, New Orleans. Organizers: John (Jack) Williams Corina Gries, and B.J. Enquist https://eco.confex.com/eco/2018/meetingapp.cgi/Session/14041
+* 2018- International Course - International Plant Functional Traits Course 4, Svalbard. University Centre in Svalbard, Norwary. Co-led and co-taught with Prof. V. Vandvik for 20 students https://www.uib.no/en/rg/EECRG/114808/plant-functional-traits-course-4
+* 2017- International Workshop: A roadmap for global synthesis of the plant tree of life.  An international workshop held at Kew Royal Botanical Gardens, London UK. October 2017. Organizers W. Eiserhardt, B. Maitner, B.J. Enquist, W. Baker.
+* 2017- International Conference: Co-Organizer International Biogeography Society Meetings, Tucson Arizona.  
+* 2017- Workshop:  Integrating and cleaning biodiversity data: Workflows to model ranges and merge associated ecological, phylogenetic, and trait information.    Organizers:  Cory Merow, B.J. Enquist et. al.The 8th Biennial Conference of the International Biogeography Society was held at the University of Arizona, Tuscon Arizona, January 2017.
+* 2017- International Course - International Plant Functional Traits Course 3, Puna Alpine Grasslands, Peru. Wayqecha Cloud Forest Biological Station. Co-led and co-taught with Prof. V. Vandvik for 20 students https://www.uib.no/en/rg/EECRG/109375/plant-functional-traits-course-3
+* 2016- International Course - International Plant Functional Traits Course 2, Gongga Mountains, Tibetan Plateau, China. Alpine Ecosystem Observation and Experiment Station. Co-led and co-taught with Prof. V. Vandvik for 20 students https://www.uib.no/en/rg/EECRG/97477/plant-functional-traits-course-2
+* 2015-Symposium: Scaling in Ecology: Building a synthetic and predictive science for the next 100 years. Organized symposium for the 100th Anniversary of the Ecological Society of America meetings, 2015, Baltimore. Organizers: B.J. Enquist and Charles Price. https://eco.confex.com/eco/2015/webprogram/Session10682.html
+* 2014-International Issue: Proceedings of the National Academy of Sciences, Special Issue on ‘Functional Biogeography’, 2014. In 2011, led by Cyrille Violle, we proposed to the editors of PNAS to organize a special issue (an ‘in print’ symposium) on ’Functional Biogeography’. This has been tentatively accepted and the due date for the collection of papers is June 15th 2014. NAS member Prof. Steve Pacala at Princeton University and Peter Reich from University of Minnesota agreed to sponsor this issue. The editors of the session are post-doc Cyrille Violle (CNRS France & Univ. of Arizona), Brian J. Enquist (Univ. Arizona), and Stephen Pacala (NAS member; Princeton Univ.). The Associate Editors: Jens Kattge (Max Planck Institute), Peter Reich (Univ. Minnesota).
+* 2012-2008-NCEAS working group, 2012 - 2008 “Developing an integrated botanical information network to investigate the ecological impacts of global climate change on plant biodiversity” – Organized at the National Center for Ecological Analysis and Synthesis or the Botanical Information and Ecology Network (BIEN). PI, B.J. Enquist, Co-PIs Richard Condit, Bob Peet, Brad Boyle, Steve Dolins. October, 2011 http://www.nceas.ucsb.edu/featured/enquist
+* 2010-Symposium: Developing a Taxonomic Name Resolution Service of Botany, April 2010. Working group at the Missouri Botanical Garden, March, 2010. Via the iPlant Collaborative The BIEN team is working to assemble a demonstration project that includes most of the premier plant biodiversity databases for the Americas (sources listed below). By the end of 2011 we propose to produce a single resource giving species names, locations, and often abundances, for about 25 million species occurrence records. Our ultimate goal is to unite an ever-growing pool of plant distributional data with information on plant co-occurrence, ecology, traits and phylogeny. See http://www.iplantcollaborative.org/ node/1044 and https://pods.iplantcollaborative.org/ wiki/display/iptol/ TNRS+Workshop
+* 2010-International Conference, Elected Chair – 2010 Gordon Research Conference on “The metabolic basis of ecology” held July, 2010. Elected by the participants of the 2006 Gordon Conference to chair the July, 2010 meeting. Together with my co-chair Dr. David Atkinson of Liverpool University, we initiated, organized, advertised, and oversaw the 2010 GRC conference. This was a two year commitment to this GRC meeting that included handing the $20K GRC budget and fundraising an additional $9K to support speaker and participant travel and registration costs.
+http://www.grc.org/programs.aspx?year=2010&program=metbasis
+* 2006-Workshop Toward a Unified Theory of Ecological Systems (J. Green, B.J. Enquist, S. Hubbell, and P. Marquet organizers. Sept. 2006 The Santa Fe Institute and the National Center for Ecological Analysis and Synthesis.
+* Symposium: A “new” paradigm for community ecology: building from functional ecology - (McGill, B. and B.J. Enquist organizers). Aug. 2004; Ecological Society of America Meetings in Portland, OR. Program: http://abstracts.co.allenpress.com/  pweb/esa2004/category/?ID=32244
+* Symposium: Biophysical Ecology (Sabo, J. and B.J. Enquist organizers). Aug. 2003; Ecological Society of America Meetings in Savanna GA. Program:http://abstracts.co.allenpress.com/pweb/esa2003/category/?ID=23502
+* Annual Southwestern Association of Biologists Meeting: Portal, AZ Oct. 2002 (Enquist, B.J. and M. Weiser organizers).  Meeting website and official program: http://eeb37.biosci.arizona.edu/~swab/main.html.
+* Symposium: Scaling the implications of organismal size across evolutionary time and ecological space: A synthesis of recent advances and insights. (Enquist, B.J., Smith, F.A., and P.A. Marquet organizers). Aug 2002; Ecological Society of America Meetings in Tucson, AZ.  Program: http://abstracts.co.allenpress.com/ pweb/esa2002/category/?ID=510.
+* Workshop: Fractals in Biology: Developing the underlying mechanistic principles for self-similarity. Workshop with 15 participants, Nov. 29-Dec. 2 2000, The Santa Fe Institute (B.J. Enquist and D. Morse organizers). Program: http://discuss.santafe.edu/biofractals/.
+Samping of Public Talks
+* 2020 College of Science Public Science Lecture Series, Catalysts of Change. Our Rapidly Changing Biosphere. https://www.youtube.com/watch?v=GEuvFfI3ZtY 
+* 2017 Oxford Martin School – Oxford University. The concept of time in biology, and the unity of life. https://www.youtube.com/watch?v=u1NJTtWQSHQ
+* 2016 UofA Science Café, It's About Time. The Dimensions of Biological Time
+* 2015 Life In the Universe – UofA College of Science Public Lecture series. Life on Earth: By Chance or By Law?  
+* 2014 Aspen Ideas Festival – Climate change and the fate of our forests –
+Aspen Colorado. July 1st.
+* 2012 BrownFest– a homage to Jim Brown and Astrid Kodric-Brown - Experimental Allometry & Evolution of Allometry – Homage to James H. Brown  
+Supervision and Mentoring 
+Post-doctoral Researchers/Fellows (19):
+ Dr. Andrew Kerkhoff (Phd U New Mexico), 2002-2005. Currently Provost, University of Puget Sound; Dr. Brad Boyle (PhD Washington U), 2002-2006, 2010-2013; Dr. Jason Pither (PhD Queens U), 2004-2007, Associate Professor, Biology Department at the University of British Columbia, Okanagan; Dr. Ethan White (PhD U. New Mexico), 2005- 2007, Associate Professor, University of Florida; Dr. Lisa Patrick (PhD Texas Tech), Sept. 2008 – 2013. Associate Professor, Sonoma State University; Dr. Cyrille Violle (PhD Montpellier University, France), 2009 – 2012. He was a Marie Currie Fellow at the University of Arizona and at the CEFE at the University of Montpellier, France. CNRS Scientist (Centre National de la Recherche Scientifique), University of Montpellier, France; Dr. Sean Michaletz (PhD University of Calgary), 2013 - 2017. Currently, Assistant Professor, University of British Columbia, Canada; Dr. Naia Morueta-Holme (PhD Biology, Aarhus University 2014), 2015 - 2017 Currently, Associate Professor Center for Macroecology, Evolution and Climate, University of Copenhagen, Denmark; Dr. Sandra Duran (PhD University of Alberta). 2016 - 2020, Assistant Professor Colorado State University;  Dr. Danilo Neves (PhD Federal University of Minas Gerais, Botany Department, Brazil). 2016 - 2018 , Assistant Professor position at the Federal University of Minas Gerais (Brazil);  Dr. Daniel Park (PhD Harvard, 2016) BBCS postdoc, 2017-2018, Assistant Professor Purdue University ; Dr. Xiao Feng (PhD University of Oklahoma) BBCS postdoc 2019-2020 Assistant Professor, University of North Carolina ; Dr. Rachael Gallagher (PhD Maquarie University, Australia) 2017. She was  a ARC Discovery Early Research Career spending part of her postdoc in my lab;  Dr. Robbie Burger (PhD University of New Mexico), currently Assistant Professor, University of Kentucky; Dr. Erica Newman (PhD UC Berkeley, 2016) 2018 - 2020;  Dr. Julia Chacón-Labella (PhD Madrid 2018) 2020 - 2022, Assistant Professor ; Dr. Teresa Bohner (PhD UC Riverside) USGS Scientist; Dr. Cesar Hinojo Hinojo (PhD UC Irvine) 2021-2023  Assistant Professor University of Sonora, Mexico; Dr. Gabriel Moulatlet (2024-present)
+Graduate students, PhD (20):
+Charles Price (PhD EEB: 2001 – 2006), Associate Professor position at the University of Western Australia; Michael Weiser (PhD EEB: 2001 – 2007); Megan McCarthy (PhD EEB:2002 – 2006); Nathan Swenson (PhD EEB:2003 – 2008); James Stegen (PhD:2004 – 2009); Christine Lamanna (PhD EEB:2006 –2012) climate-change ecologist and decision analyst with ICRAF's Climate Change Unit, The Center for International Forestry Research and World Agroforestry; Scott Stark (PhD EEB:2006 – 2012) Associate Professor, Michigan State University; Cathy Hulshof (PhD EEB:2007 – 2012). Lindsey Sloat (PhD EEB:2009 – 2015) Land and Carbon Lab, World Resources Institute; Benjamin Blonder (PhD EEB:2009 – 2014). Assistant Professor University of California, Berkeley; Julie Messier (PhD EEB:2010 – 2015) Assistant Professor, University of Waterloo, Canada; Alex Brummer (PhD Physics:2012 – 2017). Department of Physics and Astronomy, College of Charleston; Vanessa Buzzard (PhD EEB:2013 – 2017). Research Scientist Biosphere2; Brian Maitner (PhD EEB:2014 – 2021) Assistant Professor University of South Florida; Lorah Patterson (PhD EEB:2016 – 2025); Adam Chmurzynski (PhD EEB:2017 – 2025); Michiel Pillet (PhD EEB:2018 – 2025); Jocelyn Navarro (PhD EEB:2020 -  ); Connor Wilson (PhD EEB:2022 - ) ; Michael Mustri (PhD EEB: 2023-  ); 
+Graduate students, Masters (4):
+John Donoghue (Masters:2010 – 2014). Co-advised with B. McGill, GIS Manager, GIS Engineer, The Altum Group; Amanda Henderson (Masters:2013 – 2016).  DOE Research Scientist, Berkeley Labs; Matiss Castorena Salaks, Masters: 2017 – 2022); Maryela Celaya (2024 - present);
+Unidergraduate students
+Numerous undergraduates have worked in my lab assessing with plant trait and stoichiometry measures as well as helping in the field and with various lab research. Too many to count. Many have done honors theses and completed research projects.  Some notable undergraduates who have completed research study include: Evan Economo - a faculty member at the Okinawa Institute of Science and Technology where I lead the Biodiversity and Biocomplexity Unit https://groups.oist.jp/bbu/evan-p-economo; John Grady Postdoctoral Fellow, https://www.johnmgrady.com/ Rachael Mitchel Assistant Professor – University of Arizona – School of Natural Resources and the Environment. https://mitchell-ecology.com/;  Peter Gaube Senior Principal Oceanographer, Applied Physics Laboratory, University of Washington https://submesoscale.org/
+International graduate students and post-docs (8):
+Hélène Morlon (2011;  Kristine Engemann Jensen (2012 – 2015). She finished her PhD with Jens-Christian Svenning at Aarhus University, Denmark. I was an international member of her PhD committee and hosted her for in my lab for several months in 2012-2015; Mia Vedel Sørensen (2016 – 2018) I was co-supervisor with Professor Bente Jessen Graae at the Norwegian University of Science and Technology in Trondheim Norway (NTNU). Mia is applying our methods for linking traits and ecosystem carbon flux in a long-term experiment along an elevational gradient in Norway;  Dr. Dr. Irena Simova (PhD Charles University, Czech Republic), August 2012 - 2017.  Dr. Simova was an international postdoctoral fellow with funding from the Czech Republic to travel to my lab part of her time and to collaborate on our NSF Macrosystems project;  Jehová Lourenço Junior – External, PhD Student,  Brazil, March 2017 –  October 2018, PhD ‘Sandwich’. Jehová defended his PhD at the University of Arizona Fall 2018. He is currently a postdoc Jitka Klimešová in the Czech Republic. Yaoqi Li – Visiting PhD Student, Peking University, China, Nov. 2017 –  Nov. 2018. Yaoqi is defending her PhD late spring 2019;  Jiaxin Zhang – Visiting PhD Student, Chinese Academy of Science, Wuhan China, June 2018 – June  2019;  Ragnhild Gya PhD Student, University of Bergen, Department of Biology, Norway, Sept. 2019 – Sept. 2020.
+Affiliations 
+American Association for the Advancement of Science, American Society of Naturalists, Ecological Society of America (Theoretical and Physiological Ecology Sections), Botanical Society of America (Ecological and Tropical Biology section).
+Overview of synergistic activities 
+
+
+Development of Botanical Ecoinformatics Data Networks, Workflows, and Tools -  In order to enable the next generation of big-data driven science, we have actively worked to develop publically accessible standardized botanical datasets, workflows, and informatics tools. This work includes development of the following:
+* BIEN- The Botanical Information and Ecology Network – is integrating the available herbarium specimens, plant functional trait and ecological plot data for the New World, biendata.org. BIEN is a network of numerous scientists from across the globe who are developing a standardized workflow to integrate disparate sources of botanical data that together can address prominent questions of plant macroecology, evolution, and comparative biology. The BIEN database currently houses about 200 million integrated and standardized botanical observations from across the New World – from herbarium, trait, and ecological plot observations.
+* TNRS - In order to do repeatable, robust global ecology and comparative biology one must integrate disparate data containing differing taxonomic names. As part of my research efforts to integrate global data collaborative research with the iPlant Collaborative and the Missouri Botanical Garden, we have just developed a Taxonomic Name Resolution Service (TNRS). Featured in Nature, the service standardizes and ‘scrubs’ global botanical names so as to make taxon names ‘usable’ for comparative analyses. It is an informatics tool to correct and align any botanical taxonomic information, tnrs.iplantcollaborative.org / Since its release in 2011, use of the TNRS has been exponential with over 50,000 users and 1,000 new sessions each month.
+* The San Emilio Forest Dynamics long-term plot - My group maintains a long-term forest dynamics plot on the growth, death, and recruitment of all trees within a 17ha plot in Guanacaste, Costa Rica. Started in 1976, the plot contains ~ 20,000 trees and is one of the largest and longest running forest plots. 
+* OpenTraits.org Functional traits have rapidly become an integral part of biodiversity, earth system, and climate change  research.  Trait-based approaches allow comparisons (of patterns, trends, global change impacts etc.) across regions and systems that have few taxa in common. But despite widespread interest, we still have incomplete knowledge of how traits vary within and across species, locations and time and we still lack a common trait standard to link and share trait data within and across disparate organisms (plants, insects, birds, mammals etc.). I have led the start of OpenTraits to help advance the use of trait based approaches and data in biology and earth system research.  
+
+
+Highlights of some of my lab groups popular science, education & outreach activities – My lab group has worked with multiple media outlets to teach and promote the broader impact of Science done in the lab. These efforts utilize innovative technological and pedagogical approaches to convey the unique mathematical and large-scale ecological approaches that we use in my lab. This work has included:
+* ForestForecasts - at forestforecasts.org  We have developed in partner with the Aspen Center Environmental Studies a web visualization portal to show the impacts of differing climate change scenarios on local forests in Colorado. We are actively working to design this exploratory visualization tool toexplore and understand how different climate  change  scenarios will impact western forests. I am the PI of this outreach effort to develop novel  web accessible visualization and simulation tools to allow students, the public,  non-scientists, and scientists to visualize the change of forests with different climate  change  scenarios.  The site, includes links for elementary  school education lessons as well as for the general public.  
+* Plant-O-Matic -  In order to deliver biodiversity data to the people, we have developed a novel app (freely available on the iTunes  store) that uses 100,000 species range maps  in  the  New World let the user know what plants may immediately surround them in their current location.  The app provides a fast conduit and rapid access to biodiversity data and is a creative tool by which anyone with a smart phone can interact and discover biodiversity, https://itunes.apple.com/us/app/plant-o-matic/id906932765?mt=8
+* PBS NOVA documentary- “Hunting the Hidden Dimension” focused on the history and study of self-similarity in nature. Filming this documentary featured my work at the Santa Fe Institute as well as within the Area de Conservacíon Guanacaste, Costa Rica. My work on the film consisted of much logistical planning and assisting with animations and editing script. The documentary aired in 2009 and has now been shown throughout the world including the public broadcasting channels in most of Europe and Australia. The film focuses on how my work on ‘self-similarity’ applies to pressing issues in biology, ecology, and global change, see http://www.pbs.org/wgbh/nova/physics/hunting-hidden-dimension.html ; watch us  watch starting at ~ 43:00 https://www.youtube.com/watch?v=HvXbQb57lsE
+* National Geographic Channel, documentary, X-Ray Earth -  We worked with the developers to film several sessions at the Rocky Mountain Biological Lab. The series aired in 2011 and focus’ on our work in using metabolic scaling theory and new technology to predict and understand the flux of CO2 from terrestrial ecosystems, see http://www.natgeotv.com/int/x-ray-earth ; watch us starting at ~ 50:00 https://www.youtube.com/watch?v=HYdeYuk3Qa4
+* Popular Science Book – “In the Beat of a Heart”  My lab is featured prominently in this popular science book. We conducted several interviews, and hosted the author for fieldwork and multiple excursions. It features my collaborative research on scaling and teaches the linkages between math, large scale ecology, biodiversity, and our work to understand and conserve biodiversity and tropical forests. https://www.theguardian.com/science/2015/feb/26/in-the-beat-of-a-heart-by-john-whitfield-review
