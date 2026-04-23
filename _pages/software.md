@@ -174,7 +174,8 @@ An online tool for the standardization of plant taxonomic names.
 
 - [tnrs.biendata.org](https://tnrs.biendata.org/)
 - [GitHub source](https://github.com/iPlantCollaborativeOpenSource/TNRS)
-- Featured in *Nature* (2011)
+- [Featured in *Nature* (2011)](https://www.nature.com/articles/474263a)
+- [TNRS publication: Boyle et al. (2013), *BMC Bioinformatics*](https://link.springer.com/article/10.1186/1471-2105-14-16)
 
 ---
 

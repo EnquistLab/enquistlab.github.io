@@ -234,8 +234,13 @@ h6,
   flex-wrap: wrap;
   gap: 0.35rem 0.5rem;
   margin: 0.6rem 0 1.2rem;
-  padding: 0.5rem 0 0.75rem;
+  padding: 0.6rem 0 0.8rem;
   border-bottom: 1px solid var(--global-divider-color);
+  position: sticky;
+  top: 4.35rem;
+  z-index: 120;
+  background: color-mix(in srgb, var(--global-bg-color) 92%, white 8%);
+  backdrop-filter: blur(6px);
 
   &__label {
     font-family: "Source Sans 3", sans-serif;
@@ -265,6 +270,15 @@ h6,
     color: var(--global-text-color-light);
     opacity: 0.65;
   }
+
+  @media (max-width: 768px) {
+    top: 3.9rem;
+  }
+}
+
+.post article h2,
+.post article h3 {
+  scroll-margin-top: 7.5rem;
 }
 
 // Mission statement
