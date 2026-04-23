@@ -4,6 +4,7 @@ title: about
 permalink: /about/
 nav: true
 nav_order: 2
+front_lab_name: Macroecology Lab
 subtitle: >
   Professor of Ecology & Evolutionary Biology, <a href="https://eeb.arizona.edu/" target="_blank">University of Arizona</a> |
   External Professor, <a href="https://www.santafe.edu/" target="_blank">Santa Fe Institute</a>
