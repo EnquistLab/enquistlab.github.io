@@ -6,27 +6,19 @@
 # ============================================================
 
 postdocs: []
-grad_students:
-- name: Robert MacArthur
-  role: PhD
-  photo: ''
-  bio: I do Ecology
-  google_scholar: www.RobertMacArthur.com
-  website: www.RobertMacArthur.com
-  github: None
-  email: robertmacarthur.com
-  institution: Princeton University
-  degree: PhD
-  quote: I shall return
+grad_students: []
 visiting_students: []
 staff:
-- name: Bob the dog
-  role: MS
-  photo: ''
-  bio: Woof
-  google_scholar: www.bobthedog.com
-  website: ''
-  github: None
-  email: I dont use email
-  institution: NAU
-  degree: Masters
+- name: Michiel (Mich) Pillet
+  role: Designated Campus Colleague
+  photo: michiel_mich_pillet.jpg
+  bio: Conservation ecologist specializing in climate change impacts on biodiversity,
+    with a focus on cacti and succulents. My research integrates ecological theory,
+    species distribution modeling, and quantitative methods to inform conservation
+    planning and policy.
+  google_scholar: https://scholar.google.com/citations?user=Y7Y2MxsAAAAJ&hl=en
+  website: https://mdpillet.github.io/Website/
+  github: https://github.com/mdpillet/
+  email: mdpillet@gmail.com
+  institution: University of South Florida and University of Arizona
+  degree: PhD
