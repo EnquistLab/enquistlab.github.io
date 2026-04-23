@@ -61,6 +61,16 @@ We integrate occurrence, trait, and environmental data to generate reproducible 
 
 ---
 
+## What the Lab Actually Does
+
+- Measure tree growth, physiology, and mortality in tropical forests, alpine meadows, and long-term forest monitoring plots
+- Build and test scaling models that predict how organisms and ecosystems function across size, temperature, and environment
+- Compile synthesis databases linking hundreds of millions of plant records to traits, climate, and species ranges
+- Forecast how biodiversity and ecosystem function shift under alternative climate and land-use futures
+- Create open conservation tools that partners use to compare protection strategies and assess extinction risk
+
+---
+
 <figure class="story-photo">
   <img src="{{ "/assets/img/field/sefdp_resurvey_team.jpeg" | relative_url }}" alt="SEFDP resurvey team, Costa Rica tropical forest dynamics plot" loading="lazy">
   <figcaption>Resurvey team at the San Emilio Forest Dynamics Plot, Costa Rica — one of the longest-running forest monitoring programs in the New World.</figcaption>

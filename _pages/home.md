@@ -75,11 +75,11 @@ nav_order: 1
     </div>
   </a>
 
-  <a class="home-card" href="{{ '/resources/' | relative_url }}">
-    <div class="home-card__img" style="background-image: url('{{ "/assets/img/field/fms_network_overview.jpg" | relative_url }}')"></div>
+  <a class="home-card" href="{{ '/join/' | relative_url }}">
+    <div class="home-card__img" style="background-image: url('{{ "/assets/img/wordpress/dsc_3414.jpeg" | relative_url }}')"></div>
     <div class="home-card__body">
-      <h3>Resources</h3>
-      <p>BIEN, TNRS, R packages, and open tools.</p>
+      <h3>Join or Collaborate</h3>
+      <p>Graduate students, postdocs, visitors, and partners.</p>
     </div>
   </a>
 

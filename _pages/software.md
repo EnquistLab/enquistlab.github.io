@@ -1,6 +1,6 @@
 ---
 layout: page
-title: resources
+title: tools & data
 permalink: /resources/
 description: Open-source tools and databases from the Enquist Lab
 nav: true
@@ -14,6 +14,12 @@ Code and public tools associated with current and ongoing lab projects.
 - [Enquist Lab on GitHub](https://github.com/EnquistLab)
 - [Oxford Ecosystems Lab on GitHub](https://github.com/OxfordEcosystemsLab)
 - [BIEN Data Portal](https://biendata.org/)
+
+<div class="cta-row">
+  <a class="btn btn-sm btn-cta-primary" href="https://biendata.org/" target="_blank" rel="noopener">Go to BIEN Portal</a>
+  <a class="btn btn-sm btn-cta-outline" href="https://github.com/EnquistLab" target="_blank" rel="noopener">View on GitHub</a>
+  <a class="btn btn-sm btn-cta-outline" href="https://plantfunctionaltraitscourses.w.uib.no/" target="_blank" rel="noopener">Read Training Materials</a>
+</div>
 
 <div class="resources-hero-grid">
 	<figure class="resources-hero-grid__lead">

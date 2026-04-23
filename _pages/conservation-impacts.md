@@ -9,6 +9,8 @@ nav_order: 3.5
 
 ## Conservation Impacts
 
+**We translate biodiversity data into map-based decisions. Rather than collapsing evidence into a single answer, we show uncertainty, compare scenarios, and help partners choose strategies that hold up across multiple possible futures.**
+
 The lab's conservation work focuses on turning biodiversity observations, traits, and forecasting models into planning-ready evidence. That means linking large synthesis databases such as BIEN with climate scenarios, range information, and uncertainty analysis so conservation partners can compare options rather than rely on a single deterministic answer.
 
 <figure class="field-photo" style="max-height:340px;">
@@ -60,3 +62,7 @@ The analytical foundation for this work includes BIEN occurrence and trait data,
 ### Where This Connects
 
 This page sits between the lab's broader [research program]({{ '/research/' | relative_url }}) and its [resources]({{ '/resources/' | relative_url }}): theory and synthesis feed forecasting, and forecasting feeds conservation planning. For collaboration examples and partner-facing initiatives, see [collaborators]({{ '/collaborators/' | relative_url }}).
+
+---
+
+**Interested in collaboration or partnership work?** [Contact us]({{ '/contact/' | relative_url }}) with your project question, timeline, and any relevant data or funding context.

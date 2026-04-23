@@ -28,6 +28,8 @@ Current themes include:
 - Ecology and evolution of plant functional and physiological integration
 - Long-term monitoring of populations, communities, and ecosystems in tropical, temperate, and alpine environments
 
+Our research flows from observation to prediction: we measure organisms and ecosystems, build theories about why patterns emerge across levels of biological organization, and test whether those theories can forecast how biodiversity responds to global change.
+
 ---
 
 ### Metabolic Scaling and Functional Biology

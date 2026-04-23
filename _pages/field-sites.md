@@ -4,7 +4,7 @@ title: field sites
 permalink: /field-sites/
 description: Long-term research sites and field programs
 nav: true
-nav_order: 45
+nav_order: 3.8
 ---
 
 <style>
