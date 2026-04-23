@@ -16,20 +16,20 @@ Code and public tools associated with current and ongoing lab projects.
 - [BIEN Data Portal](https://biendata.org/)
 
 <div class="resources-hero-grid">
-  <figure class="resources-hero-grid__lead">
-    <img src="{{ '/assets/img/wordpress/dsc_2976.jpeg' | relative_url }}" alt="Field team sampling on an Andean ridge above layered cloud-forest valleys" loading="lazy">
-    <figcaption>Elevational campaigns tie field sampling to climate gradients and synthesis-ready datasets.</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ '/assets/img/wordpress/img_0597.jpg' | relative_url }}" alt="Researchers working among tall old-growth conifers in a structurally complex forest" loading="lazy">
-    <figcaption>Long-term plot measurements connect forest structure, demography, and open data workflows.</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }}" alt="SPARC conservation planning map showing protected-area prioritization across the Americas" loading="lazy">
-    <figcaption>Planning tools translate biodiversity data into conservation-priority maps and scenario comparisons.</figcaption>
-  </figure>
+	<figure class="resources-hero-grid__lead">
+		<img src="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}" alt="Cloud-forest mountain slope along an Andean elevational transect" loading="lazy">
+		<figcaption>Elevational campaigns tie field sampling to climate gradients and synthesis-ready datasets.</figcaption>
+	</figure>
+	<figure>
+		<img src="{{ '/assets/img/wordpress/dsc_3443.jpeg' | relative_url }}" alt="Snow-covered Andean peaks above alpine field terrain" loading="lazy">
+		<figcaption>Lab resources are built across linked mountain, forest, and climate-gradient systems.</figcaption>
+	</figure>
+	<figure>
+		<img src="{{ '/assets/img/wordpress/img_0597.jpg' | relative_url }}" alt="Old-growth conifer forest with very small field crew at the base of towering trees" loading="lazy">
+		<figcaption>Long-term plot measurements connect forest structure, demography, and open data workflows.</figcaption>
+	</figure>
 </div>
-<p class="resources-hero-note">Lab software and open data products are built from the same pipeline: field observations, curated synthesis databases, and decision-oriented spatial analyses.</p>
+<p class="resources-hero-note">Lab software and open data products are built from the same pipeline: field observations, curated synthesis databases, and decision-oriented ecological analyses.</p>
 
 <style>
   .resources-hero-grid {
@@ -94,11 +94,11 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
 
 <div class="photo-pair">
   <figure>
-    <img src="{{ '/assets/img/field/pftc_peru_students.jpeg' | relative_url }}" alt="Students collecting plant functional trait data during a PFTC field course in Peru" loading="lazy">
-    <figcaption>PFTC students measuring and documenting plant traits in Peru.</figcaption>
+		<img src="{{ '/assets/img/wordpress/dsc_3414.jpeg' | relative_url }}" alt="Field team working across a high-Andean ridge with a broad mountain valley below" loading="lazy">
+		<figcaption>PFTC training connects field logistics, trait sampling, and gradient-scale ecological inference.</figcaption>
   </figure>
   <figure>
-    <img src="{{ '/assets/img/field/pftc5_peru.jpeg' | relative_url }}" alt="Plant Functional Trait Course fieldwork in the Andes" loading="lazy">
+		<img src="{{ '/assets/img/wordpress/img_5090.jpeg' | relative_url }}" alt="Researchers measuring a tree in tropical forest during field training" loading="lazy">
     <figcaption>Trait-course field campaigns link sampling design, climate gradients, and open data workflows.</figcaption>
   </figure>
 </div>

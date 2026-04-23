@@ -46,7 +46,7 @@ Prospective students should:
 Applications are typically due in **December** for the following fall. Strong applications will have prior research experience, programming skills (R or Python), and clear scientific questions.
 
 <figure class="field-photo">
-	<img src="{{ '/assets/img/field/pftc_peru_students.jpeg' | relative_url }}" alt="Students collecting plant functional trait data in Peru" loading="lazy">
+	<img src="{{ '/assets/img/field/sefdp_diameter_measure.jpg' | relative_url }}" alt="Field researchers measuring tree diameter in a forest monitoring plot" loading="lazy">
 	<figcaption>Field-based training is a core part of the lab's research culture, especially in plant functional traits, community ecology, and climate-gradient science.</figcaption>
 </figure>
 
@@ -72,8 +72,8 @@ We welcome international visiting students and researchers. Contact Brian direct
 
 <div class="photo-pair">
 	<figure>
-		<img src="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}" alt="Researchers crossing a canopy bridge during tropical field training" loading="lazy">
-		<figcaption>Training often happens in motion: moving through field infrastructure, comparing methods, and designing the next measurement step.</figcaption>
+		<img src="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}" alt="Cloud-forest mountain slope along an elevational transect" loading="lazy">
+		<figcaption>Projects often begin with sites and gradients large enough to test genuinely big questions.</figcaption>
 	</figure>
 	<figure>
 		<img src="{{ '/assets/img/field/rmbl_fieldwork.jpg' | relative_url }}" alt="Fieldwork at the Rocky Mountain Biological Laboratory elevational gradient" loading="lazy">
