@@ -6,7 +6,18 @@
 # ============================================================
 
 postdocs: []
-grad_students: []
+grad_students:
+- name: Jocelyn Navarro
+  role: PhD Candidate
+  photo: ''
+  bio: Plant ecologist specializing in plant-water relations.
+  google_scholar: https://scholar.google.com/citations?user=94Hw8w0AAAAJ&hl=en
+  website: https://www.jocelynavarro.com/
+  github: ''
+  email: jocelynnavarro@arizona.edu
+  institution: University of Arizona/ Rocky Mountain Biological Laboratory
+  quote: '"I''ve learned that peope will forget what you said, people will forget
+    what you did, but people will never forget how you made them feel." -Maya Angelou'
 visiting_students: []
 staff:
 - name: Michiel (Mich) Pillet
