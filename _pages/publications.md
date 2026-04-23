@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-## Publications and CV
+## Publications & CV
 
 - [Google Scholar profile](https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en)
 - [ResearchGate profile](https://www.researchgate.net/profile/Brian-Enquist)

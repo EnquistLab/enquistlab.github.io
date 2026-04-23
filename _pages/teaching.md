@@ -6,7 +6,7 @@ description: Courses, workshops, and training resources
 nav: false
 ---
 
-## Current and Recent Courses
+## Current & Recent Courses
 
 | Course | Title |
 |--------|-------|
@@ -18,19 +18,19 @@ nav: false
 
 ---
 
-## International Plant Functional Trait Courses (PFTC)
+## Plant Functional Trait Courses (PFTC)
 
 The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.no/) provide hands-on training in plant functional traits ecology within a real-life field research project setting. Students plan and execute a trait-based research project, collect and document plant functional trait data in the field, and explore these data using trait-based approaches within climate change research and ecosystem ecology. Field campaigns have taken place in **Norway, Colorado (USA), Peru, China**, and additional countries.
 
 ---
 
-## Workshops and Short Courses
+## Workshops & Short Courses
 
 - **Integrating and Cleaning Biodiversity Data** — workflows to model ranges and merge ecological, phylogenetic, and trait information. Taught at the 2017 International Biogeography Society meeting, Tucson, AZ. [Course overview](https://tucson2017ibs.wordpress.com/workshops/integrating-and-cleaning-biodiversity-data-workflows-to-model-ranges-and-merge-associated-ecological-phylogenetic-and-trait-information/)
 
 ---
 
-## Online Lectures and Open Materials
+## Online Lectures & Open Materials
 
 - **[Trait Drivers Theory](https://doi.org/10.6084/m9.figshare.5328004.v1)** — A basis to integrate and scale from plant form, function, and strategies to ecosystems worldwide. Enquist & Savage (2017), FigShare.
 - **[Introduction to Data Science & Management](https://figshare.com/articles/How_to_think_About_Your_Data_Introduction_to_Data_Science_Management_what_they_don_t_but_should_-_teach_you_about_the_scientific_method_/4251953)** — What they don't (but should) teach you about the scientific method. Enquist (2016), FigShare.

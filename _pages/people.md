@@ -145,7 +145,7 @@ nav_order: 4
 
 ---
 
-## Lab Team and Technical Staff
+## Lab Team & Technical Staff
 
 <div class="team-grid">
 {% for person in site.data.people.staff %}

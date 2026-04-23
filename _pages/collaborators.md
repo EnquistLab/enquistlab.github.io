@@ -6,7 +6,7 @@ description: Major research collaborations and initiatives
 nav: false
 ---
 
-## Collaborations and Initiatives
+## Collaborations & Initiatives
 
 We actively collaborate with local and international initiatives. These multi-team collaborations provide opportunities for field work, synthesis, and training for postdocs, graduate students, undergraduates, and research partners.
 
@@ -21,7 +21,7 @@ Current collaborative themes include:
 
 ---
 
-### SPARC: Spatial Priorities for Species in Response to Climate Change
+### SPARC: Spatial Priorities for Species & Climate
 
 SPARC is a collaboration involving Conservation International and international university partners to identify conservation priorities under current and future climates. The objective is to reduce extinction risk while sustaining ecosystem services.
 
@@ -29,7 +29,7 @@ SPARC is a collaboration involving Conservation International and international 
 
 ---
 
-### Functional Biodiversity and Synthesis Networks
+### Functional Biodiversity & Synthesis Networks
 
 Our lab collaborates across BIEN, OpenTraits, and partner groups to integrate taxonomy, occurrences, traits, and environmental layers for reproducible biodiversity forecasting.
 
@@ -37,7 +37,7 @@ Our lab collaborates across BIEN, OpenTraits, and partner groups to integrate ta
 
 ---
 
-### Team Science and Field Campaigns
+### Team Science & Field Campaigns
 
 Collaborative field campaigns include tropical forest dynamics plots, elevational transects, and training-centered field programs that pair long-term monitoring with quantitative synthesis.
 

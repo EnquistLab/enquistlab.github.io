@@ -85,7 +85,7 @@ Code and public tools associated with current and ongoing lab projects.
   }
 </style>
 
-### Additional Lab Resources
+### Lab Resources
 
 - [Teaching and training]({{ '/teaching/' | relative_url }})
 - [News archive]({{ '/news/' | relative_url }})
@@ -94,7 +94,7 @@ Code and public tools associated with current and ongoing lab projects.
 
 ---
 
-### Plant Functional Trait Course (PFTC) Resources <span class="tool-tags"><span class="tool-tag">training</span><span class="tool-tag">trait ecology</span><span class="tool-tag">field methods</span></span>
+### PFTC Resources
 
 The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.no/) are a major training pipeline for the lab's field-based trait ecology work. They combine hands-on sampling, data curation, community ecology, and quantitative analysis across diverse field settings.
 
@@ -142,7 +142,7 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
 
 ---
 
-### BIEN R Package <span class="tool-tags"><span class="tool-tag">occurrence</span><span class="tool-tag">trait</span><span class="tool-tag">range</span></span>
+### BIEN R Package
 
 The `BIEN` R package provides programmatic access to the Botanical Information and Ecology Network database — ~85 million botanical observations, ~100,000 species range maps, and plant trait data for the New World.
 
@@ -158,7 +158,7 @@ sp <- BIEN_occurrence_species("Pinus ponderosa")
 
 ---
 
-### BIEN Data Portal <span class="tool-tags"><span class="tool-tag">occurrence</span><span class="tool-tag">spatial</span></span>
+### BIEN Data Portal
 
 The BIEN GeoSpatial portal provides web-based access to New World plant occurrence, range, and trait data with QA/QC, taxonomic harmonization, and geographic filtering.
 
@@ -166,7 +166,7 @@ The BIEN GeoSpatial portal provides web-based access to New World plant occurren
 
 ---
 
-### Taxonomic Name Resolution Service (TNRS) <span class="tool-tags"><span class="tool-tag">taxonomy</span></span>
+### Taxonomic Name Resolution Service (TNRS)
 
 Computer-assisted standardization of plant scientific names: corrects spelling errors, resolves synonyms, and maps names to accepted taxonomy.
 
@@ -256,7 +256,7 @@ These services support a complete biodiversity data QA workflow from names to ge
 
 ---
 
-### Native Species Resolver (NSR) <span class="tool-tags"><span class="tool-tag">taxonomy</span><span class="tool-tag">native status</span></span>
+### Native Species Resolver (NSR)
 
 Uses regional taxonomic checklists to determine whether observations of a species within political divisions (country, state/province, county) are native or introduced.
 
@@ -264,7 +264,7 @@ Uses regional taxonomic checklists to determine whether observations of a specie
 
 ---
 
-### Hypervolumes R Package <span class="tool-tags"><span class="tool-tag">trait</span><span class="tool-tag">niche</span></span>
+### Hypervolumes
 
 Estimates the shape and volume of high-dimensional ecological objects (niches, trait distributions) and performs set operations including intersection, union, and overlap. Used for n-dimensional niche measurement and species distribution modeling.
 
@@ -273,7 +273,7 @@ Estimates the shape and volume of high-dimensional ecological objects (niches, t
 
 ---
 
-### fluxible <span class="tool-tags"><span class="tool-tag">flux</span><span class="tool-tag">time series</span><span class="tool-tag">QA</span></span>
+### fluxible
 
 Processes ecosystem gas flux time series and applies quality assurance workflows for eddy covariance and closed-chamber measurements. Handles CO₂, CH₄, and N₂O flux data from a variety of sensor systems. Core functions include flux calculation from raw concentration–time curves, automatic detection of non-linear or problematic measurements, outlier flagging, and export of QA-annotated summaries.
 
@@ -290,7 +290,7 @@ library(fluxible)
 
 ---
 
-### traitstrap <span class="tool-tags"><span class="tool-tag">trait</span><span class="tool-tag">uncertainty</span><span class="tool-tag">bootstrap</span></span>
+### traitstrap
 
 Bootstraps trait distributions to propagate uncertainty from individual-level measurements to community-weighted means and higher-order community trait statistics. Addresses a key challenge in trait-based ecology: raw community-weighted mean (CWM) calculations ignore intraspecific trait variation and sampling uncertainty. `traitstrap` implements parametric bootstrapping that draws from species-level trait distributions, weighted by abundance, producing CWMs with full uncertainty quantification suitable for downstream modeling.
 
@@ -308,7 +308,7 @@ library(traitstrap)
 
 ---
 
-### netassoc R Package <span class="tool-tags"><span class="tool-tag">occurrence</span><span class="tool-tag">co-occurrence</span></span>
+### netassoc
 
 Infers species associations from community co-occurrence matrices using partial correlations and Gaussian graphical models with null modeling.
 
@@ -317,7 +317,7 @@ Infers species associations from community co-occurrence matrices using partial 
 
 ---
 
-### comclim R Package <span class="tool-tags"><span class="tool-tag">trait</span><span class="tool-tag">climate</span></span>
+### comclim
 
 Computes community climate statistics for volume and mismatch using species' climate niches, scaled relative to a regional species pool. Used to infer community assembly processes.
 
@@ -352,7 +352,7 @@ Code and tutorials for applying Trait Driver Theory to community data:
 
 ---
 
-### Additional Tools & Datasets
+### Tools & Datasets
 
 | Resource | Description | Link |
 |---|---|---|

@@ -38,7 +38,7 @@ This includes:
 - Identifying where climate action and land conservation together can reduce projected losses
 - Translating model outputs into risk summaries that can be scrutinized and updated as new data arrive
 
-### Protected Area Design And Selection
+### Protected Area Design & Selection
 
 Protected areas are most effective when placement, representation, and climate resilience are considered together. Our work supports protected-area design by evaluating how current networks perform and where new protection or improved connectivity could yield the greatest gains for biodiversity persistence and ecosystem function.
 
@@ -48,7 +48,7 @@ Relevant questions include:
 - How well do current protected areas capture biodiversity and functional diversity?
 - Where can new protection or climate-informed redesign reduce long-term extinction risk?
 
-### Data And Decision Support
+### Data & Decision Support
 
 The analytical foundation for this work includes BIEN occurrence and trait data, taxonomic harmonization, spatial range products, climate layers, and uncertainty-aware forecasting. We aim to keep the decision surface transparent by reporting sensitivity to scenarios, data gaps, and model assumptions rather than collapsing that variation into a single headline number.
 

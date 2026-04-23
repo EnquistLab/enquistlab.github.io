@@ -32,7 +32,7 @@ Our research flows from observation to prediction: we measure organisms and ecos
 
 ---
 
-### Metabolic Scaling and Functional Biology
+### Metabolic Scaling & Functional Biology
 
 We develop and extend metabolic scaling theory (West, Brown, and Enquist 1997; 1999) to predict how growth, mortality, and resource use scale with body size and temperature. Current work applies these principles to forest structure, carbon dynamics, and demography.
 
@@ -43,7 +43,7 @@ We develop and extend metabolic scaling theory (West, Brown, and Enquist 1997; 1
 
 ---
 
-### Trait Driver Theory and Functional Ecology
+### Trait Driver Theory & Functional Ecology
 
 [Trait Driver Theory (TDT)](https://www.nature.com/articles/s41477-019-0506-6) is a general theoretical framework that predicts how the distribution of functional traits in a community responds to environmental drivers. TDT bridges individual-level physiology, community assembly, and ecosystem function.
 
@@ -54,7 +54,7 @@ Applications include:
 
 ---
 
-### BIEN: Botanical Information and Ecology Network
+### BIEN: Botanical Information & Ecology Network
 
 The [BIEN project](https://biendata.org/) compiles and standardizes occurrence records, trait measurements, and plot data for vascular plants in the Western Hemisphere. It is one of the largest plant biodiversity synthesis efforts globally.
 
@@ -121,7 +121,7 @@ We are co-founders of the [OpenTraits Network](https://opentraits.org/), which p
 
 ---
 
-### Theory and Equation Figures
+### Theory & Equation Figures
 
 <div class="theory-figure-pair">
   <figure>

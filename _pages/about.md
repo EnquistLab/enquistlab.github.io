@@ -56,7 +56,7 @@ We test how allometric constraints shape growth, resource use, and ecosystem str
 
 We use Trait Driver Theory to connect trait distributions with community assembly and ecosystem function.
 
-### Biodiversity Informatics and Forecasting
+### Biodiversity Informatics & Forecasting
 
 We integrate occurrence, trait, and environmental data to generate reproducible biodiversity forecasts.
 

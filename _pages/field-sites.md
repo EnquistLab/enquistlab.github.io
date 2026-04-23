@@ -12,13 +12,13 @@ nav_order: 3.8
 .post p, .post li { max-width: none !important; }
 </style>
 
-## Field Sites and Long-Term Research
+## Field Sites & Long-Term Research
 
 The lab works in many places around the globe, but much of our field work has focused on three primary systems: (i) long-term dynamics within a tropical forest in the Area de Conservacion Guanacaste, Costa Rica; (ii) an elevation transect at the Rocky Mountain Biological Lab in Colorado; and (iii) a global network of Gentry forest plots across latitudinal and elevational gradients. We also co-organize an international Plant Functional Trait Course program.
 
 ---
 
-### (1) San Emilio Forest Dynamics Plot (SEFDP), Costa Rica
+### (1) San Emilio Forest Dynamics Plot (SEFDP)
 
 We organize a long-term forest dynamics plot in Santa Rosa National Park, Area de Conservacion Guanacaste — the largest and longest-running forest dynamics plot in the New World, now part of the [ForestGEO global forest network](https://forestgeo.si.edu/sites/san-emilio).
 
@@ -37,7 +37,7 @@ The SEFDP was originally censused in 1976 by George Stevens and Stephen Hubbell.
 
 ---
 
-### (2) Rocky Mountain Biological Laboratory (RMBL), Colorado
+### (2) Rocky Mountain Biological Laboratory (RMBL)
 
 Since 2003 we have been monitoring ecosystem carbon fluxes, species composition and turnover, and phylogenetic and functional trait composition of montane to alpine plant communities across an elevational gradient in Gothic, Colorado. This long-term study forges links between physical environment variation (temperature and precipitation with elevation), functional trait composition, and whole-ecosystem carbon and water fluxes. The mountainous landscape at RMBL spans warm wet meadows to cold dry ridge tops, providing a wide range of physical and biological conditions ideal for testing scaling and trait-based theory.
 
@@ -73,7 +73,7 @@ Our international [Plant Functional Trait Courses](https://plantfunctionaltraits
 
 ---
 
-### (4) Andes Biodiversity and Ecosystem Research Group (ABERG) / CHAMBASA
+### (4) ABERG / CHAMBASA
 
 The eastern slope of the Andes harbors Earth's highest biodiversity and is among the areas most threatened by climate change. The [ABERG group](https://www.andesconservation.org/) is a team of researchers focused on a 3.5 km elevational gradient spanning from Andean highlands to Amazonian lowlands as a laboratory for understanding biodiversity and ecosystem function. Since 2003, we have studied forest community dynamics, trait variation, and ecosystem flux along this gradient. Since 2018 we have extended work into the Puna ecosystem above the forest in collaboration with the PFTC group. The program combines modern and paleoecology, climate science, distributional ecology, and remote sensing.
 
@@ -90,7 +90,7 @@ The eastern slope of the Andes harbors Earth's highest biodiversity and is among
 
 ---
 
-### (5) The Forest MacroSystems Network
+### (5) Forest MacroSystems Network
 
 The [Forest MacroSystems Network](https://www.forestmacrosystems.org/) consists of nine forest monitoring sites arrayed across a broad latitudinal climate gradient. Since 2011 we have been monitoring annual tree growth and mortality using standardized Gentry-style plots. Sites span: **BCI Panama · Luquillo Puerto Rico · Guanacaste Costa Rica · Coweeta North Carolina · Harvard Forest Massachusetts · Niwot Ridge Colorado · Mt. Lemmon Arizona · HJ Andrews Oregon · British Columbia Canada**.
 

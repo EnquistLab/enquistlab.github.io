@@ -6,7 +6,7 @@ description: Press features, invited talks, and public-facing resources
 nav: false
 ---
 
-## Press and Media
+## Press & Media
 
 This page highlights interviews, media coverage, and public-facing resources connected to lab research in macroecology, biodiversity informatics, and global change biology.
 
@@ -21,7 +21,7 @@ This page highlights interviews, media coverage, and public-facing resources con
 
 ---
 
-## Selected Public-Facing Projects
+## Selected Public Projects
 
 - SPARC biodiversity planning resources and applications
 - Trait-based ecology and global change outreach talks
