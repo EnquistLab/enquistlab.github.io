@@ -26,10 +26,30 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml
 
+      - name: Diagnose environment
+        env:
+          PEOPLE_SHEET_ID: ${{ secrets.PEOPLE_SHEET_ID }}
+        run: |
+          echo "## Sync Diagnostics" >> $GITHUB_STEP_SUMMARY
+          python --version >> $GITHUB_STEP_SUMMARY 2>&1
+          echo "PEOPLE_SHEET_ID set: $([[ -n "$PEOPLE_SHEET_ID" ]] && echo YES || echo NO)" >> $GITHUB_STEP_SUMMARY
+          echo "PEOPLE_SHEET_ID length: ${#PEOPLE_SHEET_ID}" >> $GITHUB_STEP_SUMMARY
+          python -c "import yaml; print('pyyaml OK')" >> $GITHUB_STEP_SUMMARY 2>&1
+          echo "Curl test (first 200 chars):" >> $GITHUB_STEP_SUMMARY
+          curl -sL --max-time 15 \
+            "https://docs.google.com/spreadsheets/d/${PEOPLE_SHEET_ID}/export?format=csv&gid=0" \
+            | head -c 200 >> $GITHUB_STEP_SUMMARY 2>&1 || echo "curl failed" >> $GITHUB_STEP_SUMMARY
+
       - name: Sync people data from Google Sheet
         env:
           PEOPLE_SHEET_ID: ${{ secrets.PEOPLE_SHEET_ID }}
-        run: python scripts/sync_people_sheet.py
+        run: python -u scripts/sync_people_sheet.py 2>&1 | tee /tmp/sync_output.txt; exit ${PIPESTATUS[0]}
+
+      - name: Upload sync log on failure
+        if: failure()
+        run: |
+          echo "## Sync Script Output" >> $GITHUB_STEP_SUMMARY
+          cat /tmp/sync_output.txt >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "(no output captured)" >> $GITHUB_STEP_SUMMARY
 
       - name: Commit changes when data or photos changed
         run: |
