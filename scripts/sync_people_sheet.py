@@ -54,8 +54,9 @@ PHOTO_DIR.mkdir(parents=True, exist_ok=True)
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-SHEET_ID = os.environ.get(
-    "PEOPLE_SHEET_ID", "1oW_QHLvJ1DGIFUP956T4W2nwn8xThw5t6QmaM_nxDjM"
+SHEET_ID = (
+    os.environ.get("PEOPLE_SHEET_ID")
+    or "1oW_QHLvJ1DGIFUP956T4W2nwn8xThw5t6QmaM_nxDjM"
 )
 SHEET_GID = os.environ.get("PEOPLE_SHEET_GID", "0")
 
