@@ -18,6 +18,19 @@ grad_students:
   institution: University of Arizona/ Rocky Mountain Biological Laboratory
   quote: '"I''ve learned that peope will forget what you said, people will forget
     what you did, but people will never forget how you made them feel." -Maya Angelou'
+- name: Connor J. Wilson
+  role: PhD Candidate
+  photo: connor_j_wilson.jpg
+  bio: I am a biologist interested in how constraints and characteristics at small
+    scales produce emergent macroevolutionary and macroecological patterns. For example,
+    I am studying how plant genome structure and functional traits scale up to produce
+    produce distributional patterns and control Earth's climate over deep time.
+  google_scholar: https://scholar.google.com/citations?user=U8ItkTwAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: connorjwilson@arizona.edu
+  institution: University of Arizona
+  degree: MSc
 visiting_students: []
 staff:
 - name: Michiel (Mich) Pillet
@@ -33,3 +46,26 @@ staff:
   email: mdpillet@gmail.com
   institution: University of South Florida and University of Arizona
   degree: PhD
+- name: Gabriel M. Moulatlet
+  role: Designated Campus Colleague
+  photo: ''
+  bio: Biologist with a broad interest in tropical ecology and macroecology, with
+    experience in Amazonian upland forests in Brazil and the Andes of Ecuador. I am
+    focused on remote sensing, biogeography, and environmental mapping to understand
+    large-scale species distribution.
+  google_scholar: https://scholar.google.com/citations?user=o4dBz6MAAAAJ&hl=es
+  website: https://gamamo.netlify.app/
+  github: https://github.com/gamamo
+  email: mandaprogabriel@gmail.com
+  institution: Instituto de Ecologia A..C - INECOL
+  degree: PhD
+- name: Maria Agustina Rosati
+  role: Lab Manager
+  photo: ''
+  bio: ''
+  google_scholar: ''
+  website: ''
+  github: ''
+  email: Marosati@arizona.edu
+  institution: University of Arizona
+  degree: Bachelor
