@@ -141,7 +141,13 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		max-height: 80vh;
 	}
 
-	@media (max-width: 1280px) {
+	@media (max-width: 1200px) {
+		#year-nav {
+			right: 0.55rem;
+		}
+	}
+
+	@media (max-width: 980px) {
 		#year-nav { display: none; }
 	}
 
