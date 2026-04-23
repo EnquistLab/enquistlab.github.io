@@ -2,11 +2,12 @@ name: Sync Google Doc CV
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 6 * * *"   # once daily at 06:17 UTC
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   sync-cv:
@@ -15,21 +16,43 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Sync CV from Google Docs export
         env:
           GOOGLE_DOC_CV_ID: ${{ secrets.GOOGLE_DOC_CV_ID }}
         run: |
           bash scripts/sync_google_doc_cv.sh
 
-      - name: Commit CV updates when changed
+      - name: Sync new publications from CV DOIs
+        run: |
+          python scripts/sync_publications_from_cv.py
+
+      - name: Commit CV + publication updates when changed
+        id: commit
         run: |
           if git diff --quiet; then
-            echo "No synced CV changes to commit."
+            echo "No changes to commit."
+            echo "changed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/pdf/enquist_cv.pdf assets/cv/google_doc_cv_latest.txt assets/cv/google_doc_cv.sha256
-          git commit -m "chore(cv): sync CV from Google Doc"
+          git add assets/pdf/enquist_cv.pdf \
+                  assets/cv/google_doc_cv_latest.txt \
+                  assets/cv/google_doc_cv.sha256 \
+                  _bibliography/papers.bib
+          git commit -m "chore(cv): sync CV and publications from Google Doc"
           git push
+          echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Trigger Jekyll deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run deploy.yml --ref main
