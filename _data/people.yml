@@ -69,3 +69,81 @@ staff:
   email: Marosati@arizona.edu
   institution: University of Arizona
   degree: Bachelor
+- name: Charles Price
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=BhUYvBIAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: Associate Professor position at the University of Western Australia
+  degree: '(PhD EEB: 2001 – 2006)'
+- name: Michael Weiser
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=3bwVqPoAAAAJ&hl=en&oi=sra
+  website: ''
+  github: ''
+  email: ''
+  institution: University of Oklahoma
+  degree: '(PhD EEB: 2001 – 2007)'
+- name: Megan McCarthy
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: ''
+  website: ''
+  github: ''
+  email: ''
+  degree: (PhD EEB:2002 – 2006)
+- name: Nathan Swenson
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=xsQtaEsAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: University of Notre Dame
+  degree: (PhD EEB:2003 – 2008)
+- name: James Stegen
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=RpfOQ3MAAAAJ&hl=en
+  website: ''
+  github: ''
+  email: ''
+  institution: Pacific Northwest National Laboratory
+  degree: (PhD 2004 – 2009)
+- name: Christine Lamanna
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=OH-dAScAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: The Center for International Forestry Research and World Agroforestry
+  degree: (PhD EEB:2006 –2012)
+- name: Scott Stark
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=7fXVxwgAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: Michigan State University
+  degree: (PhD EEB:2006 – 2012)
+- name: Cathy Hulshof
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: ''
+  website: ''
+  github: ''
+  email: ''
+  degree: (PhD EEB:2007 – 2012)
