@@ -54,7 +54,7 @@ The analytical foundation for this work includes BIEN occurrence and trait data,
 
 ### Selected Examples
 
-- **SPARC:** spatial prioritization for species conservation under climate change, with map products that support partner decision-making and protected-area conversations.
+- **[SPARC](https://www.conservation-sparcle.org/):** spatial prioritization for species conservation under climate change, with map products that support partner decision-making and protected-area conversations.
 - **Tropical extinction risk:** [Hannah et al. 2020](https://www.researchgate.net/publication/339513215_30_land_conservation_and_climate_action_reduces_tropical_extinction_risk_by_more_than_50) showed that pairing climate action with 30% land conservation can sharply reduce projected tropical extinction risk.
 - **Protected-area effectiveness:** [Duncanson et al. 2023](https://www.nature.com/articles/s41467-023-38073-9) evaluated the effectiveness of global protected areas for climate-change mitigation.
 - **Climate risk for cacti:** [Pillet et al. 2022](https://doi.org/10.1038/s41477-022-01130-0) documented elevated extinction risk of cacti under climate change.
