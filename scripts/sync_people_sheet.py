@@ -88,7 +88,22 @@ HEADER_KEYWORDS: dict = {
 def fetch_csv_rows(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as resp:
-        content = resp.read().decode("utf-8-sig")
+        content_type = resp.headers.get("Content-Type", "")
+        raw = resp.read()
+
+    # Detect if Google returned an HTML page (login redirect / CAPTCHA / bot block)
+    content = raw.decode("utf-8-sig")
+    if content.strip().lower().startswith("<!doctype") or "<html" in content[:200].lower():
+        print(
+            "ERROR: Google returned an HTML page instead of CSV.\n"
+            "  This usually means the sheet is not public, or Google is blocking\n"
+            "  requests from this cloud IP range.\n"
+            f"  Content-Type: {content_type}\n"
+            f"  First 300 chars: {content[:300]!r}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
     reader = csv.reader(io.StringIO(content))
     return list(reader)
 
@@ -185,6 +200,7 @@ def download_photo(share_url, dest_path):
 
 def main():
     print(f"Fetching sheet as CSV from Google Sheets ...")
+    print(f"  URL: {CSV_URL}")
     try:
         rows = fetch_csv_rows(CSV_URL)
     except urllib.error.URLError as exc:
