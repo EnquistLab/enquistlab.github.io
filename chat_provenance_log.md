@@ -133,3 +133,8 @@ Outcome: Replaced the Alumni markdown bullet lists in _pages/people.md with a st
 Prompt: Keep the alumni names linked to Google Scholar, but make the interaction more visibly clickable while preserving the refined card design.
 Source session: VS Code Copilot Chat
 Outcome: Refined the alumni card name-link styling in _sass/_lab-redesign.scss to use a subtle default underline with accent-colored hover/focus treatment, making Google Scholar links clearer without adding extra buttons or icons. Updated all linked alumni names in _pages/people.md to include rel="noopener noreferrer" alongside target="_blank" for safer external-link behavior.
+
+26. Date: 2026-04-23
+Prompt: Fix the Alumni cohort grouping so people do not appear in multiple decade bands on the live People page.
+Source session: VS Code Copilot Chat
+Outcome: Updated the cohort assignment logic in _pages/people.md so decade buckets are mutually exclusive. Postdoctoral and graduate alumni are now assigned to the earliest matching decade band by excluding earlier-decade matches from later cohorts, which removes duplicate entries for people whose training periods spanned multiple decades.
