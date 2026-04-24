@@ -273,6 +273,17 @@ staff:
   website: ''
   github: ''
   email: ''
+  degree: Notable Undergraduate Lab Researcher
+- name: Rachael Mitchel
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: ''
+  website: ''
+  github: ''
+  email: ''
+  institution: University of Arizona
+  degree: Notable Undergraduate Lab Researcher
 
 # ============================================================
 # Alumni — managed manually; not overwritten by sync script
