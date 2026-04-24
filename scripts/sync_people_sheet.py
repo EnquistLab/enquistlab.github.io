@@ -79,7 +79,7 @@ ALUMNI_HEADER_KEYWORDS: dict = {
     "role":        "role",
     "degree":      "degree",
     "scholar":     "google scholar",
-    "institution": "current affiliation",
+    "institution": "institution",
 }
 
 # ---------------------------------------------------------------------------
