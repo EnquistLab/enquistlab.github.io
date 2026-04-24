@@ -188,6 +188,8 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 
 ## Alumni
 
+*Former Lab Graduate Students, Notable Undergraduates & Postdocs*
+
 {% if site.data.people.alumni.size > 0 %}
 
 {% assign postdoc_alumni = site.data.people.alumni | where_exp: "p", "p.role contains 'Postdoc'" %}
