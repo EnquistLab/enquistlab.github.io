@@ -138,3 +138,8 @@ Outcome: Refined the alumni card name-link styling in _sass/_lab-redesign.scss t
 Prompt: Fix the Alumni cohort grouping so people do not appear in multiple decade bands on the live People page.
 Source session: VS Code Copilot Chat
 Outcome: Updated the cohort assignment logic in _pages/people.md so decade buckets are mutually exclusive. Postdoctoral and graduate alumni are now assigned to the earliest matching decade band by excluding earlier-decade matches from later cohorts, which removes duplicate entries for people whose training periods spanned multiple decades.
+
+27. Date: 2026-04-23
+Prompt: Pull Cesar Hinojo Hinojo's updated Google Scholar link from the source people sheet into the site repo.
+Source session: VS Code Copilot Chat
+Outcome: Ran scripts/sync_people_sheet.py locally with ALUMNI_SHEET_GID=1137118685 so the alumni tab would sync in addition to the active-members tab. The sync updated _data/people.yml, replacing Cesar Hinojo Hinojo's blank google_scholar field with the current Google Scholar URL from the source sheet.
