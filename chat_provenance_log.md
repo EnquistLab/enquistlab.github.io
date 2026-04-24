@@ -128,3 +128,8 @@ Outcome: Expanded the publications topic matcher for the Conservation Impacts ta
 Prompt: Redesign the Alumni section so it is organized more aesthetically instead of rendering as one long list.
 Source session: VS Code Copilot Chat
 Outcome: Replaced the Alumni markdown bullet lists in _pages/people.md with a structured alumni directory that classifies entries by degree content into postdoctoral, graduate, and notable undergraduate groups. Added cohort-style subgroups by era (2000s, 2010s, 2020s) and rendered each person as a compact card showing name, training period/degree text, and current institution. Added supporting .alumni-band, .alumni-cohort, .alumni-directory, and .alumni-card styles in _sass/_lab-redesign.scss, and corrected alumni grouping logic to use the current YAML data shape where postdoc status is encoded in the degree field rather than role.
+
+25. Date: 2026-04-23
+Prompt: Keep the alumni names linked to Google Scholar, but make the interaction more visibly clickable while preserving the refined card design.
+Source session: VS Code Copilot Chat
+Outcome: Refined the alumni card name-link styling in _sass/_lab-redesign.scss to use a subtle default underline with accent-colored hover/focus treatment, making Google Scholar links clearer without adding extra buttons or icons. Updated all linked alumni names in _pages/people.md to include rel="noopener noreferrer" alongside target="_blank" for safer external-link behavior.
