@@ -201,27 +201,32 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 ## Alumni
 
 {% if site.data.people.alumni.size > 0 %}
-<div class="team-grid team-grid--alumni">
-{% for person in site.data.people.alumni %}
-  <div class="team-card team-card--alumni">
-    {% if person.photo and person.photo != "" %}
-      <img src="{{ '/assets/img/team/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="team-card__photo" loading="lazy">
-    {% else %}
-      <div class="team-card__photo team-card__photo--placeholder" aria-hidden="true">
-        <span>{{ person.name | split: " " | map: "first" | join: "" | truncate: 2, "" | upcase }}</span>
-      </div>
-    {% endif %}
-    <p class="team-card__name">{{ person.name }}</p>
-    <p class="team-card__role">
-      {{ person.role }}{% if person.degree and person.degree != "" %} ({{ person.degree }}){% endif %}{% if person.institution and person.institution != "" %} · {{ person.institution }}{% elsif person.affiliation and person.affiliation != "" %} · {{ person.affiliation }}{% endif %}
-    </p>
-    <p class="team-card__links">
-      {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" title="Google Scholar" target="_blank" rel="noopener">Scholar</a>{% endif %}
-      {% if person.website and person.website != "" %}{% if person.google_scholar and person.google_scholar != "" %} · {% endif %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
-    </p>
-  </div>
+
+{% assign postdoc_alumni = site.data.people.alumni | where_exp: "p", "p.role contains 'Postdoc'" %}
+{% assign grad_alumni = site.data.people.alumni | where_exp: "p", "p.role contains 'Graduate Student'" %}
+{% assign visiting_alumni = site.data.people.alumni | where_exp: "p", "p.role contains 'Visiting'" %}
+
+{% if postdoc_alumni.size > 0 %}
+**Former Postdoctoral Researchers**
+
+{% for person in postdoc_alumni %}- {% if person.google_scholar and person.google_scholar != "" %}[{{ person.name }}]({{ person.google_scholar }}){:target="_blank"}{% else %}{{ person.name }}{% endif %}{% if person.institution and person.institution != "" %} — {{ person.institution }}{% elsif person.affiliation and person.affiliation != "" %} — {{ person.affiliation }}{% endif %}
 {% endfor %}
-</div>
+{% endif %}
+
+{% if grad_alumni.size > 0 %}
+**Former Graduate Students**
+
+{% for person in grad_alumni %}- {% if person.google_scholar and person.google_scholar != "" %}[{{ person.name }}]({{ person.google_scholar }}){:target="_blank"}{% else %}{{ person.name }}{% endif %}{% if person.degree and person.degree != "" %} ({{ person.degree }}){% endif %}{% if person.institution and person.institution != "" %} — {{ person.institution }}{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if visiting_alumni.size > 0 %}
+**Former Visiting Graduate Students**
+
+{% for person in visiting_alumni %}- {% if person.google_scholar and person.google_scholar != "" %}[{{ person.name }}]({{ person.google_scholar }}){:target="_blank"}{% else %}{{ person.name }}{% endif %}{% if person.institution and person.institution != "" %} — {{ person.institution }}{% endif %}
+{% endfor %}
+{% endif %}
+
 {% endif %}
 
 Former postdocs also include Noah Charney, Margaret Evans, and many additional alumni now in academia, government, and non-profit science.
