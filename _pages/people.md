@@ -192,29 +192,143 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 
 {% if site.data.people.alumni.size > 0 %}
 
-{% assign postdoc_alumni = site.data.people.alumni | where_exp: "p", "p.role contains 'Postdoc'" %}
-{% assign grad_alumni = site.data.people.alumni | where_exp: "p", "p.role contains 'Graduate Student'" %}
-{% assign visiting_alumni = site.data.people.alumni | where_exp: "p", "p.role contains 'Visiting'" %}
+{% assign alumni = site.data.people.alumni %}
+{% assign postdoc_alumni = alumni | where_exp: "p", "p.degree contains 'Postdoc'" %}
+{% assign grad_alumni = alumni | where_exp: "p", "p.degree contains 'PhD' or p.degree contains 'Masters'" %}
+{% assign undergrad_alumni = alumni | where_exp: "p", "p.degree contains 'Notable Undergraduate'" %}
+
+{% assign postdoc_2000s = postdoc_alumni | where_exp: "p", "p.degree contains '2002' or p.degree contains '2003' or p.degree contains '2004' or p.degree contains '2005' or p.degree contains '2006' or p.degree contains '2007' or p.degree contains '2008' or p.degree contains '2009'" %}
+{% assign postdoc_2010s = postdoc_alumni | where_exp: "p", "p.degree contains '2010' or p.degree contains '2011' or p.degree contains '2012' or p.degree contains '2013' or p.degree contains '2014' or p.degree contains '2015' or p.degree contains '2016' or p.degree contains '2017' or p.degree contains '2018' or p.degree contains '2019'" %}
+{% assign postdoc_2020s = postdoc_alumni | where_exp: "p", "p.degree contains '2020' or p.degree contains '2021' or p.degree contains '2022' or p.degree contains '2023' or p.degree contains '2024' or p.degree contains '2025' or p.degree contains '2026' or p.degree contains '2027' or p.degree contains '2028' or p.degree contains '2029'" %}
+
+{% assign grad_2000s = grad_alumni | where_exp: "p", "p.degree contains '2001' or p.degree contains '2002' or p.degree contains '2003' or p.degree contains '2004' or p.degree contains '2005' or p.degree contains '2006' or p.degree contains '2007' or p.degree contains '2008' or p.degree contains '2009'" %}
+{% assign grad_2010s = grad_alumni | where_exp: "p", "p.degree contains '2010' or p.degree contains '2011' or p.degree contains '2012' or p.degree contains '2013' or p.degree contains '2014' or p.degree contains '2015' or p.degree contains '2016' or p.degree contains '2017' or p.degree contains '2018' or p.degree contains '2019'" %}
+{% assign grad_2020s = grad_alumni | where_exp: "p", "p.degree contains '2020' or p.degree contains '2021' or p.degree contains '2022' or p.degree contains '2023' or p.degree contains '2024' or p.degree contains '2025' or p.degree contains '2026' or p.degree contains '2027' or p.degree contains '2028' or p.degree contains '2029'" %}
 
 {% if postdoc_alumni.size > 0 %}
-**Former Postdoctoral Researchers**
+<section class="alumni-band">
+  <div class="alumni-band__header">
+    <h3>Former Postdoctoral Researchers</h3>
+    <p>{{ postdoc_alumni.size }} researchers whose work shaped the lab's theory, synthesis, and field programs.</p>
+  </div>
 
-{% for person in postdoc_alumni %}- {% if person.google_scholar and person.google_scholar != "" %}[{{ person.name }}]({{ person.google_scholar }}){:target="_blank"}{% else %}{{ person.name }}{% endif %}{% if person.institution and person.institution != "" %} — {{ person.institution }}{% endif %}
-{% endfor %}
+  {% if postdoc_2000s.size > 0 %}
+  <div class="alumni-cohort">
+    <p class="alumni-cohort__label">2000s</p>
+    <div class="alumni-directory">
+      {% for person in postdoc_2000s %}
+      <article class="alumni-card">
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <p class="alumni-card__meta">{{ person.degree }}</p>
+        {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if postdoc_2010s.size > 0 %}
+  <div class="alumni-cohort">
+    <p class="alumni-cohort__label">2010s</p>
+    <div class="alumni-directory">
+      {% for person in postdoc_2010s %}
+      <article class="alumni-card">
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <p class="alumni-card__meta">{{ person.degree }}</p>
+        {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if postdoc_2020s.size > 0 %}
+  <div class="alumni-cohort">
+    <p class="alumni-cohort__label">2020s</p>
+    <div class="alumni-directory">
+      {% for person in postdoc_2020s %}
+      <article class="alumni-card">
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <p class="alumni-card__meta">{{ person.degree }}</p>
+        {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</section>
 {% endif %}
 
 {% if grad_alumni.size > 0 %}
-**Former Graduate Students**
+<section class="alumni-band">
+  <div class="alumni-band__header">
+    <h3>Graduate Alumni</h3>
+    <p>{{ grad_alumni.size }} doctoral, master's, and thesis-track alumni organized by training era.</p>
+  </div>
 
-{% for person in grad_alumni %}- {% if person.google_scholar and person.google_scholar != "" %}[{{ person.name }}]({{ person.google_scholar }}){:target="_blank"}{% else %}{{ person.name }}{% endif %}{% if person.degree and person.degree != "" %} ({{ person.degree }}){% endif %}{% if person.institution and person.institution != "" %} — {{ person.institution }}{% endif %}
-{% endfor %}
+  {% if grad_2000s.size > 0 %}
+  <div class="alumni-cohort">
+    <p class="alumni-cohort__label">2001–2009</p>
+    <div class="alumni-directory">
+      {% for person in grad_2000s %}
+      <article class="alumni-card">
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
+        {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if grad_2010s.size > 0 %}
+  <div class="alumni-cohort">
+    <p class="alumni-cohort__label">2010–2019</p>
+    <div class="alumni-directory">
+      {% for person in grad_2010s %}
+      <article class="alumni-card">
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
+        {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if grad_2020s.size > 0 %}
+  <div class="alumni-cohort">
+    <p class="alumni-cohort__label">2020s</p>
+    <div class="alumni-directory">
+      {% for person in grad_2020s %}
+      <article class="alumni-card">
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
+        {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</section>
 {% endif %}
 
-{% if visiting_alumni.size > 0 %}
-**Former Visiting Graduate Students**
-
-{% for person in visiting_alumni %}- {% if person.google_scholar and person.google_scholar != "" %}[{{ person.name }}]({{ person.google_scholar }}){:target="_blank"}{% else %}{{ person.name }}{% endif %}{% if person.institution and person.institution != "" %} — {{ person.institution }}{% endif %}
-{% endfor %}
+{% if undergrad_alumni.size > 0 %}
+<section class="alumni-band">
+  <div class="alumni-band__header">
+    <h3>Notable Undergraduate Researchers</h3>
+    <p>Early-career researchers who contributed important work during undergraduate training.</p>
+  </div>
+  <div class="alumni-directory alumni-directory--compact">
+    {% for person in undergrad_alumni %}
+    <article class="alumni-card">
+      <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+      {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
+      {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
 {% endif %}
 
 {% endif %}
