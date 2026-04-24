@@ -166,6 +166,12 @@ def classify_alumni_role(raw_role):
     return "Graduate Student"
 
 
+def parse_start_year(degree_str):
+    """Return the first 4-digit year found in a degree string, or None."""
+    m = re.search(r"\b(1[89]\d{2}|2\d{3})\b", degree_str or "")
+    return int(m.group(1)) if m else None
+
+
 def classify_role(raw_role):
     r = raw_role.strip().lower()
     if any(k in r for k in ("postdoc", "post-doc", "post doc")):
@@ -359,6 +365,9 @@ def main():
                     deg = get(row, alumni_index, "degree")
                     if deg:
                         entry["degree"] = deg
+                        yr = parse_start_year(deg)
+                        if yr:
+                            entry["start_year"] = yr
                     alumni_list.append(entry)
                     print(f"  -> {name} (alumni)")
             else:
