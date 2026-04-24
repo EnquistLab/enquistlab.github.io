@@ -218,7 +218,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in postdoc_2000s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
         <p class="alumni-card__meta">{{ person.degree }}</p>
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -233,7 +233,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in postdoc_2010s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
         <p class="alumni-card__meta">{{ person.degree }}</p>
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -248,7 +248,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in postdoc_2020s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
         <p class="alumni-card__meta">{{ person.degree }}</p>
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -272,7 +272,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in grad_2000s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -287,7 +287,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in grad_2010s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -302,7 +302,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in grad_2020s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -322,7 +322,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
   <div class="alumni-directory alumni-directory--compact">
     {% for person in undergrad_alumni %}
     <article class="alumni-card">
-      <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+      <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
       {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
       {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
     </article>

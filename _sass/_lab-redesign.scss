@@ -492,14 +492,18 @@ h6,
     line-height: 1.3;
 
     a {
-      color: inherit;
-      text-decoration: none;
+      color: color-mix(in srgb, var(--global-text-color) 88%, var(--global-theme-color) 12%);
+      text-decoration-line: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.14em;
+      text-decoration-color: color-mix(in srgb, var(--global-theme-color) 28%, transparent);
+      transition: color 0.18s ease, text-decoration-color 0.18s ease;
     }
 
     a:hover,
     a:focus-visible {
       color: var(--global-theme-color);
-      text-decoration: underline;
+      text-decoration-color: var(--global-theme-color);
     }
   }
 
