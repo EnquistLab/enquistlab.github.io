@@ -69,476 +69,209 @@ staff:
   email: Marosati@arizona.edu
   institution: University of Arizona
   degree: Bachelor
+alumni:
 - name: Charles Price
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=BhUYvBIAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: Associate Professor position at the University of Western Australia
+  institution: ''
   degree: '(PhD EEB: 2001 – 2006)'
 - name: Michael Weiser
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=3bwVqPoAAAAJ&hl=en&oi=sra
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Oklahoma
+  institution: ''
   degree: '(PhD EEB: 2001 – 2007)'
 - name: Megan McCarthy
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: ''
-  website: ''
-  github: ''
-  email: ''
+  institution: ''
   degree: (PhD EEB:2002 – 2006)
 - name: Nathan Swenson
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=xsQtaEsAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Notre Dame
+  institution: ''
   degree: (PhD EEB:2003 – 2008)
 - name: James Stegen
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=RpfOQ3MAAAAJ&hl=en
-  website: ''
-  github: ''
-  email: ''
-  institution: Pacific Northwest National Laboratory
+  institution: ''
   degree: (PhD 2004 – 2009)
 - name: Christine Lamanna
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=OH-dAScAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: The Center for International Forestry Research and World Agroforestry
+  institution: ''
   degree: (PhD EEB:2006 –2012)
 - name: Scott Stark
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=7fXVxwgAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: Michigan State University
+  institution: ''
   degree: (PhD EEB:2006 – 2012)
 - name: Catherine Hulshof
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=LdLBnWcAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: Virginia Commonwealth University
+  institution: ''
   degree: (PhD EEB:2007 – 2012)
 - name: Lindsey Sloat
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=gFIyT1QAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: World Resources Institute
+  institution: ''
   degree: (PhD EEB:2009 – 2015)
 - name: Benjamin Blonder
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=l3FNoE8AAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of California at Berkeley
+  institution: ''
   degree: (PhD EEB:2009 – 2014)
 - name: Julie Messier
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=xk_zSQwAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Waterloo, Canad
+  institution: ''
   degree: (PhD EEB:2010 – 2015)
 - name: Alex Brummer
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=CEr4qnQAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: College of Charleston
+  institution: ''
   degree: (PhD Physics:2012 – 2017)
 - name: Vanessa Buzzard
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=evt5hAUAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Arizona
+  institution: ''
   degree: (PhD EEB:2013 – 2017)
 - name: Brian Maitner
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=GVb9deIAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of South Florida
+  institution: ''
   degree: (PhD EEB:2014 – 2021)
 - name: Lorah Seltzer
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: ''
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Reno
+  institution: ''
   degree: (PhD EEB:2016 – 2025);
 - name: Adam Chmurzynski
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: ''
-  website: ''
-  github: ''
-  email: ''
+  institution: ''
   degree: (PhD EEB:2017 – 2025);
 - name: John Donoghue
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: ''
-  website: ''
-  github: ''
-  email: ''
+  institution: ''
   degree: (Masters:2010 – 2014).
 - name: Amanda Henderson
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: ''
-  website: ''
-  github: ''
-  email: ''
-  institution: Rocky Mountain Biological Lab
+  institution: ''
   degree: (Masters:2013 – 2016).
 - name: Matiss Castorena Salaks
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: ''
-  website: ''
-  github: ''
-  email: ''
+  institution: ''
   degree: 'Masters: 2017 – 2022)'
 - name: Evan Economo
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=O26BpgYAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Maryland
+  institution: ''
   degree: Notable Undergraduate Lab Researcher
 - name: John Grady
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=4iKkWn4AAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
+  institution: ''
   degree: Notable Undergraduate Lab Researcher
 - name: Rachael Mitchell
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=OXqlpLAAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Arizona
+  institution: ''
   degree: Notable Undergraduate Lab Researcher
 - name: Peter Gaube
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=XOiQAjcAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Washington
+  institution: ''
   degree: Notable Undergraduate Lab Researcher
 - name: Andrew Kerkhoff
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=6Us1L_wAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Puget Sound
+  institution: ''
   degree: Postdoc  2002-2005
 - name: Brad Boyle
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=f5is9HAAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Arizona
+  institution: ''
   degree: Postdoc  2002-2006, 2010-2013
 - name: Jason Pither
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=gX4CLQMAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of British Columbia, Okanagan
+  institution: ''
   degree: Postdoc 2004-2007
 - name: Ethan White
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=pHmra8cAAAAJ&hl=en&oi=sra
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Florida
+  institution: ''
   degree: Postdoc  2005- 2007
 - name: Lisa Patrick
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=FACeESEAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: Sonoma State University
+  institution: ''
   degree: Postdoc 2008 – 2013
 - name: Cyrille Violle
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=Vz4gFNcAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: CNRS, University of Montpeller, France
+  institution: ''
   degree: Postdoc 2009 – 2012
 - name: Sean Michaletz
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=NtPdBA4AAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of British Columbia, Canada
+  institution: ''
   degree: Postdoc 2013 - 2017
 - name: Naia Morueta-Holme
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=4OCxLJYAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Copenhagen, Denmark
+  institution: ''
   degree: Postdoc 2015 - 2017
+- name: Noah Charney
+  role: Graduate Student
+  google_scholar: https://scholar.google.com/citations?user=cyWyeaIAAAAJ&hl=en&oi=ao
+  institution: ''
+  degree: Postdoc 2016-2017
 - name: Sandra Duran
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=Rlh3Pm4AAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: Colorado State University
+  institution: ''
   degree: Postdoc 2016 - 2020
 - name: Danilo Neves
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=2uC73sEAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Minas Gerais, Botany Department, Brazil
+  institution: ''
   degree: Postdoc 2016 - 2018
 - name: Daniel Park
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=BF2WtIYAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: Purdue University
+  institution: ''
   degree: Postdoc 2017-2018
 - name: Xiao Feng
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=YmXvK3wAAAAJ&hl=en
-  website: ''
-  github: ''
-  email: ''
-  institution: University of North Carolina
+  institution: ''
   degree: Postdoc 2019-2020
 - name: Rachael Gallagher
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=PDVoISsAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: Western Sydney University
+  institution: ''
   degree: Postdoc 2017-2018
 - name: Robbie Burger
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=uLZVJuAAAAAJ&hl=en&oi=sra
-  website: ''
-  github: ''
-  email: ''
-  institution: University of Kentucky
+  institution: ''
   degree: Postdoc 2018 - 2020
 - name: Julia Chacón-Labella
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=V5gR4lUAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: Universidad Autónoma de Madrid
+  institution: ''
   degree: Postdoc 2020 - 2022
 - name: Teresa Bohner
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=1w07kDIAAAAJ&hl=en&oi=ao
-  website: ''
-  github: ''
-  email: ''
-  institution: USGS
+  institution: ''
   degree: Postdoc 2021-2023
 - name: Gabriel Moulatlet
-  role: Alumni
-  photo: ''
-  bio: ''
+  role: Graduate Student
   google_scholar: https://scholar.google.com/citations?user=o4dBz6MAAAAJ&hl=pt-BR
-  website: ''
-  github: ''
-  email: ''
-  institution: Instituto de Ecologia, A.C.
+  institution: ''
   degree: Postdoc 2023-2025
-alumni:
-- name: Sandra Duran
-  role: Postdoctoral Researcher
-  google_scholar: ''
-  institution: ''
-- name: Julia Chacon-Labella
-  role: Postdoctoral Researcher
-  google_scholar: ''
-  institution: ''
-- name: Cesar Hinojo Hinojo
-  role: Postdoctoral Researcher
-  google_scholar: ''
-  institution: ''
-- name: Teresa Bohner
-  role: Postdoctoral Researcher
-  google_scholar: ''
-  institution: ''
-- name: Erica Newman
-  role: Postdoctoral Researcher
-  google_scholar: ''
-  institution: ''
-- name: Robbie Burger
-  role: Postdoctoral Researcher
-  google_scholar: ''
-  institution: ''
-- name: Xiao Feng
-  role: Postdoctoral Researcher
-  google_scholar: ''
-  institution: ''
-- name: Adam Chmurzynski
-  role: Graduate Student
-  degree: PhD
-  google_scholar: ''
-  institution: ''
-- name: Brian Maitner
-  role: Graduate Student
-  degree: PhD
-  google_scholar: ''
-  institution: ''
-- name: Lorah Patterson
-  role: Graduate Student
-  degree: PhD
-  google_scholar: ''
-  institution: ''
-- name: Matiss Castorena Salaks
-  role: Graduate Student
-  degree: PhD
-  google_scholar: ''
-  institution: ''
-- name: Lindsay Backhaus
-  role: Graduate Student
-  degree: MS
-  google_scholar: ''
-  institution: ''
-- name: Johanna Andrea Martinez Villa
-  role: Visiting Graduate Student
-  google_scholar: ''
-  institution: Université du Québec à Montréal
-- name: Ragnhild Gya
-  role: Visiting Graduate Student
-  google_scholar: ''
-  institution: ''
-- name: Mia Vedel Sorensen
-  role: Visiting Graduate Student
-  google_scholar: ''
-  institution: ''
-- name: Jehova Lourenco Junior
-  role: Visiting Graduate Student
-  google_scholar: ''
-  institution: ''
-- name: Yaoqi Li
-  role: Visiting Graduate Student
-  google_scholar: ''
-  institution: Peking University
-- name: Jiaxin Zhang
-  role: Visiting Graduate Student
-  google_scholar: ''
-  institution: Chinese Academy of Sciences
