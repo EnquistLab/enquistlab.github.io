@@ -172,17 +172,6 @@ nav_order: 4
   </div>
 {% endfor %}
 </div>
-- Nathan Castler
-- Amanda Henderson
-
----
-
-## Undergraduate Researchers
-
-- Connor Wilson
-- Cecina Babich Morrow
-- Elisabeth Bergman (University of Arizona, honors project)
-- Kenji Hayashi (Brown University, honors project)
 
 ---
 
@@ -195,8 +184,7 @@ nav_order: 4
 
 Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente Graae, Deborah Goldberg, Jens-Christian Svenning, Yadvinder Malhi, Cory Merow, Henry Horn, Angelina Martinez-Yrizar, Ruben Milla, Choy Huang, Van Savage, Richard Strimbeck, and Vigdis Vandvik.
 
-> Individual team member photos can be added to `assets/img/team/` — just drop headshots there and let us know to update the grid.
-
+---
 
 ## Alumni
 
@@ -209,7 +197,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 {% if postdoc_alumni.size > 0 %}
 **Former Postdoctoral Researchers**
 
-{% for person in postdoc_alumni %}- {% if person.google_scholar and person.google_scholar != "" %}[{{ person.name }}]({{ person.google_scholar }}){:target="_blank"}{% else %}{{ person.name }}{% endif %}{% if person.institution and person.institution != "" %} — {{ person.institution }}{% elsif person.affiliation and person.affiliation != "" %} — {{ person.affiliation }}{% endif %}
+{% for person in postdoc_alumni %}- {% if person.google_scholar and person.google_scholar != "" %}[{{ person.name }}]({{ person.google_scholar }}){:target="_blank"}{% else %}{{ person.name }}{% endif %}{% if person.institution and person.institution != "" %} — {{ person.institution }}{% endif %}
 {% endfor %}
 {% endif %}
 
@@ -228,8 +216,6 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 {% endif %}
 
 {% endif %}
-
-Former postdocs also include Noah Charney, Margaret Evans, and many additional alumni now in academia, government, and non-profit science.
 
 ![Lab team portrait from collaborative field program]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
 

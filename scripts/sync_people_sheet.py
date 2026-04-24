@@ -59,11 +59,28 @@ SHEET_ID = (
     or "1oW_QHLvJ1DGIFUP956T4W2nwn8xThw5t6QmaM_nxDjM"
 )
 SHEET_GID = os.environ.get("PEOPLE_SHEET_GID", "0")
+ALUMNI_SHEET_GID = os.environ.get("ALUMNI_SHEET_GID", "")  # set to the gid of the Alumni tab
 
 CSV_URL = (
     f"https://docs.google.com/spreadsheets/d/{SHEET_ID}"
     f"/export?format=csv&gid={SHEET_GID}"
 )
+ALUMNI_CSV_URL = (
+    f"https://docs.google.com/spreadsheets/d/{SHEET_ID}"
+    f"/export?format=csv&gid={ALUMNI_SHEET_GID}"
+    if ALUMNI_SHEET_GID else ""
+)
+
+# ---------------------------------------------------------------------------
+# Header keyword mapping for alumni tab (simpler — fewer columns needed)
+# ---------------------------------------------------------------------------
+ALUMNI_HEADER_KEYWORDS: dict = {
+    "name":        "full name",
+    "role":        "role",
+    "degree":      "degree",
+    "scholar":     "google scholar",
+    "institution": "current affiliation",
+}
 
 # ---------------------------------------------------------------------------
 # Header keyword mapping (lowercase substring match against row 1)
@@ -137,6 +154,16 @@ def get(row, index, key):
         return row[idx].strip()
     except IndexError:
         return ""
+
+
+def classify_alumni_role(raw_role):
+    """Classify alumni into postdoc / grad_student / visiting sub-groups."""
+    r = raw_role.strip().lower()
+    if any(k in r for k in ("postdoc", "post-doc", "post doc")):
+        return "Postdoctoral Researcher"
+    if "visiting" in r:
+        return "Visiting Graduate Student"
+    return "Graduate Student"
 
 
 def classify_role(raw_role):
@@ -285,7 +312,75 @@ def main():
         print(f"  -> {name} ({section})")
 
     total = sum(len(v) for v in sections.values())
-    print(f"\nProcessed {total} members.")
+    print(f"\nProcessed {total} active members.")
+
+    # -----------------------------------------------------------------------
+    # Alumni tab (optional — only if ALUMNI_SHEET_GID is set)
+    # -----------------------------------------------------------------------
+    alumni_list = []
+    if ALUMNI_CSV_URL:
+        print(f"\nFetching alumni sheet (gid={ALUMNI_SHEET_GID}) ...")
+        try:
+            alumni_rows = fetch_csv_rows(ALUMNI_CSV_URL)
+        except urllib.error.URLError as exc:
+            print(f"WARNING: Could not fetch alumni sheet ({exc})", file=sys.stderr)
+            alumni_rows = []
+
+        if alumni_rows:
+            alumni_header_idx = next(
+                (i for i, row in enumerate(alumni_rows)
+                 if any("full name" in cell.strip().lower() for cell in row)),
+                None,
+            )
+            if alumni_header_idx is not None:
+                alumni_index = {}
+                header = alumni_rows[alumni_header_idx]
+                for key, keyword in ALUMNI_HEADER_KEYWORDS.items():
+                    idx = next(
+                        (i for i, h in enumerate(header) if keyword in h.strip().lower()),
+                        None,
+                    )
+                    if idx is not None:
+                        alumni_index[key] = idx
+
+                for row in alumni_rows[alumni_header_idx + 1:]:
+                    if not any(c.strip() for c in row):
+                        continue
+                    name = get(row, alumni_index, "name")
+                    if not name:
+                        continue
+                    raw_role = get(row, alumni_index, "role")
+                    entry = {
+                        "name": name,
+                        "role": classify_alumni_role(raw_role),
+                        "google_scholar": get(row, alumni_index, "scholar"),
+                        "institution": get(row, alumni_index, "institution"),
+                    }
+                    deg = get(row, alumni_index, "degree")
+                    if deg:
+                        entry["degree"] = deg
+                    alumni_list.append(entry)
+                    print(f"  -> {name} (alumni)")
+            else:
+                print("WARNING: Could not find header row in alumni sheet.", file=sys.stderr)
+    else:
+        print("\nNo ALUMNI_SHEET_GID set — skipping alumni sync.")
+        # Preserve existing alumni section from file if present
+        if DATA_FILE.exists():
+            existing = DATA_FILE.read_text(encoding="utf-8")
+            alumni_marker = "alumni:"
+            if alumni_marker in existing:
+                import re as _re
+                m = _re.search(r'^alumni:.*', existing, _re.MULTILINE | _re.DOTALL)
+                if m:
+                    # Parse the existing alumni list back out
+                    try:
+                        existing_data = yaml.safe_load(existing)
+                        alumni_list = existing_data.get("alumni", [])
+                    except Exception:
+                        pass
+
+    sections["alumni"] = alumni_list
 
     FILE_HEADER = (
         "# ============================================================\n"
@@ -302,18 +397,6 @@ def main():
         allow_unicode=True,
         sort_keys=False,
     )
-
-    # Preserve the alumni section — it is manually maintained and must not be
-    # overwritten by the sync script. Re-append it from the existing file if present.
-    alumni_block = ""
-    if DATA_FILE.exists():
-        existing = DATA_FILE.read_text(encoding="utf-8")
-        alumni_marker = "\n# ============================================================\n# Alumni"
-        if alumni_marker in existing:
-            alumni_block = existing[existing.index(alumni_marker):]
-
-    if alumni_block:
-        yaml_str = yaml_str.rstrip("\n") + "\n" + alumni_block
 
     if DATA_FILE.exists() and DATA_FILE.read_text(encoding="utf-8") == yaml_str:
         print("No changes detected. Nothing written.")

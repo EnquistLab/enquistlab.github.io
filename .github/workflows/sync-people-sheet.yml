@@ -44,6 +44,7 @@ jobs:
       - name: Sync people data from Google Sheet
         env:
           PEOPLE_SHEET_ID: ${{ secrets.PEOPLE_SHEET_ID || '1oW_QHLvJ1DGIFUP956T4W2nwn8xThw5t6QmaM_nxDjM' }}
+          ALUMNI_SHEET_GID: ${{ secrets.ALUMNI_SHEET_GID }}
         run: python -u scripts/sync_people_sheet.py 2>&1 | tee /tmp/sync_output.txt; exit ${PIPESTATUS[0]}
 
       - name: Upload sync log on failure
