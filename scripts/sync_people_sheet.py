@@ -303,6 +303,18 @@ def main():
         sort_keys=False,
     )
 
+    # Preserve the alumni section — it is manually maintained and must not be
+    # overwritten by the sync script. Re-append it from the existing file if present.
+    alumni_block = ""
+    if DATA_FILE.exists():
+        existing = DATA_FILE.read_text(encoding="utf-8")
+        alumni_marker = "\n# ============================================================\n# Alumni"
+        if alumni_marker in existing:
+            alumni_block = existing[existing.index(alumni_marker):]
+
+    if alumni_block:
+        yaml_str = yaml_str.rstrip("\n") + "\n" + alumni_block
+
     if DATA_FILE.exists() and DATA_FILE.read_text(encoding="utf-8") == yaml_str:
         print("No changes detected. Nothing written.")
         return

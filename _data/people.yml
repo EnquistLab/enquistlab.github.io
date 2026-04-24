@@ -138,7 +138,77 @@ staff:
   email: ''
   institution: Michigan State University
   degree: (PhD EEB:2006 – 2012)
-- name: Cathy Hulshof
+- name: Catherine Hulshof
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=LdLBnWcAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: Virginia Commonwealth University
+  degree: (PhD EEB:2007 – 2012)
+- name: Lindsey Sloat
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=gFIyT1QAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: World Resources Institute
+  degree: (PhD EEB:2009 – 2015)
+- name: Benjamin Blonder
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=l3FNoE8AAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: University of California at Berkeley
+  degree: (PhD EEB:2009 – 2014)
+- name: Julie Messier
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=xk_zSQwAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: University of Waterloo, Canad
+  degree: (PhD EEB:2010 – 2015)
+- name: Alex Brummer
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=CEr4qnQAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: College of Charleston
+  degree: (PhD Physics:2012 – 2017)
+- name: Vanessa Buzzard
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=evt5hAUAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: University of Arizona
+  degree: (PhD EEB:2013 – 2017)
+- name: Brian Maitner
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=GVb9deIAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: University of South Florida
+  degree: (PhD EEB:2014 – 2021)
+- name: Lorah Seltzer
   role: Alumni
   photo: ''
   bio: ''
@@ -146,4 +216,208 @@ staff:
   website: ''
   github: ''
   email: ''
-  degree: (PhD EEB:2007 – 2012)
+  institution: University of Reno
+  degree: (PhD EEB:2016 – 2025);
+- name: Adam Chmurzynski
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: ''
+  website: ''
+  github: ''
+  email: ''
+  degree: (PhD EEB:2017 – 2025);
+- name: John Donoghue
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: ''
+  website: ''
+  github: ''
+  email: ''
+  degree: (Masters:2010 – 2014).
+- name: Amanda Henderson
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: ''
+  website: ''
+  github: ''
+  email: ''
+  institution: Rocky Mountain Biological Lab
+  degree: (Masters:2013 – 2016).
+- name: Matiss Castorena Salaks
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: ''
+  website: ''
+  github: ''
+  email: ''
+  degree: 'Masters: 2017 – 2022)'
+- name: Evan Economo
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: https://scholar.google.com/citations?user=O26BpgYAAAAJ&hl=en&oi=ao
+  website: ''
+  github: ''
+  email: ''
+  institution: University of Maryland
+  degree: Notable Undergraduate Lab Researcher
+- name: John Grady
+  role: Alumni
+  photo: ''
+  bio: ''
+  google_scholar: ''
+  website: ''
+  github: ''
+  email: ''
+
+# ============================================================
+# Alumni — managed manually; not overwritten by sync script
+# ============================================================
+alumni:
+
+  # ── Former Postdoctoral Researchers ─────────────────────────────────────
+  - name: Sandra Duran
+    role: Postdoctoral Researcher
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Julia Chacon-Labella
+    role: Postdoctoral Researcher
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Cesar Hinojo Hinojo
+    role: Postdoctoral Researcher
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Teresa Bohner
+    role: Postdoctoral Researcher
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Erica Newman
+    role: Postdoctoral Researcher
+    affiliation: BBCS Postdoc
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Robbie Burger
+    role: Postdoctoral Researcher
+    affiliation: BBCS Postdoc
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Xiao Feng
+    role: Postdoctoral Researcher
+    affiliation: BBCS Postdoc
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  # ── Former Graduate Students ─────────────────────────────────────────────
+  - name: Adam Chmurzynski
+    role: Graduate Student
+    degree: PhD
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Brian Maitner
+    role: Graduate Student
+    degree: PhD
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Lorah Patterson
+    role: Graduate Student
+    degree: PhD
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Matiss Castorena Salaks
+    role: Graduate Student
+    degree: PhD
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Lindsay Backhaus
+    role: Graduate Student
+    degree: MS
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  # ── Former Visiting Graduate Students ────────────────────────────────────
+  - name: Johanna Andrea Martinez Villa
+    role: Visiting Graduate Student
+    institution: Université du Québec à Montréal
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Ragnhild Gya
+    role: Visiting Graduate Student
+    institution: Norway
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Mia Vedel Sorensen
+    role: Visiting Graduate Student
+    institution: Norway
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Jehova Lourenco Junior
+    role: Visiting Graduate Student
+    institution: Brazil
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Yaoqi Li
+    role: Visiting Graduate Student
+    institution: Peking University
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
+
+  - name: Jiaxin Zhang
+    role: Visiting Graduate Student
+    institution: Chinese Academy of Sciences
+    photo: ""
+    bio: ""
+    google_scholar: ""
+    website: ""
