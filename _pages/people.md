@@ -51,7 +51,7 @@ nav_order: 4
 
 <div class="team-grid">
 {% for person in site.data.people.postdocs %}
-  <div class="team-card">
+  <div class="team-card" role="group" aria-labelledby="postdoc-{{ forloop.index }}">
     {% if person.photo and person.photo != "" %}
       <img src="{{ '/assets/img/team/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="team-card__photo" loading="lazy">
     {% else %}
@@ -59,7 +59,7 @@ nav_order: 4
         <span>{{ person.name | split: " " | map: "first" | join: "" | truncate: 2, "" | upcase }}</span>
       </div>
     {% endif %}
-    <p class="team-card__name">{{ person.name }}</p>
+    <p class="team-card__name" id="postdoc-{{ forloop.index }}">{{ person.name }}</p>
     {% if person.affiliation and person.affiliation != "" %}
       <p class="team-card__role">{{ person.affiliation }}</p>
     {% endif %}
@@ -84,7 +84,7 @@ nav_order: 4
 
 <div class="team-grid">
 {% for person in site.data.people.grad_students %}
-  <div class="team-card">
+  <div class="team-card" role="group" aria-labelledby="grad-{{ forloop.index }}">
     {% if person.photo and person.photo != "" %}
       <img src="{{ '/assets/img/team/' | append: person.photo | relative_url }}" alt="{{ person.name }}" class="team-card__photo" loading="lazy">
     {% else %}
@@ -92,7 +92,7 @@ nav_order: 4
         <span>{{ person.name | split: " " | map: "first" | join: "" | truncate: 2, "" | upcase }}</span>
       </div>
     {% endif %}
-    <p class="team-card__name">{{ person.name }}</p>
+    <p class="team-card__name" id="grad-{{ forloop.index }}">{{ person.name }}</p>
     {% if person.degree and person.degree != "" %}
       <p class="team-card__role">{{ person.degree }} Student</p>
     {% endif %}

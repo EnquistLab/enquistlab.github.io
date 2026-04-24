@@ -53,7 +53,7 @@ Plant functional traits — measurable attributes such as leaf size, wood densit
 - Developing and testing [Trait Driver Theory (TDT)](https://www.nature.com/articles/s41477-019-0506-6), a general framework predicting how trait distributions in a community shift as environmental conditions change
 - Quantifying intraspecific trait variation (ITV) and its role in community stability, climate buffering, and ecological forecasting — including new bootstrap uncertainty methods ([traitstrap](https://cran.r-project.org/package=traitstrap))
 - Integrating remotely sensed spectral data with ground-based trait measurements to scale functional diversity from plots to continents (Durán et al. 2019 *Science Advances*; Wieczynski et al. 2022 *Ecography*)
-- Contributing to global trait databases including TRY, OpenTraits, and BIEN, and establishing open-science standards for trait data (Gallagher et al. 2020 *Nature Ecology & Evolution*; Keller et al. 2023 *Methods in Ecology & Evolution*)
+- Contributing to global trait databases including TRY, OpenTraits, and BIEN, and establishing open-science standards for trait data ([Gallagher et al. 2020](https://doi.org/10.1038/s41559-020-1109-6) *Nature Ecology & Evolution*; Keller et al. 2023 *Methods in Ecology & Evolution*)
 - Connecting trait variation to forest carbon and productivity at landscape and regional scales
 
 **Forward look.** The next frontier is trait-based ecological forecasting: using measured trait distributions — including their uncertainty — to predict community-level responses to novel climates, assess biodiversity vulnerability, and improve land-surface models. This requires integrating trait data with demographic models, remote sensing, and process-based earth system frameworks. We are actively building these pipelines through BIEN, OpenTraits, and collaborative field programs including [PFTC]({{ '/resources/' | relative_url }}).
@@ -74,7 +74,7 @@ Applications include:
 
 ### BIEN: Botanical Information & Ecology Network
 
-The [BIEN project](https://biendata.org/) compiles and standardizes occurrence records, trait measurements, and plot data for vascular plants in the Western Hemisphere. It is one of the largest plant biodiversity synthesis efforts globally.
+The [BIEN project](https://biendata.org/) compiles and standardizes occurrence records, trait measurements, and plot data for vascular plants in the Western Hemisphere. It is one of the largest plant biodiversity synthesis efforts globally. The database integrates herbarium specimens, citizen-science observations, and plot inventories spanning roughly 1800s–present, with taxonomic reconciliation against a versioned plant name backbone and coordinate-level QA filtering.
 
 **Tools:** [BIEN R package](https://cran.r-project.org/package=BIEN) | [GeoSpatial portal](https://biendata.org/)
 
@@ -102,13 +102,15 @@ Full docs: [BIEN vignette](https://cran.r-project.org/web/packages/BIEN/vignette
 
 ### Global Change Biology
 
-We forecast how plant communities may respond to climate change using trait-based models, species distribution models, and process-based frameworks. Work includes:
+We use trait-based models, species distribution models, and process-based frameworks to project how plant communities may respond to climate change. Work includes:
 
-- Trait-based range shift forecasting
+- Trait-based range shift projections
 - Detecting signals of climate-driven community turnover in BIEN data
 - Assessing vulnerability of tropical and montane floras
 
-**Uncertainty and transferability:** We report assumptions, data coverage limits, and scenario sensitivity when projecting biodiversity responses across regions and time.
+**Uncertainty and transferability:** We report assumptions, data coverage limits, and scenario sensitivity when projecting biodiversity responses across regions and time. All projections are contingent on emission and land-use scenarios; results are validated where possible using spatial cross-validation, temporal holdouts, and MESS surfaces to flag extrapolation risk.
+
+**Sampling bias:** BIEN occurrence records reflect the history of botanical collecting and citizen-science participation — roads, research stations, and well-surveyed regions are over-represented. We apply spatial thinning, bias layers, and target-group background sampling in SDM workflows to mitigate this.
 
 ---
 

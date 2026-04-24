@@ -1,6 +1,6 @@
 ---
 layout: page
-title: impacts
+title: conservation
 permalink: /conservation-impacts/
 description: Conservation planning, extinction risk, and protected-area design work from the Enquist Macroecology Lab
 nav: true
@@ -55,9 +55,10 @@ The analytical foundation for this work includes BIEN occurrence and trait data,
 ### Selected Examples
 
 - **[SPARC](https://www.conservation-sparcle.org/):** spatial prioritization for species conservation under climate change, with map products that support partner decision-making and protected-area conversations.
-- **Tropical extinction risk:** [Hannah et al. 2020](https://www.researchgate.net/publication/339513215_30_land_conservation_and_climate_action_reduces_tropical_extinction_risk_by_more_than_50) showed that pairing climate action with 30% land conservation can sharply reduce projected tropical extinction risk.
-- **Protected-area effectiveness:** [Duncanson et al. 2023](https://www.nature.com/articles/s41467-023-38073-9) evaluated the effectiveness of global protected areas for climate-change mitigation.
-- **Climate risk for cacti:** [Pillet et al. 2022](https://doi.org/10.1038/s41477-022-01130-0) documented elevated extinction risk of cacti under climate change.
+- **Biodiversity Framework planning:** [Krieger et al. 2022](http://pure.iiasa.ac.at/id/eprint/17841/) argued that achieving the post-2020 Global Biodiversity Framework's ambitious goals requires inclusive, integrated spatial planning that combines biodiversity, carbon, water, and land-use objectives across sectors and scales.
+- **Tropical extinction risk:** [Hannah et al. 2020](https://www.researchgate.net/publication/339513215_30_land_conservation_and_climate_action_reduces_tropical_extinction_risk_by_more_than_50) modeled that pairing ambitious climate mitigation (≈RCP 2.6) with 30% land conservation could reduce projected climate-driven range loss — a proxy for extinction risk — by more than 50% compared to a high-emission, low-protection baseline. Results are scenario-dependent and based on species distribution models that assume approximate climate equilibrium.
+- **Protected-area effectiveness:** [Duncanson et al. 2023](https://www.nature.com/articles/s41467-023-38073-9) evaluated the effectiveness of global protected areas for climate-change mitigation using remote-sensing biomass estimates.
+- **Climate risk for cacti:** [Pillet et al. 2022](https://doi.org/10.1038/s41477-022-01130-0) projected elevated extinction risk of cacti under climate change using species distribution models across multiple climate scenarios.
 
 ### Where This Connects
 

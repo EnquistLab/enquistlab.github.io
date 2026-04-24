@@ -54,9 +54,7 @@ Applications are typically due in **December** for the following fall. Strong ap
 
 ### Postdoctoral Researchers
 
-Postdoc opportunities are announced here and on [EvolDir](https://evol.mcmaster.ca/evoldir.html) and [ESA job board](https://www.esa.org/careers/). Funded positions will be posted above.
-
-Researchers interested in developing independent fellowships (NSF, USDA, Marie Curie, etc.) should contact Brian to discuss potential alignment. Openings are periodically available in scaling theory, ecoinformatics, tropical forest ecology, macroecology, and ecophysiology.
+No funded postdoctoral positions are currently open. Researchers interested in developing independent fellowships ([NSF](https://www.nsf.gov/funding/), [USDA](https://www.usda.gov/), [Marie Curie](https://marie-sklodowska-curie-actions.ec.europa.eu/), etc.) are encouraged to contact Brian to discuss potential fit and alignment with ongoing lab projects.
 
 ---
 

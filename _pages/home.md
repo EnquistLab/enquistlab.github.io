@@ -21,11 +21,11 @@ nav_order: 1
 <div class="home-stats">
   <div class="home-stat">
     <span class="home-stat__number">~85M</span>
-    <span class="home-stat__label">botanical records</span>
+    <span class="home-stat__label">plant occurrence records<br><small style="font-size:0.7em;font-weight:normal;letter-spacing:0;">Western Hemisphere vascular plants</small></span>
   </div>
   <div class="home-stat">
     <span class="home-stat__number">100k+</span>
-    <span class="home-stat__label">species range maps</span>
+    <span class="home-stat__label">modeled species range products</span>
   </div>
   <div class="home-stat">
     <span class="home-stat__number">400+</span>
@@ -33,10 +33,14 @@ nav_order: 1
   </div>
 </div>
 
+<div class="home-recruitment-status">
+  <a class="status-chip status-chip--info" href="{{ '/join/' | relative_url }}">Graduate applications open &rarr; Deadline December 2026</a>
+</div>
+
 <div class="home-cards">
 
   <a class="home-card" href="{{ '/about/' | relative_url }}">
-    <div class="home-card__img" style="background-image: url('{{ "/assets/img/field/brian_field.jpg" | relative_url }}')"></div>
+    <div class="home-card__img"><img src="{{ '/assets/img/field/brian_field.jpg' | relative_url }}" alt="Brian Enquist conducting field measurements in a forest" loading="lazy"></div>
     <div class="home-card__body">
       <h3>About</h3>
       <p>Lab mission, research pillars, and approach.</p>
@@ -44,7 +48,7 @@ nav_order: 1
   </a>
 
   <a class="home-card" href="{{ '/research/' | relative_url }}">
-    <div class="home-card__img" style="background-image: url('{{ "/assets/img/field/aberg_andes.jpeg" | relative_url }}')"></div>
+    <div class="home-card__img"><img src="{{ '/assets/img/field/aberg_andes.jpeg' | relative_url }}" alt="Andes mountain landscape during ecological field sampling" loading="lazy"></div>
     <div class="home-card__body">
       <h3>Research</h3>
       <p>Scaling, trait-based ecology, global change.</p>
@@ -52,7 +56,7 @@ nav_order: 1
   </a>
 
   <a class="home-card" href="{{ '/people/' | relative_url }}">
-    <div class="home-card__img" style="background-image: url('{{ "/assets/img/field/pftc_peru_students.jpeg" | relative_url }}')"></div>
+    <div class="home-card__img"><img src="{{ '/assets/img/field/pftc_peru_students.jpeg' | relative_url }}" alt="PFTC students and researchers during field training in Peru" loading="lazy"></div>
     <div class="home-card__body">
       <h3>Team</h3>
       <p>Graduate students, postdocs, and collaborators.</p>
@@ -60,7 +64,7 @@ nav_order: 1
   </a>
 
   <a class="home-card" href="{{ '/field-sites/' | relative_url }}">
-    <div class="home-card__img" style="background-image: url('{{ "/assets/img/field/rmbl_alpine.jpg" | relative_url }}')"></div>
+    <div class="home-card__img"><img src="{{ '/assets/img/field/rmbl_alpine.jpg' | relative_url }}" alt="Alpine meadow at Rocky Mountain Biological Laboratory field site" loading="lazy"></div>
     <div class="home-card__body">
       <h3>Field Sites</h3>
       <p>Long-term plots in Costa Rica, Colorado, Peru, and beyond.</p>
@@ -68,7 +72,7 @@ nav_order: 1
   </a>
 
   <a class="home-card" href="{{ '/publications/' | relative_url }}">
-    <div class="home-card__img" style="background-image: url('{{ "/assets/img/field/sefdp_lidar.jpg" | relative_url }}')"></div>
+    <div class="home-card__img"><img src="{{ '/assets/img/field/sefdp_lidar.jpg' | relative_url }}" alt="LiDAR survey of San Emilio Forest Dynamics Plot canopy structure" loading="lazy"></div>
     <div class="home-card__body">
       <h3>Publications</h3>
       <p>Papers, books, and open datasets.</p>
@@ -76,7 +80,7 @@ nav_order: 1
   </a>
 
   <a class="home-card" href="{{ '/join/' | relative_url }}">
-    <div class="home-card__img" style="background-image: url('{{ "/assets/img/wordpress/dsc_3414.jpeg" | relative_url }}')"></div>
+    <div class="home-card__img"><img src="{{ '/assets/img/wordpress/dsc_3414.jpeg' | relative_url }}" alt="Researchers measuring trees along an Andean elevational transect" loading="lazy"></div>
     <div class="home-card__body">
       <h3>Join or Collaborate</h3>
       <p>Graduate students, postdocs, visitors, and partners.</p>

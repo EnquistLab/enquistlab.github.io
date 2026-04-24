@@ -57,11 +57,18 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 	}
 
-	.publication-topic-tab:hover,
-	.publication-topic-tab:focus-visible {
+	.publication-topic-tab:hover {
 		border-color: var(--global-theme-color);
 		color: var(--global-theme-color);
 		outline: none;
+		transform: translateY(-1px);
+	}
+
+	.publication-topic-tab:focus-visible {
+		border-color: var(--global-theme-color);
+		color: var(--global-theme-color);
+		outline: 2px solid var(--global-theme-color);
+		outline-offset: 2px;
 		transform: translateY(-1px);
 	}
 
@@ -245,8 +252,20 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 					{ pattern: /biosphere functioning/i, weight: 2 },
 					{ pattern: /megabiota/i, weight: 2 },
 					{ pattern: /temperature gradient/i, weight: 1 },
-					{ pattern: /stoichiometr/i, weight: 1 },
-				],
+					{ pattern: /stoichiometr/i, weight: 1 },				// Vasseur et al. 2025 — organism traits → ecosystem processes; size
+				{ pattern: /organism traits to ecosystem processes/i, weight: 3 },
+				{ pattern: /why size is so important/i, weight: 3 },
+				// Cruz et al. 2025 — scaling COVID-19
+				{ pattern: /scaling covid/i, weight: 3 },
+				{ pattern: /covid.{0,5}rates.*population size/i, weight: 3 },
+				// Enquist et al. 2024 — scaling & macroecology, ecological resilience
+				{ pattern: /scaling approaches and macroecolog/i, weight: 3 },
+				{ pattern: /ecological resilience in the anthropocene/i, weight: 3 },
+				// Castorena et al. 2022 — general theory of plant carbon
+				{ pattern: /general theory of plant carbon/i, weight: 3 },
+				// Brummer et al. 2021 — branching principles
+				{ pattern: /branching principles/i, weight: 3 },
+				{ pattern: /animal and plant networks/i, weight: 3 },				],
 			},
 			{
 				id: 'trait-based-ecology',

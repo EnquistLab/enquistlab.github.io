@@ -90,6 +90,7 @@ We integrate occurrence, trait, and environmental data to generate reproducible 
 
 - **Science and theory synthesis**: [Selected publications]({{ '/publications/' | relative_url }}) spanning allometry, trait ecology, and biodiversity science.
 - **Open data infrastructure**: [BIEN and software resources]({{ '/resources/' | relative_url }}) for plant occurrence, range, and trait integration.
+- **Press and media coverage**: [Lab in the news]({{ '/press-media/' | relative_url }}) — media features, interviews, and public-facing coverage.
 
 ## Research Focus
 
