@@ -16,6 +16,7 @@ grad_students:
   github: ''
   email: jocelynnavarro@arizona.edu
   institution: University of Arizona/ Rocky Mountain Biological Laboratory
+  degree: PhD
   quote: '"I''ve learned that peope will forget what you said, people will forget
     what you did, but people will never forget how you made them feel." -Maya Angelou'
 - name: Connor J. Wilson
@@ -29,6 +30,21 @@ grad_students:
   website: ''
   github: ''
   email: connorjwilson@arizona.edu
+  institution: University of Arizona
+  degree: PhD
+- name: Michael P. Mustri
+  role: PhD Candidate
+  photo: michael_p_mustri.jpg
+  bio: I started out my career in physics and briefly worked as a systems engineer
+    before I discovring a passion for theoretical ecology. While my research interests
+    are broad, they revolve around the role biophysical constraints have in shaping
+    functional trait distributions in both plants and microbes. Conversely, I'm focused
+    on modeling the relationship between the large-scale interaction structure of
+    organisms and the preponderance of life history strategies in an ecosystem.
+  google_scholar: https://scholar.google.com/citations?user=-ivJZuAAAAAJ&hl=en
+  website: ''
+  github: ''
+  email: mustrim@arizona.edu
   institution: University of Arizona
   degree: PhD
 visiting_students: []
