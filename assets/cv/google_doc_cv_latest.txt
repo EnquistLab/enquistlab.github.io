@@ -1,4 +1,4 @@
-﻿Dec. 4th, 2025
+﻿May. 1st, 2026
 Brian Joseph Enquist, Ph.D, D.Sci
 https://brianjenquist.wordpress.com/
 benquist@arizona.edu
@@ -44,10 +44,11 @@ Academic Honors
 * American Association for the Advancement of Science, AAAS Fellow (2012).
 * Honorary Degree, Doctor of Science – D.Sci, The Colorado College (2007).
 Awards, Fellowships, and Honors
-Fulbright Fellow, National Geographic Explorer, Oxford University Martin School Fellow, Web of Science Highly Cited Researcher, ESA George C. Mercer Award, National Science Foundation CAREER Award 
+Fulbright Fellow, National Geographic Explorer, Oxford University Martin School Fellow, Web of Science Highly Cited Researcher, ESA George C. Mercer Award, ESA MacArthur Award, National Science Foundation CAREER Award 
 
 
-* Nominated to serve on National Academy of Sciences panel on developing a national report on Continental Scale Biology (2023-2024)
+* MacArthur Award, Ecological Society of America, (2026).
+* National Academy of Sciences panel on developing a national report on Continental Scale Biology (2023-2024).
 * Web of Science, Highly Cited Researcher (2018, 2019, 2020, 2025)
 * National Geographic Explorer (2020)
 * Leverhulme Professorship, Oxford University, UK (2017).
@@ -97,9 +98,9 @@ Peer Reviewed Journal Aricles
 
 
 2026
-1. Enquist, B.J. et al. (2026) BIEN: A biodiversity informatics ecosystem advancing open and reproducible workflows for plant observation, plot, and trait data. Methods in Ecology and Evolution.  In Press.
+1. Enquist, B.J. et al. (2026) BIEN: A biodiversity informatics ecosystem advancing open and reproducible workflows for plant observation, plot, and trait data. Methods in Ecology and Evolution. 00, 1–29. 
 2. Guo, W.-Y., Serra-Diaz, J. M., Guo, K., Boonman, C. C. F., Schrodt, F., Maitner, B. S., Merow, C., Violle, C., Anand, M., Bruun, H. H. K., Byun, C., Catford, J. A., Cerabolini, B. E. L., Chacón-Madrigal, E., Ciccarelli, D., Dang-Le, A. T., Dias, A. S., Giroldo, A. B., Gutiérrez, Á. G., Jansen, S., Kattge, J., Kindt, R., Klein, T., Kramer, K., Lusk, C. H., Martin, A. R., Michaletz, S. T., Minden, V., Mori, A. S., Niinemets, Ü., Onoda, Y., Peñuelas, J., Pisek, J., Robroek, B. J. M., Schamp, B., Soudzilovskaia, N. A., Thiffault, N., van der Plas, F., Enquist, B. J., & Svenning, J.-C. (2026). Global functional shifts in trees driven by alien naturalization and native extinction. Nature Plants  In Press.
-3. Brock, C., Roehrdanz, P. R., Beringer, T., Chaplin-Kramer, R., Enquist, B. J., Frazier, A. E., Johnson, J. A., Kennedy, C. M., Kiesecker, J., Larsen, A. E., Loyola, R., Marquet, P. A., Neugarten, R. A., Oakleaf, J. R., Roopsind, A., Schuster, R., Williams, D. R., Wu, G. C., Zvoleff, A., & Hannah, L. (2026). Balancing land use for conservation, agriculture, and renewable energy. Nature Communications. In press. https://doi.org/10.1038/s41467-026-69952-6
+3. Brock, C., Roehrdanz, P. R., Beringer, T., Chaplin-Kramer, R., Enquist, B. J., Frazier, A. E., Johnson, J. A., Kennedy, C. M., Kiesecker, J., Larsen, A. E., Loyola, R., Marquet, P. A., Neugarten, R. A., Oakleaf, J. R., Roopsind, A., Schuster, R., Williams, D. R., Wu, G. C., Zvoleff, A., & Hannah, L. (2026). Balancing land use for conservation, agriculture, and renewable energy. Nature Communications, 17, 3623 https://doi.org/10.1038/s41467-026-69952-6
 2025
 4. Moulatlet, G. M., Merow, C., Maitner, B., Boyle, B., Feng, X., Frazier, A. E., Hinojo-Hinojo, C., Newman, E. A., Roehrdanz, P. R., Song, L., Villalobos, F., Marquet, P. A., Svenning, J.-C., & Enquist, B. J. (2025). General laws of biodiversity: Climatic niches predict plant range size and ecological dominance globally. Proceedings of the National Academy of Sciences 122.46: e2517585122.
 5. Zuidema, Pieter A., et al. Pantropical tree rings show small effects of drought on stem growth. Science 389.6759 (2025): 532-538.
