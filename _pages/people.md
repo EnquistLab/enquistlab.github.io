@@ -37,7 +37,8 @@ nav_order: 4
     <p>Professor, Department of Ecology and Evolutionary Biology, University of Arizona; External Professor, Santa Fe Institute.</p>
     <p>
       <a href="https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en">Google Scholar</a> ·
-      <a href="https://github.com/bjenquist">GitHub</a> ·
+      <a href="https://github.com/benquist">GitHub</a> ·
+      <a href="https://github.com/EnquistLab">Lab GitHub</a> ·
       <a href="mailto:benquist@arizona.edu">benquist@arizona.edu</a>
     </p>
     <blockquote>"If you want to build a ship, do not drum up people to collect wood and assign tasks, but rather teach them to long for the endless immensity of the sea." — Antoine de Saint-Exupery</blockquote>
@@ -175,10 +176,6 @@ nav_order: 4
 
 ---
 
-<figure class="story-photo">
-  <img src="{{ '/assets/img/team/lab_group_peru.jpeg' | relative_url }}" alt="Lab group at PFTC Peru — elevational gradient fieldwork" loading="lazy">
-  <figcaption>PFTC 5 researchers on the elevational gradient, Peru</figcaption>
-</figure>
 
 ## Extended Lab Network
 
@@ -262,7 +259,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 {% if grad_alumni.size > 0 %}
 <section class="alumni-band">
   <div class="alumni-band__header">
-    <h3>Graduate Alumni</h3>
+    <h3>Former Graduate Students</h3>
     <p>{{ grad_alumni.size }} doctoral, master's, and thesis-track alumni organized by training era.</p>
   </div>
 
@@ -333,8 +330,19 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 
 {% endif %}
 
-![Lab team portrait from collaborative field program]({{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }})
-
-![Field team at Rocky Mountain Biological Laboratory transect site]({{ '/assets/img/wordpress/dsc_5672.jpg' | relative_url }})
+<div class="lab-photo-gallery">
+  <figure class="story-photo">
+    <img src="{{ '/assets/img/team/lab_group_peru.jpeg' | relative_url }}" alt="Lab group at PFTC Peru — elevational gradient fieldwork" loading="lazy">
+    <figcaption>PFTC 5 researchers on the elevational gradient, Peru</figcaption>
+  </figure>
+  <figure class="story-photo">
+    <img src="{{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }}" alt="Lab team portrait from collaborative field program" loading="lazy">
+    <figcaption>Lab team portrait</figcaption>
+  </figure>
+  <figure class="story-photo">
+    <img src="{{ '/assets/img/wordpress/dsc_5672.jpg' | relative_url }}" alt="Field team at Rocky Mountain Biological Laboratory transect site" loading="lazy">
+    <figcaption>Field team at Rocky Mountain Biological Laboratory</figcaption>
+  </figure>
+</div>
 
 

@@ -159,6 +159,32 @@ h6,
   }
 }
 
+// Three-up photo gallery (people page bottom)
+.lab-photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2.5rem 0;
+
+  .story-photo {
+    flex: 1 1 calc(33% - 0.7rem);
+    min-width: 220px;
+    margin: 0;
+
+    img {
+      height: 240px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    .story-photo {
+      flex: 1 1 100%;
+    }
+  }
+}
+
 // Single captioned field photo — inline section illustration
 .field-photo {
   width: 100%;
@@ -259,13 +285,18 @@ h6,
     padding: 0.9rem 1.1rem;
     background: rgba(0, 0, 0, 0.52);
     border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0 0.6rem;
   }
 
   &__title {
     font-family: "Source Serif 4", Georgia, serif;
     font-size: clamp(1.8rem, 4vw, 3rem);
     font-weight: 600;
-    margin: 0 0 0.2rem;
+    margin: 0;
     letter-spacing: 0.02em;
     color: #fff;
   }

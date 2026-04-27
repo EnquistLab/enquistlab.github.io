@@ -21,7 +21,7 @@ nav_order: 1
 <div class="home-stats">
   <div class="home-stat">
     <span class="home-stat__number">~85M</span>
-    <span class="home-stat__label">plant occurrence records<br><small style="font-size:0.7em;font-weight:normal;letter-spacing:0;">Western Hemisphere vascular plants</small></span>
+    <span class="home-stat__label"><a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210x.70274" target="_blank" rel="noopener" style="color:inherit;">plant occurrence records</a><br><small style="font-size:0.7em;font-weight:normal;letter-spacing:0;"><a href="https://biendata.org" target="_blank" rel="noopener" style="color:inherit;">Western Hemisphere vascular plants</a></small></span>
   </div>
   <div class="home-stat">
     <span class="home-stat__number">100k+</span>
