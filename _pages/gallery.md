@@ -105,13 +105,6 @@ Click any image to open the full view.
          alt="Alpine meadow, RMBL, Colorado" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/field/sefdp_forest_canopy.jpg' | relative_url }}"
-     data-lightbox="landscapes"
-     data-title="Tropical forest canopy, San Emilio Forest Dynamics Plot, Costa Rica">
-    <img src="{{ '/assets/img/field/sefdp_forest_canopy.jpg' | relative_url }}"
-         alt="Tropical forest canopy, Costa Rica" loading="lazy">
-  </a>
-
   <a href="{{ '/assets/img/wordpress/bci-station.jpg' | relative_url }}"
      data-lightbox="landscapes"
      data-title="Barro Colorado Island field station, Panama">
@@ -160,6 +153,94 @@ Click any image to open the full view.
      data-title="Organ Pipe Cactus National Monument, Arizona">
     <img src="{{ '/assets/img/wordpress-legacy/originals/organ-pipe-ben-31__bbd2f67c.jpg' | relative_url }}"
          alt="Organ Pipe Cactus NM, Arizona" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress-legacy/originals/subalpine_ffdm__5eda504d.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Subalpine forest, Rocky Mountain Biological Laboratory, Colorado">
+    <img src="{{ '/assets/img/wordpress-legacy/originals/subalpine_ffdm__5eda504d.jpg' | relative_url }}"
+         alt="Subalpine forest, RMBL, Colorado" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress-legacy/originals/dsc_3876__461b0b78.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Mountain valley and cloud forest, Peru">
+    <img src="{{ '/assets/img/wordpress-legacy/originals/dsc_3876__461b0b78.jpg' | relative_url }}"
+         alt="Mountain valley, Peru" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress-legacy/originals/dsc_4115-2__0f2dcb5e.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="High-elevation Andes landscape, Peru"
+     class="wide">
+    <img src="{{ '/assets/img/wordpress-legacy/originals/dsc_4115-2__0f2dcb5e.jpg' | relative_url }}"
+         alt="Andes landscape, Peru" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress-legacy/originals/dsc_9737-2__36ae8a5c.jpeg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Andean alpine zone and sky, Peru">
+    <img src="{{ '/assets/img/wordpress-legacy/originals/dsc_9737-2__36ae8a5c.jpeg' | relative_url }}"
+         alt="Andean alpine zone, Peru" loading="lazy">
+  </a>
+
+</div>
+
+---
+
+<div class="gallery-section-title">Forest &amp; Tree Canopy</div>
+
+<div class="photo-gallery">
+
+  <a href="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}"
+     data-lightbox="canopy"
+     data-title="Tree canopy, tropical forest"
+     class="wide">
+    <img src="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}"
+         alt="Tree canopy, tropical forest" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_2976.jpeg' | relative_url }}"
+     data-lightbox="canopy"
+     data-title="Forest canopy">
+    <img src="{{ '/assets/img/wordpress/dsc_2976.jpeg' | relative_url }}"
+         alt="Forest canopy" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest_1__ee3592b1.jpg' | relative_url }}"
+     data-lightbox="canopy"
+     data-title="Tall forest with emergent canopy trees">
+    <img src="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest_1__ee3592b1.jpg' | relative_url }}"
+         alt="Tall forest, emergent canopy trees" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest2__1332a066.jpg' | relative_url }}"
+     data-lightbox="canopy"
+     data-title="Dense forest interior">
+    <img src="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest2__1332a066.jpg' | relative_url }}"
+         alt="Dense forest interior" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest3__1fdfdc64.jpg' | relative_url }}"
+     data-lightbox="canopy"
+     data-title="Forest understorey and canopy">
+    <img src="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest3__1fdfdc64.jpg' | relative_url }}"
+         alt="Forest understorey and canopy" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/field/sefdp_forest_canopy.jpg' | relative_url }}"
+     data-lightbox="canopy"
+     data-title="Tropical forest canopy, San Emilio Forest Dynamics Plot, Costa Rica">
+    <img src="{{ '/assets/img/field/sefdp_forest_canopy.jpg' | relative_url }}"
+         alt="Tropical forest canopy, Costa Rica" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress-legacy/originals/img_3202__fa8fe550.jpg' | relative_url }}"
+     data-lightbox="canopy"
+     data-title="Forest landscape, Rocky Mountain Biological Laboratory, Colorado"
+     class="wide">
+    <img src="{{ '/assets/img/wordpress-legacy/originals/img_3202__fa8fe550.jpg' | relative_url }}"
+         alt="Forest landscape, RMBL, Colorado" loading="lazy">
   </a>
 
 </div>
