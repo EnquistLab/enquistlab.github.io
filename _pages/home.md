@@ -9,7 +9,7 @@ nav_order: 1
 <div class="hero-photo hero-home">
   <img src="{{ "/assets/img/field/field_opening.jpeg" | relative_url }}" alt="Forest dynamics field research" loading="eager">
   <div class="hero-home__overlay">
-    <h1 class="hero-home__title">Macroecology Lab</h1>
+    <h1 class="hero-home__title">Macroecology&nbsp;Lab</h1>
     <p class="hero-home__sub">University of Arizona &amp; Santa Fe Institute</p>
   </div>
 </div>
