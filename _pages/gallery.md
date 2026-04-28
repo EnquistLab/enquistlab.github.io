@@ -71,13 +71,6 @@ Click any image to open the full view.
          alt="Dry tropical forest opening, Costa Rica" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress/dsc_3443.jpeg' | relative_url }}"
-     data-lightbox="gallery"
-     data-title="Glaciated Andes peaks above the research transect, Peru">
-    <img src="{{ '/assets/img/wordpress/dsc_3443.jpeg' | relative_url }}"
-         alt="Andes glaciated peaks, Peru" loading="lazy">
-  </a>
-
   <a href="{{ '/assets/img/field/aberg_andes.jpeg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Andes elevation transect, Peru">
@@ -91,13 +84,6 @@ Click any image to open the full view.
      class="wide">
     <img src="{{ '/assets/img/field/rmbl_alpine.jpg' | relative_url }}"
          alt="Alpine meadow, RMBL, Colorado" loading="lazy">
-  </a>
-
-  <a href="{{ '/assets/img/wordpress/bci-station.jpg' | relative_url }}"
-     data-lightbox="gallery"
-     data-title="Barro Colorado Island field station, Panama">
-    <img src="{{ '/assets/img/wordpress/bci-station.jpg' | relative_url }}"
-         alt="Barro Colorado Island field station, Panama" loading="lazy">
   </a>
 
   <a href="{{ '/assets/img/wordpress/avery-ridge.jpg' | relative_url }}"
@@ -141,13 +127,6 @@ Click any image to open the full view.
      data-title="Organ Pipe Cactus National Monument, Arizona">
     <img src="{{ '/assets/img/wordpress-legacy/originals/organ-pipe-ben-31__bbd2f67c.jpg' | relative_url }}"
          alt="Organ Pipe Cactus NM, Arizona" loading="lazy">
-  </a>
-
-  <a href="{{ '/assets/img/wordpress-legacy/originals/subalpine_ffdm__5eda504d.jpg' | relative_url }}"
-     data-lightbox="gallery"
-     data-title="Subalpine forest, Rocky Mountain Biological Laboratory, Colorado">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/subalpine_ffdm__5eda504d.jpg' | relative_url }}"
-         alt="Subalpine forest, RMBL, Colorado" loading="lazy">
   </a>
 
   <a href="{{ '/assets/img/wordpress-legacy/originals/dsc_4115-2__0f2dcb5e.jpg' | relative_url }}"
@@ -228,13 +207,6 @@ Click any image to open the full view.
          alt="Field research" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress/dsc_2976.jpeg' | relative_url }}"
-     data-lightbox="gallery"
-     data-title="Forest canopy">
-    <img src="{{ '/assets/img/wordpress/dsc_2976.jpeg' | relative_url }}"
-         alt="Forest canopy" loading="lazy">
-  </a>
-
   <a href="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest_1__ee3592b1.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Tall forest with emergent canopy trees">
@@ -285,13 +257,6 @@ Click any image to open the full view.
      class="wide">
     <img src="{{ '/assets/img/team/lab_group_costa_rica.jpeg' | relative_url }}"
          alt="Lab group, Costa Rica" loading="lazy">
-  </a>
-
-  <a href="{{ '/assets/img/team/lab_group_peru.jpeg' | relative_url }}"
-     data-lightbox="people"
-     data-title="Lab group at the Andes elevation transect, Peru">
-    <img src="{{ '/assets/img/team/lab_group_peru.jpeg' | relative_url }}"
-         alt="Lab group, Peru" loading="lazy">
   </a>
 
   <a href="{{ '/assets/img/team/pftc_group.jpeg' | relative_url }}"
