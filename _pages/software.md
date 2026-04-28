@@ -142,6 +142,8 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
 
 ---
 
+![BIEN logo]({{ '/assets/img/wordpress/bien_logo_notext-1.png' | relative_url }}){: style="max-width: 80px; display: block; margin: 0.5rem 0;" }
+
 ### BIEN R Package
 
 The `BIEN` R package provides programmatic access to the Botanical Information and Ecology Network database — ~85 million botanical observations, ~100,000 species range maps, and plant trait data for the New World.
@@ -182,6 +184,8 @@ An online tool for the standardization of plant taxonomic names.
 ### BIEN Web Services
 
 These services support a complete biodiversity data QA workflow from names to geography:
+
+![BIEN workflow diagram: occurrence data flows through taxonomic name resolution (TNRS), geographic name resolution (GNRS), native species determination (NSR), and geocoordinate validation (GVS)]({{ '/assets/img/wordpress/screen-shot-2020-12-29-at-6.27.29-pm.png' | relative_url }})
 
 <div class="bien-services-grid">
 	<a class="bien-service-card" href="https://tnrs.biendata.org/">
