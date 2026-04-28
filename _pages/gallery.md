@@ -481,6 +481,90 @@ Click any image to open the full view.
          alt="Field site" loading="lazy">
   </a>
 
+  <a href="{{ '/assets/img/wordpress/cropped-1973302_927546123924359_1777004156092313692_o-1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-1973302_927546123924359_1777004156092313692_o-1.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8741662722_d00d53a512_o-2.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-8741662722_d00d53a512_o-2.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8741662722_d00d53a512_o-1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-8741662722_d00d53a512_o-1.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-398967_402706289741681_100000069398128_1594096_736206182_n-1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-398967_402706289741681_100000069398128_1594096_736206182_n-1.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-14297765828_509ede7066_o-1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-14297765828_509ede7066_o-1.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-550106_3567860316612_913822306_n-1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-550106_3567860316612_913822306_n-1.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-img_0546_2-1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-img_0546_2-1.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-cropped-1973302_927546123924359_1777004156092313692_o2.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-cropped-1973302_927546123924359_1777004156092313692_o2.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-dsc_9737-2.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-dsc_9737-2.jpeg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-image1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-image1.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8735545283_443199c858_o1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-8735545283_443199c858_o1.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-untitled51.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-untitled51.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
 </div>
 
 ---
