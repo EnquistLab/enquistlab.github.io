@@ -317,7 +317,8 @@ Processes ecosystem gas flux time series and applies quality assurance workflows
 Designed to integrate with the outputs of standard flux loggers and field datalogger formats, and pairs naturally with the lab's long-term ecosystem monitoring work at sites including RMBL and tropical elevational transects.
 
 - **CRAN:** [fluxible](https://cran.r-project.org/web/packages/fluxible/index.html)
-- **GitHub:** [jogaudard/fluxible](https://github.com/jogaudard/fluxible)
+- **GitHub:** [jogaudard/fluxible](https://github.com/jogaudard/fluxible/blob/main/README.md)
+- **Publication:** [Gaudard et al. (2025), *Methods in Ecology and Evolution*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.70161)
 - **Vignette:** [Getting started with fluxible](https://cran.r-project.org/web/packages/fluxible/vignettes/)
 
 ```r
