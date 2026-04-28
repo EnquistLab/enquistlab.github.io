@@ -185,7 +185,7 @@ An online tool for the standardization of plant taxonomic names.
 
 These services support a complete biodiversity data QA workflow from names to geography:
 
-![BIEN workflow diagram: occurrence data flows through taxonomic name resolution (TNRS), geographic name resolution (GNRS), native species determination (NSR), and geocoordinate validation (GVS)]({{ '/assets/img/wordpress/screen-shot-2020-12-29-at-6.27.29-pm.png' | relative_url }})
+![BIEN workflow diagram: occurrence data flows through taxonomic name resolution (TNRS), geographic name resolution (GNRS), native species determination (NSR), and geocoordinate validation (GVS)]({{ '/assets/img/wordpress/screen-shot-2020-12-29-at-6.27.29-pm.png' | relative_url }}){: .bien-workflow-image }
 
 <div class="bien-services-grid">
 	<a class="bien-service-card" href="https://tnrs.biendata.org/">
@@ -213,6 +213,16 @@ These services support a complete biodiversity data QA workflow from names to ge
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 		gap: 0.8rem;
 		margin: 0.8rem 0 1.1rem;
+	}
+
+	.bien-workflow-image {
+		display: block;
+		width: 100%;
+		max-width: 760px;
+		height: auto;
+		margin: 0.65rem auto 1rem;
+		border: 1px solid var(--global-divider-color);
+		border-radius: 0.5rem;
 	}
 
 	.resource-link-card,
