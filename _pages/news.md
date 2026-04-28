@@ -38,9 +38,30 @@ nav_order: 3.15
   border-radius: 4px;
   display: block;
 }
+.press-featured {
+  background: var(--global-code-bg-color);
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: none !important;
+}
+.press-featured + .press-item {
+  border-top: 1px solid var(--global-divider-color);
+}
 </style>
 
 <ul class="press-list">
+
+  <li class="press-item press-featured">
+    <div class="press-body">
+      <div class="press-date">April 2022</div>
+      <div class="press-title">
+        <span class="press-source">New York Times</span>
+        <a href="https://www.nytimes.com/2022/04/14/climate/cactus-climate-change.html" target="_blank" rel="noopener">Climate Change Could Devastate Cacti, Researchers Fear</a>
+      </div>
+    </div>
+    <img class="press-thumb" src="https://static01.nyt.com/images/2022/04/18/climate/14CLI-CACTI/14CLI-CACTI-facebookJumbo.jpg" alt="Cactus in desert" loading="lazy" onerror="this.style.display='none'">
+  </li>
 
   <li class="press-item">
     <div class="press-body">
