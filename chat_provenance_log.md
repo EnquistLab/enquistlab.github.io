@@ -158,3 +158,13 @@ Outcome: (1) _pages/cv.md — enabled nav (nav: true, nav_order: 4), updated des
 Prompt: In the field-sites page https://enquistlab.github.io/field-sites/ lets add a project for the Transplant project - an experimental climate change experiment. Link to this page. But also borrow information from this paer https://rmblclimatechangeexperiment.wordpress.com/history/ https://rmblclimatechangeexperiment.wordpress.com/research/ There are several photos on this site https://rmblclimatechangeexperiment.wordpress.com/ add these to our stored photos from the Wordpress site as well as use some nice high resolution photos to the research page
 Source session: VS Code Copilot Chat
 Outcome: Added RMBL Transplant Project section to Field Sites with experiment design summary and direct links to project home/history/research pages; added and used high-resolution transplant images from the RMBL WordPress site in Field Sites and Research pages.
+
+30. Date: 2026-04-28
+Prompt: feat(field-sites): add random-shuffling transplant photo carousel from RMBL Climate Change Experiment — downloaded 17 photos from rmblclimatechangeexperiment.wordpress.com into assets/img/transplant/, resized to 900px max via sips, replaced static 2-photo pair on field-sites/#rmbl-transplant-project with a JS-driven shuffle carousel (17-photo pool, 2 shown at a time, 0.3 s fade transition, prefetch all images), added 8 transplant photos to gallery page. Also: fix(nav): remove CV from top nav bar (nav: false in _pages/cv.md, still accessible via publications page).
+Source session: VS Code Copilot Chat
+Outcome: Implemented random-shuffling transplant photo carousel on field-sites page using vanilla JS; added shuffle button with CSS fade transition; prefetched all 17 transplant images; removed CV from top nav bar; added 8 transplant photos to gallery. Commits f0a5c02 (fix nav) and a03381e (feat carousel) pushed to origin/main (EnquistLab/enquistlab.github.io).
+
+31. Date: 2026-04-28
+Prompt: feat(cv+publications): add ORCID 0000-0002-6337-8292 to socials.yml, publications page, and CV references.
+Source session: VS Code Copilot Chat
+Outcome: Added ORCID identifier (0000-0002-6337-8292) to _data/socials.yml (footer social icons), _pages/publications.md (header/bio section), and _data/cv.yml (profile links). ORCID now appears site-wide in footer, on the publications page, and in CV references. Commit 0d613f4 pushed to origin/main (EnquistLab/enquistlab.github.io).
