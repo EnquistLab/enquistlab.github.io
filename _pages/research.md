@@ -113,7 +113,7 @@ Full docs: [BIEN vignette](https://cran.r-project.org/web/packages/BIEN/vignette
 <div style="border:1px solid var(--global-divider-color,#ddd);border-radius:6px;padding:1rem;">
   <strong><a href="https://benquist.shinyapps.io/bien-traits-shinyapp/" target="_blank" rel="noopener">▶ BIEN Traits Explorer</a></strong><br>
   <span style="font-size:0.88rem;">Query, map, and export plant functional trait observations from the BIEN trait database. Supports multi-species input, trait-level coverage preview, mapped observations, and reproducible R export code with full provenance and citation metadata.</span><br>
-  <small><a href="https://github.com/benquist/biodiversity-agents-lab/tree/main/BIEN-TraitsShinyApp#readme" target="_blank" rel="noopener">GitHub README</a></small>
+  <small><a href="https://github.com/benquist/BIEN_Trait_Shiny_App#readme" target="_blank" rel="noopener">GitHub README</a></small>
 </div>
 
 <div style="border:1px solid var(--global-divider-color,#ddd);border-radius:6px;padding:1rem;">
