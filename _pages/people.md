@@ -4,7 +4,7 @@ title: team
 permalink: /people/
 description: Members and alumni of the Enquist Macroecology Lab
 nav: true
-nav_order: 4
+nav_order: 2.1
 ---
 
 <!-- ============================================================
@@ -35,12 +35,14 @@ nav_order: 4
   <div class="team-pi__bio">
     <h3>Brian J. Enquist</h3>
     <p>Professor, Department of Ecology and Evolutionary Biology, University of Arizona; External Professor, Santa Fe Institute.</p>
+    <p>
       <a href="https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en">Google Scholar</a> ·
       <a href="https://github.com/benquist">GitHub</a> ·
       <a href="https://github.com/EnquistLab">Lab GitHub</a> ·
       <a href="mailto:benquist@arizona.edu">benquist@arizona.edu</a>
     </p>
-    nav_order: 2.1
+    <blockquote>"If you want to build a ship, do not drum up people to collect wood and assign tasks, but rather teach them to long for the endless immensity of the sea." — Antoine de Saint-Exupery</blockquote>
+  </div>
 </div>
 
 ---
