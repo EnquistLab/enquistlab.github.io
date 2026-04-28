@@ -98,6 +98,30 @@ range <- BIEN_ranges_load_species("Populus tremuloides")
 Full docs: [BIEN vignette](https://cran.r-project.org/web/packages/BIEN/vignettes/BIEN.html) · [All lab tools]({{ '/resources/' | relative_url }})
 </details>
 
+#### BIEN Interactive Apps
+
+<div class="bien-apps-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0;">
+
+<div style="border:1px solid var(--global-divider-color,#ddd);border-radius:6px;padding:1rem;">
+  <strong><a href="https://benquist.shinyapps.io/bien-species-shinyapp/" target="_blank" rel="noopener">▶ BIEN Species Explorer</a></strong><br>
+  <span style="font-size:0.88rem;">Browse occurrence records and range maps for ~120,000 Western Hemisphere plant species. Filter by native status, political unit, and elevation; download georeferenced records and range polygons.</span><br>
+  <small><a href="https://github.com/benquist/BIEN-SpeciesShinyApp#readme" target="_blank" rel="noopener">GitHub README</a></small>
+</div>
+
+<div style="border:1px solid var(--global-divider-color,#ddd);border-radius:6px;padding:1rem;">
+  <strong><a href="https://benquist.shinyapps.io/bien-traits-shinyapp/" target="_blank" rel="noopener">▶ BIEN Traits Explorer</a></strong><br>
+  <span style="font-size:0.88rem;">Query, map, and export plant functional trait observations from the BIEN trait database. Supports multi-species input, trait-level coverage preview, mapped observations, and reproducible R export code with full provenance and citation metadata.</span><br>
+  <small><a href="https://github.com/benquist/biodiversity-agents-lab/tree/main/BIEN-TraitsShinyApp#readme" target="_blank" rel="noopener">GitHub README</a></small>
+</div>
+
+<div style="border:1px solid var(--global-divider-color,#ddd);border-radius:6px;padding:1rem;">
+  <strong><a href="https://benquist.shinyapps.io/bien-data-loader/" target="_blank" rel="noopener">▶ BIEN Data Loader</a></strong><br>
+  <span style="font-size:0.88rem;">Upload a species list to retrieve, review, and bulk-export BIEN occurrence and trait data. Designed for batch queries and downstream biodiversity analysis workflows.</span><br>
+  <small><a href="https://github.com/benquist/BIEN_Data_Loader#readme" target="_blank" rel="noopener">GitHub README</a></small>
+</div>
+
+</div>
+
 ---
 
 ### Global Change Biology
