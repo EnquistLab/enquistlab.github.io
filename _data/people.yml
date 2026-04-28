@@ -9,7 +9,7 @@ postdocs: []
 grad_students:
 - name: Jocelyn Navarro
   role: PhD Candidate
-  photo: ''
+  photo: jocelyn_navarro.jpg
   bio: Plant ecologist specializing in plant-water relations.
   google_scholar: https://scholar.google.com/citations?user=94Hw8w0AAAAJ&hl=en
   website: https://www.jocelynavarro.com/
@@ -45,6 +45,17 @@ grad_students:
   website: ''
   github: ''
   email: mustrim@arizona.edu
+  institution: University of Arizona
+  degree: PhD
+- name: Maryela Celaya R
+  role: PhD student
+  photo: maryela_celaya_r.jpg
+  bio: Biologist interested in plant ecology and physiology. I’m currently studying
+    tree demography and forest resilience to environmental stress.
+  google_scholar: https://scholar.google.com/citations?user=9F56u-IAAAAJ&hl=es
+  website: ''
+  github: ''
+  email: maryelacelaya@arizona.edu
   institution: University of Arizona
   degree: PhD
 visiting_students: []
