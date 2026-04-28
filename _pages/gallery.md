@@ -565,6 +565,20 @@ Click any image to open the full view.
          alt="Landscape" loading="lazy">
   </a>
 
+  <a href="{{ '/assets/img/wordpress/cropped-14297898047_2bb15514b1_o2.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-14297898047_2bb15514b1_o2.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8742092306_30b07cac7e_o1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-8742092306_30b07cac7e_o1.jpg' | relative_url }}"
+         alt="Landscape" loading="lazy">
+  </a>
+
 </div>
 
 ---
