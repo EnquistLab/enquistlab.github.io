@@ -74,7 +74,7 @@ Applications include:
 
 ### BIEN: Botanical Information & Ecology Network
 
-<img src="{{ '/assets/img/wordpress/cropped-bien_2012.jpg' | relative_url }}" alt="BIEN — Botanical Information and Ecology Network" style="max-width:320px;width:100%;display:block;margin:0.6rem 0 1rem;">
+<img src="{{ '/assets/img/wordpress/bien_logo_notext-1.png' | relative_url }}" alt="BIEN — Botanical Information and Ecology Network" style="max-width:220px;width:100%;display:block;margin:0.6rem 0 1rem;">
 
 The [BIEN project](https://biendata.org/) compiles and standardizes occurrence records, trait measurements, and plot data for vascular plants in the Western Hemisphere. It is one of the largest plant biodiversity synthesis efforts globally. The database integrates herbarium specimens, citizen-science observations, and plot inventories spanning roughly 1800s–present, with taxonomic reconciliation against a versioned plant name backbone and coordinate-level QA filtering.
 
