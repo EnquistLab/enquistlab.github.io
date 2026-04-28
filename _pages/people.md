@@ -332,8 +332,12 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 
 <div class="lab-photo-gallery">
   <figure class="story-photo">
-    <img src="{{ '/assets/img/team/lab_group_peru.jpeg' | relative_url }}" alt="Lab group at PFTC Peru — elevational gradient fieldwork" loading="lazy">
-    <figcaption>PFTC 5 researchers on the elevational gradient, Peru</figcaption>
+    <img src="{{ '/assets/img/wordpress/avery-ridge.jpg' | relative_url }}" alt="Avery Ridge landscape" loading="lazy">
+    <figcaption>Avery Ridge</figcaption>
+  </figure>
+  <figure class="story-photo">
+    <img src="{{ '/assets/img/wordpress/brian-enquist-feb2020-088.jpg' | relative_url }}" alt="Brian J. Enquist, February 2020" loading="lazy">
+    <figcaption>Brian J. Enquist</figcaption>
   </figure>
   <figure class="story-photo">
     <img src="{{ '/assets/img/wordpress/picture-359196-1544529215.jpg' | relative_url }}" alt="Lab team portrait from collaborative field program" loading="lazy">
