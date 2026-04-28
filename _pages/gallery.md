@@ -78,6 +78,13 @@ Click any image to open the full view.
          alt="Andes elevation transect, Peru" loading="lazy">
   </a>
 
+  <a href="{{ '/assets/img/wordpress/dsc_3414.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="High-Andes landscape along the PFTC transect, Peru">
+    <img src="{{ '/assets/img/wordpress/dsc_3414.jpeg' | relative_url }}"
+         alt="High-Andes landscape, Peru" loading="lazy">
+  </a>
+
   <a href="{{ '/assets/img/field/rmbl_alpine.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Alpine meadow above the Rocky Mountain Biological Laboratory, Gothic, Colorado"
@@ -129,18 +136,25 @@ Click any image to open the full view.
          alt="Organ Pipe Cactus NM, Arizona" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/dsc_4115-2__0f2dcb5e.jpg' | relative_url }}"
+   <a href="{{ '/assets/img/wordpress-legacy/originals/dsc_3876__461b0b78.jpg' | relative_url }}"
+       data-lightbox="gallery"
+       data-title="Mountain valley and cloud forest, Peru">
+      <img src="{{ '/assets/img/wordpress-legacy/originals/dsc_3876__461b0b78.jpg' | relative_url }}"
+             alt="Mountain valley, Peru" loading="lazy">
+   </a>
+
+   <a href="{{ '/assets/img/wordpress-legacy/originals/dsc_4115-2__8cde5bc1.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="High-elevation Andes landscape, Peru"
      class="wide">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/dsc_4115-2__0f2dcb5e.jpg' | relative_url }}"
+      <img src="{{ '/assets/img/wordpress-legacy/originals/dsc_4115-2__8cde5bc1.jpg' | relative_url }}"
          alt="Andes landscape, Peru" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/dsc_9737-2__36ae8a5c.jpeg' | relative_url }}"
+   <a href="{{ '/assets/img/wordpress-legacy/originals/dsc_9737-2__a3db9ce9.jpeg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Andean alpine zone and sky, Peru">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/dsc_9737-2__36ae8a5c.jpeg' | relative_url }}"
+      <img src="{{ '/assets/img/wordpress-legacy/originals/dsc_9737-2__a3db9ce9.jpeg' | relative_url }}"
          alt="Andean alpine zone, Peru" loading="lazy">
   </a>
 
@@ -172,38 +186,45 @@ Click any image to open the full view.
          alt="Field work" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/otc_china__02ab175d.jpg' | relative_url }}"
+   <a href="{{ '/assets/img/wordpress-legacy/originals/otc_china__c886e5c8.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Open-top chamber warming experiment, China">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/otc_china__02ab175d.jpg' | relative_url }}"
+      <img src="{{ '/assets/img/wordpress-legacy/originals/otc_china__c886e5c8.jpg' | relative_url }}"
          alt="OTC warming experiment, China" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/img_3186__1bb50ea6.jpg' | relative_url }}"
+   <a href="{{ '/assets/img/wordpress-legacy/originals/img_3186__3aface6a.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Field research">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/img_3186__1bb50ea6.jpg' | relative_url }}"
+      <img src="{{ '/assets/img/wordpress-legacy/originals/img_3186__3aface6a.jpg' | relative_url }}"
          alt="Field research" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/img_3371__3a002e6b.jpg' | relative_url }}"
+   <a href="{{ '/assets/img/wordpress-legacy/originals/img_3371__62850edd.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Field research">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/img_3371__3a002e6b.jpg' | relative_url }}"
+      <img src="{{ '/assets/img/wordpress-legacy/originals/img_3371__62850edd.jpg' | relative_url }}"
          alt="Field research" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/img_3446__04f3f8e6.jpg' | relative_url }}"
+   <a href="{{ '/assets/img/wordpress-legacy/originals/img_3446__33eff04b.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Field research">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/img_3446__04f3f8e6.jpg' | relative_url }}"
+      <img src="{{ '/assets/img/wordpress-legacy/originals/img_3446__33eff04b.jpg' | relative_url }}"
          alt="Field research" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest_1__ee3592b1.jpg' | relative_url }}"
+   <a href="{{ '/assets/img/wordpress-legacy/originals/img_3441__764eb526.jpg' | relative_url }}"
+       data-lightbox="gallery"
+       data-title="Field research">
+      <img src="{{ '/assets/img/wordpress-legacy/originals/img_3441__764eb526.jpg' | relative_url }}"
+             alt="Field research" loading="lazy">
+   </a>
+
+   <a href="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest_1__72d0b3ba.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Tall forest with emergent canopy trees">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest_1__ee3592b1.jpg' | relative_url }}"
+      <img src="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest_1__72d0b3ba.jpg' | relative_url }}"
          alt="Tall forest, emergent canopy trees" loading="lazy">
   </a>
 
@@ -215,10 +236,10 @@ Click any image to open the full view.
          alt="Tropical forest canopy, Costa Rica" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/img_3202__fa8fe550.jpg' | relative_url }}"
+   <a href="{{ '/assets/img/wordpress-legacy/originals/img_3202__db000470.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Forest landscape, Rocky Mountain Biological Laboratory, Colorado">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/img_3202__fa8fe550.jpg' | relative_url }}"
+      <img src="{{ '/assets/img/wordpress-legacy/originals/img_3202__db000470.jpg' | relative_url }}"
          alt="Forest landscape, RMBL, Colorado" loading="lazy">
   </a>
 
@@ -227,6 +248,237 @@ Click any image to open the full view.
      data-title="Tree canopy, tropical forest">
     <img src="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}"
          alt="Tree canopy, tropical forest" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/ceibo.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/ceibo.png' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/big-21.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/big-21.png' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/img_6512-1.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/img_6512-1.jpg' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cr-1-2.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cr-1-2.png' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cr-2-1.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cr-2-1.png' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cr-3-2.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cr-3-2.png' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cr-4-1.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cr-4-1.png' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/img_5352.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/img_5352.jpeg' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/img_0648.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/img_0648.jpg' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/img_0631.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/img_0631.jpg' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/trees.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/trees.png' | relative_url }}"
+         alt="Trees" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/img_0630.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/img_0630.jpg' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/img_0550.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/img_0550.jpg' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/img_0514.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/img_0514.jpg' | relative_url }}"
+         alt="Field photo" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/c-clahe060611-67_dubautia-latifolia.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="Dubautia latifolia">
+    <img src="{{ '/assets/img/wordpress/c-clahe060611-67_dubautia-latifolia.jpg' | relative_url }}"
+         alt="Dubautia latifolia" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/tower-2.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/tower-2.png' | relative_url }}"
+         alt="Field tower" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/thu-1.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/thu-1.png' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/thu-5.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/thu-5.png' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/poles-2.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/poles-2.png' | relative_url }}"
+         alt="Field measurement poles" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/poles-6.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/poles-6.png' | relative_url }}"
+         alt="Field measurement poles" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/poles-7.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/poles-7.png' | relative_url }}"
+         alt="Field measurement poles" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/harvard-1.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/harvard-1.png' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/harvard-2.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/harvard-2.png' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/outdoor-3-1.png' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/outdoor-3-1.png' | relative_url }}"
+         alt="Outdoor field work" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_2928.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_2928.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3211-1.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_3211-1.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3224.jpg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_3224.jpg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3255.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_3255.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3286.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_3286.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3294.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_3294.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3337.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_3337.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3355.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_3355.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3426.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_3426.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
   </a>
 
 </div>
@@ -322,6 +574,20 @@ Click any image to open the full view.
      class="wide">
     <img src="{{ '/assets/img/wordpress-legacy/originals/planttraitcourse_2015__4c1c62f8.jpg' | relative_url }}"
          alt="Plant Trait Course 2015" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/amanda.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/amanda.png' | relative_url }}"
+         alt="Lab member" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/working-1.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/working-1.png' | relative_url }}"
+         alt="Field work" loading="lazy">
   </a>
 
 </div>
