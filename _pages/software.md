@@ -227,7 +227,7 @@ These services form a complete biodiversity data QA pipeline from taxonomic name
   <dt><strong><a href="https://tnrs.biendata.org/">TNRS</a></strong> — Taxonomic Name Resolution Service</dt>
   <dd>Computer-assisted standardization of plant scientific names: corrects spelling errors, resolves synonyms, and maps names to accepted taxonomy. <a href="https://github.com/iPlantCollaborativeOpenSource/TNRS">GitHub source</a> · <a href="https://www.nature.com/articles/474263a">Featured in <em>Nature</em> (2011)</a> · <a href="https://link.springer.com/article/10.1186/1471-2105-14-16">Boyle et al. (2013), <em>BMC Bioinformatics</em></a></dd>
   <dt><strong><a href="https://gnrs.biendata.org/">GNRS</a></strong> — Geographic Name Resolution Service</dt>
-  <dd>Standardizes political division names (country, state/province, county) against authoritative gazetteers, enabling consistent geographic filtering and data integration across sources.</dd>
+  <dd>Standardizes political division names (country, state/province, county) against authoritative gazetteers, enabling consistent geographic filtering and data integration across sources. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268162">Boyle et al. (2022), <em>PLOS ONE</em></a></dd>
   <dt><strong><a href="https://nsr.biendata.org/">NSR</a></strong> — Native Species Resolver</dt>
   <dd>Uses regional taxonomic checklists to determine whether observations of a species within a political division are native, introduced, or cultivated. <a href="http://bien.nceas.ucsb.edu/bien/tools/nsr/">Legacy tool page</a></dd>
   <dt><strong><a href="https://gvs.biendata.org/">GVS</a></strong> — Geocoordinate Validation Service</dt>
