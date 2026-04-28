@@ -128,6 +128,11 @@ Our long-term work integrates repeated forest censuses, elevational transects, a
 
 See [field sites]({{ '/field-sites/' | relative_url }}) for site details.
 
+<figure class="field-photo" style="max-height:420px;">
+  <img src="{{ '/assets/img/wordpress/rmbl-transplant-img_4955.jpeg' | relative_url }}" alt="RMBL transplant project meadow block experiment in Washington Gulch, Colorado" loading="lazy" style="height:420px;object-fit:cover;object-position:center 42%;">
+  <figcaption>RMBL Transplant Project: whole-community meadow blocks moved along an elevational temperature gradient to experimentally simulate climate change. See the <a href="{{ '/field-sites/#rmbl-transplant-project' | relative_url }}">Field Sites project page</a> for design and methods.</figcaption>
+</figure>
+
 <figure class="field-photo" style="max-height:320px;">
   <img src="{{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }}" alt="SPARC biodiversity planning map — protected area prioritization across the Americas" loading="lazy" style="height:320px;object-fit:contain;background:#f7f6f2;">
   <figcaption>SPARC protected-area prioritization analysis — integrating BIEN occurrence and trait data to identify conservation priority regions across the Americas.</figcaption>

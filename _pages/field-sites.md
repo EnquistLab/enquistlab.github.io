@@ -56,7 +56,32 @@ Since 2003 we have been monitoring ecosystem carbon fluxes, species composition 
 
 ---
 
-### (3) Plant Functional Trait Courses (PFTC)
+<a id="rmbl-transplant-project"></a>
+### (3) RMBL Transplant Project (Climate Change Experiment)
+
+The [RMBL Climate Change Experiment](https://rmblclimatechangeexperiment.wordpress.com/) is a whole-community transplant experiment in the East River watershed near Crested Butte, Colorado. Beginning in 2017, intact 0.5 m2 meadow turf blocks (plants plus soils) were moved up and down a ~400 m elevational gradient in Washington Gulch to simulate rapid climate shifts under controlled field conditions.
+
+This design allows us to test both direct climate effects and indirect biotic effects on plant communities by immediately exposing the same community structure to warmer or cooler environments. Research integrates functional trait measurements, carbon and water fluxes, and species cover/height tracking to quantify community and ecosystem responses.
+
+Project details:
+- [Project Home](https://rmblclimatechangeexperiment.wordpress.com/)
+- [History](https://rmblclimatechangeexperiment.wordpress.com/history/)
+- [Research Methods](https://rmblclimatechangeexperiment.wordpress.com/research/)
+
+<div class="photo-pair">
+  <figure>
+    <img src="{{ '/assets/img/wordpress/rmbl-transplant-img_5119.jpeg' | relative_url }}" alt="RMBL transplant experiment field plot and alpine meadow landscape near Washington Gulch" loading="lazy">
+    <figcaption>Whole-community transplant plots in Washington Gulch, Crested Butte. Source: RMBL Climate Change Experiment.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/rmbl-transplant-img_4628.jpeg' | relative_url }}" alt="Field crew working in alpine meadow during RMBL transplant project setup" loading="lazy">
+    <figcaption>Field deployment and monitoring of transplanted meadow communities. Source: RMBL Climate Change Experiment.</figcaption>
+  </figure>
+</div>
+
+---
+
+### (4) Plant Functional Trait Courses (PFTC)
 
 Our international [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.no/) offer hands-on training in trait measurement, data synthesis, and trait-based ecology within real-world field settings. Students plan and execute field research projects, collect and document plant functional trait data, and analyze results using trait-based approaches within climate change and ecosystem ecology. We work along elevational and climate gradients in **Norway, Colorado (USA), Peru, China**, and additional countries including Chile and South Africa.
 
@@ -73,7 +98,7 @@ Our international [Plant Functional Trait Courses](https://plantfunctionaltraits
 
 ---
 
-### (4) ABERG / CHAMBASA
+### (5) ABERG / CHAMBASA
 
 The eastern slope of the Andes harbors Earth's highest biodiversity and is among the areas most threatened by climate change. The [ABERG group](https://www.andesconservation.org/) is a team of researchers focused on a 3.5 km elevational gradient spanning from Andean highlands to Amazonian lowlands as a laboratory for understanding biodiversity and ecosystem function. Since 2003, we have studied forest community dynamics, trait variation, and ecosystem flux along this gradient. Since 2018 we have extended work into the Puna ecosystem above the forest in collaboration with the PFTC group. The program combines modern and paleoecology, climate science, distributional ecology, and remote sensing.
 
@@ -90,7 +115,7 @@ The eastern slope of the Andes harbors Earth's highest biodiversity and is among
 
 ---
 
-### (5) Forest MacroSystems Network
+### (6) Forest MacroSystems Network
 
 The [Forest MacroSystems Network](https://www.forestmacrosystems.org/) consists of nine forest monitoring sites arrayed across a broad latitudinal climate gradient. Since 2011 we have been monitoring annual tree growth and mortality using standardized Gentry-style plots. Sites span: **BCI Panama · Luquillo Puerto Rico · Guanacaste Costa Rica · Coweeta North Carolina · Harvard Forest Massachusetts · Niwot Ridge Colorado · Mt. Lemmon Arizona · HJ Andrews Oregon · British Columbia Canada**.
 
