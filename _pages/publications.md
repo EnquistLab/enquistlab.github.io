@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: Publications, CV, and external scholarly profiles.
 nav: true
-nav_order: 3.9
+nav_order: 3.1
 ---
 
 ## Publications & CV
