@@ -4,7 +4,7 @@ cv:
   email: benquist@arizona.edu
   location: Tucson, Arizona, USA
   image: wordpress/brian-enquist-feb2020-020.jpg
-  summary: Professor at the University of Arizona, External Professor at the Santa Fe Institute, Honorary Research Associate at Oxford, and Co-director of Bridging Biodiversity and Conservation Science. Research focuses on macroecology, scaling theory, trait-based ecology, biodiversity informatics, and predictive biodiversity science.
+  summary: "Professor at the University of Arizona, External Professor at the Santa Fe Institute, Honorary Research Associate at Oxford, and Co-director of Bridging Biodiversity and Conservation Science. Research spans macroecology, metabolic scaling theory, trait-based ecology, biodiversity informatics, and predictive biodiversity science. Citations > 70,000 · h-index 115 (Google Scholar, Oct 2025) · > 250 peer-reviewed publications."
 
   social_networks:
     - network: GitHub
@@ -34,6 +34,38 @@ cv:
         studyType: BA (with distinction)
         start_date: 1987
         end_date: 1991
+
+    Academic Interests:
+      - name: Metabolic Scaling Theory
+        keywords:
+          - "Allometric scaling laws and quarter-power scaling"
+          - "West-Brown-Enquist (WBE) fractal vascular network model"
+          - "Scaling of form, function, and metabolism across biological organization"
+          - "General theory for biological scaling from molecules to ecosystems"
+      - name: Macroecology & Biogeography
+        keywords:
+          - "Global patterns in plant diversity, abundance, and geographic range size"
+          - "Functional trait–environment relationships across biomes"
+          - "Climate-mediated biodiversity dynamics and species redistributions"
+          - "Biodiversity scaling laws and dominance–rarity structure"
+      - name: Biodiversity Informatics
+        keywords:
+          - "BIEN (Botanical Information and Ecology Network) — open plant data at continental scale"
+          - "Species distribution modeling and range model metadata standards"
+          - "Reproducible biodiversity workflows and open science"
+          - "Community-driven synthesis of plant observation, plot, and trait data"
+      - name: Predictive Biodiversity Science
+        keywords:
+          - "Trait-Driver Theory — mechanistic links from traits to ecosystem function"
+          - "Ecological forecasting and resilience under global change"
+          - "Integration of remote sensing, traits, and theory for biosphere prediction"
+          - "Protected area effectiveness and conservation prioritization"
+      - name: Theoretical Ecology
+        keywords:
+          - "First-principles theories for ecological scaling"
+          - "Maximum entropy approaches to community structure"
+          - "Metabolic theory of ecology and life-history scaling"
+          - "Developing a predictive science of the biosphere"
 
     Experience:
       - company: University of Arizona
@@ -79,6 +111,11 @@ cv:
         end_date: 1999
 
     Awards:
+      - title: MacArthur Award
+        awarder: Ecological Society of America
+        date: 2026
+        summary: Highest award of the Ecological Society of America, given for meritorious contributions to ecology.
+
       - title: Ecological Society of America Fellow
         awarder: Ecological Society of America
         date: 2018
@@ -86,6 +123,18 @@ cv:
       - title: Fellow
         awarder: American Association for the Advancement of Science (AAAS)
         date: 2012
+
+      - title: Leverhulme Visiting Professorship
+        awarder: Leverhulme Trust / University of Oxford
+        date: 2017
+
+      - title: Oxford University Martin School Fellow
+        awarder: University of Oxford Martin School
+        date: 2017
+
+      - title: College of Science Galileo Circle Fellow
+        awarder: University of Arizona
+        date: 2011
 
       - title: Honorary Degree, Doctor of Science
         awarder: Colorado College
@@ -106,6 +155,14 @@ cv:
       - title: NSF CAREER Award
         awarder: National Science Foundation
         date: 2002-2007
+
+      - title: "Popular Science: Top 10 Brilliant Young Scientists"
+        awarder: Popular Science Magazine
+        date: 2004
+
+      - title: ISI Essential Science Indicators — Highest percent increase in total citations, Environment and Ecology
+        awarder: ISI / Thomson Reuters
+        date: 2005
 
       - title: Fulbright Fellow
         awarder: Fulbright Program
@@ -178,6 +235,63 @@ cv:
         publisher: Proceedings of the National Academy of Sciences
         releaseDate: 2024
         url: https://www.pnas.org/doi/10.1073/pnas.2209196121
+
+      - title: "Scaling approaches and Macroecology provide a foundation for assessing ecological resilience in the Anthropocene"
+        authors:
+          - Enquist, B. J.; Erwin, D.; Savage, V. M.; Marquet, P. A.
+        publisher: Philosophical Transactions of the Royal Society B
+        releaseDate: 2024
+        url: https://doi.org/10.1098/rstb.2023.0010
+
+      - title: "How deregulation, drought, and increasing fire impact Amazonian biodiversity"
+        authors:
+          - Feng, X. et al.; Enquist, B. J.
+        publisher: Nature
+        releaseDate: 2021
+        url: https://doi.org/10.1038/s41586-021-03876-7
+
+      - title: The megabiota are disproportionately important for biosphere functioning
+        authors:
+          - Enquist, B. J.; Abraham, A. J.; Harfoot, M. B. J.; Malhi, Y.; Doughty, C. E.
+        publisher: Nature Communications
+        releaseDate: 2020
+        url: https://doi.org/10.1038/s41467-020-14369-z
+
+      - title: Assessing trait-based scaling theory in dominant plant species across global biomes
+        authors:
+          - Enquist, B. J. et al.
+        publisher: Nature Plants
+        releaseDate: 2019
+        url: https://doi.org/10.1038/s41477-019-0502-7
+
+      - title: The BIEN R package — A tool to access the Botanical Information and Ecology Network (BIEN) database
+        authors:
+          - Maitner, B. S. et al.; Enquist, B. J.
+        publisher: Methods in Ecology and Evolution
+        releaseDate: 2018
+        url: https://doi.org/10.1111/2041-210X.12861
+
+      - title: "The fourth dimension of life: fractal geometry and allometric scaling of organisms"
+        authors:
+          - West, G. B.; Brown, J. H.; Enquist, B. J.
+        publisher: Science
+        releaseDate: 1999
+        url: https://doi.org/10.1126/science.284.5420.1677
+
+      - title: Allometric scaling of plant energetics and population density
+        authors:
+          - Enquist, B. J.; Brown, J. H.; West, G. B.
+        publisher: Nature
+        releaseDate: 1998
+        url: https://doi.org/10.1038/25977
+
+      - title: A general model for the origin of allometric scaling laws in biology
+        authors:
+          - West, G. B.; Brown, J. H.; Enquist, B. J.
+        publisher: Science
+        releaseDate: 1997
+        url: https://doi.org/10.1126/science.276.5309.122
+        summary: "Foundational paper of the West-Brown-Enquist metabolic scaling framework. > 6,300 citations."
 
     Certificates:
       - name: Scholarly profiles and open science links

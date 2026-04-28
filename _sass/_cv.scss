@@ -218,3 +218,81 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/*****************************
+ * CV PRINT styles
+ *****************************/
+
+@media print {
+  /* Hide chrome: nav, footer, sidebar, PDF button, social icons */
+  nav.navbar,
+  footer,
+  .toc-sidebar,
+  .float-right,
+  .post-header a[href$=".pdf"],
+  #toc,
+  button {
+    display: none !important;
+  }
+
+  /* Expand layout to full width */
+  body,
+  .container,
+  .col-sm-9,
+  .col-md-9 {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Cards render as flat blocks, no shadow */
+  .card {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    margin-bottom: 0.75rem !important;
+  }
+
+  /* Use black text throughout */
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p, li, td, th {
+    color: #000 !important;
+  }
+
+  /* Section headings */
+  .card-title {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* List items shouldn't bleed across pages */
+  .list-group-item {
+    page-break-inside: avoid;
+  }
+
+  /* Keep hyperlinks visible in print */
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.7rem;
+    color: #444;
+  }
+
+  /* Suppress # anchors and badge links */
+  a.anchor::after,
+  a.btn::after,
+  a.btncv::after {
+    content: "" !important;
+  }
+
+  /* Badges (year labels) */
+  .badge {
+    border: 1px solid #000 !important;
+    background-color: transparent !important;
+    color: #000 !important;
+  }
+}
