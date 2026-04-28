@@ -68,16 +68,86 @@ Project details:
 - [History](https://rmblclimatechangeexperiment.wordpress.com/history/)
 - [Research Methods](https://rmblclimatechangeexperiment.wordpress.com/research/)
 
-<div class="photo-pair">
+<div class="photo-pair" id="transplant-photo-pair">
   <figure>
-    <img src="{{ '/assets/img/wordpress/rmbl-transplant-img_5119.jpeg' | relative_url }}" alt="RMBL transplant experiment field plot and alpine meadow landscape near Washington Gulch" loading="lazy">
-    <figcaption>Whole-community transplant plots in Washington Gulch, Crested Butte. Source: RMBL Climate Change Experiment.</figcaption>
+    <img id="transplant-img-0" src="{{ '/assets/img/transplant/img_5119.jpeg' | relative_url }}"
+         alt="RMBL transplant experiment field plot, Washington Gulch" loading="lazy">
+    <figcaption id="transplant-cap-0">Whole-community transplant plots in Washington Gulch, Crested Butte. Source: <a href="https://rmblclimatechangeexperiment.wordpress.com/" target="_blank" rel="noopener">RMBL Climate Change Experiment</a>.</figcaption>
   </figure>
   <figure>
-    <img src="{{ '/assets/img/wordpress/rmbl-transplant-img_4628.jpeg' | relative_url }}" alt="Field crew working in alpine meadow during RMBL transplant project setup" loading="lazy">
-    <figcaption>Field deployment and monitoring of transplanted meadow communities. Source: RMBL Climate Change Experiment.</figcaption>
+    <img id="transplant-img-1" src="{{ '/assets/img/transplant/img_4628.jpeg' | relative_url }}"
+         alt="Field crew working in alpine meadow, RMBL transplant project" loading="lazy">
+    <figcaption id="transplant-cap-1">Field deployment and monitoring of transplanted meadow communities. Source: <a href="https://rmblclimatechangeexperiment.wordpress.com/" target="_blank" rel="noopener">RMBL Climate Change Experiment</a>.</figcaption>
   </figure>
 </div>
+<p style="text-align:center;margin-top:0.3rem;">
+  <button id="transplant-shuffle-btn"
+          onclick="transplantShuffle()"
+          style="font-size:0.8rem;padding:0.25rem 0.9rem;border:1px solid var(--global-divider-color,#ccc);border-radius:4px;background:transparent;cursor:pointer;color:var(--global-text-color);opacity:0.7;"
+          title="Show different photos from the RMBL Climate Change Experiment">
+    ↺ shuffle photos
+  </button>
+</p>
+
+<script>
+(function () {
+  var base = '{{ "/assets/img/transplant/" | relative_url }}';
+  var photos = [
+    { src: 'img_4597.jpeg', alt: 'Transplant meadow turf blocks, Washington Gulch' },
+    { src: 'img_4628.jpeg', alt: 'Field crew during transplant setup, RMBL' },
+    { src: 'img_4699.jpeg', alt: 'Alpine meadow transplant plots, East River watershed' },
+    { src: 'img_4955.jpeg', alt: 'Transplant experiment plots, Washington Gulch' },
+    { src: 'img_4991.jpeg', alt: 'Monitoring transplanted meadow communities, RMBL' },
+    { src: 'img_5105.jpeg', alt: 'Field measurements in transplant plots' },
+    { src: 'img_5106.jpeg', alt: 'Plant community sampling, RMBL transplant project' },
+    { src: 'img_5119.jpeg', alt: 'Transplant plots and alpine landscape, Washington Gulch' },
+    { src: 'img_5130.jpeg', alt: 'Transplanted turf block in alpine meadow' },
+    { src: '67c37ce8-1000-4dd8-87e8-78ca46e5793f.jpg', alt: 'Overview of transplant experimental design' },
+    { src: '11e467e7-68c8-493a-9275-d324db8e05c6_1_105_c.jpeg', alt: 'Field crew at RMBL transplant site' },
+    { src: '25a758ae-621d-4ce9-a8c7-951b5c330c96_1_105_c.jpeg', alt: 'Meadow plant community, transplant experiment' },
+    { src: '6b088f65-b6cd-4af7-b24b-a67796c4a2b7_1_105_c.jpeg', alt: 'Transplant plot measurement, RMBL' },
+    { src: 'bdcfc73d-1c15-4a94-bf06-ca3b36dd5d51_1_105_c.jpeg', alt: 'Alpine vegetation at transplant site' },
+    { src: 'd130cc2b-2843-45fa-846d-eb67af11ac99_1_105_c.jpeg', alt: 'Field data collection, RMBL transplant project' },
+    { src: '951d70f5-aaf8-474c-b1bf-a7bc9e55bd85_1_105_c.jpeg', alt: 'Plant community monitoring, Washington Gulch' },
+    { src: 'f61119ba-6a77-4d4b-9ca9-957a4fc4f087_1_105_c.jpeg', alt: 'RMBL transplant experiment field site' }
+  ];
+
+  var current = [8, 1]; // initial indices matching the default src above (img_5119, img_4628)
+
+  function pick2() {
+    var pool = photos.map(function(_, i) { return i; })
+                     .filter(function(i) { return i !== current[0] && i !== current[1]; });
+    var a = pool[Math.floor(Math.random() * pool.length)];
+    pool = pool.filter(function(i) { return i !== a; });
+    var b = pool[Math.floor(Math.random() * pool.length)];
+    return [a, b];
+  }
+
+  window.transplantShuffle = function () {
+    var next = pick2();
+    var imgs = [document.getElementById('transplant-img-0'), document.getElementById('transplant-img-1')];
+    imgs.forEach(function(img, j) {
+      img.style.transition = 'opacity 0.3s';
+      img.style.opacity = '0';
+      setTimeout(function() {
+        var p = photos[next[j]];
+        img.src = base + p.src;
+        img.alt = p.alt;
+        img.style.opacity = '1';
+      }, 300);
+    });
+    current = next;
+    // prefetch remaining photos
+    photos.forEach(function(p) {
+      var pre = new Image();
+      pre.src = base + p.src;
+    });
+  };
+
+  // prefetch all on first load
+  photos.forEach(function(p) { var pre = new Image(); pre.src = base + p.src; });
+})();
+</script>
 
 ---
 

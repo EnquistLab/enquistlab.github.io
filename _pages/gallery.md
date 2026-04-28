@@ -631,6 +631,63 @@ Click any image to open the full view.
          alt="Tree diameter measurement, SEFDP, Costa Rica" loading="lazy">
   </a>
 
+  <a href="{{ '/assets/img/transplant/img_5119.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="Transplant plots in Washington Gulch, Crested Butte — RMBL Climate Change Experiment"
+     class="wide">
+    <img src="{{ '/assets/img/transplant/img_5119.jpeg' | relative_url }}"
+         alt="Transplant plots in Washington Gulch, Crested Butte" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/transplant/img_4628.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="Field crew deploying transplanted turf blocks — RMBL Climate Change Experiment">
+    <img src="{{ '/assets/img/transplant/img_4628.jpeg' | relative_url }}"
+         alt="Field crew, RMBL transplant experiment" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/transplant/img_4699.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="Alpine meadow transplant site, East River watershed, Colorado">
+    <img src="{{ '/assets/img/transplant/img_4699.jpeg' | relative_url }}"
+         alt="Alpine meadow transplant site, Colorado" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/transplant/img_4991.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="Monitoring transplanted meadow communities — RMBL Climate Change Experiment">
+    <img src="{{ '/assets/img/transplant/img_4991.jpeg' | relative_url }}"
+         alt="Monitoring transplanted meadow communities, RMBL" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/transplant/img_5105.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="Field measurements in transplant plots, Washington Gulch">
+    <img src="{{ '/assets/img/transplant/img_5105.jpeg' | relative_url }}"
+         alt="Field measurements in transplant plots" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/transplant/img_5130.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="Transplanted turf block in alpine meadow — RMBL Climate Change Experiment">
+    <img src="{{ '/assets/img/transplant/img_5130.jpeg' | relative_url }}"
+         alt="Transplanted turf block in alpine meadow" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/transplant/6b088f65-b6cd-4af7-b24b-a67796c4a2b7_1_105_c.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="Transplant plot measurement — RMBL Climate Change Experiment">
+    <img src="{{ '/assets/img/transplant/6b088f65-b6cd-4af7-b24b-a67796c4a2b7_1_105_c.jpeg' | relative_url }}"
+         alt="Transplant plot measurement, RMBL" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/transplant/951d70f5-aaf8-474c-b1bf-a7bc9e55bd85_1_105_c.jpeg' | relative_url }}"
+     data-lightbox="gallery"
+     data-title="Plant community monitoring, Washington Gulch — RMBL Climate Change Experiment">
+    <img src="{{ '/assets/img/transplant/951d70f5-aaf8-474c-b1bf-a7bc9e55bd85_1_105_c.jpeg' | relative_url }}"
+         alt="Plant community monitoring, Washington Gulch" loading="lazy">
+  </a>
+
   <a href="{{ '/assets/img/field/rmbl_fieldwork.jpg' | relative_url }}"
      data-lightbox="people"
      data-title="Field sampling at the Rocky Mountain Biological Laboratory, Colorado">
