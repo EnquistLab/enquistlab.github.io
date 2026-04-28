@@ -9,6 +9,7 @@ nav_order: 3.1
 
 ## Publications & CV
 
+- [ORCID: 0000-0002-6337-8292](https://orcid.org/0000-0002-6337-8292)
 - [Google Scholar profile](https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en)
 - [ResearchGate profile](https://www.researchgate.net/profile/Brian-Enquist)
 - Full CV: [View the CV page]({{ '/cv/' | relative_url }})
