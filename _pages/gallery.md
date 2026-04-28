@@ -842,4 +842,60 @@ Click any image to open the full view.
          alt="People" loading="lazy">
   </a>
 
+  <a href="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.29.22-pm.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.29.22-pm.png' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.33.21-pm.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.33.21-pm.png' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.34.29-pm.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.34.29-pm.png' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/14356996100_37b42655b3_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/14356996100_37b42655b3_o.jpg' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/14520555176_ac6abbf459_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/14520555176_ac6abbf459_o.jpg' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/14543636665_e684ee739b_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/14543636665_e684ee739b_o.jpg' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/brian-enquist-feb2020-060.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/brian-enquist-feb2020-060.jpg' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3219.jpeg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dsc_3219.jpeg' | relative_url }}"
+         alt="Field work" loading="lazy">
+  </a>
+
 </div>
