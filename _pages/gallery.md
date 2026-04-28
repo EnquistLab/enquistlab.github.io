@@ -207,13 +207,6 @@ Click any image to open the full view.
          alt="Tall forest, emergent canopy trees" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest3__1fdfdc64.jpg' | relative_url }}"
-     data-lightbox="gallery"
-     data-title="Forest understorey and canopy">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/pfeiler_forest3__1fdfdc64.jpg' | relative_url }}"
-         alt="Forest understorey and canopy" loading="lazy">
-  </a>
-
   <a href="{{ '/assets/img/field/sefdp_forest_canopy.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Tropical forest canopy, San Emilio Forest Dynamics Plot, Costa Rica"
