@@ -143,3 +143,18 @@ Outcome: Updated the cohort assignment logic in _pages/people.md so decade bucke
 Prompt: Pull Cesar Hinojo Hinojo's updated Google Scholar link from the source people sheet into the site repo.
 Source session: VS Code Copilot Chat
 Outcome: Ran scripts/sync_people_sheet.py locally with ALUMNI_SHEET_GID=1137118685 so the alumni tab would sync in addition to the active-members tab. The sync updated _data/people.yml, replacing Cesar Hinojo Hinojo's blank google_scholar field with the current Google Scholar URL from the source sheet.
+
+28. Date: 2026-04-27
+Prompt: For my github webpage I would like to add a tab called Photo Gallery where we cycle through photos from my old website. Choose the best existing landscape photos and photos of people.
+Source session: VS Code Copilot Chat
+Outcome: Created _pages/gallery.md — a Photo Gallery page with lightbox2 grid layout, nav_order: 7, two sections (Landscapes and People), curating photos from field/, team/, wordpress/, and wordpress-legacy/originals/ folders.
+
+29. Date: 2026-04-28
+Prompt: Redesign and automate enquistlab.github.io/cv/ for Brian J. Enquist — academic and rigorous, accessible to broad audiences, automatically updated from Google Scholar on a schedule.
+Source session: VS Code Copilot Chat
+Outcome: (1) _pages/cv.md — enabled nav (nav: true, nav_order: 4), updated description with citation metrics; (2) _data/cv.yml — added Academic Interests section (scaling theory, macroecology, biodiversity informatics, predictive science, theoretical ecology), added MacArthur Award 2026, Leverhulme 2017, Martin School 2017, Galileo Circle 2011, Popular Science 2004, ISI ESI 2005 to Awards, expanded selected Publications with 9 additional entries spanning 1997-2024 (foundational WBE papers through recent PNAS/Nature work); (3) _sass/_cv.scss — added print media query block for print-friendly rendering; (4) assets/css/main.scss — added @use "cv" to compile CV print styles. No new automation workflow required — sync-google-doc-cv.yml (daily PDF + DOI sync), render-cv.yml (renders cv.yml to PDF on push), and update-citations.yml (daily Google Scholar citations) already cover the full automation pipeline.
+
+23. Date: 2026-04-28
+Prompt: In the field-sites page https://enquistlab.github.io/field-sites/ lets add a project for the Transplant project - an experimental climate change experiment. Link to this page. But also borrow information from this paer https://rmblclimatechangeexperiment.wordpress.com/history/ https://rmblclimatechangeexperiment.wordpress.com/research/ There are several photos on this site https://rmblclimatechangeexperiment.wordpress.com/ add these to our stored photos from the Wordpress site as well as use some nice high resolution photos to the research page
+Source session: VS Code Copilot Chat
+Outcome: Added RMBL Transplant Project section to Field Sites with experiment design summary and direct links to project home/history/research pages; added and used high-resolution transplant images from the RMBL WordPress site in Field Sites and Research pages.
