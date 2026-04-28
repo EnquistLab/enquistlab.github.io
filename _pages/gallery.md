@@ -193,13 +193,6 @@ Click any image to open the full view.
          alt="Field research" loading="lazy">
   </a>
 
-  <a href="{{ '/assets/img/wordpress-legacy/originals/img_3441__3b5d6b5f.jpg' | relative_url }}"
-     data-lightbox="gallery"
-     data-title="Field research">
-    <img src="{{ '/assets/img/wordpress-legacy/originals/img_3441__3b5d6b5f.jpg' | relative_url }}"
-         alt="Field research" loading="lazy">
-  </a>
-
   <a href="{{ '/assets/img/wordpress-legacy/originals/img_3446__04f3f8e6.jpg' | relative_url }}"
      data-lightbox="gallery"
      data-title="Field research">
