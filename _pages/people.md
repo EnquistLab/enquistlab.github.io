@@ -19,12 +19,12 @@ nav_order: 4
 
 <div class="photo-pair" style="margin-bottom:2.5rem;">
   <figure>
-    <img src="{{ '/assets/img/team/lab_group_costa_rica.jpeg' | relative_url }}" alt="Lab team at the San Emilio Forest Dynamics Plot, Costa Rica" loading="lazy">
-    <figcaption>Field team at the San Emilio Forest Dynamics Plot, Costa Rica</figcaption>
+    <img src="{{ '/assets/img/wordpress/brian-enquist-feb2020-088.jpg' | relative_url }}" alt="Brian J. Enquist, February 2020" loading="lazy">
+    <figcaption>Brian J. Enquist</figcaption>
   </figure>
   <figure>
-    <img src="{{ '/assets/img/team/pftc_group.jpeg' | relative_url }}" alt="PFTC team, Peru" loading="lazy">
-    <figcaption>Plant Functional Trait Course students and researchers, Peru</figcaption>
+    <img src="{{ '/assets/img/wordpress/avery-ridge.jpg' | relative_url }}" alt="Avery Ridge landscape" loading="lazy">
+    <figcaption>Avery Ridge</figcaption>
   </figure>
 </div>
 
