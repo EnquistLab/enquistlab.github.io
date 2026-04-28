@@ -716,4 +716,116 @@ Click any image to open the full view.
          alt="Interview" loading="lazy">
   </a>
 
+  <a href="{{ '/assets/img/wordpress/cropped-untitled91.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-untitled91.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-img_13681.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-img_13681.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/untitled23.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/untitled23.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/8735578355_2727abf16d_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/8735578355_2727abf16d_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8736672508_ce0859930d_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-8736672508_ce0859930d_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-16820461938_9d89b29d51_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-16820461938_9d89b29d51_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/16982234246_dbf43a38d9_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/16982234246_dbf43a38d9_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/16385832784_db147c9558_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/16385832784_db147c9558_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/image.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/image.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dscn5015.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/dscn5015.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/christine_14.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/christine_14.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-bien_2012.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-bien_2012.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/10553859_850734928272146_2591283871298109790_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/10553859_850734928272146_2591283871298109790_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/550106_3567860316612_913822306_n.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/550106_3567860316612_913822306_n.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-bigelow-5.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-bigelow-5.png' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-growth-season-11.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="">
+    <img src="{{ '/assets/img/wordpress/cropped-growth-season-11.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
 </div>
