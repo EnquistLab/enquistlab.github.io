@@ -166,6 +166,86 @@ The BIEN GeoSpatial portal provides web-based access to New World plant occurren
 
 ---
 
+### BIEN in Action
+
+The BIEN database and services are built through collaboration with field teams, trait measurement specialists, data curators, and computational ecologists. Our work connects field observations, database development, open-source software, and training programs across diverse ecosystems.
+
+<div class="bien-team-gallery">
+  <figure>
+    <img src="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.29.22-pm.png' | relative_url }}" alt="BIEN presentation" loading="lazy">
+    <figcaption>BIEN talks and presentations</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.33.21-pm.png' | relative_url }}" alt="BIEN talk screenshot" loading="lazy">
+    <figcaption>Database and API training</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.34.29-pm.png' | relative_url }}" alt="BIEN webinar" loading="lazy">
+    <figcaption>Community outreach and education</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/14356996100_37b42655b3_o.jpg' | relative_url }}" alt="Brian Enquist collaborator event" loading="lazy">
+    <figcaption>BIEN team collaborations</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/14520555176_ac6abbf459_o.jpg' | relative_url }}" alt="Collaborative science discussion" loading="lazy">
+    <figcaption>Scientific collaboration and synthesis</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/14543636665_e684ee739b_o.jpg' | relative_url }}" alt="Lab discussion and planning" loading="lazy">
+    <figcaption>Workshop and planning meetings</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/brian-enquist-feb2020-060.jpg' | relative_url }}" alt="Brian Enquist speaking" loading="lazy">
+    <figcaption>Lab director and BIEN principal investigator</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/wordpress/dsc_3219.jpeg' | relative_url }}" alt="Field team collaboration" loading="lazy">
+    <figcaption>Field work and data collection partnerships</figcaption>
+  </figure>
+</div>
+
+<style>
+  .bien-team-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.8rem;
+    margin: 1.2rem 0 1.5rem;
+  }
+  
+  .bien-team-gallery figure {
+    margin: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: var(--global-card-bg-color);
+  }
+  
+  .bien-team-gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .bien-team-gallery figcaption {
+    padding: 0.6rem 0.7rem;
+    font-size: 0.87rem;
+    color: var(--global-text-color-light);
+    line-height: 1.35;
+  }
+  
+  @media (max-width: 768px) {
+    .bien-team-gallery {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    .bien-team-gallery img {
+      height: 180px;
+    }
+  }
+</style>
+
+---
+
 ### Taxonomic Name Resolution Service (TNRS)
 
 Computer-assisted standardization of plant scientific names: corrects spelling errors, resolves synonyms, and maps names to accepted taxonomy.
