@@ -12,15 +12,40 @@
     document.body;
   if (!root) return;
 
-  const source =
-    root.querySelector("article .clearfix") ||
-    root.querySelector("article") ||
-    root.querySelector(".post-content") ||
-    root;
-  const headings = [...source.querySelectorAll("h2, h3")].filter((el) => {
+  const getEligibleHeadings = (node) =>
+    [...node.querySelectorAll("h2, h3")].filter((el) => {
     if (!el.textContent || !el.textContent.trim()) return false;
     if (el.closest(".home-cards, .team-grid, .resource-link-grid")) return false;
     return true;
+  });
+
+  const candidatePool = [
+    root.querySelector("article .clearfix"),
+    root.querySelector("article"),
+    root.querySelector(".post-content"),
+    document.querySelector(".post article .clearfix"),
+    document.querySelector(".post article"),
+    document.querySelector("main article"),
+    document.querySelector("article .clearfix"),
+    document.querySelector("article"),
+    document.querySelector(".post-content"),
+    root,
+  ];
+
+  const candidates = [];
+  const seen = new Set();
+  candidatePool.forEach((node) => {
+    if (!node || seen.has(node)) return;
+    seen.add(node);
+    candidates.push(node);
+  });
+
+  let headings = [];
+  candidates.forEach((candidate) => {
+    const eligible = getEligibleHeadings(candidate);
+    if (eligible.length > headings.length) {
+      headings = eligible;
+    }
   });
 
   if (headings.length < 2) {
