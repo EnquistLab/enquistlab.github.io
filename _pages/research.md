@@ -32,7 +32,7 @@ nav_order: 3
 
 Our lab develops theory and data-driven tools to explain how biodiversity is organized across scales, and how it is changing under climate and land-use pressure.
 
-We organize our work as a connected process: observations and traits -> scaling and trait-based theory -> predictive models -> uncertainty-aware ecological forecasting.
+We organize our work as a connected process: observations and traits → scaling and trait-based theory → predictive models → uncertainty-aware ecological forecasting.
 
 Current themes include:
 

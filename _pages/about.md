@@ -94,14 +94,9 @@ We integrate occurrence, trait, and environmental data to generate reproducible 
 
 - **Science and theory synthesis**: [Selected publications]({{ '/publications/' | relative_url }}) spanning allometry, trait ecology, and biodiversity science.
 - **Open data infrastructure**: [BIEN and software resources]({{ '/resources/' | relative_url }}) for plant occurrence, range, and trait integration.
-- **Press and media coverage**: [Lab in the news]({{ '/press-media/' | relative_url }}) — media features, interviews, and public-facing coverage.
+- **Press and media coverage**: [Lab in the news]({{ '/news/' | relative_url }}) — media features, interviews, and public-facing coverage.
 
-## Research Focus
 
-- Metabolic and allometric scaling
-- Trait-based ecology and Trait Driver Theory
-- Biodiversity informatics and data integration
-- Global change biology and forecasting
 - Open and reproducible ecological science
 
 I am an elected Fellow of the American Association for the Advancement of Science (AAAS) and the Ecological Society of America (ESA).

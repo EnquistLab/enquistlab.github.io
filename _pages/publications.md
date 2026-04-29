@@ -99,10 +99,9 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 	}
 
 	.publication-topic-caption {
-		margin: 0;
+		margin: 0.25rem 0 0;
 		color: var(--global-text-color-light);
 		font-size: 0.98rem;
-		margin: 0.25rem 0 0;
 	}
 
 	.publication-topic-caption--hint {

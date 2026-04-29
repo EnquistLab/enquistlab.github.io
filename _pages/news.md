@@ -44,7 +44,6 @@ nav_order: 3.15
   padding: 1.3rem;
   margin-bottom: 0.5rem;
   border-bottom: none !important;
-  align-items: center;
 }
 .press-featured + .press-item {
   border-top: 1px solid var(--global-divider-color);
