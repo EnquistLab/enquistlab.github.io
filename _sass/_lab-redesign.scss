@@ -994,3 +994,65 @@ figure {
 figure::after {
   @extend %watermark-label;
 }
+
+// ── Artwork feature block (About page, biodiversity anchor) ───────────────
+.art-feature {
+  margin: 2rem 0 2.5rem;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+
+  a { display: block; }
+
+  img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: center 40%;
+    display: block;
+    transition: opacity 0.25s ease;
+    &:hover { opacity: 0.93; }
+  }
+
+  figcaption {
+    padding: 0.7rem 1rem;
+    background: var(--global-card-bg-color);
+    border-top: 1px solid var(--global-divider-color);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    line-height: 1.6;
+  }
+}
+
+.art-caption-ecology {
+  display: block;
+  margin-top: 0.35rem;
+  font-style: italic;
+  color: var(--global-text-color);
+  font-size: 0.8rem;
+}
+
+// ── News page: Munch hero + thematic section headers ─────────────────────
+.munch-hero {
+  margin: 0 0 2.5rem;
+  border-radius: 6px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center 25%;
+    display: block;
+  }
+
+  figcaption {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+    line-height: 1.5;
+    background: var(--global-card-bg-color);
+    border-top: 1px solid var(--global-divider-color);
+  }
+}

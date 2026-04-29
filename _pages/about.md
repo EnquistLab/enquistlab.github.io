@@ -37,6 +37,19 @@ latest_posts:
 
 > "If you want to build a ship, do not drum up people to collect wood and assign tasks, but rather teach them to long for the endless immensity of the sea." — Antoine de Saint-Exupery
 
+<figure class="art-feature">
+  <a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">
+    <img src="https://media.getty.edu/iiif/image/d144e5f6-1f2b-4739-908f-bd661f85f817/full/!1200,/0/default.jpg"
+         alt="The Entry of the Animals into Noah's Ark — Jan Brueghel the Elder, 1613, Getty Museum"
+         loading="lazy"
+         onerror="this.style.display='none'">
+  </a>
+  <figcaption>
+    <em><a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">The Entry of the Animals into Noah's Ark</a></em> — Jan Brueghel the Elder, 1613. Oil on panel, 54.6 × 83.8 cm. <a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">J. Paul Getty Museum</a>, Los Angeles (92.PB.82). Public domain.
+    <span class="art-caption-ecology">Brueghel's encyclopaedic inventory — every known species arrayed from canopy to waterline, from the tropics of the Americas to the forests of northern Europe — is the earliest expression of what biodiversity science still seeks to do: observe, catalogue, and ultimately predict the distribution of life across scales and environments. The single tree at centre, organizing the assembly of species, is the same structure phylogenetic and trait-based ecology uses today.</span>
+  </figcaption>
+</figure>
+
 We study one central question: how do the functional traits of organisms scale up to shape biodiversity, ecosystems, and the biosphere under rapid environmental change?
 
 We live in a world of unprecedented climate and land-use change. A central goal of ecology and evolutionary biology is to understand the origin, maintenance, and fate of organismal form, function, and diversity — and then to predict how these processes scale up to influence ecosystem and biosphere function.
