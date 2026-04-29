@@ -39,10 +39,9 @@ latest_posts:
 
 <figure class="art-feature">
   <a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">
-    <img src="https://media.getty.edu/iiif/image/d144e5f6-1f2b-4739-908f-bd661f85f817/full/!1200,/0/default.jpg"
+    <img src="{{ '/assets/img/art/brueghel_noah_ark_1613.jpg' | relative_url }}"
          alt="The Entry of the Animals into Noah's Ark — Jan Brueghel the Elder, 1613, Getty Museum"
-         loading="lazy"
-         onerror="this.style.display='none'">
+         loading="lazy">
   </a>
   <figcaption>
     <em><a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">The Entry of the Animals into Noah's Ark</a></em> — Jan Brueghel the Elder, 1613. Oil on panel, 54.6 × 83.8 cm. <a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">J. Paul Getty Museum</a>, Los Angeles (92.PB.82). Public domain.

@@ -81,10 +81,9 @@ nav_order: 3.15
 </style>
 
 <figure class="munch-hero">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Edvard_Munch_-_The_Sun_-_Google_Art_Project.jpg"
-       alt="Edvard Munch — The Sun, 1911–1916, Munch Museum Oslo"
-       loading="lazy"
-       onerror="this.style.display='none'">
+  <img src="{{ '/assets/img/art/munch_the_sun_1916.jpg' | relative_url }}"
+       alt="Edvard Munch — The Sun, 1911, Munch Museum Oslo"
+       loading="lazy">
   <figcaption>
     <em><a href="https://www.edvardmunch.org/the-sun.jsp" target="_blank" rel="noopener">The Sun</a></em> — Edvard Munch, 1911–1916. <a href="https://www.munchmuseet.no/" target="_blank" rel="noopener">Munch Museum</a>, Oslo. Public domain. Solar energy radiating outward — from photon to leaf, from leaf to canopy, from canopy to biosphere — is the organizing principle of the lab's macroecological work.
   </figcaption>
