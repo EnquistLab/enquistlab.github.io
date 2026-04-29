@@ -446,7 +446,7 @@ h6,
   color: inherit;
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
-  border-radius: 4px;
+  border-radius: 6px;
   overflow: hidden;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 
@@ -490,6 +490,20 @@ h6,
       line-height: 1.5;
     }
   }
+}
+
+.post article {
+  position: relative;
+}
+
+.post article > h2 {
+  border-top: 1px solid color-mix(in srgb, var(--global-divider-color) 82%, transparent 18%);
+  padding-top: 1.15rem;
+}
+
+.post article > h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
 }
 
 // ── Team page ──────────────────────────────────────────────────────────────

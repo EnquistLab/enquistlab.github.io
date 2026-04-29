@@ -15,7 +15,7 @@ nav_order: 1
 </div>
 
 <div class="home-mission">
-  <p>We build predictive theories of life — from cells to ecosystems — grounded in field data, allometric scaling, and biodiversity informatics.</p>
+  <p>From individual leaves to continental forests — we measure, model, and predict how life is organized across scales, and how it responds to a changing world.</p>
 </div>
 
 <div class="home-stats">

@@ -3,11 +3,27 @@ layout: page
 title: research
 permalink: /research/
 description: Current research themes and projects in the Enquist Macroecology Lab
-nav: true
+nav: false
 nav_order: 3
 ---
 
 ## Research Program
+
+<nav class="section-jump-nav" aria-label="Research section navigation">
+  <div class="section-jump-nav__header">
+    <span class="section-jump-nav__label">Jump to theme</span>
+  </div>
+  <div class="section-jump-nav__links">
+    <a class="section-jump-nav__link" href="#metabolic-scaling-functional-biology">Metabolic Scaling</a>
+    <a class="section-jump-nav__link" href="#trait-based-ecology">Trait-Based Ecology</a>
+    <a class="section-jump-nav__link" href="#trait-driver-theory-functional-ecology">Trait Driver Theory</a>
+    <a class="section-jump-nav__link" href="#bien-botanical-information-ecology-network">BIEN</a>
+    <a class="section-jump-nav__link" href="#global-change-biology">Global Change Biology</a>
+    <a class="section-jump-nav__link" href="#long-term-ecology">Long-Term Ecology</a>
+    <a class="section-jump-nav__link" href="#opentraits-biodiversity-informatics">OpenTraits</a>
+    <a class="section-jump-nav__link" href="#theory-equation-figures">Theory Figures</a>
+  </div>
+</nav>
 
 <figure class="field-photo">
   <img src="{{ "/assets/img/field/brian_field.jpg" | relative_url }}" alt="Brian Enquist conducting field measurements" loading="lazy">
@@ -45,6 +61,11 @@ We develop and extend metabolic scaling theory (West, Brown, and Enquist 1997; 1
 
 ### Trait-Based Ecology
 
+<figure class="field-photo">
+  <img src="{{ '/assets/img/wordpress/dsc_3443.jpeg' | relative_url }}" alt="Snow-covered Andean peaks above alpine field terrain" loading="lazy">
+  <figcaption>Trait ecology links leaf- and plant-level strategies to mountain-scale environmental gradients.</figcaption>
+</figure>
+
 Plant functional traits — measurable attributes such as leaf size, wood density, plant height, and water-use efficiency — encode how organisms interact with their environment, competitors, and resources. The lab's trait-based ecology program spans from individual leaves to global biomes, with the unifying goal of building a predictive science of plant form, function, and response to change.
 
 **From traits to prediction.** Our approach treats traits not merely as descriptors but as mechanistic currencies that link physiology, community assembly, and ecosystem function. By measuring how traits vary across individuals, species, and environments — and by integrating those measurements with metabolic theory — we develop frameworks that forecast how plant communities will respond to climate change, land-use pressure, and other global drivers.
@@ -73,6 +94,11 @@ Applications include:
 ---
 
 ### BIEN: Botanical Information & Ecology Network
+
+<figure class="field-photo">
+  <img src="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}" alt="Cloud-forest mountain slope along an Andean elevational transect" loading="lazy">
+  <figcaption>BIEN synthesis products integrate occurrence, trait, and climate data across regional and continental gradients.</figcaption>
+</figure>
 
 <img src="{{ '/assets/img/wordpress/bien_logo_notext-1.png' | relative_url }}" alt="BIEN — Botanical Information and Ecology Network" style="max-width:220px;width:100%;display:block;margin:0.6rem 0 1rem;">
 

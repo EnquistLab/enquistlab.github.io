@@ -3,7 +3,7 @@ layout: page
 title: gallery
 permalink: /gallery/
 description: Field landscapes, research sites, and lab life
-nav: true
+nav: false
 nav_order: 7
 images:
   lightbox2: true

@@ -39,14 +39,28 @@ nav_order: 3.15
   display: block;
 }
 .press-featured {
-  background: var(--global-code-bg-color);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--global-theme-color) 10%, var(--global-card-bg-color) 90%) 0%, var(--global-card-bg-color) 100%);
   border-radius: 6px;
-  padding: 1.2rem;
+  padding: 1.3rem;
   margin-bottom: 0.5rem;
   border-bottom: none !important;
+  align-items: center;
 }
 .press-featured + .press-item {
   border-top: 1px solid var(--global-divider-color);
+}
+.press-featured .press-date { font-size: 0.76rem; }
+.press-featured .press-title { font-size: 1.08rem; line-height: 1.38; }
+.press-featured .press-thumb {
+  width: 168px;
+  height: 112px;
+  flex-basis: 168px;
+}
+.press-featured-note {
+  margin: 0.45rem 0 0;
+  font-size: 0.83rem;
+  color: var(--global-text-color-light);
+  line-height: 1.45;
 }
 </style>
 
@@ -59,6 +73,7 @@ nav_order: 3.15
         <span class="press-source">New York Times</span>
         <a href="https://www.nytimes.com/2022/04/14/climate/cactus-climate-change.html" target="_blank" rel="noopener">Climate Change Could Devastate Cacti, Researchers Fear</a>
       </div>
+      <p class="press-featured-note">Coverage highlighting climate-risk signals for iconic dryland lineages and the conservation urgency of trait- and occurrence-based forecasting.</p>
     </div>
     <img class="press-thumb" src="https://static01.nyt.com/images/2022/04/18/climate/14CLI-CACTI/14CLI-CACTI-facebookJumbo.jpg" alt="Cactus in desert" loading="lazy" onerror="this.style.display='none'">
   </li>

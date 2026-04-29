@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: Publications, CV, and external scholarly profiles.
-nav: true
+nav: false
 nav_order: 3.1
 ---
 
@@ -23,6 +23,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 <div class="publication-topic-toolbar">
 	<div id="publication-topic-tabs" class="publication-topic-tabs" role="tablist" aria-label="Publication subject areas"></div>
 	<p class="publication-topic-caption">Select a subject area to view matching papers chronologically, then search within that active view.</p>
+	<p class="publication-topic-caption publication-topic-caption--hint">Start with broad themes (Scaling, Trait Ecology, Biodiversity Informatics), then refine with search.</p>
 </div>
 
 {% include bib_search.liquid %}
@@ -101,6 +102,13 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		margin: 0;
 		color: var(--global-text-color-light);
 		font-size: 0.98rem;
+		margin: 0.25rem 0 0;
+	}
+
+	.publication-topic-caption--hint {
+		font-size: 0.8rem;
+		letter-spacing: 0.01em;
+		opacity: 0.9;
 	}
 
 	.publication-topic-empty {

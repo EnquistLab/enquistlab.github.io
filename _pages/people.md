@@ -3,7 +3,7 @@ layout: page
 title: team
 permalink: /people/
 description: Members and alumni of the Enquist Macroecology Lab
-nav: true
+nav: false
 nav_order: 2.1
 ---
 
@@ -41,7 +41,6 @@ nav_order: 2.1
       <a href="https://github.com/EnquistLab">Lab GitHub</a> ·
       <a href="mailto:benquist@arizona.edu">benquist@arizona.edu</a>
     </p>
-    <blockquote>"If you want to build a ship, do not drum up people to collect wood and assign tasks, but rather teach them to long for the endless immensity of the sea." — Antoine de Saint-Exupery</blockquote>
   </div>
 </div>
 

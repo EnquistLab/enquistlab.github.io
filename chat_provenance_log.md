@@ -188,3 +188,8 @@ Outcome: Updated assets/js/section-jump-nav.js to resolve heading source from mu
 Prompt: Apply minimal follow-up fixes from code-checker warning on section-jump nav source robustness and wrapped-link readability while preserving sticky/static behavior.
 Source session: VS Code Copilot Chat
 Outcome: Updated assets/js/section-jump-nav.js to deterministically evaluate multiple plausible content roots and select the candidate with the most eligible h2/h3 headings (after existing exclusion filters), preventing false <2 counts that removed the nav on some page structures. Updated _sass/_lab-redesign.scss to keep centered floater composition while improving wrapped-link readability by removing per-link centered alignment and subsection indentation, using subtler size/opacity/weight hierarchy instead.
+
+23. Date: 2026-04-29
+Prompt: I agree with these changes. Lets do it. "Summary Priority List" (12-item Scandinavian/design-atelier UX set for Enquist Lab site)
+Source session: VS Code Copilot Chat
+Outcome: Implemented full approved design pass in enquistlab-site-migration: kept forest-science palette/serif system already in place, updated homepage mission copy, grouped top navigation with new Lab and Science dropdowns, moved About to emotional lead with mission-first opening and quote, added research jump-nav + additional thematic field images, enhanced news featured-story hierarchy with contextual lead note, added join-page lab-culture voice, added publications tab-hierarchy guidance hint, and refined subtle visual details (section dividers/card radius). Also updated nav visibility for grouped pages and prepared repo for commit/push.

@@ -3,13 +3,15 @@ layout: page
 title: join us
 permalink: /join/
 description: Opportunities to join the Enquist Macroecology Lab
-nav: true
+nav: false
 nav_order: 7.5
 ---
 
 ## Join the Lab
 
 The Enquist Lab welcomes students and researchers interested in macroecology, functional biology, biodiversity informatics, and global change biology. Much of the work combines field ecology, plant physiology, trait data, large synthesis datasets, and theory-driven quantitative analysis.
+
+We are a field-anchored and quantitatively rigorous group: students and postdocs routinely move between boots-on-the-ground ecological measurements, reproducible R workflows, and theory-focused synthesis writing. Mentorship emphasizes question clarity, transparent uncertainty, and open-science habits that scale from a single plot to continental biodiversity analyses.
 
 <div class="photo-pair">
 	<figure>

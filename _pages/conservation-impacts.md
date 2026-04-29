@@ -3,7 +3,7 @@ layout: page
 title: impacts
 permalink: /conservation-impacts/
 description: Conservation planning, extinction risk, and protected-area design work from the Enquist Macroecology Lab
-nav: true
+nav: false
 nav_order: 3.5
 ---
 
