@@ -276,9 +276,20 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 					{ pattern: /trait-based/i, weight: 3 },
 					{ pattern: /functional trait/i, weight: 3 },
 					{ pattern: /leaf economics/i, weight: 2 },
+					{ pattern: /leaf economic spectrum/i, weight: 2 },    // "leaf economic spectrum" (no 's')
+					{ pattern: /plant form and function/i, weight: 3 },   // global spectrum of plant form and function
+					{ pattern: /trait driver/i, weight: 3 },              // Trait Driver Theory
+					{ pattern: /traitstrap/i, weight: 3 },                // traitstrap R package
+					{ pattern: /open traits/i, weight: 3 },               // OpenTraits network
 					{ pattern: /trait variation/i, weight: 2 },
 					{ pattern: /trait diversity/i, weight: 2 },
 					{ pattern: /phenotypic distribution/i, weight: 2 },
+					{ pattern: /plant trait|leaf trait|canopy trait/i, weight: 2 },  // plant/leaf/canopy trait papers
+					{ pattern: /intraspecific trait/i, weight: 2 },       // ITV papers (variation or variability)
+					{ pattern: /trait.environment/i, weight: 2 },         // trait-environment relationships
+					{ pattern: /trait dimension/i, weight: 2 },           // trait dimensions (Messier et al.)
+					{ pattern: /trait mean\b|trait space/i, weight: 2 },  // shifts in trait means; trait space
+					{ pattern: /scaling from traits|traits to ecosystem/i, weight: 2 }, // TDT scaling
 					{ pattern: /intraspecific variation/i, weight: 1 },
 					{ pattern: /leaf mass per area/i, weight: 1 },
 					{ pattern: /\btraits\b/i, weight: 1 },
