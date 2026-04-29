@@ -943,3 +943,40 @@ details {
 
   p { font-size: 0.88rem; margin: 0.4rem 0 0; }
 }
+
+// ── Photo watermark (lower-right, subtle) ─────────────────────────────────
+
+// Shared watermark label mixin
+%watermark-label {
+  content: '© Brian J. Enquist';
+  position: absolute;
+  bottom: 6px;
+  right: 8px;
+  font-size: 0.58rem;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.88);
+  background: rgba(0, 0, 0, 0.30);
+  padding: 1px 5px;
+  border-radius: 3px;
+  pointer-events: none;
+  z-index: 20;
+  line-height: 1.5;
+}
+
+// Gallery: watermark on each photo tile via the wrapping <a>
+.photo-gallery a {
+  position: relative;
+}
+.photo-gallery a::after {
+  @extend %watermark-label;
+}
+
+// Figure-include images: watermark on the <figure> wrapper
+figure {
+  position: relative;
+}
+figure::after {
+  @extend %watermark-label;
+}
