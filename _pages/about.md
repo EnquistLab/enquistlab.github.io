@@ -59,6 +59,18 @@ The Macroecology Lab is an international network of broadly trained ecologists, 
 
 **Affiliations:** University of Arizona | Santa Fe Institute | BIEN Network | OpenTraits Initiative
 
+<figure class="art-feature">
+  <a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/art/vangogh_irises_getty_1889.jpg' | relative_url }}"
+         alt="Irises by Vincent van Gogh, 1889, oil on canvas. The J. Paul Getty Museum, Los Angeles.">
+  </a>
+  <figcaption>
+    <strong>Vincent van Gogh</strong>, <em>Irises</em>, 1889. Oil on canvas, 71 × 93 cm.
+    <a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">The J. Paul Getty Museum, Los Angeles</a>. <a href="https://www.getty.edu/legal/copyright.html#open-content" target="_blank" rel="noopener">Open Content Program</a>.
+    <span class="art-caption-ecology">Van Gogh painted this study at Saint-Rémy with the precision of a field naturalist: each petal a functional surface, each stem a structural solution to gravity and light, each leaf an expression of trait and environment. Plant biodiversity is not an abstraction — it is morphological form, functional strategy, and evolutionary history made visible. The lab's central project is to measure this richness at continental scale and to forecast its fate under rapid environmental change.</span>
+  </figcaption>
+</figure>
+
 ---
 
 ## Research Pillars
