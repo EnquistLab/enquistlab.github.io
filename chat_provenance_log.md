@@ -193,3 +193,17 @@ Outcome: Updated assets/js/section-jump-nav.js to deterministically evaluate mul
 Prompt: I agree with these changes. Lets do it. "Summary Priority List" (12-item Scandinavian/design-atelier UX set for Enquist Lab site)
 Source session: VS Code Copilot Chat
 Outcome: Implemented full approved design pass in enquistlab-site-migration: kept forest-science palette/serif system already in place, updated homepage mission copy, grouped top navigation with new Lab and Science dropdowns, moved About to emotional lead with mission-first opening and quote, added research jump-nav + additional thematic field images, enhanced news featured-story hierarchy with contextual lead note, added join-page lab-culture voice, added publications tab-hierarchy guidance hint, and refined subtle visual details (section dividers/card radius). Also updated nav visibility for grouped pages and prepared repo for commit/push.
+
+## 2026-04-29 — News page spatial block redesign
+- Replaced single-column press list in _pages/news.md with section-based block architecture (`news-page`, `news-theme`, `news-theme__head`, `news-theme__grid`, `news-feature`, `news-theme__cards`, `news-card`).
+- Preserved all existing themes and press items/content while moving each section to: featured story + supporting card grid.
+- Added responsive styles in _sass/_lab-redesign.scss:
+  - Desktop: featured left, supporting cards right in 2-column mini-grid.
+  - Tablet: featured full-width first, cards in 2 columns.
+  - Mobile: single-column compact cards for scanability.
+- Kept Munch hero at top and integrated with new news-page spacing.
+
+36. Date: 2026-04-29
+Prompt: Resolve remaining code-checker warnings in _sass/_lab-redesign.scss for <=700px text-only news card layout override and baseline card-title link affordance.
+Source session: VS Code Copilot Chat
+Outcome: Applied minimal SCSS-only patch in _sass/_lab-redesign.scss: added a <=700px `.news-card--text-only { grid-template-columns: 1fr; }` override after the generic `.news-card` mobile rule so text-only cards remain single-column, and updated `.news-title a` to use a visible default underline (thickness/offset/subtle decoration color) with hover transitioning decoration color to theme accent.

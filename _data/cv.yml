@@ -110,7 +110,7 @@ cv:
         start_date: 1998
         end_date: 1999
 
-    Awards:
+    Awards and Honors:
       - title: MacArthur Award
         awarder: Ecological Society of America
         date: 2026
@@ -146,7 +146,8 @@ cv:
 
       - title: Web of Science Highly Cited Researcher
         awarder: Clarivate Web of Science
-        date: 2018-2025
+        date: 2025
+        summary: Recognition years: 2018, 2019, 2020, 2025
 
       - title: George C. Mercer Award
         awarder: Ecological Society of America
@@ -201,7 +202,7 @@ cv:
         start_date: 2003
         end_date: 2006
 
-    Publications:
+    Selected Publications:
       - title: "BIEN: A biodiversity informatics ecosystem advancing open and reproducible workflows for plant observation, plot, and trait data"
         authors:
           - Enquist, B. J. et al.
@@ -271,6 +272,20 @@ cv:
         releaseDate: 2018
         url: https://doi.org/10.1111/2041-210X.12861
 
+      - title: Scaling metabolism from organisms to ecosystems
+        authors:
+          - Enquist, B. J.; Economo, E. P.; Huxman, T. E.; Allen, A. P.; Ignace, D. D.; Gillooly, J. F.
+        publisher: Nature
+        releaseDate: 2003
+        url: https://doi.org/10.1038/nature01676
+
+      - title: Metabolic Scaling of Forest Structure and Dynamics
+        authors:
+          - Enquist, B. J.; West, G. B.
+        publisher: Proceedings of the National Academy of Sciences
+        releaseDate: 2009
+        summary: "Integration of metabolic scaling theory with forest structure and ecosystem dynamics."
+
       - title: "The fourth dimension of life: fractal geometry and allometric scaling of organisms"
         authors:
           - West, G. B.; Brown, J. H.; Enquist, B. J.
@@ -293,12 +308,8 @@ cv:
         url: https://doi.org/10.1126/science.276.5309.122
         summary: "Foundational paper of the West-Brown-Enquist metabolic scaling framework. > 6,300 citations."
 
-    Certificates:
-      - name: Scholarly profiles and open science links
-        issuer: Public profiles
-        date: 2025
-        icon: fa-solid fa-link
-
     References:
       - name: Profile links
-        reference: "ORCID: https://orcid.org/0000-0002-6337-8292 | Website: https://brianjenquist.wordpress.com | Bluesky: https://bsky.app/profile/bjenquist.bsky.social | Google Scholar: https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en | ResearchGate: https://www.researchgate.net/profile/Brian_Enquist | FigShare: https://figshare.com/authors/Brian_Enquist/663712"
+        reference: "ORCID: https://orcid.org/0000-0002-6337-8292 | Lab Website: https://enquistlab.github.io/ | Bluesky: https://bsky.app/profile/bjenquist.bsky.social | Google Scholar: https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en | ResearchGate: https://www.researchgate.net/profile/Brian_Enquist | FigShare: https://figshare.com/authors/Brian_Enquist/663712"
+        bluesky_icon: fa-brands fa-bluesky
+        bluesky_link: https://bsky.app/profile/bjenquist.bsky.social
