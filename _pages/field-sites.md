@@ -166,6 +166,28 @@ Project details:
 
 Our international [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.no/) offer hands-on training in trait measurement, data synthesis, and trait-based ecology within real-world field settings. Students plan and execute field research projects, collect and document plant functional trait data, and analyze results using trait-based approaches within climate change and ecosystem ecology. We work along elevational and climate gradients in **Norway, Colorado (USA), Peru, China**, and additional countries including Chile and South Africa.
 
+#### Published PFTC Data Papers & Datasets
+
+**Peru Elevation Gradient (Puna Grasslands)**
+[Halbritter et al. (2024)](https://doi.org/10.1038/s41597-024-03149-8): "Plant trait and vegetation data along a 1314 m elevation gradient with fire history in Puna grasslands, Perú". *Scientific Data*. Covers 14 functional traits, community composition, and ecosystem fluxes over three years.
+[[GitHub: PFTC_Peru]](https://github.com/Plant-Functional-Trait-Course/PFTC_Peru)
+
+**Norway Global Change Experiments**
+[Egelkraut et al. (2025)](https://doi.org/10.1038/s41597-025-04364-3): "Plant traits and associated ecological data from global change experiments and climate gradients in Norway". *Scientific Data*. Includes trait, hyperspectral, and CO₂ flux data from alpine and boreal grasslands.
+[[GitHub: PFTC_Norway]](https://github.com/Plant-Functional-Trait-Course/PFTC_Norway)
+
+**Svalbard Arctic Study**
+[EnquistLab PFTC4_Svalbard](https://github.com/Plant-Functional-Trait-Course/PFTC4_Svalbard): Dataset focused on eleven functional traits including leaf area, leaf dry matter content, specific leaf area, and nitrogen/carbon content.
+[[GitHub: PFTC4_Svalbard]](https://github.com/Plant-Functional-Trait-Course/PFTC4_Svalbard)
+
+**China Elevation Gradient**
+[PFTC_1_2_China](https://github.com/Plant-Functional-Trait-Course/PFTC_1_2_China): Data from alpine elevation gradients, including experiments with open-top chambers (OTC) and plant transplants.
+[[GitHub: PFTC_1_2_China]](https://github.com/Plant-Functional-Trait-Course/PFTC_1_2_China)
+
+**South Africa Study**
+[PFTC7_South_Africa](https://github.com/Plant-Functional-Trait-Course/PFTC7_South_Africa): Dataset including vegetation height, percentage cover (bare soil, rock, moss), and plant community composition.
+[[GitHub: PFTC7_South_Africa]](https://github.com/Plant-Functional-Trait-Course/PFTC7_South_Africa)
+
 <div class="photo-pair">
   <figure>
     <img src="{{ "/assets/img/field/pftc_peru_students.jpeg" | relative_url }}" alt="PFTC student researchers in Peru" loading="lazy">
