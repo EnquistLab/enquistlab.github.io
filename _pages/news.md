@@ -150,4 +150,24 @@ nav_order: 3.15
     </div>
   </li>
 
+  <li class="press-item">
+    <div class="press-body">
+      <div class="press-date">October 2009</div>
+      <div class="press-title">
+        <span class="press-source">Science</span>
+        <a href="https://www.science.org/doi/10.1126/science.326_33" target="_blank" rel="noopener">On the Origin of Ecological Structure</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="press-item">
+    <div class="press-body">
+      <div class="press-date">September 2001</div>
+      <div class="press-title">
+        <span class="press-source">Science</span>
+        <a href="https://www.science.org/doi/10.1126/science.293.5538.2191" target="_blank" rel="noopener">All Fired Up: A Universal Metabolic Rate</a>
+      </div>
+    </div>
+  </li>
+
 </ul>
