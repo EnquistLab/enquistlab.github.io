@@ -183,3 +183,8 @@ Outcome: Updated assets/js/section-jump-nav.js to include eligible h2+h3 heading
 Prompt: Implement focused fix in enquistlab-site-migration for missing section-jump floater on /field-sites/ and /resources/; make heading selector robust across page variants; keep h2+h3 generation behavior and <2 removal rule; center floater text with slight color-offset background while preserving sticky desktop/static mobile behavior; validate, commit, and push.
 Source session: VS Code Copilot Chat
 Outcome: Updated assets/js/section-jump-nav.js to resolve heading source from multiple layout variants (`article .clearfix`, `article`, `.post-content`, root fallback) instead of a single article selector, while retaining h2+h3 filtering, exclusions, ID generation, and nav removal only when eligible headings are fewer than two. Updated _sass/_lab-redesign.scss to center floater label/links and apply a subtle calm color offset using a theme-tinted background mix, without changing sticky desktop or static mobile behavior.
+
+35. Date: 2026-04-29
+Prompt: Apply minimal follow-up fixes from code-checker warning on section-jump nav source robustness and wrapped-link readability while preserving sticky/static behavior.
+Source session: VS Code Copilot Chat
+Outcome: Updated assets/js/section-jump-nav.js to deterministically evaluate multiple plausible content roots and select the candidate with the most eligible h2/h3 headings (after existing exclusion filters), preventing false <2 counts that removed the nav on some page structures. Updated _sass/_lab-redesign.scss to keep centered floater composition while improving wrapped-link readability by removing per-link centered alignment and subsection indentation, using subtler size/opacity/weight hierarchy instead.
