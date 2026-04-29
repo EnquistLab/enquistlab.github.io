@@ -148,7 +148,7 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
 
 <img src="{{ '/assets/img/wordpress/bien_logo_notext-1.png' | relative_url }}" alt="BIEN — Botanical Information and Ecology Network" style="max-width:220px;width:100%;display:block;margin:0.5rem 0 1.2rem;">
 
-The [BIEN project](https://biendata.org/) compiles and standardizes occurrence records, trait measurements, and plot data for vascular plants of the Western Hemisphere — one of the largest plant biodiversity synthesis efforts globally. The database integrates herbarium specimens, citizen-science observations, and plot inventories spanning roughly 1800s–present, with taxonomic reconciliation against a versioned plant name backbone and coordinate-level QA filtering.
+The [BIEN project](https://biendata.org/) compiles and standardizes occurrence records, trait measurements, and plot data for vascular plants of the Western Hemisphere — one of the largest plant biodiversity synthesis efforts globally. The database integrates herbarium specimens, citizen-science observations, and plot inventories spanning roughly 1800s–present, with taxonomic reconciliation against a versioned plant name backbone and coordinate-level QA filtering ([Enquist et al. 2026](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210x.70274), *Methods in Ecology and Evolution*).
 
 ---
 
@@ -332,7 +332,7 @@ library(fluxible)
 
 Bootstraps trait distributions to propagate uncertainty from individual-level measurements to community-weighted means and higher-order community trait statistics. Addresses a key challenge in trait-based ecology: raw community-weighted mean (CWM) calculations ignore intraspecific trait variation and sampling uncertainty. `traitstrap` implements parametric bootstrapping that draws from species-level trait distributions, weighted by abundance, producing CWMs with full uncertainty quantification suitable for downstream modeling.
 
-Works directly with trait data from BIEN, TRY, and comparable databases, and is designed to integrate with the lab's Trait Driver Theory framework.
+Works directly with trait data from BIEN, TRY, and comparable databases, and is designed to integrate with the lab's [Trait Driver Theory](https://www.nature.com/articles/s41477-019-0506-6) framework ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)).
 
 - **CRAN:** [traitstrap](https://cran.r-project.org/web/packages/traitstrap/index.html)
 - **GitHub:** [Plant-Functional-Trait-Course/traitstrap](https://github.com/Plant-Functional-Trait-Course/traitstrap)
@@ -382,7 +382,7 @@ We co-lead the [OpenTraits Network](https://opentraits.org/), which promotes ope
 
 ### Trait Driver Theory Tools
 
-Code and tutorials for applying Trait Driver Theory to community data:
+Code and tutorials for applying [Trait Driver Theory](https://www.nature.com/articles/s41477-019-0506-6) to community data ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)):
 
 - **GitHub:** [EnquistLab/TraitDriverTheory](https://github.com/EnquistLab/)
 

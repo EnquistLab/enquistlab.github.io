@@ -98,6 +98,17 @@ nav_order: 3.15
 
   <li class="press-item">
     <div class="press-body">
+      <div class="press-date">2024</div>
+      <div class="press-title">
+        <span class="press-source">Nautilus</span>
+        <a href="https://nautil.us/the-case-for-scientific-transculturalism-589255" target="_blank" rel="noopener">The Case for Scientific Transculturalism</a>
+      </div>
+    </div>
+    <img class="press-thumb" src="https://lede-admin.nautil.us/wp-content/uploads/sites/70/sites/3/nautilus/ir0BTa2j-Gallagher_HERO.png" alt="Scientific transculturalism" loading="lazy" onerror="this.style.display='none'">
+  </li>
+
+  <li class="press-item">
+    <div class="press-body">
       <div class="press-date">April 2024</div>
       <div class="press-title">
         <span class="press-source">Phys.org</span>

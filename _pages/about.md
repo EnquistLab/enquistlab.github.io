@@ -54,7 +54,7 @@ We test how allometric constraints shape growth, resource use, and ecosystem str
 
 ### Trait-Based Ecology
 
-We use Trait Driver Theory to connect trait distributions with community assembly and ecosystem function.
+We use [Trait Driver Theory](https://www.nature.com/articles/s41477-019-0506-6) to connect trait distributions with community assembly and ecosystem function ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)).
 
 ### Biodiversity Informatics & Forecasting
 
