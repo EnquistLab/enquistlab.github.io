@@ -9,7 +9,7 @@
   if (!article) return;
 
   const source = article.querySelector(".clearfix") || article;
-  const headings = [...source.querySelectorAll("h2")].filter((el) => {
+  const headings = [...source.querySelectorAll("h2, h3")].filter((el) => {
     if (!el.textContent || !el.textContent.trim()) return false;
     if (el.closest(".home-cards, .team-grid, .resource-link-grid")) return false;
     return true;
@@ -62,6 +62,9 @@
   headings.forEach((h) => {
     const a = document.createElement("a");
     a.className = "section-jump-nav__link";
+    if (h.tagName && h.tagName.toLowerCase() === "h3") {
+      a.classList.add("section-jump-nav__link--subsection");
+    }
     a.href = `#${h.id}`;
     a.textContent = h.textContent.trim();
     linksRow.appendChild(a);

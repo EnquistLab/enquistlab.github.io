@@ -377,6 +377,12 @@ h6,
     }
   }
 
+  &__link--subsection {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    padding-left: 0.55rem;
+  }
+
   @media (max-width: 768px) {
     top: 3.45rem;
   }
