@@ -44,8 +44,7 @@ latest_posts:
          loading="lazy">
   </a>
   <figcaption>
-    <em><a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">The Entry of the Animals into Noah's Ark</a></em> — Jan Brueghel the Elder, 1613. Oil on panel, 54.6 × 83.8 cm. <a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">J. Paul Getty Museum</a>, Los Angeles (92.PB.82). Public domain.
-    <span class="art-caption-ecology">Brueghel's encyclopaedic inventory — every known species arrayed from canopy to waterline, from the tropics of the Americas to the forests of northern Europe — is the earliest expression of what biodiversity science still seeks to do: observe, catalogue, and ultimately predict the distribution of life across scales and environments. The single tree at centre, organizing the assembly of species, is the same structure phylogenetic and trait-based ecology uses today.</span>
+    <em><a href="https://www.getty.edu/art/collection/object/103RJT" target="_blank" rel="noopener">The Entry of the Animals into Noah's Ark</a></em> — Jan Brueghel the Elder, 1613. Oil on panel, 54.6 × 83.8 cm. J. Paul Getty Museum, Los Angeles (92.PB.82). Public domain. Brueghel's encyclopaedic inventory — every known species arrayed from canopy to waterline, from the tropics of the Americas to the forests of northern Europe — is the earliest expression of what biodiversity science still seeks to do: observe, catalogue, and ultimately predict the distribution of life across scales and environments. The single tree at centre, organizing the assembly of species, is the same structure phylogenetic and trait-based ecology uses today.
   </figcaption>
 </figure>
 
