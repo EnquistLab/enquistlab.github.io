@@ -168,3 +168,13 @@ Outcome: Implemented random-shuffling transplant photo carousel on field-sites p
 Prompt: feat(cv+publications): add ORCID 0000-0002-6337-8292 to socials.yml, publications page, and CV references.
 Source session: VS Code Copilot Chat
 Outcome: Added ORCID identifier (0000-0002-6337-8292) to _data/socials.yml (footer social icons), _pages/publications.md (header/bio section), and _data/cv.yml (profile links). ORCID now appears site-wide in footer, on the publications page, and in CV references. Commit 0d613f4 pushed to origin/main (EnquistLab/enquistlab.github.io).
+
+32. Date: 2026-04-28
+Prompt: feat(field-sites): expand ABERG/CHAMBASA section with full project description, CHAMBASA acronym, Kosñipata Valley sites table, key publications with DOI links, and collaborator list.
+Source session: VS Code Copilot Chat
+Outcome: Expanded ABERG/CHAMBASA section on _pages/field-sites.md with full project description, CHAMBASA acronym explanation, Kosñipata Valley sites table, key publications with DOI links, and collaborator list. Commit e03647d pushed to origin/main (EnquistLab/enquistlab.github.io).
+
+33. Date: 2026-04-29
+Prompt: Fix sticky "On this page" nav so it returns and includes subsections, while preserving the calmer card redesign.
+Source session: VS Code Copilot Chat
+Outcome: Updated assets/js/section-jump-nav.js to include eligible h2+h3 headings (keeping existing exclusions and heading ID generation), retain nav removal only when total eligible headings are fewer than 2, and add a subsection modifier class for h3 links. Updated _sass/_lab-redesign.scss to style subsection links as a subtle visual hierarchy while preserving the existing calmer two-row card structure and sticky desktop/static mobile behavior.
