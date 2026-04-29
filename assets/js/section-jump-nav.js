@@ -9,7 +9,7 @@
   if (!article) return;
 
   const source = article.querySelector(".clearfix") || article;
-  const headings = [...source.querySelectorAll("h2, h3")].filter((el) => {
+  const headings = [...source.querySelectorAll("h2")].filter((el) => {
     if (!el.textContent || !el.textContent.trim()) return false;
     if (el.closest(".home-cards, .team-grid, .resource-link-grid")) return false;
     return true;
@@ -49,23 +49,22 @@
     }
   });
 
+  const header = document.createElement("div");
+  header.className = "section-jump-nav__header";
   const label = document.createElement("span");
   label.className = "section-jump-nav__label";
-  label.textContent = "On this page:";
-  nav.appendChild(label);
+  label.textContent = "On this page";
+  header.appendChild(label);
+  nav.appendChild(header);
 
-  headings.forEach((h, idx) => {
+  const linksRow = document.createElement("div");
+  linksRow.className = "section-jump-nav__links";
+  headings.forEach((h) => {
     const a = document.createElement("a");
     a.className = "section-jump-nav__link";
     a.href = `#${h.id}`;
     a.textContent = h.textContent.trim();
-    nav.appendChild(a);
-
-    if (idx < headings.length - 1) {
-      const sep = document.createElement("span");
-      sep.className = "section-jump-nav__sep";
-      sep.textContent = "•";
-      nav.appendChild(sep);
-    }
+    linksRow.appendChild(a);
   });
+  nav.appendChild(linksRow);
 })();

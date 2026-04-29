@@ -332,29 +332,35 @@ h6,
 // Lightweight per-page subsection jump links
 .section-jump-nav {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 0.5rem;
+  flex-direction: column;
+  gap: 0.3rem;
   margin: 0.6rem 0 1.2rem;
-  padding: 0.6rem 0.8rem 0.8rem;
+  padding: 0.55rem 0.85rem 0.65rem;
   border: 1px solid var(--global-divider-color); // rgba fallback
-  border: 1px solid color-mix(in srgb, var(--global-divider-color) 82%, var(--global-theme-color) 18%);
+  border: 1px solid color-mix(in srgb, var(--global-divider-color) 90%, transparent 10%);
   border-radius: 6px;
   position: sticky;
   top: 3.7rem;
   z-index: 120;
   background: var(--global-bg-color); // rgba fallback for older browsers
-  background: color-mix(in srgb, var(--global-bg-color) 84%, #e8efe8 16%);
-  backdrop-filter: blur(6px);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  background: color-mix(in srgb, var(--global-bg-color) 94%, var(--global-divider-color) 6%);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+
+  &__header {
+    display: block;
+  }
 
   &__label {
     font-family: "Source Sans 3", sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     color: var(--global-text-color-light);
-    margin-right: 0.2rem;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.8rem;
   }
 
   &__link {
@@ -369,11 +375,6 @@ h6,
       text-decoration: underline;
       text-underline-offset: 0.15em;
     }
-  }
-
-  &__sep {
-    color: var(--global-text-color-light);
-    opacity: 0.65;
   }
 
   @media (max-width: 768px) {
