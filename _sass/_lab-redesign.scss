@@ -333,6 +333,7 @@ h6,
 .section-jump-nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.3rem;
   margin: 0.6rem 0 1.2rem;
   padding: 0.55rem 0.85rem 0.65rem;
@@ -343,11 +344,12 @@ h6,
   top: 3.7rem;
   z-index: 120;
   background: var(--global-bg-color); // rgba fallback for older browsers
-  background: color-mix(in srgb, var(--global-bg-color) 94%, var(--global-divider-color) 6%);
+  background: color-mix(in srgb, var(--global-bg-color) 88%, var(--global-theme-color) 12%);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 
   &__header {
     display: block;
+    text-align: center;
   }
 
   &__label {
@@ -361,6 +363,7 @@ h6,
     display: flex;
     flex-wrap: wrap;
     gap: 0.2rem 0.8rem;
+    justify-content: center;
   }
 
   &__link {
@@ -369,6 +372,7 @@ h6,
     color: var(--global-theme-color);
     text-decoration: none;
     line-height: 1.5;
+    text-align: center;
 
     &:hover {
       color: var(--global-hover-color);
@@ -380,7 +384,7 @@ h6,
   &__link--subsection {
     font-size: 0.8rem;
     color: var(--global-text-color-light);
-    padding-left: 0.55rem;
+    padding-left: 0.3rem;
   }
 
   @media (max-width: 768px) {

@@ -5,10 +5,18 @@
   const nav = document.querySelector(".section-jump-nav");
   if (!nav) return;
 
-  const article = document.querySelector(".post article");
-  if (!article) return;
+  const root =
+    nav.closest(".post") ||
+    document.querySelector(".post") ||
+    document.querySelector("main") ||
+    document.body;
+  if (!root) return;
 
-  const source = article.querySelector(".clearfix") || article;
+  const source =
+    root.querySelector("article .clearfix") ||
+    root.querySelector("article") ||
+    root.querySelector(".post-content") ||
+    root;
   const headings = [...source.querySelectorAll("h2, h3")].filter((el) => {
     if (!el.textContent || !el.textContent.trim()) return false;
     if (el.closest(".home-cards, .team-grid, .resource-link-grid")) return false;
