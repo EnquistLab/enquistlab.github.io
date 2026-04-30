@@ -17,18 +17,7 @@ profile:
   image: wordpress/brian-enquist-feb2020-020.jpg
   image_circular: false
 
-selected_papers: true
 social: true
-
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 3
-
-latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 2
 ---
 
 ---
@@ -54,8 +43,10 @@ We live in a world of unprecedented climate and land-use change. A central goal 
 
 The Macroecology Lab is an international network of broadly trained ecologists, botanists, physiologists, evolutionary biologists, macroecologists, and informaticians. We seek to discover general processes of how organisms (mainly plants, though we often stray into other systems) work and interact with each other and their environment. Our shared goal is to synthesize and build a more predictive biodiversity science. We work in tropical and temperate forests and high alpine ecosystems, using combinations of theoretical, computational, informatics, biophysical, trait-based, physiological, and ecophysiological approaches.
 
-[Explore Research]({{ '/research/' | relative_url }}){: .btn .btn-sm .z-depth-0 role="button"}
-[View Publications]({{ '/publications/' | relative_url }}){: .btn .btn-sm .z-depth-0 role="button"}
+<div class="about-cta-grid">
+  <a href="{{ '/research/' | relative_url }}" class="btn btn-primary btn-lg z-depth-0" role="button">Explore Research</a>
+  <a href="{{ '/publications/' | relative_url }}" class="btn btn-outline-primary btn-lg z-depth-0" role="button">View Publications</a>
+</div>
 
 **Affiliations:** University of Arizona | Santa Fe Institute | BIEN Network | OpenTraits Initiative
 
@@ -65,15 +56,15 @@ The Macroecology Lab is an international network of broadly trained ecologists, 
 
 ### Biological Scaling
 
-We test how allometric constraints shape growth, resource use, and ecosystem structure across scales.
+We test how allometric constraints shape growth, resource use, and ecosystem structure from leaves to landscapes. Our work connects organism size, vascular architecture, and metabolic scaling to forest productivity, population density, and climate sensitivity.
 
 ### Trait-Based Ecology
 
-We use [Trait Driver Theory](https://www.nature.com/articles/s41477-019-0506-6) to connect trait distributions with community assembly and ecosystem function ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)).
+We use [Trait Driver Theory](https://www.nature.com/articles/s41477-019-0506-6) to link trait distributions with community assembly, ecosystem function, and climate response. This includes field and synthesis tests of how trait means, variance, and skewness shift with temperature, water, and disturbance ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Enquist et al. 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)).
 
 ### Biodiversity Informatics & Forecasting
 
-We integrate occurrence, trait, and environmental data to generate reproducible biodiversity forecasts.
+We integrate occurrence, trait, and environmental data into reproducible forecasts for plant biodiversity using the global [BIEN](https://biendata.org/) network and open standards for trait sharing.
 
 ---
 
@@ -104,11 +95,9 @@ We integrate occurrence, trait, and environmental data to generate reproducible 
 ## Featured Outputs
 
 - **Science and theory synthesis**: [Selected publications]({{ '/publications/' | relative_url }}) spanning allometry, trait ecology, and biodiversity science.
-- **Open data infrastructure**: [BIEN and software resources]({{ '/resources/' | relative_url }}) for plant occurrence, range, and trait integration.
+- **Open data infrastructure**: [BIEN](https://biendata.org/) and software resources for plant occurrence, range, and trait integration.
 - **Press and media coverage**: [Lab in the news]({{ '/news/' | relative_url }}) — media features, interviews, and public-facing coverage.
-
-
-- Open and reproducible ecological science
+- **Open and reproducible ecological science**: [OpenTraits](https://www.nature.com/articles/s41559-020-1109-6) standards for accessible trait data and transparent workflows.
 
 I am an elected Fellow of the American Association for the Advancement of Science (AAAS) and the Ecological Society of America (ESA).
 
