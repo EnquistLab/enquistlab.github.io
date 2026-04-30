@@ -196,7 +196,39 @@ See [field sites]({{ '/field-sites/' | relative_url }}) for site details.
 
 ### OpenTraits & Biodiversity Informatics
 
-We are co-founders of the [OpenTraits Network](https://opentraits.org/), which promotes open, standardized, and interoperable trait data across all organisms. Related informatics work includes data standards (Darwin Core extensions for traits), quality control pipelines, and synthesis databases.
+The Enquist Lab is a co-founding member and active contributor to the [Open Traits Network (OTN)](https://opentraits.org/) — a global, decentralized community of researchers and institutions working to standardize and integrate trait data across all organisms. OTN is guided by Open Science principles: open methods, open source, and open data.
+
+**What the OTN does.**
+The network maintains a [global registry of trait-based initiatives](https://opentraits.org/datasets.html), shares reproducible workflows and tools for aggregating trait data, advocates for free data flow and appropriate attribution of effort, and works toward a shared *trait core* — a minimal interoperable vocabulary that facilitates synthesis across databases. The registry currently spans hundreds of datasets, covering plants, animals, fungi, and microbes across all biomes.
+
+**Our contributions and roles.**
+Lab members have contributed to OTN in multiple capacities:
+- **Co-authoring the network's foundational paper**: [Gallagher et al. (2020)](https://doi.org/10.1038/s41559-020-1109-6) *Nature Ecology & Evolution* — introducing OTN and its open-science vision for trait data across all life.
+- **Best-practice guidance**: Enquist is a contributing author on [Keller et al. (2023)](https://doi.org/10.1111/2041-210X.14033) *Methods in Ecology and Evolution* — "Ten (mostly) simple rules to future-proof trait data in ecological and evolutionary sciences" — an open, community-driven resource now hosted at [opentraits.org/best-practices.html](https://opentraits.org/best-practices.html).
+- **Tool development**: Contributing to [`traitdataform`](https://ecologicaltraitdata.github.io/traitdataform/) and [`traitstrap`](https://cran.r-project.org/package=traitstrap) for standardized trait formatting and bootstrap-based trait gap-filling.
+- **Data pipelines**: Building interoperable ingestion workflows that connect BIEN, TRY, FRED, and other databases into OTN-compatible formats with full provenance tracking.
+
+**Five OTN principles the lab practices:**
+1. Openly sharing data, methods, protocols, code, and workflows
+2. Appropriately citing original data collectors and providing scholarly credit
+3. Providing full metadata alongside trait observations
+4. Collecting trait data following reproducible, standardized methods
+5. Providing training resources in trait collection and database construction
+
+**Key connected databases.**
+The lab's biodiversity informatics work connects across a growing ecosystem of open trait and occurrence resources:
+
+| Resource | Scope |
+|----------|-------|
+| [TRY Plant Trait Database](https://www.try-db.org/) | Global plant traits, >15M records |
+| [BIEN](https://bien.nceas.ucsb.edu/bien/) | Neotropical plant occurrence and traits |
+| [FRED](https://roots.ornl.gov/) | Fine-root traits across ecosystems |
+| [GBIF](https://www.gbif.org/) | Global biodiversity occurrence records |
+| [GIFT](https://gift.uni-goettingen.de/) | Plant species richness and functional traits |
+| [OTN Dataset Registry](https://opentraits.org/datasets.html) | Cross-taxon trait database catalog |
+
+**Biodiversity informatics more broadly.**
+Beyond trait databases, the lab contributes to informatics infrastructure for ecological synthesis: Darwin Core extensions for trait data, quality-control pipelines for taxonomic reconciliation, and open workflows connecting field observations to continental-scale synthesis products. This infrastructure underpins our forecasting work through BIEN and enables reproducible, uncertainty-aware macroecology at global scale.
 
 ---
 
