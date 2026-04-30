@@ -110,9 +110,10 @@ nav_order: 2.1
 </div>
 {% endif %}
 
+{% if site.data.people.visiting_students.size > 0 %}
+
 ---
 
-{% if site.data.people.visiting_students.size > 0 %}
 ## Visiting Graduate Students
 
 <div class="team-grid">
