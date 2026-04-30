@@ -1036,10 +1036,22 @@ figure {
   white-space: normal;
 }
 
+.cv .list-group-item .cv-reference-links {
+  margin-top: 0.4rem;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.cv .list-group-item .cv-reference-links a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 // News shuffle button
 #news-shuffle-btn {
-  display: block;
-  margin: 1.2rem auto 0.5rem;
+  display: inline-flex;
+  margin: -1.7rem 0 1.1rem auto;
   padding: 0.45rem 1.1rem;
   background: transparent;
   border: 1.5px solid var(--global-theme-color);
@@ -1053,6 +1065,12 @@ figure {
   &:hover {
     background: var(--global-theme-color);
     color: #fff;
+  }
+}
+
+@media (max-width: 700px) {
+  #news-shuffle-btn {
+    margin: 0.7rem 0 1rem;
   }
 }
 

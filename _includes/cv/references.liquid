@@ -9,7 +9,8 @@
         <i class="{{ entry.icon }}"></i>
       {% endif %}
       <strong>{{ entry.name }}</strong>
-      <p>{{ entry.reference | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% assign reference_text = entry.reference | replace: ' | ', '<br>' %}
+      <p class="cv-reference-links">{{ reference_text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     </li>
   {% endfor %}
 </ul>

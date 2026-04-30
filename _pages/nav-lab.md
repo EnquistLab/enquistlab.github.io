@@ -9,6 +9,8 @@ children:
     permalink: /about/
   - title: Team
     permalink: /people/
+  - title: Gallery
+    permalink: /gallery/
   - title: divider
   - title: Join Us
     permalink: /join/

@@ -17,6 +17,8 @@ _styles: |
   </figcaption>
 </figure>
 
+<button id="news-shuffle-btn" onclick="shuffleNewsSections()" aria-label="Shuffle news sections">&#x21C4; Shuffle sections</button>
+
 <section class="news-theme">
   <div class="news-theme__head">
     <h2>Climate Change &amp; Biodiversity</h2>
@@ -134,18 +136,27 @@ _styles: |
 </section>
 </div>
 
-<button id="news-shuffle-btn" onclick="shuffleNewsSections()" aria-label="Shuffle news sections">&#x21C4; Shuffle sections</button>
-
 <script>
 function shuffleNewsSections() {
   var container = document.querySelector('.news-page');
-  var sections = Array.from(container.querySelectorAll('section.news-theme'));
+  if (!container) return;
+
+  var sections = Array.from(container.querySelectorAll(':scope > section.news-theme'));
+  if (sections.length < 2) return;
+
   for (var i = sections.length - 1; i > 0; i--) {
     var j = Math.floor(Math.random() * (i + 1));
-    container.insertBefore(sections[j], sections[i]);
-    var tmp = sections[i]; sections[i] = sections[j]; sections[j] = tmp;
+    var tmp = sections[i];
+    sections[i] = sections[j];
+    sections[j] = tmp;
   }
+
+  sections.forEach(function (section) {
+    container.appendChild(section);
+  });
 }
-// Shuffle on load
-document.addEventListener('DOMContentLoaded', shuffleNewsSections);
+
+document.addEventListener('DOMContentLoaded', function () {
+  shuffleNewsSections();
+});
 </script>

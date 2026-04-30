@@ -325,6 +325,6 @@ cv:
 
     References:
       - name: Profile links
-        reference: "ORCID: https://orcid.org/0000-0002-6337-8292 | Lab Website: https://enquistlab.github.io/ | Bluesky: https://bsky.app/profile/bjenquist.bsky.social | Google Scholar: https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en | ResearchGate: https://www.researchgate.net/profile/Brian_Enquist | FigShare: https://figshare.com/authors/Brian_Enquist/663712"
+        reference: "ORCID: [0000-0002-6337-8292](https://orcid.org/0000-0002-6337-8292) | Lab Website: [enquistlab.github.io](https://enquistlab.github.io/) | Bluesky: [@bjenquist.bsky.social](https://bsky.app/profile/bjenquist.bsky.social) | Google Scholar: [Profile](https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en) | ResearchGate: [Profile](https://www.researchgate.net/profile/Brian_Enquist) | FigShare: [Profile](https://figshare.com/authors/Brian_Enquist/663712)"
         bluesky_icon: fa-brands fa-bluesky
         bluesky_link: https://bsky.app/profile/bjenquist.bsky.social
