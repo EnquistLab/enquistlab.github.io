@@ -108,8 +108,10 @@ Click any image to open the full view.
 
 <button id="gallery-shuffle-btn">&#x21CC; Shuffle</button>
 
-<!-- ── Tropical Forests ──────────────────────────────────────────── -->
+<div id="gallery-themes-container">
 
+<!-- ── Tropical Forests ──────────────────────────────────────────── -->
+<div class="gallery-theme-block">
 <div class="gallery-theme-header"><h2>Tropical Forests</h2></div>
 
 <div class="photo-gallery" data-theme="tropical-forests">
@@ -187,9 +189,10 @@ Click any image to open the full view.
   </a>
 
 </div>
+</div><!-- /.gallery-theme-block -->
 
 <!-- ── Andean Elevations ──────────────────────────────────────────── -->
-
+<div class="gallery-theme-block">
 <div class="gallery-theme-header"><h2>Andean Elevations</h2></div>
 
 <div class="photo-gallery" data-theme="andean-elevations">
@@ -245,9 +248,10 @@ Click any image to open the full view.
   </a>
 
 </div>
+</div><!-- /.gallery-theme-block -->
 
 <!-- ── Rocky Mountains &amp; Alpine ──────────────────────────────────────────── -->
-
+<div class="gallery-theme-block">
 <div class="gallery-theme-header"><h2>Rocky Mountains &amp; Alpine</h2></div>
 
 <div class="photo-gallery" data-theme="rocky-mountains">
@@ -347,9 +351,10 @@ Click any image to open the full view.
   </a>
 
 </div>
+</div><!-- /.gallery-theme-block -->
 
 <!-- ── Climate Experiments ──────────────────────────────────────────── -->
-
+<div class="gallery-theme-block">
 <div class="gallery-theme-header"><h2>Climate Experiments</h2></div>
 
 <div class="photo-gallery" data-theme="climate-experiments">
@@ -481,9 +486,10 @@ Click any image to open the full view.
   </a>
 
 </div>
+</div><!-- /.gallery-theme-block -->
 
 <!-- ── Arid &amp; Desert Landscapes ──────────────────────────────────────────── -->
-
+<div class="gallery-theme-block">
 <div class="gallery-theme-header"><h2>Arid &amp; Desert Landscapes</h2></div>
 
 <div class="photo-gallery" data-theme="arid-desert">
@@ -531,9 +537,10 @@ Click any image to open the full view.
   </a>
 
 </div>
+</div><!-- /.gallery-theme-block -->
 
 <!-- ── Field Landscapes ──────────────────────────────────────────── -->
-
+<div class="gallery-theme-block">
 <div class="gallery-theme-header"><h2>Field Landscapes</h2></div>
 
 <div class="photo-gallery" data-theme="landscapes">
@@ -735,6 +742,9 @@ Click any image to open the full view.
   </a>
 
 </div>
+</div><!-- /.gallery-theme-block -->
+
+</div><!-- /#gallery-themes-container -->
 
 ---
 
@@ -1059,14 +1069,22 @@ Click any image to open the full view.
     }
     return arr;
   }
-  function shuffleAllGrids() {
+  function shuffleAll() {
+    // Shuffle the theme sections
+    var container = document.getElementById('gallery-themes-container');
+    if (container) {
+      var blocks = Array.from(container.querySelectorAll(':scope > .gallery-theme-block'));
+      shuffle(blocks);
+      blocks.forEach(function (el) { container.appendChild(el); });
+    }
+    // Shuffle photos within each grid
     document.querySelectorAll('.photo-gallery').forEach(function (grid) {
       var items = Array.from(grid.children);
       shuffle(items);
       items.forEach(function (el) { grid.appendChild(el); });
     });
   }
-  shuffleAllGrids();
-  document.getElementById('gallery-shuffle-btn').addEventListener('click', shuffleAllGrids);
+  shuffleAll();
+  document.getElementById('gallery-shuffle-btn').addEventListener('click', shuffleAll);
 })();
 </script>
