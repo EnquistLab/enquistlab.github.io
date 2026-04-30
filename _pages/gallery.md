@@ -744,6 +744,157 @@ Click any image to open the full view.
 </div>
 </div><!-- /.gallery-theme-block -->
 
+<!-- ── Lab Life ──────────────────────────────────────────── -->
+<div class="gallery-theme-block">
+<div class="gallery-theme-header"><h2>Lab Life</h2></div>
+
+<div class="photo-gallery" data-theme="lab-life">
+
+  <a href="{{ '/assets/img/lab/lab_holiday_baking_2.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Holiday cookie baking in the Enquist Lab"
+     class="wide">
+    <img src="{{ '/assets/img/lab/lab_holiday_baking_2.jpg' | relative_url }}"
+         alt="Lab holiday cookie baking session" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/lab_holiday_baking_1.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Holiday cookie decorating, Enquist Lab">
+    <img src="{{ '/assets/img/lab/lab_holiday_baking_1.jpg' | relative_url }}"
+         alt="Holiday cookie decorating" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/lab_white_coat_samples.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Lab member processing samples, Enquist Lab">
+    <img src="{{ '/assets/img/lab/lab_white_coat_samples.jpg' | relative_url }}"
+         alt="Lab member with samples" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/lab_molecular_work.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Molecular lab work, Enquist Lab">
+    <img src="{{ '/assets/img/lab/lab_molecular_work.jpg' | relative_url }}"
+         alt="Molecular lab work" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/lab_tape_measure.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Lab member with measurement equipment">
+    <img src="{{ '/assets/img/lab/lab_tape_measure.jpg' | relative_url }}"
+         alt="Lab member with tape measure" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/lab_champagne_shelf.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Lab traditions — the champagne shelf, Enquist Lab">
+    <img src="{{ '/assets/img/lab/lab_champagne_shelf.jpg' | relative_url }}"
+         alt="Champagne shelf, Enquist Lab" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/lab_seminar_meeting.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Lab meeting and seminar, Enquist Lab">
+    <img src="{{ '/assets/img/lab/lab_seminar_meeting.jpg' | relative_url }}"
+         alt="Lab meeting/seminar" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/lab_licor_bench.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="LI-COR gas exchange instruments, Enquist Lab">
+    <img src="{{ '/assets/img/lab/lab_licor_bench.jpg' | relative_url }}"
+         alt="LI-COR instruments on lab bench" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/lab_packing_moving.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Lab move">
+    <img src="{{ '/assets/img/lab/lab_packing_moving.jpg' | relative_url }}"
+         alt="Lab packing and moving" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/field_flux_station_setup.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Portable gas exchange and flux station setup">
+    <img src="{{ '/assets/img/lab/field_flux_station_setup.jpg' | relative_url }}"
+         alt="Portable flux station setup" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/pftc_seed_sorting_group.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Plant Functional Trait Course — seed sorting and sample processing"
+     class="wide">
+    <img src="{{ '/assets/img/lab/pftc_seed_sorting_group.jpg' | relative_url }}"
+         alt="PFTC seed sorting group" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/pftc_plant_sample_sorting.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Plant Functional Trait Course — plant sample sorting">
+    <img src="{{ '/assets/img/lab/pftc_plant_sample_sorting.jpg' | relative_url }}"
+         alt="PFTC plant sample sorting" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/field_spectroradiometry.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Field spectroradiometry with SVC instrument">
+    <img src="{{ '/assets/img/lab/field_spectroradiometry.jpg' | relative_url }}"
+         alt="Field spectroradiometry" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/field_licor_tropical_1.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Gas exchange measurements, tropical research station">
+    <img src="{{ '/assets/img/lab/field_licor_tropical_1.jpg' | relative_url }}"
+         alt="LI-COR gas exchange, tropical station" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/field_licor_cloud_forest.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Gas exchange measurements with cloud forest backdrop">
+    <img src="{{ '/assets/img/lab/field_licor_cloud_forest.jpg' | relative_url }}"
+         alt="LI-COR gas exchange, cloud forest" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/field_licor_polytunnel.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Automated LI-COR gas exchange array, polytunnel experiment">
+    <img src="{{ '/assets/img/lab/field_licor_polytunnel.jpg' | relative_url }}"
+         alt="LI-COR array in polytunnel" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/field_licor_polytunnel_2.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Gas exchange setup in polytunnel greenhouse">
+    <img src="{{ '/assets/img/lab/field_licor_polytunnel_2.jpg' | relative_url }}"
+         alt="LI-COR setup, polytunnel" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/field_soil_chamber_norway.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Soil respiration chamber measurement in the field, Norway">
+    <img src="{{ '/assets/img/lab/field_soil_chamber_norway.jpg' | relative_url }}"
+         alt="Soil respiration chamber, field measurement" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/field_gas_exchange_meadow.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="Gas exchange measurement in alpine meadow">
+    <img src="{{ '/assets/img/lab/field_gas_exchange_meadow.jpg' | relative_url }}"
+         alt="Gas exchange measurement, alpine meadow" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/lab/transplant_project_sign_field.jpg' | relative_url }}"
+     data-lightbox="lab-life"
+     data-title="The Transplant Project — RMBL Climate Change Experiment, Gothic, Colorado">
+    <img src="{{ '/assets/img/lab/transplant_project_sign_field.jpg' | relative_url }}"
+         alt="The Transplant Project sign, RMBL" loading="lazy">
+  </a>
+
+</div>
+</div><!-- /.gallery-theme-block -->
+
 </div><!-- /#gallery-themes-container -->
 
 ---
