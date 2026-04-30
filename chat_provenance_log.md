@@ -207,3 +207,8 @@ Outcome: Implemented full approved design pass in enquistlab-site-migration: kep
 Prompt: Resolve remaining code-checker warnings in _sass/_lab-redesign.scss for <=700px text-only news card layout override and baseline card-title link affordance.
 Source session: VS Code Copilot Chat
 Outcome: Applied minimal SCSS-only patch in _sass/_lab-redesign.scss: added a <=700px `.news-card--text-only { grid-template-columns: 1fr; }` override after the generic `.news-card` mobile rule so text-only cards remain single-column, and updated `.news-title a` to use a visible default underline (thickness/offset/subtle decoration color) with hover transitioning decoration color to theme accent.
+
+37. Date: 2026-04-29
+Prompt: Update News page shuffle behavior so category sections (`section.news-theme`) are randomized robustly, move the shuffle button to immediately after the Munch hero (before first section), preserve Munch hero and hidden jump-nav style, keep click handler and auto-shuffle on load, and adjust top/mobile button styling only as needed.
+Source session: VS Code Copilot Chat
+Outcome: Updated _pages/news.md to place `#news-shuffle-btn` immediately after the Munch hero and before the first category section. Replaced inline shuffle logic with an append-based Fisher-Yates workflow that selects direct `section.news-theme` children, shuffles an array in memory, and appends sections back to `.news-page`, preserving in-section story ordering. Kept button click behavior and auto-shuffle on DOMContentLoaded. Updated _sass/_lab-redesign.scss button placement to align near top-right after the hero on desktop with mobile-safe spacing under 700px.
