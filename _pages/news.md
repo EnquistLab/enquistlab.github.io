@@ -13,7 +13,7 @@ _styles: |
        alt="Edvard Munch — The Sun, 1911, Munch Museum Oslo"
        loading="lazy">
   <figcaption>
-    <em><a href="https://www.edvardmunch.org/the-sun.jsp" target="_blank" rel="noopener">The Sun</a></em> — Edvard Munch, 1911–1916. <a href="https://www.munchmuseet.no/" target="_blank" rel="noopener">Munch Museum</a>, Oslo. Public domain.
+    <em><a href="https://www.edvardmunch.org/the-sun.jsp" target="_blank" rel="noopener">The Sun</a></em> — Edvard Munch, 1911–1916. <a href="https://www.munchmuseet.no/" target="_blank" rel="noopener">Munch Museum</a>, Oslo. Public domain. Every photon captured by a leaf is the entry point of energy into the biosphere — powering metabolism, building structure, and driving the flows that sustain life from cell to ecosystem. Munch's radiating sun is not just a painterly gesture: it is the literal engine of the living world. The lab's work traces how that solar energy moves — from photosynthesis to plant growth, from individual organisms to forest canopies, from local communities to global patterns of biodiversity — and how its disruption under climate change is reshaping life on Earth.
   </figcaption>
 </figure>
 
@@ -133,3 +133,19 @@ _styles: |
   </div>
 </section>
 </div>
+
+<button id="news-shuffle-btn" onclick="shuffleNewsSections()" aria-label="Shuffle news sections">&#x21C4; Shuffle sections</button>
+
+<script>
+function shuffleNewsSections() {
+  var container = document.querySelector('.news-page');
+  var sections = Array.from(container.querySelectorAll('section.news-theme'));
+  for (var i = sections.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    container.insertBefore(sections[j], sections[i]);
+    var tmp = sections[i]; sections[i] = sections[j]; sections[j] = tmp;
+  }
+}
+// Shuffle on load
+document.addEventListener('DOMContentLoaded', shuffleNewsSections);
+</script>

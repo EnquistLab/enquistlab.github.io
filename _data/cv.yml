@@ -224,6 +224,13 @@ cv:
         releaseDate: 2026
         url: https://doi.org/10.1038/s41467-026-69952-6
 
+      - title: "Trait-Driver Theory: linking functional traits to demography, community assembly, and ecosystem function"
+        authors:
+          - Enquist, B. J. et al.
+        publisher: Nature Ecology & Evolution
+        releaseDate: 2025
+        summary: "Develops Trait-Driver Theory — a mechanistic framework linking plant functional traits to demographic rates, community assembly, and ecosystem-level processes across environmental gradients."
+
       - title: "General laws of biodiversity: Climatic niches predict plant range size and ecological dominance globally"
         authors:
           - Moulatlet, G. M. et al.; Enquist, B. J.
@@ -257,6 +264,14 @@ cv:
         publisher: Nature Communications
         releaseDate: 2020
         url: https://doi.org/10.1038/s41467-020-14369-z
+
+      - title: "The commonness of rarity: Global and future distribution of rarity across land plants"
+        authors:
+          - Enquist, B. J. et al.
+        publisher: Science Advances
+        releaseDate: 2019
+        url: https://doi.org/10.1126/sciadv.aaz0414
+        summary: "Shows that rarity — defined by small range size, low abundance, or narrow habitat — is the dominant condition across land plants globally, with major implications for extinction risk under climate change."
 
       - title: Assessing trait-based scaling theory in dominant plant species across global biomes
         authors:

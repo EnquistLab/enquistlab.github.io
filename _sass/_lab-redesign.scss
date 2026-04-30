@@ -1029,6 +1029,33 @@ figure {
   margin-top: 0.25rem;
 }
 
+// CV references — prevent long URLs from overflowing the card
+.cv .list-group-item p {
+  word-break: break-all;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+// News shuffle button
+#news-shuffle-btn {
+  display: block;
+  margin: 1.2rem auto 0.5rem;
+  padding: 0.45rem 1.1rem;
+  background: transparent;
+  border: 1.5px solid var(--global-theme-color);
+  border-radius: 4px;
+  color: var(--global-theme-color);
+  font-size: 0.85rem;
+  font-family: "Source Sans 3", sans-serif;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: background 0.15s, color 0.15s;
+  &:hover {
+    background: var(--global-theme-color);
+    color: #fff;
+  }
+}
+
 .news-theme {
   margin: 0 0 2.4rem;
 }
