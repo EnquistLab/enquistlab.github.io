@@ -57,7 +57,7 @@ The lab's empirical programs are grounded in two interconnected theoretical fram
 
 Metabolic Scaling Theory rests on a central insight: the geometry of biological distribution networks — the branching vascular systems of plants and animals — imposes universal constraints on how metabolic rate scales with body size. West, Brown, and Enquist showed that a space-filling, area-preserving fractal vascular network minimizes energy dissipation and thereby generates the ¾-power scaling of metabolic rate with body mass, $$B \propto M^{3/4}$$, observed across more than 27 orders of magnitude ([West, Brown & Enquist 1997](https://doi.org/10.1126/science.276.5309.122)). This is not merely an empirical regularity — it is a derived consequence of network geometry and fluid-transport physics.
 
-From this foundation, the theory generates a unified set of predictions. Growth rates, lifespan, reproductive output, and the turnover of energy and biomass all scale predictably with body size and temperature ([West, Brown & Enquist 1999](https://doi.org/10.1126/science.284.5420.1677)). In plants, MST predicts how vascular architecture governs stem diameter, height, and leaf-area allometries, and how metabolic constraints set population density and above-ground biomass across forests ([Enquist, Brown & West 1998](https://doi.org/10.1038/28048)). Temperature enters through a Boltzmann–Arrhenius activation-energy factor, grounding MST thermodynamically and connecting it directly to global-change projections.
+From this foundation, the theory generates a unified set of predictions. Growth rates, lifespan, reproductive output, and the turnover of energy and biomass all scale predictably with body size and temperature ([West, Brown & Enquist 1999](https://doi.org/10.1126/science.284.5420.1677)). In plants, the fractal vascular network constrains stem diameter, height, and leaf-area allometries ([West, Enquist & Brown 1999](https://doi.org/10.1038/23040)), and metabolic constraints set population density and above-ground biomass across forests ([Enquist, Brown & West 1998](https://doi.org/10.1038/28048)). Temperature enters through a Boltzmann–Arrhenius activation-energy factor, grounding MST thermodynamically and connecting it directly to global-change projections.
 
 Brown et al. extended MST into the **Metabolic Theory of Ecology (MTE)**, showing that the same mass and temperature scaling permeates population dynamics, species diversity gradients, ecosystem energy flux, and elemental stoichiometry ([Brown et al. 2004](https://doi.org/10.1890/03-9000)). Current Enquist Lab work extends and tests MST predictions at ecosystem scale — connecting allometric constraints to forest carbon stocks, demography, and the structure of plant communities across biomes.
 
@@ -67,14 +67,15 @@ Brown et al. extended MST into the **Metabolic Theory of Ecology (MTE)**, showin
 
 **Key papers:**
 - [West, Brown & Enquist (1997)](https://doi.org/10.1126/science.276.5309.122) — fractal vascular networks and the ¾ scaling law
-- [West, Brown & Enquist (1999)](https://doi.org/10.1126/science.284.5420.1677) — plant vascular allometry and growth
+- [West, Brown & Enquist (1999)](https://doi.org/10.1126/science.284.5420.1677) — fractal geometry and allometric scaling across life
+- [West, Enquist & Brown (1999)](https://doi.org/10.1038/23040) — general model for plant vascular structure and allometry (*Nature*)
 - [Enquist, Brown & West (1998)](https://doi.org/10.1038/28048) — plant population density and biomass scaling
 - [Brown et al. (2004)](https://doi.org/10.1890/03-9000) — Metabolic Theory of Ecology
 - [West, Enquist & Brown (2009)](https://doi.org/10.1073/pnas.0812294106) — a general quantitative theory of forest structure and dynamics
 
 #### Trait Driver Theory (TDT) {#trait-driver-theory}
 
-While MST explains size- and temperature-dependent variation in metabolic flux, **Trait Driver Theory** addresses a complementary question: why do communities assemble the functional trait distributions they do, and how will those distributions shift as environments change? TDT is a quantitative, mechanistic framework that predicts the mean, variance, and shape of functional trait distributions in a local community as a function of environmental drivers — temperature, water availability, disturbance, and resource supply ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)).
+While MST explains size- and temperature-dependent variation in metabolic flux, **Trait Driver Theory** addresses a complementary question: why do communities assemble the functional trait distributions they do, and how will those distributions shift as environments change? TDT is a quantitative, mechanistic framework that predicts the mean, variance, and shape of functional trait distributions in a local community as a function of environmental drivers — temperature, water availability, disturbance, and resource supply ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070)).
 
 The core logic is probabilistic and multi-scale. At the regional scale, the pool of available species defines a prior distribution of trait values shaped by evolutionary history and dispersal. At the local scale, environmental filters and biotic interactions select from that pool, shifting the realized trait distribution in predictable directions. TDT formalizes this filtering mathematically: environmental drivers compress, shift, or broaden the trait distribution, with measurable consequences for community function. Because intraspecific trait variation (ITV) contributes substantially to total community-level trait variance, TDT explicitly partitions variation across levels — individual, population, species, and community — rather than collapsing it to species means ([Enquist et al. 2019](https://www.nature.com/articles/s41477-019-0506-6)).
 
@@ -86,7 +87,6 @@ TDT bridges scales that are often treated separately in ecology: individual phys
 
 **Key papers:**
 - [Enquist et al. (2015)](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070) — original TDT framework and predictions
-- [Šímová & Enquist (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645) — TDT and global trait–environment patterns
 - [Enquist et al. (2019)](https://www.nature.com/articles/s41477-019-0506-6) — extending TDT with intraspecific variation (*Nature Plants*)
 
 ---
@@ -114,7 +114,7 @@ Plant functional traits — measurable attributes such as leaf size, wood densit
 **From traits to prediction.** Our approach treats traits not merely as descriptors but as mechanistic currencies that link physiology, community assembly, and ecosystem function. By measuring how traits vary across individuals, species, and environments — and by integrating those measurements with metabolic theory — we develop frameworks that forecast how plant communities will respond to climate change, land-use pressure, and other global drivers.
 
 **Core contributions and ongoing work:**
-- Developing and testing [Trait Driver Theory (TDT)](https://www.nature.com/articles/s41477-019-0506-6), a general framework predicting how trait distributions in a community shift as environmental conditions change ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645))
+- Developing and testing [Trait Driver Theory (TDT)](https://www.nature.com/articles/s41477-019-0506-6), a general framework predicting how trait distributions in a community shift as environmental conditions change ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070))
 - Quantifying intraspecific trait variation (ITV) and its role in community stability, climate buffering, and ecological forecasting — including new bootstrap uncertainty methods ([traitstrap](https://cran.r-project.org/package=traitstrap))
 - Integrating remotely sensed spectral data with ground-based trait measurements to scale functional diversity from plots to continents (Durán et al. 2019 *Science Advances*; Wieczynski et al. 2022 *Ecography*)
 - Contributing to global trait databases including TRY, OpenTraits, and BIEN, and establishing open-science standards for trait data ([Gallagher et al. 2020](https://doi.org/10.1038/s41559-020-1109-6) *Nature Ecology & Evolution*; Keller et al. 2023 *Methods in Ecology & Evolution*)
@@ -126,7 +126,7 @@ Plant functional traits — measurable attributes such as leaf size, wood densit
 
 ### Trait Driver Theory & Functional Ecology
 
-[Trait Driver Theory (TDT)](https://www.nature.com/articles/s41477-019-0506-6) is a quantitative, mechanistic framework that predicts how the statistical distribution of functional traits in a community responds to environmental drivers — temperature, water availability, disturbance, and land use. TDT bridges individual-level physiology, community assembly, and ecosystem function, providing a theoretical spine for the lab's broader trait-based program ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)).
+[Trait Driver Theory (TDT)](https://www.nature.com/articles/s41477-019-0506-6) is a quantitative, mechanistic framework that predicts how the statistical distribution of functional traits in a community responds to environmental drivers — temperature, water availability, disturbance, and land use. TDT bridges individual-level physiology, community assembly, and ecosystem function, providing a theoretical spine for the lab's broader trait-based program ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070)).
 
 Applications include:
 - Predicting community trait shifts under climate change
