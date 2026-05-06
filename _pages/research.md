@@ -15,9 +15,7 @@ nav_order: 3
   </div>
   <div class="section-jump-nav__links">
     <a class="section-jump-nav__link" href="#theory">Theory</a>
-    <a class="section-jump-nav__link" href="#metabolic-scaling-functional-biology">Metabolic Scaling</a>
     <a class="section-jump-nav__link" href="#trait-based-ecology">Trait-Based Ecology</a>
-    <a class="section-jump-nav__link" href="#trait-driver-theory-functional-ecology">Trait Driver Theory</a>
     <a class="section-jump-nav__link" href="#bien-botanical-information-ecology-network">BIEN</a>
     <a class="section-jump-nav__link" href="#global-change-biology">Global Change Biology</a>
     <a class="section-jump-nav__link" href="#long-term-ecology">Long-Term Ecology</a>
@@ -128,17 +126,6 @@ TDT bridges scales that are often treated separately in ecology: individual phys
 
 ---
 
-### Metabolic Scaling & Functional Biology
-
-We develop and extend metabolic scaling theory (West, Brown, and Enquist 1997; 1999) to predict how growth, mortality, and resource use scale with body size and temperature. Current work applies these principles to forest structure, carbon dynamics, and demography.
-
-**Key questions:**
-- How do allometric constraints shape plant architecture and forest structure?
-- Can metabolic scaling theory predict ecosystem carbon fluxes and turnover?
-- What are the evolutionary origins of scaling relationships?
-
----
-
 ### Trait-Based Ecology
 
 <figure class="field-photo">
@@ -158,18 +145,6 @@ Plant functional traits — measurable attributes such as leaf size, wood densit
 - Connecting trait variation to forest carbon and productivity at landscape and regional scales
 
 **Forward look.** The next frontier is trait-based ecological forecasting: using measured trait distributions — including their uncertainty — to predict community-level responses to novel climates, assess biodiversity vulnerability, and improve land-surface models. This requires integrating trait data with demographic models, remote sensing, and process-based earth system frameworks. We are actively building these pipelines through BIEN, OpenTraits, and collaborative field programs including [PFTC]({{ '/resources/' | relative_url }}).
-
----
-
-### Trait Driver Theory & Functional Ecology
-
-[Trait Driver Theory (TDT)](https://onlinelibrary.wiley.com/doi/10.1111/geb.12645) is a quantitative, mechanistic framework that predicts how the statistical distribution of functional traits in a community responds to environmental drivers — temperature, water availability, disturbance, and land use. TDT bridges individual-level physiology, community assembly, and ecosystem function, providing a theoretical spine for the lab's broader trait-based program ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070)).
-
-Applications include:
-- Predicting community trait shifts under climate change
-- Understanding trait-environment relationships across elevational and latitudinal gradients
-- Linking remote sensing spectral signatures to functional diversity
-- Informing carbon-cycle and land-surface models with trait-based predictions
 
 ---
 
