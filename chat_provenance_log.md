@@ -228,3 +228,22 @@ Prompt: Add a 'Scaling and Allometry Data' section to https://enquistlab.github.
 Source session: VS Code Copilot Chat
 Outcome: Added a new "Scaling and Allometry Data" section at the bottom of _pages/software.md (permalink /resources/) with a responsive two-column card grid. Each card includes a badge label, dataset description, importance statement, full citation, and data access link. Commit 72165de pushed to EnquistLab/enquistlab.github.io main.
 2026-05-06 | Added Theory section to _pages/research.md: MST and TDT subsections with nav link and key paper citations. Applied enhanced-theory and ecology-user agent frameworks.
+
+## 2026-05-06 — Publications HTML cleanup (scholarly-rigor fixes)
+
+**Prompt**: Verify every paper on enquistlab.github.io/publications/ matches the CV with accurate web links; have scholarly-rigor-reviewer check the work.
+
+**Changes applied to `_includes/publications_full_from_doc.md`**:
+- BIEN 2026 "In Press" → "00, 1–29" (Methods in Ecology and Evolution, vol/page added)
+- Brock 2026 "In press." → "17, 3623." (Nature Communications, published)
+- Removed duplicate Groenendijk 2025 entry with CASA token (kept ScienceDirect URL)
+- Removed duplicate Chaplin-Kramer 2021 entry (kept 2022 entry with volume/page)
+- Global regex sweep: removed all CASA tokens from all hrefs (8 papers total), including Matos 2025, Zuidema 2025, Halbritter JVS 2025, and 5 older papers
+- Guo 2022: replaced Google Scholar link with PNAS DOI link
+- Araujo 2025: removed duplicate citation text after closing `</a>` tag
+
+**New files** (prior session):
+- `scripts/sync_publications_html.py` — CV-to-HTML cross-check + CrossRef DOI verifier
+- Updated `.github/workflows/sync-google-doc-cv.yml` to run sync script daily
+
+**Final state**: 316 `<li>` entries, 0 CASA tokens, 0 Google Scholar links.
