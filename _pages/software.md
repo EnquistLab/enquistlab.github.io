@@ -380,16 +380,6 @@ We co-lead the [OpenTraits Network](https://opentraits.org/), which promotes ope
 
 ---
 
-### Trait Driver Theory Tools
-
-Code and tutorials for applying [Trait Driver Theory](https://www.nature.com/articles/s41477-019-0506-6) to community data ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)):
-
-- **GitHub:** [EnquistLab/TraitDriverTheory](https://github.com/EnquistLab/)
-
----
-
----
-
 ### Scaling and Allometry Data
 
 Open datasets from lab publications spanning biomass allocation, nutrient scaling, leaf morphology, community productivity, and whole-plant allometry. These datasets underpin cross-scale tests of metabolic scaling theory and macroecological allometry and are made available to support reproducible synthesis.
