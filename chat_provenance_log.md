@@ -217,3 +217,13 @@ Outcome: Updated _pages/news.md to place `#news-shuffle-btn` immediately after t
 Prompt: Remove site-wide photo watermarks, restore missing Gallery tab/photos access, and fix CV references overflow while preserving News Munch hero + top shuffle behavior.
 Source session: VS Code Copilot Chat
 Outcome: Root cause for missing Gallery tab was navigation configuration, not deleted content: `_pages/gallery.md` and photo assets were present, but Gallery was omitted from `_pages/nav-lab.md` children. Added Gallery back to Lab dropdown. Removed watermark injection JS block from `assets/js/common.js` (site-wide, including News). Fixed CV run-on references by converting raw URLs to labeled links in `_data/cv.yml`, rendering each profile on its own line in `_includes/cv/references.liquid`, and strengthening wrapping styles in `_sass/_lab-redesign.scss`.
+
+39. Date: 2026-05-06
+Prompt: The text justification on /about/ is awkward — text block sits too far to the left, unused whitespace right of the image column. Fix: center content, max-width for line length, balanced two-column layout, consistent margins, mobile collapse.
+Source session: VS Code Copilot Chat
+Outcome: Replaced the 90rem full-bleed negative-margin breakout on .about-article with a centered CSS Grid layout. Content now anchors at max 1080px with padding: max(2rem, calc((100vw - 1080px) / 2)) for balanced gutters. Profile image placed at grid-column: 2, grid-row: 1 (float removed); text (.clearfix) at grid-column: 1, grid-row: 1. Mobile (≤768px) collapses to display:block single column. Commit 5c260b4 pushed to EnquistLab/enquistlab.github.io main.
+
+40. Date: 2026-05-06
+Prompt: Add a 'Scaling and Allometry Data' section to https://enquistlab.github.io/resources/ for six datasets: (1) Niklas & Enquist (2004) ORNL DAAC 703 biomass allocation; (2) Kerkhoff et al. (2006) N and P scaling in 1,287 seed plant species (Am Nat 168:4); (3) Price & Enquist (2007) leaf allometry 622 leaves / 21 species (Ecology 88:1132-1141); (4) Price & Enquist (2006) / Price (2006 dissertation) Sonoran Desert plant allometry 1,538 individuals; (5) Michaletz et al. (2014) global NPP data (Nature); (6) Kerkhoff et al. (2005) whole-community phytomass, nutrients, and productivity.
+Source session: VS Code Copilot Chat
+Outcome: Added a new "Scaling and Allometry Data" section at the bottom of _pages/software.md (permalink /resources/) with a responsive two-column card grid. Each card includes a badge label, dataset description, importance statement, full citation, and data access link. Commit 72165de pushed to EnquistLab/enquistlab.github.io main.
