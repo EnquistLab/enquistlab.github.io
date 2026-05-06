@@ -14,6 +14,7 @@ nav_order: 3
     <span class="section-jump-nav__label">Jump to theme</span>
   </div>
   <div class="section-jump-nav__links">
+    <a class="section-jump-nav__link" href="#theory">Theory</a>
     <a class="section-jump-nav__link" href="#metabolic-scaling-functional-biology">Metabolic Scaling</a>
     <a class="section-jump-nav__link" href="#trait-based-ecology">Trait-Based Ecology</a>
     <a class="section-jump-nav__link" href="#trait-driver-theory-functional-ecology">Trait Driver Theory</a>
@@ -45,6 +46,48 @@ Current themes include:
 - Long-term monitoring of populations, communities, and ecosystems in tropical, temperate, and alpine environments
 
 Our research flows from observation to prediction: we measure organisms and ecosystems, build theories about why patterns emerge across levels of biological organization, and test whether those theories can forecast how biodiversity responds to global change.
+
+---
+
+### Theory {#theory}
+
+The lab's empirical programs are grounded in two interconnected theoretical frameworks — **Metabolic Scaling Theory (MST)** and **Trait Driver Theory (TDT)** — that together aim to explain biological organization from cells to ecosystems and predict how communities respond to environmental change. Both frameworks are mathematically explicit: they generate quantitative, falsifiable predictions that can be confronted with data and refined.
+
+#### Metabolic Scaling Theory (MST) {#metabolic-scaling-theory}
+
+Metabolic Scaling Theory rests on a central insight: the geometry of biological distribution networks — the branching vascular systems of plants and animals — imposes universal constraints on how metabolic rate scales with body size. West, Brown, and Enquist showed that a space-filling, area-preserving fractal vascular network minimizes energy dissipation and thereby generates the ¾-power scaling of metabolic rate with body mass, $$B \propto M^{3/4}$$, observed across more than 27 orders of magnitude ([West, Brown & Enquist 1997](https://doi.org/10.1126/science.276.5309.122)). This is not merely an empirical regularity — it is a derived consequence of network geometry and fluid-transport physics.
+
+From this foundation, the theory generates a unified set of predictions. Growth rates, lifespan, reproductive output, and the turnover of energy and biomass all scale predictably with body size and temperature ([West, Brown & Enquist 1999](https://doi.org/10.1126/science.284.5420.1677)). In plants, MST predicts how vascular architecture governs stem diameter, height, and leaf-area allometries, and how metabolic constraints set population density and above-ground biomass across forests ([Enquist, Brown & West 1998](https://doi.org/10.1038/28048)). Temperature enters through a Boltzmann–Arrhenius activation-energy factor, grounding MST thermodynamically and connecting it directly to global-change projections.
+
+Brown et al. extended MST into the **Metabolic Theory of Ecology (MTE)**, showing that the same mass and temperature scaling permeates population dynamics, species diversity gradients, ecosystem energy flux, and elemental stoichiometry ([Brown et al. 2004](https://doi.org/10.1890/03-9000)). Current Enquist Lab work extends and tests MST predictions at ecosystem scale — connecting allometric constraints to forest carbon stocks, demography, and the structure of plant communities across biomes.
+
+**Scope:** subcellular metabolic pathways to biome-level carbon budgets.
+**Goal:** derive macroecological patterns from first principles of physics and network geometry.
+**Applications:** forest biomass and carbon modeling, demographic forecasting, climate-scaling of plant productivity, earth system model parameterization.
+
+**Key papers:**
+- [West, Brown & Enquist (1997)](https://doi.org/10.1126/science.276.5309.122) — fractal vascular networks and the ¾ scaling law
+- [West, Brown & Enquist (1999)](https://doi.org/10.1126/science.284.5420.1677) — plant vascular allometry and growth
+- [Enquist, Brown & West (1998)](https://doi.org/10.1038/28048) — plant population density and biomass scaling
+- [Brown et al. (2004)](https://doi.org/10.1890/03-9000) — Metabolic Theory of Ecology
+- [West, Enquist & Brown (2009)](https://doi.org/10.1073/pnas.0812294106) — a general quantitative theory of forest structure and dynamics
+
+#### Trait Driver Theory (TDT) {#trait-driver-theory}
+
+While MST explains size- and temperature-dependent variation in metabolic flux, **Trait Driver Theory** addresses a complementary question: why do communities assemble the functional trait distributions they do, and how will those distributions shift as environments change? TDT is a quantitative, mechanistic framework that predicts the mean, variance, and shape of functional trait distributions in a local community as a function of environmental drivers — temperature, water availability, disturbance, and resource supply ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)).
+
+The core logic is probabilistic and multi-scale. At the regional scale, the pool of available species defines a prior distribution of trait values shaped by evolutionary history and dispersal. At the local scale, environmental filters and biotic interactions select from that pool, shifting the realized trait distribution in predictable directions. TDT formalizes this filtering mathematically: environmental drivers compress, shift, or broaden the trait distribution, with measurable consequences for community function. Because intraspecific trait variation (ITV) contributes substantially to total community-level trait variance, TDT explicitly partitions variation across levels — individual, population, species, and community — rather than collapsing it to species means ([Enquist et al. 2019](https://www.nature.com/articles/s41477-019-0506-6)).
+
+TDT bridges scales that are often treated separately in ecology: individual physiology sets the trait values that are possible; evolutionary history determines what is available in a regional pool; environment determines what is favored locally; and the aggregate of these processes produces the community-level functional fingerprint that shapes carbon exchange, water flux, and competitive dynamics at ecosystem scale. This positions TDT as a theoretical spine connecting leaf-level measurements to global biodiversity forecasting.
+
+**Scope:** individual leaf traits to continental-scale functional diversity gradients.
+**Goal:** build a predictive, mathematically grounded theory of community assembly and ecosystem function based on trait distributions.
+**Applications:** forecasting community trait shifts under climate change, explaining elevational and latitudinal diversity gradients, linking remote-sensing spectral signatures to functional state, improving land-surface model trait parameterizations.
+
+**Key papers:**
+- [Enquist et al. (2015)](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070) — original TDT framework and predictions
+- [Šímová & Enquist (2017)](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645) — TDT and global trait–environment patterns
+- [Enquist et al. (2019)](https://www.nature.com/articles/s41477-019-0506-6) — extending TDT with intraspecific variation (*Nature Plants*)
 
 ---
 
