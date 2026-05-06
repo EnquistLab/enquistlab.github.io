@@ -22,7 +22,6 @@ nav_order: 3
     <a class="section-jump-nav__link" href="#global-change-biology">Global Change Biology</a>
     <a class="section-jump-nav__link" href="#long-term-ecology">Long-Term Ecology</a>
     <a class="section-jump-nav__link" href="#opentraits-biodiversity-informatics">OpenTraits</a>
-    <a class="section-jump-nav__link" href="#theory-equation-figures">Theory Figures</a>
   </div>
 </nav>
 
@@ -272,19 +271,4 @@ The lab's biodiversity informatics work connects across a growing ecosystem of o
 
 **Biodiversity informatics more broadly.**
 Beyond trait databases, the lab contributes to informatics infrastructure for ecological synthesis: Darwin Core extensions for trait data, quality-control pipelines for taxonomic reconciliation, and open workflows connecting field observations to continental-scale synthesis products. This infrastructure underpins our forecasting work through BIEN and enables reproducible, uncertainty-aware macroecology at global scale.
-
----
-
-### Theory & Equation Figures
-
-<div class="theory-figure-pair">
-  <figure>
-    <img src="{{ '/assets/img/wordpress/yoda_self_thinning_fig1.png' | relative_url }}" alt="Self-thinning conceptual figure: plant density declines as a power function of mean plant mass during stand development" loading="lazy">
-    <figcaption>Self-thinning law — plant density declines as a power function of mean plant mass as a stand develops, a foundational prediction of metabolic scaling theory.</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ '/assets/img/wordpress/yoda_self_thinning_fig2.png' | relative_url }}" alt="Self-thinning scaling derivation: allometric exponents derived from metabolic scaling first principles" loading="lazy">
-    <figcaption>Derivation of self-thinning exponents from allometric first principles — underpinning current lab work on forest structure, carbon dynamics, and demography.</figcaption>
-  </figure>
-</div>
 
