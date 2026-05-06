@@ -31,6 +31,10 @@ jobs:
         run: |
           python scripts/sync_publications_from_cv.py
 
+      - name: Sync publications HTML from CV
+        run: |
+          python scripts/sync_publications_html.py
+
       - name: Commit CV + publication updates when changed
         id: commit
         run: |
@@ -45,7 +49,9 @@ jobs:
           git add assets/pdf/enquist_cv.pdf \
                   assets/cv/google_doc_cv_latest.txt \
                   assets/cv/google_doc_cv.sha256 \
-                  _bibliography/papers.bib
+                  assets/cv/publications_sync_report.txt \
+                  _bibliography/papers.bib \
+                  _includes/publications_full_from_doc.md
           git commit -m "chore(cv): sync CV and publications from Google Doc"
           git push
           echo "changed=true" >> $GITHUB_OUTPUT
