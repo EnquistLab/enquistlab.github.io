@@ -54,6 +54,25 @@ The lab's empirical programs are grounded in two interconnected theoretical fram
 
 #### Metabolic Scaling Theory (MST) {#metabolic-scaling-theory}
 
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <figure style="margin:0 0 0.75rem;">
+    <img src="{{ '/assets/img/wordpress/yoda_self_thinning_fig1.png' | relative_url }}" alt="Self-thinning law: plant density declines as a power function of mean plant mass" style="width:100%;border-radius:4px;" loading="lazy">
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Self-thinning law — plant density declines as a power function of mean plant mass as a stand develops, a direct prediction of MST from first principles of network geometry.</figcaption>
+  </figure>
+  <figure style="margin:0 0 0.75rem;">
+    <img src="{{ '/assets/img/wordpress/yoda_self_thinning_fig2.png' | relative_url }}" alt="Derivation of self-thinning exponents from allometric first principles" style="width:100%;border-radius:4px;" loading="lazy">
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Derivation of self-thinning exponents from allometric first principles — connecting vascular network geometry to stand-level biomass dynamics.</figcaption>
+  </figure>
+  <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Recent lab papers</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://www.annualreviews.org/content/journals/10.1146/annurev-ecolsys-102723-054525">Vasseur, Mahaut, Enquist &amp; Violle (2025)</a> — From organism traits to ecosystem processes: why size is so important. <em>Ann. Rev. Ecol. Evol. Syst.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.pnas.org/doi/10.1073/pnas.2209196121">Enquist, Kempes &amp; West (2024)</a> — Developing a predictive science of the biosphere. <em>PNAS</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.nature.com/articles/s41467-020-14369-y">Enquist et al. (2020)</a> — The megabiota are disproportionately important for biosphere functioning. <em>Nature Communications</em></li>
+    </ul>
+  </div>
+</div>
+
 Metabolic Scaling Theory rests on a central insight: the geometry of biological distribution networks — the branching vascular systems of plants and animals — imposes universal constraints on how metabolic rate scales with body size. West, Brown, and Enquist showed that a space-filling, area-preserving fractal vascular network minimizes energy dissipation and thereby generates the ¾-power scaling of metabolic rate with body mass, $$B \propto M^{3/4}$$, observed across more than 27 orders of magnitude ([West, Brown & Enquist 1997](https://doi.org/10.1126/science.276.5309.122)). This is not merely an empirical regularity — it is a derived consequence of network geometry and fluid-transport physics.
 
 From this foundation, the theory generates a unified set of predictions. Growth rates, lifespan, reproductive output, and the turnover of energy and biomass all scale predictably with body size and temperature ([West, Brown & Enquist 1999](https://doi.org/10.1126/science.284.5420.1677)). In plants, the fractal vascular network constrains stem diameter, height, and leaf-area allometries ([West, Enquist & Brown 1999](https://doi.org/10.1038/23040)), and metabolic constraints set population density and above-ground biomass across forests ([Enquist, Brown & West 1998](https://doi.org/10.1038/28048)). Temperature enters through a Boltzmann–Arrhenius activation-energy factor, grounding MST thermodynamically and connecting it directly to global-change projections.
@@ -72,7 +91,20 @@ Brown et al. extended MST into the **Metabolic Theory of Ecology (MTE)**, showin
 - [Brown et al. (2004)](https://doi.org/10.1890/03-9000) — Metabolic Theory of Ecology
 - [West, Enquist & Brown (2009)](https://doi.org/10.1073/pnas.0812294106) — a general quantitative theory of forest structure and dynamics
 
+<div style="clear:both;"></div>
+
 #### Trait Driver Theory (TDT) {#trait-driver-theory}
+
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Recent lab papers</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://www.sciencedirect.com/science/article/pii/S0169534722002749">Chacón-Labella et al. (2022)</a> — How to improve scaling from traits to ecosystem processes. <em>Trends Ecol. Evol.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14160">Maitner et al. (2023)</a> — Bootstrapping outperforms community-weighted approaches for estimating trait distributions. <em>Methods Ecol. Evol.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.06078">Wieczynski et al. (2022)</a> — Integrating trait-based models and remotely-sensed foliar trait data. <em>Ecography</em></li>
+    </ul>
+  </div>
+</div>
 
 While MST explains size- and temperature-dependent variation in metabolic flux, **Trait Driver Theory** addresses a complementary question: why do communities assemble the functional trait distributions they do, and how will those distributions shift as environments change? TDT is a quantitative, mechanistic framework that predicts the mean, variance, and shape of functional trait distributions in a local community as a function of environmental drivers — temperature, water availability, disturbance, and resource supply ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070)).
 
@@ -87,6 +119,8 @@ TDT bridges scales that are often treated separately in ecology: individual phys
 **Key papers:**
 - [Enquist et al. (2015)](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070) — original TDT framework and predictions
 - [Enquist et al. (2019)](https://www.nature.com/articles/s41477-019-0506-6) — extending TDT with intraspecific variation (*Nature Plants*)
+
+<div style="clear:both;"></div>
 
 ---
 
