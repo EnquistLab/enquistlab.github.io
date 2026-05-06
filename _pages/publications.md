@@ -219,7 +219,31 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		const emptyState = document.getElementById('publication-topic-empty');
 		if (!input || !container || !tabsContainer || !emptyState) return;
 
-		input.placeholder = 'Type to filter complete publication list';
+		input.placeholder = 'Search all publications (title, author, journal…)';
+
+		// Insert result-count label + clear button next to the search input
+		const searchWrap = document.createElement('div');
+		searchWrap.style.cssText = 'display:flex;align-items:center;gap:0.5rem;';
+		input.parentNode.insertBefore(searchWrap, input);
+		searchWrap.appendChild(input);
+		input.style.cssText = 'flex:1;';
+
+		const clearBtn = document.createElement('button');
+		clearBtn.type = 'button';
+		clearBtn.textContent = '✕';
+		clearBtn.title = 'Clear search';
+		clearBtn.hidden = true;
+		clearBtn.style.cssText = 'background:none;border:1px solid var(--global-divider-color);border-radius:999px;cursor:pointer;font-size:0.85rem;padding:0.3rem 0.6rem;color:var(--global-text-color-light);';
+		clearBtn.addEventListener('click', function () {
+			input.value = '';
+			input.dispatchEvent(new Event('input'));
+			input.focus();
+		});
+		searchWrap.appendChild(clearBtn);
+
+		const resultCount = document.createElement('p');
+		resultCount.style.cssText = 'margin:0.4rem 0 0;font-size:0.9rem;color:var(--global-text-color-light);min-height:1.4em;';
+		searchWrap.parentNode.insertBefore(resultCount, searchWrap.nextSibling);
 
 		const topicDefinitions = [
 			{ id: 'all', label: 'All', threshold: 0, matchers: [] },
@@ -488,10 +512,13 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			button.innerHTML = `${topic.label}<span class="publication-topic-count">${topicCounts[topic.id] || 0}</span>`;
 			button.addEventListener('click', function () {
 				activeTopic = topic.id;
+				// Clear search when switching tabs so the full topic view shows
+				input.value = '';
 				tabButtons.forEach((tabButton) => {
 					const isActive = tabButton.dataset.topic === activeTopic;
 					tabButton.classList.toggle('is-active', isActive);
 					tabButton.setAttribute('aria-selected', isActive ? 'true' : 'false');
+					tabButton.style.opacity = '';
 				});
 				applyFilter();
 			});
@@ -512,20 +539,40 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 
 		function applyFilter() {
 			const query = input.value.trim().toLowerCase();
+			// When the user is searching, always search across ALL publications
+			// regardless of which topic tab is active.
+			const searchActive = query !== '';
 			let visibleTotal = 0;
+			let firstVisibleItem = null;
+
+			// Update tab highlight: grey-out all tabs while searching
+			tabButtons.forEach((tabButton) => {
+				if (searchActive) {
+					tabButton.style.opacity = tabButton.dataset.topic === 'all' ? '1' : '0.45';
+				} else {
+					tabButton.style.opacity = '';
+				}
+			});
+
+			// Show/hide clear button
+			clearBtn.hidden = !searchActive;
 
 			yearSections.forEach((section) => {
 				let visibleCount = 0;
 
 				section.items.forEach((li) => {
 					const text = li.textContent.toLowerCase();
-					const matchesQuery = query === '' || text.includes(query);
-					const matchesTopic = itemMatchesTopic(li);
+					const words = query.split(/\s+/).filter(Boolean);
+					// Require every word in the query to appear somewhere in the text
+					const matchesQuery = query === '' || words.every((w) => text.includes(w));
+					// When searching, ignore topic tab and show all matching papers
+					const matchesTopic = searchActive ? true : itemMatchesTopic(li);
 					const match = matchesQuery && matchesTopic;
 					li.style.display = match ? '' : 'none';
 					if (match) {
 						visibleCount += 1;
 						visibleTotal += 1;
+						if (!firstVisibleItem) firstVisibleItem = li;
 					}
 				});
 
@@ -536,6 +583,20 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			});
 
 			emptyState.hidden = visibleTotal !== 0;
+
+			// Update result count
+			if (searchActive) {
+				resultCount.textContent = visibleTotal === 0
+					? 'No papers matched your search.'
+					: `${visibleTotal} paper${visibleTotal === 1 ? '' : 's'} matched — scroll down to see all results.`;
+			} else {
+				resultCount.textContent = '';
+			}
+
+			// Scroll to first visible result when searching
+			if (searchActive && firstVisibleItem) {
+				firstVisibleItem.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+			}
 
 			// Sync year nav pill visibility with current filter state
 			if (navItems) {
