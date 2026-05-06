@@ -26,7 +26,11 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 	<p class="publication-topic-caption publication-topic-caption--hint">Start with broad themes (Scaling, Trait Ecology, Biodiversity Informatics), then refine with search.</p>
 </div>
 
-<input type="text" id="pub-search" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Search all publications…" aria-label="Search publications">
+<div id="pub-search-wrap" style="display:flex;align-items:center;gap:0.5rem;margin:0.5rem 0 0;">
+  <input type="text" id="pub-search" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Search all publications (title, author, journal…)" aria-label="Search publications" style="flex:1;">
+  <button type="button" id="pub-search-clear" hidden style="background:none;border:1px solid #ccc;border-radius:999px;cursor:pointer;font-size:0.85rem;padding:0.3rem 0.6rem;color:#888;">✕</button>
+</div>
+<p id="pub-search-count" style="margin:0.4rem 0 0;font-size:0.9rem;color:#888;min-height:1.4em;"></p>
 
 <p id="publication-topic-empty" class="publication-topic-empty" hidden>No publications match the current subject tab and search query.</p>
 
@@ -219,31 +223,14 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		const emptyState = document.getElementById('publication-topic-empty');
 		if (!input || !container || !tabsContainer || !emptyState) return;
 
-		input.placeholder = 'Search all publications (title, author, journal…)';
+		const clearBtn = document.getElementById('pub-search-clear');
+		const resultCount = document.getElementById('pub-search-count');
 
-		// Insert result-count label + clear button next to the search input
-		const searchWrap = document.createElement('div');
-		searchWrap.style.cssText = 'display:flex;align-items:center;gap:0.5rem;';
-		input.parentNode.insertBefore(searchWrap, input);
-		searchWrap.appendChild(input);
-		input.style.cssText = 'flex:1;';
-
-		const clearBtn = document.createElement('button');
-		clearBtn.type = 'button';
-		clearBtn.textContent = '✕';
-		clearBtn.title = 'Clear search';
-		clearBtn.hidden = true;
-		clearBtn.style.cssText = 'background:none;border:1px solid var(--global-divider-color);border-radius:999px;cursor:pointer;font-size:0.85rem;padding:0.3rem 0.6rem;color:var(--global-text-color-light);';
 		clearBtn.addEventListener('click', function () {
 			input.value = '';
 			input.dispatchEvent(new Event('input'));
 			input.focus();
 		});
-		searchWrap.appendChild(clearBtn);
-
-		const resultCount = document.createElement('p');
-		resultCount.style.cssText = 'margin:0.4rem 0 0;font-size:0.9rem;color:var(--global-text-color-light);min-height:1.4em;';
-		searchWrap.parentNode.insertBefore(resultCount, searchWrap.nextSibling);
 
 		const topicDefinitions = [
 			{ id: 'all', label: 'All', threshold: 0, matchers: [] },
