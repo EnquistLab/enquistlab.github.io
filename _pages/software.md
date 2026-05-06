@@ -398,6 +398,8 @@ Code and tutorials for applying [Trait Driver Theory](https://www.nature.com/art
 | BIEN Traits | Validated plant trait measurements | [biendata.org](https://biendata.org/) |
 | GBIF / TNRS | Taxonomic resolution tools | [tnrs.biendata.org](https://tnrs.biendata.org/) |
 
+> **Note:** SALVIAS has now migrated to [BIEN](https://biendata.org/) and the [TNRS](https://tnrs.biendata.org/). Plot inventory data previously hosted at salvias.net is now accessible through the BIEN data portal and its associated R package and web services.
+
 ---
 
 ### Scaling and Allometry Data
