@@ -26,7 +26,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 	<p class="publication-topic-caption publication-topic-caption--hint">Start with broad themes (Scaling, Trait Ecology, Biodiversity Informatics), then refine with search.</p>
 </div>
 
-{% include bib_search.liquid %}
+<input type="text" id="pub-search" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Search all publications…" aria-label="Search publications">
 
 <p id="publication-topic-empty" class="publication-topic-empty" hidden>No publications match the current subject tab and search query.</p>
 
@@ -213,7 +213,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 
 <script>
 	document.addEventListener('DOMContentLoaded', function () {
-		const input = document.getElementById('bibsearch');
+		const input = document.getElementById('pub-search');
 		const container = document.getElementById('full-publication-list');
 		const tabsContainer = document.getElementById('publication-topic-tabs');
 		const emptyState = document.getElementById('publication-topic-empty');
