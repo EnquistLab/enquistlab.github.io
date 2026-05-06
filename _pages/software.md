@@ -398,3 +398,119 @@ Code and tutorials for applying [Trait Driver Theory](https://www.nature.com/art
 | BIEN Traits | Validated plant trait measurements | [biendata.org](https://biendata.org/) |
 | GBIF / TNRS | Taxonomic resolution tools | [tnrs.biendata.org](https://tnrs.biendata.org/) |
 
+---
+
+### Scaling and Allometry Data
+
+Open datasets from lab publications spanning biomass allocation, nutrient scaling, leaf morphology, community productivity, and whole-plant allometry. These datasets underpin cross-scale tests of metabolic scaling theory and macroecological allometry and are made available to support reproducible synthesis.
+
+<div class="allometry-dataset-grid">
+
+<div class="allometry-dataset-card">
+  <h4>Biomass Allocation and Growth — Niklas &amp; Enquist (2004)</h4>
+  <p class="dataset-badge">ORNL DAAC · 703</p>
+  <p>Biomass allocation and growth data for seeded plants spanning diverse life forms and environments. Captures relationships between root, stem, leaf, and reproductive biomass as a function of total plant mass — foundational for testing metabolic scaling predictions of biomass partitioning across plant size and functional group.</p>
+  <p><strong>Why it matters:</strong> One of the most-cited compilations for cross-species allometric analysis of plant biomass fractions. Directly underpins tests of WBE/MST predictions and the ontogenetic allometry literature.</p>
+  <p>
+    <strong>Citation:</strong> Niklas, K. J., &amp; Enquist, B. J. (2004). <em>Biomass Allocation and Growth Data of Seeded Plants</em> (Version 1). ORNL DAAC. <a href="https://doi.org/10.3334/ORNLDAAC/703" target="_blank" rel="noopener">doi:10.3334/ORNLDAAC/703</a><br>
+    <strong>Data:</strong> <a href="https://www.earthdata.nasa.gov/data/catalog/ornl-cloud-biomass-allocation-703-1" target="_blank" rel="noopener">NASA Earthdata / ORNL DAAC 703</a> · Accessed: 2026-05-06
+  </p>
+</div>
+
+<div class="allometry-dataset-card">
+  <h4>N and P Scaling in Seed Plants — Kerkhoff et al. (2006)</h4>
+  <p class="dataset-badge">American Naturalist · 168:4 · E103–E122</p>
+  <p>Comparative scaling analysis of nitrogen (N) and phosphorus (P) content across leaves, stems, roots, and reproductive structures of 1,287 species in 152 seed plant families. Includes N:P ratios within and across organs, with contrasts between woody and herbaceous taxa.</p>
+  <p><strong>Why it matters:</strong> Plant biomass and nutrient allocation directly connect evolved strategies of plant species to the material and energy cycles of ecosystems. N and P availability frequently limits plant growth, and this global compilation establishes scaling rules linking stoichiometry to plant size and growth form — essential for earth-system models of nutrient cycling.</p>
+  <p>
+    <strong>Citation:</strong> Kerkhoff, A. J., Fagan, W. F., Elser, J. J., &amp; Enquist, B. J. (2006). Phylogenetic and growth form variation in the scaling of nitrogen and phosphorus in the seed plants. <em>The American Naturalist, 168</em>(4), E103–E122. <a href="https://doi.org/10.1086/507879" target="_blank" rel="noopener">doi:10.1086/507879</a><br>
+    <strong>Data:</strong> <a href="https://www.journals.uchicago.edu/doi/suppl/10.1086/507879/suppl_file/appendixc.zip" target="_blank" rel="noopener">Appendix C (ZIP)</a> — University of Chicago Journals supplemental file
+  </p>
+</div>
+
+<div class="allometry-dataset-card">
+  <h4>Leaf Allometry — Price &amp; Enquist (2007)</h4>
+  <p class="dataset-badge">Ecology · 88:1132–1141</p>
+  <p>Intra- and interspecific scaling of leaf area, leaf mass, petiole dimensions, and tissue density for 622 leaves across 21 species (~30 leaves per species). Extends the WBE model to leaf-level morphology and provides a rare intraspecific allometry benchmark.</p>
+  <p><strong>Why it matters:</strong> Intraspecific allometry is poorly characterized relative to interspecific patterns. This dataset enables direct tests of whether the same scaling exponents hold within and across species — a key question for scaling theory — and provides ground-truth data for leaf economic spectrum and hydraulic architecture models.</p>
+  <p>
+    <strong>Citation:</strong> Price, C. A., &amp; Enquist, B. J. (2007). Scaling mass and morphology in leaves: an extension of the WBE model. <em>Ecology, 88</em>(5), 1132–1141. <a href="https://doi.org/10.1890/06-1158" target="_blank" rel="noopener">doi:10.1890/06-1158</a><br>
+    <strong>Data:</strong> Contact the lab — data from Price &amp; Enquist (2007); see paper for variable definitions.
+  </p>
+</div>
+
+<div class="allometry-dataset-card">
+  <h4>Sonoran Desert Plant Allometry — Price &amp; Enquist (2006)</h4>
+  <p class="dataset-badge">Sonoran Desert · 1,538 individuals</p>
+  <p>Scaling of biomass, cover, height, canopy dimensions, and basal stem diameter for 1,538 individual plants native and dominant in the Sonoran Desert around Tucson, Arizona. Data span a broad range of life forms and growth architectures characteristic of Sonoran Desert vegetation.</p>
+  <p><strong>Why it matters:</strong> Among the most complete allometric datasets for a dryland plant community. Enables tests of universal versus biome-specific scaling exponents, supports remote sensing calibration (cover ↔ biomass), and provides a benchmark for semi-arid shrubland structure models.</p>
+  <p>
+    <strong>Citation:</strong> Price, C. A., &amp; Enquist, B. J. (2006); Price, C. A. (2006, Dissertation).<br>
+    <strong>Data:</strong> A .csv file (<em>Price_Enquist_Sonoran_Biomas_Data</em>) is available — please <a href="{{ '/contact/' | relative_url }}">contact the lab</a> if interested in using this dataset.
+  </p>
+</div>
+
+<div class="allometry-dataset-card">
+  <h4>Global Net Primary Productivity — Michaletz et al. (2014)</h4>
+  <p class="dataset-badge">Nature · 2014</p>
+  <p>Global net primary productivity (NPP) data assembled to test metabolic scaling predictions of ecosystem-level productivity as a function of plant biomass and climate. These data span biomes from tundra to tropical forest and are linked directly to Figure 1 in the published paper.</p>
+  <p><strong>Why it matters:</strong> Directly tests the metabolic scaling prediction that ecosystem NPP scales with standing biomass across biomes, linking individual-level physiology to global carbon cycling. Essential reference for earth-system model benchmarking and macroecological theory.</p>
+  <p>
+    <strong>Citation:</strong> Michaletz, S. T., Cheng, D., Kerkhoff, A. J., &amp; Enquist, B. J. (2014). Convergence of terrestrial plant production across global climate gradients. <em>Nature, 512</em>, 39–43. <a href="https://doi.org/10.1038/nature13470" target="_blank" rel="noopener">doi:10.1038/nature13470</a><br>
+    <strong>Data:</strong> Available via <a href="https://www.nature.com/articles/nature13470#Fig1" target="_blank" rel="noopener">Figure 1 in the online paper</a>; for those without journal access, <a href="https://www.nature.com/articles/nature13470/figures/1" target="_blank" rel="noopener">nature13470-f1</a>.
+  </p>
+</div>
+
+<div class="allometry-dataset-card">
+  <h4>Whole-Community Phytomass, Nutrients, and Productivity — Kerkhoff et al. (2005)</h4>
+  <p class="dataset-badge">Cross-biome compilation</p>
+  <p>Compiled dataset on standing phytomass, net primary productivity (NPP), and vegetation nutrient (N and/or P) content of whole plant communities from published sources. Communities span arctic tundra to tropical forests across a wide range of environmental conditions and functional types. Nutrient data integrate all living vegetative components (roots, shoots, leaves) normalized to total vegetation biomass.</p>
+  <p><strong>Why it matters:</strong> One of the few cross-biome datasets linking community-level biomass, productivity, and stoichiometry simultaneously. Enables tests of Ecological Stoichiometry theory at the community scale and links individual-level nutrient scaling to ecosystem nutrient budgets — a critical bridge between organism-scale allometry and earth-system biogeochemistry.</p>
+  <p>
+    <strong>Citation:</strong> Kerkhoff, A. J., Enquist, B. J., Elser, J. J., &amp; Fagan, W. F. (2005). Plant allometry, stoichiometry and the temperature-dependence of primary productivity. <em>Global Ecology and Biogeography, 14</em>(6), 585–598.<br>
+    <strong>Data:</strong> Contact the lab for access to the compiled dataset.
+  </p>
+</div>
+
+</div>
+
+<style>
+  .allometry-dataset-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.1rem;
+    margin: 1rem 0 0.5rem;
+  }
+  .allometry-dataset-card {
+    border: 1px solid var(--global-divider-color, #ddd);
+    border-radius: 0.7rem;
+    padding: 1rem 1.1rem;
+    background: color-mix(in srgb, var(--global-card-bg-color, #fff) 93%, var(--global-theme-color, #4a90d9) 7%);
+  }
+  .allometry-dataset-card h4 {
+    margin: 0 0 0.3rem;
+    color: var(--global-theme-color);
+    font-size: 1rem;
+  }
+  .allometry-dataset-card .dataset-badge {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: var(--global-text-color-light, #666);
+    background: color-mix(in srgb, var(--global-theme-color, #4a90d9) 12%, transparent);
+    border-radius: 0.35rem;
+    padding: 0.1rem 0.55rem;
+    margin-bottom: 0.5rem;
+  }
+  .allometry-dataset-card p {
+    font-size: 0.91rem;
+    margin: 0.4rem 0;
+  }
+  @media (max-width: 600px) {
+    .allometry-dataset-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
