@@ -112,7 +112,7 @@ Brown et al. extended MST into the **Metabolic Theory of Ecology (MTE)**, showin
 
 While MST explains size- and temperature-dependent variation in metabolic flux, **Trait Driver Theory** addresses a complementary question: why do communities assemble the functional trait distributions they do, and how will those distributions shift as environments change? TDT is a quantitative, mechanistic framework that predicts the mean, variance, and shape of functional trait distributions in a local community as a function of environmental drivers — temperature, water availability, disturbance, and resource supply ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070)).
 
-The core logic is probabilistic and multi-scale. At the regional scale, the pool of available species defines a prior distribution of trait values shaped by evolutionary history and dispersal. At the local scale, environmental filters and biotic interactions select from that pool, shifting the realized trait distribution in predictable directions. TDT formalizes this filtering mathematically: environmental drivers compress, shift, or broaden the trait distribution, with measurable consequences for community function. Because intraspecific trait variation (ITV) contributes substantially to total community-level trait variance, TDT explicitly partitions variation across levels — individual, population, species, and community — rather than collapsing it to species means ([Enquist et al. 2019](https://www.nature.com/articles/s41477-019-0506-6)).
+The core logic is probabilistic and multi-scale. At the regional scale, the pool of available species defines a prior distribution of trait values shaped by evolutionary history and dispersal. At the local scale, environmental filters and biotic interactions select from that pool, shifting the realized trait distribution in predictable directions. TDT formalizes this filtering mathematically: environmental drivers compress, shift, or broaden the trait distribution, with measurable consequences for community function. Because intraspecific trait variation (ITV) contributes substantially to total community-level trait variance, TDT explicitly partitions variation across levels — individual, population, species, and community — rather than collapsing it to species means. Empirical tests across tropical forests spanning broad temperature gradients confirm that environmental drivers shift functional trait distributions in the directions TDT predicts ([Enquist et al. 2017](https://onlinelibrary.wiley.com/doi/10.1111/geb.12645)).
 
 TDT bridges scales that are often treated separately in ecology: individual physiology sets the trait values that are possible; evolutionary history determines what is available in a regional pool; environment determines what is favored locally; and the aggregate of these processes produces the community-level functional fingerprint that shapes carbon exchange, water flux, and competitive dynamics at ecosystem scale. This positions TDT as a theoretical spine connecting leaf-level measurements to global biodiversity forecasting.
 
@@ -122,7 +122,7 @@ TDT bridges scales that are often treated separately in ecology: individual phys
 
 **Key papers:**
 - [Enquist et al. (2015)](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070) — original TDT framework and predictions
-- [Enquist et al. (2019)](https://www.nature.com/articles/s41477-019-0506-6) — extending TDT with intraspecific variation (*Nature Plants*)
+- [Enquist et al. (2017)](https://onlinelibrary.wiley.com/doi/10.1111/geb.12645) — assessing trait-based scaling theory across tropical forests spanning a broad temperature gradient (*Global Ecol. Biogeogr.*)
 
 <div style="clear:both;"></div>
 
@@ -151,7 +151,7 @@ Plant functional traits — measurable attributes such as leaf size, wood densit
 **From traits to prediction.** Our approach treats traits not merely as descriptors but as mechanistic currencies that link physiology, community assembly, and ecosystem function. By measuring how traits vary across individuals, species, and environments — and by integrating those measurements with metabolic theory — we develop frameworks that forecast how plant communities will respond to climate change, land-use pressure, and other global drivers.
 
 **Core contributions and ongoing work:**
-- Developing and testing [Trait Driver Theory (TDT)](https://www.nature.com/articles/s41477-019-0506-6), a general framework predicting how trait distributions in a community shift as environmental conditions change ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070))
+- Developing and testing [Trait Driver Theory (TDT)](https://onlinelibrary.wiley.com/doi/10.1111/geb.12645), a general framework predicting how trait distributions in a community shift as environmental conditions change ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070))
 - Quantifying intraspecific trait variation (ITV) and its role in community stability, climate buffering, and ecological forecasting — including new bootstrap uncertainty methods ([traitstrap](https://cran.r-project.org/package=traitstrap))
 - Integrating remotely sensed spectral data with ground-based trait measurements to scale functional diversity from plots to continents (Durán et al. 2019 *Science Advances*; Wieczynski et al. 2022 *Ecography*)
 - Contributing to global trait databases including TRY, OpenTraits, and BIEN, and establishing open-science standards for trait data ([Gallagher et al. 2020](https://doi.org/10.1038/s41559-020-1109-6) *Nature Ecology & Evolution*; Keller et al. 2023 *Methods in Ecology & Evolution*)
@@ -163,7 +163,7 @@ Plant functional traits — measurable attributes such as leaf size, wood densit
 
 ### Trait Driver Theory & Functional Ecology
 
-[Trait Driver Theory (TDT)](https://www.nature.com/articles/s41477-019-0506-6) is a quantitative, mechanistic framework that predicts how the statistical distribution of functional traits in a community responds to environmental drivers — temperature, water availability, disturbance, and land use. TDT bridges individual-level physiology, community assembly, and ecosystem function, providing a theoretical spine for the lab's broader trait-based program ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070)).
+[Trait Driver Theory (TDT)](https://onlinelibrary.wiley.com/doi/10.1111/geb.12645) is a quantitative, mechanistic framework that predicts how the statistical distribution of functional traits in a community responds to environmental drivers — temperature, water availability, disturbance, and land use. TDT bridges individual-level physiology, community assembly, and ecosystem function, providing a theoretical spine for the lab's broader trait-based program ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070)).
 
 Applications include:
 - Predicting community trait shifts under climate change
