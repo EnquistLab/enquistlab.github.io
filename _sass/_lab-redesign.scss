@@ -398,27 +398,47 @@ h6,
 }
 
 .about-article {
-    width: min(100vw - 4rem, 90rem);
-    max-width: none;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    padding: 0 2rem;
-    box-sizing: border-box;
+  // Escape the 930px .container and center content at up to 1080px with balanced gutters
+  width: 100vw;
+  max-width: none;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 0 max(2rem, calc((100vw - 1080px) / 2));
+  box-sizing: border-box;
 
-    .profile.float-right {
-      width: 36%;
-      margin-left: 1.5rem;
-    }
+  // Two-column CSS Grid: text on left, profile image on right
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 3rem;
+  align-items: start;
 
-    .about-cta-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 1rem;
-      margin: 1.75rem 0 2.25rem;
-    }
+  > .profile.float-right {
+    grid-column: 2;
+    grid-row: 1;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  > .clearfix {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  // Any remaining grid children (social, etc.) stay in column 1
+  > .social {
+    grid-column: 1;
+  }
+
+  .about-cta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.75rem 0 2.25rem;
+  }
+
   .about-cta-grid .btn {
     min-height: 4rem;
     padding: 0.95rem 1.4rem;
@@ -446,11 +466,14 @@ h6,
   }
 
   @media (max-width: 768px) {
+    display: block;
+    padding: 0 1.25rem;
+
     .about-cta-grid {
       grid-template-columns: 1fr;
     }
 
-    .profile.float-right {
+    > .profile.float-right {
       width: 100%;
       float: none;
       margin: 0 0 1.5rem;
