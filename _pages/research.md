@@ -67,6 +67,7 @@ The lab's empirical programs are grounded in two interconnected theoretical fram
     <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Recent lab papers</div>
     <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
       <li style="margin-bottom:0.35rem;"><a href="https://www.annualreviews.org/content/journals/10.1146/annurev-ecolsys-102723-054525">Vasseur, Mahaut, Enquist &amp; Violle (2025)</a> — From organism traits to ecosystem processes: why size is so important. <em>Ann. Rev. Ecol. Evol. Syst.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0010">Enquist, Erwin, Savage &amp; Marquet (2024)</a> — Scaling approaches and macroecology for ecological resilience in the Anthropocene. <em>Phil. Trans. B</em></li>
       <li style="margin-bottom:0.35rem;"><a href="https://www.pnas.org/doi/10.1073/pnas.2209196121">Enquist, Kempes &amp; West (2024)</a> — Developing a predictive science of the biosphere. <em>PNAS</em></li>
       <li style="margin-bottom:0.35rem;"><a href="https://www.nature.com/articles/s41467-020-14369-y">Enquist et al. (2020)</a> — The megabiota are disproportionately important for biosphere functioning. <em>Nature Communications</em></li>
     </ul>
@@ -77,7 +78,7 @@ Metabolic Scaling Theory rests on a central insight: the geometry of biological 
 
 From this foundation, the theory generates a unified set of predictions. Growth rates, lifespan, reproductive output, and the turnover of energy and biomass all scale predictably with body size and temperature ([West, Brown & Enquist 1999](https://doi.org/10.1126/science.284.5420.1677)). In plants, the fractal vascular network constrains stem diameter, height, and leaf-area allometries ([West, Enquist & Brown 1999](https://doi.org/10.1038/23040)), and metabolic constraints set population density and above-ground biomass across forests ([Enquist, Brown & West 1998](https://doi.org/10.1038/28048)). Temperature enters through a Boltzmann–Arrhenius activation-energy factor, grounding MST thermodynamically and connecting it directly to global-change projections.
 
-Brown et al. extended MST into the **Metabolic Theory of Ecology (MTE)**, showing that the same mass and temperature scaling permeates population dynamics, species diversity gradients, ecosystem energy flux, and elemental stoichiometry ([Brown et al. 2004](https://doi.org/10.1890/03-9000)). Current Enquist Lab work extends and tests MST predictions at ecosystem scale — connecting allometric constraints to forest carbon stocks, demography, and the structure of plant communities across biomes.
+Brown et al. extended MST into the **Metabolic Theory of Ecology (MTE)**, showing that the same mass and temperature scaling permeates population dynamics, species diversity gradients, ecosystem energy flux, and elemental stoichiometry. Current Enquist Lab work extends and tests MST predictions at ecosystem scale — connecting allometric constraints to forest carbon stocks, demography, and the structure of plant communities across biomes. Recent work examines how MST principles scale from organism traits and stoichiometry to ecosystem function ([Enquist, Michaletz & Kerkhoff 2016](#)), how the megabiota disproportionately drive biosphere functioning ([Enquist et al. 2020](https://www.nature.com/articles/s41467-020-14369-y)), and how scaling frameworks underpin assessments of ecological resilience in the Anthropocene ([Enquist, Erwin, Savage & Marquet 2024](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0010)).
 
 **Scope:** subcellular metabolic pathways to biome-level carbon budgets.
 **Goal:** derive macroecological patterns from first principles of physics and network geometry.
@@ -88,8 +89,11 @@ Brown et al. extended MST into the **Metabolic Theory of Ecology (MTE)**, showin
 - [West, Brown & Enquist (1999)](https://doi.org/10.1126/science.284.5420.1677) — fractal geometry and allometric scaling across life
 - [West, Enquist & Brown (1999)](https://doi.org/10.1038/23040) — general model for plant vascular structure and allometry (*Nature*)
 - [Enquist, Brown & West (1998)](https://doi.org/10.1038/28048) — plant population density and biomass scaling
-- [Brown et al. (2004)](https://doi.org/10.1890/03-9000) — Metabolic Theory of Ecology
 - [West, Enquist & Brown (2009)](https://doi.org/10.1073/pnas.0812294106) — a general quantitative theory of forest structure and dynamics
+- Enquist, Michaletz & Kerkhoff (2016) — Toward a general scaling theory linking traits, stoichiometry, and body size to ecosystem function. In: *Ecosystems: A Biogeoscience Approach* (Johnson & Martin, eds.), Cambridge University Press
+- [Enquist et al. (2020)](https://www.nature.com/articles/s41467-020-14369-y) — The megabiota are disproportionately important for biosphere functioning (*Nature Communications*)
+- [Enquist, Erwin, Savage & Marquet (2024)](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0010) — Scaling approaches and macroecology provide a foundation for assessing ecological resilience in the Anthropocene (*Phil. Trans. B*)
+- [Vasseur, Mahaut, Enquist & Violle (2025)](https://www.annualreviews.org/content/journals/10.1146/annurev-ecolsys-102723-054525) — From organism traits to ecosystem processes: why size is so important (*Ann. Rev. Ecol. Evol. Syst.*)
 
 <div style="clear:both;"></div>
 
