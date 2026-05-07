@@ -243,16 +243,20 @@ h6,
 // Recruitment / status chip below home stats
 .home-pillars {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.25rem;
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 0 auto 2.5rem;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 700px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (max-width: 540px) {
+  @media (max-width: 440px) {
     grid-template-columns: 1fr;
   }
 }

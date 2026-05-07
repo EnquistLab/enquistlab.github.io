@@ -41,6 +41,12 @@ nav_order: 1
     <div class="home-pillar__sub">Scenario-based forecasts for extinction risk and protected-area design</div>
   </a>
 
+  <a class="home-pillar" href="{{ '/research/' | relative_url }}">
+    <div class="home-pillar__number">~300k</div>
+    <div class="home-pillar__head">Modeled species range products</div>
+    <div class="home-pillar__sub">Global plant diversity mapped and forecast</div>
+  </a>
+
 </div>
 
 <div class="home-recruitment-status">
