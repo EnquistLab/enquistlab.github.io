@@ -226,11 +226,13 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		const clearBtn = document.getElementById('pub-search-clear');
 		const resultCount = document.getElementById('pub-search-count');
 
-		clearBtn.addEventListener('click', function () {
-			input.value = '';
-			input.dispatchEvent(new Event('input'));
-			input.focus();
-		});
+		if (clearBtn) {
+			clearBtn.addEventListener('click', function () {
+				input.value = '';
+				input.dispatchEvent(new Event('input'));
+				input.focus();
+			});
+		}
 
 		const topicDefinitions = [
 			{ id: 'all', label: 'All', threshold: 0, matchers: [] },
@@ -542,7 +544,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			});
 
 			// Show/hide clear button
-			clearBtn.hidden = !searchActive;
+			if (clearBtn) clearBtn.hidden = !searchActive;
 
 			yearSections.forEach((section) => {
 				let visibleCount = 0;
@@ -572,12 +574,14 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			emptyState.hidden = visibleTotal !== 0;
 
 			// Update result count
-			if (searchActive) {
-				resultCount.textContent = visibleTotal === 0
-					? 'No papers matched your search.'
-					: `${visibleTotal} paper${visibleTotal === 1 ? '' : 's'} matched — scroll down to see all results.`;
-			} else {
-				resultCount.textContent = '';
+			if (resultCount) {
+				if (searchActive) {
+					resultCount.textContent = visibleTotal === 0
+						? 'No papers matched your search.'
+						: `${visibleTotal} paper${visibleTotal === 1 ? '' : 's'} matched — scroll down to see all results.`;
+				} else {
+					resultCount.textContent = '';
+				}
 			}
 
 			// Scroll to first visible result when searching
