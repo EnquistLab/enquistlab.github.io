@@ -21,8 +21,9 @@ nav_order: 1
 <div class="home-pillars">
 
   <a class="home-pillar" href="{{ '/research/' | relative_url }}">
+    <div class="home-pillar__number">~17k</div>
     <div class="home-pillar__head">Theory for Predictive Biodiversity Science</div>
-    <div class="home-pillar__sub">From organismal traits to ecosystem and biosphere function</div>
+    <div class="home-pillar__sub">Citations to core scaling papers · 10+ NSF/NASA/DOE grants</div>
   </a>
 
   <a class="home-pillar" href="https://biendata.org" target="_blank" rel="noopener">
@@ -32,13 +33,15 @@ nav_order: 1
   </a>
 
   <a class="home-pillar" href="{{ '/resources/' | relative_url }}">
+    <div class="home-pillar__number">100M+</div>
     <div class="home-pillar__head">Open tools for ecology</div>
-    <div class="home-pillar__sub">BIEN, traitstrap, fluxible, hypervolume, and biodiversity web services</div>
+    <div class="home-pillar__sub">Plant names resolved via TNRS · BIEN, traitstrap, hypervolume, and biodiversity web services</div>
   </a>
 
   <a class="home-pillar" href="{{ '/impacts/' | relative_url }}">
+    <div class="home-pillar__number">150+</div>
     <div class="home-pillar__head">Decision-facing conservation</div>
-    <div class="home-pillar__sub">Scenario-based forecasts for extinction risk and protected-area design</div>
+    <div class="home-pillar__sub">Countries with scenario-based extinction risk and protected-area forecasts</div>
   </a>
 
   <a class="home-pillar" href="{{ '/research/' | relative_url }}">
