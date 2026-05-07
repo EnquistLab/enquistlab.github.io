@@ -18,19 +18,29 @@ nav_order: 1
   <p>From individual leaves to continental forests — we measure, model, and predict how life is organized across scales, and how it responds to a changing world.</p>
 </div>
 
-<div class="home-stats">
-  <div class="home-stat">
-    <span class="home-stat__number">~85M</span>
-    <span class="home-stat__label"><a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210x.70274" target="_blank" rel="noopener" style="color:inherit;">plant occurrence records</a><br><small style="font-size:0.7em;font-weight:normal;letter-spacing:0;"><a href="https://biendata.org" target="_blank" rel="noopener" style="color:inherit;">Western Hemisphere vascular plants</a></small></span>
-  </div>
-  <div class="home-stat">
-    <span class="home-stat__number">100k+</span>
-    <span class="home-stat__label">modeled species range products</span>
-  </div>
-  <div class="home-stat">
-    <span class="home-stat__number">400+</span>
-    <span class="home-stat__label">publications</span>
-  </div>
+<div class="home-pillars">
+
+  <a class="home-pillar" href="{{ '/research/' | relative_url }}">
+    <div class="home-pillar__head">Theory for Predictive Biodiversity Science</div>
+    <div class="home-pillar__sub">From organismal traits to ecosystem and biosphere function</div>
+  </a>
+
+  <a class="home-pillar" href="https://biendata.org" target="_blank" rel="noopener">
+    <div class="home-pillar__number">284M+</div>
+    <div class="home-pillar__head">Plant observations</div>
+    <div class="home-pillar__sub">Integrated records, traits, plots, taxonomy, and geographic QA</div>
+  </a>
+
+  <a class="home-pillar" href="{{ '/resources/' | relative_url }}">
+    <div class="home-pillar__head">Open tools for ecology</div>
+    <div class="home-pillar__sub">BIEN, traitstrap, fluxible, hypervolume, and biodiversity web services</div>
+  </a>
+
+  <a class="home-pillar" href="{{ '/impacts/' | relative_url }}">
+    <div class="home-pillar__head">Decision-facing conservation</div>
+    <div class="home-pillar__sub">Scenario-based forecasts for extinction risk and protected-area design</div>
+  </a>
+
 </div>
 
 <div class="home-recruitment-status">
