@@ -129,13 +129,13 @@ Rather than producing a single "best" answer, we show how priorities shift acros
 
 The scale of the biodiversity crisis is not inevitable. Our research shows that the combination of ambitious climate action and strategic land conservation can cut projected extinction risk by more than half compared to a business-as-usual future.
 
-That finding — [Hannah et al. 2020](https://doi.org/10.1038/s41558-020-0704-2) — quantifies what is at stake: protecting 30% of the right land while holding warming to approximately 2°C could prevent the majority of projected climate-driven species losses in the tropics. The choice between those two futures is a political and financial one — and science can sharpen exactly what each path costs.
+That finding — [Hannah et al. 2020](https://www.researchgate.net/publication/339513215_30_land_conservation_and_climate_action_reduces_tropical_extinction_risk_by_more_than_50) — quantifies what is at stake: protecting 30% of the right land while holding warming to approximately 2°C could prevent the majority of projected climate-driven species losses in the tropics. The choice between those two futures is a political and financial one — and science can sharpen exactly what each path costs.
 
 Our lab focuses on making extinction risk estimates credible and decision-ready:
 
 - We forecast vulnerability for thousands of plant species across multiple climate scenarios, making uncertainty explicit rather than hiding it inside a single projection.
 - We identify which regions face compounding pressures — small ranges, rapid climate shifts, and limited existing protection — so that conservation effort can be targeted where it matters most.
-- We apply these frameworks to priority groups including cacti ([Pillet et al. 2022](https://doi.org/10.1038/s41477-022-01130-0)), tropical floras, and globally distributed plants, producing risk summaries that can be updated as new data and models arrive.
+- We apply these frameworks to priority groups including cacti ([Pillet et al. 2022](https://www.nature.com/articles/s41477-022-01130-0)), tropical floras, and globally distributed plants, producing risk summaries that can be updated as new data and models arrive.
 
 The bottom line: extinction risk is not a fixed number. It is a policy variable — and we can show exactly how much it changes depending on the decisions made in the next decade.
 
