@@ -129,7 +129,7 @@ Rather than producing a single "best" answer, we show how priorities shift acros
 
 The scale of the biodiversity crisis is not inevitable. Our research shows that the combination of ambitious climate action and strategic land conservation can cut projected extinction risk by more than half compared to a business-as-usual future.
 
-That finding, published in *Nature Climate Change* ([Hannah et al. 2020](https://www.researchgate.net/publication/339513215_30_land_conservation_and_climate_action_reduces_tropical_extinction_risk_by_more_than_50)), quantifies what is at stake: protecting 30% of the right land while holding warming to approximately 2°C could prevent the majority of projected climate-driven species losses in the tropics. The choice between those two futures is a political and financial one — and science can sharpen exactly what each path costs.
+That finding — [Hannah et al. 2020](https://doi.org/10.1038/s41558-020-0704-2) — quantifies what is at stake: protecting 30% of the right land while holding warming to approximately 2°C could prevent the majority of projected climate-driven species losses in the tropics. The choice between those two futures is a political and financial one — and science can sharpen exactly what each path costs.
 
 Our lab focuses on making extinction risk estimates credible and decision-ready:
 
