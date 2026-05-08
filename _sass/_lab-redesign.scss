@@ -82,11 +82,12 @@ h6,
 // Publication list items should not be constrained to 82ch —
 // paper titles and author strings need the full column width.
 // Also exempt the publication page intro text and toolbar captions.
+// NOTE: selectors need .post prefix (specificity 0,2,x) to beat .post p (0,1,1).
 #full-publication-list li,
 #full-publication-list p,
-.publication-topic-caption,
-.publication-topic-toolbar p,
-.pub-intro-text {
+.post .publication-topic-caption,
+.post .publication-topic-toolbar p,
+.post .pub-intro-text {
   max-width: none;
 }
 
