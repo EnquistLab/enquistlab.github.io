@@ -202,29 +202,19 @@ Our goal is to give protected-area planners the same kind of scenario-aware, unc
 
 <section id="partner">
 
-<div style="background: color-mix(in srgb, var(--global-theme-color) 8%, transparent); border-left: 4px solid var(--global-theme-color); border-radius: 0 10px 10px 0; padding: 2.8rem 2.4rem 2.4rem; margin: 2.5rem 0 1rem;">
+<div style="background: #eef5f0; border-left: 4px solid #1f5a44; border-radius: 0 10px 10px 0; padding: 2.8rem 2.4rem 2.4rem; margin: 2.5rem 0 1rem;">
 
-<h2 style="margin-top: 0; font-size: 1.9rem; letter-spacing: -0.01em;">Partner With Us</h2>
+<h2 style="margin-top: 0; font-size: 1.9rem; letter-spacing: -0.01em; color: #1e2a2f;">Partner With Us</h2>
 
-<p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1.4rem; font-style: italic;">
-Current and recent partners include:
-</p>
-
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem; align-items: center; margin-bottom: 1.8rem;">
-  <a href="https://www.unesco.org/en/biodiversity-conservation" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.75); border: 1px solid rgba(0,0,0,0.12); border-radius: 6px; padding: 0.45rem 0.9rem; font-size: 0.97rem; font-weight: 600; color: #1a1a1a; text-decoration: none;" title="UNESCO Biodiversity Conservation">UNESCO</a>
-  <a href="https://www.iucn.org/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.75); border: 1px solid rgba(0,0,0,0.12); border-radius: 6px; padding: 0.45rem 0.9rem; font-size: 0.97rem; font-weight: 600; color: #1a1a1a; text-decoration: none;" title="IUCN">IUCN</a>
-  <a href="https://www.sparc-website.org/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.75); border: 1px solid rgba(0,0,0,0.12); border-radius: 6px; padding: 0.45rem 0.9rem; font-size: 0.97rem; font-weight: 600; color: #1a1a1a; text-decoration: none;" title="SPARC">SPARC</a>
-</div>
-
-<p style="font-size: 1.13rem; line-height: 1.7; max-width: 680px; margin-bottom: 1.6rem;">
+<p style="font-size: 1.13rem; line-height: 1.7; max-width: 680px; margin-bottom: 1.4rem; color: #1e2a2f;">
 Whether you represent a conservation organization, a government agency, a philanthropic foundation, or a science-policy initiative — we want to hear from you. Our lab has deep experience translating biodiversity data into planning-ready evidence, and we are actively seeking collaborations that connect rigorous science to real-world conservation decisions.
 </p>
 
-<p style="font-size: 1.05rem; line-height: 1.65; margin-bottom: 1.8rem;">
+<p style="font-size: 1.05rem; line-height: 1.65; margin-bottom: 1.8rem; color: #1e2a2f;">
 We can support spatial prioritization, extinction risk assessment, scenario analysis, protected-area evaluation, and decision-support tool development. We are especially interested in partnerships that center equity, long-term data stewardship, and open science.
 </p>
 
-<a class="status-chip status-chip--cta" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
+<a class="status-chip status-chip--info" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
 
 </div>
 
