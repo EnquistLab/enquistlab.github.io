@@ -190,6 +190,10 @@ Our goal is to give protected-area planners the same kind of scenario-aware, unc
 <strong>Climate risk for cacti</strong> — <a href="https://doi.org/10.1038/s41477-022-01130-0">Pillet et al. 2022</a> projected elevated extinction risk of cacti under climate change using species distribution models across multiple climate scenarios.
 </li>
 
+<li style="border-left: 3px solid var(--global-theme-color); padding: 0.7rem 0 0.7rem 1.2rem; margin-bottom: 1.1rem;">
+<strong>UNESCO World Heritage biodiversity report</strong> — <a href="https://doi.org/10.58337/LSRE8424">UNESCO &amp; IUCN 2023</a> (<em>World Heritage: a unique contribution to biodiversity conservation</em>) estimated that more than 16,000 threatened plant species occur across UNESCO World Heritage sites — a calculation made possible by the BIEN database. The report documents that UNESCO World Heritage sites protect more than 20,000 threatened species across all major taxonomic groups. Data from BIEN were integral to the plant estimates in that analysis.
+</li>
+
 </ul>
 
 </section>
@@ -201,6 +205,16 @@ Our goal is to give protected-area planners the same kind of scenario-aware, unc
 <div style="background: color-mix(in srgb, var(--global-theme-color) 8%, transparent); border-left: 4px solid var(--global-theme-color); border-radius: 0 10px 10px 0; padding: 2.8rem 2.4rem 2.4rem; margin: 2.5rem 0 1rem;">
 
 <h2 style="margin-top: 0; font-size: 1.9rem; letter-spacing: -0.01em;">Partner With Us</h2>
+
+<p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1.4rem; font-style: italic;">
+Current and recent partners include:
+</p>
+
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem; align-items: center; margin-bottom: 1.8rem;">
+  <a href="https://www.unesco.org/en/biodiversity-conservation" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.75); border: 1px solid rgba(0,0,0,0.12); border-radius: 6px; padding: 0.45rem 0.9rem; font-size: 0.97rem; font-weight: 600; color: #1a1a1a; text-decoration: none;" title="UNESCO Biodiversity Conservation">UNESCO</a>
+  <a href="https://www.iucn.org/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.75); border: 1px solid rgba(0,0,0,0.12); border-radius: 6px; padding: 0.45rem 0.9rem; font-size: 0.97rem; font-weight: 600; color: #1a1a1a; text-decoration: none;" title="IUCN">IUCN</a>
+  <a href="https://www.sparc-website.org/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.75); border: 1px solid rgba(0,0,0,0.12); border-radius: 6px; padding: 0.45rem 0.9rem; font-size: 0.97rem; font-weight: 600; color: #1a1a1a; text-decoration: none;" title="SPARC">SPARC</a>
+</div>
 
 <p style="font-size: 1.13rem; line-height: 1.7; max-width: 680px; margin-bottom: 1.6rem;">
 Whether you represent a conservation organization, a government agency, a philanthropic foundation, or a science-policy initiative — we want to hear from you. Our lab has deep experience translating biodiversity data into planning-ready evidence, and we are actively seeking collaborations that connect rigorous science to real-world conservation decisions.
