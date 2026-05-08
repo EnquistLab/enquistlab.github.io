@@ -65,9 +65,7 @@ nav_order: 3.5
 
 ---
 
-<section id="sparc-app">
-
-## Explore Biodiversity Conservation Priorities — Interactively
+## Explore Biodiversity Conservation Priorities — Interactively {#sparc-app}
 
 The SPARC Irrecoverable Carbon &amp; Biodiversity Explorer puts our science directly in your hands. Developed with conservation partners, it lets anyone — scientist, policymaker, or funder — zoom into any region on Earth and immediately see where irreplaceable biodiversity and carbon overlap, where protection is most urgent, and what is at stake if action is delayed.
 
@@ -94,13 +92,9 @@ This is not a static map. It is a live decision-support tool built from hundreds
   <figcaption>SPARC integrates biodiversity data, climate scenarios, and spatial prioritization to identify where conservation investment will matter most — and what is lost if we wait.</figcaption>
 </figure>
 
-</section>
-
 ---
 
-<section id="conservation-planning">
-
-## Conservation Planning
+## Conservation Planning {#conservation-planning}
 
 Nature does not wait for certainty. Our lab translates the best available biodiversity evidence into spatial plans that partners can act on today — while staying honest about what we do not yet know.
 
@@ -119,13 +113,9 @@ Rather than producing a single "best" answer, we show how priorities shift acros
   </figure>
 </div>
 
-</section>
-
 ---
 
-<section id="extinction-risk">
-
-## Extinction Risk
+## Extinction Risk {#extinction-risk}
 
 The scale of the biodiversity crisis is not inevitable. Our research shows that the combination of ambitious climate action and strategic land conservation can cut projected extinction risk by more than half compared to a business-as-usual future.
 
@@ -144,13 +134,9 @@ The bottom line: extinction risk is not a fixed number. It is a policy variable 
   <figcaption>LiDAR-derived canopy structure data links field measurements to regional biodiversity and carbon models — connecting plot-scale science to global conservation decisions.</figcaption>
 </figure>
 
-</section>
-
 ---
 
-<section id="protected-areas">
-
-## Protected Area Design
+## Protected Area Design {#protected-areas}
 
 Where a protected area is placed matters as much as how much land is protected. Our research evaluates how current protected-area networks perform — and identifies where new or better-connected protection can deliver the greatest gains for species persistence, functional diversity, and long-term ecosystem resilience.
 
@@ -160,13 +146,9 @@ This work builds directly on partnerships with the SPARC initiative, the post-20
 
 Our goal is to give protected-area planners the same kind of scenario-aware, uncertainty-honest evidence that infrastructure planners routinely use for long-lived investments — because protected areas are exactly that.
 
-</section>
-
 ---
 
-<section id="selected-examples">
-
-## Selected Examples
+## Selected Examples {#selected-examples}
 
 <ul style="list-style: none; padding: 0; margin: 0 0 1rem;">
 
@@ -196,13 +178,9 @@ Our goal is to give protected-area planners the same kind of scenario-aware, unc
 
 </ul>
 
-</section>
-
 ---
 
-<section id="partner">
-
-<div style="background: #eef5f0; border-left: 4px solid #1f5a44; border-radius: 0 10px 10px 0; padding: 2.8rem 2.4rem 2.4rem; margin: 2.5rem 0 1rem;">
+<div id="partner" style="background: #eef5f0; border-left: 4px solid #1f5a44; border-radius: 0 10px 10px 0; padding: 2.8rem 2.4rem 2.4rem; margin: 2.5rem 0 1rem;">
 
 <h2 style="margin-top: 0; font-size: 1.9rem; letter-spacing: -0.01em; color: #1e2a2f;">Partner With Us</h2>
 
@@ -217,8 +195,6 @@ We can support spatial prioritization, extinction risk assessment, scenario anal
 <a class="status-chip status-chip--info" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
 
 </div>
-
-</section>
 
 <p style="margin-top: 2.5rem; color: #555; font-size: 0.93rem;">
 This page connects to the lab's broader <a href="{{ '/research/' | relative_url }}">research program</a> and its <a href="{{ '/resources/' | relative_url }}">open resources</a>. For ongoing collaboration examples and partner-facing initiatives, see <a href="{{ '/collaborators/' | relative_url }}">collaborators</a>.
