@@ -9,20 +9,6 @@ nav_order: 3
 
 ## Research Program
 
-<nav class="section-jump-nav" aria-label="Research section navigation">
-  <div class="section-jump-nav__header">
-    <span class="section-jump-nav__label">Jump to theme</span>
-  </div>
-  <div class="section-jump-nav__links">
-    <a class="section-jump-nav__link" href="#theory">Theory</a>
-    <a class="section-jump-nav__link" href="#trait-based-ecology">Trait-Based Ecology</a>
-    <a class="section-jump-nav__link" href="#bien-botanical-information-ecology-network">BIEN</a>
-    <a class="section-jump-nav__link" href="#global-change-biology">Global Change Biology</a>
-    <a class="section-jump-nav__link" href="#long-term-ecology">Long-Term Ecology</a>
-    <a class="section-jump-nav__link" href="#opentraits-biodiversity-informatics">OpenTraits</a>
-  </div>
-</nav>
-
 <figure class="field-photo">
   <img src="{{ "/assets/img/field/brian_field.jpg" | relative_url }}" alt="Brian Enquist conducting field measurements" loading="lazy">
   <figcaption>Field measurements — connecting individual-level physiology to ecosystem-scale patterns.</figcaption>
@@ -126,7 +112,7 @@ TDT bridges scales that are often treated separately in ecology: individual phys
 
 ---
 
-### Trait-Based Ecology
+### Trait-Based Ecology {#trait-based-ecology}
 
 <figure class="field-photo">
   <img src="{{ '/assets/img/wordpress/dsc_3443.jpeg' | relative_url }}" alt="Snow-covered Andean peaks above alpine field terrain" loading="lazy">
@@ -148,7 +134,7 @@ Plant functional traits — measurable attributes such as leaf size, wood densit
 
 ---
 
-### BIEN: Botanical Information & Ecology Network
+### BIEN: Botanical Information & Ecology Network {#bien-botanical-information-ecology-network}
 
 <figure class="field-photo">
   <img src="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}" alt="Cloud-forest mountain slope along an Andean elevational transect" loading="lazy">
@@ -183,6 +169,26 @@ range <- BIEN_ranges_load_species("Populus tremuloides")
 Full docs: [BIEN vignette](https://cran.r-project.org/web/packages/BIEN/vignettes/BIEN.html) · [All lab tools]({{ '/resources/' | relative_url }})
 </details>
 
+#### Explore BIEN Species Data Interactively
+
+Browse occurrence records and range maps for ~120,000 Western Hemisphere plant species — filter by native status, political unit, and elevation, then download georeferenced records and range polygons directly from the app.
+
+<div style="margin: 1.5rem 0 0.5rem;">
+  <iframe
+    src="https://benquist.shinyapps.io/bien-species-shinyapp/"
+    title="BIEN Species Explorer"
+    width="100%"
+    height="650"
+    style="border: none; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,0.13);"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<p style="text-align:center; margin-bottom: 2rem;">
+  <a class="status-chip status-chip--info" href="https://benquist.shinyapps.io/bien-species-shinyapp/" target="_blank" rel="noopener">Open BIEN Species Explorer in a new tab &rarr;</a>
+</p>
+
 #### BIEN Interactive Apps
 
 <div class="bien-apps-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1rem 0;">
@@ -209,7 +215,7 @@ Full docs: [BIEN vignette](https://cran.r-project.org/web/packages/BIEN/vignette
 
 ---
 
-### Global Change Biology
+### Global Change Biology {#global-change-biology}
 
 We use trait-based models, species distribution models, and process-based frameworks to project how plant communities may respond to climate change. Work includes:
 
@@ -231,7 +237,7 @@ See [collaborators]({{ '/collaborators/' | relative_url }}) for examples.
 
 ---
 
-### Long-Term Ecology
+### Long-Term Ecology {#long-term-ecology}
 
 Our long-term work integrates repeated forest censuses, elevational transects, and distributed plot networks to quantify demographic and compositional change through time and to improve ecological prediction.
 
@@ -249,7 +255,7 @@ See [field sites]({{ '/field-sites/' | relative_url }}) for site details.
 
 ---
 
-### OpenTraits & Biodiversity Informatics
+### OpenTraits & Biodiversity Informatics {#opentraits-biodiversity-informatics}
 
 The Enquist Lab is a co-founding member and active contributor to the [Open Traits Network (OTN)](https://opentraits.org/) — a global, decentralized community of researchers and institutions working to standardize and integrate trait data across all organisms. OTN is guided by Open Science principles: open methods, open source, and open data.
 

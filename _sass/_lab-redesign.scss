@@ -473,6 +473,14 @@ h6,
   }
 }
 
+// Ensure anchor-linked headings are not hidden behind the sticky section nav + site navbar
+// ~3.7rem (section-jump-nav) + ~3.8rem (site navbar) = ~7.5rem total offset
+.post article h2[id],
+.post article h3[id],
+.post article h4[id] {
+  scroll-margin-top: 8rem;
+}
+
 .about-article {
   // Escape the 930px .container and center content at up to 1080px with balanced gutters
   width: 100vw;
