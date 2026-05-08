@@ -7,18 +7,16 @@ nav: false
 nav_order: 3.1
 ---
 
-<h2>Publications &amp; CV</h2>
+## Publications & CV
 
-<ul>
-  <li><a href="https://orcid.org/0000-0002-6337-8292">ORCID: 0000-0002-6337-8292</a></li>
-  <li><a href="https://scholar.google.com/citations?user=mAbA6EoAAAAJ&amp;hl=en">Google Scholar profile</a></li>
-  <li><a href="https://www.researchgate.net/profile/Brian-Enquist">ResearchGate profile</a></li>
-  <li>Full CV: <a href="{{ '/cv/' | relative_url }}">View the CV page</a></li>
-</ul>
+- [ORCID: 0000-0002-6337-8292](https://orcid.org/0000-0002-6337-8292)
+- [Google Scholar profile](https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en)
+- [ResearchGate profile](https://www.researchgate.net/profile/Brian-Enquist)
+- Full CV: [View the CV page]({{ '/cv/' | relative_url }})
 
-<hr>
+---
 
-<h2>Complete Publication List</h2>
+## Complete Publication List
 
 <p class="pub-intro-text">Use the tabs to group papers by subject area, or use the search box to filter within the active group.</p>
 
@@ -335,11 +333,6 @@ nav_order: 3.1
 					{ pattern: /water relations/i, weight: 2 },
 					{ pattern: /vein\b|venation|leaf vein/i, weight: 2 },
 					{ pattern: /physiolog/i, weight: 1 },
-					{ pattern: /plant physiology/i, weight: 2 },        // Enquist et al. 2007 adaptive plant physiology
-					{ pattern: /leaf wax/i, weight: 2 },                // Feakins et al. 2016 leaf wax n-alkanes & biomarkers
-					{ pattern: /n-alkane/i, weight: 2 },                // Feakins et al. 2016 Organic Geochemistry
-					{ pattern: /physiochem/i, weight: 2 },              // Chavana-Bryant et al. 2016 spectral & physiochemical
-					{ pattern: /wettability/i, weight: 2 },             // Goldsmith et al. 2016 leaf wettability traits
 				],
 			},
 			{
@@ -380,10 +373,7 @@ nav_order: 3.1
 					{ pattern: /tundra/i, weight: 2 },
 					{ pattern: /svalbard/i, weight: 2 },
 					{ pattern: /subalpine/i, weight: 2 },
-					{ pattern: /afromontane/i, weight: 2 },       // raised from 1: captures Halbritter 2025 Afromontane grasslands
-					{ pattern: /\bnorway\b/i, weight: 2 },        // Vandvik 2025 climate gradients in Norway
-					{ pattern: /\bpuna\b/i, weight: 2 },          // Halbritter 2024 Puna grasslands Peru
-					{ pattern: /\bmountain plant/i, weight: 2 },   // Bektaş 2024 mountain plant communities Northern Hemisphere
+					{ pattern: /afromontane/i, weight: 1 },
 				],
 			},
 			{
@@ -473,24 +463,16 @@ nav_order: 3.1
 		});
 
 		function scoreTopic(text, topic) {
-			let score = 0;
-			for (const { pattern, weight } of topic.matchers) {
-				if (pattern.test(text)) {
-					score += weight;
-					if (score >= topic.threshold) return score;
-				}
-			}
-			return score;
+			return topic.matchers.reduce((score, matcher) => {
+				return matcher.pattern.test(text) ? score + matcher.weight : score;
+			}, 0);
 		}
 
 		function classifyPublication(text) {
-			const matched = [];
-			for (const topic of topicDefinitions) {
-				if (topic.id !== 'all' && scoreTopic(text, topic) >= topic.threshold) {
-					matched.push(topic.id);
-				}
-			}
-			return matched;
+			return topicDefinitions
+				.filter((topic) => topic.id !== 'all')
+				.filter((topic) => scoreTopic(text, topic) >= topic.threshold)
+				.map((topic) => topic.id);
 		}
 
 		const allItems = yearSections.flatMap((section) => section.items);
@@ -499,7 +481,6 @@ nav_order: 3.1
 			if (topic.id !== 'all') topicCounts[topic.id] = 0;
 		});
 
-		const itemCache = new Map();
 		allItems.forEach((li) => {
 			const normalizedText = li.textContent.toLowerCase().replace(/\s+/g, ' ').trim();
 			const topics = classifyPublication(normalizedText);
@@ -507,7 +488,6 @@ nav_order: 3.1
 			topics.forEach((topicId) => {
 				topicCounts[topicId] += 1;
 			});
-			itemCache.set(li, { text: normalizedText, topicSet: new Set(topics) });
 		});
 
 		const tabButtons = topicDefinitions.map((topic) => {
@@ -540,24 +520,28 @@ nav_order: 3.1
 			tabButton.classList.toggle('is-active', isActive);
 		});
 
-		let wasSearchActive = false;
+		function itemMatchesTopic(li) {
+			if (activeTopic === 'all') return true;
+			const topics = li.dataset.topics ? li.dataset.topics.split('|').filter(Boolean) : [];
+			return topics.includes(activeTopic);
+		}
 
 		function applyFilter() {
 			const query = input.value.trim().toLowerCase();
 			// When the user is searching, always search across ALL publications
 			// regardless of which topic tab is active.
 			const searchActive = query !== '';
-			const words = searchActive ? query.split(/\s+/).filter(Boolean) : [];
 			let visibleTotal = 0;
 			let firstVisibleItem = null;
 
-			// Update tab highlight: grey-out all tabs while searching (only write DOM on state change)
-			if (searchActive !== wasSearchActive) {
-				tabButtons.forEach((tabButton) => {
-					tabButton.style.opacity = searchActive && tabButton.dataset.topic !== 'all' ? '0.45' : '';
-				});
-				wasSearchActive = searchActive;
-			}
+			// Update tab highlight: grey-out all tabs while searching
+			tabButtons.forEach((tabButton) => {
+				if (searchActive) {
+					tabButton.style.opacity = tabButton.dataset.topic === 'all' ? '1' : '0.45';
+				} else {
+					tabButton.style.opacity = '';
+				}
+			});
 
 			// Show/hide clear button
 			if (clearBtn) clearBtn.hidden = !searchActive;
@@ -566,11 +550,12 @@ nav_order: 3.1
 				let visibleCount = 0;
 
 				section.items.forEach((li) => {
-					const { text, topicSet } = itemCache.get(li);
+					const text = li.textContent.toLowerCase();
+					const words = query.split(/\s+/).filter(Boolean);
 					// Require every word in the query to appear somewhere in the text
-					const matchesQuery = !searchActive || words.every((w) => text.includes(w));
+					const matchesQuery = query === '' || words.every((w) => text.includes(w));
 					// When searching, ignore topic tab and show all matching papers
-					const matchesTopic = searchActive || activeTopic === 'all' || topicSet.has(activeTopic);
+					const matchesTopic = searchActive ? true : itemMatchesTopic(li);
 					const match = matchesQuery && matchesTopic;
 					li.style.display = match ? '' : 'none';
 					if (match) {
@@ -580,7 +565,6 @@ nav_order: 3.1
 					}
 				});
 
-				section.visibleCount = visibleCount;
 				section.header.style.display = visibleCount > 0 ? '' : 'none';
 				section.lists.forEach((list) => {
 					list.style.display = visibleCount > 0 ? '' : 'none';
@@ -608,18 +592,16 @@ nav_order: 3.1
 			// Sync year nav pill visibility with current filter state
 			if (navItems) {
 				navItems.forEach((navItem) => {
-					const section = sectionByYear.get('year-' + navItem.dataset.navYear);
-					if (section) navItem.hidden = section.visibleCount === 0;
+					const section = yearSections.find((s) => s.header.id === 'year-' + navItem.dataset.navYear);
+					if (section) {
+						const anyVisible = section.items.some((li) => li.style.display !== 'none');
+						navItem.hidden = !anyVisible;
+					}
 				});
 			}
 		}
 
-		function debounce(fn, ms) {
-			let timer;
-			return function () { clearTimeout(timer); timer = setTimeout(fn, ms); };
-		}
-
-		input.addEventListener('input', debounce(applyFilter, 150));
+		input.addEventListener('input', applyFilter);
 		applyFilter();
 
 		// --- Year Navigator ---
@@ -629,9 +611,6 @@ nav_order: 3.1
 			header.id = 'year-' + year;
 			header.classList.add('pub-year-header');
 		});
-
-		// O(1) section lookup by header id (ids stamped above)
-		const sectionByYear = new Map(yearSections.map((s) => [s.header.id, s]));
 
 		// Build the sidebar rail nav
 		const yearNav = document.createElement('nav');
@@ -660,8 +639,11 @@ nav_order: 3.1
 
 		// Sync initial nav pill visibility with current filter state
 		navItems.forEach((navItem) => {
-			const section = sectionByYear.get('year-' + navItem.dataset.navYear);
-			if (section) navItem.hidden = section.visibleCount === 0;
+			const section = yearSections.find((s) => s.header.id === 'year-' + navItem.dataset.navYear);
+			if (section) {
+				const anyVisible = section.items.some((li) => li.style.display !== 'none');
+				navItem.hidden = !anyVisible;
+			}
 		});
 
 		// IntersectionObserver — highlight the year currently scrolled into view
