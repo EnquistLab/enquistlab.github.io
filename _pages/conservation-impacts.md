@@ -24,6 +24,7 @@ nav_order: 3.5
     <a class="section-jump-nav__link" href="#conservation-planning">Conservation Planning</a>
     <a class="section-jump-nav__link" href="#extinction-risk">Extinction Risk</a>
     <a class="section-jump-nav__link" href="#protected-areas">Protected Areas</a>
+    <a class="section-jump-nav__link" href="#selected-examples">Selected Examples</a>
     <a class="section-jump-nav__link" href="#partner">Partner With Us</a>
   </div>
 </nav>
@@ -163,11 +164,43 @@ Our goal is to give protected-area planners the same kind of scenario-aware, unc
 
 ---
 
+<section id="selected-examples">
+
+## Selected Examples
+
+<ul style="list-style: none; padding: 0; margin: 0 0 1rem;">
+
+<li style="border-left: 3px solid var(--global-theme-color); padding: 0.7rem 0 0.7rem 1.2rem; margin-bottom: 1.1rem;">
+<strong>SPARC</strong> — Spatial prioritization for species conservation under climate change, with map products that support partner decision-making and protected-area conversations.
+</li>
+
+<li style="border-left: 3px solid var(--global-theme-color); padding: 0.7rem 0 0.7rem 1.2rem; margin-bottom: 1.1rem;">
+<strong>Biodiversity Framework planning</strong> — <a href="http://pure.iiasa.ac.at/id/eprint/17841/">Krieger et al. 2022</a> argued that achieving the post-2020 Global Biodiversity Framework's ambitious goals requires inclusive, integrated spatial planning that combines biodiversity, carbon, water, and land-use objectives across sectors and scales.
+</li>
+
+<li style="border-left: 3px solid var(--global-theme-color); padding: 0.7rem 0 0.7rem 1.2rem; margin-bottom: 1.1rem;">
+<strong>Tropical extinction risk</strong> — <a href="https://www.researchgate.net/publication/339513215_30_land_conservation_and_climate_action_reduces_tropical_extinction_risk_by_more_than_50">Hannah et al. 2020</a> modeled that pairing ambitious climate mitigation (≈RCP 2.6) with 30% land conservation could reduce projected climate-driven range loss — a proxy for extinction risk — by more than 50% compared to a high-emission, low-protection baseline. Results are scenario-dependent and based on species distribution models that assume approximate climate equilibrium.
+</li>
+
+<li style="border-left: 3px solid var(--global-theme-color); padding: 0.7rem 0 0.7rem 1.2rem; margin-bottom: 1.1rem;">
+<strong>Protected-area effectiveness</strong> — <a href="https://www.nature.com/articles/s41467-023-38073-9">Duncanson et al. 2023</a> evaluated the effectiveness of global protected areas for climate-change mitigation using remote-sensing biomass estimates.
+</li>
+
+<li style="border-left: 3px solid var(--global-theme-color); padding: 0.7rem 0 0.7rem 1.2rem; margin-bottom: 1.1rem;">
+<strong>Climate risk for cacti</strong> — <a href="https://doi.org/10.1038/s41477-022-01130-0">Pillet et al. 2022</a> projected elevated extinction risk of cacti under climate change using species distribution models across multiple climate scenarios.
+</li>
+
+</ul>
+
+</section>
+
+---
+
 <section id="partner">
 
-<div style="background: var(--global-theme-color); color: #fff; border-radius: 10px; padding: 2.8rem 2.4rem 2.4rem; margin: 2.5rem 0 1rem;">
+<div style="background: color-mix(in srgb, var(--global-theme-color) 8%, transparent); border-left: 4px solid var(--global-theme-color); border-radius: 0 10px 10px 0; padding: 2.8rem 2.4rem 2.4rem; margin: 2.5rem 0 1rem;">
 
-<h2 style="color: #fff; margin-top: 0; font-size: 1.9rem; letter-spacing: -0.01em;">Partner With Us</h2>
+<h2 style="margin-top: 0; font-size: 1.9rem; letter-spacing: -0.01em;">Partner With Us</h2>
 
 <p style="font-size: 1.13rem; line-height: 1.7; max-width: 680px; margin-bottom: 1.6rem;">
 Whether you represent a conservation organization, a government agency, a philanthropic foundation, or a science-policy initiative — we want to hear from you. Our lab has deep experience translating biodiversity data into planning-ready evidence, and we are actively seeking collaborations that connect rigorous science to real-world conservation decisions.
@@ -177,7 +210,7 @@ Whether you represent a conservation organization, a government agency, a philan
 We can support spatial prioritization, extinction risk assessment, scenario analysis, protected-area evaluation, and decision-support tool development. We are especially interested in partnerships that center equity, long-term data stewardship, and open science.
 </p>
 
-<a class="status-chip status-chip--cta-inverse" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
+<a class="status-chip status-chip--cta" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
 
 </div>
 
