@@ -376,7 +376,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 					{ pattern: /afromontane/i, weight: 2 },       // raised from 1: captures Halbritter 2025 Afromontane grasslands
 					{ pattern: /\bnorway\b/i, weight: 2 },        // Vandvik 2025 climate gradients in Norway
 					{ pattern: /\bpuna\b/i, weight: 2 },          // Halbritter 2024 Puna grasslands Peru
-					{ pattern: /mountain plant/i, weight: 2 },    // Bektaş 2024 mountain plant communities Northern Hemisphere
+					{ pattern: /\bmountain plant/i, weight: 2 },   // Bektaş 2024 mountain plant communities Northern Hemisphere
 				],
 			},
 			{
@@ -466,16 +466,24 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 		});
 
 		function scoreTopic(text, topic) {
-			return topic.matchers.reduce((score, matcher) => {
-				return matcher.pattern.test(text) ? score + matcher.weight : score;
-			}, 0);
+			let score = 0;
+			for (const { pattern, weight } of topic.matchers) {
+				if (pattern.test(text)) {
+					score += weight;
+					if (score >= topic.threshold) return score;
+				}
+			}
+			return score;
 		}
 
 		function classifyPublication(text) {
-			return topicDefinitions
-				.filter((topic) => topic.id !== 'all')
-				.filter((topic) => scoreTopic(text, topic) >= topic.threshold)
-				.map((topic) => topic.id);
+			const matched = [];
+			for (const topic of topicDefinitions) {
+				if (topic.id !== 'all' && scoreTopic(text, topic) >= topic.threshold) {
+					matched.push(topic.id);
+				}
+			}
+			return matched;
 		}
 
 		const allItems = yearSections.flatMap((section) => section.items);
@@ -484,6 +492,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			if (topic.id !== 'all') topicCounts[topic.id] = 0;
 		});
 
+		const itemCache = new Map();
 		allItems.forEach((li) => {
 			const normalizedText = li.textContent.toLowerCase().replace(/\s+/g, ' ').trim();
 			const topics = classifyPublication(normalizedText);
@@ -491,6 +500,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			topics.forEach((topicId) => {
 				topicCounts[topicId] += 1;
 			});
+			itemCache.set(li, { text: normalizedText, topicSet: new Set(topics) });
 		});
 
 		const tabButtons = topicDefinitions.map((topic) => {
@@ -523,28 +533,24 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			tabButton.classList.toggle('is-active', isActive);
 		});
 
-		function itemMatchesTopic(li) {
-			if (activeTopic === 'all') return true;
-			const topics = li.dataset.topics ? li.dataset.topics.split('|').filter(Boolean) : [];
-			return topics.includes(activeTopic);
-		}
+		let wasSearchActive = false;
 
 		function applyFilter() {
 			const query = input.value.trim().toLowerCase();
 			// When the user is searching, always search across ALL publications
 			// regardless of which topic tab is active.
 			const searchActive = query !== '';
+			const words = searchActive ? query.split(/\s+/).filter(Boolean) : [];
 			let visibleTotal = 0;
 			let firstVisibleItem = null;
 
-			// Update tab highlight: grey-out all tabs while searching
-			tabButtons.forEach((tabButton) => {
-				if (searchActive) {
-					tabButton.style.opacity = tabButton.dataset.topic === 'all' ? '1' : '0.45';
-				} else {
-					tabButton.style.opacity = '';
-				}
-			});
+			// Update tab highlight: grey-out all tabs while searching (only write DOM on state change)
+			if (searchActive !== wasSearchActive) {
+				tabButtons.forEach((tabButton) => {
+					tabButton.style.opacity = searchActive && tabButton.dataset.topic !== 'all' ? '0.45' : '';
+				});
+				wasSearchActive = searchActive;
+			}
 
 			// Show/hide clear button
 			if (clearBtn) clearBtn.hidden = !searchActive;
@@ -553,12 +559,11 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 				let visibleCount = 0;
 
 				section.items.forEach((li) => {
-					const text = li.textContent.toLowerCase();
-					const words = query.split(/\s+/).filter(Boolean);
+					const { text, topicSet } = itemCache.get(li);
 					// Require every word in the query to appear somewhere in the text
-					const matchesQuery = query === '' || words.every((w) => text.includes(w));
+					const matchesQuery = !searchActive || words.every((w) => text.includes(w));
 					// When searching, ignore topic tab and show all matching papers
-					const matchesTopic = searchActive ? true : itemMatchesTopic(li);
+					const matchesTopic = searchActive || activeTopic === 'all' || topicSet.has(activeTopic);
 					const match = matchesQuery && matchesTopic;
 					li.style.display = match ? '' : 'none';
 					if (match) {
@@ -568,6 +573,7 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 					}
 				});
 
+				section.visibleCount = visibleCount;
 				section.header.style.display = visibleCount > 0 ? '' : 'none';
 				section.lists.forEach((list) => {
 					list.style.display = visibleCount > 0 ? '' : 'none';
@@ -595,16 +601,18 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			// Sync year nav pill visibility with current filter state
 			if (navItems) {
 				navItems.forEach((navItem) => {
-					const section = yearSections.find((s) => s.header.id === 'year-' + navItem.dataset.navYear);
-					if (section) {
-						const anyVisible = section.items.some((li) => li.style.display !== 'none');
-						navItem.hidden = !anyVisible;
-					}
+					const section = sectionByYear.get('year-' + navItem.dataset.navYear);
+					if (section) navItem.hidden = section.visibleCount === 0;
 				});
 			}
 		}
 
-		input.addEventListener('input', applyFilter);
+		function debounce(fn, ms) {
+			let timer;
+			return function () { clearTimeout(timer); timer = setTimeout(fn, ms); };
+		}
+
+		input.addEventListener('input', debounce(applyFilter, 150));
 		applyFilter();
 
 		// --- Year Navigator ---
@@ -614,6 +622,9 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 			header.id = 'year-' + year;
 			header.classList.add('pub-year-header');
 		});
+
+		// O(1) section lookup by header id (ids stamped above)
+		const sectionByYear = new Map(yearSections.map((s) => [s.header.id, s]));
 
 		// Build the sidebar rail nav
 		const yearNav = document.createElement('nav');
@@ -642,11 +653,8 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 
 		// Sync initial nav pill visibility with current filter state
 		navItems.forEach((navItem) => {
-			const section = yearSections.find((s) => s.header.id === 'year-' + navItem.dataset.navYear);
-			if (section) {
-				const anyVisible = section.items.some((li) => li.style.display !== 'none');
-				navItem.hidden = !anyVisible;
-			}
+			const section = sectionByYear.get('year-' + navItem.dataset.navYear);
+			if (section) navItem.hidden = section.visibleCount === 0;
 		});
 
 		// IntersectionObserver — highlight the year currently scrolled into view
