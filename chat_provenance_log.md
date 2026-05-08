@@ -247,3 +247,12 @@ Outcome: Added a new "Scaling and Allometry Data" section at the bottom of _page
 - Updated `.github/workflows/sync-google-doc-cv.yml` to run sync script daily
 
 **Final state**: 316 `<li>` entries, 0 CASA tokens, 0 Google Scholar links.
+
+---
+Date: 2026-05-08
+Prompt: Embed BIEN Species Shiny app in the BIEN section of the research page; fix clicking in the floating banner not working.
+Outcome: (1) Fixed floating nav by removing the duplicate <nav class="section-jump-nav"> that was manually coded inside research.md's article content — it conflicted with the layout's sticky JS-populated nav (page.liquid), causing both to become sticky at top: 3.7rem and overlap, making links unclickable. Added explicit kramdown {#id} anchors to all top-level section headings so the auto-generated nav resolves links correctly. (2) Added BIEN Species Explorer iframe (https://benquist.shinyapps.io/bien-species-shinyapp/) to the BIEN section of research.md, following the same iframe/status-chip pattern as the SPARC app on conservation-impacts.md. (3) Added scroll-margin-top: 8rem to .post article h2/h3/h4[id] in _lab-redesign.scss so anchor-scroll navigation lands below both the site navbar and the sticky section nav. Commit: f16dae1.
+
+Date: 2026-05-08
+Prompt: Review and implement gallery redesign for https://enquistlab.github.io/gallery/ — suggest and then implement all updates including reorganization, design changes, thematic curation, resolution pruning, and duplicate removal.
+Outcome: Full rewrite of _pages/gallery.md. Removed ~55 low-quality/misplaced/uncaptioned images. Dissolved 'Field Landscapes' section (Flickr dump). Added 'Islands & Special Floras' section. Moved Dubautia latifolia from Arid/Desert (scientific misfit) to Islands. Renamed 3 sections for scientific accuracy. Standardized all section headers. Fixed shuffle JS to preserve geographic narrative arc, shuffle only within grids, and keep hero (first .wide) stable. Added loading=eager to first image. Improved all captions and alt text. Result: ~110 images / 7 sections → ~55 curated images / 6 coherent sections. Commit: 2bc24d8.
