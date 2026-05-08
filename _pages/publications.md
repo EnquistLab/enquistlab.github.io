@@ -373,7 +373,10 @@ Use the tabs to group papers by subject area, or use the search box to filter wi
 					{ pattern: /tundra/i, weight: 2 },
 					{ pattern: /svalbard/i, weight: 2 },
 					{ pattern: /subalpine/i, weight: 2 },
-					{ pattern: /afromontane/i, weight: 1 },
+					{ pattern: /afromontane/i, weight: 2 },       // raised from 1: captures Halbritter 2025 Afromontane grasslands
+					{ pattern: /\bnorway\b/i, weight: 2 },        // Vandvik 2025 climate gradients in Norway
+					{ pattern: /\bpuna\b/i, weight: 2 },          // Halbritter 2024 Puna grasslands Peru
+					{ pattern: /mountain plant/i, weight: 2 },    // Bektaş 2024 mountain plant communities Northern Hemisphere
 				],
 			},
 			{
