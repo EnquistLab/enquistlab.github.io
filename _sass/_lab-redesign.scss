@@ -330,6 +330,20 @@ h6,
       transform: translateY(-1px);
     }
   }
+
+  // Inverted variant — white chip on a green background section
+  &--cta-inverse {
+    background: #fff;
+    color: var(--global-theme-color);
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+
+    &:hover {
+      background: color-mix(in srgb, #fff 85%, var(--global-theme-color) 15%);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      transform: translateY(-1px);
+    }
+  }
 }
 
 // Hero with text overlay

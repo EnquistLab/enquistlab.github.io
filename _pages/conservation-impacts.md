@@ -16,11 +16,16 @@ nav_order: 3.5
 </div>
 
 <nav class="section-jump-nav" aria-label="Page sections">
-  <a href="#sparc-app">SPARC Explorer</a>
-  <a href="#conservation-planning">Conservation Planning</a>
-  <a href="#extinction-risk">Extinction Risk</a>
-  <a href="#protected-areas">Protected Areas</a>
-  <a href="#partner">Partner With Us</a>
+  <div class="section-jump-nav__header">
+    <span class="section-jump-nav__label">Jump to</span>
+  </div>
+  <div class="section-jump-nav__links">
+    <a class="section-jump-nav__link" href="#sparc-app">SPARC Explorer</a>
+    <a class="section-jump-nav__link" href="#conservation-planning">Conservation Planning</a>
+    <a class="section-jump-nav__link" href="#extinction-risk">Extinction Risk</a>
+    <a class="section-jump-nav__link" href="#protected-areas">Protected Areas</a>
+    <a class="section-jump-nav__link" href="#partner">Partner With Us</a>
+  </div>
 </nav>
 
 <div class="home-pillars">
@@ -172,7 +177,7 @@ Whether you represent a conservation organization, a government agency, a philan
 We can support spatial prioritization, extinction risk assessment, scenario analysis, protected-area evaluation, and decision-support tool development. We are especially interested in partnerships that center equity, long-term data stewardship, and open science.
 </p>
 
-<a class="status-chip status-chip--info" href="{{ '/contact/' | relative_url }}" style="background:#fff; color: var(--global-theme-color); font-weight:700; font-size:1.05rem;">Get in touch &rarr;</a>
+<a class="status-chip status-chip--cta-inverse" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
 
 </div>
 
