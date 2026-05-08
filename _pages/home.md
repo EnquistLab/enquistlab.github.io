@@ -29,7 +29,7 @@ nav_order: 1
   <a class="home-pillar" href="https://biendata.org" target="_blank" rel="noopener">
     <div class="home-pillar__number">284M+</div>
     <div class="home-pillar__head">Plant observations</div>
-    <div class="home-pillar__sub">Integrated records, traits, plots, taxonomy, and geographic QA</div>
+    <div class="home-pillar__sub">Integrated records, traits, plots, taxonomy, and data quality control</div>
   </a>
 
   <a class="home-pillar" href="{{ '/resources/' | relative_url }}">
