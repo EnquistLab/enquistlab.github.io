@@ -519,19 +519,18 @@ h6,
 }
 
 .about-article {
-  // Simple float-based layout matching other pages: text at full container width,
-  // profile image floated right inside the text column.
+  // display:flow-root creates a block formatting context that contains the profile
+  // float without clipping overflow (unlike overflow:hidden, which cut off bottom images).
+  display: flow-root;
 
   > .profile.float-right {
     float: right;
     width: 260px;
     margin: 0 0 1.5rem 2rem;
-    clear: right;
   }
 
   > .clearfix {
-    // Contains all body text; clearfix ensures the article stretches past floats.
-    overflow: hidden;
+    // No BFC here — lets inline content wrap naturally around the float above.
   }
 
   .about-cta-grid {
