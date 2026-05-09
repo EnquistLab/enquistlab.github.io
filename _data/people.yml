@@ -96,6 +96,19 @@ staff:
   email: Marosati@arizona.edu
   institution: University of Arizona
   degree: Bachelor
+- name: Deborah Goldberg
+  role: Sabatarian emeritas
+  photo: deborah_goldberg.jpg
+  bio: My research investigates the processes that underlie patterns in plant community
+    dynamics, structure, and function, combining experiments in the field, mesocosms,
+    and greenhouse, field surveys at scales from centimeters to kilometers, and modeling
+    to integrate results across approaches and scales.
+  google_scholar: https://scholar.google.com/citations?user=sUPIHAQAAAAJ&hl=en&oi=ao
+  website: https://lsa.umich.edu/eeb/people/faculty-emeriti/degold.html
+  github: ''
+  email: degold@umich.edu
+  institution: University of Arizona
+  degree: PhD
 alumni:
 - name: Charles Price
   role: Graduate Student
