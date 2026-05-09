@@ -266,3 +266,7 @@ Outcome: Full rewrite of _pages/gallery.md. Removed ~55 low-quality/misplaced/un
 **Fix:** `git rm _pages/publications.md`. Only `publications.html` is now served. Badge and display will consistently show 29 ecophysiology papers (18 matchers: adds leaf wax, n-alkane, physiochem, wettability, plant physiology).
 
 **Agent:** m (supervisor) → direct fix (no sub-agents needed for root-cause-confirmed delete)
+
+## 2026-05-09 — Fix about page text overflow
+Prompt: Text spacing/justification for https://enquistlab.github.io/about/ runs off the page. Standardize to other tabs and layout.
+Action: Removed 100vw full-bleed breakout (width:100vw;left:50%;margin-left:-50vw) from .about-article in _sass/_lab-redesign.scss. The 100vw value includes the scrollbar width causing horizontal overflow. About page now stays within the standard 930px .container like all other pages. Profile image column narrowed from 300px to 260px to fit cleanly. Committed and pushed.

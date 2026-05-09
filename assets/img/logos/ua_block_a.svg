@@ -1,0 +1,15 @@
+<link href="//cdn.uadigital.arizona.edu/lib/ua-bootstrap/latest/ua-bootstrap.min.css" rel="stylesheet">
+<style>
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+</style>
+<header id="region_header_ua" class="l-arizona-header bg-red">
+	<section class="container l-container">
+		<div class="row"><a href="http://www.arizona.edu" title="The University of Arizona homepage" class="arizona-logo"><img alt="The University of Arizona Wordmark Line Logo White" src="https://cdn.uadigital.arizona.edu/logos/v1.0.0/ua_wordmark_line_logo_white_rgb.min.svg" class="arizona-line-logo"></a></div>
+	</section>
+</header>
+<h1 class="centered">404 - Not Found</h1>
