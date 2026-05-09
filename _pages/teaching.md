@@ -2,7 +2,7 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: Courses, workshops, and training resources in plant ecology, macroecology, and biodiversity science
+description: Courses, workshops, video lectures, and open training materials in plant ecology, macroecology, and biodiversity science
 nav: true
 nav_order: 5
 ---
@@ -14,7 +14,7 @@ nav_order: 5
   </figure>
 </div>
 
-Teaching in the Enquist Lab spans formal university courses, international field training programs, workshops, and open online lectures. The unifying theme is using biodiversity science, macroecology, and quantitative methods to understand plant form, function, and diversity across scales.
+Teaching in the Enquist Lab spans formal university courses, international field training programs, workshops, and open video lectures and slides. The unifying theme is using biodiversity science, macroecology, and quantitative methods to understand plant form, function, and diversity across scales.
 
 <div class="cta-row">
   <a class="btn btn-sm btn-cta-primary" href="https://plantfunctionaltraitscourses.w.uib.no/" target="_blank" rel="noopener">PFTC Field Courses</a>
@@ -28,7 +28,7 @@ Teaching in the Enquist Lab spans formal university courses, international field
 
 | Course | Title |
 |--------|-------|
-| [ECOL 340](http://ecol340.wordpress.com/) | Evolution of Plant Form, Function, and Diversity |
+| [ECOL 340](https://ecol340.wordpress.com/) | Evolution of Plant Form, Function, and Diversity |
 | [ECOL 596x](https://smduranm.github.io/EEB_R_workshops/) | R Workshops for EEB PhD Students and Postdocs |
 | [ECOL 586](https://ecol586.wordpress.com/) | Biological Scaling and Macroscopic Processes |
 | ECOL 596W | New Methods in Trait-based Ecology and Evolution |
@@ -46,15 +46,76 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
 
 - **Integrating and Cleaning Biodiversity Data** — workflows to model ranges and merge ecological, phylogenetic, and trait information. Taught at the 2017 International Biogeography Society meeting, Tucson, AZ. [Course overview](https://tucson2017ibs.wordpress.com/workshops/integrating-and-cleaning-biodiversity-data-workflows-to-model-ranges-and-merge-associated-ecological-phylogenetic-and-trait-information/)
 
----
+<h2 class="teaching-section-heading" id="videos">Video Lectures</h2>
 
-### Online Lectures & Open Materials {#lectures}
+<div class="video-lecture-grid">
 
-- **[Trait Drivers Theory](https://doi.org/10.6084/m9.figshare.5328004.v1)** — Enquist & Savage (2017), FigShare.
-- **[Introduction to Data Science & Management](https://figshare.com/articles/How_to_think_About_Your_Data_Introduction_to_Data_Science_Management_what_they_don_t_but_should_-_teach_you_about_the_scientific_method_/4251953)** — Enquist (2016), FigShare.
-- **[Introduction to Trait-Based Ecology](http://figshare.com/articles/A_quick_and_rough_introduction_to_trait_based_ecology/1396511)** — Enquist (2015), FigShare.
-- **[Overview Lecture on Macroecology](http://figshare.com/articles/Overview_lecture_on_Macroecology/1247653)** — Enquist (2014), FigShare.
-- **[Introduction to Metabolic Scaling Theory](http://figshare.com/articles/Introduction_to_Metabolic_Scaling_Theory_From_cells_to_ecosystems/1275197)** — Enquist (2014), FigShare.
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/GEuvFfI3ZtY" title="Our Rapidly Changing Biosphere — U of Arizona Public Science Lecture" %}
+    </div>
+    <p class="video-caption"><strong>Our Rapidly Changing Biosphere</strong><br>University of Arizona Public Science Lecture, 2020</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/u1NJTtWQSHQ" title="The Concept of Time in Biology, and the Unity of Life — Oxford Martin School 2017" %}
+    </div>
+    <p class="video-caption"><strong>The Concept of Time in Biology, and the Unity of Life</strong><br>Oxford Martin School, 2017</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/HvXbQb57lsE" title="NOVA: Hunting the Hidden Dimension — Fractal geometry and metabolic scaling" %}
+    </div>
+    <p class="video-caption"><strong>NOVA: Hunting the Hidden Dimension</strong><br>Fractal geometry and metabolic scaling — see the lab's work starting at ~43 min</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/HYdeYuk3Qa4" title="National Geographic X-Ray Earth — Metabolic scaling in action" %}
+    </div>
+    <p class="video-caption"><strong>National Geographic: X-Ray Earth</strong><br>Metabolic scaling theory in action — see the lab's work starting at ~50 min</p>
+  </div>
+
+</div>
+
+<h2 class="teaching-section-heading" id="materials">Open Slides &amp; Materials</h2>
+
+<ul class="materials-list">
+  <li>
+    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    <span><strong>#PlantBlindness: Why Plants Matter and Why We Study Traits</strong> — Enquist (2020). <a href="https://doi.org/10.6084/m9.figshare.12084966.v1" target="_blank" rel="noopener">Slides ↗</a></span>
+  </li>
+  <li>
+    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    <span><strong>Introduction to Trait-Based Ecology</strong> (updated) — Enquist (2020). <a href="https://doi.org/10.6084/m9.figshare.11704383.v1" target="_blank" rel="noopener">Slides ↗</a></span>
+  </li>
+  <li>
+    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    <span><strong>Muy BIEN: Next Steps in a Global Workflow for Integrating Plant Botanical Observations</strong> — Enquist et al. (2018). <a href="https://doi.org/10.6084/m9.figshare.6983024.v1" target="_blank" rel="noopener">Slides ↗</a></span>
+  </li>
+  <li>
+    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    <span><strong>Trait Drivers Theory: Integrating and Scaling from Plant Form, Function &amp; Strategies to Ecosystems</strong> — Enquist &amp; Savage (2017). <a href="https://doi.org/10.6084/m9.figshare.5328004.v1" target="_blank" rel="noopener">Slides ↗</a></span>
+  </li>
+  <li>
+    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    <span><strong>Introduction to Data Science &amp; Management: What They Don't (But Should) Teach You About the Scientific Method</strong> — Enquist (2016). <a href="https://figshare.com/articles/How_to_think_About_Your_Data_Introduction_to_Data_Science_Management_what_they_don_t_but_should_-_teach_you_about_the_scientific_method_/4251953" target="_blank" rel="noopener">Slides ↗</a></span>
+  </li>
+  <li>
+    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    <span><strong>A Quick Introduction to Trait-Based Ecology</strong> — Enquist (2015). <a href="https://figshare.com/articles/A_quick_and_rough_introduction_to_trait_based_ecology/1396511" target="_blank" rel="noopener">Slides ↗</a></span>
+  </li>
+  <li>
+    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    <span><strong>Overview Lecture on Macroecology</strong> — Enquist (2014). <a href="https://figshare.com/articles/Overview_lecture_on_Macroecology/1247653" target="_blank" rel="noopener">Slides ↗</a></span>
+  </li>
+  <li>
+    <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    <span><strong>Introduction to Metabolic Scaling Theory: From Cells to Ecosystems</strong> — Enquist (2014). <a href="https://figshare.com/articles/Introduction_to_Metabolic_Scaling_Theory_From_cells_to_ecosystems/1275197" target="_blank" rel="noopener">Slides ↗</a></span>
+  </li>
+</ul>
 
 ---
 
@@ -62,5 +123,6 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
 
 - [BIEN R package](https://cran.r-project.org/package=BIEN)
 - [OpenTraits data standards](https://opentraits.org/)
+- [All FigShare lectures and presentations](https://figshare.com/authors/Brian_Enquist/663712)
 - [ECOL 586 course blog](https://ecol586.wordpress.com/)
 

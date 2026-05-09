@@ -2,6 +2,100 @@
  * Teachings/Courses styles
  *****************************/
 
+// ── Teaching page: section heading with accent rule ───────────────────────
+.teaching-section-heading {
+  margin-top: 3rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+    to right,
+    var(--global-theme-color) 0%,
+    transparent 100%
+  ) 1;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+// ── Teaching page: responsive video lecture grid ──────────────────────────
+.video-lecture-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+}
+
+// 16:9 aspect-ratio wrapper; video.liquid emits <figure><iframe>
+.video-embed-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 6px;
+
+  figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+    }
+  }
+}
+
+.video-caption {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.6rem;
+  line-height: 1.4;
+}
+
+// ── Teaching page: open slides / materials list ───────────────────────────
+.materials-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.25rem;
+
+  li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    font-size: 0.95rem;
+    line-height: 1.45;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    i {
+      flex-shrink: 0;
+      color: var(--global-theme-color);
+      font-size: 0.8rem;
+      margin-top: 0.18rem;
+    }
+  }
+}
+
 .courses {
   margin-top: 30px;
 }
