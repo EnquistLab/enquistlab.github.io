@@ -51,6 +51,7 @@ body {
   font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.05rem;
   line-height: 1.75;
+  overflow-x: hidden; // prevent 100vw hero-photo from creating horizontal scrollbar
 }
 
 h1,
