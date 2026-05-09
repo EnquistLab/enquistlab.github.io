@@ -256,3 +256,13 @@ Outcome: (1) Fixed floating nav by removing the duplicate <nav class="section-ju
 Date: 2026-05-08
 Prompt: Review and implement gallery redesign for https://enquistlab.github.io/gallery/ — suggest and then implement all updates including reorganization, design changes, thematic curation, resolution pruning, and duplicate removal.
 Outcome: Full rewrite of _pages/gallery.md. Removed ~55 low-quality/misplaced/uncaptioned images. Dissolved 'Field Landscapes' section (Flickr dump). Added 'Islands & Special Floras' section. Moved Dubautia latifolia from Arid/Desert (scientific misfit) to Islands. Renamed 3 sections for scientific accuracy. Standardized all section headers. Fixed shuffle JS to preserve geographic narrative arc, shuffle only within grids, and keep hero (first .wide) stable. Added loading=eager to first image. Improved all captions and alt text. Result: ~110 images / 7 sections → ~55 curated images / 6 coherent sections. Commit: 2bc24d8.
+
+## 2026-05-09 — Fix Ecophysiology tab: delete stale publications.md
+
+**Issue:** Ecophysiology tab badge showed 24 papers but only 2 displayed when tab clicked.
+
+**Root cause:** `_pages/publications.md` was recreated after commit `705d73b` (which renamed it to `publications.html` to bypass Kramdown). Both files shared `permalink: /publications/`. Jekyll overwrote the `.html` output with the `.md` version (processed by Kramdown), which escaped `</ol>` tags as `&lt;/ol&gt;`, breaking DOM structure so the year-section traversal only found 2 ecophysiology LI items. The `.md` also had only 13 ecophysiology matchers vs 18 in `.html`.
+
+**Fix:** `git rm _pages/publications.md`. Only `publications.html` is now served. Badge and display will consistently show 29 ecophysiology papers (18 matchers: adds leaf wax, n-alkane, physiochem, wettability, plant physiology).
+
+**Agent:** m (supervisor) → direct fix (no sub-agents needed for root-cause-confirmed delete)
