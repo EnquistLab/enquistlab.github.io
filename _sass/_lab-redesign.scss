@@ -519,31 +519,19 @@ h6,
 }
 
 .about-article {
-  // Stay within the standard .container (930px) like other pages — avoids
-  // the 100vw scrollbar-overflow bug that caused text to run off the right edge.
-
-  // Two-column CSS Grid: text on left, profile image on right
-  display: grid;
-  grid-template-columns: 1fr 260px;
-  column-gap: 2.5rem;
-  align-items: start;
+  // Simple float-based layout matching other pages: text at full container width,
+  // profile image floated right inside the text column.
 
   > .profile.float-right {
-    grid-column: 2;
-    grid-row: 1;
-    float: none;
-    width: 100%;
-    margin-left: 0;
+    float: right;
+    width: 260px;
+    margin: 0 0 1.5rem 2rem;
+    clear: right;
   }
 
   > .clearfix {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  // Any remaining grid children (social, etc.) stay in column 1
-  > .social {
-    grid-column: 1;
+    // Contains all body text; clearfix ensures the article stretches past floats.
+    overflow: hidden;
   }
 
   .about-cta-grid {
@@ -580,17 +568,14 @@ h6,
   }
 
   @media (max-width: 768px) {
-    display: block;
-    padding: 0 1.25rem;
+    > .profile.float-right {
+      float: none;
+      width: 100%;
+      margin: 0 0 1.5rem;
+    }
 
     .about-cta-grid {
       grid-template-columns: 1fr;
-    }
-
-    > .profile.float-right {
-      width: 100%;
-      float: none;
-      margin: 0 0 1.5rem;
     }
   }
 }
