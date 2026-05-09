@@ -47,11 +47,17 @@ html[data-theme="dark"] {
   box-shadow: 0 0 0 5px rgba(31, 90, 68, 0.18);
 }
 
+// Prevent 100vw full-bleed elements (hero-photo) from triggering a horizontal
+// scrollbar. overflow-x: clip is used on html (not body) so that
+// position: sticky elements (section-jump-nav) continue to work.
+html {
+  overflow-x: clip;
+}
+
 body {
   font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.05rem;
   line-height: 1.75;
-  overflow-x: hidden; // prevent 100vw hero-photo from creating horizontal scrollbar
 }
 
 h1,
@@ -388,6 +394,41 @@ h6,
       max-width: min(80vw, 44ch);
     }
   }
+}
+
+// Affiliation logos in the about page subtitle
+.affil-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.5rem;
+  line-height: 1.6;
+}
+
+.affil-logo-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.affil-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.affil-logo--ua {
+  height: 1.5rem;
+  width: auto;
+}
+
+.affil-logo--sfi {
+  height: 1.5rem;
+  width: auto;
 }
 
 // About page bridge between site name and program name

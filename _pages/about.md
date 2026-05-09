@@ -6,8 +6,17 @@ nav: false
 nav_order: 2
 front_lab_name: Macroecology Lab
 subtitle: >
-  Professor of Ecology & Evolutionary Biology, <a href="https://eeb.arizona.edu/" target="_blank">University of Arizona</a> |
-  External Professor, <a href="https://www.santafe.edu/" target="_blank">Santa Fe Institute</a>
+  <span class="affil-logos">
+    <a href="https://eeb.arizona.edu/" target="_blank" class="affil-logo-link" aria-label="University of Arizona">
+      <img src="/assets/img/logos/ua_block_a.svg" alt="UArizona block-A" class="affil-logo affil-logo--ua">
+    </a>
+    Professor of Ecology &amp; Evolutionary Biology, <a href="https://eeb.arizona.edu/" target="_blank">University of Arizona</a>
+    &nbsp;|&nbsp;
+    <a href="https://www.santafe.edu/" target="_blank" class="affil-logo-link" aria-label="Santa Fe Institute">
+      <img src="/assets/img/logos/sfi_logo.svg" alt="SFI" class="affil-logo affil-logo--sfi">
+    </a>
+    External Professor, <a href="https://www.santafe.edu/" target="_blank">Santa Fe Institute</a>
+  </span>
 
 header_image: /assets/img/field/field_opening.jpeg
 header_image_alt: "Field research — forest dynamics plot survey, Costa Rica"
