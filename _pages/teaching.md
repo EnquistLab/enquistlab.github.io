@@ -31,7 +31,7 @@ Teaching in the Enquist Lab spans formal university courses, international field
 | [ECOL 340](http://ecol340.wordpress.com/) | Evolution of Plant Form, Function, and Diversity |
 | [ECOL 596x](https://smduranm.github.io/EEB_R_workshops/) | R Workshops for EEB PhD Students and Postdocs |
 | [ECOL 586](https://ecol586.wordpress.com/) | Biological Scaling and Macroscopic Processes |
-| [ECOL 596W](http://www.salvias.net/~brian/ECOL596/Trait-based_Ecology_%26_Evolution/Trait-based_Ecology_%26_Evolution.html) | New Methods in Trait-based Ecology and Evolution |
+| ECOL 596W | New Methods in Trait-based Ecology and Evolution |
 | ECOL 600 | Ecology and Evolution Core Class |
 
 ---
