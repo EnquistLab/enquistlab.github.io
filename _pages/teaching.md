@@ -66,7 +66,7 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
 
   <div class="video-card">
     <div class="video-embed-wrapper">
-      {% include video.liquid path="https://www.youtube.com/embed/HvXbQb57lsE" title="NOVA: Hunting the Hidden Dimension — Fractal geometry and metabolic scaling" %}
+      {% include video.liquid path="https://www.youtube.com/embed/q8EuFziyDwI" title="NOVA: Hunting the Hidden Dimension — Fractal geometry and metabolic scaling" %}
     </div>
     <p class="video-caption"><strong>NOVA: Hunting the Hidden Dimension</strong><br>Fractal geometry and metabolic scaling — see the lab's work starting at ~43 min</p>
   </div>
