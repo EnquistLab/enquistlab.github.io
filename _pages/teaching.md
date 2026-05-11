@@ -78,7 +78,88 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
     <p class="video-caption"><strong>National Geographic: X-Ray Earth</strong><br>Metabolic scaling theory in action — see the lab's work starting at ~50 min</p>
   </div>
 
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/x1U5pirg9IY" title="Better Forecasting Our Ecological Future: Taming Big Data with Big Theory (2014)" %}
+    </div>
+    <p class="video-caption"><strong>Better Forecasting Our Ecological Future: Taming Big Data with Big Theory</strong><br>2014</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/ujQWX99t4pc" title="Actually, James H. Brown *is* an Evolutionary Biologist — Brian Enquist" %}
+    </div>
+    <p class="video-caption"><strong>Actually, James H. Brown <em>is</em> an Evolutionary Biologist</strong><br>Brian Enquist</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/wshy12Us__Y" title="Biodiversity, Ecology, and Global Change — Brian Enquist" %}
+    </div>
+    <p class="video-caption"><strong>Biodiversity, Ecology, and Global Change</strong><br>Brian Enquist</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/BES59lBT37w" title="Organismal Seminar — Dr. Brian J. Enquist, Part 1" %}
+    </div>
+    <p class="video-caption"><strong>Organismal Seminar — Part 1</strong><br>Dr. Brian J. Enquist</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/1jO9fenwlIc" title="Organismal Seminar — Dr. Brian J. Enquist, Part 2" %}
+    </div>
+    <p class="video-caption"><strong>Organismal Seminar — Part 2</strong><br>Dr. Brian J. Enquist</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/GaCqb8RpFrU" title="Forecasting the Future of the Biosphere using Abundance and Size Distributions" %}
+    </div>
+    <p class="video-caption"><strong>Forecasting the Future of the Biosphere using Abundance and Size Distributions</strong></p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/OB3JQGF4-8I" title="Toward a General Theory Predicting Biodiversity and Ecosystem Responses to Global Change" %}
+    </div>
+    <p class="video-caption"><strong>Toward a General Theory Predicting Biodiversity and Ecosystem Responses to Global Change</strong></p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/slxJDg8P9t4" title="The Future of Plant Biodiversity and the Functioning of the Biosphere in the Anthropocene" %}
+    </div>
+    <p class="video-caption"><strong>The Future of Plant Biodiversity and the Functioning of the Biosphere in the Anthropocene</strong></p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/7yWYJw_0Rt4" title="The Future of Biodiversity and the Functioning of the Biosphere in the Anthropocene (2022)" %}
+    </div>
+    <p class="video-caption"><strong>The Future of Biodiversity and the Functioning of the Biosphere in the Anthropocene</strong><br>2022</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/Ospu9BRBIfs" title="PFTC5 Lecture 1 — Enquist, 2020" %}
+    </div>
+    <p class="video-caption"><strong>PFTC5 Lecture 1</strong><br>Plant Functional Trait Course 5, 2020</p>
+  </div>
+
+  <div class="video-card">
+    <div class="video-embed-wrapper">
+      {% include video.liquid path="https://www.youtube.com/embed/xAHLsLUd_XM" title="Julie Messier — Interspecific Integration of Trait Dimensions at Local Scales" %}
+    </div>
+    <p class="video-caption"><strong>Interspecific Integration of Trait Dimensions at Local Scales</strong><br>Julie Messier</p>
+  </div>
+
 </div>
+
+<p style="text-align:center;margin-top:1rem;">
+  <a href="https://www.youtube.com/playlist?list=PL0dc9LYHajbKwSe76Zxt4-FXDqjPxGg_O" target="_blank" rel="noopener" class="btn btn-sm btn-cta-outline">View full Academic Talks playlist on YouTube ↗</a>
+</p>
 
 <h2 class="teaching-section-heading" id="materials">Open Slides &amp; Materials</h2>
 
