@@ -48,44 +48,6 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
 
 <h2 class="teaching-section-heading" id="videos">Video Lectures</h2>
 
-<div class="video-shuffle-bar">
-  <button class="btn btn-shuffle" id="shuffleBtn" onclick="shuffleLecture()">&#x1F500; Shuffle Lecture</button>
-</div>
-
-<div class="featured-video-player" id="featuredPlayer" style="display:none;" aria-live="polite">
-  <div class="video-embed-wrapper">
-    <figure style="position:absolute;top:0;left:0;width:100%;height:100%;margin:0;">
-      <iframe id="featuredIframe" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="width:100%;height:100%;border-radius:6px;border:0;"></iframe>
-    </figure>
-  </div>
-  <p class="video-caption" id="featuredCaption" style="text-align:center;font-size:0.95rem;margin-top:0.75rem;"></p>
-</div>
-
-<script>
-(function () {
-  var lectures = [
-    { src: "https://www.youtube.com/embed/GEuvFfI3ZtY", title: "Our Rapidly Changing Biosphere", sub: "University of Arizona Public Science Lecture, 2020" },
-    { src: "https://www.youtube.com/embed/u1NJTtWQSHQ", title: "The Concept of Time in Biology, and the Unity of Life", sub: "Oxford Martin School, 2017" },
-    { src: "https://www.youtube.com/embed/q8EuFziyDwI", title: "NOVA: Hunting the Hidden Dimension", sub: "Fractal geometry and metabolic scaling — lab work starts ~43 min" },
-    { src: "https://www.youtube.com/embed/HYdeYuk3Qa4", title: "National Geographic: X-Ray Earth", sub: "Metabolic scaling theory in action — lab work starts ~50 min" }
-  ];
-  var lastIdx = -1;
-
-  window.shuffleLecture = function () {
-    var idx;
-    do { idx = Math.floor(Math.random() * lectures.length); } while (lectures.length > 1 && idx === lastIdx);
-    lastIdx = idx;
-    var lec = lectures[idx];
-    var iframe = document.getElementById('featuredIframe');
-    iframe.src = lec.src + '?autoplay=1';
-    document.getElementById('featuredCaption').innerHTML = '<strong>' + lec.title + '</strong><br>' + lec.sub;
-    var player = document.getElementById('featuredPlayer');
-    player.style.display = 'block';
-    setTimeout(function () { player.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 50);
-  };
-})();
-</script>
-
 <div class="video-lecture-grid">
 
   <div class="video-card">
