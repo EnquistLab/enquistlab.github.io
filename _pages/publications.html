@@ -444,7 +444,6 @@ nav_order: 3.1
 			{
 				id: 'tropical-ecology',
 				label: 'Tropical Ecology',
-				label: 'Tropical Ecology',
 				threshold: 2,
 				matchers: [
 					{ pattern: /tropical/i, weight: 2 },
@@ -454,6 +453,14 @@ nav_order: 3.1
 					{ pattern: /tropical forest/i, weight: 3 },
 					{ pattern: /dry forest/i, weight: 2 },
 					{ pattern: /montane cloud forest/i, weight: 2 },
+					// Atlantic Forest — major tropical hotspot in SE Brazil; catches Lourenco Jr et al. (2021) Ecosphere
+					{ pattern: /atlantic forest/i, weight: 3 },
+					// Andean forests — tropical/montane South America; catches Martínez-Villa et al. (2024) GEB
+					{ pattern: /\bandean\b/i, weight: 2 },
+					// Panama — tropical rainforest research system; catches Kaspari et al. (2017) Ecology
+					{ pattern: /\bpanama\b/i, weight: 2 },
+					// Biotropica — premier Neotropical ecology journal; catches Hogan et al. (2019)
+					{ pattern: /biotropica/i, weight: 2 },
 				],
 			},
 			{

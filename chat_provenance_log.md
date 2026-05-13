@@ -304,3 +304,13 @@ Action: Confirmed all 3 papers are present in `_includes/publications_full_from_
 - Paper was already present in `_includes/publications_full_from_doc.md` (2020 section) but had a malformed duplicate `<a>` tag — fixed.
 - Added `/tree of life/i` weight-2 matcher to phylogenetic-ecology tab in `_pages/publications.html`, enabling Gallagher 2020 and Eiserhardt 2018 to appear in that tab.
 - Committed and pushed: c7d6c1a
+
+## 2026-05-13 — Tropical Ecology tab deep dive + Lourenco Jr papers
+Prompt: Update the Tropical Ecology tab; papers with Lourenco Jr, J. should be included.
+Changes to _pages/publications.html:
+  - Removed duplicate `label: 'Tropical Ecology'` property.
+  - Added `/atlantic forest/i` wt 3 — catches Lourenco Jr et al. (2021) Ecosphere (×2 entries, Atlantic Forest SE Brazil).
+  - Added `/\bandean\b/i` wt 2 — catches Martínez-Villa et al. (2024) GEB (Andean forests, Colombia).
+  - Added `/\bpanama\b/i` wt 2 — catches Kaspari et al. (2017) Ecology (Panama forest).
+  - Added `/biotropica/i` wt 2 — catches Hogan et al. (2019) Biotropica (Luquillo wet tropical forest).
+Previously matched: 38 papers. Newly added: 4 papers. Total Tropical Ecology tab: ~42 papers.
