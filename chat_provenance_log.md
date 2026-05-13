@@ -275,3 +275,26 @@ Action: Removed 100vw full-bleed breakout (width:100vw;left:50%;margin-left:-50v
 Prompt: "For enquistlab.github.io/publications/ I would like to add another tab under 'phylogenetic ecology'. Include many of the papers with Nate Swenson, Nathan Kraft, as well as other papers coauthored with Jessica Green."
 Action: Added `phylogenetic-ecology` entry to the `topicDefinitions` array in `_pages/publications.html`, inserted after the 'Functional Ecology' tab. The phylogenetics-comparative-agent reviewed the candidate papers (Swenson, Kraft, Green collaborations) and rated each for phylogenetic centrality. Final matchers: weight-3 for community phylogenetics, phylogenetic diversity/endemism/signal/structure, and scale-dependency; weight-2 for any 'phylogeneti' token; weight-1 weak signals (swenson, eco-evolutionary, opposing assembly mechanisms) that pair to reach threshold=2. Green papers (SADs, theory, microbes) were classified as macroecology — not included in this tab. Commits pending.
 **Agent:** m → phylogenetics-comparative-agent → direct edit
+
+## 2026-05-13 — Add Trait-based Ecology papers to publications tab
+
+Prompt: "For https://enquistlab.github.io/publications/ under the Trait-based Ecology tab please include: Enquist et al. 1999 (Nature 401: allometric scaling of production and life history variation in vascular plants; ESA Mercer Award 2001); West et al. 1999 (Nature 400: general model for structure and allometry of plant vascular systems); Swenson & Enquist 2007 (AJB 94: wood density community-wide variation). Do a deeper dive on trait-based ecology papers and add them to the tab."
+
+Action: Confirmed all 3 papers are present in `_includes/publications_full_from_doc.md`. Swenson 2007 already matched via existing `/functional trait/i` pattern (weight 3, threshold 2). The two 1999 papers had no trait-keyword matches. Added 8 new matchers to the `trait-based-ecology` topic definition in `_pages/publications.html`:
+- `/life history variation/i, weight: 2` — Enquist et al. 1999 (Nature 401)
+- `/vascular systems/i, weight: 2` — West et al. 1999 (Nature 400)
+- `/wood density/i, weight: 2` — Mo 2024, Stegen 2009, and other wood density papers
+- `/wood specific gravity/i, weight: 2` — Swenson & Enquist 2008 (AJB)
+- `/functional composition/i, weight: 2` — Swenson 2020, Martínez-Villa 2024, Enquist 2011
+- `/life history scaling/i, weight: 2` — Grady et al. 2024 (J. Ecology)
+- `/leaf size.*ecosystem|ecosystem.*leaf size/i, weight: 2` — Li et al. 2020 (Ecology Letters)
+
+**Agent:** m → direct edit (patterns verified against full publication HTML)
+
+## 2026-05-13 — Macroecology tab pattern expansion
+
+**Prompt:** User identified missing macroecology papers in the Macroecology tab (commonness of rarity 2019, Bektaş 2024 Northern Hemisphere, McGill 2007 SADs, Enquist 2002 macroscopic patterns, Swenson 2007).
+
+**Agents invoked:** merow-ecology (full publication survey → 80 macroecology papers in 9 themes), ecology-user (independent classification + regex suggestions), scholarly-rigor-reviewer (validated 5 user-flagged papers: 3 confirmed macroecology, 2 borderline).
+
+**Changes:** Added 17 new JavaScript regex matchers to the Macroecology topic definition in `_pages/publications.html`. All user-flagged papers now score ≥ 2 and will appear in the Macroecology tab. Swenson et al. 2007 (scale dependency, single-site community ecophylogenetics) excluded per scholarly-rigor-reviewer recommendation.
