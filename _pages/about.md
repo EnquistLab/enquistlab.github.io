@@ -120,4 +120,4 @@ For opportunities to work with the lab, see [Join Us]({{ '/join/' | relative_url
 Department of Ecology and Evolutionary Biology  
 Room 310, Biological Sciences West  
 1041 E. Lowell St., Tucson, AZ 85721  
-&#128222; (520) 626-3336 · [benquist@arizona.edu](mailto:benquist@arizona.edu)
+&#128222; (520) 626-3336 · [benquist@arizona.edu](mailto:benquist@arizona.edu) · [ORCID 0000-0002-6124-7096](https://orcid.org/0000-0002-6124-7096)
