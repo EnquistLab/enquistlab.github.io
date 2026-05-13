@@ -251,6 +251,39 @@ nav_order: 3.1
 					{ pattern: /rarity/i, weight: 1 },
 					{ pattern: /broad geographic/i, weight: 2 },
 					{ pattern: /continental/i, weight: 1 },
+					// Species abundance distributions — McGill et al. 2007; Morlon et al. 2009
+					{ pattern: /species\s+abundance\s+distribution[s]?/i, weight: 3 },
+					{ pattern: /abundance\s+distribution[s]?\b/i, weight: 2 },
+					// Macroscopic patterns — Enquist et al. 2002 (Science)
+					{ pattern: /macroscopic\s+patterns?/i, weight: 3 },
+					// Global rarity — Enquist et al. 2019 (Science Advances)
+					{ pattern: /global.*rarity|rarity.*global/i, weight: 2 },
+					// Northern/Southern Hemisphere breadth — Bektaş et al. 2024 (Ecography)
+					{ pattern: /northern\s+hemisphere|southern\s+hemisphere/i, weight: 2 },
+					// Latitudinal diversity gradient — Lamanna et al. 2014; Weiser et al. 2017
+					{ pattern: /latitudinal\s+diversity\s+gradient/i, weight: 3 },
+					// Diversity gradients — Weiser et al. 2018; Stegen et al. 2012
+					{ pattern: /diversity\s+gradient[s]?/i, weight: 2 },
+					// Biodiversity patterns across gradients — Stegen et al. 2012
+					{ pattern: /biodiversity\s+patterns?\s+(across|along)/i, weight: 2 },
+					// Species–energy relationship — Símová et al. 2011
+					{ pattern: /species[- ]energy\s+relationship/i, weight: 3 },
+					// General laws of biodiversity — Moulatlet et al. 2025
+					{ pattern: /general\s+laws?\s+of\s+biodiversity/i, weight: 3 },
+					// Global beta-diversity — Xu et al. 2023
+					{ pattern: /global\s+beta[- ]?diversity/i, weight: 2 },
+					// Global distribution and drivers (trait geography) — Mo et al. 2024
+					{ pattern: /global\s+distribution\s+(and\s+)?drivers?/i, weight: 2 },
+					// Across the globe — Hordijk et al. 2024
+					{ pattern: /across\s+the\s+globe/i, weight: 2 },
+					// Body size–abundance — White et al. 2007; Dillon et al. 2019
+					{ pattern: /body\s+size.{0,20}abundance/i, weight: 2 },
+					// Broad climatic gradients — Stegen et al. 2011
+					{ pattern: /broad\s+climatic\s+gradient[s]?/i, weight: 2 },
+					// Global productivity–richness — Hordijk et al. 2023
+					{ pattern: /global\s+relationship.*richness|richness.*global\s+relationship/i, weight: 2 },
+					// Tree diversity / species under global change — Boonman et al. 2024
+					{ pattern: /tree\s+species.*global\s+change|global\s+change.*tree\s+species/i, weight: 2 },
 				],
 			},
 			{
@@ -315,6 +348,20 @@ nav_order: 3.1
 					{ pattern: /intraspecific variation/i, weight: 1 },
 					{ pattern: /leaf mass per area/i, weight: 1 },
 					{ pattern: /\btraits\b/i, weight: 1 },
+					// Enquist et al. 1999 — Allometric scaling of production and life history variation in vascular plants (Nature 401)
+					{ pattern: /life history variation/i, weight: 2 },
+					// West et al. 1999 — A general model for the structure, and allometry of plant vascular systems (Nature 400)
+					{ pattern: /vascular systems/i, weight: 2 },
+					// Wood density as a key plant functional trait (Mo 2024, Stegen 2009, Swenson 2007–2008)
+					{ pattern: /wood density/i, weight: 2 },
+					{ pattern: /wood specific gravity/i, weight: 2 },
+					// Functional composition papers (Swenson 2020, Martínez-Villa 2024, Enquist 2011)
+					{ pattern: /functional composition/i, weight: 2 },
+					// Life-history scaling in trait context (Grady 2024)
+					{ pattern: /life history scaling/i, weight: 2 },
+					// Rebuilding community ecology from functional traits (McGill et al. 2006) — already caught by /functional trait/i
+					// Leaf size/area as a functional trait proxy (Li 2020)
+					{ pattern: /leaf size.*ecosystem|ecosystem.*leaf size/i, weight: 2 },
 				],
 			},
 			{
@@ -354,6 +401,28 @@ nav_order: 3.1
 					{ pattern: /ecological function/i, weight: 2 },
 					{ pattern: /distinctiveness/i, weight: 1 },
 					{ pattern: /evenness/i, weight: 1 },
+				],
+			},
+			{
+				id: 'phylogenetic-ecology',
+				label: 'Phylogenetic Ecology',
+				threshold: 2,
+				matchers: [
+					// Weight 3 — specific, diagnostic community-phylogenetics terms
+					{ pattern: /community phylogenetics/i, weight: 3 },
+					{ pattern: /phylogenetic (diversity|endemism|signal|relatedness|beta diversity)/i, weight: 3 },
+					{ pattern: /phylogenetic.{0,20}(community|assembly) (ecology|structure)/i, weight: 3 },
+					{ pattern: /(community|functional).{0,20}phylogenetic (structure|composition)/i, weight: 3 },
+					{ pattern: /scale depend\w+ .{0,20}phylogenet/i, weight: 3 },
+					// Weight 2 — "phylogenetic" or "phylogeny" anywhere (title, journal, methods)
+					{ pattern: /phylogeneti/i, weight: 2 },
+					// Weight 1 — weak signals; two together reach threshold
+					// Swenson collaboration spans community phylogenetics, trait-phylogeny, and assembly
+					{ pattern: /swenson/i, weight: 1 },
+					{ pattern: /eco-evolutionary/i, weight: 1 },
+					{ pattern: /evolutionary determinants/i, weight: 1 },
+					{ pattern: /opposing assembly mechanisms/i, weight: 1 },
+					{ pattern: /null model.{0,20}community|community.{0,20}null model/i, weight: 1 },
 				],
 			},
 			{
