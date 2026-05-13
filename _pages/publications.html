@@ -362,6 +362,14 @@ nav_order: 3.1
 					// Rebuilding community ecology from functional traits (McGill et al. 2006) — already caught by /functional trait/i
 					// Leaf size/area as a functional trait proxy (Li 2020)
 					{ pattern: /leaf size.*ecosystem|ecosystem.*leaf size/i, weight: 2 },
+					// Lourenco Jr et al. (2021) Ecosphere 12:e03629 — Soil-associated drivers of plant traits
+					// and functional composition in Atlantic Forest coastal tree communities.
+					// Already caught by /plant trait/ + /functional composition/ (score 4); matcher added for documentation.
+					{ pattern: /soil.*drivers.*plant traits|Atlantic Forest.*plant traits/i, weight: 2 },
+					// Consistent trait–environment relationships — Kemppinen et al. (2021) Nature Ecol & Evol
+					{ pattern: /consistent trait.*environment relationship/i, weight: 2 },
+					// Globally important plant functional traits — Kühn et al. (2021) Frontiers Biogeography
+					{ pattern: /globally important plant functional traits/i, weight: 2 },
 				],
 			},
 			{
