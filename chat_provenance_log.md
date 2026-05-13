@@ -270,3 +270,8 @@ Outcome: Full rewrite of _pages/gallery.md. Removed ~55 low-quality/misplaced/un
 ## 2026-05-09 — Fix about page text overflow
 Prompt: Text spacing/justification for https://enquistlab.github.io/about/ runs off the page. Standardize to other tabs and layout.
 Action: Removed 100vw full-bleed breakout (width:100vw;left:50%;margin-left:-50vw) from .about-article in _sass/_lab-redesign.scss. The 100vw value includes the scrollbar width causing horizontal overflow. About page now stays within the standard 930px .container like all other pages. Profile image column narrowed from 300px to 260px to fit cleanly. Committed and pushed.
+
+## 2026-05-13 — Add Phylogenetic Ecology tab to publications page
+Prompt: "For enquistlab.github.io/publications/ I would like to add another tab under 'phylogenetic ecology'. Include many of the papers with Nate Swenson, Nathan Kraft, as well as other papers coauthored with Jessica Green."
+Action: Added `phylogenetic-ecology` entry to the `topicDefinitions` array in `_pages/publications.html`, inserted after the 'Functional Ecology' tab. The phylogenetics-comparative-agent reviewed the candidate papers (Swenson, Kraft, Green collaborations) and rated each for phylogenetic centrality. Final matchers: weight-3 for community phylogenetics, phylogenetic diversity/endemism/signal/structure, and scale-dependency; weight-2 for any 'phylogeneti' token; weight-1 weak signals (swenson, eco-evolutionary, opposing assembly mechanisms) that pair to reach threshold=2. Green papers (SADs, theory, microbes) were classified as macroecology — not included in this tab. Commits pending.
+**Agent:** m → phylogenetics-comparative-agent → direct edit
