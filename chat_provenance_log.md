@@ -298,3 +298,9 @@ Action: Confirmed all 3 papers are present in `_includes/publications_full_from_
 **Agents invoked:** merow-ecology (full publication survey → 80 macroecology papers in 9 themes), ecology-user (independent classification + regex suggestions), scholarly-rigor-reviewer (validated 5 user-flagged papers: 3 confirmed macroecology, 2 borderline).
 
 **Changes:** Added 17 new JavaScript regex matchers to the Macroecology topic definition in `_pages/publications.html`. All user-flagged papers now score ≥ 2 and will appear in the Macroecology tab. Swenson et al. 2007 (scale dependency, single-site community ecophylogenetics) excluded per scholarly-rigor-reviewer recommendation.
+
+## 2026-05-13 — Gallagher 2020 / Tree-of-Life tab matcher
+- User asked to add Gallagher et al. 2020 "Open Science principles for accelerating trait-based science across the Tree of Life" (Nature Ecology & Evolution 4(3), 294-303).
+- Paper was already present in `_includes/publications_full_from_doc.md` (2020 section) but had a malformed duplicate `<a>` tag — fixed.
+- Added `/tree of life/i` weight-2 matcher to phylogenetic-ecology tab in `_pages/publications.html`, enabling Gallagher 2020 and Eiserhardt 2018 to appear in that tab.
+- Committed and pushed: c7d6c1a
