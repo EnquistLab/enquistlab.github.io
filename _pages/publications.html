@@ -416,6 +416,12 @@ nav_order: 3.1
 					{ pattern: /scale depend\w+ .{0,20}phylogenet/i, weight: 3 },
 					// Weight 2 — "phylogenetic" or "phylogeny" anywhere (title, journal, methods)
 					{ pattern: /phylogeneti/i, weight: 2 },
+					// Weight 3 — specific named papers requested by user
+					// Bryant et al. 2008 PNAS: elevational diversity patterns across microbes and plants
+					{ pattern: /microbes on mountainsides/i, weight: 3 },
+					// Neves et al. 2021 PNAS: evolutionary diversity shaped by extreme conditions
+					{ pattern: /adaptive challenge.*extreme conditions/i, weight: 3 },
+					{ pattern: /evolutionary diversity.*plant assemblages/i, weight: 3 },
 					// Weight 1 — weak signals; two together reach threshold
 					// Swenson collaboration spans community phylogenetics, trait-phylogeny, and assembly
 					{ pattern: /swenson/i, weight: 1 },
