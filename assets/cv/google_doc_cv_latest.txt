@@ -73,8 +73,8 @@ Fulbright Fellow, National Geographic Explorer, Oxford University Martin School 
 * Richard G. and Reba Beidleman Award, Colorado College, Honors Convocation, For Excellence in Ecology (1991).
 * Graduation with Distinction in Biology, Colorado College (1991).
 Editorial Boards
-* Associate Editor, Ecology Letters (Nov. 2007 –     ).
-* Associate Editor, Global Ecology and Biogeography (Summer 2010 -     ).      
+* Associate Editor, Ecology Letters (Nov. 2007 – 2025).
+* Associate Editor, Global Ecology and Biogeography (Summer 2010 - 2025).      
 * Invited Guest Editor, Annual Review of Ecology, Evolution, & Systematics (2009 - 2010).
 * Editorial Board, Global Ecology and Biogeography (2003- 2006).
 * Member of Faculty of 1000 (Nov. 2005 – Jan. 2007).
@@ -87,7 +87,7 @@ Social Media/Open Science
 * Google Scholar - https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en
 * ResearchGate - https://www.researchgate.net/profile/Brian_Enquist
 Scholarly Publications
-* Google Scholar, 10/20/2025: Citations = 70,625, h-index = 115. 
+* Google Scholar, 05/13/2026: Citations = 74,123, h-index = 118. 
 Books
 * Enquist, B.J., Kempes, C., O’Connor, M. Biological Scaling: A general theory for scaling the form and function of biology and biodiversity. Santa Fe Institute Press (In Prep).
 * National Academies of Sciences, Engineering, and Medicine. 2024. A Vision for Continental-Scale Biology: Research Across Multiple Scales. Washington, DC: The National Academies Press. https://doi.org/10.17226/27285.
@@ -187,7 +187,7 @@ Peer Reviewed Journal Aricles
 78. Charney, N.D., Record, Gerstn,S.B., Merow, C., Zarnetske, P., B. J Enquist  (2021) A test of species distribution model transferability across environmental and geographic space for 108 western North American tree species. Frontiers in Ecology and Evolution ​​9, p.689295.
 79. Lourenco Jr, J., Newman, E. A., Ventura, J. A., Milanez, C. R. D., Thomaz, L. D., Wandekoken, D. T., & Enquist, B. J. (2021). Soil‐associated drivers of plant traits and functional composition in Atlantic Forest coastal tree communities. Ecosphere, 12(7), e03629.
 80. Flower, C.,  Hodgson, W.C., Salywon, A. M.  Maitner, B. S., Enquist, B.J., Peeples, M. A. and  B. Blonder. 2021. Human food use increases plant geographical ranges in the Sonoran Desert. Global Ecology and Biogeography. https://doi.org/10.1111/geb.13311
-81. Jehová, L., E. Newman, J., Ventura, R. Extensão, C. Milanez, L. Thomaz, D. Wandekoken, Douglas, and B. J. Enquist (2021) Soil-associated drivers of plant traits and forest functional composition in Atlantic Forest coastal plant communities. Ecosphere 12, no. 7: e03629.
+81. Lourenco Jr, J, E. Newman, J., Ventura, R. Extensão, C. Milanez, L. Thomaz, D. Wandekoken, Douglas, and B. J. Enquist (2021) Soil-associated drivers of plant traits and forest functional composition in Atlantic Forest coastal plant communities. Ecosphere 12, no. 7: e03629.
 82. Kemppinen, J., Niittynen, P., le Roux, P.C., Momberg, M., Happonen, K., Aalto, J., Rautakoski, H., Enquist, B.J., Vandvik, V., Halbritter, A.H. and Maitner, B., 2021. Consistent trait–environment relationships within and across tundra plant communities. Nature Ecology & Evolution, 5(4), pp.458-467.
 83. Brummer, A., B., Panagiotis Lymperopoulos, J. Shen, E.Tekin, L. P. Bentley, V. Buzzard, A.Gray, I.Oliveras, B.J. Enquist, and V M. Savage. (2021) Branching principles of animal and plant networks identified by combining extensive data, machine learning and modelling. Journal of the Royal Society Interface 18, no. 174 (2021): 20200624.
 84. Aguirre-Gutiérrez, J., Rifai, S., Shenkin, et al. 2021. Pantropical modelling of canopy functional traits using Sentinel-2 remote sensing data. Remote Sensing of Environment, 252, p.112122.
