@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 185" width="280" height="185" role="img" aria-label="Leaf energy balance diagram showing thermoregulation">
+  <rect x="0" y="0" width="280" height="185" fill="white"/>
+  <!-- Air label -->
+  <text x="8" y="18" font-family="sans-serif" font-size="8.5" fill="#777">air  (T_air)</text>
+  <!-- Leaf rectangle -->
+  <rect x="78" y="88" width="124" height="50" rx="5" fill="#d8f0d0" stroke="#5a9a5a" stroke-width="1.5"/>
+  <text x="140" y="116" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#2a5a2a" font-weight="bold">leaf</text>
+  <text x="140" y="130" text-anchor="middle" font-family="sans-serif" font-size="7.5" fill="#555">T_leaf ≠ T_air</text>
+  <!-- Soil/ground -->
+  <rect x="0" y="152" width="280" height="33" fill="#dfd0b0"/>
+  <text x="140" y="170" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#665">substrate</text>
+  <!-- SOLAR RADIATION arrow (orange-yellow, down to leaf) -->
+  <line x1="38" y1="14" x2="88" y2="85" stroke="#d4820a" stroke-width="2.5"/>
+  <polygon points="88,85 79,73 97,74" fill="#d4820a"/>
+  <text x="6"  y="36" font-family="sans-serif" font-size="8.5" fill="#d4820a">Q_solar</text>
+  <!-- LATENT HEAT — transpiration (blue, up) -->
+  <line x1="112" y1="91" x2="96"  y2="28" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="96,28 88,40 104,40" fill="#4a90d9"/>
+  <text x="48" y="22" font-family="sans-serif" font-size="8.5" fill="#4a90d9">Q_lh</text>
+  <text x="38" y="33" font-family="sans-serif" font-size="7" fill="#7ab4e8">(transpiration)</text>
+  <!-- SENSIBLE HEAT (rust, up) -->
+  <line x1="168" y1="91" x2="184" y2="28" stroke="#c8503a" stroke-width="2"/>
+  <polygon points="184,28 176,40 192,38" fill="#c8503a"/>
+  <text x="186" y="22" font-family="sans-serif" font-size="8.5" fill="#c8503a">Q_sh</text>
+  <!-- LONGWAVE (gray dashed, up-right) -->
+  <line x1="210" y1="91" x2="232" y2="50" stroke="#999" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <polygon points="232,50 225,60 237,58" fill="#999"/>
+  <text x="235" y="44" font-family="sans-serif" font-size="7.5" fill="#999">Q_lw</text>
+  <!-- Delta T annotation box -->
+  <rect x="190" y="96" width="84" height="40" rx="3" fill="none" stroke="#c8503a" stroke-width="0.9" stroke-dasharray="3,2"/>
+  <text x="232" y="111" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#c8503a">ΔT = T_leaf</text>
+  <text x="232" y="124" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#c8503a">− T_air</text>
+  <text x="232" y="136" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#a03020">can exceed ±5 °C</text>
+</svg>

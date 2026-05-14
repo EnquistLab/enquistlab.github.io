@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 188" width="280" height="188" role="img" aria-label="Closed-loop chamber for measuring ecosystem CO2 and H2O fluxes">
+  <!-- Title -->
+  <text x="140" y="14" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#444">Closed-loop chamber: CO₂ &amp; H₂O flux</text>
+  <!-- Ground / soil -->
+  <rect x="0" y="150" width="280" height="38" fill="#c8b484"/>
+  <text x="140" y="172" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#665">soil</text>
+  <!-- Chamber walls -->
+  <line x1="42" y1="100" x2="42" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="238" y1="100" x2="238" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <!-- Chamber dome (arc) -->
+  <path d="M42,100 Q140,34 238,100" fill="rgba(160,205,235,0.15)" stroke="#4a90d9" stroke-width="2"/>
+  <!-- Base seal (dashed) -->
+  <line x1="42" y1="150" x2="238" y2="150" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <!-- Vegetation (grass tufts inside) -->
+  <line x1="78"  y1="150" x2="70"  y2="130" stroke="#4a8a4a" stroke-width="2.5"/>
+  <line x1="91"  y1="150" x2="89"  y2="126" stroke="#5a9a5a" stroke-width="2.5"/>
+  <line x1="104" y1="150" x2="108" y2="128" stroke="#4a8a4a" stroke-width="2.5"/>
+  <line x1="140" y1="150" x2="136" y2="124" stroke="#5a9a5a" stroke-width="2.5"/>
+  <line x1="153" y1="150" x2="157" y2="128" stroke="#4a8a4a" stroke-width="2.5"/>
+  <line x1="178" y1="150" x2="176" y2="130" stroke="#4a8a4a" stroke-width="2.5"/>
+  <line x1="192" y1="150" x2="195" y2="132" stroke="#5a9a5a" stroke-width="2.5"/>
+  <!-- CO2 label in headspace -->
+  <text x="140" y="74" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#2255aa">[CO₂] / [H₂O]</text>
+  <text x="140" y="86" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2255aa">headspace change</text>
+  <!-- GPP arrow: down (net uptake by plants) -->
+  <line x1="122" y1="96" x2="122" y2="118" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="122,118 117,109 127,109" fill="#4a90d9"/>
+  <text x="128" y="110" font-family="sans-serif" font-size="7.5" fill="#4a90d9">GPP</text>
+  <!-- Respiration arrow: up -->
+  <line x1="158" y1="120" x2="158" y2="98" stroke="#c85030" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <polygon points="158,98 153,107 163,107" fill="#c85030"/>
+  <text x="164" y="108" font-family="sans-serif" font-size="7.5" fill="#c85030">R</text>
+  <!-- IRGA sensor box -->
+  <rect x="234" y="112" width="24" height="12" rx="3" fill="#c8dff0" stroke="#4a90d9" stroke-width="1"/>
+  <text x="261" y="121" font-family="sans-serif" font-size="7" fill="#4a90d9">IRGA</text>
+  <!-- NEE equation -->
+  <text x="140" y="186" text-anchor="middle" font-family="sans-serif" font-size="8.5" fill="#333" font-weight="bold">NEE = R_eco − GPP</text>
+</svg>

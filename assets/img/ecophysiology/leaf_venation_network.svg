@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 180" width="280" height="180" role="img" aria-label="Leaf venation network diagram">
+  <!-- Leaf fill -->
+  <path d="M140,8 Q220,12 255,85 Q265,120 235,155 Q195,175 140,175 Q85,175 45,155 Q15,120 25,85 Q60,12 140,8 Z"
+        fill="#eef7ee" stroke="#5c9a5c" stroke-width="1.5"/>
+  <!-- Primary midrib -->
+  <line x1="140" y1="12" x2="140" y2="172" stroke="#2a5a2a" stroke-width="3"/>
+  <!-- Secondary veins - left -->
+  <path d="M140,38 Q105,45 68,62" fill="none" stroke="#4a8a4a" stroke-width="1.5"/>
+  <path d="M140,65 Q105,70 58,83" fill="none" stroke="#4a8a4a" stroke-width="1.5"/>
+  <path d="M140,92 Q105,96 55,106" fill="none" stroke="#4a8a4a" stroke-width="1.5"/>
+  <path d="M140,118 Q110,122 75,135" fill="none" stroke="#4a8a4a" stroke-width="1.5"/>
+  <path d="M140,142 Q118,145 95,154" fill="none" stroke="#4a8a4a" stroke-width="1.2"/>
+  <!-- Secondary veins - right -->
+  <path d="M140,38 Q175,45 212,62" fill="none" stroke="#4a8a4a" stroke-width="1.5"/>
+  <path d="M140,65 Q175,70 222,83" fill="none" stroke="#4a8a4a" stroke-width="1.5"/>
+  <path d="M140,92 Q175,96 225,106" fill="none" stroke="#4a8a4a" stroke-width="1.5"/>
+  <path d="M140,118 Q170,122 205,135" fill="none" stroke="#4a8a4a" stroke-width="1.5"/>
+  <path d="M140,142 Q162,145 185,154" fill="none" stroke="#4a8a4a" stroke-width="1.2"/>
+  <!-- Tertiary cross-links - left -->
+  <line x1="100" y1="50" x2="96" y2="70" stroke="#8aba8a" stroke-width="0.9"/>
+  <line x1="80"  y1="57" x2="76" y2="77" stroke="#8aba8a" stroke-width="0.9"/>
+  <line x1="88"  y1="76" x2="84" y2="96" stroke="#8aba8a" stroke-width="0.9"/>
+  <line x1="72"  y1="82" x2="68" y2="102" stroke="#8aba8a" stroke-width="0.9"/>
+  <line x1="96"  y1="96" x2="93" y2="116" stroke="#8aba8a" stroke-width="0.9"/>
+  <!-- Tertiary cross-links - right -->
+  <line x1="180" y1="50" x2="184" y2="70" stroke="#8aba8a" stroke-width="0.9"/>
+  <line x1="200" y1="57" x2="204" y2="77" stroke="#8aba8a" stroke-width="0.9"/>
+  <line x1="192" y1="76" x2="196" y2="96" stroke="#8aba8a" stroke-width="0.9"/>
+  <line x1="208" y1="82" x2="212" y2="102" stroke="#8aba8a" stroke-width="0.9"/>
+  <line x1="184" y1="96" x2="187" y2="116" stroke="#8aba8a" stroke-width="0.9"/>
+  <!-- Highlighted areole (blue) -->
+  <path d="M140,65 Q105,70 88,76 L84,96 Q105,96 140,92 Z"
+        fill="#4a90d912" stroke="#4a90d9" stroke-width="1.1" opacity="0.75"/>
+  <text x="106" y="84" font-family="sans-serif" font-size="7.5" fill="#4a90d9" opacity="0.9">areole</text>
+  <!-- Legend -->
+  <line x1="18" y1="158" x2="42" y2="158" stroke="#2a5a2a" stroke-width="3"/>
+  <text x="46" y="161" font-family="sans-serif" font-size="7.5" fill="#444">primary</text>
+  <line x1="18" y1="170" x2="42" y2="170" stroke="#4a8a4a" stroke-width="1.5"/>
+  <text x="46" y="173" font-family="sans-serif" font-size="7.5" fill="#444">secondary</text>
+  <line x1="130" y1="170" x2="154" y2="170" stroke="#8aba8a" stroke-width="0.9"/>
+  <text x="158" y="173" font-family="sans-serif" font-size="7.5" fill="#444">tertiary</text>
+</svg>

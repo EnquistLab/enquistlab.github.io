@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" width="280" height="200" role="img" aria-label="Plant hydraulic network showing tapering conduits from root to leaf">
+  <!-- Soil -->
+  <rect x="0" y="168" width="280" height="32" fill="#c8b484"/>
+  <text x="140" y="187" text-anchor="middle" font-family="sans-serif" font-size="7.5" fill="#665">Ψ_soil  (least negative)</text>
+  <!-- Roots (implied below ground) -->
+  <line x1="128" y1="168" x2="108" y2="185" stroke="#9a7050" stroke-width="1.8" opacity="0.55"/>
+  <line x1="140" y1="168" x2="140" y2="192" stroke="#9a7050" stroke-width="1.8" opacity="0.55"/>
+  <line x1="152" y1="168" x2="172" y2="185" stroke="#9a7050" stroke-width="1.8" opacity="0.55"/>
+  <!-- Trunk (widest) -->
+  <rect x="124" y="108" width="32" height="64" rx="3" fill="#a07040" stroke="#804820" stroke-width="1.2"/>
+  <!-- Primary branches (thick) -->
+  <line x1="132" y1="115" x2="72"  y2="70" stroke="#a07040" stroke-width="11" stroke-linecap="round"/>
+  <line x1="148" y1="115" x2="208" y2="70" stroke="#a07040" stroke-width="11" stroke-linecap="round"/>
+  <!-- Secondary branches (medium) -->
+  <line x1="72"  y1="70" x2="42"  y2="42" stroke="#a07040" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="72"  y1="70" x2="98"  y2="42" stroke="#a07040" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="208" y1="70" x2="182" y2="42" stroke="#a07040" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="208" y1="70" x2="238" y2="42" stroke="#a07040" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- Tertiary / twigs (thin) -->
+  <line x1="42"  y1="42" x2="26"  y2="22" stroke="#a07040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="42"  y1="42" x2="56"  y2="22" stroke="#a07040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="98"  y1="42" x2="84"  y2="22" stroke="#a07040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="98"  y1="42" x2="112" y2="22" stroke="#a07040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="182" y1="42" x2="168" y2="22" stroke="#a07040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="182" y1="42" x2="196" y2="22" stroke="#a07040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="238" y1="42" x2="224" y2="22" stroke="#a07040" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="238" y1="42" x2="252" y2="22" stroke="#a07040" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Leaves at tips -->
+  <circle cx="26"  cy="16" r="6" fill="#5a9a5a"/>
+  <circle cx="56"  cy="16" r="6" fill="#5a9a5a"/>
+  <circle cx="84"  cy="16" r="6" fill="#5a9a5a"/>
+  <circle cx="112" cy="16" r="6" fill="#5a9a5a"/>
+  <circle cx="168" cy="16" r="6" fill="#5a9a5a"/>
+  <circle cx="196" cy="16" r="6" fill="#5a9a5a"/>
+  <circle cx="224" cy="16" r="6" fill="#5a9a5a"/>
+  <circle cx="252" cy="16" r="6" fill="#5a9a5a"/>
+  <!-- Ψ_leaf label (top) -->
+  <text x="140" y="9" text-anchor="middle" font-family="sans-serif" font-size="7.5" fill="#c85030">Ψ_leaf  (most negative)</text>
+  <!-- Water flow arrow along trunk (blue dashed upward) -->
+  <line x1="140" y1="163" x2="140" y2="122" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <polygon points="140,122 135,132 145,132" fill="#4a90d9"/>
+  <!-- Conduit width annotations -->
+  <text x="164" y="146" font-family="sans-serif" font-size="7" fill="#4a90d9">wide conduits</text>
+  <line x1="162" y1="143" x2="158" y2="136" stroke="#4a90d9" stroke-width="0.8"/>
+  <text x="210" y="56"  font-family="sans-serif" font-size="7" fill="#4a90d9">narrow</text>
+  <line x1="220" y1="52" x2="213" y2="60" stroke="#4a90d9" stroke-width="0.8"/>
+  <!-- Path length label -->
+  <text x="12" y="92" font-family="sans-serif" font-size="7.5" fill="#555" transform="rotate(-90,12,92)">path length</text>
+</svg>
