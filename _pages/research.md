@@ -141,6 +141,10 @@ Ecophysiology — the study of how physical and physiological processes interact
 #### Leaf Venation & Leaf Functioning {#leaf-venation}
 
 <div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <figure style="margin:0 0 0.75rem;">
+    <img src="{{ '/assets/img/ecophysiology/leaf_venation_network.svg' | relative_url }}" alt="Schematic of hierarchical leaf venation network: primary midrib, secondary veins, and reticulate tertiary mesh forming enclosed areoles" style="width:100%;border-radius:4px;background:#f8faf8;" loading="lazy">
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Hierarchical vein network: primary midrib (thick), secondary veins, and reticulate tertiary mesh. Vein density constrains hydraulic conductance and maximum stomatal conductance.</figcaption>
+  </figure>
   <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
     <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
     <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
@@ -162,6 +166,10 @@ Empirically, Blonder et al. (2011) showed that vein geometry is a mechanistic or
 #### Leaf Thermoregulation {#leaf-thermoregulation}
 
 <div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <figure style="margin:0 0 0.75rem;">
+    <img src="{{ '/assets/img/ecophysiology/leaf_energy_balance.svg' | relative_url }}" alt="Energy balance diagram showing solar radiation, transpirational latent heat, and sensible heat fluxes determining the offset between leaf temperature and air temperature" style="width:100%;border-radius:4px;background:#fff;" loading="lazy">
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Leaf energy balance: incoming Q_solar balanced by latent heat (Q_lh, transpiration), sensible heat (Q_sh), and longwave emission. ΔT = T_leaf − T_air can exceed ±5 °C.</figcaption>
+  </figure>
   <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
     <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
     <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
@@ -180,6 +188,10 @@ The macroecological implication is significant. Standard correlative analyses th
 #### Plant Community Carbon & Water Exchange {#community-carbon-water}
 
 <div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <figure style="margin:0 0 0.75rem;">
+    <img src="{{ '/assets/img/ecophysiology/ecosystem_flux_chamber.svg' | relative_url }}" alt="Closed-loop chamber diagram showing CO2 and H2O flux measurement with IRGA sensor and NEE equation" style="width:100%;border-radius:4px;background:#fff;" loading="lazy">
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Closed-loop chamber captures ecosystem CO₂ and H₂O exchange. Gross primary production (GPP) and ecosystem respiration (R_eco) are partitioned to give net ecosystem exchange (NEE).</figcaption>
+  </figure>
   <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
     <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
     <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
@@ -199,6 +211,10 @@ The [fluxible](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-
 #### Plant Hydraulics & Path Length {#plant-hydraulics}
 
 <div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <figure style="margin:0 0 0.75rem;">
+    <img src="{{ '/assets/img/ecophysiology/plant_hydraulic_network.svg' | relative_url }}" alt="Plant hydraulic network diagram showing tapering conduit diameters from wide at the trunk to narrow at twigs, with water potential gradient from soil to leaf" style="width:100%;border-radius:4px;background:#fff;" loading="lazy">
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Hydraulic network: conduit diameter tapers from trunk to twig, distributing flow resistance along path length. The Ψ gradient drives water from soil (least negative) to leaf (most negative).</figcaption>
+  </figure>
   <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
     <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
     <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
