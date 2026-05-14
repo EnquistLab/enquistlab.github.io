@@ -7,6 +7,8 @@ nav: false
 nav_order: 2.1
 ---
 
+<div class="people-page">
+
 <!-- ============================================================
      PEOPLE PAGE
      Member data lives in _data/people.yml and is synced
@@ -17,7 +19,15 @@ nav_order: 2.1
      _data/people.yml (or the lab wiki).
      ============================================================ -->
 
-<div class="photo-pair" style="margin-bottom:2.5rem;">
+<nav class="news-section-nav" aria-label="Page sections">
+  <a href="#principal-investigator">Principal Investigator</a>
+  <a href="#postdoctoral-researchers">Postdocs</a>
+  <a href="#graduate-students">Graduate Students</a>
+  <a href="#lab-team--technical-staff">Staff</a>
+  <a href="#alumni">Alumni</a>
+</nav>
+
+<div class="photo-pair">
   <figure>
     <img src="{{ '/assets/img/wordpress/brian-enquist-feb2020-088.jpg' | relative_url }}" alt="Brian J. Enquist, February 2020" loading="lazy">
     <figcaption>Brian J. Enquist</figcaption>
@@ -44,8 +54,6 @@ nav_order: 2.1
   </div>
 </div>
 
----
-
 {% if site.data.people.postdocs.size > 0 %}
 ## Postdoctoral Researchers
 
@@ -68,9 +76,9 @@ nav_order: 2.1
     {% endif %}
     <p class="team-card__links">
       {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" title="Google Scholar" target="_blank" rel="noopener">Scholar</a>{% endif %}
-      {% if person.github and person.github != "" %}{% if person.google_scholar and person.google_scholar != "" %} · {% endif %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
-      {% if person.website and person.website != "" %}{% if person.google_scholar and person.google_scholar != "" or person.github and person.github != "" %} · {% endif %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
-      {% if person.email and person.email != "" %}{% if person.google_scholar and person.google_scholar != "" or person.github and person.github != "" or person.website and person.website != "" %} · {% endif %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
+      {% if person.github and person.github != "" %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
+      {% if person.website and person.website != "" %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
+      {% if person.email and person.email != "" %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
     </p>
   </div>
 {% endfor %}
@@ -101,9 +109,9 @@ nav_order: 2.1
     {% endif %}
     <p class="team-card__links">
       {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" title="Google Scholar" target="_blank" rel="noopener">Scholar</a>{% endif %}
-      {% if person.github and person.github != "" %}{% if person.google_scholar and person.google_scholar != "" %} · {% endif %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
-      {% if person.website and person.website != "" %}{% if person.google_scholar and person.google_scholar != "" or person.github and person.github != "" %} · {% endif %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
-      {% if person.email and person.email != "" %}{% if person.google_scholar and person.google_scholar != "" or person.github and person.github != "" or person.website and person.website != "" %} · {% endif %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
+      {% if person.github and person.github != "" %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
+      {% if person.website and person.website != "" %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
+      {% if person.email and person.email != "" %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
     </p>
   </div>
 {% endfor %}
@@ -111,8 +119,6 @@ nav_order: 2.1
 {% endif %}
 
 {% if site.data.people.visiting_students.size > 0 %}
-
----
 
 ## Visiting Graduate Students
 
@@ -135,16 +141,14 @@ nav_order: 2.1
     {% endif %}
     <p class="team-card__links">
       {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" title="Google Scholar" target="_blank" rel="noopener">Scholar</a>{% endif %}
-      {% if person.github and person.github != "" %}{% if person.google_scholar and person.google_scholar != "" %} · {% endif %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
-      {% if person.website and person.website != "" %}{% if person.google_scholar and person.google_scholar != "" or person.github and person.github != "" %} · {% endif %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
-      {% if person.email and person.email != "" %}{% if person.google_scholar and person.google_scholar != "" or person.github and person.github != "" or person.website and person.website != "" %} · {% endif %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
+      {% if person.github and person.github != "" %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
+      {% if person.website and person.website != "" %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
+      {% if person.email and person.email != "" %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
     </p>
   </div>
 {% endfor %}
 </div>
 {% endif %}
-
----
 
 ## Lab Team & Technical Staff
 
@@ -167,21 +171,32 @@ nav_order: 2.1
     {% endif %}
     <p class="team-card__links">
       {% if person.github and person.github != "" %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
-      {% if person.website and person.website != "" %}{% if person.github and person.github != "" %} · {% endif %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
-      {% if person.email and person.email != "" %}{% if person.github and person.github != "" or person.website and person.website != "" %} · {% endif %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
+      {% if person.website and person.website != "" %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
+      {% if person.email and person.email != "" %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
     </p>
   </div>
 {% endfor %}
 </div>
 
----
-
-
 ## Extended Lab Network
 
-Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente Graae, Deborah Goldberg, Jens-Christian Svenning, Yadvinder Malhi, Cory Merow, Henry Horn, Angelina Martinez-Yrizar, Ruben Milla, Choy Huang, Van Savage, Richard Strimbeck, and Vigdis Vandvik.
-
----
+<aside class="network-aside">
+  <div class="network-chips">
+    <span class="network-chip">Alberto Burquez</span>
+    <span class="network-chip">Bente Graae</span>
+    <span class="network-chip">Deborah Goldberg</span>
+    <span class="network-chip">Jens-Christian Svenning</span>
+    <span class="network-chip">Yadvinder Malhi</span>
+    <span class="network-chip">Cory Merow</span>
+    <span class="network-chip">Henry Horn</span>
+    <span class="network-chip">Angelina Martinez-Yrizar</span>
+    <span class="network-chip">Ruben Milla</span>
+    <span class="network-chip">Choy Huang</span>
+    <span class="network-chip">Van Savage</span>
+    <span class="network-chip">Richard Strimbeck</span>
+    <span class="network-chip">Vigdis Vandvik</span>
+  </div>
+</aside>
 
 ## Alumni
 
@@ -205,8 +220,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 {% if postdoc_alumni.size > 0 %}
 <section class="alumni-band">
   <div class="alumni-band__header">
-    <h3>Former Postdoctoral Researchers</h3>
-    <p>{{ postdoc_alumni.size }} researchers whose work shaped the lab's theory, synthesis, and field programs.</p>
+    <h3>Former Postdoctoral Researchers <span class="alumni-count-badge">{{ postdoc_alumni.size }}</span></h3>
   </div>
 
   {% if postdoc_2000s.size > 0 %}
@@ -215,7 +229,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in postdoc_2000s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         <p class="alumni-card__meta">{{ person.degree }}</p>
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -230,7 +244,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in postdoc_2010s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         <p class="alumni-card__meta">{{ person.degree }}</p>
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -245,7 +259,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in postdoc_2020s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         <p class="alumni-card__meta">{{ person.degree }}</p>
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -259,8 +273,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
 {% if grad_alumni.size > 0 %}
 <section class="alumni-band">
   <div class="alumni-band__header">
-    <h3>Former Graduate Students</h3>
-    <p>{{ grad_alumni.size }} doctoral, master's, and thesis-track alumni organized by training era.</p>
+    <h3>Former Graduate Students <span class="alumni-count-badge">{{ grad_alumni.size }}</span></h3>
   </div>
 
   {% if grad_2000s.size > 0 %}
@@ -269,7 +282,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in grad_2000s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -284,7 +297,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in grad_2010s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -299,7 +312,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
     <div class="alumni-directory">
       {% for person in grad_2020s %}
       <article class="alumni-card">
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       </article>
@@ -319,7 +332,7 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
   <div class="alumni-directory alumni-directory--compact">
     {% for person in undergrad_alumni %}
     <article class="alumni-card">
-      <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+      <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
       {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
       {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
     </article>
@@ -349,4 +362,5 @@ Visitors, sabbatarians, and collaborators have included Alberto Burquez, Bente G
   </figure>
 </div>
 
+</div>
 
