@@ -19,19 +19,37 @@ _styles: |
 
 <button id="news-shuffle-btn" onclick="shuffleNewsSections()" aria-label="Shuffle news sections">&#x21C4; Shuffle sections</button>
 
+<nav class="news-section-nav" aria-label="Jump to section">
+  <a href="#climate-biodiversity">Climate Change &amp; Biodiversity</a>
+  <a href="#forest-carbon">Forest Conservation &amp; Carbon</a>
+  <a href="#scaling-ecology">Scaling &amp; Functional Ecology</a>
+  <a href="#biodiversity-informatics">Biodiversity Informatics &amp; BIEN</a>
+  <a href="#science-culture">Science Culture &amp; Synthesis</a>
+</nav>
+
+<div class="news-latest">
+  <div class="news-latest__label">Recent</div>
+  <div class="news-latest__strip">
+    <a class="news-latest__item" href="https://phys.org/news/2026-04-ease-food-energy-biodiversity-conflicts.html" target="_blank" rel="noopener"><span class="news-latest__date">April 2026</span><span class="news-latest__source">Phys.org</span><span class="news-latest__title">Easing food, energy, and biodiversity conflicts</span></a>
+    <a class="news-latest__item" href="https://www.sciencedaily.com/releases/2026/02/260208233836.htm" target="_blank" rel="noopener"><span class="news-latest__date">February 2026</span><span class="news-latest__source">ScienceDaily</span><span class="news-latest__title">Forests are changing fast and scientists are deeply concerned</span></a>
+    <a class="news-latest__item" href="https://news.arizona.edu/news/ecological-winners-why-some-species-dominate-planet" target="_blank" rel="noopener"><span class="news-latest__date">November 2025</span><span class="news-latest__source">UA News</span><span class="news-latest__title">Ecological winners: Why some species dominate the planet</span></a>
+    <a class="news-latest__item" href="https://news.mongabay.com/2023/06/protected-areas-store-a-years-worth-of-co%e2%82%82-emissions-study-reveals/" target="_blank" rel="noopener"><span class="news-latest__date">June 2023</span><span class="news-latest__source">Mongabay</span><span class="news-latest__title">Protected areas store a year's worth of CO₂ emissions, study reveals</span></a>
+  </div>
+</div>
+
 <section class="news-theme">
   <div class="news-theme__head">
-    <h2>Climate Change &amp; Biodiversity</h2>
+    <h2 id="climate-biodiversity">Climate Change &amp; Biodiversity</h2>
     <p>From dryland cacti to boreal canopies - how species and ecosystems respond to a warming, drying world.</p>
   </div>
   <div class="news-theme__grid">
     <article class="news-feature">
+      <img src="https://www.sciencedaily.com/images/1920/forest-from-above.webp" alt="Forest from above" loading="lazy">
       <div class="news-feature__body">
         <div class="news-meta">February 2026</div>
         <h3 class="news-title"><span class="news-source">ScienceDaily</span><a href="https://www.sciencedaily.com/releases/2026/02/260208233836.htm" target="_blank" rel="noopener">Forests are changing fast and scientists are deeply concerned</a></h3>
         <p class="news-feature__note">New evidence that forest composition and function are shifting at rates that outpace our monitoring systems - and our current conservation frameworks.</p>
       </div>
-      <img src="https://www.sciencedaily.com/images/1920/forest-from-above.webp" alt="Forest from above" loading="lazy">
     </article>
     <div class="news-theme__cards">
       <article class="news-card"><div><div class="news-meta">April 2026</div><h3 class="news-title"><span class="news-source">Phys.org</span><a href="https://phys.org/news/2026-04-ease-food-energy-biodiversity-conflicts.html" target="_blank" rel="noopener">Easing food, energy, and biodiversity conflicts</a></h3></div><img src="https://scx2.b-cdn.net/gfx/news/hires/2026/integrated-land-planni.jpg" alt="Integrated land planning for food, energy, and biodiversity" loading="lazy"></article>
@@ -51,20 +69,20 @@ _styles: |
 
 <section class="news-theme">
   <div class="news-theme__head">
-    <h2>Forest Conservation &amp; Carbon</h2>
+    <h2 id="forest-carbon">Forest Conservation &amp; Carbon</h2>
     <p>Forests as climate infrastructure - quantifying the carbon value of protected lands and the cost of their loss.</p>
   </div>
   <div class="news-theme__grid">
     <article class="news-feature">
+      <img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/06/07032621/Brazils-Florestal-Reserve-Adolpho-Ducke-1920.jpg" alt="Brazilian forest reserve" loading="lazy">
       <div class="news-feature__body">
         <div class="news-meta">June 2023</div>
         <h3 class="news-title"><span class="news-source">Mongabay</span><a href="https://news.mongabay.com/2023/06/protected-areas-store-a-years-worth-of-co%e2%82%82-emissions-study-reveals/" target="_blank" rel="noopener">Protected areas store a year's worth of CO₂ emissions, study reveals</a></h3>
         <p class="news-feature__note">New research quantifying the carbon held in globally protected forests and grasslands - a cornerstone finding for nature-based climate policy.</p>
       </div>
-      <img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/06/07032621/Brazils-Florestal-Reserve-Adolpho-Ducke-1920.jpg" alt="Brazilian forest reserve" loading="lazy">
     </article>
     <div class="news-theme__cards">
-      <article class="news-card"><div><div class="news-meta">September 2023</div><h3 class="news-title"><span class="news-source">World Economic Forum</span><a href="https://www.weforum.org/stories/2023/09/unesco-world-heritage-sites-biodiversity/" target="_blank" rel="noopener">UNESCO World Heritage Sites and Biodiversity</a></h3></div></article>
+      <article class="news-card news-card--text-only"><div><div class="news-meta">September 2023</div><h3 class="news-title"><span class="news-source">World Economic Forum</span><a href="https://www.weforum.org/stories/2023/09/unesco-world-heritage-sites-biodiversity/" target="_blank" rel="noopener">UNESCO World Heritage Sites and Biodiversity</a></h3></div></article>
       <article class="news-card"><div><div class="news-meta">June 2023</div><h3 class="news-title"><span class="news-source">Inside Climate News</span><a href="https://insideclimatenews.org/news/01062023/nature-carbon-storage-solutions/" target="_blank" rel="noopener">New Research Shows Global Climate Benefits Of Protecting Nature, but It's Not a Silver Bullet</a></h3></div><img src="https://insideclimatenews.org/wp-content/uploads/2023/05/forest-getty-scaled.jpg" alt="Forest carbon storage" loading="lazy"></article>
       <article class="news-card"><div><div class="news-meta">2023</div><h3 class="news-title"><span class="news-source">NAU News</span><a href="https://news.nau.edu/goetz-forest-research/" target="_blank" rel="noopener">Why protecting forests means reduced emissions at global scale</a></h3></div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rainforest_Fatu_Hiva.jpg/960px-Rainforest_Fatu_Hiva.jpg" alt="Tropical rainforest, Fatu Hiva — dense forest canopy as global carbon sink" loading="lazy"></article>
       <article class="news-card"><div><div class="news-meta">August 2022</div><h3 class="news-title"><span class="news-source">Mongabay</span><a href="https://news.mongabay.com/2022/08/protecting-global-forests-with-a-limited-budget-new-study-shows-where-and-when-to-start/" target="_blank" rel="noopener">Protecting global forests with a limited budget? New study shows where and when to start</a></h3></div><img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2022/06/17045519/sabah_RAB.jpg" alt="Borneo forest conservation" loading="lazy"></article>
@@ -80,16 +98,16 @@ _styles: |
 
 <section class="news-theme">
   <div class="news-theme__head">
-    <h2>Scaling &amp; Functional Ecology</h2>
+    <h2 id="scaling-ecology">Scaling &amp; Functional Ecology</h2>
     <p>Why bigger is more efficient - and how universal rules govern the organization of life across size, metabolism, and biome.</p>
   </div>
   <div class="news-theme__grid">
     <article class="news-feature">
+      <img src="https://cdn.uanews.arizona.edu/s3fs-public/2025-11/Boojum-DS_webcrop.jpg" alt="Boojum tree" loading="lazy">
       <div class="news-feature__body">
         <div class="news-meta">November 2025</div>
         <h3 class="news-title"><span class="news-source">University of Arizona News</span><a href="https://news.arizona.edu/news/ecological-winners-why-some-species-dominate-planet" target="_blank" rel="noopener">Ecological winners: Why some species dominate the planet</a></h3>
       </div>
-      <img src="https://cdn.uanews.arizona.edu/s3fs-public/2025-11/Boojum-DS_webcrop.jpg" alt="Boojum tree" loading="lazy">
     </article>
     <div class="news-theme__cards">
       <article class="news-card"><div><div class="news-meta">August 2022</div><h3 class="news-title"><span class="news-source">Phys.org</span><a href="https://phys.org/news/2022-08-bigger-animals-energy-efficient-centuries-old-biological.html" target="_blank" rel="noopener">Why are bigger animals more energy-efficient? A new answer to a centuries-old biological mystery</a></h3></div><img src="https://scx2.b-cdn.net/gfx/news/hires/2022/elephant-and-mouse.jpg" alt="Elephant and mouse" loading="lazy"></article>
@@ -112,16 +130,16 @@ _styles: |
 
 <section class="news-theme">
   <div class="news-theme__head">
-    <h2>Biodiversity Informatics &amp; BIEN</h2>
+    <h2 id="biodiversity-informatics">Biodiversity Informatics &amp; BIEN</h2>
     <p>Building the data infrastructure to track, model, and forecast plant life across the Americas and beyond.</p>
   </div>
   <div class="news-theme__grid">
     <article class="news-feature">
+      <img src="https://scx2.b-cdn.net/gfx/news/hires/2022/tropical-forest.jpg" alt="Tropical forest" loading="lazy">
       <div class="news-feature__body">
         <div class="news-meta">March 2025</div>
         <h3 class="news-title"><span class="news-source">Phys.org</span><a href="https://phys.org/news/2025-03-satellite-image-analysis-insight-functional.html" target="_blank" rel="noopener">Satellite image analysis provides insight into functional diversity of tropical forests</a></h3>
       </div>
-      <img src="https://scx2.b-cdn.net/gfx/news/hires/2022/tropical-forest.jpg" alt="Tropical forest" loading="lazy">
     </article>
     <div class="news-theme__cards">
       <article class="news-card"><div><div class="news-meta">June 2020</div><h3 class="news-title"><span class="news-source">Phys.org</span><a href="https://phys.org/news/2020-06-pandemics-rapidly-reshape-evolutionary-ecological.html" target="_blank" rel="noopener">Pandemics rapidly reshape the evolutionary and ecological landscape</a></h3></div><img src="https://scx2.b-cdn.net/gfx/news/2020/pandemicsrap.jpg" alt="Pandemics and ecology" loading="lazy"></article>
@@ -138,16 +156,16 @@ _styles: |
 
 <section class="news-theme">
   <div class="news-theme__head">
-    <h2>Science Culture &amp; Synthesis</h2>
+    <h2 id="science-culture">Science Culture &amp; Synthesis</h2>
     <p>On the future of interdisciplinary science - and the case for reconnecting ecology's empirical, theoretical, and informatics traditions.</p>
   </div>
   <div class="news-theme__grid">
     <article class="news-feature">
+      <img src="https://lede-admin.nautil.us/wp-content/uploads/sites/70/sites/3/nautilus/ir0BTa2j-Gallagher_HERO.png" alt="Scientific transculturalism" loading="lazy">
       <div class="news-feature__body">
         <div class="news-meta">2024</div>
         <h3 class="news-title"><span class="news-source">Nautilus</span><a href="https://nautil.us/the-case-for-scientific-transculturalism-589255" target="_blank" rel="noopener">The Case for Scientific Transculturalism</a></h3>
       </div>
-      <img src="https://lede-admin.nautil.us/wp-content/uploads/sites/70/sites/3/nautilus/ir0BTa2j-Gallagher_HERO.png" alt="Scientific transculturalism" loading="lazy">
     </article>
     <div class="news-theme__cards">
       <article class="news-card"><div><div class="news-meta">April 2024</div><h3 class="news-title"><span class="news-source">Phys.org</span><a href="https://phys.org/news/2024-04-biosphere-science-reconnect-scientific-cultures.html" target="_blank" rel="noopener">To accelerate biosphere science, researchers say reconnect three scientific cultures</a></h3></div><img src="https://scx2.b-cdn.net/gfx/news/hires/2024/to-accelerate-biospher.jpg" alt="Biosphere science" loading="lazy"></article>
