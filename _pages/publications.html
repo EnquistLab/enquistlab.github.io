@@ -512,6 +512,18 @@ nav_order: 3.1
 					{ pattern: /threat assessments?/i, weight: 2 },
 					{ pattern: /land conservation/i, weight: 2 },
 					{ pattern: /global change/i, weight: 1 },
+					// Human pressure on tree diversity — Guo et al. (2022) PNAS
+					{ pattern: /\bhuman\s+(pressure|footprint|impact)\b/i, weight: 2 },
+					// Climate change + land use threatening phylogenetic endemism hotspots — Guo et al. (2023) Nat. Commun.
+					{ pattern: /\bland\s+use\s+threat/i, weight: 2 },
+					// Forest carbon stocks — Mo et al. (2024) Nat. Ecol. Evol.
+					{ pattern: /\bforest\s+carbon\s+stock[s]?\b/i, weight: 2 },
+					// Dominance, rarity and threats in global tree communities — Hordijk et al. (2024) GEB
+					{ pattern: /\bpredictors\s+and\s+threat[s]?\b/i, weight: 2 },
+					// Unprecedented macroclimatic exposure of tree diversity — Boonman et al. (2025) PNAS
+					{ pattern: /unprecedented.*macroclimatic|macroclimatic.*unprecedented/i, weight: 2 },
+					// Megafauna extinction and Amazonian carbon + range reduction — Doughty et al. (2016) Ecography
+					{ pattern: /\bmegafauna\s+extinction\b/i, weight: 2 },
 				],
 			},
 			{
