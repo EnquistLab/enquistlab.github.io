@@ -314,3 +314,6 @@ Changes to _pages/publications.html:
   - Added `/\bpanama\b/i` wt 2 — catches Kaspari et al. (2017) Ecology (Panama forest).
   - Added `/biotropica/i` wt 2 — catches Hogan et al. (2019) Biotropica (Luquillo wet tropical forest).
 Previously matched: 38 papers. Newly added: 4 papers. Total Tropical Ecology tab: ~42 papers.
+
+## 2026-05-14 — Tropical Ecology tab matcher: liana pattern + deep audit
+Added `{ pattern: /\bliana[s]?\b/i, weight: 2 }` to the tropical-ecology topic tab in `_pages/publications.html`. This causes Ngute et al. (2024) "Global dominance of lianas over trees is driven by forest disturbance, climate and topography" (GCB 30.1: e17140) to appear in the Tropical Ecology tab. Both Ngute 2024 and Zuidema et al. (2022) "Tropical tree growth driven by dry-season climate variability" (Nat. Geoscience) were already present in the publications list; Zuidema 2022 already passed the tab threshold via /tropical/i. Deep audit tested 10 candidate new matchers (tropics, guanacaste, bolivia, costa rica, savanna, cerrado, mangrove, brazil, rainforest) — none added new papers beyond liana. Tab now covers 51 papers. Word boundaries on liana prevent false-positive match on "Arabidopsis thaliana".
