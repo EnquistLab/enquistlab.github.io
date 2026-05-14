@@ -134,6 +134,90 @@ Plant functional traits — measurable attributes such as leaf size, wood densit
 
 ---
 
+### Ecophysiology {#ecophysiology}
+
+Ecophysiology — the study of how physical and physiological processes interact to govern plant function — is an area of sustained innovation pioneered in this lab. Building on the mechanistic foundations of Metabolic Scaling Theory, lab members connected physics, geometry, and physiology to explain why leaves are built the way they are, how they regulate temperature, how plant communities exchange carbon and water with the atmosphere, and how xylem network architecture constrains water transport from roots to leaves. These contributions span from vein-level biophysics to ecosystem-scale flux measurements, uniting individual organ function with broader macroecological patterns.
+
+#### Leaf Venation & Leaf Functioning {#leaf-venation}
+
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://www.nature.com/articles/s41477-025-02011-y">Matos et al. (2025)</a> — Leaf venation network evolution across clades and scales. <em>Nature Plants.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/323107018">Blonder, Salinas, Bentley, Shenkin et al. &amp; Enquist (2018)</a> — Structural and defensive roles of angiosperm leaf venation network reticulation across an Andes–Amazon elevation gradient.</li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/47789081">Blonder, Violle, Bentley &amp; Enquist (2011)</a> — Leaf venation networks and the origin of the leaf economics spectrum. <em>Ecology Letters</em> 14:91–100.</li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/261603497">Blonder &amp; Enquist (2014)</a> — Inferring climate from angiosperm leaf venation network geometry. <em>New Phytologist</em> 204:116–126.</li>
+      <li style="margin-bottom:0.35rem;"><a href="https://doi.org/10.1093/jxb/eru143">Blonder, Violle, Bentley &amp; Enquist (2014)</a> — Inclusion of vein traits improves predictive power for the leaf economic spectrum. <em>J. Exp. Bot.</em> 65:5109–5114.</li>
+    </ul>
+  </div>
+</div>
+
+Leaf venation networks are biological distribution networks whose branching geometry, vein density, and topological reticulation set physical constraints on water delivery to mesophyll cells, CO₂ diffusion paths, and the energy budget of the leaf. The lab contributed a biophysical framework treating vein networks as optimized hydraulic circuits: vein density determines flow resistance from xylem conduit to cell, which in turn governs maximum stomatal conductance and photosynthetic capacity. This is network and graph theory applied to organ biology — the same first-principles logic that underlies metabolic scaling, now resolved at millimeter scales within a leaf lamina.
+
+Empirically, Blonder et al. (2011) showed that vein geometry is a mechanistic origin of the leaf economic spectrum — the multivariate axis of leaf form and function encapsulating the slow–fast resource-acquisition continuum — and Blonder et al. (2014, *J. Exp. Bot.*) demonstrated that including vein traits substantially improves its predictive power. Vein reticulation also varies systematically along the steep Andes–Amazon elevational gradient, reflecting structural reinforcement against herbivory and hydraulic adaptations to the combined stresses of freeze-thaw cycles and declining atmospheric pressure at altitude ([Blonder et al. 2018](https://www.researchgate.net/publication/323107018)). Matos et al. (2025, *Nature Plants*) extended this perspective phylogenetically, revealing how vein network architecture has evolved across angiosperm clades and spatial scales, shaped jointly by developmental constraints, hydraulic selection, and evolutionary history.
+
+<div style="clear:both;"></div>
+
+#### Leaf Thermoregulation {#leaf-thermoregulation}
+
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/282939777">Michaletz, Weiser, Zhou, Kaspari, Helliker &amp; Enquist (2015)</a> — Plant thermoregulation: energetics, trait–environment interactions, and carbon economics. <em>Trends Ecol. Evol.</em> 30:714–724.</li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/306394173">Michaletz, Weiser, McDowell, Zhou, Kaspari, Helliker &amp; Enquist (2016)</a> — The energetic and carbon economic origins of leaf thermoregulation. <em>Nature Plants</em> 2:16129.</li>
+    </ul>
+  </div>
+</div>
+
+Leaves are not passive temperature recorders. They actively modulate their temperature through transpirational cooling, boundary layer conductance, and leaf geometry — size, shape, and orientation all govern how heat is exchanged with the surrounding atmosphere. Michaletz, Enquist, and colleagues developed an energy-balance biophysical framework that predicts the offset between leaf temperature and air temperature as a function of absorbed radiation, wind speed, stomatal conductance, and leaf size. This offset is not a minor correction: it can exceed several degrees Celsius under high-radiation, low-wind conditions, with meaningful consequences for enzymatic rates, stomatal behavior, and water-use efficiency.
+
+The macroecological implication is significant. Standard correlative analyses that link plant traits to climate using ambient air temperature may systematically misrepresent the thermal environment that leaf biochemistry actually experiences. Incorporating energy-balance physics into trait–climate frameworks yields mechanistically grounded predictions of how functional trait distributions will shift as both air temperature and vapor pressure deficit increase under climate change — and identifies where correlative approaches are most likely to fail.
+
+<div style="clear:both;"></div>
+
+#### Plant Community Carbon & Water Exchange {#community-carbon-water}
+
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/317752755">Sørensen, Strimbeck, Nystuen, Kapas, Enquist &amp; Graae (2017)</a> — Draining the pool? Carbon storage and fluxes in three alpine plant communities. <em>Ecosystems</em> 21:316–330.</li>
+      <li style="margin-bottom:0.35rem;"><a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.70161">Gaudard, Telford, Chacon-Labella, Dawson, Enquist, Töpper et al. &amp; Halbritter (2025)</a> — fluxible: An R package to process ecosystem gas fluxes from closed-loop chambers in an automated and reproducible way. <em>Methods Ecol. Evol.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.nature.com/articles/s41597-025-06045-x">Halbritter, Vandvik, Bison, Clark, Cross, Greve et al. &amp; Enquist (2025)</a> — Plant traits and associated ecological data from Afromontane grasslands of Maloti-Drakensberg, South Africa. <em>Scientific Data</em> 12(1):1778.</li>
+    </ul>
+  </div>
+</div>
+
+Connecting individual leaf function to ecosystem-scale carbon and water balance requires measurements at multiple spatial scales. The lab has contributed to closed-loop chamber-based approaches that capture net ecosystem exchange of CO₂ and H₂O at fine spatial resolutions, complementing eddy covariance flux towers and enabling reproducible measurements in remote or structurally complex ecosystems where tower deployment is impractical. Sørensen et al. (2017) used chamber-based methods to quantify carbon storage and fluxes across three alpine plant communities, demonstrating how community composition mediates net ecosystem carbon balance.
+
+The [fluxible](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.70161) R package, co-authored by Enquist and collaborators, provides an automated and reproducible workflow for processing raw chamber flux time series — from gas concentration change curves to net ecosystem exchange estimates — with explicit uncertainty propagation and standardized output formats for multi-site comparisons. This tooling underpins field campaigns including work in the Maloti-Drakensberg Afromontane grasslands of South Africa, an ecosystem poorly represented in global carbon budgets. The associated trait and ecological dataset ([Halbritter et al. 2025](https://www.nature.com/articles/s41597-025-06045-x)) links functional trait variation to ecosystem functioning in high-altitude grasslands under increasing climate pressure, providing a reproducible foundation for future synthesis across Afromontane biomes.
+
+<div style="clear:both;"></div>
+
+#### Plant Hydraulics & Path Length {#plant-hydraulics}
+
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/216811042">Enquist (2003)</a> — Cope's Rule and the evolution of long-distance transport in vascular plants: allometric scaling, biomass partitioning, and optimization. <em>Plant, Cell &amp; Environment</em> 26:151–161.</li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/49675520">Savage, Bentley, Enquist, Sperry, Smith, Reich &amp; von Allmen (2010)</a> — Hydraulic tradeoffs and space-filling enable predictions of vascular structure and function in plants. <em>PNAS</em> 107:22722–22727.</li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/257531792">Smith, Sperry, Enquist, Savage, McCulloh &amp; Bentley (2014)</a> — Deviation from symmetrically self-similar branching in trees predicts altered hydraulics, mechanics, light interception and metabolic scaling. <em>New Phytologist</em> 201:217–229.</li>
+      <li style="margin-bottom:0.35rem;"><a href="https://doi.org/10.1098/rsif.2020.0624">Brummer et al. &amp; Enquist (2021)</a> — Branching principles of animal and plant networks identified by combining extensive data, machine learning and modelling. <em>J. R. Soc. Interface.</em></li>
+    </ul>
+  </div>
+</div>
+
+Water flows through plant xylem under tension, driven by the soil–plant–atmosphere continuum. The path length from root tip to leaf sets total hydraulic resistance, and the tapering of conduit diameter from trunk to twig determines how resistance is distributed along the flow path. The West-Brown-Enquist vascular network model predicts that optimal tapering — minimizing total transport resistance while maintaining space-filling — generates the ¾-power metabolic scaling and the allometric relationships among stem diameter, height, and leaf area observed across plant life. Hydraulics is therefore not a module separate from metabolic scaling theory but a mechanistic foundation of it.
+
+Enquist (2003) extended this reasoning to macroevolution, connecting Cope's Rule — the recurrent evolutionary tendency toward larger body size across lineages — to directional selection favoring longer-distance water transport and the biomass partitioning trade-offs that accompany increasing plant size. Savage et al. (2010) demonstrated that introducing hydraulic trade-offs and space-filling constraints into the vascular network model substantially improves predictions of conduit structure and function across plant size classes. Smith et al. (2014) showed empirically that deviations from idealized symmetric self-similar branching carry simultaneous, predictable consequences for hydraulic efficiency, mechanical support, light interception, and metabolic scaling — revealing the multi-functional constraints under which real plant architectures evolve. Brummer et al. (2021) used machine learning and extensive branching data from both animal and plant networks to identify the shared geometric principles underlying biological transport networks, grounding plant hydraulic theory within a broader comparative framework.
+
+<div style="clear:both;"></div>
+
+---
+
 ### BIEN: Botanical Information & Ecology Network {#bien-botanical-information-ecology-network}
 
 <figure class="field-photo">
