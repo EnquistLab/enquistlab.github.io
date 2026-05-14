@@ -33,11 +33,20 @@
 
   ol.bibliography {
     list-style: none;
-    padding: 0 1.5rem;
+    padding: 0;
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0;
+      padding: 1rem 1rem 1rem 1.25rem;
+      border-left: 3px solid transparent;
+      border-radius: 0 4px 4px 0;
+      transition: border-color 0.2s ease, background 0.2s ease;
+
+      &:hover {
+        border-left-color: var(--global-theme-color);
+        background: color-mix(in srgb, var(--global-theme-color) 4%, transparent);
+      }
 
       .preview {
         display: inline-block;
@@ -48,12 +57,19 @@
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background: color-mix(in srgb, var(--global-theme-color) 11%, transparent);
+          color: var(--global-theme-color) !important;
+          border: 1px solid color-mix(in srgb, var(--global-theme-color) 35%, transparent);
+          border-radius: 3px;
+          font-size: 0.72rem;
+          font-weight: 700;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          padding: 0px 5px;
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
 
           a {
-            color: white;
+            color: var(--global-theme-color);
 
             &:hover {
               text-decoration: none;
@@ -72,6 +88,8 @@
       }
 
       .author {
+        font-size: 0.93rem;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -84,6 +102,8 @@
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 700;
+          color: var(--global-theme-color);
         }
 
         > span.more-authors {
@@ -102,15 +122,22 @@
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-left: 0.65rem;
+          padding-right: 0.65rem;
+          padding-top: 0.18rem;
+          padding-bottom: 0.18rem;
           margin-left: 0;
+          font-size: 0.78rem;
+          font-weight: 600;
+          letter-spacing: 0.04em;
+          text-transform: uppercase;
+          border-radius: 3px;
+          transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            color: var(--global-hover-color);
+            border-color: var(--global-hover-color);
+            background: color-mix(in srgb, var(--global-hover-color) 7%, transparent);
           }
         }
         a.award.btn {
@@ -137,11 +164,8 @@
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
+        opacity: 0;
+        transition: max-height 0.22s ease, opacity 0.18s ease;
 
         p {
           line-height: 1.4em;
@@ -157,11 +181,8 @@
 
       .hidden.open {
         max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
-        transition: all 0.15s ease;
+        opacity: 1;
+        transition: max-height 0.22s ease, opacity 0.18s ease;
       }
 
       div.abstract.hidden {

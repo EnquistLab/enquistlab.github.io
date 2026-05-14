@@ -22,17 +22,30 @@ nav_order: 3.1
 
 <p class="pub-intro-text">Use the tabs to group papers by subject area, or use the search box to filter within the active group.</p>
 
-<div class="publication-topic-toolbar">
-	<div id="publication-topic-tabs" class="publication-topic-tabs" role="tablist" aria-label="Publication subject areas"></div>
-	<p class="publication-topic-caption">Select a subject area to view matching papers chronologically, then search within that active view.</p>
-	<p class="publication-topic-caption publication-topic-caption--hint">Start with broad themes (Scaling, Trait Ecology, Biodiversity Informatics), then refine with search.</p>
+<div class="home-stats" style="max-width:480px; margin: 0.5rem 0 1.25rem;">
+  <div class="home-stat">
+    <span class="home-stat__number">320+</span>
+    <span class="home-stat__label">Publications</span>
+  </div>
+  <div class="home-stat">
+    <span class="home-stat__number">1993</span>
+    <span class="home-stat__label">Est.</span>
+  </div>
+  <div class="home-stat">
+    <span class="home-stat__number">10</span>
+    <span class="home-stat__label">Research Areas</span>
+  </div>
 </div>
 
-<div id="pub-search-wrap" style="display:flex;align-items:center;gap:0.5rem;margin:0.5rem 0 0;">
-  <input type="text" id="pub-search" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Search all publications (title, author, journal…)" aria-label="Search publications" style="flex:1;">
-  <button type="button" id="pub-search-clear" hidden style="background:none;border:1px solid #ccc;border-radius:999px;cursor:pointer;font-size:0.85rem;padding:0.3rem 0.6rem;color:#888;">✕</button>
+<div class="publication-topic-toolbar">
+	<div id="publication-topic-tabs" class="publication-topic-tabs" role="tablist" aria-label="Filter by research theme"></div>
 </div>
-<p id="pub-search-count" style="margin:0.4rem 0 0;font-size:0.9rem;color:#888;min-height:1.4em;"></p>
+
+<div id="pub-search-wrap">
+  <input type="text" id="pub-search" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Search by title, author, or journal" aria-label="Search publications">
+  <button type="button" id="pub-search-clear" hidden>✕</button>
+</div>
+<p id="pub-search-count"></p>
 
 <p id="publication-topic-empty" class="publication-topic-empty" hidden>No publications match the current subject tab and search query.</p>
 
@@ -42,7 +55,7 @@ nav_order: 3.1
 
 <style>
 	.publication-topic-toolbar {
-		margin: 1.5rem 0 1rem;
+		margin: 0.75rem 0 0.5rem;
 	}
 
 	.publication-topic-tabs {
@@ -55,21 +68,26 @@ nav_order: 3.1
 	.publication-topic-tab {
 		appearance: none;
 		border: 1px solid var(--global-divider-color);
-		background: linear-gradient(180deg, var(--global-card-bg-color) 0%, color-mix(in srgb, var(--global-card-bg-color) 88%, var(--global-theme-color) 12%) 100%);
+		background: var(--global-card-bg-color);
 		border-radius: 999px;
 		color: var(--global-text-color);
 		cursor: pointer;
-		font: inherit;
-		line-height: 1.2;
-		padding: 0.6rem 0.95rem;
-		transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+		font-family: "Source Sans 3", sans-serif;
+		font-size: 0.88rem;
+		font-weight: 600;
+		line-height: 1.3;
+		padding: 0.4rem 0.85rem;
+		letter-spacing: 0.02em;
+		transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 	}
 
 	.publication-topic-tab:hover {
 		border-color: var(--global-theme-color);
 		color: var(--global-theme-color);
+		background: color-mix(in srgb, var(--global-theme-color) 6%, var(--global-card-bg-color) 94%);
 		outline: none;
 		transform: translateY(-1px);
+		box-shadow: 0 2px 8px rgba(31, 90, 68, 0.10);
 	}
 
 	.publication-topic-tab:focus-visible {
@@ -84,24 +102,27 @@ nav_order: 3.1
 		background: var(--global-theme-color);
 		border-color: var(--global-theme-color);
 		color: var(--global-card-bg-color);
+		font-weight: 700;
+		box-shadow: 0 2px 8px rgba(31, 90, 68, 0.22);
 	}
 
 	.publication-topic-count {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		min-width: 1.65rem;
-		height: 1.65rem;
+		min-width: 1.4rem;
+		height: 1.4rem;
 		margin-left: 0.45rem;
-		padding: 0 0.45rem;
+		padding: 0 0.4rem;
 		border-radius: 999px;
 		background: color-mix(in srgb, var(--global-theme-color) 16%, transparent);
-		font-size: 0.82rem;
+		font-size: 0.75rem;
 		font-weight: 600;
 	}
 
 	.publication-topic-tab.is-active .publication-topic-count {
-		background: color-mix(in srgb, var(--global-card-bg-color) 22%, transparent);
+		background: rgba(255, 255, 255, 0.18);
+		color: #fff;
 	}
 
 	.publication-topic-caption {
@@ -138,17 +159,89 @@ nav_order: 3.1
 		max-width: none;
 	}
 
-	/* Year headers — typographic chapter markers */
+	/* Year headers — editorial chapter markers */
 	.pub-year-header {
-		font-size: 2rem !important;
-		font-weight: 800 !important;
+		font-family: "Source Serif 4", Georgia, serif;
+		font-size: 1.4rem !important;
+		font-weight: 600 !important;
 		color: var(--global-theme-color) !important;
-		margin: 2.75rem 0 0.5rem !important;
-		padding: 0 0 0.4rem !important;
-		border-bottom: 2px solid var(--global-divider-color) !important;
-		letter-spacing: -0.03em;
+		margin: 3rem 0 0.5rem !important;
+		padding: 0 0 0 0.85rem !important;
+		border-bottom: none !important;
+		letter-spacing: 0.02em;
 		line-height: 1;
 		scroll-margin-top: 5rem;
+		font-variant-numeric: tabular-nums;
+		position: relative;
+	}
+
+	.pub-year-header::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 3px;
+		height: 1.1em;
+		background: var(--global-theme-color);
+		border-radius: 2px;
+	}
+
+	/* Search bar */
+	#pub-search-wrap {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		margin: 0.65rem 0 0;
+	}
+
+	#pub-search {
+		flex: 1;
+		border: 1px solid var(--global-divider-color);
+		border-radius: 6px;
+		padding: 0.55rem 0.8rem;
+		background: var(--global-card-bg-color);
+		font-family: "Source Sans 3", sans-serif;
+		font-size: 0.95rem;
+		color: var(--global-text-color);
+		outline: none;
+		transition: border-color 0.18s ease, box-shadow 0.18s ease;
+	}
+
+	#pub-search:focus {
+		border-color: var(--global-theme-color);
+		box-shadow: 0 0 0 3px color-mix(in srgb, var(--global-theme-color) 16%, transparent);
+	}
+
+	#pub-search::placeholder {
+		color: var(--global-text-color-light);
+		opacity: 0.75;
+	}
+
+	#pub-search-clear {
+		background: none;
+		border: 1px solid color-mix(in srgb, var(--global-theme-color) 40%, transparent);
+		border-radius: 999px;
+		cursor: pointer;
+		font-size: 0.78rem;
+		padding: 0.28rem 0.65rem;
+		color: var(--global-theme-color);
+		font-family: "Source Sans 3", sans-serif;
+		transition: background 0.15s ease, color 0.15s ease;
+	}
+
+	#pub-search-clear:hover {
+		background: var(--global-theme-color);
+		color: #fff;
+	}
+
+	#pub-search-count {
+		margin: 0.35rem 0 0;
+		font-size: 0.82rem;
+		color: var(--global-text-color-light);
+		font-family: "Source Sans 3", sans-serif;
+		letter-spacing: 0.02em;
+		min-height: 1.4em;
 	}
 
 	/* Year navigator — fixed right-rail timeline */
