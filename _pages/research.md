@@ -142,8 +142,10 @@ Ecophysiology — the study of how physical and physiological processes interact
 
 <div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
   <figure style="margin:0 0 0.75rem;">
-    <img src="{{ '/assets/img/ecophysiology/matos2025_fig2.png' | relative_url }}" alt="Grid of cleared and stained leaves showing hierarchical venation at low and high vein density, colour-coded by vein order: primary (blue), secondary (green), tertiary (gold)" style="width:100%;border-radius:4px;" loading="lazy">
-    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Hierarchical venation at low and high density: primary (blue), secondary (green), and tertiary (gold) veins. Vein density sets hydraulic conductance and photosynthetic capacity. © Matos et al. 2025, <em>Nature Plants</em>, CC-BY 4.0.</figcaption>
+    <a href="{{ '/assets/img/ecophysiology/matos2025_fig2.png' | relative_url }}" target="_blank" rel="noopener" title="Click to enlarge">
+      <img src="{{ '/assets/img/ecophysiology/matos2025_fig2.png' | relative_url }}" alt="Grid of cleared and stained leaves showing hierarchical venation at low and high vein density, colour-coded by vein order: primary (blue), secondary (green), tertiary (gold)" style="width:100%;border-radius:4px;cursor:zoom-in;" loading="lazy">
+    </a>
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Hierarchical venation at low and high density: primary (blue), secondary (green), and tertiary (gold) veins. Vein density sets hydraulic conductance and photosynthetic capacity. © Matos et al. 2025, <em>Nature Plants</em>, CC-BY 4.0. <span style="font-style:italic;">Click to enlarge.</span></figcaption>
   </figure>
   <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
     <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
@@ -167,8 +169,10 @@ Empirically, Blonder et al. (2011) showed that vein geometry is a mechanistic or
 
 <div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
   <figure style="margin:0 0 0.75rem;">
-    <img src="{{ '/assets/img/ecophysiology/michaletz2016_fig2.jpg' | relative_url }}" alt="Scatter plots of leaf temperature excess (T_leaf minus T_air) versus air temperature across field sites, showing active thermoregulation" style="width:100%;border-radius:4px;" loading="lazy">
-    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Leaf temperature excess (T<sub>leaf</sub> − T<sub>air</sub>) across air temperatures: leaves thermoregulate rather than passively tracking air temperature. © Michaletz, Enquist et al. 2016, <em>Nature Plants</em>, CC-BY 4.0.</figcaption>
+    <a href="{{ '/assets/img/ecophysiology/michaletz2016_fig2.jpg' | relative_url }}" target="_blank" rel="noopener" title="Click to enlarge">
+      <img src="{{ '/assets/img/ecophysiology/michaletz2016_fig2.jpg' | relative_url }}" alt="Scatter plots of leaf temperature excess (T_leaf minus T_air) versus air temperature across field sites, showing active thermoregulation" style="width:100%;border-radius:4px;cursor:zoom-in;" loading="lazy">
+    </a>
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Leaf temperature excess (T<sub>leaf</sub> − T<sub>air</sub>) across air temperatures: leaves thermoregulate rather than passively tracking air temperature. © Michaletz, Enquist et al. 2016, <em>Nature Plants</em>, CC-BY 4.0. <span style="font-style:italic;">Click to enlarge.</span></figcaption>
   </figure>
   <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
     <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
@@ -189,12 +193,16 @@ The macroecological implication is significant. Standard correlative analyses th
 
 <div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
   <figure style="margin:0 0 0.75rem;">
-    <img src="{{ '/assets/img/ecophysiology/fluxible_tent_peru.jpg' | relative_url }}" alt="Researchers deploying a large closed-loop transparent flux chamber in Andean páramo grassland to measure ecosystem CO2 and H2O exchange" style="width:100%;border-radius:4px;" loading="lazy">
-    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Closed-loop chamber deployment in Andean páramo. Photo: Gaudard, Enquist et al. 2025 (<a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.70161">fluxible</a> project).</figcaption>
+    <a href="{{ '/assets/img/ecophysiology/fluxible_tent_peru.jpg' | relative_url }}" target="_blank" rel="noopener" title="Click to enlarge">
+      <img src="{{ '/assets/img/ecophysiology/fluxible_tent_peru.jpg' | relative_url }}" alt="Researchers deploying a large closed-loop transparent flux chamber in Andean páramo grassland to measure ecosystem CO2 and H2O exchange" style="width:100%;border-radius:4px;cursor:zoom-in;" loading="lazy">
+    </a>
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Closed-loop chamber deployment in Andean páramo. Photo: Gaudard, Enquist et al. 2025 (<a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.70161">fluxible</a> project). <span style="font-style:italic;">Click to enlarge.</span></figcaption>
   </figure>
   <figure style="margin:0 0 0.75rem;">
-    <img src="{{ '/assets/img/ecophysiology/halbritter2025_fig1.png' | relative_url }}" alt="Multi-site elevational field study design in Afromontane Drakensberg grasslands showing paired east-west measurement plots across five elevations" style="width:100%;border-radius:4px;" loading="lazy">
-    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Afromontane field campaign: paired plots across five elevations (2000–2800 m) in Maloti-Drakensberg grasslands measuring plant traits and ecosystem CO₂/H₂O fluxes. © Halbritter et al. 2025, <em>Scientific Data</em>, CC-BY 4.0.</figcaption>
+    <a href="{{ '/assets/img/ecophysiology/halbritter2025_fig1.png' | relative_url }}" target="_blank" rel="noopener" title="Click to enlarge">
+      <img src="{{ '/assets/img/ecophysiology/halbritter2025_fig1.png' | relative_url }}" alt="Multi-site elevational field study design in Afromontane Drakensberg grasslands showing paired east-west measurement plots across five elevations" style="width:100%;border-radius:4px;cursor:zoom-in;" loading="lazy">
+    </a>
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Afromontane field campaign: paired plots across five elevations (2000–2800 m) in Maloti-Drakensberg grasslands measuring plant traits and ecosystem CO₂/H₂O fluxes. © Halbritter et al. 2025, <em>Scientific Data</em>, CC-BY 4.0. <span style="font-style:italic;">Click to enlarge.</span></figcaption>
   </figure>
   <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
     <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
@@ -216,8 +224,10 @@ The [fluxible](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-
 
 <div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
   <figure style="margin:0 0 0.75rem;">
-    <img src="{{ '/assets/img/ecophysiology/brummer2021_fig1.png' | relative_url }}" alt="Comparison of plant (angiosperm tree) and mammalian (mouse lung) vascular branching silhouettes, illustrating shared geometric branching principles across biological transport networks" style="width:100%;border-radius:4px;" loading="lazy">
-    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Plant and animal branching networks share geometric principles: radial and length scale factors distinguish angiosperm, gymnosperm, and mammalian vascular systems. © Brummer, Enquist et al. 2021, <em>J. R. Soc. Interface</em>, CC-BY 4.0.</figcaption>
+    <a href="{{ '/assets/img/ecophysiology/brummer2021_fig1_full.png' | relative_url }}" target="_blank" rel="noopener" title="Click to enlarge">
+      <img src="{{ '/assets/img/ecophysiology/brummer2021_fig1_full.png' | relative_url }}" alt="Comparison of plant (angiosperm tree) and mammalian (mouse lung) vascular branching silhouettes plus scatter plots of branching geometry, illustrating shared geometric principles across biological transport networks" style="width:100%;border-radius:4px;cursor:zoom-in;" loading="lazy">
+    </a>
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Plant and animal branching networks share geometric principles: radial and length scale factors distinguish angiosperm, gymnosperm, and mammalian vascular systems. © Brummer, Enquist et al. 2021, <em>J. R. Soc. Interface</em>, CC-BY 4.0. <span style="font-style:italic;">Click to enlarge.</span></figcaption>
   </figure>
   <div style="border-left:3px solid #4a90d9;padding-left:0.75rem;">
     <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
