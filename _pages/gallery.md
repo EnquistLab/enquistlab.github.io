@@ -496,6 +496,212 @@ Click any image to open the full view.
 </div>
 </div><!-- /.gallery-theme-block -->
 
+<!-- ── Field Landscapes ──────────────────────────────────────────── -->
+<div class="gallery-theme-block">
+<div class="gallery-theme-header"><h2>Field Landscapes</h2></div>
+
+<div class="photo-gallery" data-theme="landscapes">
+
+  <a href="{{ '/assets/img/wordpress/cropped-1973302_927546123924359_1777004156092313692_o-1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape"
+     class="wide">
+    <img src="{{ '/assets/img/wordpress/cropped-1973302_927546123924359_1777004156092313692_o-1.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8741662722_d00d53a512_o-2.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-8741662722_d00d53a512_o-2.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8741662722_d00d53a512_o-1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-8741662722_d00d53a512_o-1.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-398967_402706289741681_100000069398128_1594096_736206182_n-1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-398967_402706289741681_100000069398128_1594096_736206182_n-1.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-14297765828_509ede7066_o-1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-14297765828_509ede7066_o-1.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-550106_3567860316612_913822306_n-1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-550106_3567860316612_913822306_n-1.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-img_0546_2-1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-img_0546_2-1.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-cropped-1973302_927546123924359_1777004156092313692_o2.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-cropped-1973302_927546123924359_1777004156092313692_o2.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-image1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-image1.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8735545283_443199c858_o1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-8735545283_443199c858_o1.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-untitled51.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-untitled51.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-14297898047_2bb15514b1_o2.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-14297898047_2bb15514b1_o2.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8742092306_30b07cac7e_o1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field landscape">
+    <img src="{{ '/assets/img/wordpress/cropped-8742092306_30b07cac7e_o1.jpg' | relative_url }}"
+         alt="Field landscape" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/trees.png' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Trees">
+    <img src="{{ '/assets/img/wordpress/trees.png' | relative_url }}"
+         alt="Trees" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_2963.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_2963.jpg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3225.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_3225.jpg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/img_6512-1.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/img_6512-1.jpg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/img_0597.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field work">
+    <img src="{{ '/assets/img/wordpress/img_0597.jpg' | relative_url }}"
+         alt="Field work" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_5672.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_5672.jpg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_2928.jpeg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_2928.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3211-1.jpeg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_3211-1.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3224.jpg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_3224.jpg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3255.jpeg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_3255.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3286.jpeg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_3286.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3294.jpeg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_3294.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3337.jpeg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_3337.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3355.jpeg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_3355.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dsc_3426.jpeg' | relative_url }}"
+     data-lightbox="landscapes"
+     data-title="Field site">
+    <img src="{{ '/assets/img/wordpress/dsc_3426.jpeg' | relative_url }}"
+         alt="Field site" loading="lazy">
+  </a>
+
+</div>
+</div><!-- /.gallery-theme-block -->
+
 </div><!-- /#gallery-themes-container -->
 
 ---
@@ -612,6 +818,202 @@ Click any image to open the full view.
      data-title="Field work, Enquist Lab">
     <img src="{{ '/assets/img/wordpress/dsc_3219.jpeg' | relative_url }}"
          alt="Field work, Enquist Lab" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/amanda.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="Lab member, Enquist Lab">
+    <img src="{{ '/assets/img/wordpress/amanda.png' | relative_url }}"
+         alt="Lab member" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/working-1.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="Field work">
+    <img src="{{ '/assets/img/wordpress/working-1.png' | relative_url }}"
+         alt="Field work" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/pulling3-1.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="Field work">
+    <img src="{{ '/assets/img/wordpress/pulling3-1.jpg' | relative_url }}"
+         alt="Field work" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/brian2.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="Brian Enquist">
+    <img src="{{ '/assets/img/wordpress/brian2.jpg' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/interview-2-1.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="Interview">
+    <img src="{{ '/assets/img/wordpress/interview-2-1.png' | relative_url }}"
+         alt="Interview" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-untitled91.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/cropped-untitled91.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-img_13681.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/cropped-img_13681.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/untitled23.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/untitled23.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/8735578355_2727abf16d_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/8735578355_2727abf16d_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-8736672508_ce0859930d_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/cropped-8736672508_ce0859930d_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-16820461938_9d89b29d51_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/cropped-16820461938_9d89b29d51_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/16982234246_dbf43a38d9_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/16982234246_dbf43a38d9_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/16385832784_db147c9558_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/16385832784_db147c9558_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/image.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/image.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/dscn5015.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/dscn5015.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/christine_14.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/christine_14.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-bien_2012.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/cropped-bien_2012.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/10553859_850734928272146_2591283871298109790_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/10553859_850734928272146_2591283871298109790_o.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/550106_3567860316612_913822306_n.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/550106_3567860316612_913822306_n.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-bigelow-5.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/cropped-bigelow-5.png' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/cropped-growth-season-11.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="People">
+    <img src="{{ '/assets/img/wordpress/cropped-growth-season-11.jpg' | relative_url }}"
+         alt="People" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.29.22-pm.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="Brian Enquist">
+    <img src="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.29.22-pm.png' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.33.21-pm.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="Brian Enquist">
+    <img src="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.33.21-pm.png' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.34.29-pm.png' | relative_url }}"
+     data-lightbox="people"
+     data-title="Brian Enquist">
+    <img src="{{ '/assets/img/wordpress/screen-shot-2020-12-15-at-2.34.29-pm.png' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/14356996100_37b42655b3_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="Brian Enquist">
+    <img src="{{ '/assets/img/wordpress/14356996100_37b42655b3_o.jpg' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/14520555176_ac6abbf459_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="Brian Enquist">
+    <img src="{{ '/assets/img/wordpress/14520555176_ac6abbf459_o.jpg' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/14543636665_e684ee739b_o.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="Brian Enquist">
+    <img src="{{ '/assets/img/wordpress/14543636665_e684ee739b_o.jpg' | relative_url }}"
+         alt="Brian Enquist" loading="lazy">
+  </a>
+
+  <a href="{{ '/assets/img/wordpress/brian-enquist-feb2020-060.jpg' | relative_url }}"
+     data-lightbox="people"
+     data-title="Brian J. Enquist, February 2020">
+    <img src="{{ '/assets/img/wordpress/brian-enquist-feb2020-060.jpg' | relative_url }}"
+         alt="Brian J. Enquist, February 2020" loading="lazy">
   </a>
 
 </div>
