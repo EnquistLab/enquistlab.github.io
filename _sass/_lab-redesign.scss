@@ -993,6 +993,28 @@ h6,
   }
 }
 
+// Alumni card with photo avatar (flex layout)
+.alumni-card--has-photo {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.alumni-card__avatar {
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid var(--global-divider-color);
+  flex-shrink: 0;
+}
+
+.alumni-card__body {
+  min-width: 0; // allow text to truncate inside flex
+}
+
 .alumni-count-badge {
   display: inline-block;
   font-size: 0.72rem;

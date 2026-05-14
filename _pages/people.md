@@ -228,10 +228,13 @@ nav_order: 2.1
     <p class="alumni-cohort__label">2000s</p>
     <div class="alumni-directory">
       {% for person in postdoc_2000s %}
-      <article class="alumni-card">
+      {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
+      <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
+        {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none'"><div class="alumni-card__body">{% endif %}
         <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
-        <p class="alumni-card__meta">{{ person.degree }}</p>
+        {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+        {% if alumni_photo %}</div>{% endif %}
       </article>
       {% endfor %}
     </div>
@@ -243,10 +246,13 @@ nav_order: 2.1
     <p class="alumni-cohort__label">2010s</p>
     <div class="alumni-directory">
       {% for person in postdoc_2010s %}
-      <article class="alumni-card">
+      {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
+      <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
+        {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none'"><div class="alumni-card__body">{% endif %}
         <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
-        <p class="alumni-card__meta">{{ person.degree }}</p>
+        {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+        {% if alumni_photo %}</div>{% endif %}
       </article>
       {% endfor %}
     </div>
@@ -258,10 +264,13 @@ nav_order: 2.1
     <p class="alumni-cohort__label">2020s</p>
     <div class="alumni-directory">
       {% for person in postdoc_2020s %}
-      <article class="alumni-card">
+      {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
+      <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
+        {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none'"><div class="alumni-card__body">{% endif %}
         <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
-        <p class="alumni-card__meta">{{ person.degree }}</p>
+        {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+        {% if alumni_photo %}</div>{% endif %}
       </article>
       {% endfor %}
     </div>
@@ -281,10 +290,13 @@ nav_order: 2.1
     <p class="alumni-cohort__label">2001–2009</p>
     <div class="alumni-directory">
       {% for person in grad_2000s %}
-      <article class="alumni-card">
+      {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
+      <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
+        {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none'"><div class="alumni-card__body">{% endif %}
         <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+        {% if alumni_photo %}</div>{% endif %}
       </article>
       {% endfor %}
     </div>
@@ -296,10 +308,13 @@ nav_order: 2.1
     <p class="alumni-cohort__label">2010–2019</p>
     <div class="alumni-directory">
       {% for person in grad_2010s %}
-      <article class="alumni-card">
+      {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
+      <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
+        {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none'"><div class="alumni-card__body">{% endif %}
         <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+        {% if alumni_photo %}</div>{% endif %}
       </article>
       {% endfor %}
     </div>
@@ -311,10 +326,13 @@ nav_order: 2.1
     <p class="alumni-cohort__label">2020s</p>
     <div class="alumni-directory">
       {% for person in grad_2020s %}
-      <article class="alumni-card">
+      {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
+      <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
+        {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none'"><div class="alumni-card__body">{% endif %}
         <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+        {% if alumni_photo %}</div>{% endif %}
       </article>
       {% endfor %}
     </div>
@@ -331,10 +349,13 @@ nav_order: 2.1
   </div>
   <div class="alumni-directory alumni-directory--compact">
     {% for person in undergrad_alumni %}
-    <article class="alumni-card">
+    {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
+    <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
+      {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none'"><div class="alumni-card__body">{% endif %}
       <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
       {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
       {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+      {% if alumni_photo %}</div>{% endif %}
     </article>
     {% endfor %}
   </div>

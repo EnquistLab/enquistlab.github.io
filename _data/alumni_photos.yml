@@ -1,0 +1,152 @@
+# ============================================================
+# Alumni profile photos — supplemental file
+# Source: Google Scholar profile photos (self-uploaded by each person
+#         to their own public Scholar profile — individually controlled).
+# This file is NOT auto-synced and is safe to edit manually.
+# To override with a university page or personal website photo, replace
+# the `url` value. `source` is informational only.
+# ============================================================
+
+- name: "Charles Price"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=BhUYvBIAAAAJ"
+  source: "google_scholar"
+
+- name: "Michael Weiser"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=3bwVqPoAAAAJ"
+  source: "google_scholar"
+
+- name: "Nathan Swenson"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=xsQtaEsAAAAJ"
+  source: "google_scholar"
+
+- name: "James Stegen"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=RpfOQ3MAAAAJ"
+  source: "google_scholar"
+
+- name: "Christine Lamanna"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=OH-dAScAAAAJ"
+  source: "google_scholar"
+
+- name: "Scott Stark"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=7fXVxwgAAAAJ"
+  source: "google_scholar"
+
+- name: "Catherine Hulshof"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=LdLBnWcAAAAJ"
+  source: "google_scholar"
+
+- name: "Lindsey Sloat"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=gFIyT1QAAAAJ"
+  source: "google_scholar"
+
+- name: "Benjamin Blonder"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=l3FNoE8AAAAJ"
+  source: "google_scholar"
+
+- name: "Julie Messier"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=xk_zSQwAAAAJ"
+  source: "google_scholar"
+
+- name: "Alex Brummer"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=CEr4qnQAAAAJ"
+  source: "google_scholar"
+
+- name: "Vanessa Buzzard"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=evt5hAUAAAAJ"
+  source: "google_scholar"
+
+- name: "Brian Maitner"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=GVb9deIAAAAJ"
+  source: "google_scholar"
+
+- name: "Evan Economo"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=O26BpgYAAAAJ"
+  source: "google_scholar"
+
+- name: "John Grady"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=4iKkWn4AAAAJ"
+  source: "google_scholar"
+
+- name: "Rachael Mitchell"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=OXqlpLAAAAAJ"
+  source: "google_scholar"
+
+- name: "Peter Gaube"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=XOiQAjcAAAAJ"
+  source: "google_scholar"
+
+- name: "Andrew Kerkhoff"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=6Us1L_wAAAAJ"
+  source: "google_scholar"
+
+- name: "Brad Boyle"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=f5is9HAAAAAJ"
+  source: "google_scholar"
+
+- name: "Jason Pither"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=gX4CLQMAAAAJ"
+  source: "google_scholar"
+
+- name: "Ethan White"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=pHmra8cAAAAJ"
+  source: "google_scholar"
+
+- name: "Lisa Patrick"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=FACeESEAAAAJ"
+  source: "google_scholar"
+
+- name: "Cyrille Violle"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=Vz4gFNcAAAAJ"
+  source: "google_scholar"
+
+- name: "Sean Michaletz"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=NtPdBA4AAAAJ"
+  source: "google_scholar"
+
+- name: "Naia Morueta-Holme"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=4OCxLJYAAAAJ"
+  source: "google_scholar"
+
+- name: "Noah Charney"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=cyWyeaIAAAAJ"
+  source: "google_scholar"
+
+- name: "Sandra Duran"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=Rlh3Pm4AAAAJ"
+  source: "google_scholar"
+
+- name: "Danilo Neves"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2uC73sEAAAAJ"
+  source: "google_scholar"
+
+- name: "Daniel Park"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=BF2WtIYAAAAJ"
+  source: "google_scholar"
+
+- name: "Xiao Feng"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=YmXvK3wAAAAJ"
+  source: "google_scholar"
+
+- name: "Rachael Gallagher"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=PDVoISsAAAAJ"
+  source: "google_scholar"
+
+- name: "Robbie Burger"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=uLZVJuAAAAAJ"
+  source: "google_scholar"
+
+- name: "Julia Chacón-Labella"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=V5gR4lUAAAAJ"
+  source: "google_scholar"
+
+- name: "Teresa Bohner"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=1w07kDIAAAAJ"
+  source: "google_scholar"
+
+- name: "Cesar Hinojo Hinojo"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=krWiKE0AAAAJ"
+  source: "google_scholar"
+
+- name: "Gabriel Moulatlet"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=o4dBz6MAAAAJ"
+  source: "google_scholar"
