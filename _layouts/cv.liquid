@@ -17,21 +17,25 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {{ page.title }}
-      {% if page.cv_pdf %}
-        <a
-          {% if page.cv_pdf contains '://' %}
-            href="{{ page.cv_pdf }}"
-          {% else %}
-            href="{{ page.cv_pdf | relative_url }}"
-          {% endif %}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-        >
-          <i class="fa-solid fa-file-pdf"></i>
+      </h1>
+    {%- comment %} PDF download banner — always visible below the heading {%- endcomment %}
+    {% if page.cv_pdf %}
+      {% capture pdf_href %}
+        {%- if page.cv_pdf contains '://' -%}{{ page.cv_pdf }}{%- else -%}{{ page.cv_pdf | relative_url }}{%- endif -%}
+      {% endcapture %}
+      <div class="cv-pdf-banner" style="display:flex;align-items:center;gap:1rem;background:#f0f4fa;border:1px solid #c7d8f0;border-radius:6px;padding:0.75rem 1.1rem;margin:0.6rem 0 1.2rem;">
+        <a href="{{ pdf_href | strip }}" target="_blank" rel="noopener noreferrer"
+           style="display:inline-flex;align-items:center;gap:0.45rem;background:#2b6cb0;color:#fff;font-weight:600;font-size:0.92rem;padding:0.45rem 1rem;border-radius:4px;text-decoration:none;white-space:nowrap;">
+          <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Download Full CV (PDF)
         </a>
-      {% endif %}
-    </h1>
+        <span style="font-size:0.85rem;color:#555;">
+          This page is a browsable overview. The PDF contains the complete curriculum vitae including all publications, grants, and service.
+          {%- if site.data.cv_sync.last_synced %}
+            <span class="text-muted" style="display:block;margin-top:0.2rem;font-size:0.8rem;">&#8635; Auto-synced from Google Docs &mdash; last updated: <strong>{{ site.data.cv_sync.last_synced }}</strong></span>
+          {%- endif %}
+        </span>
+      </div>
+    {% endif %}
     {% if page.description %}
       <p class="post-description">{{ page.description }}</p>
     {% endif %}
@@ -159,6 +163,13 @@ layout: default
                 {% include cv/awards.liquid %}
               {% elsif section_title == 'Publications' or section_title == 'Selected Publications' %}
                 {% assign entries = section_entries %}
+                <p class="text-muted mb-2" style="font-size:0.88rem;border-left:3px solid #2b6cb0;padding-left:0.65rem;">
+                  {%- if section_title == 'Selected Publications' -%}
+                  These are selected highlights — among the most highly cited, recent, and influential papers. A complete listing of &gt;250 peer-reviewed publications is available on the <a href="{{ '/publications/' | relative_url }}">Publications page</a> and in the <a href="{{ page.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">full CV (PDF)</a>.
+                  {%- else -%}
+                  Full publication list. Also available on the <a href="{{ '/publications/' | relative_url }}">Publications page</a> and in the <a href="{{ page.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">full CV (PDF)</a>.
+                  {%- endif -%}
+                </p>
                 {% include cv/publications.liquid %}
               {% elsif section_title == 'Skills' %}
                 {% assign entries = section_entries %}

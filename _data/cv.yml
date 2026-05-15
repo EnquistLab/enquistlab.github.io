@@ -4,7 +4,7 @@ cv:
   email: benquist@arizona.edu
   location: Tucson, Arizona, USA
   image: wordpress/brian-enquist-feb2020-020.jpg
-  summary: "Professor at the University of Arizona, External Professor at the Santa Fe Institute, Honorary Research Associate at Oxford, and Co-director of Bridging Biodiversity and Conservation Science. Research spans macroecology, metabolic scaling theory, trait-based ecology, biodiversity informatics, and predictive biodiversity science. Citations > 70,000 · h-index 115 (Google Scholar, Oct 2025) · > 250 peer-reviewed publications."
+  summary: "Professor at the University of Arizona, External Professor at the Santa Fe Institute, Honorary Research Associate at Oxford, and Co-director of Bridging Biodiversity and Conservation Science. Research spans macroecology, metabolic scaling theory, trait-based ecology, biodiversity informatics, and predictive biodiversity science. Citations > 70,000 · h-index 115 (Google Scholar — see profile for current figures) · > 250 peer-reviewed publications."
 
   social_networks:
     - network: GitHub
@@ -223,19 +223,21 @@ cv:
         publisher: Nature Communications
         releaseDate: 2026
         url: https://doi.org/10.1038/s41467-026-69952-6
+        summary: "Published March 7, 2026. Vol. 17, article 3623."
 
       - title: "Trait-Driver Theory: linking functional traits to demography, community assembly, and ecosystem function"
         authors:
           - Enquist, B. J. et al.
         publisher: Nature Ecology & Evolution
         releaseDate: 2025
-        summary: "Develops Trait-Driver Theory — a mechanistic framework linking plant functional traits to demographic rates, community assembly, and ecosystem-level processes across environmental gradients."
+        summary: "Develops Trait-Driver Theory — a mechanistic framework linking plant functional traits to demographic rates, community assembly, and ecosystem-level processes across environmental gradients. In press / under review."
 
       - title: "General laws of biodiversity: Climatic niches predict plant range size and ecological dominance globally"
         authors:
           - Moulatlet, G. M. et al.; Enquist, B. J.
         publisher: Proceedings of the National Academy of Sciences
         releaseDate: 2025
+        url: https://doi.org/10.1073/pnas.2517585122
 
       - title: Developing a predictive science of the biosphere requires the integration of scientific cultures
         authors:

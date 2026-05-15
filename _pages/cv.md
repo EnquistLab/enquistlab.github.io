@@ -6,7 +6,7 @@ nav: false
 nav_order: 4
 cv_pdf: /assets/pdf/enquist_cv.pdf
 cv_format: rendercv
-description: "Curriculum vitae for Brian J. Enquist — Professor of Ecology and Evolutionary Biology, University of Arizona · External Professor, Santa Fe Institute. Citations > 70,000 · h-index 115 (Google Scholar, Oct 2025)."
+description: "Curriculum vitae for Brian J. Enquist — Professor of Ecology and Evolutionary Biology, University of Arizona · External Professor, Santa Fe Institute. Citations > 70,000 · h-index 115 (Google Scholar). See Google Scholar profile for current figures."
 toc:
   sidebar: left
 ---
