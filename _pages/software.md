@@ -154,6 +154,8 @@ The [BIEN project](https://biendata.org/) compiles and standardizes occurrence r
 
 #### BIEN R Package
 
+<img src="{{ '/assets/img/bien_hex.png' | relative_url }}" alt="R BIEN hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+
 The `BIEN` R package provides programmatic access to ~85 million botanical observations, ~100,000 species range maps, and plant trait data for the New World.
 
 <div style="display:flex;flex-wrap:wrap;gap:0.5rem 1.2rem;margin:0.4rem 0 0.8rem;font-size:0.93rem;">
