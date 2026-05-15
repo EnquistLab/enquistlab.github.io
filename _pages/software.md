@@ -328,6 +328,20 @@ library(fluxible)
 
 ---
 
+### co2fluxtent
+
+An internally developed R package from the Enquist Lab for processing CO₂ flux measurements from open-path flux tent deployments. Complements `fluxible` (which targets closed-loop chamber systems) by providing a workflow tailored to open-path configurations, including concentration–time curve fitting, quality screening, and standardized flux output suitable for multi-site comparisons.
+
+- **GitHub:** [PaulESantos/co2fluxtent](https://github.com/PaulESantos/co2fluxtent)
+
+```r
+# Install from GitHub
+remotes::install_github("PaulESantos/co2fluxtent")
+library(co2fluxtent)
+```
+
+---
+
 ### traitstrap
 
 Bootstraps trait distributions to propagate uncertainty from individual-level measurements to community-weighted means and higher-order community trait statistics. Addresses a key challenge in trait-based ecology: raw community-weighted mean (CWM) calculations ignore intraspecific trait variation and sampling uncertainty. `traitstrap` implements parametric bootstrapping that draws from species-level trait distributions, weighted by abundance, producing CWMs with full uncertainty quantification suitable for downstream modeling.
