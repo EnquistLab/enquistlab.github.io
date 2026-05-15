@@ -388,6 +388,31 @@ Computes community climate statistics for volume and mismatch using species' cli
 
 ---
 
+### hypervolume
+
+<img src="{{ '/assets/img/hypervolume_hex.png' | relative_url }}" alt="hypervolume hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+
+Estimates the shape and volume of high-dimensional ecological objects (niches, trait distributions) and performs set operations including intersection, union, and overlap. Used for n-dimensional niche measurement and species distribution modeling.
+
+- **CRAN:** [hypervolume](https://cran.r-project.org/package=hypervolume)
+- **Citation:** Blonder, B., Lamanna, C., Violle, C., & Enquist, B. J. (2014). The n-dimensional hypervolume. *Global Ecology and Biogeography*, *23*(5), 595–609. [https://doi.org/10.1111/geb.12146](https://doi.org/10.1111/geb.12146)
+
+---
+
+### fluxible
+
+<img src="{{ '/assets/img/fluxible_hex.png' | relative_url }}" alt="fluxible hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+
+Processes raw gas concentration data from closed-loop chambers into analysis-ready ecosystem gas flux datasets in an automated and reproducible way. Handles CO₂, CH₄, and N₂O flux data, with core functions for flux calculation from raw concentration–time curves, automatic detection of non-linear or problematic measurements, outlier flagging, and export of QA-annotated summaries.
+
+Pairs naturally with the lab's long-term ecosystem monitoring work at sites including RMBL and tropical elevational transects.
+
+- **CRAN:** [fluxible](https://cran.r-project.org/package=fluxible)
+- **GitHub:** [jogaudard/fluxible](https://github.com/jogaudard/fluxible)
+- **Citation:** Gaudard, J., Telford, R. J., Chacón-Labella, J., Dawson, H. R., Enquist, B. J., Töpper, J. P., Trepel, J., Vandvik, V., Baumane, M., Birkeli, K., Holle, M. J. M., Hupp, J. R., Santos-Andrade, P. E., Satriawan, T. W., & Halbritter, A. H. (2025). fluxible: An R package to process ecosystem gas fluxes from closed-loop chambers in an automated and reproducible way. *Methods in Ecology and Evolution*, *16*(11), 2560–2568. [https://doi.org/10.1111/2041-210X.70161](https://doi.org/10.1111/2041-210X.70161)
+
+---
+
 ### Plant-O-Matic
 
 Open software integrating biodiversity layers with mobile APIs to deliver plant identification and occurrence information.
