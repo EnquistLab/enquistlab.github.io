@@ -303,33 +303,6 @@ These services form a complete biodiversity data QA pipeline from taxonomic name
 
 ---
 
-### Hypervolumes
-
-Estimates the shape and volume of high-dimensional ecological objects (niches, trait distributions) and performs set operations including intersection, union, and overlap. Used for n-dimensional niche measurement and species distribution modeling.
-
-- **CRAN:** [hypervolume](https://cran.r-project.org/package=hypervolume)
-- **Citation:** Blonder et al. (2014) *Global Ecology and Biogeography*
-
----
-
-### fluxible
-
-Processes ecosystem gas flux time series and applies quality assurance workflows for eddy covariance and closed-chamber measurements. Handles CO₂, CH₄, and N₂O flux data from a variety of sensor systems. Core functions include flux calculation from raw concentration–time curves, automatic detection of non-linear or problematic measurements, outlier flagging, and export of QA-annotated summaries.
-
-Designed to integrate with the outputs of standard flux loggers and field datalogger formats, and pairs naturally with the lab's long-term ecosystem monitoring work at sites including RMBL and tropical elevational transects.
-
-- **CRAN:** [fluxible](https://cran.r-project.org/web/packages/fluxible/index.html)
-- **GitHub:** [jogaudard/fluxible](https://github.com/jogaudard/fluxible/blob/main/README.md)
-- **Publication:** [Gaudard et al. (2025), *Methods in Ecology and Evolution*](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.70161)
-- **Vignette:** [Getting started with fluxible](https://cran.r-project.org/web/packages/fluxible/vignettes/)
-
-```r
-install.packages("fluxible")
-library(fluxible)
-```
-
----
-
 ### co2fluxtent
 
 <img src="/assets/img/co2fluxtent_hex.png" alt="co2fluxtent hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
