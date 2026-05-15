@@ -60,6 +60,41 @@ body {
   line-height: 1.75;
 }
 
+// ── Research page: tighter body text and prose column constraints ──────────
+// Tighten line-height on research page body text per user preference (was 1.75)
+.post p,
+.post li {
+  line-height: 1.38;
+}
+
+// Constrain prose column to comfortable reading width (~72ch) on wide viewports
+.post article > p,
+.post article > ul,
+.post article > ol,
+.post article > h2,
+.post article > h3,
+.post article > h4 {
+  max-width: 72ch;
+}
+
+// Responsive fallback: stack float pullout boxes on small/medium screens
+@media (max-width: 767px) {
+  .post [style*="float:right"],
+  .post [style*="float: right"] {
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+// Deepen pullout box accent blue — was #4a90d9 (~3.3:1), now #2b6cb0 (~5.7:1, WCAG AA)
+.post [style*="border-left:3px solid #4a90d9"],
+.post [style*="border-left: 3px solid #4a90d9"] {
+  border-left-color: #2b6cb0 !important;
+}
+
 h1,
 h2,
 h3,

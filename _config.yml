@@ -320,6 +320,7 @@ enable_medium_zoom: true
 enable_progressbar: true
 enable_video_embedding: false
 enable_cookie_consent: false
+enable_math: true
 third_party_libraries:
   download: false # if true, download the versions of the libraries specified below and use the downloaded files
   bootstrap-table:
