@@ -154,7 +154,7 @@ The [BIEN project](https://biendata.org/) compiles and standardizes occurrence r
 
 #### BIEN R Package
 
-<img src="{{ '/assets/img/bien_hex.png' | relative_url }}" alt="R BIEN hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+<img src="/assets/img/bien_hex.png" alt="R BIEN hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
 
 The `BIEN` R package provides programmatic access to ~85 million botanical observations, ~100,000 species range maps, and plant trait data for the New World.
 
@@ -332,7 +332,7 @@ library(fluxible)
 
 ### co2fluxtent
 
-<img src="{{ '/assets/img/co2fluxtent_hex.png' | relative_url }}" alt="co2fluxtent hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+<img src="/assets/img/co2fluxtent_hex.png" alt="co2fluxtent hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
 
 An internally developed R package from the Enquist Lab for processing CO₂ and H₂O flux measurements from open-path flux tent deployments. Complements `fluxible` (which targets closed-loop chamber systems) by providing a workflow tailored to open-path configurations, including concentration–time curve fitting with AIC-based model selection, H₂O flux parsing, quality screening, and standardized flux output suitable for multi-site comparisons.
 
@@ -368,7 +368,7 @@ library(traitstrap)
 
 ### netassoc
 
-<img src="{{ '/assets/img/netassoc_hex.png' | relative_url }}" alt="netassoc hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+<img src="/assets/img/netassoc_hex.png" alt="netassoc hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
 
 Infers species associations from community co-occurrence matrices using partial correlations and Gaussian graphical models with null modeling.
 
@@ -379,7 +379,7 @@ Infers species associations from community co-occurrence matrices using partial 
 
 ### comclim
 
-<img src="{{ '/assets/img/comclim_hex.png' | relative_url }}" alt="comclim hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+<img src="/assets/img/comclim_hex.png" alt="comclim hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
 
 Computes community climate statistics for volume and mismatch using species' climate niches, either unscaled or scaled relative to a regional species pool. Used to describe biogeographic patterns and infer community assembly processes.
 
@@ -390,7 +390,7 @@ Computes community climate statistics for volume and mismatch using species' cli
 
 ### hypervolume
 
-<img src="{{ '/assets/img/hypervolume_hex.png' | relative_url }}" alt="hypervolume hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+<img src="/assets/img/hypervolume_hex.png" alt="hypervolume hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
 
 Estimates the shape and volume of high-dimensional ecological objects (niches, trait distributions) and performs set operations including intersection, union, and overlap. Used for n-dimensional niche measurement and species distribution modeling.
 
@@ -401,7 +401,7 @@ Estimates the shape and volume of high-dimensional ecological objects (niches, t
 
 ### fluxible
 
-<img src="{{ '/assets/img/fluxible_hex.png' | relative_url }}" alt="fluxible hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+<img src="/assets/img/fluxible_hex.png" alt="fluxible hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
 
 Processes raw gas concentration data from closed-loop chambers into analysis-ready ecosystem gas flux datasets in an automated and reproducible way. Handles CO₂, CH₄, and N₂O flux data, with core functions for flux calculation from raw concentration–time curves, automatic detection of non-linear or problematic measurements, outlier flagging, and export of QA-annotated summaries.
 
