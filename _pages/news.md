@@ -83,7 +83,7 @@ _styles: |
       </div>
     </article>
     <div class="news-theme__cards">
-      <article class="news-card news-card--text-only"><div><div class="news-meta">September 2023</div><h3 class="news-title"><span class="news-source">World Economic Forum</span><a href="https://www.weforum.org/stories/2023/09/unesco-world-heritage-sites-biodiversity/" target="_blank" rel="noopener">UNESCO World Heritage Sites and Biodiversity</a></h3></div></article>
+      <article class="news-card"><div><div class="news-meta">September 2023</div><h3 class="news-title"><span class="news-source">World Economic Forum</span><a href="https://www.weforum.org/stories/2023/09/unesco-world-heritage-sites-biodiversity/" target="_blank" rel="noopener">UNESCO World Heritage Sites and Biodiversity</a></h3></div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Fagus_sylvatica_forest.jpg/480px-Fagus_sylvatica_forest.jpg" alt="Ancient beech forest — UNESCO World Heritage forests harbour exceptional biodiversity and old-growth carbon stores" loading="lazy" onerror="this.closest('.news-card').style.gridTemplateColumns='1fr';this.style.display='none'"></article>
       <article class="news-card"><div><div class="news-meta">June 2023</div><h3 class="news-title"><span class="news-source">Inside Climate News</span><a href="https://insideclimatenews.org/news/01062023/nature-carbon-storage-solutions/" target="_blank" rel="noopener">New Research Shows Global Climate Benefits Of Protecting Nature, but It's Not a Silver Bullet</a></h3></div><img src="https://insideclimatenews.org/wp-content/uploads/2023/05/forest-getty-scaled.jpg" alt="Forest carbon storage" loading="lazy"></article>
       <article class="news-card"><div><div class="news-meta">2023</div><h3 class="news-title"><span class="news-source">NAU News</span><a href="https://news.nau.edu/goetz-forest-research/" target="_blank" rel="noopener">Why protecting forests means reduced emissions at global scale</a></h3></div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rainforest_Fatu_Hiva.jpg/960px-Rainforest_Fatu_Hiva.jpg" alt="Tropical rainforest, Fatu Hiva — dense forest canopy as global carbon sink" loading="lazy"></article>
       <article class="news-card"><div><div class="news-meta">August 2022</div><h3 class="news-title"><span class="news-source">Mongabay</span><a href="https://news.mongabay.com/2022/08/protecting-global-forests-with-a-limited-budget-new-study-shows-where-and-when-to-start/" target="_blank" rel="noopener">Protecting global forests with a limited budget? New study shows where and when to start</a></h3></div><img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2022/06/17045519/sabah_RAB.jpg" alt="Borneo forest conservation" loading="lazy"></article>
@@ -170,7 +170,7 @@ _styles: |
       </div>
     </article>
     <div class="news-theme__cards">
-      <article class="news-card news-card--text-only"><div><div class="news-meta">2022</div><h3 class="news-title"><span class="news-source">National Academies of Sciences</span><a href="https://www.nationalacademies.org/projects/DELS-BEST-20-02" target="_blank" rel="noopener">Research at Multiple Scales: A Vision for Continental Scale Biology</a></h3></div></article>
+      <article class="news-card"><div><div class="news-meta">2022</div><h3 class="news-title"><span class="news-source">National Academies of Sciences</span><a href="https://www.nationalacademies.org/projects/DELS-BEST-20-02" target="_blank" rel="noopener">Research at Multiple Scales: A Vision for Continental Scale Biology</a></h3></div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Aerial_view_of_the_Okavango_Delta.jpg/480px-Aerial_view_of_the_Okavango_Delta.jpg" alt="Aerial view of a continental ecosystem — research at multiple biological scales from organisms to landscapes" loading="lazy" onerror="this.closest('.news-card').style.gridTemplateColumns='1fr';this.style.display='none'"></article>
       <article class="news-card"><div><div class="news-meta">April 2024</div><h3 class="news-title"><span class="news-source">Phys.org</span><a href="https://phys.org/news/2024-04-biosphere-science-reconnect-scientific-cultures.html" target="_blank" rel="noopener">To accelerate biosphere science, researchers say reconnect three scientific cultures</a></h3></div><img src="https://scx2.b-cdn.net/gfx/news/hires/2024/to-accelerate-biospher.jpg" alt="Biosphere science" loading="lazy"></article>
       <article class="news-card"><div><div class="news-meta">July 2014</div><h3 class="news-title"><span class="news-source">Phys.org</span><a href="https://phys.org/news/2014-07-ecologists-efficient-theory.html" target="_blank" rel="noopener">Ecologists need &lsquo;efficient theory&rsquo; to make sense of all the data</a></h3></div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Terrestrial_Ecoregions_of_the_World.jpg/960px-Terrestrial_Ecoregions_of_the_World.jpg" alt="WWF Terrestrial Ecoregions of the World — global biodiversity data demanding coherent ecological theory" loading="lazy"></article>
     </div>
@@ -179,6 +179,42 @@ _styles: |
 </div>
 
 <script>
+function initDisclosure() {
+  // Remove any existing show-more buttons before re-initialising
+  document.querySelectorAll('.news-show-more').forEach(function (b) { b.remove(); });
+
+  document.querySelectorAll('.news-theme__cards').forEach(function (grid) {
+    var cards = Array.from(grid.querySelectorAll('.news-card'));
+    var limit = 6;
+
+    // Reset all cards to visible first
+    cards.forEach(function (c) { c.classList.remove('news-card--hidden'); });
+
+    if (cards.length <= limit) return;
+
+    // Hide cards beyond the limit
+    cards.slice(limit).forEach(function (c) { c.classList.add('news-card--hidden'); });
+
+    var hiddenCount = cards.length - limit;
+    var sectionEl = grid.closest('.news-theme');
+    var sectionTitle = sectionEl && sectionEl.querySelector('h2')
+      ? sectionEl.querySelector('h2').textContent
+      : 'this section';
+
+    var btn = document.createElement('button');
+    btn.className = 'news-show-more';
+    btn.textContent = 'Show ' + hiddenCount + ' more';
+    btn.setAttribute('aria-label', 'Show ' + hiddenCount + ' more stories in ' + sectionTitle);
+    btn.addEventListener('click', function () {
+      cards.forEach(function (c) { c.classList.remove('news-card--hidden'); });
+      btn.remove();
+    });
+    // Insert after the grid container (outside both columns)
+    var gridContainer = grid.closest('.news-theme__grid');
+    if (gridContainer) gridContainer.after(btn);
+  });
+}
+
 function shuffleNewsSections() {
   var container = document.querySelector('.news-page');
   if (!container) return;
@@ -196,9 +232,21 @@ function shuffleNewsSections() {
   sections.forEach(function (section) {
     container.appendChild(section);
   });
+
+  // Re-run disclosure so buttons sit in the correct DOM position after reorder
+  initDisclosure();
 }
 
 document.addEventListener('DOMContentLoaded', function () {
   shuffleNewsSections();
+
+  // Graceful fallback for any external image that fails to load
+  document.querySelectorAll('.news-page img').forEach(function (img) {
+    img.addEventListener('error', function () {
+      var card = this.closest('.news-card');
+      if (card) card.style.gridTemplateColumns = '1fr';
+      this.style.display = 'none';
+    });
+  });
 });
 </script>

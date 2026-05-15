@@ -1455,7 +1455,6 @@ figure {
 .news-feature {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
   overflow: hidden;
   background: color-mix(in srgb, var(--global-theme-color) 12%, var(--global-card-bg-color) 88%);
 
@@ -1470,6 +1469,13 @@ figure {
   &:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 28px rgba(0, 0, 0, 0.10), 0 3px 8px rgba(0, 0, 0, 0.06);
+  }
+}
+
+@media (min-width: 993px) {
+  .news-feature {
+    position: sticky;
+    top: calc(var(--navbar-height, 64px) + 1rem);
   }
 }
 
@@ -1516,6 +1522,33 @@ figure {
   grid-template-columns: 1fr;
 }
 
+.news-card--hidden {
+  display: none;
+}
+
+.news-show-more {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.6rem 0 0;
+  padding: 4px 12px;
+  font-size: 0.76rem;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--global-theme-color);
+  background: none;
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 45%, transparent);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: var(--global-theme-color);
+    color: #fff;
+  }
+}
+
 .news-meta {
   font-size: 0.72rem;
   text-transform: uppercase;
@@ -1547,14 +1580,14 @@ figure {
 
 .news-source {
   display: inline-block;
-  font-size: 0.67rem;
+  font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--global-theme-color);
   border: 1px solid color-mix(in srgb, var(--global-theme-color) 40%, transparent);
   border-radius: 3px;
-  padding: 0px 4px;
+  padding: 1px 5px;
   margin-bottom: 0.32rem;
 }
 
@@ -1693,11 +1726,236 @@ figure {
   }
 
   .news-latest__strip {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.4rem;
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
+  }
+
+  .news-latest__item {
+    flex: 0 0 220px;
+    flex-shrink: 0;
   }
 
   .news-section-nav a {
     font-size: 0.7rem;
     padding: 2px 7px;
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// ── Research page: layout and component patterns (2026 redesign) ───────────
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ── 1. Research Program two-column intro grid ──────────────────────────────
+//    Text col (left) + aside card (right).
+//    Wrapping prose in the text div removes it from `.post article > p`,
+//    which has max-width: 72ch via a higher-specificity rule — the grid
+//    column fills naturally without that constraint firing.
+.research-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+  align-items: start;
+  margin: 1.5rem 0 2rem;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+// ── 2. Research Program aside card (right column of intro grid) ───────────
+.research-program-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+
+  &__photo {
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      object-position: center 30%;
+      display: block;
+    }
+  }
+
+  &__body {
+    padding: 0.85rem 1rem;
+    border-left: 3px solid #2b6cb0;
+  }
+
+  &__label {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: #2b6cb0;
+    margin: 0 0 0.55rem;
+  }
+
+  &__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.83rem;
+    line-height: 1.5;
+
+    li {
+      padding: 0.22rem 0;
+      border-bottom: 1px solid var(--global-divider-color);
+
+      &:last-child {
+        border-bottom: none;
+        padding-top: 0.45rem;
+        font-weight: 600;
+      }
+    }
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+// ── 3. Section fill card ───────────────────────────────────────────────────
+//    Insert inside float-context text columns, after prose paragraphs,
+//    before <div style="clear:both;">. Fills vertical gap when the right
+//    float box is taller than the prose text. Styled to match the existing
+//    #2b6cb0 border-left accent system.
+.section-fill-card {
+  border-left: 3px solid #2b6cb0;
+  padding: 0.65rem 1rem;
+  background: color-mix(in srgb, #2b6cb0 5%, var(--global-bg-color) 95%);
+  border-radius: 0 4px 4px 0;
+  margin-top: 1.25rem;
+  font-family: "Source Sans 3", sans-serif;
+
+  &__label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: #2b6cb0;
+    margin: 0 0 0.45rem;
+  }
+
+  &__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.82rem;
+    line-height: 1.55;
+
+    li {
+      margin-bottom: 0.18rem;
+    }
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: underline;
+        text-underline-offset: 0.12em;
+      }
+    }
+  }
+}
+
+// ── 4. Photo strip — 2 or 3 images side by side, full column width ─────────
+//    Modifier classes --two and --three set column count.
+.photo-strip {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1.75rem 0;
+
+  &--two   { grid-template-columns: 1fr 1fr; }
+  &--three { grid-template-columns: 1fr 1fr 1fr; }
+
+  figure {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 4px;
+
+    img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
+    }
+
+    figcaption {
+      font-family: "Source Sans 3", sans-serif;
+      font-size: 0.76rem;
+      color: var(--global-text-color-light);
+      margin-top: 0.3rem;
+      line-height: 1.4;
+    }
+  }
+
+  @media (max-width: 640px) {
+    &--two,
+    &--three { grid-template-columns: 1fr; }
+  }
+}
+
+// ── 5. Fig-crop — remove baked-in white padding from PNG figures ───────────
+//    Wrap the <img> in <div class="fig-crop"> (or add class to <figure>).
+//    The img is over-sized by 8% and offset negatively, then clipped by
+//    overflow:hidden on the container. No transform — avoids sub-pixel blur.
+.fig-crop {
+  overflow: hidden;
+  border-radius: 4px;
+
+  img {
+    display: block;
+    width: 108%;
+    margin-left: -4%;
+    margin-top: -3%;
+    margin-bottom: -3%;
+    max-width: none !important; // override Bootstrap .img-fluid
+    border-radius: 0;           // radius lives on the container
+  }
+}
+
+// ── 6. Inline concept diagram figure ──────────────────────────────────────
+//    For SVG/PNG scientific diagrams placed inline within prose sections.
+.diagram-fig {
+  margin: 1.75rem 0;
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  padding: 1rem;
+  text-align: center;
+
+  img,
+  object {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.6rem;
+    line-height: 1.4;
   }
 }
