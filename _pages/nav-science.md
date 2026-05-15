@@ -9,8 +9,6 @@ children:
     permalink: /research/
   - title: Publications & CV
     permalink: /publications/
-  - title: CV
-    permalink: /cv/
   - title: divider
   - title: Conservation Impacts
     permalink: /conservation-impacts/
