@@ -332,7 +332,9 @@ library(fluxible)
 
 ### co2fluxtent
 
-An internally developed R package from the Enquist Lab for processing CO₂ flux measurements from open-path flux tent deployments. Complements `fluxible` (which targets closed-loop chamber systems) by providing a workflow tailored to open-path configurations, including concentration–time curve fitting, quality screening, and standardized flux output suitable for multi-site comparisons.
+<img src="{{ '/assets/img/co2fluxtent_hex.png' | relative_url }}" alt="co2fluxtent hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+
+An internally developed R package from the Enquist Lab for processing CO₂ and H₂O flux measurements from open-path flux tent deployments. Complements `fluxible` (which targets closed-loop chamber systems) by providing a workflow tailored to open-path configurations, including concentration–time curve fitting with AIC-based model selection, H₂O flux parsing, quality screening, and standardized flux output suitable for multi-site comparisons.
 
 - **GitHub:** [PaulESantos/co2fluxtent](https://github.com/PaulESantos/co2fluxtent)
 
