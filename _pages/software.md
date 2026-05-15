@@ -161,7 +161,7 @@ The `BIEN` R package provides programmatic access to ~85 million botanical obser
 <div style="display:flex;flex-wrap:wrap;gap:0.5rem 1.2rem;margin:0.4rem 0 0.8rem;font-size:0.93rem;">
   <span><strong>CRAN:</strong> <a href="https://cran.r-project.org/package=BIEN">BIEN on CRAN</a></span>
   <span><strong>GitHub:</strong> <a href="https://github.com/EnquistLab/BIEN">EnquistLab/BIEN</a></span>
-  <span><strong>Citation:</strong> Maitner et al. (2018) <em>Methods in Ecology and Evolution</em></span>
+  <span><strong>Citation:</strong> Maitner, B. S., et al. (2018). The bien r package: A tool to access the Botanical Information and Ecology Network (BIEN) database. <em>Methods in Ecology and Evolution</em>, <em>9</em>(2), 373–379. <a href="https://doi.org/10.1111/2041-210X.12861">https://doi.org/10.1111/2041-210X.12861</a></span>
 </div>
 
 ```r
@@ -307,7 +307,7 @@ These services form a complete biodiversity data QA pipeline from taxonomic name
 
 <img src="/assets/img/co2fluxtent_hex.png" alt="co2fluxtent hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
 
-An internally developed R package from the Enquist Lab for processing CO₂ and H₂O flux measurements from open-path flux tent deployments. Complements `fluxible` (which targets closed-loop chamber systems) by providing a workflow tailored to open-path configurations, including concentration–time curve fitting with AIC-based model selection, H₂O flux parsing, quality screening, and standardized flux output suitable for multi-site comparisons.
+An R package developed by Enquist Lab collaborators for processing CO₂ and H₂O flux measurements from open-path flux tent deployments. Complements `fluxible` (which targets closed-loop chamber systems) by providing a workflow tailored to open-path configurations, including concentration–time curve fitting with AIC-based model selection, H₂O flux parsing, quality screening, and standardized flux output suitable for multi-site comparisons.
 
 - **GitHub:** [PaulESantos/co2fluxtent](https://github.com/PaulESantos/co2fluxtent)
 
@@ -329,7 +329,7 @@ Works directly with trait data from BIEN, TRY, and comparable databases, and is 
 
 - **CRAN:** [traitstrap](https://cran.r-project.org/web/packages/traitstrap/index.html)
 - **GitHub:** [Plant-Functional-Trait-Course/traitstrap](https://github.com/Plant-Functional-Trait-Course/traitstrap)
-- **Citation:** Maitner et al. — see CRAN page for current reference
+- **Citation:** Maitner, B. S., et al. (2023). On the utility of the community-weighted mean of trait distributions. *Methods in Ecology and Evolution*, *14*(7), 1706–1714. [https://doi.org/10.1111/2041-210X.14160](https://doi.org/10.1111/2041-210X.14160)
 - **Vignette:** [traitstrap vignette](https://cran.r-project.org/web/packages/traitstrap/vignettes/)
 
 ```r
@@ -343,7 +343,7 @@ library(traitstrap)
 
 <img src="/assets/img/netassoc_hex.png" alt="netassoc hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
 
-Infers species associations from community co-occurrence matrices using partial correlations and Gaussian graphical models with null modeling.
+Infers species associations from community co-occurrence matrices using partial correlations and Gaussian graphical models. Null modeling controls for shared abundance structure and species richness, isolating true biotic signal from sampling artefacts. Returns a signed species association network with positive (co-occurrence above null expectation) and negative (segregation below null expectation) edges, suitable for downstream network analysis and community assembly inference.
 
 - **CRAN:** [netassoc](https://cran.r-project.org/package=netassoc)
 - **Citation:** Morueta-Holme, N., Blonder, B., Sandel, B., McGill, B. J., Peet, R. K., Ott, J. E., Violle, C., Enquist, B. J., Jørgensen, P. M., & Svenning, J.-C. (2016). A network approach for inferring species associations from co-occurrence data. *Ecography*, *39*(12), 1139–1150. [https://doi.org/10.1111/ecog.01892](https://doi.org/10.1111/ecog.01892)
@@ -365,7 +365,7 @@ Computes community climate statistics for volume and mismatch using species' cli
 
 <img src="/assets/img/hypervolume_hex.png" alt="hypervolume hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
 
-Estimates the shape and volume of high-dimensional ecological objects (niches, trait distributions) and performs set operations including intersection, union, and overlap. Used for n-dimensional niche measurement and species distribution modeling.
+Estimates the shape and volume of high-dimensional ecological objects (niches, trait distributions) and performs set operations including intersection, union, and overlap. Used for n-dimensional niche quantification, trait-space analysis, and set operations on ecological hypervolumes.
 
 - **CRAN:** [hypervolume](https://cran.r-project.org/package=hypervolume)
 - **Citation:** Blonder, B., Lamanna, C., Violle, C., & Enquist, B. J. (2014). The n-dimensional hypervolume. *Global Ecology and Biogeography*, *23*(5), 595–609. [https://doi.org/10.1111/geb.12146](https://doi.org/10.1111/geb.12146)
@@ -398,7 +398,7 @@ Open software integrating biodiversity layers with mobile APIs to deliver plant 
 We co-lead the [OpenTraits Network](https://opentraits.org/), which promotes open, standardized, and FAIR (Findable, Accessible, Interoperable, Reusable) trait data across all organisms.
 
 - **Website:** [opentraits.org](https://opentraits.org/)
-- **Publication:** Gallagher et al. (2020) *Nature Ecology & Evolution*
+- **Citation:** Gallagher, R. V., et al. (2020). Open Science principles for accelerating trait-based science across the Tree of Life. *Nature Ecology & Evolution*, *4*(3), 294–303. [https://doi.org/10.1038/s41559-020-1109-6](https://doi.org/10.1038/s41559-020-1109-6)
 
 ---
 
