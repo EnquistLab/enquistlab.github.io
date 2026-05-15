@@ -37,6 +37,7 @@ fi
 cp "${TXT_TMP}" "${TXT_OUT}"
 cp "${PDF_TMP}" "${PDF_OUT}"
 printf "%s\n" "${NEW_HASH}" > "${HASH_FILE}"
+printf "last_synced: \"%s\"\n" "$(date -u +'%B %d, %Y')" > "${REPO_ROOT}/_data/cv_sync.yml"
 
 echo "CV update detected and synced."
 rm -rf "${TMP_DIR}"
