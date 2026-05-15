@@ -368,19 +368,23 @@ library(traitstrap)
 
 ### netassoc
 
+<img src="{{ '/assets/img/netassoc_hex.png' | relative_url }}" alt="netassoc hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+
 Infers species associations from community co-occurrence matrices using partial correlations and Gaussian graphical models with null modeling.
 
 - **CRAN:** [netassoc](https://cran.r-project.org/package=netassoc)
-- **Citation:** Morueta-Holme, Blonder et al. *Ecography*
+- **Citation:** Morueta-Holme, N., Blonder, B., Sandel, B., McGill, B. J., Peet, R. K., Ott, J. E., Violle, C., Enquist, B. J., Jørgensen, P. M., & Svenning, J.-C. (2016). A network approach for inferring species associations from co-occurrence data. *Ecography*, *39*(12), 1139–1150. [https://doi.org/10.1111/ecog.01892](https://doi.org/10.1111/ecog.01892)
 
 ---
 
 ### comclim
 
-Computes community climate statistics for volume and mismatch using species' climate niches, scaled relative to a regional species pool. Used to infer community assembly processes.
+<img src="{{ '/assets/img/comclim_hex.png' | relative_url }}" alt="comclim hex sticker" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;">
+
+Computes community climate statistics for volume and mismatch using species' climate niches, either unscaled or scaled relative to a regional species pool. Used to describe biogeographic patterns and infer community assembly processes.
 
 - **CRAN:** [comclim](https://cran.r-project.org/package=comclim)
-- **Citation:** Blonder et al. (2015) *Ecology*
+- **Citation:** Blonder, B., Nogués-Bravo, D., Borregaard, M. K., Donoghue II, J. C., Jørgensen, P. M., Kraft, N. J. B., Lessard, J.-P., Morueta-Holme, N., Sandel, B., Svenning, J.-C., Violle, C., Rahbek, C., & Enquist, B. J. (2015). Linking environmental filtering and disequilibrium to biogeography with a community climate framework. *Ecology*, *96*(4), 972–985. [https://doi.org/10.1890/14-0589.1](https://doi.org/10.1890/14-0589.1)
 
 ---
 
