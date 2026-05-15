@@ -14,21 +14,40 @@ nav_order: 3
   <figcaption>Field measurements — connecting individual-level physiology to ecosystem-scale patterns.</figcaption>
 </figure>
 
-Our lab develops theory and data-driven tools to explain how biodiversity is organized across scales, and how it is changing under climate and land-use pressure.
-
-We organize our work as a connected process: observations and traits → scaling and trait-based theory → predictive models → uncertainty-aware ecological forecasting.
-
-Current themes include:
-
-- Scaling in biology and allometry
-- Forecasting the fate of biodiversity and the biosphere
-- Trait-based ecology as a foundation for predictive ecology and biodiversity science
-- Biodiversity informatics
-- Macroecology of biodiversity gradients
-- Ecology and evolution of plant functional and physiological integration
-- Long-term monitoring of populations, communities, and ecosystems in tropical, temperate, and alpine environments
-
-Our research flows from observation to prediction: we measure organisms and ecosystems, build theories about why patterns emerge across levels of biological organization, and test whether those theories can forecast how biodiversity responds to global change.
+<div class="research-intro-grid">
+<div class="research-intro-grid__text">
+<p>Our lab develops theory and data-driven tools to explain how biodiversity is organized across scales, and how it is changing under climate and land-use pressure.</p>
+<p>We organize our work as a connected process: observations and traits → scaling and trait-based theory → predictive models → uncertainty-aware ecological forecasting.</p>
+<p>Current themes include:</p>
+<ul>
+<li>Scaling in biology and allometry</li>
+<li>Forecasting the fate of biodiversity and the biosphere</li>
+<li>Trait-based ecology as a foundation for predictive ecology and biodiversity science</li>
+<li>Biodiversity informatics</li>
+<li>Macroecology of biodiversity gradients</li>
+<li>Ecology and evolution of plant functional and physiological integration</li>
+<li>Long-term monitoring of populations, communities, and ecosystems in tropical, temperate, and alpine environments</li>
+</ul>
+<p>Our research flows from observation to prediction: we measure organisms and ecosystems, build theories about why patterns emerge across levels of biological organization, and test whether those theories can forecast how biodiversity responds to global change.</p>
+</div>
+<aside class="research-program-card">
+  <div class="research-program-card__photo">
+    <img src="{{ '/assets/img/field/sefdp_forest_canopy.jpg' | relative_url }}" alt="Tropical forest canopy at a Smithsonian ForestGEO long-term monitoring plot — a site where MST allometric scaling predictions are tested at ecosystem scale" loading="lazy">
+  </div>
+  <div class="research-program-card__body">
+    <div class="research-program-card__label">Explore Research</div>
+    <ul class="research-program-card__links">
+      <li><a href="#theory">Theory: MST &amp; TDT</a></li>
+      <li><a href="#trait-based-ecology">Trait-Based Ecology</a></li>
+      <li><a href="#ecophysiology">Ecophysiology</a></li>
+      <li><a href="#bien-botanical-information-ecology-network">BIEN &amp; Informatics</a></li>
+      <li><a href="#global-change-biology">Biodiversity Forecasting</a></li>
+      <li><a href="#long-term-ecology">Long-Term Ecology</a></li>
+      <li><a href="{{ '/field-sites/' | relative_url }}">Field Sites →</a></li>
+    </ul>
+  </div>
+</aside>
+</div>
 
 ---
 
@@ -119,18 +138,32 @@ TDT bridges scales that are often treated separately in ecology: individual phys
   <figcaption>Trait ecology links leaf- and plant-level strategies to mountain-scale environmental gradients.</figcaption>
 </figure>
 
-Plant functional traits — measurable attributes such as leaf size, wood density, plant height, and water-use efficiency — encode how organisms interact with their environment, competitors, and resources. The lab's trait-based ecology program spans from individual leaves to global biomes, with the unifying goal of building a predictive science of plant form, function, and response to change.
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <figure style="margin:0 0 0.75rem;">
+    <img src="{{ '/assets/img/field/pftc5_peru.jpeg' | relative_url }}" alt="Researchers measuring plant functional traits on an Andean slope during a PFTC field course in Peru" style="width:100%;border-radius:4px;" loading="lazy">
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">PFTC field campaign, Wayqecha, Peru — standardized trait measurement along an elevation gradient from cloud forest to páramo.</figcaption>
+  </figure>
+  <div style="border-left:3px solid #2b6cb0;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14160" rel="external nofollow noopener" target="_blank">Maitner et al. (2023)</a> — Bootstrap trait distributions outperform community-weighted means. <em>Methods Ecol. Evol.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://onlinelibrary.wiley.com/doi/10.1111/geb.12645" rel="external nofollow noopener" target="_blank">Enquist et al. (2017)</a> — Trait-based scaling across tropical forests. <em>Global Ecol. Biogeogr.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.nature.com/articles/s41559-021-01396-1" rel="external nofollow noopener" target="_blank">Kemppinen et al. (2021)</a> — Consistent trait–environment relationships in tundra. <em>Nat. Ecol. Evol.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://doi.org/10.1038/s41559-020-1109-6" rel="external nofollow noopener" target="_blank">Gallagher et al. (2020)</a> — Open Traits Network. <em>Nat. Ecol. Evol.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.06078" rel="external nofollow noopener" target="_blank">Wieczynski et al. (2022)</a> — Remote-sensing + trait models. <em>Ecography</em></li>
+    </ul>
+  </div>
+</div>
 
-**From traits to prediction.** Our approach treats traits not merely as descriptors but as mechanistic currencies that link physiology, community assembly, and ecosystem function. By measuring how traits vary across individuals, species, and environments — and by integrating those measurements with metabolic theory — we develop frameworks that forecast how plant communities will respond to climate change, land-use pressure, and other global drivers.
+Plant functional traits — leaf size, wood density, height, specific leaf area, water-use efficiency — are not merely descriptions of what plants look like. They are the currencies through which organisms manage their acquisition of carbon, water, and nutrients, and the entries through which evolution, environment, and ecological filtering jointly shape community composition. The lab's trait-based ecology program is organized around a single driving question: can we use the statistical distributions of functional traits within communities to predict how those communities will change as climates shift?
 
-**Core contributions and ongoing work:**
-- Developing and testing [Trait Driver Theory (TDT)](https://onlinelibrary.wiley.com/doi/10.1111/geb.12645), a general framework predicting how trait distributions in a community shift as environmental conditions change ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070))
-- Quantifying intraspecific trait variation (ITV) and its role in community stability, climate buffering, and ecological forecasting — including new bootstrap uncertainty methods ([traitstrap](https://cran.r-project.org/package=traitstrap))
-- Integrating remotely sensed spectral data with ground-based trait measurements to scale functional diversity from plots to continents (Durán et al. 2019 *Science Advances*; Wieczynski et al. 2022 *Ecography*)
-- Contributing to global trait databases including TRY, OpenTraits, and BIEN, and establishing open-science standards for trait data ([Gallagher et al. 2020](https://doi.org/10.1038/s41559-020-1109-6) *Nature Ecology & Evolution*; Keller et al. 2023 *Methods in Ecology & Evolution*)
-- Connecting trait variation to forest carbon and productivity at landscape and regional scales
+**The theoretical backbone** is [Trait Driver Theory (TDT)](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070), developed and tested in this lab ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Enquist et al. 2017](https://onlinelibrary.wiley.com/doi/10.1111/geb.12645)), which predicts how trait distributions — not just mean values — shift as a direct function of environmental drivers. A key insight is that the *shape* of a trait distribution encodes information about ecological filtering and community assembly that the mean discards. [Maitner et al. (2023)](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14160) (*Methods Ecol. Evol.*) demonstrated that standard community-weighted approaches systematically underestimate distributional tails — the parts of the trait distribution most sensitive to environmental extremes. The [`traitstrap`](https://cran.r-project.org/package=traitstrap) R package formalizes a bootstrap-based remedy, propagating intraspecific uncertainty through community-level calculations. [Kemppinen et al. (2021)](https://www.nature.com/articles/s41559-021-01396-1) (*Nat. Ecol. Evol.*) confirmed that consistent trait–environment relationships hold within and across tundra communities, supporting TDT's core assumption that environment is a strong filter on which traits are expressed locally. Integrating remotely sensed spectral data with ground-based trait measurements further enables scaling functional diversity from plots to continents ([Wieczynski et al. 2022](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.06078), *Ecography*).
 
-**Forward look.** The next frontier is trait-based ecological forecasting: using measured trait distributions — including their uncertainty — to predict community-level responses to novel climates, assess biodiversity vulnerability, and improve land-surface models. This requires integrating trait data with demographic models, remote sensing, and process-based earth system frameworks. We are actively building these pipelines through BIEN, OpenTraits, and collaborative field programs including [PFTC]({{ '/resources/' | relative_url }}).
+**Measurement and scale.** The lab co-organizes the international [Plant Functional Traits Courses (PFTC)]({{ '/resources/' | relative_url }}) — a program in which field courses produce open, publishable datasets as a direct pedagogical output. Published campaigns span Norway climate gradients ([Vandvik et al. 2025](https://www.nature.com/articles/s41597-025-05509-4), *Scientific Data*), Andean Puna grasslands in Peru ([Halbritter et al. 2024](https://www.nature.com/articles/s41597-024-02980-3), *Scientific Data*), and Afromontane grasslands of South Africa ([Halbritter et al. 2025](https://www.nature.com/articles/s41597-025-06045-x), *Scientific Data*). These campaigns link individual trait measurements to ecosystem gas fluxes along environmental gradients, testing whether trait-based models built on plots can scale to landscapes. At broader scales, lab contributions to TRY, OpenTraits, and BIEN include establishing data-quality standards for trait synthesis ([Gallagher et al. 2020](https://doi.org/10.1038/s41559-020-1109-6), *Nat. Ecol. Evol.*; [Keller et al. 2023](https://doi.org/10.1111/2041-210X.14033), *Methods Ecol. Evol.*).
+
+**Forward look.** The next challenge is closing the loop from trait measurement to ecological forecast. Using measured trait distributions — including their bootstrapped uncertainty — to predict community responses to novel climates requires integrating traitstrap-style tools with demographic models, spectral remote sensing, and process-based land-surface frameworks. A key open question is whether trait–environment relationships calibrated in contemporary gradient studies transfer reliably to novel climatic states — the same extrapolation problem that challenges SDMs. Addressing it requires out-of-range validation, mechanistic model constraints, and explicit uncertainty quantification.
+
+<div style="clear:both;"></div>
 
 ---
 
@@ -163,6 +196,15 @@ Leaf venation networks are biological distribution networks whose branching geom
 
 Empirically, Blonder et al. (2011) showed that vein geometry is a mechanistic origin of the leaf economic spectrum — the multivariate axis of leaf form and function encapsulating the slow–fast resource-acquisition continuum — and Blonder et al. (2014, *J. Exp. Bot.*) demonstrated that including vein traits substantially improves its predictive power. Vein reticulation also varies systematically along the steep Andes–Amazon elevational gradient, reflecting structural reinforcement against herbivory and hydraulic adaptations to the combined stresses of freeze-thaw cycles and declining atmospheric pressure at altitude ([Blonder et al. 2018](https://www.researchgate.net/publication/323107018)). Matos et al. (2025, *Nature Plants*) extended this perspective phylogenetically, revealing how vein network architecture has evolved across angiosperm clades and spatial scales, shaped jointly by developmental constraints, hydraulic selection, and evolutionary history.
 
+<div class="section-fill-card">
+  <div class="section-fill-card__label">Related resources</div>
+  <ul class="section-fill-card__links">
+    <li><a href="{{ '/assets/img/ecophysiology/leaf_venation_network.svg' | relative_url }}" target="_blank" rel="noopener">Leaf vein network topology diagram →</a></li>
+    <li><a href="#trait-based-ecology">Trait-based ecology: how vein density anchors the leaf economics spectrum</a></li>
+    <li><a href="#plant-hydraulics">Plant Hydraulics &amp; Path Length: vascular constraints at tree scale</a></li>
+  </ul>
+</div>
+
 <div style="clear:both;"></div>
 
 #### Leaf Thermoregulation {#leaf-thermoregulation}
@@ -186,6 +228,14 @@ Empirically, Blonder et al. (2011) showed that vein geometry is a mechanistic or
 Leaves are not passive temperature recorders. They actively modulate their temperature through transpirational cooling, boundary layer conductance, and leaf geometry — size, shape, and orientation all govern how heat is exchanged with the surrounding atmosphere. Michaletz, Enquist, and colleagues developed an energy-balance biophysical framework that predicts the offset between leaf temperature and air temperature as a function of absorbed radiation, wind speed, stomatal conductance, and leaf size. This offset is not a minor correction: it can exceed several degrees Celsius under high-radiation, low-wind conditions, with meaningful consequences for enzymatic rates, stomatal behavior, and water-use efficiency.
 
 The macroecological implication is significant. Standard correlative analyses that link plant traits to climate using ambient air temperature may systematically misrepresent the thermal environment that leaf biochemistry actually experiences. Incorporating energy-balance physics into trait–climate frameworks yields mechanistically grounded predictions of how functional trait distributions will shift as both air temperature and vapor pressure deficit increase under climate change — and identifies where correlative approaches are most likely to fail.
+
+<div class="section-fill-card">
+  <div class="section-fill-card__label">Related resources</div>
+  <ul class="section-fill-card__links">
+    <li><a href="{{ '/assets/img/ecophysiology/leaf_energy_balance.svg' | relative_url }}" target="_blank" rel="noopener">Leaf energy balance diagram →</a></li>
+    <li><a href="#community-carbon-water">Plant Community Carbon &amp; Water Exchange: scaling leaf function to ecosystem flux</a></li>
+  </ul>
+</div>
 
 <div style="clear:both;"></div>
 
@@ -225,7 +275,7 @@ The [fluxible](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-
 <div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
   <figure style="margin:0 0 0.75rem;">
     <a href="{{ '/assets/img/ecophysiology/brummer2021_fig1_full.png' | relative_url }}" target="_blank" rel="noopener" title="Click to enlarge">
-      <img src="{{ '/assets/img/ecophysiology/brummer2021_fig1_full.png' | relative_url }}" alt="Comparison of plant (angiosperm tree) and mammalian (mouse lung) vascular branching silhouettes plus scatter plots of branching geometry, illustrating shared geometric principles across biological transport networks" style="width:100%;border-radius:4px;cursor:zoom-in;" loading="lazy">
+      <div class="fig-crop"><img src="{{ '/assets/img/ecophysiology/brummer2021_fig1_full.png' | relative_url }}" alt="Comparison of plant (angiosperm tree) and mammalian (mouse lung) vascular branching silhouettes plus scatter plots of branching geometry, illustrating shared geometric principles across biological transport networks" style="cursor:zoom-in;" loading="lazy"></div>
     </a>
     <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Plant and animal branching networks share geometric principles: radial and length scale factors distinguish angiosperm, gymnosperm, and mammalian vascular systems. © Brummer, Enquist et al. 2021, <em>J. R. Soc. Interface</em>, CC-BY 4.0. <span style="font-style:italic;">Click to enlarge.</span></figcaption>
   </figure>
@@ -244,24 +294,40 @@ Water flows upward through plant tissue under tension — leaves lose water to t
 
 Enquist (2003) extended this reasoning to macroevolution, connecting Cope's Rule — the recurrent evolutionary tendency toward larger body size across lineages — to directional selection favoring longer-distance water transport and the biomass partitioning trade-offs that accompany increasing plant size. Savage et al. (2010) demonstrated that introducing hydraulic trade-offs and space-filling constraints into the vascular network model substantially improves predictions of conduit structure and function across plant size classes. Smith et al. (2014) showed empirically that deviations from idealized symmetric self-similar branching carry simultaneous, predictable consequences for hydraulic efficiency, mechanical support, light interception, and metabolic scaling — revealing the multi-functional constraints under which real plant architectures evolve. Brummer et al. (2021) used machine learning and extensive branching data from both animal and plant networks to identify the shared geometric principles underlying biological transport networks, grounding plant hydraulic theory within a broader comparative framework.
 
+<div class="section-fill-card">
+  <div class="section-fill-card__label">Related resources</div>
+  <ul class="section-fill-card__links">
+    <li><a href="{{ '/assets/img/ecophysiology/plant_hydraulic_network.svg' | relative_url }}" target="_blank" rel="noopener">Plant vascular network diagram →</a></li>
+    <li><a href="#metabolic-scaling-theory">Metabolic Scaling Theory: how hydraulic geometry underlies the ¾ scaling law</a></li>
+  </ul>
+</div>
+
 <div style="clear:both;"></div>
 
 ---
 
 ### BIEN: Botanical Information & Ecology Network {#bien-botanical-information-ecology-network}
 
-<figure class="field-photo">
-  <img src="{{ '/assets/img/wordpress/dsc_3236.jpeg' | relative_url }}" alt="Cloud-forest mountain slope along an Andean elevational transect" loading="lazy">
-  <figcaption>BIEN synthesis products integrate occurrence, trait, and climate data across regional and continental gradients.</figcaption>
-</figure>
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <figure style="margin:0 0 0.75rem;">
+    <img src="{{ '/assets/img/wordpress/bci-trail-map.jpg' | relative_url }}" alt="Map of Barro Colorado Island ForestGEO plot network in Panama — one of the intensive study sites whose data flow into the BIEN database" style="width:100%;border-radius:4px;" loading="lazy">
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">Barro Colorado Island, Panama — one of many intensive plot networks whose occurrence and trait data are integrated in BIEN.</figcaption>
+  </figure>
+  <div style="border-left:3px solid #2b6cb0;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key resources</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210x.70274" rel="external nofollow noopener" target="_blank">Enquist et al. (2026)</a> — BIEN: a global synthesis resource for Western Hemisphere plants. <em>Methods Ecol. Evol.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://cran.r-project.org/package=BIEN" rel="external nofollow noopener" target="_blank">BIEN R package</a> — programmatic access to occurrences, traits, ranges, and plot data.</li>
+      <li style="margin-bottom:0.35rem;"><a href="https://biendata.org/" rel="external nofollow noopener" target="_blank">biendata.org</a> — GeoSpatial portal and documentation.</li>
+    </ul>
+  </div>
+</div>
 
-<img src="{{ '/assets/img/wordpress/bien_logo_notext-1.png' | relative_url }}" alt="BIEN — Botanical Information and Ecology Network" style="max-width:220px;width:100%;display:block;margin:0.6rem 0 1rem;">
+<img src="{{ '/assets/img/wordpress/bien_logo_notext-1.png' | relative_url }}" alt="BIEN — Botanical Information and Ecology Network" style="max-width:180px;width:100%;display:block;margin:0.4rem 0 0.9rem;">
 
-The [BIEN project](https://biendata.org/) compiles and standardizes occurrence records, trait measurements, and plot data for vascular plants in the Western Hemisphere. It is one of the largest plant biodiversity synthesis efforts globally. The database integrates herbarium specimens, citizen-science observations, and plot inventories spanning roughly 1800s–present, with taxonomic reconciliation against a versioned plant name backbone and coordinate-level QA filtering.
+Reliable biodiversity science requires reliable data — and that requires knowing where species have actually been recorded, how completely those records reflect reality, and whether the names attached to records refer to the same entity across time and region. The [BIEN project](https://biendata.org/) addresses this at continental scale: it compiles and standardizes occurrence records, plant trait measurements, and vegetation plot data for vascular plants across the Western Hemisphere, making it one of the largest plant biodiversity synthesis efforts globally. The database integrates herbarium specimens, citizen-science observations, and plot inventories spanning roughly 1800s–present, with taxonomic reconciliation against a versioned plant name backbone and coordinate-level QA filtering that removes records with known georeferencing errors, cultivated provenance, or coordinate–country mismatches. The result is a synthesis resource that underpins macroecological analyses, SDM workflows, and trait-based forecasting at scales from regional to hemispheric ([Enquist et al. 2026](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210x.70274), *Methods Ecol. Evol.*).
 
-**Citation:** [Enquist et al. (2026)](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210x.70274) *Methods in Ecology and Evolution*
-
-**Tools:** [BIEN R package](https://cran.r-project.org/package=BIEN) | [GeoSpatial portal](https://biendata.org/)
+<div style="clear:both;"></div>
 
 <details class="bien-quickstart">
 <summary>Quick start: access BIEN data in R</summary>
@@ -331,15 +397,36 @@ Browse occurrence records and range maps for ~120,000 Western Hemisphere plant s
 
 ### Forecasting Biodiversity Under Global Change {#global-change-biology}
 
-We use trait-based models, species distribution models, and process-based frameworks to project how plant communities may respond to climate change. Work includes:
+<figure class="field-photo">
+  <img src="{{ '/assets/img/field/aberg_andes.jpeg' | relative_url }}" alt="Andean mountain landscape along an elevational gradient where vegetation composition shifts driven by climate are being documented" loading="lazy">
+  <figcaption>Andean elevational gradient — documenting vegetation shifts as a testbed for biodiversity forecasting models.</figcaption>
+</figure>
 
-- Trait-based range shift projections
-- Detecting signals of climate-driven community turnover in BIEN data
-- Assessing vulnerability of tropical and montane floras
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <figure style="margin:0 0 0.75rem;">
+    <img src="{{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }}" alt="SPARC protected-area prioritization map showing biodiversity conservation priority regions across the Americas, derived from BIEN occurrence data" style="width:100%;border-radius:4px;" loading="lazy">
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">SPARC conservation priority regions across the Americas — integrating BIEN species occurrence and climate data.</figcaption>
+  </figure>
+  <div style="border-left:3px solid #2b6cb0;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://www.nature.com/articles/s41467-023-44321-9" rel="external nofollow noopener" target="_blank">Boonman et al. (2024)</a> — 17,000+ tree species at risk from rapid global change. <em>Nature Communications</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://doi.org/10.1038/s41477-022-01130-0" rel="external nofollow noopener" target="_blank">Pillet et al. (2022)</a> — Elevated extinction risk of cacti under climate change. <em>Nature Plants</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.pnas.org/doi/abs/10.1073/pnas.2517585122" rel="external nofollow noopener" target="_blank">Moulatlet et al. (2025)</a> — Climatic niche breadth predicts plant range size globally. <em>PNAS</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/geb.13847" rel="external nofollow noopener" target="_blank">Serra-Diaz et al. (2024)</a> — occTest: systematic QA of species occurrence data. <em>Global Ecol. Biogeogr.</em></li>
+    </ul>
+  </div>
+</div>
 
-**Uncertainty and transferability:** We report assumptions, data coverage limits, and scenario sensitivity when projecting biodiversity responses across regions and time. All projections are contingent on emission and land-use scenarios; results are validated where possible using spatial cross-validation, temporal holdouts, and similarity surfaces (MESS) that flag where new-climate predictions exceed the range of conditions the model was trained on.
+Species and communities do not experience climate change only in the future — they are experiencing it now. Range edges are already contracting and shifting, functional compositions are already changing, and species in some regions are already encountering climates with no historical analogue in their evolutionary experience. Translating these ongoing changes into defensible projections requires integrating occurrence data, trait information, and climate forcing within models that are explicit about their assumptions and honest about the limits of their predictions.
 
-**Sampling bias:** BIEN occurrence records reflect the history of botanical collecting and citizen-science participation — roads, research stations, and well-surveyed regions are over-represented. We apply spatial thinning, bias layers, and target-group background sampling in SDM workflows to mitigate this.
+**What we have found.** Applying species distribution models to the global tree flora, [Boonman et al. (2024)](https://www.nature.com/articles/s41467-023-44321-9) (*Nature Communications*) estimated that more than 17,000 tree species — roughly 30% of all tree species globally — face elevated risk under business-as-usual emissions, with tropical and island taxa disproportionately affected. A companion analysis ([Boonman et al. 2025](https://www.pnas.org/doi/abs/10.1073/pnas.2420059122), *PNAS*) found that even under the most optimistic mitigation scenario, a substantial fraction of tree diversity will be exposed to macroclimatic conditions unprecedented in their evolutionary history — meaning extrapolation beyond calibration space is unavoidable regardless of emission pathway. Taxon-specific analyses sharpen the picture: [Pillet et al. (2022)](https://doi.org/10.1038/s41477-022-01130-0) (*Nature Plants*) showed that more than 60% of cactus species face elevated extinction risk, with arid-land endemics experiencing the sharpest projected range contractions. [Moulatlet et al. (2025)](https://www.pnas.org/doi/abs/10.1073/pnas.2517585122) (*PNAS*) connected climatic niche breadth to range size and ecological dominance across the global plant flora, establishing a mechanistic basis for why narrow-niche specialists are disproportionately vulnerable.
+
+**Uncertainty, transferability, and data quality.** All projections in this lab are conditional on the emission scenario assumed, the overlap between calibration and future climate space, and the quality of underlying occurrence data. We use similarity surfaces (MESS) to flag where projections extend beyond training-climate space; results in extrapolation zones are reported with explicit uncertainty ranges rather than treated as equivalent to interpolations. Occurrence data pass through `occTest` ([Serra-Diaz et al. 2024](https://onlinelibrary.wiley.com/doi/full/10.1111/geb.13847), *GEB*), a multi-test quality control pipeline that removes coordinate errors, duplicates, and records inconsistent with known ecological context. We apply spatial thinning, bias layers, and target-group background sampling to mitigate the spatial overrepresentation of well-surveyed regions endemic to herbarium and citizen-science datasets. Models are validated against temporal holdouts and independent regional data where available.
+
+**Forward look.** The next generation of biodiversity forecasting moves from correlative SDMs toward mechanistically constrained projection — integrating trait-based models that predict *which functional types* persist under novel climates with demographic models capturing lag effects and dispersal limitation. Current BIEN data synthesis ([Enquist et al. 2026](https://doi.org/10.1111/2041-210x.70274), *Methods Ecol. Evol.*) provides the occurrence and trait data platform for this integration across the Western Hemisphere.
+
+<div style="clear:both;"></div>
 
 ---
 
@@ -353,19 +440,48 @@ See [collaborators]({{ '/collaborators/' | relative_url }}) for examples.
 
 ### Long-Term Ecology {#long-term-ecology}
 
-Our long-term work integrates repeated forest censuses, elevational transects, and distributed plot networks to quantify demographic and compositional change through time and to improve ecological prediction.
+<div style="float:right;width:40%;max-width:340px;margin-left:1.5rem;margin-bottom:1rem;">
+  <figure style="margin:0 0 0.75rem;">
+    <a href="{{ '/assets/img/transplant/bektas2024-transplant-network-fig2.jpg' | relative_url }}" target="_blank" rel="noopener" title="Click to enlarge">
+      <img src="{{ '/assets/img/transplant/bektas2024-transplant-network-fig2.jpg' | relative_url }}" alt="TransPlant Network map showing 22 elevation gradient sites across 20 mountainous regions used to test community responses to experimental climate warming" style="width:100%;border-radius:4px;cursor:zoom-in;" loading="lazy">
+    </a>
+    <figcaption style="font-size:0.78rem;color:#555;margin-top:0.35rem;">The TransPlant Network — 22 elevation gradient sites across 20 mountain regions for coordinated whole-community transplant experiments. © Bektas et al. 2024, <em>Ecography</em>. <span style="font-style:italic;">Click to enlarge.</span></figcaption>
+  </figure>
+  <div style="border-left:3px solid #2b6cb0;padding-left:0.75rem;">
+    <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.4rem;">Key papers &amp; sites</div>
+    <ul style="font-size:0.8rem;margin:0;padding-left:1.1rem;line-height:1.45;">
+      <li style="margin-bottom:0.35rem;"><a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.07378" rel="external nofollow noopener" target="_blank">Bektas et al. (2024)</a> — TransPlant Network design and protocols. <em>Ecography</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/339468161" rel="external nofollow noopener" target="_blank">Swenson, Hulshof, Katabuchi &amp; Enquist (2020)</a> — 30-year functional diversity shifts in tropical dry forest. <em>Ecol. Monogr.</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="https://www.researchgate.net/publication/272494697" rel="external nofollow noopener" target="_blank">Sloat et al. (2015)</a> — Foresummer drought and alpine carbon uptake. <em>Ecosystems</em></li>
+      <li style="margin-bottom:0.35rem;"><a href="{{ '/field-sites/' | relative_url }}">Field Sites page →</a></li>
+    </ul>
+  </div>
+</div>
 
-See [field sites]({{ '/field-sites/' | relative_url }}) for site details.
+Ecological understanding limited to snapshot comparisons across space cannot reliably separate the signal of climate change from the noise of local history, soil variation, and community assembly. Long-term repeated measurements at fixed sites provide the temporal leverage needed to detect genuine change, test process-based predictions, and validate models built on space-for-time substitutions. The lab has invested in this infrastructure across three complementary systems: a tropical dry forest dynamics plot running since the 1970s, a temperate montane monitoring transect operating since 2003, and a whole-community climate change experiment embedded in a global transplant network.
 
-<figure class="field-photo" style="max-height:420px;">
-  <img src="{{ '/assets/img/wordpress/rmbl-transplant-img_4955.jpeg' | relative_url }}" alt="RMBL transplant project meadow block experiment in Washington Gulch, Colorado" loading="lazy" style="height:420px;object-fit:cover;object-position:center 42%;">
-  <figcaption>RMBL Transplant Project: whole-community meadow blocks moved along an elevational temperature gradient to experimentally simulate climate change. See the <a href="{{ '/field-sites/#rmbl-transplant-project' | relative_url }}">Field Sites project page</a> for design and methods.</figcaption>
-</figure>
+**San Emilio Forest Dynamics Plot (SEFDP).** The SEFDP in Santa Rosa National Park, Area de Conservación Guanacaste, Costa Rica, is among the oldest and largest tropical forest dynamics plots in the Western Hemisphere and a member of the [ForestGEO global network](https://forestgeo.si.edu/sites/san-emilio). First censused by Stevens and Hubbell in 1976 (~15 ha, ~50,000 stems, ~200 woody species), the plot has been fully resurveyed in 1995–96, 2006–07, and most recently 2019–2021, generating a nearly 50-year record through repeated El Niño droughts and disturbance cycles in a seasonally dry tropical system. Analysis of this record has revealed that community responses to drought and historical disturbance are strongly non-uniform across functional types: drought-tolerant and drought-sensitive assemblages diverge on different compositional trajectories, confounding predictions based on mean community shifts alone. [Swenson, Hulshof, Katabuchi, & Enquist (2020)](https://www.researchgate.net/publication/339468161) (*Ecol. Monogr.* 90:e01408) documented systematic shifts in functional composition and diversity across three decades, implicating long-term climate forcing on top of disturbance legacies — one of the most temporally resolved records of functional change in any tropical system.
 
-<figure class="field-photo" style="max-height:320px;">
-  <img src="{{ '/assets/img/wordpress/sparc_overview_map.jpg' | relative_url }}" alt="SPARC biodiversity planning map — protected area prioritization across the Americas" loading="lazy" style="height:320px;object-fit:contain;background:#f7f6f2;">
-  <figcaption>SPARC protected-area prioritization analysis — integrating BIEN occurrence and trait data to identify conservation priority regions across the Americas.</figcaption>
-</figure>
+**RMBL montane gradient.** Since 2003 the lab has monitored ecosystem carbon fluxes, species composition, and functional trait distributions across an elevational gradient at the [Rocky Mountain Biological Laboratory](https://www.rmbl.org/) in Gothic, Colorado. Work from this system revealed that the **foresummer drought** — the period of low soil moisture between snowmelt and summer monsoon rains — is a key driver of year-to-year variation in ecosystem carbon uptake, with community composition mediating sensitivity ([Sloat et al. 2015](https://www.researchgate.net/publication/272494697), *Ecosystems* 18:533).
+
+**RMBL Transplant Project and TransPlant Network.** Beginning in 2017, intact 0.5 m² meadow turf blocks — vegetation and soil together — were moved ±400 m along an elevational gradient in Washington Gulch, simulating rapid climate warming or cooling under field conditions. Because the community structure and soil biota move intact, confounding factors that plague observational gradient studies are minimized. The experiment is embedded within the [TransPlant Network](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.07378) ([Bektas et al. 2024](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.07378), *Ecography*) — 22 elevation gradients across 20 mountainous regions of the Northern Hemisphere — enabling cross-biome meta-analysis of how warming restructures plant functional diversity, productivity, and ecosystem carbon balance.
+
+<div class="photo-strip photo-strip--three">
+  <figure>
+    <img src="{{ '/assets/img/transplant/img_4955.jpeg' | relative_url }}" alt="RMBL mountain meadow transplant blocks in Washington Gulch, Colorado — whole-community turf blocks moved along an elevational gradient" loading="lazy">
+    <figcaption>Transplant blocks at RMBL — entire meadow communities moved upslope and downslope.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/field/sefdp_resurvey_team.jpeg' | relative_url }}" alt="Resurvey team measuring trees at the San Emilio Forest Dynamics Plot in Costa Rica" loading="lazy">
+    <figcaption>SEFDP resurvey team — a nearly 50-year demographic record in seasonal tropical dry forest.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/img/field/sefdp_lidar.jpg' | relative_url }}" alt="LiDAR canopy scan at the San Emilio ForestGEO plot — 3D structure mapped to connect stem-level censuses to canopy-scale biomass" loading="lazy">
+    <figcaption>LiDAR mapping at SEFDP — 3D canopy structure connecting stem censuses to forest biomass.</figcaption>
+  </figure>
+</div>
+
+<div style="clear:both;"></div>
 
 ---
 
