@@ -395,10 +395,16 @@ Open software integrating biodiversity layers with mobile APIs to deliver plant 
 
 ### OpenTraits Network
 
-We co-lead the [OpenTraits Network](https://opentraits.org/), which promotes open, standardized, and FAIR (Findable, Accessible, Interoperable, Reusable) trait data across all organisms.
+<img src="/assets/img/opentraits_logo.jpg" alt="OpenTraits Network logo" style="float:right;width:120px;margin:0 0 0.8rem 1.2rem;border-radius:6px;">
+
+The [Open Traits Network (OTN)](https://opentraits.org/) is a global, decentralized community of researchers and institutions working to standardize and integrate functional trait data across all organisms — from plants and animals to fungi and microbes. The Enquist Lab is a co-founding member and active contributor to OTN, and co-leads efforts to establish data-quality standards, FAIR data principles, and open workflows for trait synthesis across the Tree of Life.
+
+OTN operates as an open science community: methods, tools, and data are made publicly available to lower barriers to entry and accelerate cross-taxon synthesis. The network aggregates trait databases (including TRY, BIEN, and dozens of taxon-specific repositories), promotes shared data schemas, and develops infrastructure for reproducible trait-based research at global scales.
 
 - **Website:** [opentraits.org](https://opentraits.org/)
-- **Citation:** Gallagher, R. V., et al. (2020). Open Science principles for accelerating trait-based science across the Tree of Life. *Nature Ecology & Evolution*, *4*(3), 294–303. [https://doi.org/10.1038/s41559-020-1109-6](https://doi.org/10.1038/s41559-020-1109-6)
+- **GitHub:** [open-traits-network](https://github.com/open-traits-network)
+- **Key paper:** Gallagher, R. V., et al. (2020). Open Science principles for accelerating trait-based science across the Tree of Life. *Nature Ecology & Evolution*, *4*(3), 294–303. [https://doi.org/10.1038/s41559-020-1109-6](https://doi.org/10.1038/s41559-020-1109-6)
+- **Data standards:** Keller, A., et al. (2023). A standardized dataset of trait observations from citizen science and natural history collections. *Methods in Ecology and Evolution*, *14*(1), 76–87. [https://doi.org/10.1111/2041-210X.14033](https://doi.org/10.1111/2041-210X.14033)
 
 ---
 
