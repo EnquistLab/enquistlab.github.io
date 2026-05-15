@@ -317,3 +317,13 @@ Previously matched: 38 papers. Newly added: 4 papers. Total Tropical Ecology tab
 
 ## 2026-05-14 — Tropical Ecology tab matcher: liana pattern + deep audit
 Added `{ pattern: /\bliana[s]?\b/i, weight: 2 }` to the tropical-ecology topic tab in `_pages/publications.html`. This causes Ngute et al. (2024) "Global dominance of lianas over trees is driven by forest disturbance, climate and topography" (GCB 30.1: e17140) to appear in the Tropical Ecology tab. Both Ngute 2024 and Zuidema et al. (2022) "Tropical tree growth driven by dry-season climate variability" (Nat. Geoscience) were already present in the publications list; Zuidema 2022 already passed the tab threshold via /tropical/i. Deep audit tested 10 candidate new matchers (tropics, guanacaste, bolivia, costa rica, savanna, cerrado, mangrove, brazil, rainforest) — none added new papers beyond liana. Tab now covers 51 papers. Word boundaries on liana prevent false-positive match on "Arabidopsis thaliana".
+
+41. Date: 2026-05-15
+Prompt: @M please have ecology-user.agent.md, scandinavian-design.agent.md, and scholarly-rigor-reviewer.agent.md review https://enquistlab.github.io/research/ for broad accessibility/readability while retaining scholarly rigor and strong design; prefer less spacing between text lines; preserve graphics and box pullouts; provide redesign plan only if needed.
+Source session: VS Code Copilot Chat
+Outcome: Completed coordinated tri-agent review-only audit (no code edits). Cross-agent consensus: full redesign not needed; incremental refinements are sufficient. Recommended focus: tighten text line spacing and paragraph rhythm for long-form readability, keep and standardize graphics/box pullouts (consistent structure + interpretation cues), reduce jargon density via a two-layer writing pattern (plain-language lead + scholarly detail), strengthen accessibility semantics (descriptive links, robust labels, responsive table wrappers), and calibrate certainty language with explicit assumptions/uncertainty notes. Scholarly-rigor flagged practical link hardening needs (verify potentially broken DOI/link and prefer DOI/publisher links over ResearchGate-first linking).
+
+42. Date: 2026-05-15
+Prompt: Update research tab to say closed-loop and open-path chamber-based approaches; add co2fluxtent (https://github.com/PaulESantos/co2fluxtent) alongside fluxible in research.md flux tooling paragraph and as a new section in software.md.
+Source session: VS Code Copilot Chat
+Outcome: (1) research.md flux measurement sentence updated to cite both closed-loop and open-path approaches; (2) co2fluxtent described as a companion open-path package after the fluxible paragraph; (3) software.md new co2fluxtent section added below fluxible with GitHub link and install snippet.
