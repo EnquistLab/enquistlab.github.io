@@ -1362,6 +1362,33 @@ figure {
   margin-top: 0.25rem;
 }
 
+// CV — denser layout: tighter line-height, reduced inter-entry spacing, no auto-hyphenation
+.cv {
+  hyphens: none;
+  word-break: normal;
+
+  .card {
+    margin-top: 0.6rem !important;
+  }
+
+  .card-text,
+  .list-group-item,
+  .table td,
+  .table th {
+    line-height: 1.35;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+
+  .list-group-item {
+    padding: 0.3rem 0.75rem !important;
+  }
+
+  p {
+    margin-bottom: 0.3rem;
+  }
+}
+
 // CV references — prevent long URLs from overflowing the card
 .cv .list-group-item p {
   word-break: break-all;

@@ -7,8 +7,10 @@ dropdown: true
 children:
   - title: Research
     permalink: /research/
-  - title: Publications
+  - title: Publications & CV
     permalink: /publications/
+  - title: CV
+    permalink: /cv/
   - title: divider
   - title: Conservation Impacts
     permalink: /conservation-impacts/

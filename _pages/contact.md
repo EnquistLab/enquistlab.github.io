@@ -3,7 +3,7 @@ layout: page
 title: contact
 permalink: /contact/
 description: Contact information for the Enquist Lab
-nav: false
+nav: true
 nav_order: 8
 ---
 
