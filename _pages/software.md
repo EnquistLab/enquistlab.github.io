@@ -344,6 +344,8 @@ library(co2fluxtent)
 
 ### traitstrap
 
+<img src="/assets/img/traitstrap_hex.png" alt="traitstrap hex sticker" style="float:right; margin:0 0 12px 20px; width:120px;">
+
 Bootstraps trait distributions to propagate uncertainty from individual-level measurements to community-weighted means and higher-order community trait statistics. Addresses a key challenge in trait-based ecology: raw community-weighted mean (CWM) calculations ignore intraspecific trait variation and sampling uncertainty. `traitstrap` implements parametric bootstrapping that draws from species-level trait distributions, weighted by abundance, producing CWMs with full uncertainty quantification suitable for downstream modeling.
 
 Works directly with trait data from BIEN, TRY, and comparable databases, and is designed to integrate with the lab's [Trait Driver Theory](https://www.nature.com/articles/s41477-019-0506-6) framework ([Enquist et al. 2015](https://www.sciencedirect.com/science/chapter/bookseries/pii/S0065250415000070); [Šímová & Enquist 2017](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12645)).
