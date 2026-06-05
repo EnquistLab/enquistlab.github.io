@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-23'
+  last_updated: '2026-06-05'
 papers:
   mAbA6EoAAAAJ:-GalPxRzH2oC:
     citations: 5
     title: Quaternary climate change explains global patterns of tree beta-diversity
     year: '2020'
   mAbA6EoAAAAJ:-LBJnDjEUMIC:
-    citations: 838
+    citations: 845
     title: The emergence and promise of functional biogeography
     year: '2014'
   mAbA6EoAAAAJ:-QO_JlXAMEAC:
@@ -26,7 +26,7 @@ papers:
     title: Scaling up plant biodiversity using imaging spectroscopy to improve predictions of terrestrial ecosystem fluxes.
     year: '2024'
   mAbA6EoAAAAJ:-f6ydRqryjwC:
-    citations: 637
+    citations: 638
     title: Phylogenetic and growth form variation in the scaling of nitrogen and phosphorus in the seed plants
     year: '2006'
   mAbA6EoAAAAJ:-gKCQx66J1MC:
@@ -50,11 +50,11 @@ papers:
     title: 'From a crisis to an opportunity: Eight insights for doing science in the Covid-19 era and beyond'
     year: '2020'
   mAbA6EoAAAAJ:041faMmbr2QC:
-    citations: 62
+    citations: 63
     title: Covariance of sun and shade leaf traits along a tropical forest elevation gradient
     year: '2020'
   mAbA6EoAAAAJ:0EnyYjriUFMC:
-    citations: 6406
+    citations: 6437
     title: A general model for the origin of allometric scaling laws in biology
     year: '1997'
   mAbA6EoAAAAJ:0J7bdoE8TH0C:
@@ -62,7 +62,7 @@ papers:
     title: 'Dominance and rarity in tree communities across the globe: Patterns, predictors and threats'
     year: '2024'
   mAbA6EoAAAAJ:0KyAp5RtaNEC:
-    citations: 154
+    citations: 155
     title: An empirical assessment of tree branching networks and implications for plant allometric scaling models
     year: '2013'
   mAbA6EoAAAAJ:0XvJNYv_SW4C:
@@ -78,7 +78,7 @@ papers:
     title: Assessing Plant-Water Relations in the Face of Climate Change in the Rocky Mountains Using a Turf Transplant Experiment
     year: '2022'
   mAbA6EoAAAAJ:0ju6dEALV5wC:
-    citations: 96
+    citations: 99
     title: "Ecological traits influence the phylogenetic structure of bird species co\u2010occurrences worldwide"
     year: '2014'
   mAbA6EoAAAAJ:18U4RWrXZp4C:
@@ -90,7 +90,7 @@ papers:
     title: 'General laws of biodiversity: Climatic niches predict plant range size and ecological dominance globally'
     year: '2025'
   mAbA6EoAAAAJ:1DepXQxl6QcC:
-    citations: 164
+    citations: 165
     title: The number of tree species on Earth
     year: '2022'
   mAbA6EoAAAAJ:1DhOeZtQFr0C:
@@ -98,11 +98,11 @@ papers:
     title: Energetic origins of the Anthropocene
     year: Unknown Year
   mAbA6EoAAAAJ:1EM7I_rJWO4C:
-    citations: 29
+    citations: 30
     title: "Next\u2010generation field courses: Integrating Open Science and online learning"
     year: '2021'
   mAbA6EoAAAAJ:1GbOEZ86UTAC:
-    citations: 244
+    citations: 247
     title: 'When tree rings go global: Challenges and opportunities for retro-and prospective insight'
     year: '2018'
   mAbA6EoAAAAJ:1KmG-tKEbvYC:
@@ -118,7 +118,7 @@ papers:
     title: 'Collaborative Research: Developing integrated trait-based scaling theory to predict community change and forest function in light of global change'
     year: '2015'
   mAbA6EoAAAAJ:1sJd4Hv_s6UC:
-    citations: 565
+    citations: 566
     title: 'The iPlant collaborative: cyberinfrastructure for plant biology'
     year: '2011'
   mAbA6EoAAAAJ:1tcbc20uhugC:
@@ -142,7 +142,7 @@ papers:
     title: Challenges and opportunities in detecting leaf water and carotenoid content across biomes from satellite multispectral indices
     year: '2025'
   mAbA6EoAAAAJ:2K5qSjdd3awC:
-    citations: 2
+    citations: 3
     title: 'Ecoimaging: advanced sensing to investigate plant and abiotic hierarchical spatial patterns in mountainous watersheds'
     year: '2024'
   mAbA6EoAAAAJ:2Km5FFimHwEC:
@@ -158,7 +158,7 @@ papers:
     title: Comment on" The illusion of invariant quantities in life histories"
     year: '2006'
   mAbA6EoAAAAJ:2hszv8GT5-sC:
-    citations: 243
+    citations: 246
     title: 'Plant thermoregulation: Energetics, trait-environment interactions, and carbon economics'
     year: '2015'
   mAbA6EoAAAAJ:2hxEYnSErgUC:
@@ -170,11 +170,11 @@ papers:
     title: Quantifying productivity at landscape scale using remotely-sensed foliar traits and canopy structure
     year: '2020'
   mAbA6EoAAAAJ:2oMuTuaXnloC:
-    citations: 147
+    citations: 148
     title: "Limited sampling hampers \u201Cbig data\u201D estimation of species richness in a tropical biodiversity hotspot"
     year: '2015'
   mAbA6EoAAAAJ:2vOInSJYjVwC:
-    citations: 201
+    citations: 203
     title: 30% land conservation and climate action reduces tropical extinction risk by more than 50%
     year: '2020'
   mAbA6EoAAAAJ:35N4QoGY0k4C:
@@ -182,15 +182,15 @@ papers:
     title: 'Metabolic scaling and the evolutionary dynamics of plant size, form, and diversity: toward a synthesis of ecology, evolution, and paleontology'
     year: '2007'
   mAbA6EoAAAAJ:3DOefFFSZ7MC:
-    citations: 6
+    citations: 7
     title: "Adding value to a field\u2010based course with a science communication module on local perceptions of climate change"
     year: '2020'
   mAbA6EoAAAAJ:3eH_u9Md8IkC:
-    citations: 82
+    citations: 84
     title: Draining the pool? Carbon storage and fluxes in three alpine plant communities
     year: '2018'
   mAbA6EoAAAAJ:3fE2CSJIrl8C:
-    citations: 1157
+    citations: 1164
     title: Allometric scaling of plant energetics and population density
     year: '1998'
   mAbA6EoAAAAJ:3iihI2QN6DgC:
@@ -206,19 +206,19 @@ papers:
     title: Global beta-diversity of angiosperm trees is shaped by Quaternary climate change
     year: '2023'
   mAbA6EoAAAAJ:47CO7rCGma4C:
-    citations: 340
+    citations: 344
     title: Biodiversity and climate determine the functioning of Neotropical forests
     year: '2017'
   mAbA6EoAAAAJ:4A5zTCHmOcMC:
-    citations: 93
+    citations: 95
     title: Pantropical modelling of canopy functional traits using Sentinel-2 remote sensing data
     year: '2021'
   mAbA6EoAAAAJ:4DMP91E08xMC:
-    citations: 307
+    citations: 309
     title: On the vegetative biomass partitioning of seed plant leaves, stems, and roots
     year: '2002'
   mAbA6EoAAAAJ:4DUywrCQPfoC:
-    citations: 304
+    citations: 307
     title: 'Trait variation and integration across scales: is the leaf economic spectrum present at local scales?'
     year: '2017'
   mAbA6EoAAAAJ:4JMBOYKVnBMC:
@@ -230,11 +230,11 @@ papers:
     title: Plant energetics and population density
     year: '1999'
   mAbA6EoAAAAJ:4TOpqqG69KYC:
-    citations: 1816
+    citations: 1824
     title: 'Species abundance distributions: moving beyond single prediction theories to integration within an ecological framework'
     year: '2007'
   mAbA6EoAAAAJ:4sHRCyKql0sC:
-    citations: 46
+    citations: 47
     title: The plant diversity sampling design for the national ecological observatory network
     year: '2019'
   mAbA6EoAAAAJ:5-tCjTwfAdEC:
@@ -258,11 +258,11 @@ papers:
     title: Asymmetric Corrections to the West, Brown, and Enquist Model of Biological Resource Distribution Networks
     year: '2015'
   mAbA6EoAAAAJ:5WkdyjDMKEYC:
-    citations: 68
+    citations: 70
     title: "Consistent trait\u2013environment relationships within and across tundra plant communities"
     year: '2021'
   mAbA6EoAAAAJ:5nxA0vEk-isC:
-    citations: 2097
+    citations: 2098
     title: 'The fourth dimension of life: fractal geometry and allometric scaling of organisms'
     year: '1999'
   mAbA6EoAAAAJ:66OACaKPDuEC:
@@ -274,15 +274,15 @@ papers:
     title: Leaf age effects on the spectral predictability of leaf traits in Amazonian canopy trees
     year: '2019'
   mAbA6EoAAAAJ:6QQEcPiluMcC:
-    citations: 452
+    citations: 454
     title: 'The commonness of rarity: Global and future distribution of rarity across land plants'
     year: '2019'
   mAbA6EoAAAAJ:6b9k5MOVaqUC:
-    citations: 94
+    citations: 95
     title: Assessing trait-based scaling theory in tropical forests spanning a broad temperature gradient
     year: '2017'
   mAbA6EoAAAAJ:70eg2SAEIzsC:
-    citations: 105
+    citations: 106
     title: Advancing the metabolic theory of biodiversity
     year: '2009'
   mAbA6EoAAAAJ:7DJsn6tmoAwC:
@@ -290,7 +290,7 @@ papers:
     title: Doubling demands in programming skills call for the education of ecoinformatics
     year: Unknown Year
   mAbA6EoAAAAJ:7GbmjkRdlf4C:
-    citations: 769
+    citations: 781
     title: Temperature mediates continental-scale diversity of microbes in forest soils
     year: '2016'
   mAbA6EoAAAAJ:7LH0YzRCML8C:
@@ -298,7 +298,7 @@ papers:
     title: An allometry perspective on crops
     year: '2024'
   mAbA6EoAAAAJ:7MdmnBSEV98C:
-    citations: 135
+    citations: 136
     title: Does environmental heterogeneity drive functional trait variation? A test in montane and alpine meadows
     year: '2017'
   mAbA6EoAAAAJ:7PzlFSSx8tAC:
@@ -310,11 +310,11 @@ papers:
     title: "The leaf\u2010area shrinkage effect can bias paleoclimate and ecology research"
     year: '2012'
   mAbA6EoAAAAJ:7hTFQKV_Y-MC:
-    citations: 80
+    citations: 81
     title: A test of species distribution model transferability across environmental and geographic space for 108 western North American tree species
     year: '2021'
   mAbA6EoAAAAJ:7iKzEIWBYlQC:
-    citations: 103
+    citations: 102
     title: Linking canopy leaf area and light environments with tree size distributions to explain Amazon forest demography.
     year: '2015'
   mAbA6EoAAAAJ:83hVMSBzrWwC:
@@ -326,11 +326,11 @@ papers:
     title: 'APPENDIX D. Effects of climate change on community phylogenetic and functional structure: comparing gradient and transplant approaches.'
     year: '2020'
   mAbA6EoAAAAJ:8Rip7PbZ7AYC:
-    citations: 320
+    citations: 322
     title: "sPlot\u2013A new tool for global vegetation analyses"
     year: '2019'
   mAbA6EoAAAAJ:8ThBWkzwpf8C:
-    citations: 236
+    citations: 239
     title: The megabiota are disproportionately important for biosphere functioning
     year: '2020'
   mAbA6EoAAAAJ:8k3R5ScbChQC:
@@ -338,7 +338,7 @@ papers:
     title: 'Scaling in Biology: Patterns and Processes, Causes and Consequences'
     year: '2000'
   mAbA6EoAAAAJ:8k81kl-MbHgC:
-    citations: 1880
+    citations: 1884
     title: A general model for the structure and allometry of plant vascular systems
     year: '1999'
   mAbA6EoAAAAJ:9Nmd_mFXekcC:
@@ -346,11 +346,11 @@ papers:
     title: Global allocation rules for patterns of biomass partitioning-Response
     year: '2002'
   mAbA6EoAAAAJ:9ZlFYXVOiuMC:
-    citations: 416
+    citations: 417
     title: "Plant allometry, stoichiometry and the temperature\u2010dependence of primary productivity"
     year: '2005'
   mAbA6EoAAAAJ:9bzyojSiTPoC:
-    citations: 450
+    citations: 454
     title: Areas of global importance for conserving terrestrial biodiversity, carbon and water
     year: '2021'
   mAbA6EoAAAAJ:9djSGow2EaoC:
@@ -366,7 +366,7 @@ papers:
     title: How does climate and topography shape plant beta diversity across the Americas? A big data perspective
     year: '2018'
   mAbA6EoAAAAJ:9ozBiMEOI0QC:
-    citations: 46
+    citations: 47
     title: Climate change and land use threaten global hotspots of phylogenetic endemism for trees
     year: '2023'
   mAbA6EoAAAAJ:9tJtKg94vZsC:
@@ -410,7 +410,7 @@ papers:
     title: "SALVIAS\u2013the SALVIAS vegetation inventory database"
     year: '2012'
   mAbA6EoAAAAJ:B-V0BYNYc0AC:
-    citations: 486
+    citations: 489
     title: 'Scaling from traits to ecosystems: Developing a general Trait Driver Theory via integrating trait-based and metabolic scaling theories.'
     year: '2015'
   mAbA6EoAAAAJ:BBcCmHsDWsAC:
@@ -418,7 +418,7 @@ papers:
     title: Corrigendum for Blonder et al.(2017)
     year: '2017'
   mAbA6EoAAAAJ:BEz2JxMiyrUC:
-    citations: 50
+    citations: 54
     title: Tropical forests in the Americas are changing too slowly to track climate change
     year: '2025'
   mAbA6EoAAAAJ:BJrLMYCRBhgC:
@@ -446,11 +446,11 @@ papers:
     title: Areas of global importance for conserving terrestrial biodiversity, carbon, and water
     year: '2021'
   mAbA6EoAAAAJ:ByB5RH_0zRoC:
-    citations: 739
+    citations: 747
     title: Climatic controls of decomposition drive the global biogeography of forest-tree symbioses
     year: '2019'
   mAbA6EoAAAAJ:C14xlUzwkXEC:
-    citations: 147
+    citations: 148
     title: Tropical tree growth driven by dry-season climate variability
     year: '2022'
   mAbA6EoAAAAJ:CJJaNdYp-j8C:
@@ -462,11 +462,11 @@ papers:
     title: Reconciling Evapotranspiration Cross Method Synthesis and Uncertainty Quantification at the East River Watershed
     year: '2021'
   mAbA6EoAAAAJ:CQrscp367IIC:
-    citations: 858
+    citations: 862
     title: "The n\u2010dimensional hypervolume."
     year: '2014'
   mAbA6EoAAAAJ:ChsjQIg5EFEC:
-    citations: 204
+    citations: 205
     title: Evidence for mesothermy in dinosaurs
     year: '2014'
   mAbA6EoAAAAJ:Cn5sofW4b3YC:
@@ -494,7 +494,7 @@ papers:
     title: "Revisiting Darwin's hypothesis: does greater intraspecific variability increase species\u2019 ecological breadth?"
     year: '2014'
   mAbA6EoAAAAJ:Dyy3vkn44wwC:
-    citations: 545
+    citations: 549
     title: Temperature response of soil respiration largely unaltered with experimental warming
     year: '2016'
   mAbA6EoAAAAJ:E6txfPUJewUC:
@@ -542,7 +542,7 @@ papers:
     title: Ecological synthesis and its role in advancing knowledge
     year: '2020'
   mAbA6EoAAAAJ:FGCrkofroJsC:
-    citations: 241
+    citations: 243
     title: 'Interspecific integration of trait dimensions at local scales: the plant phenotype as an integrated network'
     year: '2017'
   mAbA6EoAAAAJ:FI5ykjsP95gC:
@@ -566,7 +566,7 @@ papers:
     title: Spatial and Temporal Functional Variation in the North of the Colombian Andean Forest
     year: '2021'
   mAbA6EoAAAAJ:G9rRreC9Hv4C:
-    citations: 21
+    citations: 22
     title: "Using n\u2010dimensional hypervolumes for species distribution modelling: A response to Qiao et al. ()"
     year: '2017'
   mAbA6EoAAAAJ:G9wvEplfBxAC:
@@ -578,7 +578,7 @@ papers:
     title: On estimating the shape and dynamics of phenotypic distributions in ecology and evolution
     year: '2021'
   mAbA6EoAAAAJ:GOtIa6ILFcwC:
-    citations: 117
+    citations: 118
     title: Informing trait-based ecology by assessing remotely sensed functional diversity across a broad tropical temperature gradient
     year: '2019'
   mAbA6EoAAAAJ:GU5qFXB69o4C:
@@ -602,11 +602,11 @@ papers:
     title: Phylogenetic diversity and species diversity are decoupled under experimental warming and cooling in Rocky Mountain plant communities
     year: '2025'
   mAbA6EoAAAAJ:Ggqy4mf-avwC:
-    citations: 6
+    citations: 7
     title: 'From organism traits to ecosystem processes: why size is so important'
     year: '2025'
   mAbA6EoAAAAJ:GnPB-g6toBAC:
-    citations: 1186
+    citations: 1192
     title: 'Biological stoichiometry of plant production: metabolism, scaling and ecological response to global change'
     year: '2010'
   mAbA6EoAAAAJ:Grx829lh2T4C:
@@ -618,7 +618,7 @@ papers:
     title: Spatial planning for global biodiversity in response to climate change
     year: Unknown Year
   mAbA6EoAAAAJ:GufwhD5tNfUC:
-    citations: 125
+    citations: 127
     title: "Re\u2010growing a tropical dry forest: functional plant trait composition and community assembly during succession"
     year: '2016'
   mAbA6EoAAAAJ:H1FpnsQ9v50C:
@@ -634,7 +634,7 @@ papers:
     title: The influence of spatial and size scale on phylogenetic relatedness in tropical forest communities
     year: '2007'
   mAbA6EoAAAAJ:HIhYGD-CTiAC:
-    citations: 271
+    citations: 273
     title: Intraspecific trait variation and phenotypic plasticity mediate alpine plant species response to climate change
     year: '2018'
   mAbA6EoAAAAJ:H_6PQ7K5Sg8C:
@@ -670,11 +670,11 @@ papers:
     title: Rapid assimilation and analysis of a suit of remote sensing data for predicting extreme events and their impact on ecological-human systems
     year: '2021'
   mAbA6EoAAAAJ:Ip0yah2EK7AC:
-    citations: 78
+    citations: 79
     title: The global distribution and drivers of wood density and their impact on forest carbon stocks
     year: '2024'
   mAbA6EoAAAAJ:IrEqUqzjSZIC:
-    citations: 56
+    citations: 57
     title: "Ten (mostly) simple rules to future\u2010proof trait data in ecological and evolutionary sciences"
     year: '2023'
   mAbA6EoAAAAJ:IrOsW1AMYYMC:
@@ -686,7 +686,7 @@ papers:
     title: Doubling demands in programming skills call for ecoinformatics education
     year: '2020'
   mAbA6EoAAAAJ:J-pR_7NvFogC:
-    citations: 2094
+    citations: 2102
     title: 'The return of the variance: intraspecific variability in community ecology'
     year: '2012'
   mAbA6EoAAAAJ:JV2RwH3_ST0C:
@@ -702,7 +702,7 @@ papers:
     title: 'Scaling of mass and morphology in plants with minimal branching: an extension of the WBE model'
     year: '2006'
   mAbA6EoAAAAJ:JvBfTq7nMrEC:
-    citations: 51
+    citations: 52
     title: The influence of ecosystem and phylogeny on tropical tree crown size and shape
     year: '2020'
   mAbA6EoAAAAJ:K0avj1FDtHUC:
@@ -710,7 +710,7 @@ papers:
     title: 'Global city densities: Re-examining urban scaling theory'
     year: '2022'
   mAbA6EoAAAAJ:K0fIQ6b0NmsC:
-    citations: 113
+    citations: 114
     title: 'Shifts in trait means and variances in North American tree assemblages: species richness patterns are loosely related to the functional space'
     year: '2015'
   mAbA6EoAAAAJ:K1TAGxA9IWwC:
@@ -730,7 +730,7 @@ papers:
     title: Novel spatial analysis methods reveal scale-dependent spread and infer limiting factors of invasion by Sahara mustard
     year: '2015'
   mAbA6EoAAAAJ:KlAtU1dfN6UC:
-    citations: 788
+    citations: 791
     title: Invariant scaling relations across tree-dominated communities
     year: '2001'
   mAbA6EoAAAAJ:KxtntwgDAa4C:
@@ -738,7 +738,7 @@ papers:
     title: 'Correction: Allometric scaling of production and life-history variation in vascular plants'
     year: '2000'
   mAbA6EoAAAAJ:L1d--jQnBlAC:
-    citations: 162
+    citations: 163
     title: "A network approach for inferring species associations from co\u2010occurrence data"
     year: '2016'
   mAbA6EoAAAAJ:L2DjCdFNi3gC:
@@ -750,7 +750,7 @@ papers:
     title: Why do leaf venation networks have loops? Testing hypotheses with an Andes-Amazon elevation gradient
     year: '2017'
   mAbA6EoAAAAJ:L8Ckcad2t8MC:
-    citations: 707
+    citations: 710
     title: "Ecological and evolutionary determinants of a key plant functional trait: wood density and its community\u2010wide variation across latitude and elevation"
     year: '2007'
   mAbA6EoAAAAJ:L9GP20v134kC:
@@ -766,7 +766,7 @@ papers:
     title: Rare species do not disproportionately contribute to phylogenetic diversity in a subalpine plant community
     year: '2025'
   mAbA6EoAAAAJ:L_YvGb4hwdAC:
-    citations: 96
+    citations: 99
     title: Global gradients in intraspecific variation in vegetative and floral traits are partially associated with climate and species richness
     year: '2020'
   mAbA6EoAAAAJ:LkGwnXOMwfcC:
@@ -774,7 +774,7 @@ papers:
     title: TECHNICAL COMMENTS-Allometric Scaling in Biology
     year: '1998'
   mAbA6EoAAAAJ:LkrQC8aPkXYC:
-    citations: 36
+    citations: 37
     title: 'Effects of added water on photosynthesis of Bistorta vivipara: The Importance of water relations and leaf nitrogen in two alpine communities, Pikes Peak, Colorado, U.S.A.'
     year: '1994'
   mAbA6EoAAAAJ:M05iB0D1s5AC:
@@ -782,23 +782,19 @@ papers:
     title: "Improved abundance prediction from presence\u2013absence data"
     year: '2009'
   mAbA6EoAAAAJ:M3NEmzRMIkIC:
-    citations: 397
+    citations: 401
     title: A general quantitative theory of forest structure and dynamics
     year: '2009'
   mAbA6EoAAAAJ:M3ejUd6NZC8C:
-    citations: 523
+    citations: 524
     title: Scaling metabolism from organisms to ecosystems
     year: '2003'
   mAbA6EoAAAAJ:M9BB6krhjY8C:
-    citations: 98
+    citations: 99
     title: Linking environmental filtering and disequilibrium to biogeography with a community climate framework
     year: '2015'
-  mAbA6EoAAAAJ:MB4u-SWKN0MC:
-    citations: 0
-    title: PFTC6-PFTCourses plant functional traits, carbon fluxes, temperatures, and spectral data from climate and global change experiments along climate gradients in Western Norway
-    year: '2025'
   mAbA6EoAAAAJ:MBnQv3n-1h8C:
-    citations: 7
+    citations: 8
     title: Plant traits and associated data from a warming experiment, a seabird colony, and along elevation in Svalbard
     year: '2023'
   mAbA6EoAAAAJ:MGzV0Qdvj_oC:
@@ -814,7 +810,7 @@ papers:
     title: Global future drought layers based on downscaled CMIP6 models and multiple socioeconomic pathways
     year: '2025'
   mAbA6EoAAAAJ:MXK_kJrjxJIC:
-    citations: 5836
+    citations: 5866
     title: Rebuilding community ecology from functional traits
     year: '2006'
   mAbA6EoAAAAJ:Mr27SXpvooAC:
@@ -858,15 +854,15 @@ papers:
     title: 'Allometry and phylogeny of within-diaspore biomass allocation: A global analysis'
     year: '2025'
   mAbA6EoAAAAJ:ODN9lDrI8hIC:
-    citations: 16
+    citations: 17
     title: "From a crisis to an opportunity: Eight insights for doing science in the COVID\u201019 era and beyond"
     year: '2021'
   mAbA6EoAAAAJ:OGpmogZ47U0C:
-    citations: 53
+    citations: 54
     title: Intraspecific trait variability is a key feature underlying high Arctic plant community resistance to climate warming
     year: '2023'
   mAbA6EoAAAAJ:OJBCU0UFcNkC:
-    citations: 456
+    citations: 461
     title: Functional trait space and the latitudinal diversity gradient
     year: '2014'
   mAbA6EoAAAAJ:OPs5gEIPXMUC:
@@ -882,11 +878,11 @@ papers:
     title: Thermal disruption of soil bacterial assemblages decreases diversity and assemblage similarity
     year: '2019'
   mAbA6EoAAAAJ:P5F9QuxV20EC:
-    citations: 327
+    citations: 328
     title: "Variation in above\u2010ground forest biomass across broad climatic gradients"
     year: '2011'
   mAbA6EoAAAAJ:PDAgwb0ELvkC:
-    citations: 47
+    citations: 48
     title: The influence of taxonomy and environment on leaf trait variation along tropical abiotic gradients
     year: '2020'
   mAbA6EoAAAAJ:PLWDSxI5WzYC:
@@ -914,15 +910,15 @@ papers:
     title: Combining theories for plant architecture, allometry, and traits to develop the next generation of scaling theory
     year: '2007'
   mAbA6EoAAAAJ:QIV2ME_5wuYC:
-    citations: 161
+    citations: 162
     title: 'Allometric scaling of maximum population density: a common rule for marine phytoplankton and terrestrial plants'
     year: '2002'
   mAbA6EoAAAAJ:QWeA35B1DCcC:
-    citations: 10
+    citations: 12
     title: "Effect of climate on traits of dominant and rare tree species in the world\u2019s forests"
     year: '2025'
   mAbA6EoAAAAJ:QobCCQ6YufAC:
-    citations: 157
+    citations: 160
     title: "Drier tropical forests are susceptible to functional changes in response to a long\u2010term drought"
     year: '2019'
   mAbA6EoAAAAJ:QvnCfHfiBIkC:
@@ -946,7 +942,7 @@ papers:
     title: Macroecological limits to the abundance and distribution of Pinus
     year: '1998'
   mAbA6EoAAAAJ:RHpTSmoSYBkC:
-    citations: 211
+    citations: 212
     title: A general model for allometric covariation in botanical form and function
     year: '2007'
   mAbA6EoAAAAJ:RYcK_YlVTxYC:
@@ -954,7 +950,7 @@ papers:
     title: The implications of scaling approaches for understanding resilience and reorganization in ecosystems
     year: '2007'
   mAbA6EoAAAAJ:S9V7H-Nz35UC:
-    citations: 57
+    citations: 59
     title: 'Plant community impact on productivity: Trait diversity or key (stone) species effects?'
     year: '2022'
   mAbA6EoAAAAJ:SKbDCQBpHTkC:
@@ -994,7 +990,7 @@ papers:
     title: APPENDIX A. Testing alternative phylogenetic models of establishment success in introduced species
     year: '2020'
   mAbA6EoAAAAJ:TFP_iSt0sucC:
-    citations: 659
+    citations: 660
     title: Consistency between an allometric approach and optimal partitioning theory in global patterns of plant biomass allocation
     year: '2007'
   mAbA6EoAAAAJ:TQgYirikUcIC:
@@ -1010,7 +1006,7 @@ papers:
     title: Trait-based community assembly along a secondary succession in a tropical dry forest
     year: Unknown Year
   mAbA6EoAAAAJ:TaF7eNGHiZkC:
-    citations: 37
+    citations: 39
     title: "Bootstrapping outperforms community\u2010weighted approaches for estimating the shapes of phenotypic distributions"
     year: '2023'
   mAbA6EoAAAAJ:TciIZjdTqZoC:
@@ -1034,7 +1030,7 @@ papers:
     title: Branching principles of animal and plant networks identified by combining extensive data, machine learning and modelling
     year: '2021'
   mAbA6EoAAAAJ:ULOm3_A8WrAC:
-    citations: 860
+    citations: 862
     title: "The predominance of quarter\u2010power scaling in biology"
     year: '2004'
   mAbA6EoAAAAJ:UX7E2m6xpKUC:
@@ -1050,7 +1046,7 @@ papers:
     title: Leaf size of woody dicots predicts ecosystem primary productivity
     year: '2020'
   mAbA6EoAAAAJ:UrmhOAI2Q4QC:
-    citations: 1
+    citations: 2
     title: Plant traits and associated ecological data from Afromontane grasslands of Maloti-Drakensberg, South Africa
     year: '2025'
   mAbA6EoAAAAJ:UsE54j44yzgC:
@@ -1058,11 +1054,11 @@ papers:
     title: Less favourable climates constrain demographic strategies in plants
     year: Unknown Year
   mAbA6EoAAAAJ:UxriW0iASnsC:
-    citations: 92
+    citations: 91
     title: "Global species\u2013energy relationship in forest plots: role of abundance, temperature and species climatic tolerances"
     year: '2011'
   mAbA6EoAAAAJ:V1pH50uuazEC:
-    citations: 332
+    citations: 333
     title: On the Importance of First Principles in Ecological Theory Development
     year: '2015'
   mAbA6EoAAAAJ:V3AGJWp-ZtQC:
@@ -1078,7 +1074,7 @@ papers:
     title: "A species\u2010level model for metabolic scaling of trees II. Testing in a ring\u2010and diffuse\u2010porous species"
     year: '2012'
   mAbA6EoAAAAJ:VTFyEh86FacC:
-    citations: 123
+    citations: 124
     title: Rebuilding community ecology from functional traits
     year: '2006'
   mAbA6EoAAAAJ:VXkaQG_c9EQC:
@@ -1094,7 +1090,7 @@ papers:
     title: Supplementary Information 1 On the importance of the megabiota to the functioning of the biosphere
     year: Unknown Year
   mAbA6EoAAAAJ:W5xh706n7nkC:
-    citations: 667
+    citations: 672
     title: 'The taxonomic name resolution service: an online tool for automated standardization of plant names'
     year: '2013'
   mAbA6EoAAAAJ:W7OEmFMy1HYC:
@@ -1102,11 +1098,11 @@ papers:
     title: On the origins and consequences of allometric scaling
     year: '1998'
   mAbA6EoAAAAJ:WA5NYHcadZ8C:
-    citations: 154
+    citations: 155
     title: Why does metabolic rate scale with body size?
     year: '2003'
   mAbA6EoAAAAJ:WVyJMqqT78IC:
-    citations: 26
+    citations: 28
     title: The importance of tropical tree-ring chronologies for global change research
     year: '2025'
   mAbA6EoAAAAJ:WbZ3vnF86hwC:
@@ -1142,15 +1138,15 @@ papers:
     title: "Half of the world\u2019s tree biodiversity is unprotected and is increasingly threatened by human activities"
     year: '2020'
   mAbA6EoAAAAJ:XVBKMArtY_gC:
-    citations: 34
+    citations: 35
     title: "Canopy functional trait variation across Earth\u2019s tropical forests"
     year: '2025'
   mAbA6EoAAAAJ:XdwVV_xN3QMC:
-    citations: 30
+    citations: 29
     title: The adaptive challenge of extreme conditions shapes evolutionary diversity of plant assemblages at continental scales
     year: '2021'
   mAbA6EoAAAAJ:XptqmJ6C52sC:
-    citations: 59
+    citations: 61
     title: Global shortfalls in threat assessments for endemic flora by country
     year: '2023'
   mAbA6EoAAAAJ:Y-CEfswgrBAC:
@@ -1158,7 +1154,7 @@ papers:
     title: 'Article title: Isoprene emission structures tropical tree biogeography and community assembly responses to climate'
     year: Unknown Year
   mAbA6EoAAAAJ:Y0pCki6q_DkC:
-    citations: 39
+    citations: 40
     title: 'Interannual variability of growth and reproduction in Bursera simaruba: the role of allometry and resource variability'
     year: '2012'
   mAbA6EoAAAAJ:YFjsv_pBGBYC:
@@ -1170,7 +1166,7 @@ papers:
     title: Better incentives are needed to reward academic software development
     year: '2023'
   mAbA6EoAAAAJ:YOwf2qJgpHMC:
-    citations: 1065
+    citations: 1068
     title: Global allocation rules for patterns of biomass partitioning in seed plants
     year: '2002'
   mAbA6EoAAAAJ:YV61qt6iSr0C:
@@ -1182,7 +1178,7 @@ papers:
     title: Source range phylogenetic community structure can predict the outcome of avian introductions
     year: '2021'
   mAbA6EoAAAAJ:YynyIpEqGK0C:
-    citations: 11
+    citations: 12
     title: Life history scaling in a tropical forest
     year: '2024'
   mAbA6EoAAAAJ:ZDu_srLEjN8C:
@@ -1214,7 +1210,7 @@ papers:
     title: General patterns of taxonomic and biomass partitioning in extant and fossil plant communities
     year: '2002'
   mAbA6EoAAAAJ:ZfRJV9d4-WMC:
-    citations: 268
+    citations: 269
     title: "Intra\u2010specific and inter\u2010specific variation in specific leaf area reveal the importance of abiotic and biotic drivers of species diversity across elevation and latitude"
     year: '2013'
   mAbA6EoAAAAJ:Zk90fmyTIMwC:
@@ -1266,11 +1262,11 @@ papers:
     title: Global patterns in community-scale leaf mass per area distributions of extant woody non-monocot angiosperms and their utility in the fossil record
     year: Unknown Year
   mAbA6EoAAAAJ:_kc_bZDykSQC:
-    citations: 582
+    citations: 584
     title: Invariant scaling relationships for interspecific plant biomass production rates and body size
     year: '2001'
   mAbA6EoAAAAJ:_obbd28Je0oC:
-    citations: 66
+    citations: 68
     title: Evenness mediates the global relationship between forest productivity and richness
     year: '2023'
   mAbA6EoAAAAJ:_qBtHxPZqFwC:
@@ -1278,7 +1274,7 @@ papers:
     title: 'CAREER: Scaling Plant Life History, Ontogeny, Diversity, and Ecology: Elaboration of a General Model'
     year: '2002'
   mAbA6EoAAAAJ:_sH1KHQ1xKcC:
-    citations: 121
+    citations: 123
     title: Less favourable climates constrain demographic strategies in plants
     year: '2017'
   mAbA6EoAAAAJ:_xSYboBqXhAC:
@@ -1290,7 +1286,7 @@ papers:
     title: Hydraulic trade-offs and space filling enable better predictions of vascular structure and function in plants
     year: '2010'
   mAbA6EoAAAAJ:a9QG1FYusaQC:
-    citations: 9
+    citations: 10
     title: Scaling approaches and macroecology provide a foundation for assessing ecological resilience in the Anthropocene
     year: '2024'
   mAbA6EoAAAAJ:aEPHIGigqugC:
@@ -1302,7 +1298,7 @@ papers:
     title: Elaboration of a Novel Theory for the Scaling of Plant Form, Function, and Diversity
     year: '2001'
   mAbA6EoAAAAJ:aUOtug7Ojf8C:
-    citations: 444
+    citations: 446
     title: Convergence of terrestrial plant production across global climate gradients
     year: '2014'
   mAbA6EoAAAAJ:abG-DnoFyZgC:
@@ -1314,7 +1310,7 @@ papers:
     title: Evaluation of energetic equivalence across the Forest MacroSystems network
     year: '2020'
   mAbA6EoAAAAJ:aqlVkmm33-oC:
-    citations: 1052
+    citations: 1056
     title: Relationships between body size and abundance in ecology
     year: '2007'
   mAbA6EoAAAAJ:b0M2c_1WBrUC:
@@ -1330,15 +1326,15 @@ papers:
     title: Patterns and ecological determinants of woody plant height in eastern Eurasia and its relation to primary productivity.
     year: '2019'
   mAbA6EoAAAAJ:bEWYMUwI8FkC:
-    citations: 337
+    citations: 340
     title: Extensions and evaluations of a general quantitative theory of forest structure and dynamics
     year: '2009'
   mAbA6EoAAAAJ:bF3sBmdg0HEC:
-    citations: 93
+    citations: 94
     title: 'Assessing the general patterns of forest structure: quantifying tree and forest allometric scaling relationships in the United States'
     year: '2015'
   mAbA6EoAAAAJ:bFFifWiqnPAC:
-    citations: 66
+    citations: 67
     title: 'The evolution of bacterial cell size: the internal diffusion-constraint hypothesis'
     year: '2017'
   mAbA6EoAAAAJ:bFI3QPDXJZMC:
@@ -1358,7 +1354,7 @@ papers:
     title: Identifying branching principles in biological networks using imaging, modeling, and machine learning
     year: '2019'
   mAbA6EoAAAAJ:bVPaY08nMUAC:
-    citations: 93
+    citations: 94
     title: Multiscale mapping of plant functional groups and plant traits in the High Arctic using field spectroscopy, UAV imagery and Sentinel-2A data
     year: '2021'
   mAbA6EoAAAAJ:blknAaTinKkC:
@@ -1366,7 +1362,7 @@ papers:
     title: Using constraint lines to characterize plant performance
     year: '1998'
   mAbA6EoAAAAJ:boGf3zyra0UC:
-    citations: 78
+    citations: 79
     title: Plant functional diversity and the biogeography of biomes in North and South America
     year: '2018'
   mAbA6EoAAAAJ:bxNerZLeg9kC:
@@ -1426,7 +1422,7 @@ papers:
     title: 'Forest annual carbon cost: comment.'
     year: '2011'
   mAbA6EoAAAAJ:dyGod8kC9dQC:
-    citations: 102
+    citations: 103
     title: Scale dependence of canopy trait distributions along a tropical forest elevation gradient
     year: '2017'
   mAbA6EoAAAAJ:e0V1A8vmkmEC:
@@ -1450,7 +1446,7 @@ papers:
     title: Global tree beta-diversity is shaped by Quaternary climate change
     year: '2023'
   mAbA6EoAAAAJ:evIcR_-jKtEC:
-    citations: 18
+    citations: 19
     title: Experimental herbivore exclusion, shrub introduction, and carbon sequestration in alpine plant communities
     year: '2018'
   mAbA6EoAAAAJ:f0OD9WVUAbYC:
@@ -1462,19 +1458,19 @@ papers:
     title: Biomass allocation and growth data of seeded plants
     year: '2004'
   mAbA6EoAAAAJ:f37qlrqcxlUC:
-    citations: 222
+    citations: 226
     title: How deregulation, drought and increasing fire impact Amazonian biodiversity
     year: '2021'
   mAbA6EoAAAAJ:f8EKI0lD6ZEC:
-    citations: 64
+    citations: 66
     title: The global biogeography of tree leaf form and habit
     year: '2023'
   mAbA6EoAAAAJ:fPk4N6BV_jEC:
-    citations: 88
+    citations: 89
     title: "Above\u2010ground forest biomass is not consistently related to wood density in tropical forests"
     year: '2009'
   mAbA6EoAAAAJ:fiUsP84psekC:
-    citations: 119
+    citations: 120
     title: "Darwin\u2019s naturalization conundrum can be explained by spatial scale"
     year: '2020'
   mAbA6EoAAAAJ:g0Hda-A7MjsC:
@@ -1487,7 +1483,7 @@ papers:
     year: '2018'
   mAbA6EoAAAAJ:g5h4crcM1N4C:
     citations: 2
-    title: 'Dinosaur physiology: Evidence for mesothermy in dinosaurs'
+    title: Dinosaur Physiology
     year: '2014'
   mAbA6EoAAAAJ:g5m5HwL7SMYC:
     citations: 116
@@ -1522,11 +1518,11 @@ papers:
     title: Predictability in community dynamics
     year: '2017'
   mAbA6EoAAAAJ:hC7cP41nSMkC:
-    citations: 248
+    citations: 249
     title: Canonical rules for plant organ biomass partitioning and annual allocation
     year: '2002'
   mAbA6EoAAAAJ:hFOr9nPyWt4C:
-    citations: 204
+    citations: 205
     title: 'Long-term tree ring chronologies from sympatric tropical dry-forest trees: individualistic responses to climatic variation'
     year: '2001'
   mAbA6EoAAAAJ:hMG6n2O2MHsC:
@@ -1534,11 +1530,11 @@ papers:
     title: 'Collaborative Research: Niche evolution, ecological limits, and the macroecology of land plant biodiversity'
     year: '2016'
   mAbA6EoAAAAJ:hMod-77fHWUC:
-    citations: 432
+    citations: 434
     title: 'Opposing assembly mechanisms in a Neotropical dry forest: implications for phylogenetic and functional community ecology'
     year: '2009'
   mAbA6EoAAAAJ:hVd5agGqjXwC:
-    citations: 36
+    citations: 37
     title: "Soil\u2010associated drivers of plant traits and functional composition in Atlantic Forest coastal tree communities"
     year: '2021'
   mAbA6EoAAAAJ:hWqix75wD0QC:
@@ -1566,7 +1562,7 @@ papers:
     title: 'A Vision for Continental-Scale Biology: Research Across Multiple Scales'
     year: '2025'
   mAbA6EoAAAAJ:hzzPUFEODy8C:
-    citations: 3
+    citations: 4
     title: "Marine\u2010derived nutrients shape the functional composition of High Arctic plant communities"
     year: '2025'
   mAbA6EoAAAAJ:i2WBo1Z0jAEC:
@@ -1574,7 +1570,7 @@ papers:
     title: 'Collaborative Research: BoCP-Implementation: BioFI-Biodiversity Forecasting Initiative to Understand Population, Community and Ecosystem Function Under Global Change'
     year: '2022'
   mAbA6EoAAAAJ:i4l3h6Pr8ZgC:
-    citations: 732
+    citations: 740
     title: Diversity enhances carbon storage in tropical forests
     year: '2015'
   mAbA6EoAAAAJ:iH-uZ7U-co4C:
@@ -1590,7 +1586,7 @@ papers:
     title: 'Crops in a Changing World: Hidden Forest-Agriculture Teleconnections'
     year: '2018'
   mAbA6EoAAAAJ:isC4tDSrTZIC:
-    citations: 144
+    citations: 145
     title: Resilience and resistance of ecosystem functional response to a precipitation pulse in a semi-arid grassland
     year: '2006'
   mAbA6EoAAAAJ:j3f4tGmQtD8C:
@@ -1602,7 +1598,7 @@ papers:
     title: "sPlotOpen\u2013An environmentally balanced, open\u2010access, global dataset of vegetation plots"
     year: '2021'
   mAbA6EoAAAAJ:jOyC0gq838wC:
-    citations: 62
+    citations: 63
     title: "The Botanical Information and Ecology Network (BIEN): Cyberinfrastructure for an integrated botanical information network to investigate the ecological impacts of global \u2026"
     year: '2009'
   mAbA6EoAAAAJ:jQdzyB-Dl8gC:
@@ -1618,7 +1614,7 @@ papers:
     title: "Structural and defensive roles of angiosperm leaf venation network reticulation across an Andes\u2010Amazon elevation gradient"
     year: '2018'
   mAbA6EoAAAAJ:k5YuYzdwE10C:
-    citations: 100
+    citations: 101
     title: Elevated extinction risk of cacti under climate change
     year: '2022'
   mAbA6EoAAAAJ:kHL0TBcpPBcC:
@@ -1626,11 +1622,11 @@ papers:
     title: Quaternary climate change explains global patterns of tree beta-diversity
     year: '2020'
   mAbA6EoAAAAJ:kMwF0kOiZPMC:
-    citations: 243
+    citations: 244
     title: Cyberinfrastructure for an integrated botanical information network to investigate the ecological impacts of global climate change on plant biodiversity
     year: '2016'
   mAbA6EoAAAAJ:kNdYIx-mwKoC:
-    citations: 1425
+    citations: 1431
     title: A general model for ontogenetic growth
     year: '2001'
   mAbA6EoAAAAJ:kSfMFMOdMMkC:
@@ -1638,7 +1634,7 @@ papers:
     title: Temperature mediates continental-scale diversity of microbes in forest soils.
     year: '2016'
   mAbA6EoAAAAJ:k_IJM867U9cC:
-    citations: 142
+    citations: 143
     title: 'Scaling mass and morphology in leaves: an extension of the WBE model'
     year: '2007'
   mAbA6EoAAAAJ:kkE12xK_jI8C:
@@ -1682,7 +1678,7 @@ papers:
     title: A general model for the structure, function, and allometry of plant vascular systems
     year: '2001'
   mAbA6EoAAAAJ:lPNvfOEJVFUC:
-    citations: 52
+    citations: 54
     title: High exposure of global tree diversity to human pressure
     year: '2022'
   mAbA6EoAAAAJ:lSLTfruPkqcC:
@@ -1694,7 +1690,7 @@ papers:
     title: "Supporting Information Notes S1\u2212 S4 and Figs. S1\u2212 S4 Deviation from symmetrically self-similar branching in trees predicts altered hydraulics, mechanics, light interception and \u2026"
     year: Unknown Year
   mAbA6EoAAAAJ:lZkERF9nS_wC:
-    citations: 253
+    citations: 254
     title: Observed forest sensitivity to climate implies large changes in 21st century North American forest growth
     year: '2016'
   mAbA6EoAAAAJ:ldfaerwXgEUC:
@@ -1734,7 +1730,7 @@ papers:
     title: 'Ecoinformatics Advances: Building Technosocial Systems for Open Data and Big Science'
     year: '2018'
   mAbA6EoAAAAJ:mYPvCrJ_kzAC:
-    citations: 169
+    citations: 170
     title: Solar radiation and functional traits explain the decline of forest primary productivity along a tropical elevation gradient
     year: '2017'
   mAbA6EoAAAAJ:maZDTaKrznsC:
@@ -1762,7 +1758,7 @@ papers:
     title: Predicting trait-environment relationships for venation networks along an Andes-Amazon elevation gradient (vol 98, pg 1239, 2017)
     year: '2021'
   mAbA6EoAAAAJ:nb7KW1ujOQ8C:
-    citations: 207
+    citations: 208
     title: 'Putting plant resistance traits on the map: a test of the idea that plants are better defended at lower latitudes'
     year: '2011'
   mAbA6EoAAAAJ:nk1qRvIppk4C:
@@ -1770,7 +1766,7 @@ papers:
     title: Production of leaf wax n-alkanes across a tropical forest elevation transect
     year: '2016'
   mAbA6EoAAAAJ:nmnCZhbNdt4C:
-    citations: 74
+    citations: 75
     title: Functional susceptibility of tropical forests to climate change
     year: '2022'
   mAbA6EoAAAAJ:nnVijz9KPVYC:
@@ -1778,11 +1774,11 @@ papers:
     title: 'Toward a theory for diversity gradients: the Abundance-Adaptation Hypothesis'
     year: '2017'
   mAbA6EoAAAAJ:nrS8eym_YfUC:
-    citations: 269
+    citations: 272
     title: Climate shapes and shifts functional biodiversity in forests worldwide
     year: '2019'
   mAbA6EoAAAAJ:ns9cj8rnVeAC:
-    citations: 347
+    citations: 349
     title: 'Multiplicative by nature: why logarithmic transformation is necessary in allometry'
     year: '2009'
   mAbA6EoAAAAJ:nwfoItMF7hMC:
@@ -1790,7 +1786,7 @@ papers:
     title: 'Data from: Less favorable climates constrain demographic strategies in plants'
     year: '2021'
   mAbA6EoAAAAJ:oA8UEeFZdjYC:
-    citations: 470
+    citations: 473
     title: 'The BIEN R package: A tool to access the Botanical Information and Ecology Network (BIEN) Database'
     year: '2017'
   mAbA6EoAAAAJ:oNWKmzIW71IC:
@@ -1802,7 +1798,7 @@ papers:
     title: 'Two branches of the same tree: A comparative analysis of mammalian and plant vascular morphology'
     year: '2017'
   mAbA6EoAAAAJ:ooaom_WTAwIC:
-    citations: 875
+    citations: 878
     title: Plant functional trait change across a warming tundra biome
     year: '2018'
   mAbA6EoAAAAJ:p11oD0Q27JMC:
@@ -1826,11 +1822,11 @@ papers:
     title: Leaf venation network evolution across clades and scales (vol 11, pg 1127, 2025)
     year: '2025'
   mAbA6EoAAAAJ:pNwUjlbgJN8C:
-    citations: 199
+    citations: 198
     title: Towards process-based range modeling of many species
     year: '2016'
   mAbA6EoAAAAJ:paYMmCCHv7cC:
-    citations: 501
+    citations: 513
     title: Integrated global assessment of the natural forest carbon potential
     year: '2023'
   mAbA6EoAAAAJ:pf0VL3QzzAAC:
@@ -1870,7 +1866,7 @@ papers:
     title: Distribution and Patterns of CNSs in a Caenorhabditis gene family
     year: Unknown Year
   mAbA6EoAAAAJ:qUcmZB5y_30C:
-    citations: 542
+    citations: 544
     title: "On estimating the exponent of power\u2010law frequency distributions"
     year: '2008'
   mAbA6EoAAAAJ:qfe1Ex3B87sC:
@@ -1890,7 +1886,7 @@ papers:
     title: The fractal dimension of plants
     year: '2001'
   mAbA6EoAAAAJ:qxL8FJ1GzNcC:
-    citations: 488
+    citations: 489
     title: 'Universal scaling in tree and vascular plant allometry: toward a general quantitative theory linking plant form and function from cells to ecosystems'
     year: '2002'
   mAbA6EoAAAAJ:r0ARIG2f-gUC:
@@ -1934,11 +1930,11 @@ papers:
     title: Plant communities, evolution of
     year: '2001'
   mAbA6EoAAAAJ:rt76XxiL7BoC:
-    citations: 203
+    citations: 211
     title: The effectiveness of global protected areas for climate change mitigation
     year: '2023'
   mAbA6EoAAAAJ:rv71eUSj1K8C:
-    citations: 45
+    citations: 46
     title: Fire effects and ecological recovery pathways of tropical montane cloud forests along a time chronosequence
     year: '2018'
   mAbA6EoAAAAJ:s-Dac9OKvL8C:
@@ -1974,7 +1970,7 @@ papers:
     title: On the kinetics of plant growth from leaves to ecosystems
     year: '2018'
   mAbA6EoAAAAJ:ssyqJ5znRdsC:
-    citations: 60
+    citations: 61
     title: A general model for metabolic scaling in self-similar asymmetric networks
     year: '2017'
   mAbA6EoAAAAJ:t2c9fUEjrewC:
@@ -1998,11 +1994,11 @@ papers:
     title: Variation in above-ground forest biomass across broad climatic gradientsgeb_645
     year: '2010'
   mAbA6EoAAAAJ:tWiuw1KVSQEC:
-    citations: 112
+    citations: 115
     title: 'A review of the heterogeneous landscape of biodiversity databases: Opportunities and challenges for a synthesized biodiversity knowledge base'
     year: '2022'
   mAbA6EoAAAAJ:tkaPQYYpVKoC:
-    citations: 868
+    citations: 872
     title: Allometric scaling of production and life-history variation in vascular plants
     year: '1999'
   mAbA6EoAAAAJ:trmuqZugEg0C:
@@ -2010,11 +2006,11 @@ papers:
     title: "Perfil empreendedor dos cirurgi\xF5es-dentistas atuantes na \xE1rea de pr\xF3tese dent\xE1ria no interior de Minas Gerais"
     year: '2024'
   mAbA6EoAAAAJ:u5HHmVD_uO8C:
-    citations: 363
+    citations: 365
     title: The biogeography and filtering of woody plant functional diversity in North and South America
     year: '2012'
   mAbA6EoAAAAJ:uL3q62Y73bEC:
-    citations: 35
+    citations: 36
     title: 'Satellite-derived foresummer drought sensitivity of plant productivity in Rocky Mountain headwater catchments: spatial heterogeneity and geological-geomorphological control'
     year: '2020'
   mAbA6EoAAAAJ:uWiczbcajpAC:
@@ -2030,7 +2026,7 @@ papers:
     title: Detection of forest disturbances and investigation of the impact of environmental drivers in mountainous watersheds in the Upper Colorado Basin
     year: '2021'
   mAbA6EoAAAAJ:uhm167Bumv8C:
-    citations: 67
+    citations: 66
     title: "Plant ecological strategies shift across the Cretaceous\u2013Paleogene boundary"
     year: '2014'
   mAbA6EoAAAAJ:uk0w_JccWH8C:
@@ -2042,7 +2038,7 @@ papers:
     title: Biogeographic patterns of soil diazotrophic communities across six forests in the North America.
     year: '2016'
   mAbA6EoAAAAJ:uy1uh4dpqf0C:
-    citations: 400
+    citations: 405
     title: "New approaches for delineating n\u2010dimensional hypervolumes"
     year: '2018'
   mAbA6EoAAAAJ:vKvsjmpZL3QC:
@@ -2074,11 +2070,11 @@ papers:
     title: 'Where we''ve been and where we''re going: the importance of source communities in predicting establishment success from phylogenetic relationships'
     year: '2022'
   mAbA6EoAAAAJ:vt8c2csMsvAC:
-    citations: 121
+    citations: 125
     title: 'The global spectrum of plant form and function: enhanced species-level trait dataset'
     year: '2022'
   mAbA6EoAAAAJ:w0szDhK_4XgC:
-    citations: 14
+    citations: 16
     title: Developing a predictive science of the biosphere requires the integration of scientific cultures
     year: '2024'
   mAbA6EoAAAAJ:w8fV-8NuKYgC:
@@ -2122,13 +2118,17 @@ papers:
     title: Strategic Conservation of Global Vertebrates in Response to Climate Change
     year: '2021'
   mAbA6EoAAAAJ:xdWr7vBG5PQC:
-    citations: 90
+    citations: 92
     title: How to improve scaling from traits to ecosystem processes
     year: '2023'
   mAbA6EoAAAAJ:xiLpnPg9mi8C:
     citations: 0
     title: Optimising global conservation, restoration, and agriculture for people and nature
     year: '2023'
+  mAbA6EoAAAAJ:xj5OetCc6CwC:
+    citations: 0
+    title: "This document is the author\u2019s final manuscript version of the journal article, incorporating any revisions agreed during the peer review process. Some differences between this \u2026"
+    year: '2019'
   mAbA6EoAAAAJ:xmdbLjM3F_sC:
     citations: 0
     title: Metabolic scaling in insects supports the predictions of the WBE model
@@ -2142,7 +2142,7 @@ papers:
     title: Drivers of terrestrial plant production across broad geographic gradients.
     year: '2017'
   mAbA6EoAAAAJ:y2egTTA-ddEC:
-    citations: 22
+    citations: 23
     title: Drivers of C cycling in three arctic-alpine plant communities
     year: '2019'
   mAbA6EoAAAAJ:yB1At4FlUx8C:
@@ -2166,11 +2166,11 @@ papers:
     title: "TECHNICAL COMMENTS: Response to Comments on \u201CEvidence for mesothermy in dinosaurs"
     year: '2015'
   mAbA6EoAAAAJ:yS0fcbgecPsC:
-    citations: 60
+    citations: 61
     title: Toward a general theory of plant carbon economics
     year: '2022'
   mAbA6EoAAAAJ:ybgmOu3m07wC:
-    citations: 97
+    citations: 100
     title: More than 17,000 tree species are at risk from rapid global change
     year: '2024'
   mAbA6EoAAAAJ:ye4kPcJQO24C:
@@ -2194,7 +2194,7 @@ papers:
     title: "Colonization and extinction lags drive non\u2010linear responses to warming in mountain plant communities across the Northern Hemisphere"
     year: '2024'
   mAbA6EoAAAAJ:zA6iFVUQeVQC:
-    citations: 3167
+    citations: 3177
     title: "TRY\u2013a global database of plant traits"
     year: '2011'
   mAbA6EoAAAAJ:zBs93F57jOAC:
@@ -2218,15 +2218,15 @@ papers:
     title: "Deviation from symmetrically self\u2010similar branching in trees predicts altered hydraulics, mechanics, light interception and metabolic scaling"
     year: '2014'
   mAbA6EoAAAAJ:zYLM7Y9cAGgC:
-    citations: 30
+    citations: 31
     title: Controls on radial growth of mountain big sagebrush and implications for climate change
     year: '2009'
   mAbA6EoAAAAJ:z_wzLGcYjwAC:
-    citations: 205
+    citations: 208
     title: The number of tree species on Earth
     year: '2022'
   mAbA6EoAAAAJ:zaWPYk0SwtcC:
-    citations: 1
+    citations: 2
     title: Balancing land use for conservation, agriculture, and renewable energy
     year: '2026'
   mAbA6EoAAAAJ:znQEAXyEQe8C:
