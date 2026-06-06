@@ -24,7 +24,14 @@ import urllib.error
 import json
 from typing import Dict, List, Optional, Tuple
 
-from rebuild_publications_include_from_doc import parse_doc_items_by_year, load_doc_html, parse_existing_include, title_key
+from rebuild_publications_include_from_doc import (
+    parse_doc_items_by_year,
+    load_doc_html,
+    parse_existing_include,
+    item_identity_key,
+    title_key,
+    strip_tags,
+)
 
 # ---------------------------------------------------------------------------
 # Paths (relative to repo root, which is the cwd in CI)
@@ -278,6 +285,10 @@ def main():
     html_updated = pubs_html
 
     include_by_year, include_keys_by_year = parse_existing_include(html_updated)
+    include_titles_by_year = {
+        year: {title_key(item) for item in items if title_key(item)}
+        for year, items in include_by_year.items()
+    }
     doc_by_year = parse_doc_items_by_year(load_doc_html())
 
     # -----------------------------------------------------------------------
@@ -285,9 +296,12 @@ def main():
     # -----------------------------------------------------------------------
     for year, items in doc_by_year.items():
         known_keys = include_keys_by_year.get(year, set())
+        known_titles = include_titles_by_year.get(year, set())
         for item in items:
-            item_key = title_key(item)
-            if item_key and item_key not in known_keys:
+            i_key = item_identity_key(item)
+            t_key = title_key(item)
+            in_include = (i_key and i_key in known_keys) or (t_key and t_key in known_titles)
+            if not in_include:
                 missing_from_html.append((year, item))
 
     # -----------------------------------------------------------------------
@@ -312,6 +326,10 @@ def main():
                 None,
             )
             if override:
+                year_keys = include_keys_by_year.setdefault(entry["year"], set())
+                override_key = item_identity_key(override["html"])
+                if override_key in year_keys:
+                    continue
                 inserted_html = _insert_before_li_containing(
                     html_updated,
                     override["insert_before"],
@@ -319,6 +337,7 @@ def main():
                 )
                 if inserted_html != html_updated:
                     html_updated = inserted_html
+                    year_keys.add(override_key)
                     inserted_missing.append((entry, full_title))
                     continue
             continue
