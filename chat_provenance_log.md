@@ -337,3 +337,8 @@ Outcome: Added a targeted repair path in `scripts/sync_publications_html.py` for
 Prompt: All 2021 papers appear to be missing from the publications page; keep the website publications synced to the public Google Doc.
 Source session: VS Code Copilot Chat
 Outcome: Added `scripts/rebuild_publications_include_from_doc.py` to rebuild `_includes/publications_full_from_doc.md` from the public Google Doc HTML export while regrouping entries by inferred citation year, which restored an explicit 2021 year block and the missing 2021 papers. Updated `.github/workflows/sync-google-doc-cv.yml` to run the rebuild script before the sync checker. Adjusted `scripts/sync_publications_html.py` so its missing-paper report now compares the site include against the public Google Doc HTML source of truth. Final validation report: `Papers in public Google Doc but NOT found in HTML: 0`.
+
+45. Date: 2026-06-06
+Prompt: Remove duplicate publications still appearing on the publications website; specifically check the Lourenco Jr. (2021) Ecosphere paper (doi:10.1002/ecs2.3629).
+Source session: VS Code Copilot Chat
+Outcome: Updated publication sync pipeline to reduce duplicate retention and repeat reinsertion: (1) DOI canonicalization and per-year title-aware dedupe in `scripts/rebuild_publications_include_from_doc.py`; (2) consistent identity-key usage and title-equivalence matching in `scripts/sync_publications_html.py`; (3) guard against repeated override insertion when the target item already exists. Regenerated `_includes/publications_full_from_doc.md` and `assets/cv/publications_sync_report.txt`. Verification confirms Lourenco Jr. (2021) appears once in the generated include and report line remains `Papers in public Google Doc but NOT found in HTML: 0`.

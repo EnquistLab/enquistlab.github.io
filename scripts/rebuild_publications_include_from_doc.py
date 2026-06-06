@@ -38,6 +38,17 @@ SECTION_END_LABELS = (
 SECTION_RE = re.compile(r"<p>\s*([^<]+?)\s*</p><ol>(.*?)</ol>", re.IGNORECASE | re.DOTALL)
 LI_RE = re.compile(r"<li>.*?</li>", re.IGNORECASE | re.DOTALL)
 YEAR_RE = re.compile(r"\((19|20)\d{2}\)|\b(19|20)\d{2}\b")
+HREF_RE = re.compile(r'href="([^"]+)"', re.IGNORECASE)
+DOI_RE = re.compile(r'10\.\d{4,9}/[^\s"<>]+', re.IGNORECASE)
+
+
+def normalize_doi(raw_doi):
+    doi = (raw_doi or "").strip().lower()
+    if not doi:
+        return ""
+    doi = re.sub(r"[?#].*$", "", doi)
+    doi = doi.rstrip(').,;]"\'')
+    return doi
 
 
 def clean_google_href(href):
@@ -72,6 +83,35 @@ def title_key(html_text):
         text = match.group(1)
     text = re.sub(r"[^a-z0-9]+", " ", text.lower())
     return re.sub(r"\s+", " ", text).strip()[:160]
+
+
+def item_identity_key(html_text):
+    urls = [clean_google_href(url) for url in HREF_RE.findall(html_text)]
+
+    doi_candidates = []
+    for url in urls:
+        doi_match = DOI_RE.search(url)
+        if doi_match:
+            normalized = normalize_doi(doi_match.group(0))
+            if normalized:
+                doi_candidates.append(normalized)
+
+    if not doi_candidates:
+        text_doi_match = DOI_RE.search(strip_tags(html_text))
+        if text_doi_match:
+            normalized = normalize_doi(text_doi_match.group(0))
+            if normalized:
+                doi_candidates.append(normalized)
+
+    if doi_candidates:
+        # Use one canonical DOI token to avoid split identities for link/query variants.
+        return "doi:" + sorted(set(doi_candidates))[0]
+
+    clean_urls = sorted({url for url in urls if url})
+    if clean_urls:
+        return "url:" + "|".join(clean_urls)
+
+    return "title:" + title_key(html_text)
 
 
 def normalize_li(html_text):
@@ -154,23 +194,29 @@ def parse_doc_items_by_year(doc_html):
 
     items_by_year = OrderedDict()
     keys_by_year = {}
+    titles_by_year = {}
     for item in parser.items:
         year = infer_year(item)
         if year is None:
             continue
-        key = title_key(item)
+        key = item_identity_key(item)
+        tkey = title_key(item)
         if year not in items_by_year:
             items_by_year[year] = []
             keys_by_year[year] = set()
-        if key and key not in keys_by_year[year]:
+            titles_by_year[year] = set()
+        if key not in keys_by_year[year] and (not tkey or tkey not in titles_by_year[year]):
             items_by_year[year].append(item)
             keys_by_year[year].add(key)
+            if tkey:
+                titles_by_year[year].add(tkey)
     return items_by_year
 
 
 def parse_existing_include(include_text):
     items_by_year = OrderedDict()
     keys_by_year = {}
+    titles_by_year = {}
 
     for match in SECTION_RE.finditer(include_text):
         section_year = match.group(1).strip()
@@ -183,13 +229,17 @@ def parse_existing_include(include_text):
                     inferred = int(section_year)
                 except ValueError:
                     continue
-            key = title_key(item)
+            key = item_identity_key(item)
+            tkey = title_key(item)
             if inferred not in items_by_year:
                 items_by_year[inferred] = []
                 keys_by_year[inferred] = set()
-            if key and key not in keys_by_year[inferred]:
+                titles_by_year[inferred] = set()
+            if key not in keys_by_year[inferred] and (not tkey or tkey not in titles_by_year[inferred]):
                 items_by_year[inferred].append(item)
                 keys_by_year[inferred].add(key)
+                if tkey:
+                    titles_by_year[inferred].add(tkey)
     return items_by_year, keys_by_year
 
 
@@ -218,8 +268,8 @@ def main():
             existing_by_year[year] = []
             keys_by_year[year] = set()
         for item in items:
-            key = title_key(item)
-            if key and key not in keys_by_year[year]:
+            key = item_identity_key(item)
+            if key not in keys_by_year[year]:
                 existing_by_year[year].append(item)
                 keys_by_year[year].add(key)
                 additions += 1
