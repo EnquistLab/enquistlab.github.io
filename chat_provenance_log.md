@@ -327,3 +327,13 @@ Outcome: Completed coordinated tri-agent review-only audit (no code edits). Cros
 Prompt: Update research tab to say closed-loop and open-path chamber-based approaches; add co2fluxtent (https://github.com/PaulESantos/co2fluxtent) alongside fluxible in research.md flux tooling paragraph and as a new section in software.md.
 Source session: VS Code Copilot Chat
 Outcome: (1) research.md flux measurement sentence updated to cite both closed-loop and open-path approaches; (2) co2fluxtent described as a companion open-path package after the fluxible paragraph; (3) software.md new co2fluxtent section added below fluxible with GitHub link and install snippet.
+
+43. Date: 2026-06-06
+Prompt: For https://enquistlab.github.io/publications/ add the missing 2021 Nature paper "How deregulation, drought and increasing fire impact Amazonian biodiversity" and ensure it groups under Tropical Ecology and Conservation Impacts.
+Source session: VS Code Copilot Chat
+Outcome: Added a targeted repair path in `scripts/sync_publications_html.py` for the missing Feng et al. (2021) Nature citation, reran the sync so `_includes/publications_full_from_doc.md` now contains the paper, and expanded the `conservation-impacts` topic matchers in `_pages/publications.html` with Amazonian biodiversity / deregulation / fire signals. The paper now exists in the master publication list and is classified for both Tropical Ecology and Conservation Impacts. Updated `assets/cv/publications_sync_report.txt` during validation.
+
+44. Date: 2026-06-06
+Prompt: All 2021 papers appear to be missing from the publications page; keep the website publications synced to the public Google Doc.
+Source session: VS Code Copilot Chat
+Outcome: Added `scripts/rebuild_publications_include_from_doc.py` to rebuild `_includes/publications_full_from_doc.md` from the public Google Doc HTML export while regrouping entries by inferred citation year, which restored an explicit 2021 year block and the missing 2021 papers. Updated `.github/workflows/sync-google-doc-cv.yml` to run the rebuild script before the sync checker. Adjusted `scripts/sync_publications_html.py` so its missing-paper report now compares the site include against the public Google Doc HTML source of truth. Final validation report: `Papers in public Google Doc but NOT found in HTML: 0`.
