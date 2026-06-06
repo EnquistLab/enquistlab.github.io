@@ -581,6 +581,10 @@ nav_order: 3.1
 				label: 'Conservation Impacts',
 				threshold: 2,
 				matchers: [
+					{ pattern: /deregulation/i, weight: 2 },
+					{ pattern: /increasing fire|landscape fire|wildfire/i, weight: 2 },
+					{ pattern: /amazonian biodiversity/i, weight: 3 },
+					{ pattern: /drought.{0,30}biodiversity|biodiversity.{0,30}drought/i, weight: 2 },
 					{ pattern: /conservation planning/i, weight: 3 },
 					{ pattern: /conserving terrestrial biodiversity/i, weight: 3 },
 					{ pattern: /biodiversity, carbon and water/i, weight: 3 },

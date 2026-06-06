@@ -22,14 +22,16 @@ jobs:
           python-version: "3.12"
 
       - name: Sync CV from Google Docs export
-        env:
-          GOOGLE_DOC_CV_ID: ${{ secrets.GOOGLE_DOC_CV_ID }}
         run: |
           bash scripts/sync_google_doc_cv.sh
 
       - name: Sync new publications from CV DOIs
         run: |
           python scripts/sync_publications_from_cv.py
+
+      - name: Rebuild publications include from public Google Doc HTML
+        run: |
+          python scripts/rebuild_publications_include_from_doc.py
 
       - name: Sync publications HTML from CV
         run: |
@@ -52,6 +54,7 @@ jobs:
                   assets/cv/publications_sync_report.txt \
                   _data/cv_sync.yml \
                   _bibliography/papers.bib \
+                  scripts/rebuild_publications_include_from_doc.py \
                   _includes/publications_full_from_doc.md
           git commit -m "chore(cv): sync CV and publications from Google Doc"
           git push

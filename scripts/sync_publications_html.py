@@ -2,11 +2,11 @@
 """
 sync_publications_html.py
 
-Reads the Google Doc CV text, parses the peer-reviewed publications section,
-then cross-checks against _includes/publications_full_from_doc.md to:
-  1. Detect papers present in CV but missing from the HTML.
-  2. Detect "In Press" entries in HTML that now have volume/page data in the CV.
-  3. Verify all DOIs found in the CV against the CrossRef API.
+Reads the Google Doc CV text for DOI/in-press checks and compares the website
+publication include against the public Google Doc HTML publication items to:
+    1. Detect papers present in the public Google Doc but missing from the HTML.
+    2. Detect "In Press" entries in HTML that now have volume/page data in the CV.
+    3. Verify all DOIs found in the CV against the CrossRef API.
 
 Writes an updated publications HTML (if In Press patches are found) and a
 plain-text report to assets/cv/publications_sync_report.txt.
@@ -22,6 +22,9 @@ import datetime
 import urllib.request
 import urllib.error
 import json
+from typing import Dict, List, Optional, Tuple
+
+from rebuild_publications_include_from_doc import parse_doc_items_by_year, load_doc_html, parse_existing_include, title_key
 
 # ---------------------------------------------------------------------------
 # Paths (relative to repo root, which is the cwd in CI)
@@ -55,6 +58,23 @@ VOL_PAGE_RE = re.compile(
 
 INPRESS_RE = re.compile(r'\bIn\s+[Pp]ress\b')
 
+MISSING_HTML_OVERRIDES = {
+    "how deregulation, drought and increasing fire impact amazonian biodiversity": {
+        "html": (
+            '<li>Feng, X., Merow, C., Liu, Z., Park, D. S., Roehrdanz, P. R., '
+            'Maitner, B., Newman, E. A., Boyle, B. L., Lien, A., Burger, J. R., '
+            'Pires, M. M., Brando, P. M., Bush, M. B., McMichael, C. N. H., '
+            'Neves, D. M., Nikolopoulos, E., Saleska, S. R., Hannah, L., '
+            'Breshears, D. D., Evans, T., Soto, J. R., Ernst, K., & Enquist, '
+            'B. J. (2021). <a href="https://www.nature.com/articles/s41586-021-03876-7" '
+            'target="_blank" rel="noopener noreferrer">How deregulation, drought '
+            'and increasing fire impact Amazonian biodiversity</a>. Nature, '
+            '597(7877), 516-521.</li>'
+        ),
+        "insert_before": "areas of global importance for conserving terrestrial biodiversity, carbon and water",
+    },
+}
+
 
 # ---------------------------------------------------------------------------
 # Step 1: Load CV text
@@ -82,7 +102,7 @@ def load_cv_text() -> str:
 # ---------------------------------------------------------------------------
 # Step 2: Parse peer-reviewed publications section from CV text
 # ---------------------------------------------------------------------------
-def parse_cv_publications(cv_text: str) -> list[dict]:
+def parse_cv_publications(cv_text: str) -> List[Dict[str, object]]:
     """
     Returns a list of dicts, one per publication entry:
       {year, number, raw_text, doi, url}
@@ -164,20 +184,29 @@ def title_fragment(raw_text: str, chars: int = 40) -> str:
     Strip leading author/year preamble and return the first `chars` chars
     of the title, lowercased, for fuzzy matching.
     """
-    # Remove leading author block heuristically:
-    # Pattern: "Surname, I., ... (YYYY). Title starts here"
+    title = extract_title(raw_text)
+    return title[:chars].lower()
+
+
+def extract_title(raw_text: str) -> str:
+    """Return a normalised title-like substring from a raw CV publication entry."""
     m = re.search(r'\(\d{4}\)[.\s]+(.+)', raw_text)
     if m:
         title = m.group(1).strip()
     else:
-        # Fallback: just skip to after the first ". " sequence
         parts = raw_text.split('. ', 2)
         title = parts[-1] if len(parts) >= 2 else raw_text
 
-    # Strip markdown/html artifacts and normalise whitespace
     title = re.sub(r'<[^>]+>', '', title)
     title = re.sub(r'\s+', ' ', title).strip()
-    return title[:chars].lower()
+    return title
+
+
+def normalise_title(text: str) -> str:
+    """Lowercase title text and collapse punctuation/spacing for fuzzy matching."""
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9]+', ' ', text)
+    return re.sub(r'\s+', ' ', text).strip()
 
 
 # ---------------------------------------------------------------------------
@@ -194,7 +223,7 @@ def has_vol_page(raw_text: str) -> bool:
 # ---------------------------------------------------------------------------
 # Step 6: CrossRef DOI verification
 # ---------------------------------------------------------------------------
-def verify_doi(doi: str) -> tuple[bool, str]:
+def verify_doi(doi: str) -> Tuple[bool, str]:
     """
     Returns (valid: bool, message: str).
     Uses the CrossRef works API with a polite User-Agent.
@@ -239,26 +268,59 @@ def main():
     cv_entries = parse_cv_publications(cv_text)
 
     # Track outcomes
-    missing_from_html  = []   # (entry) present in CV but not HTML
+    missing_from_html  = []   # (year, li_html) present in public Google Doc but not HTML
     inpress_to_update  = []   # (entry, li_fragment, new_li) In Press → published
+    inserted_missing   = []   # (entry, title) missing entries inserted via override
     doi_ok_count       = 0
     doi_failures       = []   # (doi, message)
 
     # Build working copy of HTML for patching
     html_updated = pubs_html
 
+    include_by_year, include_keys_by_year = parse_existing_include(html_updated)
+    doc_by_year = parse_doc_items_by_year(load_doc_html())
+
     # -----------------------------------------------------------------------
-    # 4a/4b/4c: Cross-check each CV entry
+    # 4a: Cross-check the website include against the public Google Doc HTML
+    # -----------------------------------------------------------------------
+    for year, items in doc_by_year.items():
+        known_keys = include_keys_by_year.get(year, set())
+        for item in items:
+            item_key = title_key(item)
+            if item_key and item_key not in known_keys:
+                missing_from_html.append((year, item))
+
+    # -----------------------------------------------------------------------
+    # 4b/4c: Use CV entries for targeted patching + DOI/in-press checks
     # -----------------------------------------------------------------------
     for entry in cv_entries:
         frag = title_fragment(entry["raw_text"])
+        full_title = extract_title(entry["raw_text"]).rstrip(' .')
+        normalised_title = normalise_title(full_title)
         if not frag:
             continue
 
-        in_html = frag in pubs_html.lower()
+        in_html = frag in html_updated.lower()
 
         if not in_html:
-            missing_from_html.append(entry)
+            override = next(
+                (
+                    candidate
+                    for title_key, candidate in MISSING_HTML_OVERRIDES.items()
+                    if normalise_title(title_key) in normalised_title
+                ),
+                None,
+            )
+            if override:
+                inserted_html = _insert_before_li_containing(
+                    html_updated,
+                    override["insert_before"],
+                    override["html"],
+                )
+                if inserted_html != html_updated:
+                    html_updated = inserted_html
+                    inserted_missing.append((entry, full_title))
+                    continue
             continue
 
         # Paper is in HTML — check if HTML still says In Press while CV is published
@@ -310,12 +372,16 @@ def main():
     # -----------------------------------------------------------------------
     # Write updated HTML if patches were applied
     # -----------------------------------------------------------------------
-    if inpress_to_update:
+    if inpress_to_update or inserted_missing:
         with open(PUBS_HTML, "w", encoding="utf-8") as fh:
             fh.write(html_updated)
-        print(f"[html] Wrote updated {PUBS_HTML} ({len(inpress_to_update)} In Press patch(es)).")
+        print(
+            f"[html] Wrote updated {PUBS_HTML} "
+            f"({len(inpress_to_update)} In Press patch(es), "
+            f"{len(inserted_missing)} missing override insertion(s))."
+        )
     else:
-        print("[html] No In Press → published updates needed.")
+        print("[html] No HTML updates needed.")
 
     # -----------------------------------------------------------------------
     # Build report
@@ -323,9 +389,10 @@ def main():
     report_lines.append("")
     report_lines.append(f"CV entries parsed: {len(cv_entries)}")
     report_lines.append(f"In Press → published patches applied: {len(inpress_to_update)}")
+    report_lines.append(f"Missing-paper insertions applied: {len(inserted_missing)}")
     report_lines.append(f"DOIs verified OK: {doi_ok_count}")
     report_lines.append(f"DOI failures / anomalies: {len(doi_failures)}")
-    report_lines.append(f"Papers in CV but NOT found in HTML: {len(missing_from_html)}")
+    report_lines.append(f"Papers in public Google Doc but NOT found in HTML: {len(missing_from_html)}")
 
     if inpress_to_update:
         report_lines.append("")
@@ -336,13 +403,20 @@ def main():
             report_lines.append(f"    Old: {old_li[:120].strip()} …")
             report_lines.append(f"    New: {new_li[:120].strip()} …")
 
+    if inserted_missing:
+        report_lines.append("")
+        report_lines.append("MISSING-PAPER INSERTIONS APPLIED")
+        report_lines.append("-" * 40)
+        for entry, title in inserted_missing:
+            report_lines.append(f"  [{entry['year']} #{entry['number']}] {title}")
+
     if missing_from_html:
         report_lines.append("")
-        report_lines.append("MISSING FROM WEBSITE HTML (in CV but not found in _includes/publications_full_from_doc.md)")
+        report_lines.append("MISSING FROM WEBSITE HTML (in public Google Doc but not found in _includes/publications_full_from_doc.md)")
         report_lines.append("-" * 40)
-        for entry in missing_from_html:
-            snippet = entry["raw_text"][:140].strip()
-            report_lines.append(f"  [{entry['year']} #{entry['number']}] {snippet} …")
+        for year, item in missing_from_html:
+            snippet = strip_tags(item)[:140].strip()
+            report_lines.append(f"  [{year}] {snippet} …")
 
     if doi_failures:
         report_lines.append("")
@@ -361,7 +435,7 @@ def main():
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-def _find_li_containing(html: str, frag: str) -> str | None:
+def _find_li_containing(html: str, frag: str) -> Optional[str]:
     """Return the full <li>…</li> string that contains frag (case-insensitive)."""
     html_lower = html.lower()
     idx = html_lower.find(frag)
@@ -376,6 +450,14 @@ def _find_li_containing(html: str, frag: str) -> str | None:
     if end == -1:
         return None
     return html[start:end + 5]  # include "</li>"
+
+
+def _insert_before_li_containing(html: str, frag: str, new_li: str) -> str:
+    """Insert new_li immediately before the <li> that contains frag."""
+    target_li = _find_li_containing(html, frag.lower())
+    if not target_li:
+        return html
+    return html.replace(target_li, new_li + target_li, 1)
 
 
 def _patch_inpress_li(li: str, cv_raw: str) -> str:
@@ -421,7 +503,7 @@ def _patch_inpress_li(li: str, cv_raw: str) -> str:
     return patched
 
 
-def _write_report(lines: list[str]) -> None:
+def _write_report(lines: List[str]) -> None:
     os.makedirs(os.path.dirname(REPORT_OUT), exist_ok=True)
     with open(REPORT_OUT, "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
