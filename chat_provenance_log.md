@@ -352,3 +352,13 @@ Outcome: Updated publication sync pipeline to reduce duplicate retention and rep
 Prompt: Update the lab website with Jehová first, then add non-Scholar links and photos for Lorah Seltzer, Adam Chmurzynski, Amanda Henderson, and Matiss Castorena.
 Source session: VS Code Copilot Chat
 Outcome: Confirmed Jehová addition to active graduate students in `_data/people.yml` with a local photo and ResearchGate profile. Added fallback alumni profile-link rendering in `_pages/people.md` so alumni names now link to `google_scholar`, else `researchgate`, else `linkedin`, else `website`. Added Lorah LinkedIn, Adam/Matiss ResearchGate links, and Amanda RMBL profile URL to `_data/people.yml`. Added alumni photo mappings in `_data/alumni_photos.yml` for Adam and Matiss (ResearchGate-hosted profile images) and Amanda (local image `/assets/img/team/amanda_henderson.jpg`).
+
+47. Date: 2026-06-19
+Prompt: Jehová Lourenço Junior is a past PhD student (PhD earned 2022) and should be included in Former Graduate Students.
+Source session: VS Code Copilot Chat
+Outcome: Added Jehová Lourenço Junior to the `alumni` list in `_data/people.yml` with `(PhD EEB: 2022)` metadata, `start_year: 2022`, and ResearchGate/website links so he renders in the Former Graduate Students alumni cohort. Added a matching alumni photo mapping in `_data/alumni_photos.yml` pointing to `/assets/img/team/jehova_lourenco_junior.jpg`.
+
+48. Date: 2026-06-19
+Prompt: Correct Jehová Lourenço Junior PhD dates to 2016–2019.
+Source session: VS Code Copilot Chat
+Outcome: Updated Jehová Lourenço Junior alumni metadata in `_data/people.yml` from `(PhD EEB: 2022)` to `(PhD EEB:2016 – 2019)` and adjusted `start_year` to `2016` so he appears in the correct Former Graduate Students cohort.
