@@ -1,7 +1,7 @@
-Publications Sync Report — 2026-06-18 08:51 UTC
+Publications Sync Report — 2026-06-19 09:06 UTC
 ============================================================
 
-CV entries parsed: 332
+CV entries parsed: 333
 In Press → published patches applied: 0
 Missing-paper insertions applied: 0
 DOIs verified OK: 23
