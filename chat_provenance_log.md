@@ -323,6 +323,11 @@ Prompt: @M please have ecology-user.agent.md, scandinavian-design.agent.md, and 
 Source session: VS Code Copilot Chat
 Outcome: Completed coordinated tri-agent review-only audit (no code edits). Cross-agent consensus: full redesign not needed; incremental refinements are sufficient. Recommended focus: tighten text line spacing and paragraph rhythm for long-form readability, keep and standardize graphics/box pullouts (consistent structure + interpretation cues), reduce jargon density via a two-layer writing pattern (plain-language lead + scholarly detail), strengthen accessibility semantics (descriptive links, robust labels, responsive table wrappers), and calibrate certainty language with explicit assumptions/uncertainty notes. Scholarly-rigor flagged practical link hardening needs (verify potentially broken DOI/link and prefer DOI/publisher links over ResearchGate-first linking).
 
+42. Date: 2026-06-19
+Prompt: Add missing PhD student Jehová Lourenço Junior to the team page and link ResearchGate profile; include photo.
+Source session: VS Code Copilot Chat
+Outcome: Added Jehová Lourenço Junior under `grad_students` in `_data/people.yml` with a local team photo (`assets/img/team/jehova_lourenco_junior.jpg`), institution/degree metadata, and `researchgate` profile URL. Updated `_pages/people.md` to render `ResearchGate` links for postdoc, graduate, and visiting-student cards so profiles can use ResearchGate when Google Scholar is unavailable.
+
 42. Date: 2026-05-15
 Prompt: Update research tab to say closed-loop and open-path chamber-based approaches; add co2fluxtent (https://github.com/PaulESantos/co2fluxtent) alongside fluxible in research.md flux tooling paragraph and as a new section in software.md.
 Source session: VS Code Copilot Chat
@@ -342,3 +347,8 @@ Outcome: Added `scripts/rebuild_publications_include_from_doc.py` to rebuild `_i
 Prompt: Remove duplicate publications still appearing on the publications website; specifically check the Lourenco Jr. (2021) Ecosphere paper (doi:10.1002/ecs2.3629).
 Source session: VS Code Copilot Chat
 Outcome: Updated publication sync pipeline to reduce duplicate retention and repeat reinsertion: (1) DOI canonicalization and per-year title-aware dedupe in `scripts/rebuild_publications_include_from_doc.py`; (2) consistent identity-key usage and title-equivalence matching in `scripts/sync_publications_html.py`; (3) guard against repeated override insertion when the target item already exists. Regenerated `_includes/publications_full_from_doc.md` and `assets/cv/publications_sync_report.txt`. Verification confirms Lourenco Jr. (2021) appears once in the generated include and report line remains `Papers in public Google Doc but NOT found in HTML: 0`.
+
+46. Date: 2026-06-19
+Prompt: Update the lab website with Jehová first, then add non-Scholar links and photos for Lorah Seltzer, Adam Chmurzynski, Amanda Henderson, and Matiss Castorena.
+Source session: VS Code Copilot Chat
+Outcome: Confirmed Jehová addition to active graduate students in `_data/people.yml` with a local photo and ResearchGate profile. Added fallback alumni profile-link rendering in `_pages/people.md` so alumni names now link to `google_scholar`, else `researchgate`, else `linkedin`, else `website`. Added Lorah LinkedIn, Adam/Matiss ResearchGate links, and Amanda RMBL profile URL to `_data/people.yml`. Added alumni photo mappings in `_data/alumni_photos.yml` for Adam and Matiss (ResearchGate-hosted profile images) and Amanda (local image `/assets/img/team/amanda_henderson.jpg`).
