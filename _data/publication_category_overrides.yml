@@ -1,0 +1,13 @@
+schema_version: 1
+last_updated: 2026-06-19
+overrides:
+  # User-requested explicit multi-category assignment.
+  # Keep title_hints concise and lowercase for robust matching.
+  - id: OVERRIDE_ALTHUIZEN_2026_ALPINE_ECOPHYS
+    title_hints:
+      - climate-induced shifts in plant investment strategies regulate ecosystem carbon cycling across alpine grasslands
+      - althuizen
+    force_categories:
+      - arctic-alpine
+      - ecophysiology
+    rationale: Alpine grassland climate/physiology paper should appear under both categories.

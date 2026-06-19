@@ -53,6 +53,21 @@ nav_order: 3.1
 {% include publications_full_from_doc.md %}
 </div>
 
+<script id="publication-category-overrides" type="application/json">
+{
+	"overrides": [
+		{
+			"id": "OVERRIDE_ALTHUIZEN_2026_ALPINE_ECOPHYS",
+			"title_hints": [
+				"climate-induced shifts in plant investment strategies regulate ecosystem carbon cycling across alpine grasslands",
+				"althuizen"
+			],
+			"force_categories": ["arctic-alpine", "ecophysiology"]
+		}
+	]
+}
+</script>
+
 <style>
 	.publication-topic-toolbar {
 		margin: 0.75rem 0 0.5rem;
@@ -647,6 +662,12 @@ nav_order: 3.1
 					{ pattern: /Plant-O-Matic/i, weight: 3 },
 				],
 			},
+			{
+				id: 'needs-review',
+				label: 'Needs Review',
+				threshold: 0,
+				matchers: [],
+			},
 		];
 
 		let activeTopic = 'all';
@@ -692,11 +713,38 @@ nav_order: 3.1
 		function classifyPublication(text) {
 			const matched = [];
 			for (const topic of topicDefinitions) {
-				if (topic.id !== 'all' && scoreTopic(text, topic) >= topic.threshold) {
+				if (topic.id !== 'all' && topic.id !== 'needs-review' && scoreTopic(text, topic) >= topic.threshold) {
 					matched.push(topic.id);
 				}
 			}
 			return matched;
+		}
+
+		function getPublicationOverrides() {
+			const node = document.getElementById('publication-category-overrides');
+			if (!node) return [];
+			try {
+				const parsed = JSON.parse(node.textContent || '{}');
+				return Array.isArray(parsed.overrides) ? parsed.overrides : [];
+			} catch (err) {
+				console.warn('Failed to parse publication category overrides:', err);
+				return [];
+			}
+		}
+
+		const publicationOverrides = getPublicationOverrides();
+
+		function applyOverrideTopics(normalizedText, baseTopics) {
+			const topicSet = new Set(baseTopics);
+			publicationOverrides.forEach((override) => {
+				const hints = Array.isArray(override.title_hints) ? override.title_hints : [];
+				if (hints.length === 0) return;
+				const matched = hints.some((hint) => normalizedText.includes(String(hint).toLowerCase()));
+				if (!matched) return;
+				const forced = Array.isArray(override.force_categories) ? override.force_categories : [];
+				forced.forEach((topicId) => topicSet.add(topicId));
+			});
+			return Array.from(topicSet);
 		}
 
 		const allItems = yearSections.flatMap((section) => section.items);
@@ -708,7 +756,9 @@ nav_order: 3.1
 		const itemCache = new Map();
 		allItems.forEach((li) => {
 			const normalizedText = li.textContent.toLowerCase().replace(/\s+/g, ' ').trim();
-			const topics = classifyPublication(normalizedText);
+			const autoTopics = classifyPublication(normalizedText);
+			const topics = applyOverrideTopics(normalizedText, autoTopics);
+			if (topics.length === 0) topics.push('needs-review');
 			li.dataset.topics = topics.join('|');
 			topics.forEach((topicId) => {
 				topicCounts[topicId] += 1;
