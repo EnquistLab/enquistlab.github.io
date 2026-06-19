@@ -357,3 +357,8 @@ Outcome: Confirmed Jehová addition to active graduate students in `_data/people
 Prompt: Jehová Lourenço Junior is a past PhD student (PhD earned 2022) and should be included in Former Graduate Students.
 Source session: VS Code Copilot Chat
 Outcome: Added Jehová Lourenço Junior to the `alumni` list in `_data/people.yml` with `(PhD EEB: 2022)` metadata, `start_year: 2022`, and ResearchGate/website links so he renders in the Former Graduate Students alumni cohort. Added a matching alumni photo mapping in `_data/alumni_photos.yml` pointing to `/assets/img/team/jehova_lourenco_junior.jpg`.
+
+48. Date: 2026-06-19
+Prompt: Correct Jehová Lourenço Junior PhD dates to 2016–2019.
+Source session: VS Code Copilot Chat
+Outcome: Updated Jehová Lourenço Junior alumni metadata in `_data/people.yml` from `(PhD EEB: 2022)` to `(PhD EEB:2016 – 2019)` and adjusted `start_year` to `2016` so he appears in the correct Former Graduate Students cohort.
