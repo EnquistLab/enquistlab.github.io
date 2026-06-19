@@ -5,9 +5,16 @@ on:
     - cron: "0 5 * * *" # daily at 22:00 Mountain (05:00 UTC), 1 hr after CV sync
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-citations:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: update-citations
+      cancel-in-progress: true
 
     steps:
       - name: Checkout repository
@@ -44,7 +51,6 @@ jobs:
         id: run_citation_update
         shell: bash
         run: |
-          set +e
           echo "🚀 Running citation update script (single attempt)..."
           start_time=$(date)
           timeout 90 python bin/update_scholar_citations.py
@@ -53,11 +59,12 @@ jobs:
           if [ $status -eq 0 ]; then
             echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
             echo "✅ Citation update succeeded." >> $GITHUB_STEP_SUMMARY
+            exit 0
           else
             echo "❌ Citation update script failed with exit code $status (started at $start_time, ended at $end_time)."
             echo "❌ Citation update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
+            exit $status
           fi
-          set -e
 
       - name: Save new citations.yml hash
         id: after
@@ -91,9 +98,28 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git add _data/citations.yml
-          git diff --staged --quiet || (
-            echo "📤 Committing and pushing changes..."
-            git commit -m "Update Google Scholar citations"
-            git push
-          )
+          if [ -f _data/citations.yml ]; then
+            git add _data/citations.yml
+          else
+            echo "⚠️ citations.yml not found; skipping add."
+            exit 0
+          fi
+          
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit."
+            exit 0
+          fi
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Google Scholar citations"
+          
+          # Pull before push to reduce conflicts
+          git pull --rebase origin main || {
+            echo "⚠️ Rebase conflict; aborting push."
+            exit 1
+          }
+          
+          # Push with one retry on transient failure
+          git push || git push
+          echo "📤 Changes pushed successfully."

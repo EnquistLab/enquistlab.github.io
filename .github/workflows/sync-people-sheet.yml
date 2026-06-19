@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 jobs:
   sync-people:
@@ -69,9 +68,4 @@ jobs:
           git push
           echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Trigger Jekyll deploy after people sync
-        if: steps.commit.outputs.changed == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh workflow run deploy.yml --ref main
+      # Deploy is now triggered automatically on push to main; no manual dispatch needed.

@@ -80,6 +80,7 @@ nav_order: 2.1
     {% endif %}
     <p class="team-card__links">
       {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" title="Google Scholar" target="_blank" rel="noopener">Scholar</a>{% endif %}
+      {% if person.researchgate and person.researchgate != "" %}<a href="{{ person.researchgate }}" title="ResearchGate" target="_blank" rel="noopener">ResearchGate</a>{% endif %}
       {% if person.github and person.github != "" %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
       {% if person.website and person.website != "" %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
       {% if person.email and person.email != "" %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
@@ -115,6 +116,7 @@ nav_order: 2.1
     {% endif %}
     <p class="team-card__links">
       {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" title="Google Scholar" target="_blank" rel="noopener">Scholar</a>{% endif %}
+      {% if person.researchgate and person.researchgate != "" %}<a href="{{ person.researchgate }}" title="ResearchGate" target="_blank" rel="noopener">ResearchGate</a>{% endif %}
       {% if person.github and person.github != "" %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
       {% if person.website and person.website != "" %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
       {% if person.email and person.email != "" %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
@@ -147,6 +149,7 @@ nav_order: 2.1
     {% endif %}
     <p class="team-card__links">
       {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" title="Google Scholar" target="_blank" rel="noopener">Scholar</a>{% endif %}
+      {% if person.researchgate and person.researchgate != "" %}<a href="{{ person.researchgate }}" title="ResearchGate" target="_blank" rel="noopener">ResearchGate</a>{% endif %}
       {% if person.github and person.github != "" %}<a href="{{ person.github }}" title="GitHub" target="_blank" rel="noopener">GitHub</a>{% endif %}
       {% if person.website and person.website != "" %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
       {% if person.email and person.email != "" %}<a href="mailto:{{ person.email }}" title="Email">Email</a>{% endif %}
@@ -227,6 +230,11 @@ nav_order: 2.1
 {% assign grad_2010s = grad_alumni | where_exp: "p", "p.start_year >= 2010 and p.start_year <= 2019" %}
 {% assign grad_2020s = grad_alumni | where_exp: "p", "p.start_year >= 2020" %}
 
+{% comment %}
+  Prefer Scholar links for alumni names, then fall back to ResearchGate,
+  LinkedIn, or website so non-Scholar profiles remain clickable.
+{% endcomment %}
+
 {% if postdoc_alumni.size > 0 %}
 <section class="alumni-band">
   <div class="alumni-band__header">
@@ -241,7 +249,8 @@ nav_order: 2.1
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
+        {% assign alumni_profile_url = person.google_scholar | default: person.researchgate | default: person.linkedin | default: person.website %}
+        <h4 class="alumni-card__name">{% if alumni_profile_url and alumni_profile_url != "" %}<a href="{{ alumni_profile_url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
         {% if alumni_photo %}</div>{% endif %}
@@ -259,7 +268,8 @@ nav_order: 2.1
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
+        {% assign alumni_profile_url = person.google_scholar | default: person.researchgate | default: person.linkedin | default: person.website %}
+        <h4 class="alumni-card__name">{% if alumni_profile_url and alumni_profile_url != "" %}<a href="{{ alumni_profile_url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
         {% if alumni_photo %}</div>{% endif %}
@@ -277,7 +287,8 @@ nav_order: 2.1
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
+        {% assign alumni_profile_url = person.google_scholar | default: person.researchgate | default: person.linkedin | default: person.website %}
+        <h4 class="alumni-card__name">{% if alumni_profile_url and alumni_profile_url != "" %}<a href="{{ alumni_profile_url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
         {% if alumni_photo %}</div>{% endif %}
@@ -303,7 +314,8 @@ nav_order: 2.1
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
+        {% assign alumni_profile_url = person.google_scholar | default: person.researchgate | default: person.linkedin | default: person.website %}
+        <h4 class="alumni-card__name">{% if alumni_profile_url and alumni_profile_url != "" %}<a href="{{ alumni_profile_url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
         {% if alumni_photo %}</div>{% endif %}
@@ -321,7 +333,8 @@ nav_order: 2.1
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
+        {% assign alumni_profile_url = person.google_scholar | default: person.researchgate | default: person.linkedin | default: person.website %}
+        <h4 class="alumni-card__name">{% if alumni_profile_url and alumni_profile_url != "" %}<a href="{{ alumni_profile_url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
         {% if alumni_photo %}</div>{% endif %}
@@ -339,7 +352,8 @@ nav_order: 2.1
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
-        <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
+        {% assign alumni_profile_url = person.google_scholar | default: person.researchgate | default: person.linkedin | default: person.website %}
+        <h4 class="alumni-card__name">{% if alumni_profile_url and alumni_profile_url != "" %}<a href="{{ alumni_profile_url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
         {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
         {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
         {% if alumni_photo %}</div>{% endif %}
@@ -362,7 +376,8 @@ nav_order: 2.1
     {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
     <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
       {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
-      <h4 class="alumni-card__name">{% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
+      {% assign alumni_profile_url = person.google_scholar | default: person.researchgate | default: person.linkedin | default: person.website %}
+      <h4 class="alumni-card__name">{% if alumni_profile_url and alumni_profile_url != "" %}<a href="{{ alumni_profile_url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
       {% if person.degree and person.degree != "" %}<p class="alumni-card__meta">{{ person.degree }}</p>{% endif %}
       {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
       {% if alumni_photo %}</div>{% endif %}

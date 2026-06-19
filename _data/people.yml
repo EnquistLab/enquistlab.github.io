@@ -58,6 +58,18 @@ grad_students:
   email: maryelacelaya@arizona.edu
   institution: University of Arizona
   degree: PhD
+- name: Jehová Lourenço Junior
+  role: PhD alumnus
+  photo: jehova_lourenco_junior.jpg
+  bio: Plant ecologist focused on community ecology, wood anatomy, and plant hydraulics
+    across tropical forests.
+  google_scholar: ''
+  researchgate: https://www.researchgate.net/profile/Jehova-Lourenco-Junior
+  website: https://jehovajr.wixsite.com/science
+  github: ''
+  email: ''
+  institution: University of Arizona
+  degree: PhD
 visiting_students: []
 staff:
 - name: Michiel (Mich) Pillet
@@ -198,12 +210,14 @@ alumni:
 - name: Lorah Seltzer
   role: Graduate Student
   google_scholar: ''
+  linkedin: https://www.linkedin.com/in/lorahseltzer/
   institution: University of Reno
   degree: (PhD EEB:2016 – 2025);
   start_year: 2016
 - name: Adam Chmurzynski
   role: Graduate Student
   google_scholar: ''
+  researchgate: https://www.researchgate.net/profile/Adam-Chmurzynski
   institution: ''
   degree: (PhD EEB:2017 – 2025);
   start_year: 2017
@@ -216,12 +230,14 @@ alumni:
 - name: Amanda Henderson
   role: Graduate Student
   google_scholar: ''
+  website: https://www.rmbl.org/people/amanda-henderson/
   institution: Rocky Mountain Biological Lab
   degree: (Masters:2013 – 2016).
   start_year: 2013
 - name: Matiss Castorena Salaks
   role: Graduate Student
   google_scholar: ''
+  researchgate: https://www.researchgate.net/profile/Matiss-Castorena
   institution: ''
   degree: 'Masters: 2017 – 2022)'
   start_year: 2017

@@ -41,11 +41,14 @@ def get_scholar_citations() -> None:
     print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
     today = datetime.now().strftime("%Y-%m-%d")
 
+    # Initialize existing_data defensively to avoid UnboundLocalError
+    existing_data = {}
+
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, "r") as f:
-                existing_data = yaml.safe_load(f)
+                existing_data = yaml.safe_load(f) or {}
             if (
                 existing_data
                 and "metadata" in existing_data
@@ -59,6 +62,7 @@ def get_scholar_citations() -> None:
             print(
                 f"Warning: Could not read existing citation data from {OUTPUT_FILE}: {e}. The file may be missing or corrupted."
             )
+            existing_data = {}
 
     citation_data = {"metadata": {"last_updated": today}, "papers": {}}
 
@@ -110,9 +114,17 @@ def get_scholar_citations() -> None:
 
     # Compare new data with existing data
     if existing_data and existing_data.get("papers") == citation_data["papers"]:
-        print("No changes in citation data. Skipping file update.")
-        return
-
+        # Write atomically: write to temp file, then rename to avoid partial writes
+        import tempfile
+        fd, temp_file = tempfile.mkstemp(dir=os.path.dirname(OUTPUT_FILE) or ".")
+        try:
+            with os.fdopen(fd, "w") as f:
+                yaml.dump(citation_data, f, width=1000, sort_keys=True, default_flow_style=False)
+            os.replace(temp_file, OUTPUT_FILE)
+            print(f"Citation data saved to {OUTPUT_FILE}")
+        except Exception:
+            os.unlink(temp_file)
+            raise
     try:
         with open(OUTPUT_FILE, "w") as f:
             yaml.dump(citation_data, f, width=1000, sort_keys=True)

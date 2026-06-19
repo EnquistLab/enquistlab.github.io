@@ -150,3 +150,15 @@
 - name: "Gabriel Moulatlet"
   url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=o4dBz6MAAAAJ"
   source: "google_scholar"
+
+- name: "Adam Chmurzynski"
+  url: "https://i1.rgstatic.net/ii/profile.image/570177867993088-1512952405342_Q128/Adam-Chmurzynski.jpg"
+  source: "researchgate"
+
+- name: "Matiss Castorena Salaks"
+  url: "https://i1.rgstatic.net/ii/profile.image/735372057255938-1552337769869_Q128/Matiss-Castorena.jpg"
+  source: "researchgate"
+
+- name: "Amanda Henderson"
+  url: "/assets/img/team/amanda_henderson.jpg"
+  source: "rmbl"
