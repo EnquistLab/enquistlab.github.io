@@ -596,3 +596,41 @@ overrides:
     force_categories:
       - phylogenetic-ecology
     rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2020_FIELD_COURSE_SCIENCE_COMM
+    title_hints:
+      - "adding value to a field\u2010based course with a science communication module"
+      - "adding value to a field-based course with a science communication module"
+    force_categories:
+      - arctic-alpine
+    rationale: Vandvik/Halbritter/Enquist alpine collaboration; climate-change education paper with alpine fieldwork context.
+
+  - id: OVERRIDE_NREVIEW_2016_BIOLOGY_DISTILLED
+    title_hints:
+      - "biology distilled"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: Nature book review by Enquist on general biological theory and scaling; best fit is metabolic-scaling-allometry.
+
+  - id: OVERRIDE_NREVIEW_2009_COMMENT_COOMES_XYLEM
+    title_hints:
+      - "comment on coomes"
+      - "scaling of xylem vessels and veins within the leaves of oak species"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: Price & Enquist (2009) comment on xylem vessel scaling relates directly to WBE/allometric scaling theory.
+
+  - id: OVERRIDE_NREVIEW_2007_FOLLOW_THOMPSON
+    title_hints:
+      - "follow thompson to make biology a capital-s science"
+      - "follow thompson"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: Enquist & Stark correspondence on first-principles biological theory; companion to WBE-era scaling debate pieces.
+
+  - id: OVERRIDE_NREVIEW_2002_RED_HERRINGS
+    title_hints:
+      - "red herrings and rotten fish"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: West, Savage, Gillooly, Enquist et al. (2002) preprint rebuttal on metabolic scaling theory.
