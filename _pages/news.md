@@ -7,6 +7,7 @@ nav_order: 3.15
 _styles: |
   .section-jump-nav { display: none !important; }
 ---
+
 <div class="news-page">
 <figure class="munch-hero">
   <img src="{{ '/assets/img/art/munch_the_sun_1916.jpg' | relative_url }}"

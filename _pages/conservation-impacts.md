@@ -98,7 +98,7 @@ This is not a static map. It is a live decision-support tool built from hundreds
 
 Nature does not wait for certainty. Our lab translates the best available biodiversity evidence into spatial plans that partners can act on today — while staying honest about what we do not yet know.
 
-We combine more than 284 million plant occurrence records from the BIEN database with climate models, land-use scenarios, and range forecasts to answer the questions that matter most to conservation practitioners: *Where should we protect land? Which investments reduce risk the most? How does the answer change under different climate futures?*
+We combine more than 284 million plant occurrence records from the BIEN database with climate models, land-use scenarios, and range forecasts to answer the questions that matter most to conservation practitioners: _Where should we protect land? Which investments reduce risk the most? How does the answer change under different climate futures?_
 
 Rather than producing a single "best" answer, we show how priorities shift across scenarios — so that partners can choose strategies that remain robust even as conditions change. This approach has directly informed global biodiversity frameworks and real-world protected-area conversations across the Americas, the tropics, and beyond.
 

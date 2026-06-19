@@ -5,19 +5,15 @@
   const nav = document.querySelector(".section-jump-nav");
   if (!nav) return;
 
-  const root =
-    nav.closest(".post") ||
-    document.querySelector(".post") ||
-    document.querySelector("main") ||
-    document.body;
+  const root = nav.closest(".post") || document.querySelector(".post") || document.querySelector("main") || document.body;
   if (!root) return;
 
   const getEligibleHeadings = (node) =>
     [...node.querySelectorAll("h2, h3")].filter((el) => {
-    if (!el.textContent || !el.textContent.trim()) return false;
-    if (el.closest(".home-cards, .team-grid, .resource-link-grid")) return false;
-    return true;
-  });
+      if (!el.textContent || !el.textContent.trim()) return false;
+      if (el.closest(".home-cards, .team-grid, .resource-link-grid")) return false;
+      return true;
+    });
 
   const candidatePool = [
     root.querySelector("article .clearfix"),
@@ -53,11 +49,7 @@
     return;
   }
 
-  const usedIds = new Set(
-    [...document.querySelectorAll("[id]")]
-      .map((el) => el.id)
-      .filter(Boolean)
-  );
+  const usedIds = new Set([...document.querySelectorAll("[id]")].map((el) => el.id).filter(Boolean));
 
   const slugify = (text) =>
     text

@@ -148,7 +148,7 @@ The [Plant Functional Trait Courses](https://plantfunctionaltraitscourses.w.uib.
 
 <img src="{{ '/assets/img/wordpress/bien_logo_notext-1.png' | relative_url }}" alt="BIEN — Botanical Information and Ecology Network" style="max-width:220px;width:100%;display:block;margin:0.5rem 0 1.2rem;">
 
-The [BIEN project](https://biendata.org/) compiles and standardizes occurrence records, trait measurements, and plot data for vascular plants of the Western Hemisphere — one of the largest plant biodiversity synthesis efforts globally. The database integrates herbarium specimens, citizen-science observations, and plot inventories spanning roughly 1800s–present, with taxonomic reconciliation against a versioned plant name backbone and coordinate-level QA filtering ([Enquist et al. 2026](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210x.70274), *Methods in Ecology and Evolution*).
+The [BIEN project](https://biendata.org/) compiles and standardizes occurrence records, trait measurements, and plot data for vascular plants of the Western Hemisphere — one of the largest plant biodiversity synthesis efforts globally. The database integrates herbarium specimens, citizen-science observations, and plot inventories spanning roughly 1800s–present, with taxonomic reconciliation against a versioned plant name backbone and coordinate-level QA filtering ([Enquist et al. 2026](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210x.70274), _Methods in Ecology and Evolution_).
 
 ---
 
@@ -329,7 +329,7 @@ Works directly with trait data from BIEN, TRY, and comparable databases, and is 
 
 - **CRAN:** [traitstrap](https://cran.r-project.org/web/packages/traitstrap/index.html)
 - **GitHub:** [Plant-Functional-Trait-Course/traitstrap](https://github.com/Plant-Functional-Trait-Course/traitstrap)
-- **Citation:** Maitner, B. S., et al. (2023). On the utility of the community-weighted mean of trait distributions. *Methods in Ecology and Evolution*, *14*(7), 1706–1714. [https://doi.org/10.1111/2041-210X.14160](https://doi.org/10.1111/2041-210X.14160)
+- **Citation:** Maitner, B. S., et al. (2023). On the utility of the community-weighted mean of trait distributions. _Methods in Ecology and Evolution_, _14_(7), 1706–1714. [https://doi.org/10.1111/2041-210X.14160](https://doi.org/10.1111/2041-210X.14160)
 - **Vignette:** [traitstrap vignette](https://cran.r-project.org/web/packages/traitstrap/vignettes/)
 
 ```r
@@ -346,7 +346,7 @@ library(traitstrap)
 Infers species associations from community co-occurrence matrices using partial correlations and Gaussian graphical models. Null modeling controls for shared abundance structure and species richness, isolating true biotic signal from sampling artefacts. Returns a signed species association network with positive (co-occurrence above null expectation) and negative (segregation below null expectation) edges, suitable for downstream network analysis and community assembly inference.
 
 - **CRAN:** [netassoc](https://cran.r-project.org/package=netassoc)
-- **Citation:** Morueta-Holme, N., Blonder, B., Sandel, B., McGill, B. J., Peet, R. K., Ott, J. E., Violle, C., Enquist, B. J., Jørgensen, P. M., & Svenning, J.-C. (2016). A network approach for inferring species associations from co-occurrence data. *Ecography*, *39*(12), 1139–1150. [https://doi.org/10.1111/ecog.01892](https://doi.org/10.1111/ecog.01892)
+- **Citation:** Morueta-Holme, N., Blonder, B., Sandel, B., McGill, B. J., Peet, R. K., Ott, J. E., Violle, C., Enquist, B. J., Jørgensen, P. M., & Svenning, J.-C. (2016). A network approach for inferring species associations from co-occurrence data. _Ecography_, _39_(12), 1139–1150. [https://doi.org/10.1111/ecog.01892](https://doi.org/10.1111/ecog.01892)
 
 ---
 
@@ -357,7 +357,7 @@ Infers species associations from community co-occurrence matrices using partial 
 Computes community climate statistics for volume and mismatch using species' climate niches, either unscaled or scaled relative to a regional species pool. Used to describe biogeographic patterns and infer community assembly processes.
 
 - **CRAN:** [comclim](https://cran.r-project.org/package=comclim)
-- **Citation:** Blonder, B., Nogués-Bravo, D., Borregaard, M. K., Donoghue II, J. C., Jørgensen, P. M., Kraft, N. J. B., Lessard, J.-P., Morueta-Holme, N., Sandel, B., Svenning, J.-C., Violle, C., Rahbek, C., & Enquist, B. J. (2015). Linking environmental filtering and disequilibrium to biogeography with a community climate framework. *Ecology*, *96*(4), 972–985. [https://doi.org/10.1890/14-0589.1](https://doi.org/10.1890/14-0589.1)
+- **Citation:** Blonder, B., Nogués-Bravo, D., Borregaard, M. K., Donoghue II, J. C., Jørgensen, P. M., Kraft, N. J. B., Lessard, J.-P., Morueta-Holme, N., Sandel, B., Svenning, J.-C., Violle, C., Rahbek, C., & Enquist, B. J. (2015). Linking environmental filtering and disequilibrium to biogeography with a community climate framework. _Ecology_, _96_(4), 972–985. [https://doi.org/10.1890/14-0589.1](https://doi.org/10.1890/14-0589.1)
 
 ---
 
@@ -368,7 +368,7 @@ Computes community climate statistics for volume and mismatch using species' cli
 Estimates the shape and volume of high-dimensional ecological objects (niches, trait distributions) and performs set operations including intersection, union, and overlap. Used for n-dimensional niche quantification, trait-space analysis, and set operations on ecological hypervolumes.
 
 - **CRAN:** [hypervolume](https://cran.r-project.org/package=hypervolume)
-- **Citation:** Blonder, B., Lamanna, C., Violle, C., & Enquist, B. J. (2014). The n-dimensional hypervolume. *Global Ecology and Biogeography*, *23*(5), 595–609. [https://doi.org/10.1111/geb.12146](https://doi.org/10.1111/geb.12146)
+- **Citation:** Blonder, B., Lamanna, C., Violle, C., & Enquist, B. J. (2014). The n-dimensional hypervolume. _Global Ecology and Biogeography_, _23_(5), 595–609. [https://doi.org/10.1111/geb.12146](https://doi.org/10.1111/geb.12146)
 
 ---
 
@@ -382,7 +382,7 @@ Pairs naturally with the lab's long-term ecosystem monitoring work at sites incl
 
 - **CRAN:** [fluxible](https://cran.r-project.org/package=fluxible)
 - **GitHub:** [jogaudard/fluxible](https://github.com/jogaudard/fluxible)
-- **Citation:** Gaudard, J., Telford, R. J., Chacón-Labella, J., Dawson, H. R., Enquist, B. J., Töpper, J. P., Trepel, J., Vandvik, V., Baumane, M., Birkeli, K., Holle, M. J. M., Hupp, J. R., Santos-Andrade, P. E., Satriawan, T. W., & Halbritter, A. H. (2025). fluxible: An R package to process ecosystem gas fluxes from closed-loop chambers in an automated and reproducible way. *Methods in Ecology and Evolution*, *16*(11), 2560–2568. [https://doi.org/10.1111/2041-210X.70161](https://doi.org/10.1111/2041-210X.70161)
+- **Citation:** Gaudard, J., Telford, R. J., Chacón-Labella, J., Dawson, H. R., Enquist, B. J., Töpper, J. P., Trepel, J., Vandvik, V., Baumane, M., Birkeli, K., Holle, M. J. M., Hupp, J. R., Santos-Andrade, P. E., Satriawan, T. W., & Halbritter, A. H. (2025). fluxible: An R package to process ecosystem gas fluxes from closed-loop chambers in an automated and reproducible way. _Methods in Ecology and Evolution_, _16_(11), 2560–2568. [https://doi.org/10.1111/2041-210X.70161](https://doi.org/10.1111/2041-210X.70161)
 
 ---
 
@@ -390,7 +390,7 @@ Pairs naturally with the lab's long-term ecosystem monitoring work at sites incl
 
 Open software integrating biodiversity layers with mobile APIs to deliver plant identification and occurrence information.
 
-- **Citation:** Enquist et al. (2016) *Methods in Ecology and Evolution*
+- **Citation:** Enquist et al. (2016) _Methods in Ecology and Evolution_
 - [GitHub](https://github.com/efitz/plantomatic)
 
 ### OpenTraits Network
@@ -403,8 +403,8 @@ OTN operates as an open science community: methods, tools, and data are made pub
 
 - **Website:** [opentraits.org](https://opentraits.org/)
 - **GitHub:** [open-traits-network](https://github.com/open-traits-network)
-- **Key paper:** Gallagher, R. V., et al. (2020). Open Science principles for accelerating trait-based science across the Tree of Life. *Nature Ecology & Evolution*, *4*(3), 294–303. [https://doi.org/10.1038/s41559-020-1109-6](https://doi.org/10.1038/s41559-020-1109-6)
-- **Data standards:** Keller, A., et al. (2023). A standardized dataset of trait observations from citizen science and natural history collections. *Methods in Ecology and Evolution*, *14*(1), 76–87. [https://doi.org/10.1111/2041-210X.14033](https://doi.org/10.1111/2041-210X.14033)
+- **Key paper:** Gallagher, R. V., et al. (2020). Open Science principles for accelerating trait-based science across the Tree of Life. _Nature Ecology & Evolution_, _4_(3), 294–303. [https://doi.org/10.1038/s41559-020-1109-6](https://doi.org/10.1038/s41559-020-1109-6)
+- **Data standards:** Keller, A., et al. (2023). A standardized dataset of trait observations from citizen science and natural history collections. _Methods in Ecology and Evolution_, _14_(1), 76–87. [https://doi.org/10.1111/2041-210X.14033](https://doi.org/10.1111/2041-210X.14033)
 
 ---
 
@@ -521,4 +521,3 @@ Open datasets from lab publications spanning biomass allocation, nutrient scalin
     }
   }
 </style>
-

@@ -213,7 +213,7 @@ nav_order: 2.1
 
 ## Alumni
 
-*Former Lab Graduate Students, Notable Undergraduates & Postdocs*
+_Former Lab Graduate Students, Notable Undergraduates & Postdocs_
 
 {% if site.data.people.alumni.size > 0 %}
 
@@ -231,17 +231,19 @@ nav_order: 2.1
 {% assign grad_2020s = grad_alumni | where_exp: "p", "p.start_year >= 2020" %}
 
 {% comment %}
-  Prefer Scholar links for alumni names, then fall back to ResearchGate,
-  LinkedIn, or website so non-Scholar profiles remain clickable.
+Prefer Scholar links for alumni names, then fall back to ResearchGate,
+LinkedIn, or website so non-Scholar profiles remain clickable.
 {% endcomment %}
 
 {% if postdoc_alumni.size > 0 %}
+
 <section class="alumni-band">
   <div class="alumni-band__header">
     <h3>Former Postdoctoral Researchers <span class="alumni-count-badge">{{ postdoc_alumni.size }}</span></h3>
   </div>
 
-  {% if postdoc_2000s.size > 0 %}
+{% if postdoc_2000s.size > 0 %}
+
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2000s</p>
     <div class="alumni-directory">
@@ -260,7 +262,8 @@ nav_order: 2.1
   </div>
   {% endif %}
 
-  {% if postdoc_2010s.size > 0 %}
+{% if postdoc_2010s.size > 0 %}
+
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2010s</p>
     <div class="alumni-directory">
@@ -279,7 +282,8 @@ nav_order: 2.1
   </div>
   {% endif %}
 
-  {% if postdoc_2020s.size > 0 %}
+{% if postdoc_2020s.size > 0 %}
+
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2020s</p>
     <div class="alumni-directory">
@@ -301,12 +305,14 @@ nav_order: 2.1
 {% endif %}
 
 {% if grad_alumni.size > 0 %}
+
 <section class="alumni-band">
   <div class="alumni-band__header">
     <h3>Former Graduate Students <span class="alumni-count-badge">{{ grad_alumni.size }}</span></h3>
   </div>
 
-  {% if grad_2000s.size > 0 %}
+{% if grad_2000s.size > 0 %}
+
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2001–2009</p>
     <div class="alumni-directory">
@@ -325,7 +331,8 @@ nav_order: 2.1
   </div>
   {% endif %}
 
-  {% if grad_2010s.size > 0 %}
+{% if grad_2010s.size > 0 %}
+
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2010–2019</p>
     <div class="alumni-directory">
@@ -344,7 +351,8 @@ nav_order: 2.1
   </div>
   {% endif %}
 
-  {% if grad_2020s.size > 0 %}
+{% if grad_2020s.size > 0 %}
+
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2020s</p>
     <div class="alumni-directory">
@@ -366,6 +374,7 @@ nav_order: 2.1
 {% endif %}
 
 {% if undergrad_alumni.size > 0 %}
+
 <section class="alumni-band">
   <div class="alumni-band__header">
     <h3>Notable Undergraduate Researchers</h3>
@@ -409,4 +418,3 @@ nav_order: 2.1
 </div>
 
 </div>
-

@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 Multiple Enquist Lab presentations at the 2021 AGU meetings, including a talk on Trait Driver Theory and ecosystem response to global change.
-

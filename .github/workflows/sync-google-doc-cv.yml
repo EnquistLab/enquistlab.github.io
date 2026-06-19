@@ -2,7 +2,7 @@ name: Sync Google Doc CV
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # daily at 21:00 Mountain (04:00 UTC)
+    - cron: "0 4 * * *" # daily at 21:00 Mountain (04:00 UTC)
   workflow_dispatch:
 
 permissions:
@@ -56,13 +56,13 @@ jobs:
                   scripts/rebuild_publications_include_from_doc.py \
                   _includes/publications_full_from_doc.md
           git commit -m "chore(cv): sync CV and publications from Google Doc"
-          
+
           # Pull and rebase before push to avoid race conditions
           git pull --rebase origin main || {
             echo "⚠️ Rebase conflict; aborting push."
             exit 1
           }
-          
+
           # Push with one retry on transient failure
           git push || git push
           echo "changed=true" >> $GITHUB_OUTPUT

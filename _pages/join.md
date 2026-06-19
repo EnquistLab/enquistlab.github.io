@@ -80,4 +80,3 @@ We welcome international visiting students and researchers. Contact Brian direct
 		<figcaption>Research opportunities span tropical forests, alpine systems, and cross-site synthesis projects.</figcaption>
 	</figure>
 </div>
-

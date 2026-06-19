@@ -57,11 +57,12 @@ Since 2003 we have been monitoring ecosystem carbon fluxes, species composition 
 ---
 
 <a id="rmbl-transplant-project"></a>
+
 ### (3) RMBL Transplant Project (Climate Change Experiment) & TransPlant Network
 
 The [RMBL Climate Change Experiment](https://rmblclimatechangeexperiment.wordpress.com/) is a whole-community transplant experiment in the East River watershed near Crested Butte, Colorado. Beginning in 2017, intact 0.5 m² meadow turf blocks (plants plus soils) were moved up and down a ~400 m elevational gradient in Washington Gulch to simulate rapid climate shifts under controlled field conditions. This design allows direct tests of both climatic and biotic controls on plant communities by exposing intact community structure to warmer or cooler environments. Research integrates functional trait measurements, carbon and water fluxes, and species cover/height tracking to quantify community and ecosystem responses.
 
-The RMBL experiment is part of the broader [**TransPlant Network**](https://billurbektas.shinyapps.io/transplantshiny-1/) — a coordinated network of 22 elevation gradients distributed across 20 different mountainous regions of the Northern Hemisphere, [described in Bektas et al. (2024, *Ecography*)](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.07378). Across the network, whole plant communities (vegetation "turfs" or monoliths, including soil) have been transplanted to lower elevations to simulate the effects of climate warming. The basic design involves moving turfs from a higher, cooler origin site to a lower, warmer destination site, providing experimental warming treatments that complement passive warming approaches. Sites span high-latitude and high-altitude systems from Scandinavia to China to the Rocky Mountains, capturing a wide range of background climates and plant community types (see Fig. 1 below). The network enables rigorous tests of how climate warming restructures plant functional diversity, community composition, productivity, and ecosystem carbon balance across contrasting ecological contexts.
+The RMBL experiment is part of the broader [**TransPlant Network**](https://billurbektas.shinyapps.io/transplantshiny-1/) — a coordinated network of 22 elevation gradients distributed across 20 different mountainous regions of the Northern Hemisphere, [described in Bektas et al. (2024, _Ecography_)](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.07378). Across the network, whole plant communities (vegetation "turfs" or monoliths, including soil) have been transplanted to lower elevations to simulate the effects of climate warming. The basic design involves moving turfs from a higher, cooler origin site to a lower, warmer destination site, providing experimental warming treatments that complement passive warming approaches. Sites span high-latitude and high-altitude systems from Scandinavia to China to the Rocky Mountains, capturing a wide range of background climates and plant community types (see Fig. 1 below). The network enables rigorous tests of how climate warming restructures plant functional diversity, community composition, productivity, and ecosystem carbon balance across contrasting ecological contexts.
 
 TransPlant network data and experiment-specific results can be visualized on the dedicated Shiny app: [**billurbektas.shinyapps.io/transplantshiny-1**](https://billurbektas.shinyapps.io/transplantshiny-1/).
 
@@ -75,9 +76,10 @@ TransPlant network data and experiment-specific results can be visualized on the
 </div>
 
 Project details:
+
 - [RMBL Experiment Home](https://rmblclimatechangeexperiment.wordpress.com/)
 - [TransPlant Shiny App](https://billurbektas.shinyapps.io/transplantshiny-1/)
-- [Bektas et al. 2024, *Ecography* — TransPlant Network Paper](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.07378)
+- [Bektas et al. 2024, _Ecography_ — TransPlant Network Paper](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.07378)
 
 <div class="photo-pair" id="transplant-photo-pair">
   <figure>
@@ -169,11 +171,11 @@ Our international [Plant Functional Trait Courses](https://plantfunctionaltraits
 #### Published PFTC Data Papers & Datasets
 
 **Peru Elevation Gradient (Puna Grasslands)**
-[Halbritter et al. (2024)](https://doi.org/10.1038/s41597-024-03149-8): "Plant trait and vegetation data along a 1314 m elevation gradient with fire history in Puna grasslands, Perú". *Scientific Data*. Covers 14 functional traits, community composition, and ecosystem fluxes over three years.
+[Halbritter et al. (2024)](https://doi.org/10.1038/s41597-024-03149-8): "Plant trait and vegetation data along a 1314 m elevation gradient with fire history in Puna grasslands, Perú". _Scientific Data_. Covers 14 functional traits, community composition, and ecosystem fluxes over three years.
 [[GitHub: PFTC_Peru]](https://github.com/Plant-Functional-Trait-Course/PFTC_Peru)
 
 **Norway Global Change Experiments**
-[Egelkraut et al. (2025)](https://doi.org/10.1038/s41597-025-04364-3): "Plant traits and associated ecological data from global change experiments and climate gradients in Norway". *Scientific Data*. Includes trait, hyperspectral, and CO₂ flux data from alpine and boreal grasslands.
+[Egelkraut et al. (2025)](https://doi.org/10.1038/s41597-025-04364-3): "Plant traits and associated ecological data from global change experiments and climate gradients in Norway". _Scientific Data_. Includes trait, hyperspectral, and CO₂ flux data from alpine and boreal grasslands.
 [[GitHub: PFTC_Norway]](https://github.com/Plant-Functional-Trait-Course/PFTC_Norway)
 
 **Svalbard Arctic Study**
@@ -211,7 +213,7 @@ The [**Andes Biodiversity and Ecosystems Research Group (ABERG)**](https://www.a
 
 The **CHAnging Montane Biodiversity And Structure Along the Andes (CHAMBASA)** program, led by [Yadvinder Malhi](https://www.eci.ox.ac.uk/people/ymalhi) (Oxford University), operates as ABERG's primary ecosystem process and forest dynamics monitoring arm. CHAMBASA maintains a network of permanent forest census and functional trait measurement plots at key Amazon Conservation Association field stations across the transect, including **Wayqecha** (~3,000 m, upper montane cloud forest) and **Villa Carmen** (~580 m, premontane forest), with additional plots at San Pedro (~1,500 m), Trocha Union (~1,855 m), and Pantiacolla (~450 m) near the lowland Amazon. CHAMBASA plots are part of the Global Ecosystems Monitoring (GEM) network based at Oxford. At each site, researchers conduct standardized forest census (stems, diameter, height), leaf and wood functional trait measurement, and — in collaboration with Carnegie Institution scientists Gregory Asner and Roberta Martin — airborne hyperspectral imaging that scales plot-level trait distributions to landscape and regional extents.
 
-Research across ABERG and CHAMBASA addresses how carbon stocks, net primary productivity, forest structure, and plant functional traits respond to systematic variation in temperature, cloud immersion, and solar radiation along the gradient. Key findings include: the dominant role of declining solar radiation (not temperature alone) in driving reduced forest productivity at higher elevations ([Fyllas et al. 2017, *Ecology Letters*](https://doi.org/10.1111/ele.12770)); the large-scale consistency of trait-based allometric scaling theory across a 20°C temperature span ([Enquist et al. 2017, *Global Ecology and Biogeography*](https://doi.org/10.1111/geb.12645)); remote sensing of canopy functional trait distributions from airborne hyperspectral imagery ([Asner et al. 2017, *New Phytologist*](https://doi.org/10.1111/nph.14303); [Durán et al. 2019, *Science Advances*](https://doi.org/10.1126/sciadv.aaw8114)); the predicted darkening of tropical forest leaves under climate change ([Doughty et al. 2018, *Nature Climate Change*](https://doi.org/10.1038/s41558-018-0319-7)); and the structural and defensive roles of leaf venation networks along the gradient ([Blonder et al. 2017, *Ecology*](https://doi.org/10.1002/ecy.1731)). Since 2018, the monitoring network has extended into the puna ecosystem above tree line in collaboration with the [Plant Functional Trait Courses (PFTC)](/field-sites/#4-plant-functional-trait-courses-pftc) program.
+Research across ABERG and CHAMBASA addresses how carbon stocks, net primary productivity, forest structure, and plant functional traits respond to systematic variation in temperature, cloud immersion, and solar radiation along the gradient. Key findings include: the dominant role of declining solar radiation (not temperature alone) in driving reduced forest productivity at higher elevations ([Fyllas et al. 2017, _Ecology Letters_](https://doi.org/10.1111/ele.12770)); the large-scale consistency of trait-based allometric scaling theory across a 20°C temperature span ([Enquist et al. 2017, _Global Ecology and Biogeography_](https://doi.org/10.1111/geb.12645)); remote sensing of canopy functional trait distributions from airborne hyperspectral imagery ([Asner et al. 2017, _New Phytologist_](https://doi.org/10.1111/nph.14303); [Durán et al. 2019, _Science Advances_](https://doi.org/10.1126/sciadv.aaw8114)); the predicted darkening of tropical forest leaves under climate change ([Doughty et al. 2018, _Nature Climate Change_](https://doi.org/10.1038/s41558-018-0319-7)); and the structural and defensive roles of leaf venation networks along the gradient ([Blonder et al. 2017, _Ecology_](https://doi.org/10.1002/ecy.1731)). Since 2018, the monitoring network has extended into the puna ecosystem above tree line in collaboration with the [Plant Functional Trait Courses (PFTC)](/field-sites/#4-plant-functional-trait-courses-pftc) program.
 
 Key collaborators include Norma Salinas and Walter Huaraca Huasco (UNSAAC, Cusco), Sandra Díaz (CONICET), Lisa Bentley (Sonoma State), Alexander Shenkin (Oxford), Benjamin Blonder (UC Berkeley), Gregory Goldsmith (Chapman), and Christopher Doughty (Northern Arizona University).
 
@@ -245,5 +247,4 @@ The [Forest MacroSystems Network](https://www.forestmacrosystems.org/) consists 
 
 ---
 
-*For access to data from these sites, contact the lab or visit [biendata.org](https://biendata.org/).*
-
+_For access to data from these sites, contact the lab or visit [biendata.org](https://biendata.org/)._

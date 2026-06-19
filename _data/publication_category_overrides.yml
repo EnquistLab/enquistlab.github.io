@@ -440,7 +440,7 @@ overrides:
   - id: OVERRIDE_NREVIEW_2006_INVARIANT_QUANTITIES_COMMENT
     title_hints:
       - "comment on “the illusion of invariant quantities in life histories”"
-      - "comment on \"the illusion of invariant quantities in life histories\""
+      - 'comment on "the illusion of invariant quantities in life histories"'
     force_categories:
       - metabolic-scaling-allometry
     rationale: scholarly-rigor-reviewer title-based recommendation.

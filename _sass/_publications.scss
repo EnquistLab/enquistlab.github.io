@@ -41,7 +41,9 @@
       padding: 1rem 1rem 1rem 1.25rem;
       border-left: 3px solid transparent;
       border-radius: 0 4px 4px 0;
-      transition: border-color 0.2s ease, background 0.2s ease;
+      transition:
+        border-color 0.2s ease,
+        background 0.2s ease;
 
       &:hover {
         border-left-color: var(--global-theme-color);
@@ -132,7 +134,10 @@
           letter-spacing: 0.04em;
           text-transform: uppercase;
           border-radius: 3px;
-          transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+          transition:
+            color 0.15s ease,
+            border-color 0.15s ease,
+            background 0.15s ease;
 
           &:hover {
             color: var(--global-hover-color);
@@ -165,7 +170,9 @@
         max-height: 0px;
         overflow: hidden;
         opacity: 0;
-        transition: max-height 0.22s ease, opacity 0.18s ease;
+        transition:
+          max-height 0.22s ease,
+          opacity 0.18s ease;
 
         p {
           line-height: 1.4em;
@@ -182,7 +189,9 @@
       .hidden.open {
         max-height: 100em;
         opacity: 1;
-        transition: max-height 0.22s ease, opacity 0.18s ease;
+        transition:
+          max-height 0.22s ease,
+          opacity 0.18s ease;
       }
 
       div.abstract.hidden {
