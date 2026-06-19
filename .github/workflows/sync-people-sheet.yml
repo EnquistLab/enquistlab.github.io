@@ -65,7 +65,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add _data/people.yml assets/img/team/
           git commit -m "chore(people): sync lab member data from Google Sheet"
-          git push
+          
+          # Pull and rebase before push to avoid race conditions
+          git pull --rebase origin main || {
+            echo "⚠️ Rebase conflict; aborting push."
+            exit 1
+          }
+          
+          # Push with one retry on transient failure
+          git push || git push
           echo "changed=true" >> $GITHUB_OUTPUT
 
       # Deploy is now triggered automatically on push to main; no manual dispatch needed.

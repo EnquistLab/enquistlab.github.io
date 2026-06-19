@@ -56,7 +56,15 @@ jobs:
                   scripts/rebuild_publications_include_from_doc.py \
                   _includes/publications_full_from_doc.md
           git commit -m "chore(cv): sync CV and publications from Google Doc"
-          git push
+          
+          # Pull and rebase before push to avoid race conditions
+          git pull --rebase origin main || {
+            echo "⚠️ Rebase conflict; aborting push."
+            exit 1
+          }
+          
+          # Push with one retry on transient failure
+          git push || git push
           echo "changed=true" >> $GITHUB_OUTPUT
 
       # Deploy is now triggered automatically on push to main; no manual dispatch needed.
