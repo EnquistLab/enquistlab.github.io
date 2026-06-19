@@ -5,8 +5,8 @@ overrides:
   # Keep title_hints concise and lowercase for robust matching.
   - id: OVERRIDE_ALTHUIZEN_2026_ALPINE_ECOPHYS
     title_hints:
-      - climate-induced shifts in plant investment strategies regulate ecosystem carbon cycling across alpine grasslands
-      - althuizen
+      - "climate-induced shifts in plant investment strategies regulate ecosystem carbon cycling across alpine grasslands"
+      - "althuizen"
     force_categories:
       - arctic-alpine
       - ecophysiology
@@ -14,34 +14,34 @@ overrides:
 
   - id: OVERRIDE_HORDIJK_2025_WORLD_FORESTS
     title_hints:
-      - effect of climate on traits of dominant and rare tree species in the world s forests
-      - effect of climate on traits of dominant and rare tree species in the world’s forests
-      - hordijk
+      - "effect of climate on traits of dominant and rare tree species in the world s forests"
+      - "effect of climate on traits of dominant and rare tree species in the world’s forests"
+      - "hordijk"
     force_categories:
       - macroecology
     rationale: User-reviewed manual assignment.
 
   - id: OVERRIDE_LOWE_2025_LEAF_MASS_AREA
     title_hints:
-      - global patterns in community scale leaf mass per area distributions of extant woody non monocot angiosperms
-      - global patterns in community‐scale leaf mass per area distributions of extant woody non‐monocot angiosperms
-      - lowe
+      - "global patterns in community scale leaf mass per area distributions of extant woody non monocot angiosperms"
+      - "global patterns in community‐scale leaf mass per area distributions of extant woody non‐monocot angiosperms"
+      - "lowe"
     force_categories:
       - trait-based-ecology
     rationale: User-reviewed manual assignment.
 
   - id: OVERRIDE_ENQUIST_2024_PREDICTIVE_BIOSPHERE
     title_hints:
-      - developing a predictive science of the biosphere requires the integration of scientific cultures
-      - enquist b j kempes c p and g b west
+      - "developing a predictive science of the biosphere requires the integration of scientific cultures"
+      - "enquist b j kempes c p and g b west"
     force_categories:
       - macroecology
     rationale: User-reviewed manual assignment.
 
   - id: OVERRIDE_MO_2023_FOREST_CARBON_POTENTIAL
     title_hints:
-      - integrated global assessment of the natural forest carbon potential
-      - mo lidong
+      - "integrated global assessment of the natural forest carbon potential"
+      - "mo lidong"
     force_categories:
       - macroecology
       - conservation-impacts
@@ -49,17 +49,17 @@ overrides:
 
   - id: OVERRIDE_DELAVAUX_2023_TREE_INVASIONS
     title_hints:
-      - native diversity buffers against severity of non native tree invasions
-      - native diversity buffers against severity of non-native tree invasions
-      - delavaux
+      - "native diversity buffers against severity of non native tree invasions"
+      - "native diversity buffers against severity of non-native tree invasions"
+      - "delavaux"
     force_categories:
       - macroecology
     rationale: User-reviewed manual assignment.
 
   - id: OVERRIDE_MUNOZ_2023_FUNCTIONAL_DISTINCTIVENESS
     title_hints:
-      - the ecological causes of functional distinctiveness in communities
-      - munoz
+      - "the ecological causes of functional distinctiveness in communities"
+      - "munoz"
     force_categories:
       - macroecology
       - trait-based-ecology
@@ -67,8 +67,532 @@ overrides:
 
   - id: OVERRIDE_CHAPLIN_KRAMER_2022_CONSERVATION_SCALES
     title_hints:
-      - conservation needs to integrate knowledge across scales
-      - chaplin-kramer
+      - "conservation needs to integrate knowledge across scales"
+      - "chaplin-kramer"
     force_categories:
       - conservation-impacts
     rationale: User-reviewed manual assignment.
+
+  - id: OVERRIDE_NREVIEW_2026_GLOBAL_FUNCTIONAL_SHIFTS
+    title_hints:
+      - "global functional shifts in trees driven by alien naturalization and native extinction"
+    force_categories:
+      - trait-based-ecology
+      - conservation-impacts
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2025_DROUGHT_LAYERS_CMIP6
+    title_hints:
+      - "global future drought layers based on downscaled cmip6 models and multiple socioeconomic pathways"
+    force_categories:
+      - biodiversity-informatics
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2022_NUMBER_TREE_SPECIES_EARTH
+    title_hints:
+      - "the number of tree species on earth"
+    force_categories:
+      - macroecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2021_SDM_TRANSFERABILITY
+    title_hints:
+      - "a test of species distribution model transferability across environmental and geographic space for 108 western north american tree species"
+      - "10.3389/fevo.2021.689295"
+    force_categories:
+      - biodiversity-informatics
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2021_PANDEMIC_LANDSCAPE
+    title_hints:
+      - "how pandemics rapidly reshape the evolutionary & ecological landscape"
+      - "how pandemics rapidly reshape the evolutionary and ecological landscape"
+    force_categories:
+      - conservation-impacts
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2020_DARWIN_NATURALIZATION
+    title_hints:
+      - "darwin’s naturalization conundrum can be explained by spatial scale"
+      - "darwin's naturalization conundrum can be explained by spatial scale"
+    force_categories:
+      - phylogenetic-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2020_ECOLOGICAL_SYNTHESIS
+    title_hints:
+      - "ecological synthesis and its role in advancing knowledge"
+    force_categories:
+      - macroecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2020_ROCKY_MOUNTAIN_DROUGHT
+    title_hints:
+      - "satellite-derived foresummer drought sensitivity of plant productivity in rocky mountain headwater catchments"
+    force_categories:
+      - ecophysiology
+      - arctic-alpine
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2019_CLIMATE_FUNCTIONAL_BIODIVERSITY
+    title_hints:
+      - "climate shapes and shifts functional biodiversity in forests worldwide"
+    force_categories:
+      - trait-based-ecology
+      - macroecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2019_THERMAL_SOIL_BACTERIAL
+    title_hints:
+      - "thermal disruption of soil bacterial assemblages decreases diversity and assemblage similarity"
+    force_categories:
+      - ecophysiology
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2019_SENSOR_NETWORKS_WATERSHEDS
+    title_hints:
+      - "challenges in building an end-to-end system for acquisition, management, and integration of diverse data from sensor networks in watersheds"
+    force_categories:
+      - biodiversity-informatics
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2019_SIZE_ABUNDANCE_PLANTS
+    title_hints:
+      - "on the relationships between size and abundance in plants: beyond forest communities"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2019_NEON_SAMPLING_DESIGN
+    title_hints:
+      - "the plant diversity sampling design for the national ecological observatory network"
+    force_categories:
+      - biodiversity-informatics
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2019_WOODY_SIZE_LEAF_NUTRIENT
+    title_hints:
+      - "relationship of woody plant size and leaf nutrient content to large‐scale productivity for forests across the americas"
+      - "relationship of woody plant size and leaf nutrient content to large-scale productivity for forests across the americas"
+      - "10.1111/1365-2745.13163"
+    force_categories:
+      - trait-based-ecology
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2018_TREE_RINGS_GLOBAL
+    title_hints:
+      - "when tree rings go global: challenges and opportunities for retro- and prospective insight"
+    force_categories:
+      - biodiversity-informatics
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2018_INTRAPOP_TRAIT_CORRELATIONS
+    title_hints:
+      - "similarities and differences in intrapopulation trait correlations of co‐occurring tree species"
+      - "similarities and differences in intrapopulation trait correlations of co-occurring tree species"
+    force_categories:
+      - trait-based-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2018_BIG_DATA_TREE_DISTRIBUTIONS
+    title_hints:
+      - "10.1186/s40663-017-0120-0"
+      - "big data of tree species distributions: how big and how good"
+    force_categories:
+      - biodiversity-informatics
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2018_HYPERVOLUMES
+    title_hints:
+      - "new approaches for delineating n-dimensional hypervolumes"
+    force_categories:
+      - biodiversity-informatics
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2017_PLANT_WINNERS_CLIMATE_CHANGE
+    title_hints:
+      - "climate change – which plants will be the winners"
+      - "climate change - which plants will be the winners"
+    force_categories:
+      - conservation-impacts
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2017_PREDICTABILITY_COMMUNITIES
+    title_hints:
+      - "predictability in community dynamics"
+    force_categories:
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2017_LESS_FAVOURABLE_CLIMATES
+    title_hints:
+      - "less favourable climates constrain demographic strategies in plants"
+    force_categories:
+      - ecophysiology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2017_BACTERIAL_CELL_SIZE
+    title_hints:
+      - "the evolution of bacterial cell size: the internal diffusion-constraint hypothesis"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2016_PROCESS_RANGE_MODELING
+    title_hints:
+      - "towards process-based range modeling of many species"
+    force_categories:
+      - biodiversity-informatics
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2016_FOREST_SENSITIVITY_CLIMATE
+    title_hints:
+      - "observed forest sensitivity to climate implies large changes in 21st century north american forest growth"
+    force_categories:
+      - ecophysiology
+      - conservation-impacts
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2016_TEMP_MICROBE_DIVERSITY
+    title_hints:
+      - "temperature mediates continental-scale diversity of microbes in forest soils"
+    force_categories:
+      - macroecology
+      - ecophysiology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2015_SAHARA_MUSTARD_SPREAD
+    title_hints:
+      - "novel spatial analysis methods reveal scale-dependent spread and its limiting factors in invasive sahara mustard"
+    force_categories:
+      - conservation-impacts
+      - biodiversity-informatics
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2015_FIRST_PRINCIPLES_ECOLOGY
+    title_hints:
+      - "on the importance of first principles in ecological theory development"
+    force_categories:
+      - macroecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2014_THEORY_IN_ECOLOGY
+    title_hints:
+      - "on theory in ecology"
+    force_categories:
+      - macroecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2014_CRETACEOUS_PALEOGENE_STRATEGIES
+    title_hints:
+      - "plant ecological strategies shift across the cretaceous-paleogene boundary"
+    force_categories:
+      - trait-based-ecology
+      - phylogenetic-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2014_REVISITING_DARWIN_INTRA
+    title_hints:
+      - "revisiting darwin’s hypothesis: does greater intraspecific variability increase species’ ecological breadth"
+      - "revisiting darwin's hypothesis: does greater intraspecific variability increase species' ecological breadth"
+    force_categories:
+      - trait-based-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2013_SLA_VARIATION
+    title_hints:
+      - "intra-specific and inter-specific variation in specific leaf area reveal the importance of abiotic and biotic drivers"
+    force_categories:
+      - trait-based-ecology
+      - macroecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2013_DEFENSE_TRADEOFFS
+    title_hints:
+      - "correlations between physical and chemical defenses in plants: tradeoffs, syndromes"
+    force_categories:
+      - trait-based-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2012_LEAF_AREA_SHRINKAGE
+    title_hints:
+      - "the leaf area shrinkage effect can bias paleoclimate and ecology research"
+    force_categories:
+      - trait-based-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2012_VIVA_LA_VARIANCE
+    title_hints:
+      - "viva la variance"
+    force_categories:
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2012_RETURN_OF_VARIANCE
+    title_hints:
+      - "the return of the variance: intraspecific variability in community ecology"
+    force_categories:
+      - functional-ecology
+      - trait-based-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2012_ECO_EVOLUTIONARY_DYNAMICS
+    title_hints:
+      - "eco-evolutionary community dynamics: covariation between diversity and invisibility across"
+    force_categories:
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2012_SPATIAL_AUTOCORR_NULL_MODELS
+    title_hints:
+      - "accounting for spatial autocorrelation in null models of tree species association"
+    force_categories:
+      - biodiversity-informatics
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2011_FOREST_ANNUAL_CARBON_COST
+    title_hints:
+      - "forest annual carbon cost: comment"
+    force_categories:
+      - ecophysiology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2009_BIG_SAGEBRUSH_RADIAL_GROWTH
+    title_hints:
+      - "controls on radial growth of mountain big sagebrush and implications for climate change"
+      - "ontrols on radial growth of mountain big sagebrush and implications for climate change"
+    force_categories:
+      - ecophysiology
+      - conservation-impacts
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2008_POWERLAW_EXPONENT
+    title_hints:
+      - "on estimating the exponent of power-law frequency distributions"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2008_NETWORK_FOREST_STRUCTURE
+    title_hints:
+      - "using network analysis to characterize forest structure"
+    force_categories:
+      - biodiversity-informatics
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2008_HIGHER_TAXA_FLORISSANT
+    title_hints:
+      - "higher taxa as paleoecological and paleoclimatic indicators"
+    force_categories:
+      - phylogenetic-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2007_BIOTIC_FEEDBACK_GLOBAL_CHANGE
+    title_hints:
+      - "an ecologist wonders how biotic feedback matters to global-change research"
+    force_categories:
+      - functional-ecology
+      - conservation-impacts
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2007_SCALING_LEAF_MASS_MORPHOLOGY
+    title_hints:
+      - "scaling mass and morphology in leaves: an extension of the wbe model"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2007_SCALING_RESILIENCE
+    title_hints:
+      - "implications of scaling approaches for understanding resilience and reorganization in ecosystems"
+    force_categories:
+      - metabolic-scaling-allometry
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2007_NULL_MODELS_SPATIAL_DISTRIBUTION
+    title_hints:
+      - "a class of null models of spatial distribution"
+    force_categories:
+      - biodiversity-informatics
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2007_BIOLOGICAL_SCALING_COMMENT
+    title_hints:
+      - "comment – biological scaling: does the exception prove the rule"
+      - "comment - biological scaling: does the exception prove the rule"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2006_FUNCTIONAL_COMMUNITY_RESPONSE
+    title_hints:
+      - "response to kearney and porter: both functional and community ecologists need to do more for each other"
+    force_categories:
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2006_INVARIANT_QUANTITIES_COMMENT
+    title_hints:
+      - "comment on “the illusion of invariant quantities in life histories”"
+      - "comment on \"the illusion of invariant quantities in life histories\""
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2006_MINIMAL_BRANCHING_SCALING
+    title_hints:
+      - "scaling of mass and morphology in plants with minimal branching: an extension of the wbe model"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2005_ORGANISMAL_SIZE_METAZOANS
+    title_hints:
+      - "organismal size, metabolism and the evolution of complexity in metazoans"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2004_GROWTH_MODELS_FIRST_PRINCIPLES
+    title_hints:
+      - "growth models based on first principles or phenomonology"
+      - "growth models based on first principles or phenomenology"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2003_SCALING_METABOLISM
+    title_hints:
+      - "scaling metabolism from organisms to ecosystems"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2003_MASS_GROWTH_DENSITY
+    title_hints:
+      - "a general model for mass-growth-density relations across plant communities"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2002_TAXONOMIC_DIVERSITY_BIOMASS
+    title_hints:
+      - "general patterns of taxonomic diversity and biomass partitioning across tree dominated communities"
+    force_categories:
+      - macroecology
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2002_UNIVERSAL_SCALING_VASCULAR
+    title_hints:
+      - "universal scaling in vascular plants: toward a general quantitative theory for linking plant processes from leaves to ecosystems"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2002_GLOBAL_ALLOCATION_COMMENT
+    title_hints:
+      - "global allocation rules for patterns of biomass partitioning"
+      - "science 296:1923a"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2002_CANONICAL_RULES_PARTITIONING
+    title_hints:
+      - "canonical rules for plant organ biomass partitioning and growth allocation"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2002_VEGETATIVE_PARTITIONING
+    title_hints:
+      - "on the vegetative biomass partitioning of seed plant leaves, stems, and roots"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2002_GLOBAL_ALLOCATION_SEED_PLANTS
+    title_hints:
+      - "global allocation rules for biomass partitioning in seed plants"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2002_ONTOGENETIC_GROWTH
+    title_hints:
+      - "ontogenetic growth: modeling universality and scaling"
+      - "nature 420: 626-627"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2001_INVARIANT_SCALING_RELATIONS
+    title_hints:
+      - "invariant scaling relations across tree-dominated communities"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2001_EVOLUTION_PLANT_COMMUNITIES
+    title_hints:
+      - "the evolution of plant communities: biodiversity and community structure through time"
+    force_categories:
+      - functional-ecology
+      - phylogenetic-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2000_DEVELOPMENTAL_INSTABILITY_RANGE
+    title_hints:
+      - "developmental instability and relative position within the geographic range"
+    force_categories:
+      - macroecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2000_SCALING_IN_BIOLOGY
+    title_hints:
+      - "scaling in biology: patterns and processes, causes and consequences"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_2000_ORIGIN_UNIVERSAL_SCALING
+    title_hints:
+      - "the origin of universal scaling laws in biology"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_1999_PLANT_ENERGETICS_DENSITY
+    title_hints:
+      - "plant energetics and population density"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_1999_DEDUCING_UNDERLYING_PRINCIPLES
+    title_hints:
+      - "deducing underlying principles of vascular plant structure and function"
+    force_categories:
+      - metabolic-scaling-allometry
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_1998_CONSTRAINT_LINES_PERFORMANCE
+    title_hints:
+      - "using constraint lines to characterize plant performance"
+    force_categories:
+      - functional-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
+
+  - id: OVERRIDE_NREVIEW_1993_SPECIES_CONCEPTS_HYBRIDIZATION
+    title_hints:
+      - "species concepts, response to ernst mayr: speciation and hybridization in plants"
+    force_categories:
+      - phylogenetic-ecology
+    rationale: scholarly-rigor-reviewer title-based recommendation.
