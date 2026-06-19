@@ -166,3 +166,7 @@
 - name: "Amanda Henderson"
   url: "/assets/img/team/amanda_henderson.jpg"
   source: "rmbl"
+
+- name: "Lorah Seltzer"
+  url: "/assets/img/team/lorah_seltzer.jpg"
+  source: "user_provided"
