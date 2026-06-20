@@ -32,7 +32,7 @@ nav_order: 3.1
     <span class="home-stat__label">Est.</span>
   </div>
   <div class="home-stat">
-    <span class="home-stat__number">10</span>
+    <span class="home-stat__number">11</span>
     <span class="home-stat__label">Research Areas</span>
   </div>
 </div>
@@ -521,6 +521,22 @@ nav_order: 3.1
           { pattern: /n-alkane/i, weight: 2 }, // Feakins et al. 2016 Organic Geochemistry
           { pattern: /physiochem/i, weight: 2 }, // Chavana-Bryant et al. 2016 spectral & physiochemical
           { pattern: /wettability/i, weight: 2 }, // Goldsmith et al. 2016 leaf wettability traits
+        ],
+      },
+      {
+        id: "ecological-stoichiometry",
+        label: "Ecological Stoichiometry",
+        threshold: 3,
+        matchers: [
+          // High-precision anchors to avoid over-labeling generic nutrient papers.
+          { pattern: /ecological stoichiometr|biological stoichiometr/i, weight: 3 },
+          { pattern: /\b(c:n:p|n:p|c:p|c:n)\b/i, weight: 3 },
+          { pattern: /nutrient stoichiometr/i, weight: 2 },
+          { pattern: /nitrogen.{0,25}phosphorus|phosphorus.{0,25}nitrogen/i, weight: 2 },
+          { pattern: /leaf nutrient content/i, weight: 1 },
+          { pattern: /nutrient stocks?.{0,25}primary productivity|primary productivity.{0,25}nutrient stocks?/i, weight: 2 },
+          { pattern: /elemental composition|elemental ratio/i, weight: 1 },
+          { pattern: /stoichiometric homeostasis|growth rate hypothesis|redfield ratio/i, weight: 3 },
         ],
       },
       {

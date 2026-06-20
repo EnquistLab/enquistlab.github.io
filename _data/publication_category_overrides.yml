@@ -1,6 +1,47 @@
 schema_version: 1
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 overrides:
+  # Conservative stoichiometry seeds: explicit stoichiometry/N-P framing only.
+  - id: OVERRIDE_STOICH_2016_GENERAL_SCALING_THEORY
+    title_hints:
+      - "toward a general scaling theory for linking traits stoichiometry and body size to ecosystem function"
+      - "michaletz s t"
+    force_categories:
+      - ecological-stoichiometry
+      - metabolic-scaling-allometry
+      - trait-based-ecology
+    rationale: Explicit stoichiometry framing with scaling and trait links.
+
+  - id: OVERRIDE_STOICH_2010_BIOLOGICAL_STOICHIOMETRY_PLANT_PRODUCTION
+    title_hints:
+      - "biological stoichiometry of plant production metabolism scaling and ecosystem response to global change"
+      - "elser j j"
+    force_categories:
+      - ecological-stoichiometry
+      - metabolic-scaling-allometry
+      - ecophysiology
+    rationale: Canonical stoichiometry review with metabolism/scaling and ecosystem process context.
+
+  - id: OVERRIDE_STOICH_2006_NITROGEN_PHOSPHORUS_SEED_PLANTS
+    title_hints:
+      - "phylogenetic and growth form variation in the scaling of nitrogen and phosphorus in the seed plants"
+      - "kerkhoff a j"
+    force_categories:
+      - ecological-stoichiometry
+      - phylogenetic-ecology
+      - trait-based-ecology
+    rationale: Explicit N-P scaling paper with phylogenetic and growth-form framing.
+
+  - id: OVERRIDE_STOICH_2005_ALLOMETRY_STOICHIOMETRY_PRIMARY_PRODUCTION
+    title_hints:
+      - "plant allometry ecological stoichiometry and the temperature-dependence of terrestrial primary production"
+      - "fagan w f"
+    force_categories:
+      - ecological-stoichiometry
+      - metabolic-scaling-allometry
+      - ecophysiology
+    rationale: Explicit ecological stoichiometry integrated with allometry and productivity.
+
   # User-requested explicit multi-category assignment.
   # Keep title_hints concise and lowercase for robust matching.
   - id: OVERRIDE_ALTHUIZEN_2026_ALPINE_ECOPHYS
