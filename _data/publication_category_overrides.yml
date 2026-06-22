@@ -1,16 +1,40 @@
 schema_version: 1
-last_updated: 2026-06-20
+last_updated: 2026-06-22
 overrides:
   # Conservative stoichiometry seeds: explicit stoichiometry/N-P framing only.
   - id: OVERRIDE_STOICH_2016_GENERAL_SCALING_THEORY
     title_hints:
       - "toward a general scaling theory for linking traits stoichiometry and body size to ecosystem function"
       - "michaletz s t"
+      - "kerkhoff a j"
+      - "in: ecosystems: a biogeoscience approach"
     force_categories:
       - ecological-stoichiometry
       - metabolic-scaling-allometry
       - trait-based-ecology
     rationale: Explicit stoichiometry framing with scaling and trait links.
+
+  - id: OVERRIDE_STOICH_2006_ECOSYSTEM_ALLOMETRY_NUTRIENT_STOCKS
+    title_hints:
+      - "ecosystem allometry: the scaling of nutrient stocks and primary productivity across plant communities"
+      - "ecosystem allometry the scaling of nutrient stocks and primary productivity across plant communities"
+      - "10.1111/j.1461-0248.2006.00890.x"
+    force_categories:
+      - ecological-stoichiometry
+      - metabolic-scaling-allometry
+      - ecophysiology
+    rationale: Explicit nutrient stocks and productivity scaling, consistent with stoichiometry overlap.
+
+  - id: OVERRIDE_STOICH_2017_TROPICAL_ELEVATION_PRODUCTIVITY
+    title_hints:
+      - "solar radiation and functional traits explain the decline of forest primary productivity along a tropical elevation gradient"
+      - "ecology letters, 20:730-740"
+      - "fyllas"
+    force_categories:
+      - ecological-stoichiometry
+      - trait-based-ecology
+      - ecophysiology
+    rationale: User-requested 2017 elevation-gradient overlap; links traits with productivity gradients.
 
   - id: OVERRIDE_STOICH_2010_BIOLOGICAL_STOICHIOMETRY_PLANT_PRODUCTION
     title_hints:
@@ -218,6 +242,7 @@ overrides:
       - "relationship of woody plant size and leaf nutrient content to large-scale productivity for forests across the americas"
       - "10.1111/1365-2745.13163"
     force_categories:
+      - ecological-stoichiometry
       - trait-based-ecology
       - metabolic-scaling-allometry
     rationale: scholarly-rigor-reviewer title-based recommendation.
