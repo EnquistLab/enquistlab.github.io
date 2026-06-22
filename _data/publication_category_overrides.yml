@@ -1,6 +1,74 @@
 schema_version: 1
 last_updated: 2026-06-22
 overrides:
+  # PFTC consortium trait-data papers and stoichiometry/nutrient overlap
+  - id: OVERRIDE_STOICH_2025_HALBRITTER_NITROGEN_GRAZING_ALPINE
+    title_hints:
+      - "effects of warming nitrogen and grazing on plant functional traits differ between alpine and sub-alpine grasslands"
+      - "halbritter 2025"
+      - "journal of vegetation science 36.5"
+    force_categories:
+      - ecological-stoichiometry
+      - trait-based-ecology
+      - ecophysiology
+    rationale: Explicit nitrogen treatment and trait responses; primary stoichiometric driver.
+
+  - id: OVERRIDE_STOICH_2024_HALBRITTER_PUNA_ELEVATION_GRADIENT
+    title_hints:
+      - "plant trait and vegetation data along a 1314 m elevation gradient with fire history in puna grasslands peru"
+      - "halbritter vandvik cotner 2024"
+      - "10.1038/s41597-024-02980-3"
+    force_categories:
+      - ecological-stoichiometry
+      - trait-based-ecology
+      - ecophysiology
+    rationale: PFTC elevation-gradient dataset with likely nutrient-trait measurements across fire history; user-flagged as stoichiometric.
+
+  - id: OVERRIDE_STOICH_2025_HALBRITTER_AFROMONTANE_GRASSLANDS
+    title_hints:
+      - "plant traits and associated ecological data from afromontane grasslands of maloti-drakensberg south africa"
+      - "halbritter bison clark 2025"
+      - "10.1038/s41597-025-06045-x"
+    force_categories:
+      - ecological-stoichiometry
+      - trait-based-ecology
+      - biodiversity-informatics
+    rationale: PFTC regional trait dataset with ecosystem context; user-flagged as stoichiometric.
+
+  - id: OVERRIDE_STOICH_2025_VANDVIK_NORWAY_CLIMATE_GRADIENTS
+    title_hints:
+      - "plant traits and associated ecological data from global change experiments and climate gradients in norway"
+      - "vandvik halbritter maitner michaletz enquist 2025"
+      - "10.1038/s41597-025-05509-4"
+    force_categories:
+      - ecological-stoichiometry
+      - trait-based-ecology
+      - climate-response-traits
+    rationale: PFTC global-change experiment with trait responses along climate gradients; user-flagged as stoichiometric.
+
+  - id: OVERRIDE_STOICH_2023_VANDVIK_SVALBARD_WARMING
+    title_hints:
+      - "plant traits and associated data from a warming experiment a seabird colony and along elevation in svalbard"
+      - "vandvik halbritter althuizen 2023"
+      - "10.1038/s41597-023-02467-7"
+    force_categories:
+      - ecological-stoichiometry
+      - trait-based-ecology
+      - ecophysiology
+    rationale: PFTC warming experiment and seabird-nutrient-input system; user-flagged as stoichiometric.
+
+  - id: OVERRIDE_STOICH_2017_ENQUIST_TRAIT_SCALING_TROPICAL_ELEVATION
+    title_hints:
+      - "assessing trait-based scaling theory in tropical forests spanning a broad temperature gradient"
+      - "enquist bentley shenkin maitner savage michaletz 2017"
+      - "global ecology and biogeography 26:1357"
+    force_categories:
+      - ecological-stoichiometry
+      - trait-based-ecology
+      - metabolic-scaling-allometry
+      - ecophysiology
+    rationale: User-flagged 2017 Enquist trait-scaling paper with elevation gradient; likely includes nutrient/elemental composition measurements in trait suite.
+
   # Conservative stoichiometry seeds: explicit stoichiometry/N-P framing only.
   - id: OVERRIDE_STOICH_2016_GENERAL_SCALING_THEORY
     title_hints:
