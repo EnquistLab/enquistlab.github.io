@@ -2,6 +2,18 @@ schema_version: 1
 last_updated: 2026-06-22
 overrides:
   # PFTC consortium trait-data papers and stoichiometry/nutrient overlap
+  - id: OVERRIDE_STOICH_2020_VANDVIK_GONGGA_CHINA_ELEVATION
+    title_hints:
+      - "plant traits and vegetation data from climate warming experiments along an 1100 m elevation gradient in gongga mountains china"
+      - "vandvik halbritter yang he zhang brummer klanderud maitner michaletz 2020"
+      - "10.1038/s41597-020-0529-0"
+    force_categories:
+      - ecological-stoichiometry
+      - trait-based-ecology
+      - climate-response-traits
+      - ecophysiology
+    rationale: PFTC warming experiment with elevation gradient in China; trait responses across temperature and elevation.
+
   - id: OVERRIDE_STOICH_2025_HALBRITTER_NITROGEN_GRAZING_ALPINE
     title_hints:
       - "effects of warming nitrogen and grazing on plant functional traits differ between alpine and sub-alpine grasslands"
