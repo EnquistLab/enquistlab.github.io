@@ -61,3 +61,15 @@ Please evaluate PASS/FAIL for:
 Return concise evidence per check and overall status."
 
 2026-06-23 | "yes, commit and push these publication changes"
+
+2026-06-23 | "Run mandatory final gate checks for /Users/brianjenquist/VSCode/enquistlab-site-migration after committing and pushing publication updates.
+
+Commit pushed: 281184cf on main.
+
+Please evaluate PASS/FAIL for:
+1) Prompt recorded in agents/prompt_log.md
+2) Updated Rmd files compile successfully (if any changed)
+3) Updated R packages build successfully (if any changed)
+4) Git push status confirmed
+
+Return concise evidence per check and overall status."
