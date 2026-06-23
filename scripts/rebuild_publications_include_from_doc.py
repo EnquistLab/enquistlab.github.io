@@ -81,6 +81,7 @@ def title_key(html_text):
     match = re.search(r"\(\d{4}\)[.\s]+(.+)", text)
     if match:
         text = match.group(1)
+    text = re.sub(r"\bfrontiers in ecology and the environment\b.*$", "", text, flags=re.IGNORECASE)
     text = re.sub(r"[^a-z0-9]+", " ", text.lower())
     return re.sub(r"\s+", " ", text).strip()[:160]
 
@@ -255,6 +256,23 @@ def render_include(items_by_year):
     return "\n".join(lines) + "\n"
 
 
+def dedupe_items_by_title(items_by_year):
+    """Remove duplicate items within a year using normalized title keys."""
+    deduped = OrderedDict()
+    for year, items in items_by_year.items():
+        seen_titles = set()
+        deduped_items = []
+        for item in items:
+            tkey = title_key(item)
+            if tkey and tkey in seen_titles:
+                continue
+            if tkey:
+                seen_titles.add(tkey)
+            deduped_items.append(item)
+        deduped[year] = deduped_items
+    return deduped
+
+
 def main():
     include_text = PUBS_HTML.read_text(encoding="utf-8") if PUBS_HTML.exists() else ""
     existing_by_year, keys_by_year = parse_existing_include(include_text)
@@ -273,6 +291,8 @@ def main():
                 existing_by_year[year].append(item)
                 keys_by_year[year].add(key)
                 additions += 1
+
+    existing_by_year = dedupe_items_by_title(existing_by_year)
 
     rendered = render_include(existing_by_year)
     PUBS_HTML.write_text(rendered, encoding="utf-8")
