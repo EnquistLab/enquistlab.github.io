@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 """
-Rebuild the publications include from the current cleaned include plus the
-public Google Doc HTML export.
+Rebuild the publications include from the public Google Doc HTML export.
 
-This script fixes two recurring drift problems:
-1. Items can sit under the wrong year block if the Google Doc year heading
-   formatting changes.
-2. New items can appear in the public Google Doc but not in the website include.
+This script fixes recurring drift between the website include and the shared
+Google Doc source.
 
-The strategy is conservative:
-- Start from the existing cleaned website include.
-- Reassign each existing <li> to the year inferred from the citation text.
-- Parse the public Google Doc HTML export, clean the anchor URLs, and add any
-  missing items by year.
+The strategy is canonical:
+- Parse the public Google Doc HTML export.
+- Infer years from citation text.
+- Deduplicate titles within each year.
 - Render a normalized include with one explicit year block per inferred year.
+
+Using the Google Doc as source-of-truth ensures removals in the doc are
+reflected in the generated include on the next rebuild.
 """
 
 import re
@@ -274,29 +273,16 @@ def dedupe_items_by_title(items_by_year):
 
 
 def main():
-    include_text = PUBS_HTML.read_text(encoding="utf-8") if PUBS_HTML.exists() else ""
-    existing_by_year, keys_by_year = parse_existing_include(include_text)
-
     doc_html = load_doc_html()
     doc_by_year = parse_doc_items_by_year(doc_html)
 
-    additions = 0
-    for year, items in doc_by_year.items():
-        if year not in existing_by_year:
-            existing_by_year[year] = []
-            keys_by_year[year] = set()
-        for item in items:
-            key = item_identity_key(item)
-            if key not in keys_by_year[year]:
-                existing_by_year[year].append(item)
-                keys_by_year[year].add(key)
-                additions += 1
+    # Canonical output comes directly from the shared doc export.
+    normalized_by_year = dedupe_items_by_title(doc_by_year)
 
-    existing_by_year = dedupe_items_by_title(existing_by_year)
-
-    rendered = render_include(existing_by_year)
+    rendered = render_include(normalized_by_year)
     PUBS_HTML.write_text(rendered, encoding="utf-8")
-    print(f"[include] Wrote {PUBS_HTML} with {len(existing_by_year)} year blocks and {additions} added item(s).")
+    total_items = sum(len(items) for items in normalized_by_year.values())
+    print(f"[include] Wrote {PUBS_HTML} with {len(normalized_by_year)} year blocks and {total_items} item(s).")
 
 
 if __name__ == "__main__":

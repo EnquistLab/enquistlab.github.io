@@ -37,3 +37,27 @@
 2026-06-23 | Live publications page still served stale HTML (`Needs Review` visible; `Science Culture/Teaching` absent) even though source and origin/main were updated through commit 236e6e3a. Triggering a fresh GitHub Pages rebuild from current main.
 2026-06-23 | User requested that Enquist & Stark (2007) “Follow Thompson to make biology a capital-S Science” also appear in Science Culture/Teaching while remaining in its existing theory/scaling grouping. Updated the publication category override to include both `metabolic-scaling-allometry` and `science-culture-teaching`.
 2026-06-23 | User reported Science Culture/Teaching still looked wrong. Diagnosed two issues: (1) an overbroad override hint (`nature ecology & evolution`) on the AI chatbots paper was matching many unrelated papers in that journal; removed it. (2) the Feng/Qiao/Enquist ecoinformatics education paper remained duplicated in the generated include because title-key dedupe preserved one malformed trailing-journal variant from the existing include. Tightened title normalization in rebuild_publications_include_from_doc.py and narrowed Science Culture/Teaching keyword matching.
+
+2026-06-23 | "Organize my publication groupings in order of number of publications within each"
+
+2026-06-23 | "Yes" — Added a visible subtitle on publications page indicating tabs are ordered by number of publications (highest to lowest).
+
+2026-06-23 | "Run mandatory final gate checks for /Users/brianjenquist/VSCode/enquistlab-site-migration after this change.
+
+Implemented change:
+- Added subtitle in _pages/publications.html under the topic tabs: \"Tabs are ordered by number of publications (highest to lowest).\"
+
+Also already present in working tree from this task sequence:
+- Topic tabs ordered by topic count descending with All pinned first.
+
+Prompt log updates were appended in agents/prompt_log.md.
+
+Please evaluate PASS/FAIL for:
+1) Prompt log recorded
+2) Updated Rmd files compile successfully (if any changed)
+3) Updated R packages build successfully (if any changed)
+4) Git push status confirmed
+
+Return concise evidence per check and overall status."
+
+2026-06-23 | "yes, commit and push these publication changes"
