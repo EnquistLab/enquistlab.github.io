@@ -219,6 +219,15 @@ overrides:
       - science-culture-teaching
     rationale: Related teaching/science-culture publication.
 
+  - id: OVERRIDE_SCI_CULTURE_2020_ECOINFORMATICS_EDUCATION
+    title_hints:
+      - "doubling demands in programming skills call for ecoinformatics education"
+      - "frontiers in ecology and the environment, 18(3), 123-124"
+    force_categories:
+      - science-culture-teaching
+      - biodiversity-informatics
+    rationale: User-requested education and ecoinformatics paper for the Science Culture/Teaching tab.
+
   - id: OVERRIDE_SCI_CULTURE_2020_ECOLOGICAL_SYNTHESIS
     title_hints:
       - "ecological synthesis and its role in advancing knowledge"
