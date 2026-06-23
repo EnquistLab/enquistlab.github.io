@@ -383,3 +383,8 @@ Added `{ pattern: /\bliana[s]?\b/i, weight: 2 }` to the tropical-ecology topic t
     Prompt: Also add Feng, Qiao, and Enquist (2020) “Doubling demands in programming skills call for ecoinformatics education” and Patrick et al. “Adding Value to a Field-Based Course with a Science Communication Module on Local Perceptions of Climate Change.”
     Source session: VS Code Copilot Chat
     Outcome: Confirmed both papers already exist in `_includes/publications_full_from_doc.md`. Verified Patrick et al. (2020) was already forced into `science-culture-teaching`. Added a new override in `_data/publication_category_overrides.yml` to force Feng, Qiao, and Enquist (2020) into `science-culture-teaching` and `biodiversity-informatics`.
+
+52. Date: 2026-06-23
+    Prompt: User reported the live website still did not show the `Science Culture/Teaching` tab.
+    Source session: VS Code Copilot Chat
+    Outcome: Verified local source and origin/main were correct, but live `https://enquistlab.github.io/publications/` still served stale HTML showing `Needs Review`. Prepared and triggered a fresh GitHub Pages rebuild from current main.
