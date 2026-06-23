@@ -1,0 +1,24 @@
+# ============================================================
+# Manual Alumni Overrides
+# ============================================================
+# This file preserves curated alumni entries across Google Sheet syncs.
+# Entries here will be merged into the synced alumni list if they are
+# missing from or omitted in the source sheet.
+#
+# Use this to:
+# - Restore accidentally-removed alumni
+# - Add alumni that should exist but aren't in the sheet yet
+# - Preserve custom fields or corrections
+#
+# NOTE: If an alumnus appears in BOTH this file AND the source sheet,
+# the sheet entry takes precedence.
+
+alumni:
+  - name: Jehová Lourenço Junior
+    role: Graduate Student
+    google_scholar: ""
+    researchgate: https://www.researchgate.net/profile/Jehova-Lourenco-Junior
+    website: https://jehovajr.wixsite.com/science
+    institution: University of Arizona
+    degree: (PhD EEB:2016 – 2019)
+    start_year: 2016
