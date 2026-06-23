@@ -393,3 +393,8 @@ Added `{ pattern: /\bliana[s]?\b/i, weight: 2 }` to the tropical-ecology topic t
     Prompt: Add Enquist and Stark (2007) “Follow Thompson to make biology a capital-S Science” to Science Culture/Teaching while keeping its existing grouping.
     Source session: VS Code Copilot Chat
     Outcome: Updated `_data/publication_category_overrides.yml` so the existing `OVERRIDE_NREVIEW_2007_FOLLOW_THOMPSON` now forces both `metabolic-scaling-allometry` and `science-culture-teaching`.
+
+54. Date: 2026-06-23
+    Prompt: User reported the Science Culture/Teaching tab still looked unchanged and overinclusive.
+    Source session: VS Code Copilot Chat
+    Outcome: Removed an overbroad `nature ecology & evolution` title hint from the AI-chatbots override in `_data/publication_category_overrides.yml`, narrowed Science Culture/Teaching matchers in `_pages/publications.html` by removing generic `open science|code sharing|ecological synthesis` auto-matches, and tightened `title_key()` normalization in `scripts/rebuild_publications_include_from_doc.py` to improve deduplication of the duplicated Feng/Qiao/Enquist (2020) ecoinformatics-education entry.

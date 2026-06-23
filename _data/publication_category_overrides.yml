@@ -205,7 +205,6 @@ overrides:
   - id: OVERRIDE_SCI_CULTURE_2023_AI_CHATBOTS_CODING
     title_hints:
       - "ai chatbots can boost scientific coding"
-      - "nature ecology & evolution"
     force_categories:
       - science-culture-teaching
       - biodiversity-informatics
