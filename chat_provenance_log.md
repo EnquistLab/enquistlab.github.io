@@ -373,3 +373,8 @@ Added `{ pattern: /\bliana[s]?\b/i, weight: 2 }` to the tropical-ecology topic t
     Prompt: Correct Jehová Lourenço Junior PhD dates to 2016–2019.
     Source session: VS Code Copilot Chat
     Outcome: Updated Jehová Lourenço Junior alumni metadata in `_data/people.yml` from `(PhD EEB: 2022)` to `(PhD EEB:2016 – 2019)` and adjusted `start_year` to `2016` so he appears in the correct Former Graduate Students cohort.
+
+50. Date: 2026-06-23
+    Prompt: Remove Needs Review tab on publications page, add Science Culture/Teaching tab, classify specified papers into that tab, and add missing AI chatbots paper to CV.
+    Source session: VS Code Copilot Chat
+    Outcome: Replaced `needs-review` with `science-culture-teaching` in `_pages/publications.html`, removed fallback assignment to needs-review, and added science-culture/teaching keyword matchers. Added explicit category overrides in `_data/publication_category_overrides.yml` for requested papers (Labella 2021; Enquist/Kempes/West 2024; Merow et al. 2023 software incentives; Merow et al. 2023 AI chatbots) plus related teaching/synthesis items. Added resilient missing-paper override insertion for AI chatbots in `scripts/sync_publications_html.py`, reran sync, and confirmed the paper now appears in `_includes/publications_full_from_doc.md`. Added AI chatbots publication entry to `_data/cv.yml` Selected Publications.

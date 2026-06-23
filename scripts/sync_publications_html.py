@@ -80,6 +80,15 @@ MISSING_HTML_OVERRIDES = {
         ),
         "insert_before": "areas of global importance for conserving terrestrial biodiversity, carbon and water",
     },
+    "ai chatbots can boost scientific coding": {
+        "html": (
+            '<li>Merow, C., Serra-Diaz, J. M., Enquist, B. J., & Wilson, A. M. (2023). '
+            '<a href="https://www.nature.com/articles/s41559-023-02083-z" '
+            'target="_blank" rel="noopener noreferrer">AI chatbots can boost scientific coding</a>. '
+            'Nature Ecology & Evolution, 7(7), 960-962.</li>'
+        ),
+        "insert_before": "better incentives are needed to reward academic software development",
+    },
 }
 
 
@@ -391,13 +400,26 @@ def main():
     # -----------------------------------------------------------------------
     # Write updated HTML if patches were applied
     # -----------------------------------------------------------------------
-    if inpress_to_update or inserted_missing:
+    forced_insertions = 0
+    html_override_base = html_updated
+    for override in MISSING_HTML_OVERRIDES.values():
+        override_key = item_identity_key(override["html"])
+        already_present = any(override_key in keys for keys in include_keys_by_year.values())
+        if already_present:
+            continue
+        candidate_html = _insert_before_li_containing(html_updated, override["insert_before"], override["html"])
+        if candidate_html != html_updated:
+            html_updated = candidate_html
+            forced_insertions += 1
+
+    if inpress_to_update or inserted_missing or forced_insertions:
         with open(PUBS_HTML, "w", encoding="utf-8") as fh:
             fh.write(html_updated)
         print(
             f"[html] Wrote updated {PUBS_HTML} "
             f"({len(inpress_to_update)} In Press patch(es), "
-            f"{len(inserted_missing)} missing override insertion(s))."
+            f"{len(inserted_missing)} missing override insertion(s), "
+            f"{forced_insertions} enforced override insertion(s))."
         )
     else:
         print("[html] No HTML updates needed.")
@@ -409,6 +431,7 @@ def main():
     report_lines.append(f"CV entries parsed: {len(cv_entries)}")
     report_lines.append(f"In Press → published patches applied: {len(inpress_to_update)}")
     report_lines.append(f"Missing-paper insertions applied: {len(inserted_missing)}")
+    report_lines.append(f"Enforced override insertions applied: {forced_insertions}")
     report_lines.append(f"DOIs verified OK: {doi_ok_count}")
     report_lines.append(f"DOI failures / anomalies: {len(doi_failures)}")
     report_lines.append(f"Papers in public Google Doc but NOT found in HTML: {len(missing_from_html)}")

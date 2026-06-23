@@ -1,9 +1,10 @@
-Publications Sync Report — 2026-06-23 07:51 UTC
+Publications Sync Report — 2026-06-23 12:37 UTC
 ============================================================
 
 CV entries parsed: 333
 In Press → published patches applied: 0
 Missing-paper insertions applied: 0
+Enforced override insertions applied: 1
 DOIs verified OK: 23
 DOI failures / anomalies: 3
 Papers in public Google Doc but NOT found in HTML: 0

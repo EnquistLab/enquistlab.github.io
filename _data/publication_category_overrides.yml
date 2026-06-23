@@ -181,7 +181,51 @@ overrides:
       - "enquist b j kempes c p and g b west"
     force_categories:
       - macroecology
+      - science-culture-teaching
     rationale: User-reviewed manual assignment.
+
+  - id: OVERRIDE_SCI_CULTURE_2021_COVID_INSIGHTS
+    title_hints:
+      - "from a crisis to an opportunity: eight insights for doing science in the covid-19 era and beyond"
+      - "from a crisis to an opportunity: eight insights for doing science in the covid-19 era and beyond"
+      - "10.1002/ece3.7026"
+    force_categories:
+      - science-culture-teaching
+    rationale: User-requested Science Culture/Teaching classification.
+
+  - id: OVERRIDE_SCI_CULTURE_2023_SOFTWARE_INCENTIVES
+    title_hints:
+      - "better incentives are needed to reward academic software development"
+      - "10.1038/s41559-023-02008-w"
+    force_categories:
+      - science-culture-teaching
+      - biodiversity-informatics
+    rationale: User-requested science-culture and software-incentives paper.
+
+  - id: OVERRIDE_SCI_CULTURE_2023_AI_CHATBOTS_CODING
+    title_hints:
+      - "ai chatbots can boost scientific coding"
+      - "nature ecology & evolution"
+    force_categories:
+      - science-culture-teaching
+      - biodiversity-informatics
+    rationale: User-requested AI coding paper for Science Culture/Teaching.
+
+  - id: OVERRIDE_SCI_CULTURE_2020_SCIENCE_COMMUNICATION_MODULE
+    title_hints:
+      - "adding value to a field‐based course with a science communication module on local perceptions of climate change"
+      - "adding value to a field-based course with a science communication module on local perceptions of climate change"
+    force_categories:
+      - science-culture-teaching
+    rationale: Related teaching/science-culture publication.
+
+  - id: OVERRIDE_SCI_CULTURE_2020_ECOLOGICAL_SYNTHESIS
+    title_hints:
+      - "ecological synthesis and its role in advancing knowledge"
+    force_categories:
+      - science-culture-teaching
+      - macroecology
+    rationale: Related synthesis and scientific culture publication.
 
   - id: OVERRIDE_MO_2023_FOREST_CARBON_POTENTIAL
     title_hints:
