@@ -388,3 +388,8 @@ Added `{ pattern: /\bliana[s]?\b/i, weight: 2 }` to the tropical-ecology topic t
     Prompt: User reported the live website still did not show the `Science Culture/Teaching` tab.
     Source session: VS Code Copilot Chat
     Outcome: Verified local source and origin/main were correct, but live `https://enquistlab.github.io/publications/` still served stale HTML showing `Needs Review`. Prepared and triggered a fresh GitHub Pages rebuild from current main.
+
+53. Date: 2026-06-23
+    Prompt: Add Enquist and Stark (2007) “Follow Thompson to make biology a capital-S Science” to Science Culture/Teaching while keeping its existing grouping.
+    Source session: VS Code Copilot Chat
+    Outcome: Updated `_data/publication_category_overrides.yml` so the existing `OVERRIDE_NREVIEW_2007_FOLLOW_THOMPSON` now forces both `metabolic-scaling-allometry` and `science-culture-teaching`.

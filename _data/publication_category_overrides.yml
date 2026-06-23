@@ -825,6 +825,7 @@ overrides:
       - "follow thompson"
     force_categories:
       - metabolic-scaling-allometry
+      - science-culture-teaching
     rationale: Enquist & Stark correspondence on first-principles biological theory; companion to WBE-era scaling debate pieces.
 
   - id: OVERRIDE_NREVIEW_2002_RED_HERRINGS
