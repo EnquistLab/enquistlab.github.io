@@ -247,7 +247,8 @@ LinkedIn, or website so non-Scholar profiles remain clickable.
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2000s</p>
     <div class="alumni-directory">
-      {% for person in postdoc_2000s %}
+      {% assign postdoc_2000s_sorted = postdoc_2000s | sort: "end_year" %}
+      {% for person in postdoc_2000s_sorted %}
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
@@ -267,7 +268,8 @@ LinkedIn, or website so non-Scholar profiles remain clickable.
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2010s</p>
     <div class="alumni-directory">
-      {% for person in postdoc_2010s %}
+      {% assign postdoc_2010s_sorted = postdoc_2010s | sort: "end_year" %}
+      {% for person in postdoc_2010s_sorted %}
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
@@ -287,7 +289,8 @@ LinkedIn, or website so non-Scholar profiles remain clickable.
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2020s</p>
     <div class="alumni-directory">
-      {% for person in postdoc_2020s %}
+      {% assign postdoc_2020s_sorted = postdoc_2020s | sort: "end_year" %}
+      {% for person in postdoc_2020s_sorted %}
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
@@ -316,7 +319,8 @@ LinkedIn, or website so non-Scholar profiles remain clickable.
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2001–2009</p>
     <div class="alumni-directory">
-      {% for person in grad_2000s %}
+      {% assign grad_2000s_sorted = grad_2000s | sort: "end_year" %}
+      {% for person in grad_2000s_sorted %}
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
@@ -336,7 +340,8 @@ LinkedIn, or website so non-Scholar profiles remain clickable.
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2010–2019</p>
     <div class="alumni-directory">
-      {% for person in grad_2010s %}
+      {% assign grad_2010s_sorted = grad_2010s | sort: "end_year" %}
+      {% for person in grad_2010s_sorted %}
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
@@ -356,7 +361,8 @@ LinkedIn, or website so non-Scholar profiles remain clickable.
   <div class="alumni-cohort">
     <p class="alumni-cohort__label">2020s</p>
     <div class="alumni-directory">
-      {% for person in grad_2020s %}
+      {% assign grad_2020s_sorted = grad_2020s | sort: "end_year" %}
+      {% for person in grad_2020s_sorted %}
       {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
       <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
         {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}

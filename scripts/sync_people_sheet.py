@@ -172,6 +172,28 @@ def parse_start_year(degree_str):
     return int(m.group(1)) if m else None
 
 
+def parse_end_year(degree_str):
+    """Return the last 4-digit year found in a degree string, or None."""
+    years = re.findall(r"\b(1[89]\d{2}|2\d{3})\b", degree_str or "")
+    return int(years[-1]) if years else None
+
+
+def add_year_fields(entry):
+    """Populate start_year/end_year from degree text when available."""
+    if not isinstance(entry, dict):
+        return entry
+    degree = entry.get("degree", "")
+    if degree and "start_year" not in entry:
+        start_year = parse_start_year(degree)
+        if start_year:
+            entry["start_year"] = start_year
+    if degree and "end_year" not in entry:
+        end_year = parse_end_year(degree)
+        if end_year:
+            entry["end_year"] = end_year
+    return entry
+
+
 def classify_role(raw_role):
     r = raw_role.strip().lower()
     if any(k in r for k in ("postdoc", "post-doc", "post doc")):
@@ -365,9 +387,7 @@ def main():
                     deg = get(row, alumni_index, "degree")
                     if deg:
                         entry["degree"] = deg
-                        yr = parse_start_year(deg)
-                        if yr:
-                            entry["start_year"] = yr
+                    add_year_fields(entry)
                     alumni_list.append(entry)
                     print(f"  -> {name} (alumni)")
             else:
@@ -385,7 +405,7 @@ def main():
                     # Parse the existing alumni list back out
                     try:
                         existing_data = yaml.safe_load(existing)
-                        alumni_list = existing_data.get("alumni", [])
+                        alumni_list = [add_year_fields(item) for item in existing_data.get("alumni", [])]
                     except Exception:
                         pass
 
@@ -414,7 +434,7 @@ def main():
     alumni_by_name = {entry["name"]: entry for entry in alumni_list}
     for name, override_entry in manual_alumni_by_name.items():
         if name not in alumni_by_name:
-            alumni_list.append(override_entry)
+            alumni_list.append(add_year_fields(override_entry))
             print(f"  Preserving manual alumni override: {name}")
         # else: sheet entry exists, so sheet entry takes precedence
 
