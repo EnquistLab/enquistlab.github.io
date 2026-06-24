@@ -66,16 +66,33 @@ def get_scholar_citations() -> None:
 
     citation_data = {"metadata": {"last_updated": today}, "papers": {}}
 
-    scholarly.set_timeout(15)
-    scholarly.set_retries(3)
+    scholarly.set_timeout(20)
+    scholarly.set_retries(5)
+    
     try:
+        print("Attempting to fetch author data from Google Scholar...")
         author = scholarly.search_author_id(SCHOLAR_USER_ID)
         author_data = scholarly.fill(author)
     except Exception as e:
-        print(
-            f"Error fetching author data from Google Scholar for user ID '{SCHOLAR_USER_ID}': {e}. Please check your internet connection and Scholar user ID."
-        )
-        sys.exit(1)
+        error_msg = str(e).lower()
+        if "timeout" in error_msg or "connect" in error_msg or "rate" in error_msg:
+            print(
+                f"⚠️ Google Scholar fetch failed (likely rate-limited or network issue): {e}"
+            )
+            print("💡 Tip: Google Scholar may block GitHub Actions. Continuing with existing cache...")
+            if existing_data and existing_data.get("papers"):
+                print("✅ Using cached citation data from previous run.")
+                return
+            else:
+                print(
+                    f"❌ No cached data available and fetch failed. Please check your Scholar user ID: '{SCHOLAR_USER_ID}'"
+                )
+                sys.exit(1)
+        else:
+            print(
+                f"Error fetching author data from Google Scholar for user ID '{SCHOLAR_USER_ID}': {e}"
+            )
+            sys.exit(1)
 
     if not author_data:
         print(
@@ -112,24 +129,24 @@ def get_scholar_citations() -> None:
                 f"Error processing publication '{pub.get('bib', {}).get('title', 'Unknown')}': {e}. This publication will be skipped."
             )
 
-    # Compare new data with existing data
-    if existing_data and existing_data.get("papers") == citation_data["papers"]:
-        # Write atomically: write to temp file, then rename to avoid partial writes
-        import tempfile
-        fd, temp_file = tempfile.mkstemp(dir=os.path.dirname(OUTPUT_FILE) or ".")
-        try:
-            with os.fdopen(fd, "w") as f:
-                yaml.dump(citation_data, f, width=1000, sort_keys=True, default_flow_style=False)
-            os.replace(temp_file, OUTPUT_FILE)
-            print(f"Citation data saved to {OUTPUT_FILE}")
-        except Exception:
-            os.unlink(temp_file)
-            raise
+    # Write citation data atomically: write to temp file, then rename to avoid partial writes
+    import tempfile
+    
     try:
-        with open(OUTPUT_FILE, "w") as f:
-            yaml.dump(citation_data, f, width=1000, sort_keys=True)
-        print(f"Citation data saved to {OUTPUT_FILE}")
+        fd, temp_file = tempfile.mkstemp(dir=os.path.dirname(OUTPUT_FILE) or ".")
+        with os.fdopen(fd, "w") as f:
+            yaml.dump(
+                citation_data,
+                f,
+                width=1000,
+                sort_keys=True,
+                default_flow_style=False,
+            )
+        os.replace(temp_file, OUTPUT_FILE)
+        print(f"✅ Citation data saved to {OUTPUT_FILE}")
     except Exception as e:
+        if os.path.exists(temp_file):
+            os.unlink(temp_file)
         print(
             f"Error writing citation data to {OUTPUT_FILE}: {e}. Please check file permissions and disk space."
         )
