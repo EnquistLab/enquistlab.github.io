@@ -4,6 +4,11 @@ Tracks prompts that created or modified this project.
 
 ## Entries
 
+1. Date: 2026-06-24
+    Prompt: yes, please implement
+    Source session: VS Code Copilot Chat
+    Outcome: Added a new overlapping Biodiversity topic tab to the publications classifier in _pages/publications.html with conservative high-precision matchers, updated the displayed research-area count from 11 to 12, and kept the existing topic tabs intact.
+
 1. Date: 2026-04-21
    Prompt: Go through the WordPress site and populate the new GitHub academic website.
    Source session: VS Code Copilot Chat
