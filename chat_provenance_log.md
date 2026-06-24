@@ -219,6 +219,11 @@ Tracks prompts that created or modified this project.
     Source session: VS Code Copilot Chat
     Outcome: Root cause for missing Gallery tab was navigation configuration, not deleted content: `_pages/gallery.md` and photo assets were present, but Gallery was omitted from `_pages/nav-lab.md` children. Added Gallery back to Lab dropdown. Removed watermark injection JS block from `assets/js/common.js` (site-wide, including News). Fixed CV run-on references by converting raw URLs to labeled links in `_data/cv.yml`, rendering each profile on its own line in `_includes/cv/references.liquid`, and strengthening wrapping styles in `_sass/_lab-redesign.scss`.
 
+39. Date: 2026-06-24
+    Prompt: Ok, lets make these changes. What will the website changes look like? how will the organization change? I dont want to loose any information.
+    Source session: VS Code Copilot Chat
+    Outcome: Applied a safe, additive information-preserving entity/SEO pass: (1) upgraded `_includes/metadata.liquid` Schema.org output from a generic single object to an `@graph` with stable `Person`, `Organization`, `WebSite`, and `WebPage` nodes and explicit relationships (`worksFor`, `memberOf`, `about`, `isPartOf`), while preserving existing OG metadata behavior; (2) improved verification meta handling to emit verification tags when codes are present; (3) expanded `_data/socials.yml` with authoritative profile identifiers for richer `sameAs`; (4) fixed homepage conservation link path from `/impacts/` to `/conservation-impacts/`; (5) added concise identity-consistency blocks to `_pages/about.md` and `_pages/people.md`. No existing narrative/research/publication content was removed.
+
 39. Date: 2026-05-06
     Prompt: The text justification on /about/ is awkward — text block sits too far to the left, unused whitespace right of the image column. Fix: center content, max-width for line length, balanced two-column layout, consistent margins, mobile collapse.
     Source session: VS Code Copilot Chat
