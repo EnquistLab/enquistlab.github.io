@@ -38,7 +38,7 @@ nav_order: 1
     <div class="home-pillar__sub">Plant names resolved via TNRS · BIEN, traitstrap, hypervolume, and biodiversity web services</div>
   </a>
 
-  <a class="home-pillar" href="{{ '/impacts/' | relative_url }}">
+  <a class="home-pillar" href="{{ '/conservation-impacts/' | relative_url }}">
     <div class="home-pillar__number">150+</div>
     <div class="home-pillar__head">Decision-facing conservation</div>
     <div class="home-pillar__sub">Countries with scenario-based extinction risk and protected-area forecasts</div>

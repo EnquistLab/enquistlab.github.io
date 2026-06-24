@@ -48,6 +48,18 @@ social: true
 
 We study one central question: how do the functional traits of organisms scale up to shape biodiversity, ecosystems, and the biosphere under rapid environmental change?
 
+<div class="about-identity-facts" markdown="1">
+
+### Identity Facts
+
+- **Full name:** Brian J. Enquist
+- **Roles:** Professor of Ecology and Evolutionary Biology (University of Arizona); External Professor (Santa Fe Institute)
+- **Primary site:** [enquistlab.github.io](https://enquistlab.github.io/)
+- **ORCID:** [0000-0002-6124-7096](https://orcid.org/0000-0002-6124-7096)
+- **Google Scholar:** [mAbA6EoAAAAJ](https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en)
+
+</div>
+
 We live in a world of unprecedented climate and land-use change. A central goal of ecology and evolutionary biology is to understand the origin, maintenance, and fate of organismal form, function, and diversity — and then to predict how these processes scale up to influence ecosystem and biosphere function.
 
 The Macroecology Lab is an international network of broadly trained ecologists, botanists, physiologists, evolutionary biologists, macroecologists, and informaticians. We seek to discover general processes of how organisms (mainly plants, though we often stray into other systems) work and interact with each other and their environment. Our shared goal is to synthesize and build a more predictive biodiversity science. We work in tropical and temperate forests and high alpine ecosystems, using combinations of theoretical, computational, informatics, biophysical, trait-based, physiological, and ecophysiological approaches.

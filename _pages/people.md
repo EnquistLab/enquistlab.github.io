@@ -42,6 +42,8 @@ nav_order: 2.1
 
 ## Principal Investigator
 
+<p><strong>Identity:</strong> Brian J. Enquist (ORCID: <a href="https://orcid.org/0000-0002-6124-7096" target="_blank" rel="noopener">0000-0002-6124-7096</a>) · Primary profile: <a href="{{ '/about/' | relative_url }}">About</a> · Google Scholar: <a href="https://scholar.google.com/citations?user=mAbA6EoAAAAJ&amp;hl=en" target="_blank" rel="noopener">mAbA6EoAAAAJ</a>.</p>
+
 <div class="team-pi">
   <img src="{{ '/assets/img/team/brian_enquist.jpg' | relative_url }}" alt="Brian J. Enquist" class="team-pi__photo">
   <div class="team-pi__bio">

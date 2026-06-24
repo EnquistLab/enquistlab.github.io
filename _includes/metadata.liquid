@@ -1,9 +1,11 @@
-{% if site.enable_google_verification or site.enable_bing_verification %}
+{% assign has_google_verification = site.google_site_verification and site.google_site_verification != '' %}
+{% assign has_bing_verification = site.bing_site_verification and site.bing_site_verification != '' %}
+{% if has_google_verification or has_bing_verification or site.enable_google_verification or site.enable_bing_verification %}
   <!-- Website verification -->
-  {% if site.enable_google_verification %}
+  {% if has_google_verification %}
     <meta name="google-site-verification" content="{{ site.google_site_verification }}">
   {% endif %}
-  {% if site.enable_bing_verification %}
+  {% if has_bing_verification %}
     <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
   {% endif %}
   <!--
@@ -226,22 +228,92 @@
     {% endcase %}
   {% endfor %}
 
+  {% assign page_abs_url = page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' %}
+  {% assign person_id = site.url | append: '/#brian-enquist' %}
+  {% assign lab_id = site.url | append: '/#enquist-lab' %}
+  {% assign ua_id = 'https://www.arizona.edu/#organization' %}
+  {% assign sfi_id = 'https://www.santafe.edu/#organization' %}
+  {% assign website_id = site.url | append: '/#website' %}
+  {% assign webpage_id = page_abs_url | append: '#webpage' %}
+
   <script type="application/ld+json">
     {
-        "author":
+      "@context": "https://schema.org",
+      "@graph": [
         {
-            "@type": "Person",
-            "name": "{{ author_name }}"
+          "@type": "Organization",
+          "@id": {{ lab_id | jsonify }},
+          "name": {{ site.title | jsonify }},
+          "url": {{ site.url | jsonify }},
+          "description": {{ site.description | jsonify }}
         },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
-        {% endif %}
-        "name": "{{ author_name }}",
-        "@context": "https://schema.org"
+        {
+          "@type": "Organization",
+          "@id": {{ ua_id | jsonify }},
+          "name": "University of Arizona",
+          "url": "https://www.arizona.edu/"
+        },
+        {
+          "@type": "Organization",
+          "@id": {{ sfi_id | jsonify }},
+          "name": "Santa Fe Institute",
+          "url": "https://www.santafe.edu/"
+        },
+        {
+          "@type": "Person",
+          "@id": {{ person_id | jsonify }},
+          "name": {{ author_name | jsonify }},
+          "givenName": {{ site.first_name | jsonify }},
+          "familyName": {{ site.last_name | jsonify }},
+          "url": {{ site.url | append: '/about/' | jsonify }},
+          "image": {{ site.url | append: '/assets/img/wordpress/brian-enquist-feb2020-020.jpg' | jsonify }},
+          "email": "mailto:{{ site.data.socials.email }}",
+          "jobTitle": "Professor of Ecology and Evolutionary Biology",
+          "affiliation": [
+            { "@id": {{ ua_id | jsonify }} },
+            { "@id": {{ sfi_id | jsonify }} }
+          ],
+          "worksFor": { "@id": {{ ua_id | jsonify }} },
+          "memberOf": { "@id": {{ sfi_id | jsonify }} },
+          "knowsAbout": [
+            "Macroecology",
+            "Trait-based ecology",
+            "Biodiversity informatics",
+            "Ecological forecasting"
+          ]{% if sameaslinks != blank %},
+          "sameAs": {{ sameaslinks | jsonify }}{% endif %}
+        },
+        {
+          "@type": "WebSite",
+          "@id": {{ website_id | jsonify }},
+          "url": {{ site.url | jsonify }},
+          "name": {{ site.title | jsonify }},
+          "description": {{ site.description | jsonify }},
+          "publisher": { "@id": {{ lab_id | jsonify }} },
+          "about": { "@id": {{ person_id | jsonify }} }
+        },
+        {
+          "@type": "WebPage",
+          "@id": {{ webpage_id | jsonify }},
+          "url": {{ page_abs_url | jsonify }},
+          "name": {{ page.title | default: site.title | jsonify }},
+          "description": {{ page.description | default: site.description | jsonify }},
+          "isPartOf": { "@id": {{ website_id | jsonify }} },
+          "about": { "@id": {{ person_id | jsonify }} },
+          "publisher": { "@id": {{ lab_id | jsonify }} }
+        }{% if is_blog_post %},
+        {
+          "@type": "BlogPosting",
+          "@id": {{ page_abs_url | append: '#blogposting' | jsonify }},
+          "headline": {{ page.title | default: site.title | jsonify }},
+          "description": {{ page.description | default: site.description | jsonify }},
+          "mainEntityOfPage": { "@id": {{ webpage_id | jsonify }} },
+          "author": { "@id": {{ person_id | jsonify }} },
+          "publisher": { "@id": {{ lab_id | jsonify }} },
+          "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+          "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }}
+        }{% endif %}
+      ]
     }
   </script>
 {% endif %}
