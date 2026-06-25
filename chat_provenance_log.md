@@ -408,3 +408,8 @@ Added `{ pattern: /\bliana[s]?\b/i, weight: 2 }` to the tropical-ecology topic t
     Prompt: User reported the Science Culture/Teaching tab still looked unchanged and overinclusive.
     Source session: VS Code Copilot Chat
     Outcome: Removed an overbroad `nature ecology & evolution` title hint from the AI-chatbots override in `_data/publication_category_overrides.yml`, narrowed Science Culture/Teaching matchers in `_pages/publications.html` by removing generic `open science|code sharing|ecological synthesis` auto-matches, and tightened `title_key()` normalization in `scripts/rebuild_publications_include_from_doc.py` to improve deduplication of the duplicated Feng/Qiao/Enquist (2020) ecoinformatics-education entry.
+
+23. Date: 2026-06-25
+    Prompt: For my website tab https://enquistlab.github.io/about/ replace the icon in front of the University of Arizona affiliation with the specified University of Arizona image.
+    Source session: VS Code Copilot Chat
+    Outcome: Updated the About subtitle affiliation icon to use a locally hosted requested image asset at /assets/img/logos/ua_profile_icon.jpg and kept existing UArizona profile link/label intact.
