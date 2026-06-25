@@ -8,7 +8,7 @@ front_lab_name: Macroecology Lab
 subtitle: >
   <span class="affil-logos">
     <a href="https://eeb.arizona.edu/" target="_blank" class="affil-logo-link" aria-label="University of Arizona">
-      <img src="/assets/img/logos/ua_block_a.svg" alt="UArizona block-A" class="affil-logo affil-logo--ua">
+      <img src="/assets/img/logos/ua_profile_icon.jpg" alt="University of Arizona" class="affil-logo affil-logo--ua">
     </a>
     Professor of Ecology &amp; Evolutionary Biology, <a href="https://eeb.arizona.edu/" target="_blank">University of Arizona</a>
     &nbsp;|&nbsp;
