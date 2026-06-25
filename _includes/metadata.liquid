@@ -93,6 +93,8 @@
       {% when 'blogger_url' %}
         {% capture link %}{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
+      {% when 'cv_pdf' %}
+        {% comment %} Not a profile URL for sameAs {% endcomment %}
       {% when 'bluesky_url' %}
         {% capture link %}{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
@@ -224,7 +226,9 @@
         {% capture link %}https://www.zotero.org/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% else %}
-        {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% if social[1].url %}
+          {% assign sameaslinks = sameaslinks | push: social[1].url %}
+        {% endif %}
     {% endcase %}
   {% endfor %}
   {% assign sameaslinks_clean = sameaslinks | where_exp: 'item', 'item != blank' | uniq %}
