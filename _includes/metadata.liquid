@@ -227,6 +227,7 @@
         {% assign sameaslinks = sameaslinks | push: social[1].url %}
     {% endcase %}
   {% endfor %}
+  {% assign sameaslinks_clean = sameaslinks | where_exp: 'item', 'item != blank' | uniq %}
 
   {% assign page_abs_url = page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' %}
   {% assign person_id = site.url | append: '/#brian-enquist' %}
@@ -280,8 +281,8 @@
             "Trait-based ecology",
             "Biodiversity informatics",
             "Ecological forecasting"
-          ]{% if sameaslinks != blank %},
-          "sameAs": {{ sameaslinks | jsonify }}{% endif %}
+          ]{% if sameaslinks_clean != blank %},
+          "sameAs": {{ sameaslinks_clean | jsonify }}{% endif %}
         },
         {
           "@type": "WebSite",
