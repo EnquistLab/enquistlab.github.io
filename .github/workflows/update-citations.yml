@@ -53,12 +53,22 @@ jobs:
         run: |
           echo "🚀 Running citation update script (single attempt, 360s timeout)..."
           start_time=$(date)
-          timeout 360 python bin/update_scholar_citations.py
-          status=$?
+
+          # Under bash -e, wrap timeout in an if so non-zero exits don't abort before we can handle them.
+          if timeout 360 python bin/update_scholar_citations.py; then
+            status=0
+          else
+            status=$?
+          fi
+
           end_time=$(date)
           if [ $status -eq 0 ]; then
             echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
             echo "✅ Citation update succeeded." >> $GITHUB_STEP_SUMMARY
+            exit 0
+          elif [ $status -eq 124 ] && [ -s _data/citations.yml ]; then
+            echo "⚠️ Citation update timed out after 360s, but cached _data/citations.yml exists."
+            echo "⚠️ Citation update timed out; using cached citations data for this run." >> $GITHUB_STEP_SUMMARY
             exit 0
           else
             echo "❌ Citation update script failed with exit code $status (started at $start_time, ended at $end_time)."

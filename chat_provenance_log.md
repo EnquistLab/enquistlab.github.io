@@ -413,3 +413,17 @@ Added `{ pattern: /\bliana[s]?\b/i, weight: 2 }` to the tropical-ecology topic t
     Prompt: For my website tab https://enquistlab.github.io/about/ replace the icon in front of the University of Arizona affiliation with the specified University of Arizona image.
     Source session: VS Code Copilot Chat
     Outcome: Updated the About subtitle affiliation icon to use a locally hosted requested image asset at /assets/img/logos/ua_profile_icon.jpg and kept existing UArizona profile link/label intact.
+
+## 2026-06-25 — Entity reinforcement blog post
+
+Added `_posts/2026-06-25-enquist-lab-research-identity.md`: a Jekyll blog post with
+`layout: post`, full front matter (title, description, tags, categories), and structured
+content covering lab identity, research focus areas, team, key resource table, and contact.
+Purpose: improve entity consistency and provide a crawlable, indexable reference page
+linking all canonical identity anchors (ORCID, Scholar, GitHub, About, Publications, CV).
+Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
+
+55. Date: 2026-06-28
+    Prompt: yes, apply a safe hardening patch
+    Source session: VS Code Copilot Chat
+    Outcome: Hardened Google Scholar citation update reliability by patching `.github/workflows/update-citations.yml` and `bin/update_scholar_citations.py`. Fixed a `bash -e` control-flow issue so non-zero timeout exits are captured instead of aborting immediately, added soft-success fallback for timeout exit code 124 when cached `_data/citations.yml` exists, and broadened recoverable Google Scholar error detection to include "Cannot Fetch from Google Scholar" and related transient blocking/rate-limit signals when cache is available.

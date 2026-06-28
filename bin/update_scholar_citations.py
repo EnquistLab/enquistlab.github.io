@@ -75,7 +75,20 @@ def get_scholar_citations() -> None:
         author_data = scholarly.fill(author)
     except Exception as e:
         error_msg = str(e).lower()
-        if "timeout" in error_msg or "connect" in error_msg or "rate" in error_msg:
+        recoverable_tokens = [
+            "timeout",
+            "timed out",
+            "connect",
+            "connection",
+            "rate",
+            "cannot fetch from google scholar",
+            "cannot fetch",
+            "429",
+            "403",
+            "captcha",
+            "too many requests",
+        ]
+        if any(token in error_msg for token in recoverable_tokens):
             print(
                 f"⚠️ Google Scholar fetch failed (likely rate-limited or network issue): {e}"
             )
