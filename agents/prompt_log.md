@@ -59,6 +59,22 @@ Please evaluate PASS/FAIL for:
 4) Git push status confirmed
 
 Return concise evidence per check and overall status."
+2026-06-28 | "yes, apply a safe hardening patch" — Hardened Google Scholar citation automation to reduce false-failure emails by (1) fixing `bash -e` status handling in `.github/workflows/update-citations.yml`, (2) treating workflow timeout exit 124 as soft-success when cached `_data/citations.yml` exists, and (3) expanding recoverable Scholar-fetch error matching in `bin/update_scholar_citations.py` to include "Cannot Fetch from Google Scholar" and similar transient/blocking signals.
+2026-06-28 | "Run the mandatory final pre-return gate for /Users/brianjenquist/VSCode/enquistlab-site-migration for this task.
+
+Task implemented:
+- Hardened `.github/workflows/update-citations.yml` timeout/status handling so bash -e does not abort before status capture.
+- Added soft-success handling for timeout exit code 124 when cached `_data/citations.yml` exists.
+- Hardened `bin/update_scholar_citations.py` to treat common Scholar blocking/fetch errors (including 'Cannot Fetch from Google Scholar') as recoverable when cache exists.
+- Appended provenance entries in `agents/prompt_log.md` and `chat_provenance_log.md`.
+
+Please evaluate PASS/FAIL with concise evidence for:
+1) Prompt recorded in agents/prompt_log.md
+2) Updated Rmd files compile successfully (if any changed)
+3) Updated R packages build successfully (if any changed)
+4) Git push status confirmed
+
+Return overall PASS only if all required checks pass under policy." — Final mandatory gate request recorded verbatim for strict policy compliance.
 
 2026-06-23 | "yes, commit and push these publication changes"
 
