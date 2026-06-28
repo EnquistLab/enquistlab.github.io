@@ -75,6 +75,7 @@ Please evaluate PASS/FAIL with concise evidence for:
 4) Git push status confirmed
 
 Return overall PASS only if all required checks pass under policy." — Final mandatory gate request recorded verbatim for strict policy compliance.
+2026-06-28 | "commit and push this patch, then trigger the workflow once to verify the email-noise reduction in practice." — Committed/pushed initial citation hardening, ran verification workflow, observed remaining unhandled Scholar exception (`'NoneType' object has no attribute 'get'`), then added second-stage fetch hardening so any Scholar fetch exception now falls back to cached citations when cache exists.
 
 2026-06-23 | "yes, commit and push these publication changes"
 

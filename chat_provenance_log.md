@@ -427,3 +427,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: yes, apply a safe hardening patch
     Source session: VS Code Copilot Chat
     Outcome: Hardened Google Scholar citation update reliability by patching `.github/workflows/update-citations.yml` and `bin/update_scholar_citations.py`. Fixed a `bash -e` control-flow issue so non-zero timeout exits are captured instead of aborting immediately, added soft-success fallback for timeout exit code 124 when cached `_data/citations.yml` exists, and broadened recoverable Google Scholar error detection to include "Cannot Fetch from Google Scholar" and related transient blocking/rate-limit signals when cache is available.
+
+56. Date: 2026-06-28
+    Prompt: commit and push this patch, then trigger the workflow once to verify the email-noise reduction in practice.
+    Source session: VS Code Copilot Chat
+    Outcome: Committed and pushed hardening commit `ee943603`, triggered verification workflow run `28334403388`, diagnosed a remaining failure path (`'NoneType' object has no attribute 'get'`) in Scholar fetch handling, and added follow-up script hardening so any Scholar fetch exception now reuses cached `_data/citations.yml` when available (only hard-fails when no cache exists).
