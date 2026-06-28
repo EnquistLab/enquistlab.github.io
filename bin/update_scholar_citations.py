@@ -88,24 +88,25 @@ def get_scholar_citations() -> None:
             "captcha",
             "too many requests",
         ]
-        if any(token in error_msg for token in recoverable_tokens):
-            print(
-                f"⚠️ Google Scholar fetch failed (likely rate-limited or network issue): {e}"
-            )
-            print("💡 Tip: Google Scholar may block GitHub Actions. Continuing with existing cache...")
-            if existing_data and existing_data.get("papers"):
-                print("✅ Using cached citation data from previous run.")
-                return
+        is_recoverable = any(token in error_msg for token in recoverable_tokens)
+
+        if existing_data and existing_data.get("papers"):
+            if is_recoverable:
+                print(
+                    f"⚠️ Google Scholar fetch failed (likely rate-limited or network issue): {e}"
+                )
             else:
                 print(
-                    f"❌ No cached data available and fetch failed. Please check your Scholar user ID: '{SCHOLAR_USER_ID}'"
+                    f"⚠️ Google Scholar fetch raised an unexpected error; using cache: {e}"
                 )
-                sys.exit(1)
-        else:
-            print(
-                f"Error fetching author data from Google Scholar for user ID '{SCHOLAR_USER_ID}': {e}"
-            )
-            sys.exit(1)
+            print("💡 Tip: Google Scholar may block GitHub Actions. Continuing with existing cache...")
+            print("✅ Using cached citation data from previous run.")
+            return
+
+        print(
+            f"❌ No cached data available and fetch failed for Scholar user ID '{SCHOLAR_USER_ID}': {e}"
+        )
+        sys.exit(1)
 
     if not author_data:
         print(
