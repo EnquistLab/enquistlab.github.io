@@ -359,6 +359,21 @@ Added `{ pattern: /\bliana[s]?\b/i, weight: 2 }` to the tropical-ecology topic t
     Source session: VS Code Copilot Chat
     Outcome: Added a targeted repair path in `scripts/sync_publications_html.py` for the missing Feng et al. (2021) Nature citation, reran the sync so `_includes/publications_full_from_doc.md` now contains the paper, and expanded the `conservation-impacts` topic matchers in `_pages/publications.html` with Amazonian biodiversity / deregulation / fire signals. The paper now exists in the master publication list and is classified for both Tropical Ecology and Conservation Impacts. Updated `assets/cv/publications_sync_report.txt` during validation.
 
+45. Date: 2026-06-29
+    Prompt: For this website - https://enquistlab.github.io/blog/2026/enquist-lab-research-identity/ can we have this blog be more of a professional website that is an introduction to me and my lab. I would like this to be a simple front entry. Please have the @file:design-atelier.agent.md and @file:scandinavian-design.agent.md come up with a design. There should be a photo of me as well as awesome scenic field photos. Please come up with a professional redesign but still have the ncessary information and structure to elevate my information into AI webcrawlers. Run this plan by @file:llm-systems-skeptic.agent.md
+    Source session: VS Code Copilot Chat
+    Outcome: Reworked `_posts/2026-06-25-enquist-lab-research-identity.md` from a plain reference post into a professional editorial landing page with PI portrait, scenic field imagery, explicit research/people/resource sections, and in-page JSON-LD for `Person` and `ResearchOrganization`. Added scoped landing-page styles in `_sass/_lab-redesign.scss` to support the new hero, research pillars, field-image band, link cards, and resource layout while preserving crawlable plain-text identity content near the top of the page. Design direction was reviewed by `design-atelier` and `scandinavian-design`, then stress-tested by `llm-systems-skeptic` for crawler semantics, maintainability, and overclaim risk before implementation.
+
+46. Date: 2026-06-29
+    Prompt: Scholarly rigor review for the redesigned research identity landing page.
+    Source session: VS Code Copilot Chat
+    Outcome: Ran `scholarly-rigor-reviewer` on the new landing page copy. Review concluded that the broad lab-identity and research-summary framing is safe, but flagged exact appointment wording and visible identifier inconsistencies across the wider site as credibility risks. In response, the landing page was tightened to use the site's stronger title phrasing (`External Professor`) and to remove explicit ORCID/Google Scholar identifiers from this page until site-wide identity metadata is reconciled.
+
+47. Date: 2026-06-29
+    Prompt: Yes, 1. ommit and push this so the page can go live. 2. I also recommend a short follow-up pass to reconcile ORCID and Google Scholar identifiers site-wide, since the current site has conflicting values across pages.
+    Source session: VS Code Copilot Chat
+    Outcome: Completed a short site-wide identifier reconciliation pass on high-visibility pages by aligning ORCID and Google Scholar IDs in `_pages/about.md`, `_pages/people.md`, and `_pages/publications.html` to the canonical values already used in `_data/socials.yml` and `_data/cv.yml` (`ORCID 0000-0002-7398-9388`, `Google Scholar user CDY4XuYAAAAJ`). Then prepared the redesign + reconciliation bundle for commit/push and final gate verification.
+
 45. Date: 2026-06-06
     Prompt: All 2021 papers appear to be missing from the publications page; keep the website publications synced to the public Google Doc.
     Source session: VS Code Copilot Chat

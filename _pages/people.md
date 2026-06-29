@@ -42,7 +42,7 @@ nav_order: 2.1
 
 ## Principal Investigator
 
-<p><strong>Identity:</strong> Brian J. Enquist (ORCID: <a href="https://orcid.org/0000-0002-6124-7096" target="_blank" rel="noopener">0000-0002-6124-7096</a>) · Primary profile: <a href="{{ '/about/' | relative_url }}">About</a> · Google Scholar: <a href="https://scholar.google.com/citations?user=mAbA6EoAAAAJ&amp;hl=en" target="_blank" rel="noopener">mAbA6EoAAAAJ</a>.</p>
+<p><strong>Identity:</strong> Brian J. Enquist (ORCID: <a href="https://orcid.org/0000-0002-7398-9388" target="_blank" rel="noopener">0000-0002-7398-9388</a>) · Primary profile: <a href="{{ '/about/' | relative_url }}">About</a> · Google Scholar: <a href="https://scholar.google.com/citations?user=CDY4XuYAAAAJ&amp;hl=en" target="_blank" rel="noopener">CDY4XuYAAAAJ</a>.</p>
 
 <div class="team-pi">
   <img src="{{ '/assets/img/team/brian_enquist.jpg' | relative_url }}" alt="Brian J. Enquist" class="team-pi__photo">
@@ -50,7 +50,7 @@ nav_order: 2.1
     <h3>Brian J. Enquist</h3>
     <p>Professor, Department of Ecology and Evolutionary Biology, University of Arizona; External Professor, Santa Fe Institute.</p>
     <p>
-      <a href="https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en">Google Scholar</a> ·
+      <a href="https://scholar.google.com/citations?user=CDY4XuYAAAAJ&hl=en">Google Scholar</a> ·
       <a href="https://github.com/benquist">GitHub</a> ·
       <a href="https://github.com/EnquistLab">Lab GitHub</a> ·
       <a href="mailto:benquist@arizona.edu">benquist@arizona.edu</a>
