@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Brian J. Enquist and the Enquist Lab: Macroecology, Biodiversity, and Plant Functional Biology"
+title: "Brian J. Enquist; Macroecology Lab"
 date: 2026-06-25 00:00:00-0700
 description: A reference page for the Enquist Macroecology Lab at the University of Arizona — research focus, team, and resources for collaborators, students, and the broader public.
 tags: macroecology biodiversity plant-functional-biology BIEN
@@ -64,7 +64,7 @@ related_posts: false
 	<div class="identity-hero">
 		<div class="identity-hero__copy">
 			<p class="identity-hero__eyebrow">University of Arizona · Santa Fe Institute</p>
-			<h1 id="identity-title">Brian J. Enquist and the Enquist Macroecology Lab</h1>
+			<h1 id="identity-title">Brian J. Enquist; Macroecology Lab</h1>
 			<p class="identity-hero__lede">We develop predictive biodiversity science by linking plant functional biology, macroecology, and ecological theory to large-scale data, field research, and open infrastructure.</p>
 			<p><strong>Brian J. Enquist</strong> is a Professor at the <a href="https://www.arizona.edu/">University of Arizona</a> and an External Professor at the <a href="https://www.santafe.edu/">Santa Fe Institute</a>. The Enquist Macroecology Lab studies how biodiversity is organized across scales, how plant form and function shape ecological systems, and how global change alters species distributions, ecosystems, and conservation risk.</p>
 			<div class="identity-actions">
@@ -119,7 +119,7 @@ related_posts: false
 	</article>
 </div>
 
-## What The Lab Does
+## What the Lab Does
 
 The Enquist Macroecology Lab integrates theory, field ecology, biodiversity data, and computational workflows. In practice, that means the lab:
 
@@ -144,7 +144,7 @@ The Enquist Macroecology Lab integrates theory, field ecology, biodiversity data
 
 Field research informs theory rather than decorating it. The lab works across long-term ecological sites in the Rocky Mountains, tropical forest networks, and plant functional trait courses and transects in the Andes and other biodiversity-rich regions. These study systems provide the measurements needed to test ecological scaling, understand biodiversity assembly, and improve predictive models.
 
-## People And Collaboration
+## People and Collaboration
 
 The lab includes graduate students, postdoctoral researchers, undergraduate researchers, and collaborators working across macroecology, ecophysiology, biodiversity informatics, plant biology, and conservation science. Prospective students and collaborators can use this page as an entry point into the wider site.
 

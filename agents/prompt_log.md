@@ -59,6 +59,8 @@ Please evaluate PASS/FAIL for:
 4) Git push status confirmed
 
 Return concise evidence per check and overall status."
+
+2026-06-29 | "I see it now. Good. Have the @file:scandinavian-design.agent.md take another pass through and suggest updates and design.  Now, can we update the text? I dont like \"# Brian J. Enquist and the Enquist Macroecology Lab\" Instead, \"Brian J. Enquist; Macroecology Lab\" or something like that"
 2026-06-28 | "yes, apply a safe hardening patch" — Hardened Google Scholar citation automation to reduce false-failure emails by (1) fixing `bash -e` status handling in `.github/workflows/update-citations.yml`, (2) treating workflow timeout exit 124 as soft-success when cached `_data/citations.yml` exists, and (3) expanding recoverable Scholar-fetch error matching in `bin/update_scholar_citations.py` to include "Cannot Fetch from Google Scholar" and similar transient/blocking signals.
 2026-06-28 | "Run the mandatory final pre-return gate for /Users/brianjenquist/VSCode/enquistlab-site-migration for this task.
 
