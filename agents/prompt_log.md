@@ -93,6 +93,21 @@ Please evaluate PASS/FAIL with concise evidence for:
 
 Return overall PASS only if all required checks pass." — Final mandatory gate request recorded verbatim for strict policy compliance.
 
+2026-06-29 | "For this website - https://enquistlab.github.io/blog/2026/enquist-lab-research-identity/ can we have this blog be more of a professional website that is an introduction to me and my lab. I would like this to be a simple front entry. Please have the @file:design-atelier.agent.md and @file:scandinavian-design.agent.md come up with a design. There should be a photo of me as well as awesome scenic field photos. Please come up with a professional redesign but still have the ncessary information and structure to elevate my information into AI webcrawlers. Run this plan by @file:llm-systems-skeptic.agent.md"
+
+2026-06-29 | "Run the mandatory final pre-return gate for /Users/brianjenquist/VSCode/enquistlab-site-migration for this task.
+
+Task implemented:
+- Reworked `_posts/2026-06-25-enquist-lab-research-identity.md` from a plain blog/reference post into a professional front-entry landing page introducing Brian J. Enquist and the Enquist Macroecology Lab.
+- Added PI portrait, scenic field imagery, explicit research/field/resources/contact sections, and in-page JSON-LD for `Person` and `ResearchOrganization`.
+- Added scoped styles in `_sass/_lab-redesign.scss` for the landing-page hero, fact cards, research pillars, field-image grid, link cards, and resource blocks.
+- Appended entries to `agents/prompt_log.md` and `chat_provenance_log.md`.
+
+Please evaluate PASS/BLOCKED exactly in your required format. Use concrete evidence from the repo. Note that the changed files in this task are markdown/scss/logs only; no Rmd or R package files were edited in this task. Also note that a local Jekyll build attempt was made but the environment lacked the Bundler version required by Gemfile.lock (`bundler` 4.0.4). Verify prompt log coverage, Rmd/package trigger applicability, git push status, and citations check under your policy."
+
+2026-06-29 | "Yes, 1. ommit and push this so the page can go live.
+2. I also recommend a short follow-up pass to reconcile ORCID and Google Scholar identifiers site-wide, since the current site has conflicting values across pages."
+
 2026-06-23 | "yes, commit and push these publication changes"
 
 2026-06-23 | "Run mandatory final gate checks for /Users/brianjenquist/VSCode/enquistlab-site-migration after committing and pushing publication updates.
