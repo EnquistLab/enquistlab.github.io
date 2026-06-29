@@ -437,3 +437,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: I see it now. Good. Have the @file:scandinavian-design.agent.md take another pass through and suggest updates and design. Now, can we update the text? I dont like "# Brian J. Enquist and the Enquist Macroecology Lab" Instead, "Brian J. Enquist; Macroecology Lab" or something like that
     Source session: VS Code Copilot Chat
     Outcome: Ran a second-pass design review with `scandinavian-design` and implemented the requested wording update in `_posts/2026-06-25-enquist-lab-research-identity.md`: front matter title and hero heading now read "Brian J. Enquist; Macroecology Lab". Also standardized section heading capitalization for editorial consistency ("What the Lab Does", "People and Collaboration").
+
+58. Date: 2026-06-29
+    Prompt: Yes impose these; then integrate newly provided portraits into the Enquist lab identity landing page.
+    Source session: VS Code Copilot Chat
+    Outcome: Implemented second-pass Scandinavian refinements and integrated new portraits in `enquistlab-site-migration/_posts/2026-06-25-enquist-lab-research-identity.md` and `enquistlab-site-migration/_sass/_lab-redesign.scss`. Changes include: hero heading semantics updated to keep a single page H1 while using an H2 for the identity title, CTA hierarchy adjusted to primary Research + secondary Publications/Contact, new section jump row added, label changed from "Profiles and identifiers" to "Profiles and affiliations", JSON-LD Person image updated to the new headshot, hero portrait switched to `assets/img/team/brian_enquist_headshot_2026.jpeg`, and a secondary inline portrait added with `assets/img/team/brian_enquist_portrait_2026.jpeg`.

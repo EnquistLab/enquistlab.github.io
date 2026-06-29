@@ -764,7 +764,8 @@ h6,
   color: var(--global-theme-color);
 }
 
-.identity-hero__copy > h1 {
+.identity-hero__copy > h1,
+.identity-hero__copy > h2 {
   margin-bottom: 0.9rem;
   max-width: 15ch;
   font-size: clamp(2rem, 4vw, 3.35rem);
@@ -784,6 +785,31 @@ h6,
   flex-wrap: wrap;
   gap: 0.7rem;
   margin: 1.1rem 0 1.25rem;
+}
+
+.identity-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.9rem;
+  margin: -0.2rem 0 1rem;
+  padding: 0.4rem 0 0.55rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--global-divider-color) 88%, transparent 12%);
+
+  a {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
+  }
 }
 
 .identity-facts {
@@ -838,6 +864,19 @@ h6,
     font-size: 0.82rem;
     color: var(--global-text-color-light);
     line-height: 1.45;
+  }
+}
+
+.identity-headshot-inline {
+  margin: 0 0 1.6rem;
+
+  img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
+    border-radius: 10px;
   }
 }
 
@@ -930,7 +969,7 @@ h6,
 
 .identity-link-card {
   display: block;
-  padding: 1rem 1.05rem;
+  padding: 1.05rem 1.1rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 8px;
   background: var(--global-card-bg-color);
@@ -939,7 +978,7 @@ h6,
 
   strong {
     display: block;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.28rem;
     font-family: "Source Serif 4", Georgia, serif;
     font-size: 1rem;
     color: var(--global-theme-color);
@@ -947,9 +986,9 @@ h6,
 
   span {
     display: block;
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: var(--global-text-color-light);
-    line-height: 1.5;
+    line-height: 1.45;
   }
 
   &:hover {
@@ -995,7 +1034,8 @@ h6,
     grid-template-columns: 1fr;
   }
 
-  .identity-hero__copy > h1 {
+  .identity-hero__copy > h1,
+  .identity-hero__copy > h2 {
     max-width: none;
   }
 }
@@ -1008,6 +1048,10 @@ h6,
   .identity-actions {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .identity-jump {
+    gap: 0.4rem 0.7rem;
   }
 }
 
