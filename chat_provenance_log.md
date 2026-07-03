@@ -442,3 +442,18 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: Yes impose these; then integrate newly provided portraits into the Enquist lab identity landing page.
     Source session: VS Code Copilot Chat
     Outcome: Implemented second-pass Scandinavian refinements and integrated new portraits in `enquistlab-site-migration/_posts/2026-06-25-enquist-lab-research-identity.md` and `enquistlab-site-migration/_sass/_lab-redesign.scss`. Changes include: hero heading semantics updated to keep a single page H1 while using an H2 for the identity title, CTA hierarchy adjusted to primary Research + secondary Publications/Contact, new section jump row added, label changed from "Profiles and identifiers" to "Profiles and affiliations", JSON-LD Person image updated to the new headshot, hero portrait switched to `assets/img/team/brian_enquist_headshot_2026.jpeg`, and a secondary inline portrait added with `assets/img/team/brian_enquist_portrait_2026.jpeg`.
+
+59. Date: 2026-07-03
+    Prompt: Add also a link to the publication for Gallagher et al. (2020) "Open Science principles for accelerating trait-based science across the Tree of Life".
+    Source session: VS Code Copilot Chat
+    Outcome: Added the Gallagher et al. (2020) entry to `_data/cv.yml` Selected Publications with publication metadata and DOI link (`https://doi.org/10.1038/s41559-020-1109-6`). Verified the paper already existed in `_includes/publications_full_from_doc.md` and did not require publication-list regeneration.
+
+60. Date: 2026-07-03
+    Prompt: Confirm whether Patrick et al. and Geange et al. were added.
+    Source session: VS Code Copilot Chat
+    Outcome: Verified Patrick et al. (2020) was present in `_data/cv.yml` with DOI link and already classified for `science-culture-teaching` via overrides. Added Geange et al. (2021) "Next-generation field courses: Integrating Open Science and online learning" to `_data/cv.yml` Selected Publications with DOI link (`https://doi.org/10.1002/ece3.7009`) and added an explicit `science-culture-teaching` override in `_data/publication_category_overrides.yml`.
+
+61. Date: 2026-07-03
+    Prompt: User reported Science Culture/Teaching count and requested papers still missing.
+    Source session: VS Code Copilot Chat
+    Outcome: Diagnosed that publication-topic counts are computed from `_includes/publications_full_from_doc.md`, not `_data/cv.yml`. Verified Geange (2021) was already present in the include but Patrick (2020; DOI `10.1002/bes2.1680`) was absent. Inserted Patrick et al. into the 2020 publication list in `_includes/publications_full_from_doc.md`, ensuring Science Culture/Teaching classification and counts include this paper.
