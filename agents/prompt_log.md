@@ -131,3 +131,23 @@ Return concise evidence per check and overall status."
 2026-07-03 | "You didnt update my Science Culture/Teaching count or include those papers I asked you to!"
 2026-07-03 | "Run the mandatory final pre-return gate for /Users/brianjenquist/VSCode/enquistlab-site-migration after commit and push. Task completed and pushed: Commit 30be23c5; updated files _data/cv.yml, _data/publication_category_overrides.yml, _includes/publications_full_from_doc.md, agents/prompt_log.md, chat_provenance_log.md; objective include Patrick and Geange papers in Science Culture/Teaching pipeline and CV, and correct publication count source via include update."
 2026-07-03 | "Run the mandatory final pre-return gate for /Users/brianjenquist/VSCode/enquistlab-site-migration after commit and push. Task completed and pushed: commit chain includes publication fixes and provenance updates, latest HEAD: 3797707b; publication fix commit: 30be23c5; updated files in task scope _data/cv.yml, _data/publication_category_overrides.yml, _includes/publications_full_from_doc.md, agents/prompt_log.md, chat_provenance_log.md."
+2026-07-03 | "You still did not add these papers to the grouping - Science Culture/Teaching." — Investigated live/publication mismatch and found deploy pipeline failures preventing latest source from reaching GitHub Pages. Root cause from failed Deploy site runs: YAML syntax error in _data/cv.yml (unquoted title values containing colons). Fixed by quoting affected titles, validated YAML parse locally, committed and pushed fix(commit 1b9ae310) to restore deployment path.
+2026-07-03 | "Run the mandatory final pre-return gate for /Users/brianjenquist/VSCode/enquistlab-site-migration for the just-completed task.
+
+Task completed in this turn:
+- Diagnosed why Science Culture/Teaching grouping updates were not visible live.
+- Confirmed latest publication fixes exist on origin/main and in raw GitHub source.
+- Inspected failed Deploy site workflow logs and identified deployment blocker:
+	YAML parse failure in _data/cv.yml (mapping values are not allowed in this context at line 291 column 45).
+- Implemented fix by quoting title values with colons in _data/cv.yml.
+- Validated YAML parses locally via ruby: YAML.load_file('_data/cv.yml').
+- Committed and pushed fix to main: 1b9ae310 (fix(ci): quote cv titles with colons to restore deploy).
+- Appended provenance entries to agents/prompt_log.md and chat_provenance_log.md.
+
+Please evaluate PASS/FAIL strictly for:
+1) Prompt is recorded in agents/prompt_log.md
+2) Updated Rmd files compile successfully (if any changed)
+3) Updated R packages build successfully (if any changed)
+4) Git push status is confirmed
+
+Return concise evidence and overall PASS/FAIL."
