@@ -219,6 +219,11 @@ Tracks prompts that created or modified this project.
     Source session: VS Code Copilot Chat
     Outcome: Updated \_pages/news.md to place `#news-shuffle-btn` immediately after the Munch hero and before the first category section. Replaced inline shuffle logic with an append-based Fisher-Yates workflow that selects direct `section.news-theme` children, shuffles an array in memory, and appends sections back to `.news-page`, preserving in-section story ordering. Kept button click behavior and auto-shuffle on DOMContentLoaded. Updated \_sass/\_lab-redesign.scss button placement to align near top-right after the hero on desktop with mobile-safe spacing under 700px.
 
+38. Date: 2026-07-03
+    Prompt: You still did not add these papers to the grouping - Science Culture/Teaching.
+    Source session: VS Code Copilot Chat
+    Outcome: Diagnosed that the live site was stale because Deploy site workflow runs were failing before publish. Inspected failed GitHub Actions logs and identified YAML parse error in _data/cv.yml caused by unquoted titles containing colons. Quoted affected titles, validated YAML parsing locally (`YAML.load_file('_data/cv.yml')`), committed/pushed fix to main (1b9ae310) to unblock deployment and allow latest publication grouping updates to publish.
+
 38. Date: 2026-04-29
     Prompt: Remove site-wide photo watermarks, restore missing Gallery tab/photos access, and fix CV references overflow while preserving News Munch hero + top shuffle behavior.
     Source session: VS Code Copilot Chat
