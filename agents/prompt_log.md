@@ -125,3 +125,7 @@ Please evaluate PASS/FAIL for:
 Return concise evidence per check and overall status."
 2026-06-29 | "Yes impose these"
 2026-06-29 | "Please use these photos as options if useful to update and improve this page design: /Users/brianjenquist/Desktop/BJE.jpeg /Users/brianjenquist/Desktop/IMG_1473.jpeg /Users/brianjenquist/Desktop/IUnknown-1.jpeg"
+2026-07-03 | "Add also a link to the publication for this one 1. Gallagher, R. V., Falster, D. S., Maitner, B. S., Salguero-Gómez, R., Vandvik, V., Pearse, W. D.,... & B.J. Enquist (2020). Open Science principles for accelerating trait-based science across the Tree of Life. Nature ecology & evolution, 4(3), 294-303."
+2026-07-03 | "Did  you add Patrick et al. ... and Geange, Sonya R., et al. Next-generation field courses: Integrating Open Science and online learning ... ?"
+2026-07-03 | "Run the mandatory final pre-return gate for /Users/brianjenquist/VSCode/enquistlab-site-migration for this completed task."
+2026-07-03 | "You didnt update my Science Culture/Teaching count or include those papers I asked you to!"

@@ -193,6 +193,15 @@ overrides:
       - science-culture-teaching
     rationale: User-requested Science Culture/Teaching classification.
 
+  - id: OVERRIDE_SCI_CULTURE_2021_NEXT_GENERATION_FIELD_COURSES
+    title_hints:
+      - "next-generation field courses: integrating open science and online learning"
+      - "next‐generation field courses: integrating open science and online learning"
+      - "10.1002/ece3.7009"
+    force_categories:
+      - science-culture-teaching
+    rationale: User-requested Science Culture/Teaching classification.
+
   - id: OVERRIDE_SCI_CULTURE_2023_SOFTWARE_INCENTIVES
     title_hints:
       - "better incentives are needed to reward academic software development"
