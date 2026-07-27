@@ -157,6 +157,36 @@ overrides:
       - ecophysiology
     rationale: Alpine grassland climate/physiology paper should appear under both categories.
 
+  - id: OVERRIDE_SORENSEN_2018_DRAINING_POOL_ALPINE_ECOPHYS
+    title_hints:
+      - "draining the pool carbon storage and fluxes in three alpine plant communities"
+      - "10.1007/s10021-017-0158-4"
+      - "sorensen strimbeck nystuen kapas enquist graae"
+    force_categories:
+      - arctic-alpine
+      - ecophysiology
+    rationale: Verified alpine carbon flux/storage paper; user requested placement in both categories.
+
+  - id: OVERRIDE_SORENSEN_2019_DRIVERS_C_CYCLING_ALPINE_ECOPHYS
+    title_hints:
+      - "drivers of c cycling in three arctic alpine plant communities"
+      - "10.1080/15230430.2019.1592649"
+      - "sorensen graae classen enquist strimbeck"
+    force_categories:
+      - arctic-alpine
+      - ecophysiology
+    rationale: Verified arctic-alpine carbon-cycling paper; user requested placement in both categories.
+
+  - id: OVERRIDE_SORENSEN_2018_HERBIVORE_EXCLUSION_ALPINE_ECOPHYS
+    title_hints:
+      - "experimental herbivore exclusion shrub introduction and carbon sequestration in alpine plant communities"
+      - "10.1186/s12898-018-0185-9"
+      - "sorensen graae hagen enquist nystuen strimbeck"
+    force_categories:
+      - arctic-alpine
+      - ecophysiology
+    rationale: Verified alpine experimental ecophysiology/carbon paper; user requested placement in both categories.
+
   - id: OVERRIDE_HORDIJK_2025_WORLD_FORESTS
     title_hints:
       - "effect of climate on traits of dominant and rare tree species in the world s forests"

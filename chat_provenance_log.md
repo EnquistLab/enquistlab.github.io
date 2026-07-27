@@ -259,6 +259,16 @@ Tracks prompts that created or modified this project.
 - Guo 2022: replaced Google Scholar link with PNAS DOI link
 - Araujo 2025: removed duplicate citation text after closing `</a>` tag
 
+40. Date: 2026-07-26
+    Prompt: @M For my website... verify several papers, ensure they are on my CV, place them in Alpine and Ecophysiology categories, and provide links.
+    Source session: VS Code Copilot Chat
+    Outcome: Verified three target publications with agent-assisted citation checks and DOI confirmation, added all three to `_data/cv.yml` Selected Publications with DOI links, and added manual category overrides in `_data/publication_category_overrides.yml` so each appears under both Arctic and Alpine and Ecophysiology tabs.
+
+41. Date: 2026-07-26
+    Prompt: Yes. Please add and update my lab website
+    Source session: VS Code Copilot Chat
+    Outcome: Updated `_pages/publications.html` with a new featured publications block near the top of the page to highlight three verified alpine/ecophysiology papers and provide direct DOI links above the full publication list.
+
 **New files** (prior session):
 
 - `scripts/sync_publications_html.py` — CV-to-HTML cross-check + CrossRef DOI verifier
@@ -462,3 +472,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: User reported Science Culture/Teaching count and requested papers still missing.
     Source session: VS Code Copilot Chat
     Outcome: Diagnosed that publication-topic counts are computed from `_includes/publications_full_from_doc.md`, not `_data/cv.yml`. Verified Geange (2021) was already present in the include but Patrick (2020; DOI `10.1002/bes2.1680`) was absent. Inserted Patrick et al. into the 2020 publication list in `_includes/publications_full_from_doc.md`, ensuring Science Culture/Teaching classification and counts include this paper.
+
+62. Date: 2026-07-26
+    Prompt: I dont see the new added publications
+    Source session: VS Code Copilot Chat
+    Outcome: Confirmed the new publication additions and featured block existed in local source files but were not visible on the live site because changes had not been pushed to `origin/main`. Prepared and executed commit/push workflow for `_pages/publications.html`, related CV/category data updates, and provenance logs.
