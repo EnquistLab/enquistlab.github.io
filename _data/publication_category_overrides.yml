@@ -187,6 +187,15 @@ overrides:
       - ecophysiology
     rationale: Verified alpine experimental ecophysiology/carbon paper; user requested placement in both categories.
 
+  - id: OVERRIDE_NAVARRO_2026_PLOIDY_CONDUCTANCE_ECOPHYS
+    title_hints:
+      - "ploidy level predicts differences in minimum leaf conductance in quaking aspen populus tremuloides"
+      - "10.1002/ajb2.70235"
+      - "navarro cruz de hoyos powers blonder enquist"
+    force_categories:
+      - ecophysiology
+    rationale: User-requested assignment of this 2026 leaf conductance paper to Ecophysiology.
+
   - id: OVERRIDE_HORDIJK_2025_WORLD_FORESTS
     title_hints:
       - "effect of climate on traits of dominant and rare tree species in the world s forests"
