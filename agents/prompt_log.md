@@ -157,3 +157,5 @@ Return concise evidence and overall PASS/FAIL."
 2026-07-26 | "I dont see the new added publications" — Diagnosed visibility issue: updates were present locally in `enquistlab-site-migration` but not pushed to `origin/main`, so live site could not reflect changes. Prepared commit/push of updated publication page and provenance logs.
 
 2026-07-26 | "I dont like having a Featured Publication Box... I wanted you to add these new publications to my CV and make these papers also come up under the Arctic and Alpine category and the Ecophysiology category" — Removed the unintended Featured Publications block from `_pages/publications.html`; retained the requested changes only: three papers in `_data/cv.yml` and explicit dual-category overrides in `_data/publication_category_overrides.yml` for `arctic-alpine` and `ecophysiology`.
+
+2026-07-26 | "Run mandatory final pre-return check for /Users/brianjenquist/VSCode/enquistlab-site-migration..." — Logged exact final-gate prompt for the scoped correction that removed the unintended Featured Publications box while preserving CV additions and Arctic and Alpine + Ecophysiology category mappings.
