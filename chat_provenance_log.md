@@ -497,3 +497,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: Also, PLease also add the following new paper to my Cv. Include under ecophysiology papers ...
     Source session: VS Code Copilot Chat
     Outcome: Added Navarro et al. (2026) "Ploidy level predicts differences in minimum leaf conductance in quaking aspen, Populus tremuloides" to `_data/cv.yml`, `_includes/publications_full_from_doc.md`, and `_data/publication_category_overrides.yml` so it appears on the CV, the Publications page, and in Ecophysiology.
+
+67. Date: 2026-07-27
+    Prompt: These papers ... Need to be organized and placed into the years that they were sampled. Together they are all listed under 2017
+    Source session: VS Code Copilot Chat
+    Outcome: Updated the three Sørensen entries in `_data/cv.yml` so their CV year badges all display 2017, matching the requested sampling-year grouping.
