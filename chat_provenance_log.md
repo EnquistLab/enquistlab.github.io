@@ -482,3 +482,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: I dont like having a Featured Publication Box... I wanted CV and category updates only.
     Source session: VS Code Copilot Chat
     Outcome: Removed the added featured-publications UI block from `_pages/publications.html` and kept only the requested scientific-content changes: CV entries in `_data/cv.yml` and dual category mapping in `_data/publication_category_overrides.yml` so the three papers appear under both Arctic and Alpine and Ecophysiology.
+
+64. Date: 2026-07-26
+    Prompt: YOu still have not added the two other Sorensen et al. papers to my CV!!!
+    Source session: VS Code Copilot Chat
+    Outcome: Verified all three Sørensen papers are present in `_data/cv.yml` and in deployed `/cv/` HTML output. Updated `_includes/cv/publications.liquid` to display publication authors beneath titles so Sørensen entries are visually explicit on the CV page.
