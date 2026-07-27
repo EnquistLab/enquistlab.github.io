@@ -492,3 +492,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: Where are the new Sørensen, M. papers??
     Source session: VS Code Copilot Chat
     Outcome: Diagnosed mismatch between CV and publications-list sources: all three Sørensen entries were present in CV data, but two entries were missing from `_includes/publications_full_from_doc.md`. Added the missing 2019 and 2018 Sørensen papers to the 2017 section block in the include using canonical DOI links, preserving existing category overrides for Arctic and Alpine + Ecophysiology tab placement.
+
+66. Date: 2026-07-26
+    Prompt: Also, PLease also add the following new paper to my Cv. Include under ecophysiology papers ...
+    Source session: VS Code Copilot Chat
+    Outcome: Added Navarro et al. (2026) "Ploidy level predicts differences in minimum leaf conductance in quaking aspen, Populus tremuloides" to `_data/cv.yml`, `_includes/publications_full_from_doc.md`, and `_data/publication_category_overrides.yml` so it appears on the CV, the Publications page, and in Ecophysiology.
