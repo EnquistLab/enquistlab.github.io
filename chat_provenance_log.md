@@ -477,3 +477,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: I dont see the new added publications
     Source session: VS Code Copilot Chat
     Outcome: Confirmed the new publication additions and featured block existed in local source files but were not visible on the live site because changes had not been pushed to `origin/main`. Prepared and executed commit/push workflow for `_pages/publications.html`, related CV/category data updates, and provenance logs.
+
+63. Date: 2026-07-26
+    Prompt: I dont like having a Featured Publication Box... I wanted CV and category updates only.
+    Source session: VS Code Copilot Chat
+    Outcome: Removed the added featured-publications UI block from `_pages/publications.html` and kept only the requested scientific-content changes: CV entries in `_data/cv.yml` and dual category mapping in `_data/publication_category_overrides.yml` so the three papers appear under both Arctic and Alpine and Ecophysiology.
