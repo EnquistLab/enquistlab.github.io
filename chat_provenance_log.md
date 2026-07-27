@@ -487,3 +487,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: YOu still have not added the two other Sorensen et al. papers to my CV!!!
     Source session: VS Code Copilot Chat
     Outcome: Verified all three Sørensen papers are present in `_data/cv.yml` and in deployed `/cv/` HTML output. Updated `_includes/cv/publications.liquid` to display publication authors beneath titles so Sørensen entries are visually explicit on the CV page.
+
+65. Date: 2026-07-26
+    Prompt: Where are the new Sørensen, M. papers??
+    Source session: VS Code Copilot Chat
+    Outcome: Diagnosed mismatch between CV and publications-list sources: all three Sørensen entries were present in CV data, but two entries were missing from `_includes/publications_full_from_doc.md`. Added the missing 2019 and 2018 Sørensen papers to the 2017 section block in the include using canonical DOI links, preserving existing category overrides for Arctic and Alpine + Ecophysiology tab placement.
