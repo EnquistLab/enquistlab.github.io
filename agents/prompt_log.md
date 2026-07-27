@@ -151,3 +151,7 @@ Please evaluate PASS/FAIL strictly for:
 4) Git push status is confirmed
 
 Return concise evidence and overall PASS/FAIL."
+
+2026-07-26 | "Yes. Please add and update my lab website" — Added a new featured block on `_pages/publications.html` with direct DOI links to three verified Sørensen et al. alpine/ecophysiology papers so they appear above the full publication list.
+
+2026-07-26 | "I dont see the new added publications" — Diagnosed visibility issue: updates were present locally in `enquistlab-site-migration` but not pushed to `origin/main`, so live site could not reflect changes. Prepared commit/push of updated publication page and provenance logs.
