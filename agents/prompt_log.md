@@ -169,3 +169,5 @@ Return concise evidence and overall PASS/FAIL."
 2026-07-26 | "YOu still have not added the two other Sorensen et al. papers to my CV!!!" — Verified all three Sørensen papers are present in `_data/cv.yml` and live `/cv/` HTML. Updated `_includes/cv/publications.liquid` to render publication authors so Sørensen entries are clearly visible on the CV page when scanning selected publications.
 
 2026-07-26 | "Where are the new Sørensen, M. papers??" — Verified location status: all three Sørensen papers are in `_data/cv.yml` and live CV output; only one was present in `_includes/publications_full_from_doc.md`. Added the two missing Sørensen papers (2019 Drivers of C cycling; 2018 Experimental herbivore exclusion...) into the full publications include with canonical DOI links so they appear on the Publications page and in category-grouped tabs.
+
+2026-07-26 | "Run mandatory final pre-return check for /Users/brianjenquist/VSCode/enquistlab-site-migration... Task scope: Where are the new Sørensen, M. papers?? ... Commit pushed: 52b1ef51 on origin/main." — Logged exact final-gate request prompt for the Sørensen publications visibility fix task.
