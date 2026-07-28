@@ -502,3 +502,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: These papers ... Need to be organized and placed into the years that they were sampled. Together they are all listed under 2017
     Source session: VS Code Copilot Chat
     Outcome: Updated the three Sørensen entries in `_data/cv.yml` so their CV year badges all display 2017, matching the requested sampling-year grouping.
+
+68. Date: 2026-07-28
+    Prompt: For my lab website and publications please make sure to put "1. Navarro, J., Cruz‐de Hoyos, R.M., Powers, J.M., Blonder, B.W. and Enquist, B.J., 2026..." in the ecophysiology grouping.
+    Source session: VS Code Copilot Chat
+    Outcome: Confirmed the Navarro et al. (2026) paper is present in `_data/cv.yml` and `_includes/publications_full_from_doc.md` and is mapped in `_data/publication_category_overrides.yml` to `ecophysiology`. Added the exact comma-form title hint to the override matcher so this citation reliably lands in the Ecophysiology tab when publication text normalization preserves punctuation.
