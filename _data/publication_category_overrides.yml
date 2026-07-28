@@ -189,6 +189,7 @@ overrides:
 
   - id: OVERRIDE_NAVARRO_2026_PLOIDY_CONDUCTANCE_ECOPHYS
     title_hints:
+      - "ploidy level predicts differences in minimum leaf conductance in quaking aspen, populus tremuloides"
       - "ploidy level predicts differences in minimum leaf conductance in quaking aspen populus tremuloides"
       - "10.1002/ajb2.70235"
       - "navarro cruz de hoyos powers blonder enquist"
