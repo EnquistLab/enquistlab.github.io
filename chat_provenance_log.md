@@ -149,6 +149,11 @@ Tracks prompts that created or modified this project.
     Source session: VS Code Copilot Chat
     Outcome: Ran scripts/sync_people_sheet.py locally with ALUMNI_SHEET_GID=1137118685 so the alumni tab would sync in addition to the active-members tab. The sync updated \_data/people.yml, replacing Cesar Hinojo Hinojo's blank google_scholar field with the current Google Scholar URL from the source sheet.
 
+29. Date: 2026-08-11
+    Prompt: Add a contemporary inclusion and diversity statement under a newer general name, and update the Join Us tab for prospective undergraduate, MS, PhD, and postdoctoral researchers with relevant U.S. and international funding resources.
+    Source session: VS Code Copilot Chat
+    Outcome: Added a Community page with concrete lab commitments; revised Join Us for undergraduate, graduate, postdoctoral, and international inquiries; stated that the lab is accepting graduate inquiries; and added qualified links to official funding resources. Applied these changes to the canonical EnquistLab/enquistlab.github.io repository after confirming the initially edited project repository did not publish the requested public URL.
+
 29. Date: 2026-04-27
     Prompt: For my github webpage I would like to add a tab called Photo Gallery where we cycle through photos from my old website. Choose the best existing landscape photos and photos of people.
     Source session: VS Code Copilot Chat
@@ -507,3 +512,8 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Prompt: For my lab website and publications please make sure to put "1. Navarro, J., Cruz‐de Hoyos, R.M., Powers, J.M., Blonder, B.W. and Enquist, B.J., 2026..." in the ecophysiology grouping.
     Source session: VS Code Copilot Chat
     Outcome: Confirmed the Navarro et al. (2026) paper is present in `_data/cv.yml` and `_includes/publications_full_from_doc.md` and is mapped in `_data/publication_category_overrides.yml` to `ecophysiology`. Added the exact comma-form title hint to the override matcher so this citation reliably lands in the Ecophysiology tab when publication text normalization preserves punctuation.
+
+69. Date: 2026-08-11
+    Prompt: Implement this narrowly scoped request... On field-sites, add a clear mention/link to the dedicated San Emilio site directly in the existing SEFDP section, preserving style and content. On research, add a short factual blurb and link in the introductory/relevant long-term research area, preserving design conventions.
+    Source session: CLI Copilot session
+    Outcome: Added a direct link to the dedicated San Emilio Forest Dynamics Plot site (https://benquist.github.io/SanEmilioForestDynamicsPlot.github.io/) in `_pages/field-sites.md`'s existing SEFDP section, and appended a matching sentence linking to the dedicated site at the end of the SEFDP paragraph in `_pages/research.md`'s Long-Term Ecology section, without introducing new scientific claims.
