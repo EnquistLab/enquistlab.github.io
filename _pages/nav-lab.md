@@ -7,10 +7,12 @@ dropdown: true
 children:
   - title: About
     permalink: /about/
+  - title: Research
+    permalink: /research/
   - title: Team
     permalink: /people/
-  - title: Gallery
-    permalink: /gallery/
+  - title: Publications
+    permalink: /publications/
   - title: divider
   - title: Join Us
     permalink: /join/

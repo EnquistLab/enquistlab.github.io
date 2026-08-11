@@ -15,45 +15,54 @@ nav_order: 1
 </div>
 
 <div class="home-mission">
-  <p>From individual leaves to continental forests — we measure, model, and predict how life is organized across scales, and how it responds to a changing world.</p>
+  <p>We study how biodiversity, traits, and ecosystem function scale from individual organisms to whole ecosystems — and how those patterns shift under climate change and land-use pressure.</p>
 </div>
 
 <div class="home-pillars">
 
   <a class="home-pillar" href="{{ '/research/' | relative_url }}">
-    <div class="home-pillar__number">~17k</div>
-    <div class="home-pillar__head">Theory for Predictive Biodiversity Science</div>
-    <div class="home-pillar__sub">Citations to core scaling papers · 10+ NSF/NASA/DOE grants</div>
-  </a>
-
-  <a class="home-pillar" href="https://biendata.org" target="_blank" rel="noopener">
-    <div class="home-pillar__number">284M+</div>
-    <div class="home-pillar__head">Plant observations</div>
-    <div class="home-pillar__sub">Integrated records, traits, plots, taxonomy, and data quality control</div>
-  </a>
-
-  <a class="home-pillar" href="{{ '/resources/' | relative_url }}">
-    <div class="home-pillar__number">100M+</div>
-    <div class="home-pillar__head">Open tools for ecology</div>
-    <div class="home-pillar__sub">Plant names resolved via TNRS · BIEN, traitstrap, hypervolume, and biodiversity web services</div>
-  </a>
-
-  <a class="home-pillar" href="{{ '/conservation-impacts/' | relative_url }}">
-    <div class="home-pillar__number">150+</div>
-    <div class="home-pillar__head">Decision-facing conservation</div>
-    <div class="home-pillar__sub">Countries with scenario-based extinction risk and protected-area forecasts</div>
+    <div class="home-pillar__number">Theory</div>
+    <div class="home-pillar__head">Scaling from cells to ecosystems</div>
+    <div class="home-pillar__sub">Allometry, metabolic scaling, and the rules that govern biological organization.</div>
   </a>
 
   <a class="home-pillar" href="{{ '/research/' | relative_url }}">
-    <div class="home-pillar__number">~300k</div>
-    <div class="home-pillar__head">Modeled species range products</div>
-    <div class="home-pillar__sub">Global plant diversity mapped and forecast</div>
+    <div class="home-pillar__number">Traits</div>
+    <div class="home-pillar__head">Functional diversity and community assembly</div>
+    <div class="home-pillar__sub">Trait-based ecology, plant physiology, and how environmental filters shape life.</div>
+  </a>
+
+  <a class="home-pillar" href="https://biendata.org" target="_blank" rel="noopener">
+    <div class="home-pillar__number">Data</div>
+    <div class="home-pillar__head">Global biodiversity informatics</div>
+    <div class="home-pillar__sub">Occurrence, trait, and environmental data synthesized for predictive ecology.</div>
+  </a>
+
+  <a class="home-pillar" href="{{ '/conservation-impacts/' | relative_url }}">
+    <div class="home-pillar__number">Forecasts</div>
+    <div class="home-pillar__head">Biodiversity under global change</div>
+    <div class="home-pillar__sub">Scenario-based forecasting to guide conservation and ecological decision-making.</div>
   </a>
 
 </div>
 
 <div class="home-recruitment-status">
-  <a class="status-chip status-chip--info" href="{{ '/join/' | relative_url }}">Graduate applications open &rarr; Deadline December 2026</a>
+  <a class="status-chip status-chip--info" href="{{ '/join/' | relative_url }}">Graduate inquiries welcome &rarr; Learn about joining the lab</a>
+</div>
+
+<div style="display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap:1rem; margin:2rem 0;">
+  <div style="background:#f5f1ea; border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem;">
+    <div style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:#4b5e4a; font-weight:700; margin-bottom:0.55rem;">1. Observe</div>
+    <p style="margin:0; line-height:1.5;">We measure organisms, communities, and ecosystems across field sites and long-term plots.</p>
+  </div>
+  <div style="background:#f5f1ea; border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem;">
+    <div style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:#4b5e4a; font-weight:700; margin-bottom:0.55rem;">2. Model</div>
+    <p style="margin:0; line-height:1.5;">We connect theory, traits, and physiology to explain how biodiversity is structured across scales.</p>
+  </div>
+  <div style="background:#f5f1ea; border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem;">
+    <div style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:#4b5e4a; font-weight:700; margin-bottom:0.55rem;">3. Forecast</div>
+    <p style="margin:0; line-height:1.5;">We build uncertainty-aware tools to predict ecological responses to global change.</p>
+  </div>
 </div>
 
 <div class="home-cards">

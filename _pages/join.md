@@ -13,6 +13,15 @@ The Enquist Lab welcomes inquiries from people interested in biodiversity, macro
 
 You do not need expertise in every area before joining the lab. We value curiosity, reliability, collaboration, and a willingness to develop complementary ecological and quantitative skills. Please also read our [community commitments]({{ '/community/' | relative_url }}).
 
+### How to get involved
+
+We work across field ecology, theory, data synthesis, and quantitative modeling. We welcome students and collaborators who are excited by any combination of those areas.
+
+- **Undergraduate students:** Explore independent research, field projects, coding, and data analysis.
+- **Graduate students:** Inquire early with a brief statement of research interests and relevant experience.
+- **Postdoctoral researchers:** Reach out with a project concept, timing, and fellowship or funding idea.
+- **Collaborators:** We welcome interdisciplinary partnerships involving ecology, data science, conservation, and modeling.
+
 <div class="photo-pair">
 	<figure>
 		<img src="{{ '/assets/img/wordpress/dsc_3414.jpeg' | relative_url }}" alt="Andean ridgeline overlooking layered cloud-forest valleys during field sampling" loading="lazy">

@@ -46,7 +46,7 @@ social: true
   </figcaption>
 </figure>
 
-We study one central question: how do the functional traits of organisms scale up to shape biodiversity, ecosystems, and the biosphere under rapid environmental change?
+We study a central question: how do the form, function, and diversity of organisms scale up to shape ecosystems and the biosphere under rapid environmental change? Our work connects theory, field measurement, trait data, and predictive modeling to explain ecological patterns and forecast how biodiversity responds to a changing world.
 
 <div class="about-identity-facts" markdown="1">
 
