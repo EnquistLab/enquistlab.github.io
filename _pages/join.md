@@ -3,15 +3,15 @@ layout: page
 title: join us
 permalink: /join/
 description: Opportunities to join the Enquist Macroecology Lab
-nav: false
-nav_order: 7.5
+nav: true
+nav_order: 2.5
 ---
 
 ## Join the Lab
 
-The Enquist Lab welcomes students and researchers interested in macroecology, functional biology, biodiversity informatics, and global change biology. Much of the work combines field ecology, plant physiology, trait data, large synthesis datasets, and theory-driven quantitative analysis.
+The Enquist Lab welcomes inquiries from people interested in biodiversity, macroecology, functional ecology, ecological scaling, global change, and reproducible ecological data and modeling tools. Our projects may combine fieldwork, experiments, theory, quantitative modeling, ecoinformatics, and large-scale data synthesis.
 
-We are a field-anchored and quantitatively rigorous group: students and postdocs routinely move between boots-on-the-ground ecological measurements, reproducible R workflows, and theory-focused synthesis writing. Mentorship emphasizes question clarity, transparent uncertainty, and open-science habits that scale from a single plot to continental biodiversity analyses.
+You do not need expertise in every area before joining the lab. We value curiosity, reliability, collaboration, and a willingness to develop complementary ecological and quantitative skills. Please also read our [community commitments]({{ '/community/' | relative_url }}).
 
 <div class="photo-pair">
 	<figure>
@@ -24,28 +24,45 @@ We are a field-anchored and quantitatively rigorous group: students and postdocs
 	</figure>
 </div>
 
-### What Makes A Strong Fit
+### Undergraduate Students
 
-1. Clear scientific questions that connect organismal biology to community, ecosystem, or macroecological patterns
-2. Interest in combining field measurements with quantitative, computational, or data-synthesis approaches
-3. Evidence of initiative: research experience, coding, open-science practice, or independent project development
+University of Arizona undergraduates can gain research experience through independent study, research credit, senior projects, and paid positions when funding is available. Projects may include field or laboratory work, literature synthesis, ecological databases, reproducible analysis, visualization, or scientific software.
+
+The [University of Arizona Undergraduate Biology Research Program](https://ubrp.arizona.edu/) supports undergraduate research and is a useful place to explore current programs and eligibility. Other opportunities may be available through independent study or individual project funding.
+
+When contacting us, briefly describe your interests, relevant coursework or experience, the skills you hope to develop, and the time you can realistically commit. Include a CV or resume if you have one; prior research experience is not required for every project.
 
 ---
 
-### Graduate Students
+### MS and PhD Students
 
-We accept students through the [Department of Ecology & Evolutionary Biology](https://eeb.arizona.edu/graduate) at the University of Arizona. We are especially interested in supporting students interested in:
+**The lab is currently accepting inquiries from prospective graduate students.**
+
+Graduate students join through the [University of Arizona Department of Ecology & Evolutionary Biology](https://eeb.arizona.edu/graduate). Potential projects include:
 
 1. Plant ecophysiology and ecosystem fluxes at elevational transects (RMBL), long-term tropical forest plots (Costa Rica), and Andean/Amazonian systems (Peru)
 2. Theoretical and quantitative advances in allometric and metabolic scaling, trait-based ecology, and plant form-function relationships
 3. Macroecology, biodiversity science, and large-scale ecological synthesis
 
-Prospective students should:
+Admission to the graduate program, fit with the lab, and financial support are related but separate decisions. Support may include research grants, teaching assistantships, and competitive fellowships, depending on eligibility and availability. An encouraging response to an inquiry is not an offer of admission or funding.
 
-1. Review our [research themes]({{ '/research/' | relative_url }}) to assess fit
-2. Email Brian ([benquist@arizona.edu](mailto:benquist@arizona.edu)) with a brief statement of interest, CV, and any relevant publications or projects
+Prospective students should review our [research themes]({{ '/research/' | relative_url }}) and email Brian ([benquist@arizona.edu](mailto:benquist@arizona.edu)) with:
 
-Applications are typically due in **December** for the following fall. Strong applications will have prior research experience, programming skills (R or Python), and clear scientific questions.
+- A concise description of their research interests and why the lab is a good fit
+- A CV or resume
+- A summary of relevant research, field, quantitative, or programming experience
+- The intended degree and approximate application timeline
+- Potential funding programs for which they may be eligible
+
+Formal requirements and deadlines can change; consult the [EEB graduate program](https://eeb.arizona.edu/graduate) before applying.
+
+Potential graduate funding resources include:
+
+- [University of Arizona Graduate College funding resources](https://grad.arizona.edu/funding)
+- [NSF Graduate Research Fellowship Program](https://www.nsfgrfp.org/) for eligible U.S. citizens, nationals, and permanent residents
+- [Fulbright Foreign Student Program](https://foreign.fulbrightonline.org/about/foreign-fulbright) for eligible international applicants, with rules that vary by home country
+
+Applicants should verify current eligibility, deadlines, and award terms directly with each program.
 
 <figure class="field-photo">
 	<img src="{{ '/assets/img/field/sefdp_diameter_measure.jpg' | relative_url }}" alt="Field researchers measuring tree diameter in a forest monitoring plot" loading="lazy">
@@ -56,19 +73,27 @@ Applications are typically due in **December** for the following fall. Strong ap
 
 ### Postdoctoral Researchers
 
-No funded postdoctoral positions are currently open. Researchers interested in developing independent fellowships ([NSF](https://www.nsf.gov/funding/), [USDA](https://www.usda.gov/), [Marie Curie](https://marie-sklodowska-curie-actions.ec.europa.eu/), etc.) are encouraged to contact Brian to discuss potential fit and alignment with ongoing lab projects.
+We welcome inquiries from researchers interested in developing collaborative fellowship proposals. A strong proposal should connect with the lab's research while allowing the applicant to establish an independent scientific direction.
+
+Please include a CV, a short project concept, anticipated timing, and possible fellowship or grant mechanisms. Appointments depend on project fit, mentorship capacity, successful funding, and University hiring and immigration requirements. An inquiry does not imply that a funded position is available.
+
+Programs that may fit particular projects or applicants include:
+
+- [NSF Postdoctoral Research Fellowships in Biology](https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology), when the current competition's research area and eligibility requirements apply
+- [David H. Smith Conservation Research Fellowship](https://www.smithfellows.org/proposal-guidelines) for eligible applied conservation research with a U.S. host
+- [Human Frontier Science Program Postdoctoral Fellowships](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships) for eligible international and interdisciplinary life-science research
 
 ---
 
-### Undergraduate Researchers
+### International Applicants and Visitors
 
-UA undergraduates interested in research in macroecology, bioinformatics, or data science should email Brian with a CV and brief statement of interest. We participate in UA's [UBRP](https://ubrp.arizona.edu/) program and often support honors theses and summer field opportunities.
+International students and researchers are welcome to inquire. Admission, employment, funding, English-language requirements, and immigration or visa eligibility are governed by the relevant program and University offices. Fellowship and exchange options vary by country, career stage, and project.
 
----
+### Contacting the Lab
 
-### Visiting Researchers
+Email [benquist@arizona.edu](mailto:benquist@arizona.edu) with a focused note explaining the ecological questions that interest you, why the Enquist Lab is a good intellectual fit, and what you hope to contribute and learn. Include a CV or resume and use a clear subject line such as “Prospective PhD student,” “Undergraduate research inquiry,” or “Postdoctoral fellowship inquiry.”
 
-We welcome international visiting students and researchers. Contact Brian directly to discuss potential collaborations and funding sources.
+Funding programs and University requirements change. All links and eligibility details on this page were reviewed in August 2026; applicants should confirm current information with the official source.
 
 <div class="photo-pair">
 	<figure>
