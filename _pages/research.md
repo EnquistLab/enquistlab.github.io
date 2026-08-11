@@ -16,19 +16,8 @@ nav_order: 3
 
 <div class="research-intro-grid">
 <div class="research-intro-grid__text">
-<p>Our lab develops theory and data-driven tools to explain how biodiversity is organized across scales, and how it is changing under climate and land-use pressure.</p>
-<p>We organize our work as a connected process: observations and traits → scaling and trait-based theory → predictive models → uncertainty-aware ecological forecasting.</p>
-<p>Current themes include:</p>
-<ul>
-<li>Scaling in biology and allometry</li>
-<li>Forecasting the fate of biodiversity and the biosphere</li>
-<li>Trait-based ecology as a foundation for predictive ecology and biodiversity science</li>
-<li>Biodiversity informatics</li>
-<li>Macroecology of biodiversity gradients</li>
-<li>Ecology and evolution of plant functional and physiological integration</li>
-<li>Long-term monitoring of populations, communities, and ecosystems in tropical, temperate, and alpine environments</li>
-</ul>
-<p>Our research flows from observation to prediction: we measure organisms and ecosystems, build theories about why patterns emerge across levels of biological organization, and test whether those theories can forecast how biodiversity responds to global change.</p>
+<p>Our lab studies how biodiversity is organized across scales — from leaves and individuals to communities, ecosystems, and the biosphere — and how those patterns shift under climate change and land-use pressure.</p>
+<p>We connect observation, theory, and prediction in a single workflow: <strong>measure ecological patterns</strong> → <strong>develop mechanistic explanations</strong> → <strong>forecast future change</strong>.</p>
 </div>
 <aside class="research-program-card">
   <div class="research-program-card__photo">
@@ -47,6 +36,25 @@ nav_order: 3
     </ul>
   </div>
 </aside>
+</div>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem; margin:2rem 0 2.5rem;">
+  <div style="border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem; background:#f7f4ef;">
+    <h3 style="margin:0 0 0.5rem; font-size:1.0rem;">Scaling</h3>
+    <p style="margin:0; line-height:1.5;">How do body size, vascular architecture, and temperature shape growth, metabolism, and ecosystem function?</p>
+  </div>
+  <div style="border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem; background:#f7f4ef;">
+    <h3 style="margin:0 0 0.5rem; font-size:1.0rem;">Traits</h3>
+    <p style="margin:0; line-height:1.5;">How do functional trait distributions predict community assembly, ecological filtering, and climate response?</p>
+  </div>
+  <div style="border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem; background:#f7f4ef;">
+    <h3 style="margin:0 0 0.5rem; font-size:1.0rem;">Informatics</h3>
+    <p style="margin:0; line-height:1.5;">How do we synthesize millions of plant records, traits, and environmental layers into reproducible ecological tools?</p>
+  </div>
+  <div style="border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem; background:#f7f4ef;">
+    <h3 style="margin:0 0 0.5rem; font-size:1.0rem;">Forecasting</h3>
+    <p style="margin:0; line-height:1.5;">How do biodiversity and ecosystem function change under alternative climates, land-use pressures, and disturbance?</p>
+  </div>
 </div>
 
 ---
