@@ -7,6 +7,8 @@ nav: true
 nav_order: 2.5
 ---
 
+<div class="join-page" markdown="1">
+
 ## Join the Lab
 
 The Enquist Lab welcomes inquiries from people interested in biodiversity, macroecology, functional ecology, ecological scaling, global change, and reproducible ecological data and modeling tools. Our projects may combine fieldwork, experiments, theory, quantitative modeling, ecoinformatics, and large-scale data synthesis.
@@ -124,4 +126,6 @@ Funding programs and University requirements change. All links and eligibility d
 		<img src="{{ '/assets/img/field/rmbl_fieldwork.jpg' | relative_url }}" alt="Fieldwork at the Rocky Mountain Biological Laboratory elevational gradient" loading="lazy">
 		<figcaption>Research opportunities span tropical forests, alpine systems, and cross-site synthesis projects.</figcaption>
 	</figure>
+</div>
+
 </div>

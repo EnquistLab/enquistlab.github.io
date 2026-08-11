@@ -710,6 +710,33 @@ h6,
   }
 }
 
+.join-page {
+  > h2,
+  > h3,
+  > p,
+  > ul,
+  > ol,
+  > hr {
+    max-width: 68ch;
+    margin-inline: auto;
+  }
+
+  p,
+  li {
+    line-height: 1.6;
+    text-align: start;
+  }
+
+  > ul,
+  > ol {
+    padding-inline-start: 1.5rem;
+  }
+
+  li + li {
+    margin-top: 0.5rem;
+  }
+}
+
 .research-theme-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
