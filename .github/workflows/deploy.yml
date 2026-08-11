@@ -62,16 +62,21 @@ on:
       - "!README.md"
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
-  group: deploy
+  group: pages
   cancel-in-progress: true
 
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -106,8 +111,13 @@ jobs:
       - name: Prepare static publish marker
         run: |
           touch _site/.nojekyll
-      - name: Deploy 🚀
-        if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: _site
+          path: _site
+      - name: Deploy 🚀
+        id: deployment
+        if: github.event_name != 'pull_request'
+        uses: actions/deploy-pages@v4

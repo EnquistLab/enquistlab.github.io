@@ -154,6 +154,11 @@ Tracks prompts that created or modified this project.
     Source session: VS Code Copilot Chat
     Outcome: Added a Community page with concrete lab commitments; revised Join Us for undergraduate, graduate, postdoctoral, and international inquiries; stated that the lab is accepting graduate inquiries; and added qualified links to official funding resources. Applied these changes to the canonical EnquistLab/enquistlab.github.io repository after confirming the initially edited project repository did not publish the requested public URL.
 
+30. Date: 2026-08-11
+    Prompt: I don't see the updated website yet.
+    Source session: VS Code Copilot Chat
+    Outcome: Confirmed the content workflow succeeded and generated the correct Community and Join HTML, but GitHub's legacy Pages publisher remained stuck in building state. Replaced the legacy gh-pages branch handoff with GitHub's supported artifact-based Pages deployment actions so successful builds publish directly and report a deployment URL.
+
 29. Date: 2026-04-27
     Prompt: For my github webpage I would like to add a tab called Photo Gallery where we cycle through photos from my old website. Choose the best existing landscape photos and photos of people.
     Source session: VS Code Copilot Chat
