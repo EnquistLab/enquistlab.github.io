@@ -5,26 +5,31 @@ Tracks prompts that created or modified this project.
 ## Entries
 
 1. Date: 2026-08-11
+    Prompt: Good but there is much space between text lines. Looks like double space. I think we can reduce quite a bit the spacing between lines.
+    Source session: VS Code Copilot Chat
+    Outcome: Tightened Join page paragraph and list line-height from 1.6 to 1.4 while preserving the centered prose measure, wider photographs, and Community page styling.
+
+2. Date: 2026-08-11
     Prompt: Good. Now do a similar justification with https://enquistlab.github.io/join/
     Source session: VS Code Copilot Chat
     Outcome: Added a Join page wrapper and centered headings, prose, lists, and dividers at a readable 68ch measure with natural alignment and consistent list spacing, while retaining wider photographic sections.
 
-2. Date: 2026-08-11
+3. Date: 2026-08-11
     Prompt: For https://enquistlab.github.io/research/ the text in the Scaling, Traits, Informatics, and Forecasting question cards cannot be seen against the night black background.
     Source session: VS Code Copilot Chat
     Outcome: Replaced fixed light-only inline card styling with reusable research-theme classes using the site's card, divider, and text color variables, restoring heading and paragraph contrast in dark mode.
 
-3. Date: 2026-08-11
+4. Date: 2026-08-11
     Prompt: Oh gosh, https://enquistlab.github.io/community/ is horrible!!! Please have the design-atelier, scandinavian-design, and ecology-user agents take a look at it; all the formatting is gone!
     Source session: VS Code Copilot Chat
     Outcome: The three requested reviews agreed that Markdown inside the raw Community page div was being emitted literally. Enabled Kramdown processing within the wrapper and replaced justified text with a centered 68ch reading column, natural alignment, and improved list spacing.
 
-4. Date: 2026-08-11
+5. Date: 2026-08-11
     Prompt: Before moving forward. For the Home page [specific boxes] ... those boxes need to be centered on the page. Also... the text cannot be read when the background is set to night mode black. Also, for https://enquistlab.github.io/community/ the text is scrunched all the way on the left. There are gaps on the right hand side for any normal page view size and justification.
     Source session: VS Code Copilot Chat
     Outcome: Fixed the homepage card-grid centering in _sass/_lab-redesign.scss, moved the Observe/Model/Forecast block into theme-aware classes for dark-mode readability, and constrained the Community page content to a centered width with justified text. Updated _pages/home.md and _pages/community.md to match the new CSS structure.
 
-5. Date: 2026-08-11
+6. Date: 2026-08-11
     Prompt: If we can merge the SEFDP cross-links as well so that all projects are moving ahead at the same time
     Source session: VS Code Copilot Chat
     Outcome: Committed and pushed cross-links to the dedicated San Emilio Forest Dynamics Plot site (https://benquist.github.io/SanEmilioForestDynamicsPlot.github.io/) from _pages/field-sites.md and _pages/research.md. Commit 0532761f pushed to origin/main.
