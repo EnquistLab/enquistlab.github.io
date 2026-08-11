@@ -710,6 +710,33 @@ h6,
   }
 }
 
+.research-theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 2.5rem;
+}
+
+.research-theme-card {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background: var(--global-card-bg-color);
+  color: var(--global-text-color);
+
+  h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+    color: var(--global-text-color);
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+    color: var(--global-text-color);
+  }
+}
+
 // Card grid
 .home-cards {
   display: grid;

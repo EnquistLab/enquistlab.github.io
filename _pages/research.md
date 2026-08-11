@@ -38,22 +38,22 @@ nav_order: 3
 </aside>
 </div>
 
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem; margin:2rem 0 2.5rem;">
-  <div style="border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem; background:#f7f4ef;">
-    <h3 style="margin:0 0 0.5rem; font-size:1.0rem;">Scaling</h3>
-    <p style="margin:0; line-height:1.5;">How do body size, vascular architecture, and temperature shape growth, metabolism, and ecosystem function?</p>
+<div class="research-theme-grid">
+  <div class="research-theme-card">
+    <h3>Scaling</h3>
+    <p>How do body size, vascular architecture, and temperature shape growth, metabolism, and ecosystem function?</p>
   </div>
-  <div style="border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem; background:#f7f4ef;">
-    <h3 style="margin:0 0 0.5rem; font-size:1.0rem;">Traits</h3>
-    <p style="margin:0; line-height:1.5;">How do functional trait distributions predict community assembly, ecological filtering, and climate response?</p>
+  <div class="research-theme-card">
+    <h3>Traits</h3>
+    <p>How do functional trait distributions predict community assembly, ecological filtering, and climate response?</p>
   </div>
-  <div style="border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem; background:#f7f4ef;">
-    <h3 style="margin:0 0 0.5rem; font-size:1.0rem;">Informatics</h3>
-    <p style="margin:0; line-height:1.5;">How do we synthesize millions of plant records, traits, and environmental layers into reproducible ecological tools?</p>
+  <div class="research-theme-card">
+    <h3>Informatics</h3>
+    <p>How do we synthesize millions of plant records, traits, and environmental layers into reproducible ecological tools?</p>
   </div>
-  <div style="border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem; background:#f7f4ef;">
-    <h3 style="margin:0 0 0.5rem; font-size:1.0rem;">Forecasting</h3>
-    <p style="margin:0; line-height:1.5;">How do biodiversity and ecosystem function change under alternative climates, land-use pressures, and disturbance?</p>
+  <div class="research-theme-card">
+    <h3>Forecasting</h3>
+    <p>How do biodiversity and ecosystem function change under alternative climates, land-use pressures, and disturbance?</p>
   </div>
 </div>
 
