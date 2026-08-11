@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-<div class="community-page">
+<div class="community-page" markdown="1">
 
 ## A Collaborative Lab Community
 

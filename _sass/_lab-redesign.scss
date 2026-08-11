@@ -692,13 +692,21 @@ h6,
 }
 
 .community-page {
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 68ch;
+  margin-inline: auto;
 
   p,
-  li,
-  blockquote {
-    text-align: justify;
+  li {
+    line-height: 1.6;
+    text-align: start;
+  }
+
+  ul {
+    padding-inline-start: 1.25rem;
+  }
+
+  li + li {
+    margin-top: 0.5rem;
   }
 }
 
