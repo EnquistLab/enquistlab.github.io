@@ -7,11 +7,6 @@ nav: false
 nav_order: 3.8
 ---
 
-<style>
-/* Remove the global paragraph max-width cap — let text fill the page container on this page */
-.post p, .post li { max-width: none !important; }
-</style>
-
 ## Field Sites & Long-Term Research
 
 The lab works in many places around the globe, but much of our field work has focused on three primary systems: (i) long-term dynamics within a tropical forest in the Area de Conservacion Guanacaste, Costa Rica; (ii) an elevation transect at the Rocky Mountain Biological Lab in Colorado; and (iii) a global network of Gentry forest plots across latitudinal and elevational gradients. We also co-organize an international Plant Functional Trait Course program.

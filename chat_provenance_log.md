@@ -7,7 +7,7 @@ Tracks prompts that created or modified this project.
 1. Date: 2026-08-11
     Prompt: Good. Lets now make the same text alignment to the other pages.
     Source session: VS Code Copilot Chat
-    Outcome: Updated the shared prose rules so standard headings, paragraphs, lists, blockquotes, and dividers use a centered 68ch measure and 1.3 line-height across standard page and About layouts, while custom cards, galleries, tables, and media retain their wider layouts.
+    Outcome: Updated the shared prose rules so standard headings, paragraphs, lists, blockquotes, and dividers use a centered 68ch measure and 1.3 line-height across standard page and About layouts, while custom cards, galleries, tables, and media retain their wider layouts. Removed an obsolete Field Sites page-level rule that forced its prose back to full width.
 
 2. Date: 2026-08-11
     Prompt: I think the spacing could be even tighter.
