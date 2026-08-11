@@ -24,6 +24,8 @@ We organize a long-term forest dynamics plot in Santa Rosa National Park, Area d
 
 The SEFDP was originally censused in 1976 by George Stevens and Stephen Hubbell. All woody stems ≥ 3 cm diameter within a ~15 ha plot were measured and mapped. The plot was recensused in 1995–96, again in 2006–07, and most recently in a full resurvey in 2019–2021 (ForestGEO protocols, stems ≥ 1 cm). The plot contains approximately 50,000 individual trees of ~200 woody species. Research focuses on tree population dynamics, trait-based and ecophysiological approaches, and the influence of local soil and climate on forest change over nearly 50 years.
 
+Visit the dedicated [San Emilio Forest Dynamics Plot site](https://benquist.github.io/SanEmilioForestDynamicsPlot.github.io/) for the plot overview, census history, and data-access information.
+
 <div class="photo-pair">
   <figure>
     <img src="{{ "/assets/img/field/sefdp_diameter_measure.jpg" | relative_url }}" alt="Researcher measuring Guanacaste tree diameter at San Emilio FDP, Costa Rica" loading="lazy">
