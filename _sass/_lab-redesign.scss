@@ -88,6 +88,12 @@ body {
   margin-inline: auto;
 }
 
+.about-article > .clearfix > p img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 // Responsive fallback: stack float pullout boxes on small/medium screens
 @media (max-width: 767px) {
   .post [style*="float:right"],
