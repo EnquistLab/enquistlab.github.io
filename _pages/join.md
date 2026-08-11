@@ -82,15 +82,26 @@ Applicants should verify current eligibility, deadlines, and award terms directl
 
 ### Postdoctoral Researchers
 
-We welcome inquiries from researchers interested in developing collaborative fellowship proposals. A strong proposal should connect with the lab's research while allowing the applicant to establish an independent scientific direction.
+We welcome inquiries from researchers interested in developing independent postdoctoral fellowship proposals with the Enquist Lab. I am especially interested in working with prospective fellows to develop ambitious projects that connect with the lab’s research in macroecology, functional ecology, plant physiology, ecological scaling, biodiversity science, and ecological forecasting, while allowing the fellow to establish a clear independent scientific direction.
 
-Please include a CV, a short project concept, anticipated timing, and possible fellowship or grant mechanisms. Appointments depend on project fit, mentorship capacity, successful funding, and University hiring and immigration requirements. An inquiry does not imply that a funded position is available.
+If there is a strong intellectual fit, I am happy to discuss project ideas, appropriate fellowship mechanisms, mentoring structure, and how the lab’s field sites, datasets, theory, computational tools, and collaborations could support a competitive proposal. Please contact me well before the fellowship deadline so that we have time to develop the scientific questions and application together.
+
+When contacting me, please include a CV, a short project concept, approximate timing, and any fellowship or grant mechanisms for which you may be eligible. Appointments depend on project fit, mentorship capacity, successful funding, and University hiring and immigration requirements. An inquiry does not imply that a funded position is currently available.
 
 Programs that may fit particular projects or applicants include:
 
-- [NSF Postdoctoral Research Fellowships in Biology](https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology), when the current competition's research area and eligibility requirements apply
-- [David H. Smith Conservation Research Fellowship](https://www.smithfellows.org/proposal-guidelines) for eligible applied conservation research with a U.S. host
-- [Human Frontier Science Program Postdoctoral Fellowships](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships) for eligible international and interdisciplinary life-science research
+- [Marie Skłodowska-Curie Actions Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships), including Global Postdoctoral Fellowships that can support eligible European researchers conducting an outgoing research phase in the United States
+- [Life Sciences Research Foundation Postdoctoral Fellowship](https://lsrf.org/apply/) for basic research across the life sciences, including ecology; international applicants may be eligible when conducting their postdoctoral research in a U.S. laboratory
+- [Human Frontier Science Program Postdoctoral Fellowships](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships) for internationally mobile researchers developing frontier, interdisciplinary research in the life sciences
+- [David H. Smith Conservation Research Fellowship](https://www.smithfellows.org/proposal-guidelines) for applied conservation research relevant to conservation management or policy in the United States
+- [NOAA Climate & Global Change Postdoctoral Fellowship](https://cpaess.ucar.edu/cgc/how-postdoctorates-apply) for research spanning climate, Earth-system science, biogeochemistry, ecological processes, and global change
+- [Simons Postdoctoral Fellowships in Plant Biology](https://www.simonsfoundation.org/grant/simons-postdoctoral-fellowships-in-plant-biology/), when offered, for fundamental research in plant biology, including quantitative, theoretical, computational, and physiological approaches
+- [USDA-NIFA AFRI Education and Workforce Development Postdoctoral Fellowships](https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-education-workforce-development) for eligible U.S. applicants whose research connects with food, agriculture, natural resources, or related plant and environmental sciences
+- [NSF Postdoctoral Research Fellowships in Biology](https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology), when the current competition’s research focus and eligibility requirements match the proposed project
+
+Researchers with connections to particular European research systems may also be eligible for national mobility programs that support postdoctoral research in the United States, including the [DFG Walter Benjamin Programme](https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin) in Germany, [SNSF Postdoc.Mobility](https://www.snf.ch/en/XIZpfY3iVS5KRRoD/funding/careers/postdoc-mobility) in Switzerland, and [NWO Rubicon](https://www.nwo.nl/en/researchprogrammes/rubicon) in the Netherlands. Similar programs are available in some other countries.
+
+Fellowship programs, eligibility rules, and deadlines change frequently. Applicants should confirm current requirements directly with the funding organization.
 
 ---
 
