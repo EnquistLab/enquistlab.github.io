@@ -50,18 +50,18 @@ nav_order: 1
   <a class="status-chip status-chip--info" href="{{ '/join/' | relative_url }}">Graduate inquiries welcome &rarr; Learn about joining the lab</a>
 </div>
 
-<div style="display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap:1rem; margin:2rem 0;">
-  <div style="background:#f5f1ea; border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem;">
-    <div style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:#4b5e4a; font-weight:700; margin-bottom:0.55rem;">1. Observe</div>
-    <p style="margin:0; line-height:1.5;">We measure organisms, communities, and ecosystems across field sites and long-term plots.</p>
+<div class="home-process-grid">
+  <div class="home-process-item">
+    <div class="home-process-step">1. Observe</div>
+    <p>We measure organisms, communities, and ecosystems across field sites and long-term plots.</p>
   </div>
-  <div style="background:#f5f1ea; border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem;">
-    <div style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:#4b5e4a; font-weight:700; margin-bottom:0.55rem;">2. Model</div>
-    <p style="margin:0; line-height:1.5;">We connect theory, traits, and physiology to explain how biodiversity is structured across scales.</p>
+  <div class="home-process-item">
+    <div class="home-process-step">2. Model</div>
+    <p>We connect theory, traits, and physiology to explain how biodiversity is structured across scales.</p>
   </div>
-  <div style="background:#f5f1ea; border:1px solid rgba(27,42,31,0.12); border-radius:12px; padding:1rem 1.1rem;">
-    <div style="font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:#4b5e4a; font-weight:700; margin-bottom:0.55rem;">3. Forecast</div>
-    <p style="margin:0; line-height:1.5;">We build uncertainty-aware tools to predict ecological responses to global change.</p>
+  <div class="home-process-item">
+    <div class="home-process-step">3. Forecast</div>
+    <p>We build uncertainty-aware tools to predict ecological responses to global change.</p>
   </div>
 </div>
 

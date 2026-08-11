@@ -7,6 +7,8 @@ nav: true
 nav_order: 7
 ---
 
+<div class="community-page">
+
 ## A Collaborative Lab Community
 
 The Enquist Lab studies biodiversity and the structure and function of ecological systems through fieldwork, experiments, theory, modeling, ecoinformatics, and data analysis. This breadth depends on collaboration among people with different backgrounds, skills, perspectives, and ways of thinking.
@@ -28,3 +30,5 @@ As a lab, we strive to:
 We recognize that fieldwork, travel, caregiving, disability, finances, and immigration status can affect participation in research. Lab members are encouraged to discuss barriers and mentoring needs with Brian or another trusted University resource. Formal accommodations and reporting are handled through the appropriate [University of Arizona support and reporting resources](https://equity.arizona.edu/reporting).
 
 Building a considerate, welcoming, and accountable community is an ongoing responsibility shared by everyone in the lab.
+
+</div>

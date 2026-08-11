@@ -281,26 +281,26 @@ h6,
 // Recruitment / status chip below home stats
 .home-pillars {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
   gap: 1.25rem;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto 1.25rem;
+  justify-content: center;
 
   @media (max-width: 1100px) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
   }
 
-  @media (max-width: 700px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (max-width: 440px) {
+  @media (max-width: 560px) {
     grid-template-columns: 1fr;
   }
 }
 
 .home-pillar {
   display: block;
+  width: 100%;
+  max-width: 260px;
+  justify-self: center;
   padding: 1.25rem 1rem;
   border-radius: 8px;
   border: 1px solid var(--global-divider-color);
@@ -340,6 +340,41 @@ h6,
     color: var(--global-text-color-light);
     line-height: 1.45;
   }
+}
+
+.home-process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 1100px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.home-process-item {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+
+  p {
+    margin: 0;
+    line-height: 1.55;
+    color: var(--global-text-color);
+  }
+}
+
+.home-process-step {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  font-weight: 700;
+  margin-bottom: 0.55rem;
 }
 
 .home-recruitment-status {
@@ -653,6 +688,17 @@ h6,
     line-height: 1.7;
     color: var(--global-text-color);
     max-width: 56ch;
+  }
+}
+
+.community-page {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  p,
+  li,
+  blockquote {
+    text-align: justify;
   }
 }
 
