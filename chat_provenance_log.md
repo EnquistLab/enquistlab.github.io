@@ -4,6 +4,11 @@ Tracks prompts that created or modified this project.
 
 ## Entries
 
+1. Date: 2026-08-11
+    Prompt: If we can merge the SEFDP cross-links as well so that all projects are moving ahead at the same time
+    Source session: VS Code Copilot Chat
+    Outcome: Committed and pushed cross-links to the dedicated San Emilio Forest Dynamics Plot site (https://benquist.github.io/SanEmilioForestDynamicsPlot.github.io/) from _pages/field-sites.md and _pages/research.md. Commit 0532761f pushed to origin/main.
+
 1. Date: 2026-06-24
     Prompt: yes, please implement
     Source session: VS Code Copilot Chat
