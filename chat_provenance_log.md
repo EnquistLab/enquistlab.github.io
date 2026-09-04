@@ -4,6 +4,10 @@ Tracks prompts that created or modified this project.
 
 ## Entries
 
+15. Date: 2026-09-04
+    Prompt: Infer the Former International Students' current institutions from their Google Scholar pages.
+    Outcome: Updated all six affiliation fields from the Google Scholar profile headers: Instituto de Ecología, UNAM; University of Bergen; Norwegian University of Science and Technology; Charles University, Center for Theoretical Study; Xi'an Jiaotong-Liverpool University; and CNRS, France.
+
 14. Date: 2026-09-04
     Prompt: Include the international student pictures from Google Scholar and follow the same graphical design and layout as Former Graduate Students.
     Outcome: Added Google Scholar profile-photo mappings for Verónica Zepeda, Ragnhild Gya, Mia Vedel-Sørensen, Irena Simova, Yaoqi Li, and Hélène Morlon. The existing Alumni card template now renders their photos with the same design used for Former Graduate Students; all six image endpoints returned HTTP 200.
