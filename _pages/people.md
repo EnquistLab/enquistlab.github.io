@@ -24,7 +24,6 @@ nav_order: 2.1
   <a href="#postdoctoral-researchers">Postdocs</a>
   <a href="#graduate-students">Graduate Students</a>
   <a href="#lab-team-technical-staff">Staff</a>
-  <a href="#former-international-students">Former International Students</a>
   <a href="#alumni">Alumni</a>
 </nav>
 
@@ -212,34 +211,6 @@ nav_order: 2.1
   </div>
 </aside>
 
-{% assign international_alumni = site.data.alumni_overrides.international_alumni %}
-{% if international_alumni.size > 0 %}
-<a id="former-international-students" tabindex="-1" aria-hidden="true"></a>
-
-## Former International Students
-
-_Researchers who spent part of their PhD or postdoctoral training in the Enquist Macroecology Lab._
-
-<div class="team-grid">
-{% for person in international_alumni %}
-  <div class="team-card" role="group" aria-labelledby="international-alumni-{{ forloop.index }}">
-    <div class="team-card__photo team-card__photo--placeholder" aria-hidden="true">
-      <span>{{ person.name | split: " " | map: "first" | join: "" | truncate: 2, "" | upcase }}</span>
-    </div>
-    <p class="team-card__name" id="international-alumni-{{ forloop.index }}">{{ person.name }}</p>
-    <p class="team-card__role">{{ person.role }}</p>
-    {% if person.institution and person.institution != "" %}
-      <p class="team-card__bio">{{ person.institution }}</p>
-    {% endif %}
-    <p class="team-card__links">
-      {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}" title="Google Scholar" target="_blank" rel="noopener">Scholar</a>{% endif %}
-      {% if person.website and person.website != "" %}<a href="{{ person.website }}" title="Website" target="_blank" rel="noopener">Web</a>{% endif %}
-    </p>
-  </div>
-{% endfor %}
-</div>
-{% endif %}
-
 <a id="alumni" tabindex="-1" aria-hidden="true"></a>
 
 ## Alumni
@@ -407,6 +378,29 @@ LinkedIn, or website so non-Scholar profiles remain clickable.
     </div>
   </div>
   {% endif %}
+</section>
+{% endif %}
+
+{% assign international_alumni = site.data.alumni_overrides.international_alumni %}
+{% if international_alumni.size > 0 %}
+
+<section class="alumni-band">
+  <div class="alumni-band__header">
+    <h3>Former International Students <span class="alumni-count-badge">{{ international_alumni.size }}</span></h3>
+    <p>Researchers who spent part of their PhD or postdoctoral training in the Enquist Macroecology Lab.</p>
+  </div>
+  <div class="alumni-directory alumni-directory--compact">
+    {% for person in international_alumni %}
+    {% assign alumni_photo = site.data.alumni_photos | where: "name", person.name | first %}
+    <article class="alumni-card{% if alumni_photo %} alumni-card--has-photo{% endif %}">
+      {% if alumni_photo %}<img src="{{ alumni_photo.url }}" alt="{{ person.name }}" class="alumni-card__avatar" loading="lazy" onerror="this.style.display='none';var c=this.closest('.alumni-card');if(c)c.classList.remove('alumni-card--has-photo')"><div class="alumni-card__body">{% endif %}
+      {% assign alumni_profile_url = person.google_scholar | default: person.website %}
+      <h4 class="alumni-card__name">{% if alumni_profile_url and alumni_profile_url != "" %}<a href="{{ alumni_profile_url }}" target="_blank" rel="noopener noreferrer">{{ person.name }}<span class="alumni-ext-link" aria-hidden="true"> ↗</span></a>{% else %}{{ person.name }}{% endif %}</h4>
+      {% if person.institution and person.institution != "" %}<p class="alumni-card__institution">{{ person.institution }}</p>{% endif %}
+      {% if alumni_photo %}</div>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
 </section>
 {% endif %}
 

@@ -4,6 +4,10 @@ Tracks prompts that created or modified this project.
 
 ## Entries
 
+13. Date: 2026-09-04
+    Prompt: Move Former International Students below Former Postdoctoral Researchers and Former Graduate Students; they belong within the Alumni directory.
+    Outcome: Moved the Former International Students directory into the Alumni hierarchy directly after Former Graduate Students, using the matching alumni-band/card presentation. Removed the separate page-level heading and navigation entry.
+
 12. Date: 2026-09-04
     Prompt: Add a Former International Students category for researchers who spent part of their PhD or postdoctoral training in the lab, including Verónica Zepeda, Ragnhild Gya, Mia Vedel-Sørensen, Irena Simova, Yaoqi Li, and Hélène Morlon.
     Outcome: Added a dedicated People-page section and navigation link backed by a manual data list that persists across Google Sheet synchronization. Added the supplied Scholar links for all six researchers and Hélène Morlon's institutional website; all provided URLs resolved successfully.
