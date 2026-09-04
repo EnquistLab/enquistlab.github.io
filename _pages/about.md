@@ -55,7 +55,7 @@ We study a central question: how do the form, function, and diversity of organis
 - **Full name:** Brian J. Enquist
 - **Roles:** Professor of Ecology and Evolutionary Biology (University of Arizona); External Professor (Santa Fe Institute)
 - **Primary site:** [enquistlab.github.io](https://enquistlab.github.io/)
-- **ORCID:** [0000-0002-7398-9388](https://orcid.org/0000-0002-7398-9388)
+- **ORCID:** [0000-0002-6124-7096](https://orcid.org/0000-0002-6124-7096)
 - **Google Scholar:** [CDY4XuYAAAAJ](https://scholar.google.com/citations?user=CDY4XuYAAAAJ&hl=en)
 
 </div>
@@ -132,4 +132,4 @@ For opportunities to work with the lab, see [Join Us]({{ '/join/' | relative_url
 Department of Ecology and Evolutionary Biology  
 Room 310, Biological Sciences West  
 1041 E. Lowell St., Tucson, AZ 85721  
-&#128222; (520) 626-3336 · [benquist@arizona.edu](mailto:benquist@arizona.edu) · [ORCID 0000-0002-7398-9388](https://orcid.org/0000-0002-7398-9388)
+&#128222; (520) 626-3336 · [benquist@arizona.edu](mailto:benquist@arizona.edu) · [ORCID 0000-0002-6124-7096](https://orcid.org/0000-0002-6124-7096)
