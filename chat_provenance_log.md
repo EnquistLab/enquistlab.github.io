@@ -4,6 +4,10 @@ Tracks prompts that created or modified this project.
 
 ## Entries
 
+16. Date: 2026-09-04
+    Prompt: Add Ségolène Lireux to the Former International Students list with her Chrono-Environnement UMR 6249 CNRS and Université Marie et Louis Pasteur affiliation and personal website.
+    Outcome: Added Ségolène Lireux to the sync-safe international alumni data with the supplied Chrono-Environnement/Université Marie et Louis Pasteur affiliation and profile link. Confirmed the profile URL resolves and the directory contains seven entries.
+
 15. Date: 2026-09-04
     Prompt: Infer the Former International Students' current institutions from their Google Scholar pages.
     Outcome: Updated all six affiliation fields from the Google Scholar profile headers: Instituto de Ecología, UNAM; University of Bergen; Norwegian University of Science and Technology; Charles University, Center for Theoretical Study; Xi'an Jiaotong-Liverpool University; and CNRS, France.

@@ -1,3 +1,5 @@
+2026-09-04 | "Add the following international student to our list - Ségolène Lireux https://www.normalesup.org/~slireux/ Chrono-Environnement UMR 6249 CNRS Université Marie et Louis Pasteur" — Added Ségolène Lireux to the Former International Students data list with the supplied affiliation and profile URL; verified the link resolves successfully.
+
 2026-09-04 | "You can infer their current institutions from their google scholar page" — Updated all six Former International Students' affiliations from their Google Scholar profile headers: Instituto de Ecología, UNAM; University of Bergen; Norwegian University of Science and Technology; Charles University, Center for Theoretical Study; Xi'an Jiaotong-Liverpool University; and CNRS, France. Pushed in commit 06cc3249.
 
 2026-06-19 | "Lets have the @file:optimizer.agent.md take a look at this with input with @file:coder.agent.md . Do they agree?" — Ran optimizer and coder agents on the workflow-stabilization plan for `enquistlab-site-migration` and compared agreement/deltas on root fixes, rollout order, and go/no-go readiness.
