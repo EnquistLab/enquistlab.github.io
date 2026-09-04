@@ -4,6 +4,10 @@ Tracks prompts that created or modified this project.
 
 ## Entries
 
+12. Date: 2026-09-04
+    Prompt: Add a Former International Students category for researchers who spent part of their PhD or postdoctoral training in the lab, including Verónica Zepeda, Ragnhild Gya, Mia Vedel-Sørensen, Irena Simova, Yaoqi Li, and Hélène Morlon.
+    Outcome: Added a dedicated People-page section and navigation link backed by a manual data list that persists across Google Sheet synchronization. Added the supplied Scholar links for all six researchers and Hélène Morlon's institutional website; all provided URLs resolved successfully.
+
 11. Date: 2026-09-04
     Prompt: My Google Scholar link is incorrect and should be https://scholar.google.com/citations?hl=en&user=mAbA6EoAAAAJ.
     Outcome: Replaced the obsolete Google Scholar profile ID in shared social/CV data and the About, People, Publications, and research-identity source pages. Verified the old ID is absent from public website source before push.

@@ -23,3 +23,26 @@ alumni:
     degree: (PhD EEB:2016 – 2019)
     start_year: 2016
     end_year: 2019
+
+international_alumni:
+  - name: Verónica Zepeda
+    role: Former International Student
+    institution: Laboratorio Nacional de Ciencias de la Sostenibilidad
+    google_scholar: https://scholar.google.com/citations?user=D5iGJvcAAAAJ&hl=en&oi=ao
+  - name: Ragnhild Gya
+    role: Former International Student
+    google_scholar: https://scholar.google.com/citations?user=awNtzkcAAAAJ&hl=en&oi=ao
+  - name: Mia Vedel-Sørensen
+    role: Former International Student
+    google_scholar: https://scholar.google.com/citations?user=7RHw1WoAAAAJ&hl=en
+  - name: Irena Simova
+    role: Former International Student
+    google_scholar: https://scholar.google.com/citations?user=bH6NwYoAAAAJ&hl=en&oi=ao
+  - name: Yaoqi Li
+    role: Former International Student
+    google_scholar: https://scholar.google.com/citations?user=S6OsHLcAAAAJ&hl=en&oi=ao
+  - name: Hélène Morlon
+    role: Former International Student
+    institution: École normale supérieure, Paris
+    website: https://www.phyloeco.bio.ens.psl.eu/
+    google_scholar: https://scholar.google.com/citations?user=8ulVKKIAAAAJ&hl=en&oi=ao
