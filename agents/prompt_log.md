@@ -1,3 +1,5 @@
+2026-09-04 | "lets find a picture of Ségolène Lireux we can use for the website. Follow same dimensions of the others" — Added her institutional profile's 512 by 512 square portrait to `_data/alumni_photos.yml`; the existing alumni-card template renders it at the same dimensions as other alumni. Verified the image URL returns HTTP 200.
+
 2026-09-04 | "Add the following international student to our list - Ségolène Lireux https://www.normalesup.org/~slireux/ Chrono-Environnement UMR 6249 CNRS Université Marie et Louis Pasteur" — Added Ségolène Lireux to the Former International Students data list with the supplied affiliation and profile URL; verified the link resolves successfully.
 
 2026-09-04 | "You can infer their current institutions from their google scholar page" — Updated all six Former International Students' affiliations from their Google Scholar profile headers: Instituto de Ecología, UNAM; University of Bergen; Norwegian University of Science and Technology; Charles University, Center for Theoretical Study; Xi'an Jiaotong-Liverpool University; and CNRS, France. Pushed in commit 06cc3249.

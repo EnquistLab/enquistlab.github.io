@@ -179,6 +179,10 @@
   url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=8ulVKKIAAAAJ"
   source: "google_scholar"
 
+- name: "Ségolène Lireux"
+  url: "https://www.normalesup.org/~slireux/images/illustrations/Segolene-Lireux.svg"
+  source: "institutional_profile"
+
 - name: "Adam Chmurzynski"
   url: "https://i1.rgstatic.net/ii/profile.image/570177867993088-1512952405342_Q128/Adam-Chmurzynski.jpg"
   source: "researchgate"

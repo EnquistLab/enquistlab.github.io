@@ -4,6 +4,10 @@ Tracks prompts that created or modified this project.
 
 ## Entries
 
+17. Date: 2026-09-04
+    Prompt: Find a picture of Ségolène Lireux for the website and follow the same dimensions as the other alumni.
+    Outcome: Added Ségolène Lireux's institutional profile portrait (`Segolene-Lireux.svg`) to the alumni photo registry. The source asset is a 512 by 512 square portrait and is rendered through the existing fixed-size alumni-card photo treatment; the image endpoint returned HTTP 200.
+
 16. Date: 2026-09-04
     Prompt: Add Ségolène Lireux to the Former International Students list with her Chrono-Environnement UMR 6249 CNRS and Université Marie et Louis Pasteur affiliation and personal website.
     Outcome: Added Ségolène Lireux to the sync-safe international alumni data with the supplied Chrono-Environnement/Université Marie et Louis Pasteur affiliation and profile link. Confirmed the profile URL resolves and the directory contains seven entries.
