@@ -4,6 +4,10 @@ Tracks prompts that created or modified this project.
 
 ## Entries
 
+14. Date: 2026-09-04
+    Prompt: Include the international student pictures from Google Scholar and follow the same graphical design and layout as Former Graduate Students.
+    Outcome: Added Google Scholar profile-photo mappings for Verónica Zepeda, Ragnhild Gya, Mia Vedel-Sørensen, Irena Simova, Yaoqi Li, and Hélène Morlon. The existing Alumni card template now renders their photos with the same design used for Former Graduate Students; all six image endpoints returned HTTP 200.
+
 13. Date: 2026-09-04
     Prompt: Move Former International Students below Former Postdoctoral Researchers and Former Graduate Students; they belong within the Alumni directory.
     Outcome: Moved the Former International Students directory into the Alumni hierarchy directly after Former Graduate Students, using the matching alumni-band/card presentation. Removed the separate page-level heading and navigation entry.

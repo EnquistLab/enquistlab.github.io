@@ -155,6 +155,30 @@
   url: "/assets/img/team/jehova_lourenco_junior.jpg"
   source: "local_team_photo"
 
+- name: "Verónica Zepeda"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=D5iGJvcAAAAJ"
+  source: "google_scholar"
+
+- name: "Ragnhild Gya"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=awNtzkcAAAAJ"
+  source: "google_scholar"
+
+- name: "Mia Vedel-Sørensen"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=7RHw1WoAAAAJ"
+  source: "google_scholar"
+
+- name: "Irena Simova"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=bH6NwYoAAAAJ"
+  source: "google_scholar"
+
+- name: "Yaoqi Li"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=S6OsHLcAAAAJ"
+  source: "google_scholar"
+
+- name: "Hélène Morlon"
+  url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=8ulVKKIAAAAJ"
+  source: "google_scholar"
+
 - name: "Adam Chmurzynski"
   url: "https://i1.rgstatic.net/ii/profile.image/570177867993088-1512952405342_Q128/Adam-Chmurzynski.jpg"
   source: "researchgate"
