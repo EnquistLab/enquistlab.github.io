@@ -42,7 +42,7 @@ The lab includes graduate students, postdoctoral researchers, and undergraduate 
 | Publications | [/publications/](https://enquistlab.github.io/publications/) |
 | CV | [/cv/](https://enquistlab.github.io/cv/) |
 | ORCID | [0000-0002-6124-7096](https://orcid.org/0000-0002-6124-7096) |
-| Google Scholar | [Brian J. Enquist](https://scholar.google.com/citations?user=CDY4XuYAAAAJ) |
+| Google Scholar | [Brian J. Enquist](https://scholar.google.com/citations?hl=en&user=mAbA6EoAAAAJ) |
 | GitHub | [github.com/benquist](https://github.com/benquist) |
 
 ## Contact and Collaboration

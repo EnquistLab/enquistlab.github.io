@@ -4,6 +4,10 @@ Tracks prompts that created or modified this project.
 
 ## Entries
 
+11. Date: 2026-09-04
+    Prompt: My Google Scholar link is incorrect and should be https://scholar.google.com/citations?hl=en&user=mAbA6EoAAAAJ.
+    Outcome: Replaced the obsolete Google Scholar profile ID in shared social/CV data and the About, People, Publications, and research-identity source pages. Verified the old ID is absent from public website source before push.
+
 10. Date: 2026-09-04
     Prompt: My ORCID is wrong on the lab About and Publications pages; the correct ORCID is 0000-0002-6124-7096. Please fix and push updates immediately.
     Outcome: Replaced the stale ORCID in shared social/CV data and the About, People, Publications, and research-identity source pages. Verified the old identifier is absent from website source and prepared the site for Jekyll validation and push.
