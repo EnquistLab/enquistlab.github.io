@@ -2,6 +2,10 @@
 
 Tracks prompts that created or modified this project.
 
+18. Date: 2026-09-07
+    Prompt: Remove the Mastodon link from the contact page and replace it with the supplied Bluesky profile link.
+    Outcome: Updated the Contact page External Profiles list to link to `https://bsky.app/profile/bjenquist.bsky.social`.
+
 ## Entries
 
 17. Date: 2026-09-04

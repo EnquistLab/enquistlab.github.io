@@ -47,7 +47,7 @@ The lab is based at the University of Arizona and works across tropical forests,
 - [Google Scholar](https://scholar.google.com/citations?user=mAbA6EoAAAAJ&hl=en)
 - [ResearchGate](https://www.researchgate.net/profile/Brian_Enquist)
 - [GitHub (Enquist Lab)](https://github.com/EnquistLab)
-- [Mastodon](https://mastodon.social/@bjenquist)
+- [Bluesky](https://bsky.app/profile/bjenquist.bsky.social)
 - [FigShare](https://figshare.com/authors/Brian_Enquist/663712)
 
 ---
