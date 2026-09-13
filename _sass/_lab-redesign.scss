@@ -8,11 +8,37 @@
   --global-hover-color: #2e7c84;
   --global-divider-color: #d9d6cd;
   --global-card-bg-color: #fefdfb;
+  --lab-font-body: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --lab-font-heading: "Source Serif 4", Georgia, serif;
+  --lab-text-body: 1.05rem;
+  --lab-text-lead: 1.25rem;
+  --lab-text-caption: 0.875rem;
+  --lab-text-label: 0.9375rem;
+  --lab-heading-page: 2.4rem;
+  --lab-heading-section: 1.75rem;
+  --lab-heading-card: 1.125rem;
+  --lab-leading-body: 1.6;
+  --lab-leading-heading: 1.2;
+  --lab-space-small: 0.5rem;
+  --lab-space-medium: 1rem;
+  --lab-space-large: 1.5rem;
+  --lab-space-section: 2.5rem;
+  --lab-card-radius: 6px;
+  --lab-action-padding: 0.5rem 1rem;
+  --lab-action-color: #fff;
 }
 
 html[data-theme="dark"] {
   --global-theme-color: #6ab79d;
   --global-hover-color: #7fc5cc;
+  --global-text-color-light: #a8afb3;
+  --lab-action-color: #1e2a2f;
+}
+
+@mixin lab-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: var(--lab-card-radius);
+  background: var(--global-card-bg-color);
 }
 
 // ── Skip link (keyboard navigation / WCAG 2.4.1) ─────────────────────────
@@ -23,16 +49,22 @@ html[data-theme="dark"] {
   z-index: 9999;
   padding: 0.5rem 1rem;
   background: var(--global-theme-color);
-  color: #fff;
+  color: var(--lab-action-color);
   font-family: "Source Sans 3", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
   border-radius: 0 0 4px 4px;
+  transition: none;
 
   &:focus {
     top: 0;
   }
+}
+
+footer a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 // ── Global focus-visible policy (WCAG 2.4.11) ─────────────────────────────
@@ -55,15 +87,15 @@ html {
 }
 
 body {
-  font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.75;
+  font-family: var(--lab-font-body);
+  font-size: var(--lab-text-body);
+  line-height: var(--lab-leading-body);
 }
 
 // ── Shared prose measure ───────────────────────────────────────────────────
 .post p,
 .post li {
-  line-height: 1.3;
+  line-height: var(--lab-leading-body);
 }
 
 // Center standard prose while leaving custom components and media full width.
@@ -120,17 +152,34 @@ h5,
 h6,
 .post-title,
 .post-header .post-title {
-  font-family: "Source Serif 4", Georgia, serif;
-  letter-spacing: 0.01em;
+  font-family: var(--lab-font-heading);
+  line-height: var(--lab-leading-heading);
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: var(--lab-heading-page);
+}
+
+h2 {
+  font-size: var(--lab-heading-section);
+}
+
+h3,
+h4 {
+  font-size: var(--lab-text-lead);
 }
 
 .post-title {
   margin-bottom: 0.65rem;
 }
 
-.post .post-header .desc {
+.post .post-header .desc,
+.post .post-header .post-description {
   color: var(--global-text-color-light);
   max-width: 48rem;
+  font-size: var(--lab-text-lead);
+  line-height: var(--lab-leading-body);
 }
 
 .post p,
@@ -205,8 +254,8 @@ h6,
   }
 
   figcaption {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 0.82rem;
+    font-family: var(--lab-font-body);
+    font-size: var(--lab-text-caption);
     color: var(--global-text-color-light);
     margin-top: 0.4rem;
     letter-spacing: 0.01em;
@@ -253,8 +302,8 @@ h6,
   }
 
   figcaption {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 0.82rem;
+    font-family: var(--lab-font-body);
+    font-size: var(--lab-text-caption);
     color: var(--global-text-color-light);
     margin-top: 0.4rem;
     letter-spacing: 0.01em;
@@ -395,18 +444,24 @@ h6,
 }
 
 .home-recruitment-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--lab-space-medium);
   text-align: center;
-  margin: 0 auto 2rem;
+  margin: 0 auto var(--lab-space-section);
 }
 
 .status-chip {
   display: inline-block;
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 1.15rem;
+  font-family: var(--lab-font-body);
+  font-size: var(--lab-text-label);
   font-weight: 700;
-  letter-spacing: 0.02em;
-  padding: 0.8rem 2rem;
-  border-radius: 999px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  padding: var(--lab-action-padding);
+  border-radius: var(--lab-card-radius);
   text-decoration: none;
   box-shadow: 0 2px 10px rgba(31, 90, 68, 0.25);
   transition:
@@ -416,11 +471,12 @@ h6,
 
   &--info {
     background: var(--global-theme-color);
-    color: #fff;
+    color: var(--lab-action-color);
     border: none;
 
     &:hover {
-      background: color-mix(in srgb, var(--global-theme-color) 80%, #000);
+      background: var(--global-hover-color);
+      color: var(--lab-action-color);
       box-shadow: 0 4px 16px rgba(31, 90, 68, 0.35);
       transform: translateY(-1px);
     }
@@ -429,12 +485,13 @@ h6,
   // Inverted variant — white chip on a green background section
   &--cta-inverse {
     background: #fff;
-    color: var(--global-theme-color);
+    color: #1f5a44;
     border: none;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
 
     &:hover {
       background: color-mix(in srgb, #fff 85%, var(--global-theme-color) 15%);
+      color: #1f5a44;
       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
       transform: translateY(-1px);
     }
@@ -445,36 +502,44 @@ h6,
 .hero-home {
   position: relative;
 
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(transparent 35%, rgba(0, 0, 0, 0.65));
+    pointer-events: none;
+  }
+
   &__overlay {
     position: absolute;
     bottom: 2.5rem;
     right: 2rem;
     left: auto;
     text-align: right;
-    max-width: min(56ch, 48vw);
+    max-width: calc(100% - 4rem);
     color: #fff;
-    padding: 0.9rem 1.1rem;
-    background: rgba(0, 0, 0, 0.52);
-    border-radius: 4px;
+    padding: 0;
+    z-index: 1;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: flex-end;
     flex-wrap: wrap;
     gap: 0 0.6rem;
   }
 
   &__title {
-    font-family: "Source Serif 4", Georgia, serif;
-    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-family: var(--lab-font-heading);
+    font-size: 3rem;
     font-weight: 600;
     margin: 0;
-    letter-spacing: 0.02em;
+    letter-spacing: 0;
     color: #fff;
   }
 
   &__sub {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    font-family: var(--lab-font-body);
+    font-size: var(--lab-text-body);
     font-weight: 400;
     margin: 0;
     color: rgba(255, 255, 255, 0.92);
@@ -484,7 +549,11 @@ h6,
     &__overlay {
       right: 1rem;
       bottom: 1.2rem;
-      max-width: min(80vw, 44ch);
+      max-width: calc(100% - 2rem);
+    }
+
+    &__title {
+      font-size: 2rem;
     }
   }
 }
@@ -559,8 +628,8 @@ h6,
   }
 
   &__label {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 0.75rem;
+    font-family: var(--lab-font-body);
+    font-size: var(--lab-text-caption);
     font-weight: 600;
     color: var(--global-text-color-light);
   }
@@ -573,8 +642,8 @@ h6,
   }
 
   &__link {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 0.86rem;
+    font-family: var(--lab-font-body);
+    font-size: var(--lab-text-label);
     color: var(--global-theme-color);
     text-decoration: none;
     line-height: 1.5;
@@ -588,9 +657,8 @@ h6,
   }
 
   &__link--subsection {
-    font-size: 0.79rem;
+    font-size: var(--lab-text-caption);
     color: var(--global-text-color-light);
-    opacity: 0.86;
     font-weight: 500;
   }
 
@@ -697,12 +765,12 @@ h6,
 .home-mission {
   text-align: center;
   max-width: 56ch;
-  margin: 1.5rem auto 1.5rem;
+  margin: var(--lab-space-large) auto;
 
   p {
-    font-family: "Source Serif 4", Georgia, serif;
-    font-size: clamp(1.05rem, 2vw, 1.25rem);
-    line-height: 1.7;
+    font-family: var(--lab-font-heading);
+    font-size: var(--lab-text-lead);
+    line-height: var(--lab-leading-body);
     color: var(--global-text-color);
     max-width: 56ch;
   }
@@ -714,7 +782,7 @@ h6,
 
   p,
   li {
-    line-height: 1.3;
+    line-height: var(--lab-leading-body);
     text-align: start;
   }
 
@@ -740,7 +808,7 @@ h6,
 
   p,
   li {
-    line-height: 1.3;
+    line-height: var(--lab-leading-body);
     text-align: start;
   }
 
@@ -762,15 +830,13 @@ h6,
 }
 
 .research-theme-card {
-  padding: 1rem 1.1rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-  background: var(--global-card-bg-color);
+  @include lab-card;
+  padding: var(--lab-space-medium);
   color: var(--global-text-color);
 
   h3 {
     margin: 0 0 0.5rem;
-    font-size: 1rem;
+    font-size: var(--lab-heading-card);
     color: var(--global-text-color);
   }
 
@@ -785,8 +851,8 @@ h6,
 .home-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.25rem;
-  margin-bottom: 3rem;
+  gap: var(--lab-space-large);
+  margin-bottom: var(--lab-space-section);
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
@@ -798,12 +864,10 @@ h6,
 }
 
 .home-card {
+  @include lab-card;
   display: block;
   text-decoration: none;
   color: inherit;
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 6px;
   overflow: hidden;
   transition:
     box-shadow 0.2s ease,
@@ -830,19 +894,19 @@ h6,
   }
 
   &__body {
-    padding: 1rem 1.1rem 1.15rem;
+    padding: var(--lab-space-medium);
 
     h3 {
-      font-family: "Source Serif 4", Georgia, serif;
-      font-size: 1.05rem;
+      font-family: var(--lab-font-heading);
+      font-size: var(--lab-heading-card);
       font-weight: 600;
       margin: 0 0 0.3rem;
       color: var(--global-theme-color);
     }
 
     p {
-      font-family: "Source Sans 3", sans-serif;
-      font-size: 0.88rem;
+      font-family: var(--lab-font-body);
+      font-size: var(--lab-text-label);
       color: var(--global-text-color-light);
       margin: 0;
       max-width: none;
@@ -1093,11 +1157,9 @@ h6,
 }
 
 .identity-link-card {
+  @include lab-card;
   display: block;
-  padding: 1.05rem 1.1rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-  background: var(--global-card-bg-color);
+  padding: var(--lab-space-medium);
   text-decoration: none;
   color: inherit;
 
@@ -1315,9 +1377,9 @@ h6,
 }
 
 .alumni-card {
-  padding: 0.9rem 0.95rem;
+  padding: var(--lab-space-medium);
   border: 1px solid var(--global-divider-color);
-  border-radius: 0.8rem;
+  border-radius: var(--lab-card-radius);
   background: rgba(254, 253, 251, 0.97); // rgba fallback for older browsers
   background: color-mix(in srgb, var(--global-card-bg-color) 92%, var(--global-theme-color) 8%);
   transition:
@@ -1438,28 +1500,26 @@ h6,
   }
 
   &__role {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 0.82rem;
+    font-family: var(--lab-font-body);
+    font-size: var(--lab-text-caption);
     color: var(--global-text-color-light);
     margin: 0 0 0.25rem;
     line-height: 1.4;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    overflow-wrap: anywhere;
     max-width: 100%;
   }
 
   &__bio {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 0.85rem;
+    font-family: var(--lab-font-body);
+    font-size: var(--lab-text-caption);
     color: var(--global-text-color-light);
     margin: 0 0 0.25rem;
     line-height: 1.45;
   }
 
   &__links {
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 0.67rem;
+    font-family: var(--lab-font-body);
+    font-size: var(--lab-text-caption);
     margin: 0;
     min-height: 1.2em;
     display: flex;
@@ -1671,15 +1731,15 @@ details {
 
 .btn-cta-primary {
   background: var(--global-theme-color);
-  color: #fff !important;
+  color: var(--lab-action-color) !important;
   border-color: var(--global-theme-color);
-  padding: 0.4rem 1rem;
+  padding: var(--lab-action-padding);
   text-decoration: none;
 
   &:hover {
     background: var(--global-hover-color);
     border-color: var(--global-hover-color);
-    color: #fff !important;
+    color: var(--lab-action-color) !important;
     text-decoration: none;
   }
 }
@@ -1688,7 +1748,7 @@ details {
   background: transparent;
   color: var(--global-theme-color) !important;
   border: 1px solid var(--global-theme-color);
-  padding: 0.4rem 1rem;
+  padding: var(--lab-action-padding);
   text-decoration: none;
 
   &:hover {
@@ -1701,12 +1761,18 @@ details {
 
 // ── Subtle hover for body text links ─────────────────────────────────────
 
-.post a:not(.btn):not(.home-card):not(.resource-link-card):not(.btn-cta-primary):not(.btn-cta-outline) {
+.post a:where(:not(.btn, .home-card, .resource-link-card, .identity-link-card, .status-chip, .btn-cta-primary, .btn-cta-outline)) {
   transition: color 0.15s ease;
 
   &:hover {
     color: var(--global-hover-color);
   }
+}
+
+.post :is(p, li, figcaption, dd) a:where(:not(.btn, .status-chip, .btn-cta-primary, .btn-cta-outline)) {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  overflow-wrap: anywhere;
 }
 
 .theory-figure-pair {

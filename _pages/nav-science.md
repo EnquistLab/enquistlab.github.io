@@ -1,7 +1,7 @@
 ---
 layout: page
 title: science
-nav: true
+nav: false
 nav_order: 2.5
 dropdown: true
 children:

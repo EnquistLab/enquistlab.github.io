@@ -3,7 +3,7 @@ layout: page
 title: community
 permalink: /community/
 description: Commitments for a welcoming, collaborative, and accountable lab community
-nav: true
+nav: false
 nav_order: 7
 ---
 

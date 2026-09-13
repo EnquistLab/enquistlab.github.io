@@ -4,7 +4,7 @@ title: join us
 permalink: /join/
 description: Opportunities to join the Enquist Macroecology Lab
 nav: true
-nav_order: 2.5
+nav_order: 6
 ---
 
 <div class="join-page" markdown="1">

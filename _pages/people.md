@@ -1,10 +1,11 @@
 ---
 layout: page
-title: team
+title: people
 permalink: /people/
 description: Members and alumni of the Enquist Macroecology Lab
-nav: false
-nav_order: 2.1
+nav: true
+nav_order: 3
+section_nav: false
 ---
 
 <div class="people-page">
@@ -21,10 +22,21 @@ nav_order: 2.1
 
 <nav class="news-section-nav" aria-label="Page sections">
   <a href="#principal-investigator">Principal Investigator</a>
+  {% if site.data.people.postdocs.size > 0 %}
   <a href="#postdoctoral-researchers">Postdocs</a>
+  {% endif %}
+  {% if site.data.people.grad_students.size > 0 %}
   <a href="#graduate-students">Graduate Students</a>
+  {% endif %}
+  {% if site.data.people.visiting_students.size > 0 %}
+  <a href="#visiting-graduate-students">Visiting Students</a>
+  {% endif %}
+  {% if site.data.people.staff.size > 0 %}
   <a href="#lab-team-technical-staff">Staff</a>
+  {% endif %}
+  {% if site.data.people.alumni.size > 0 %}
   <a href="#alumni">Alumni</a>
+  {% endif %}
 </nav>
 
 <div class="photo-pair">
@@ -129,6 +141,7 @@ nav_order: 2.1
 {% endif %}
 
 {% if site.data.people.visiting_students.size > 0 %}
+<a id="visiting-graduate-students" tabindex="-1" aria-hidden="true"></a>
 
 ## Visiting Graduate Students
 
@@ -161,6 +174,7 @@ nav_order: 2.1
 </div>
 {% endif %}
 
+{% if site.data.people.staff.size > 0 %}
 <a id="lab-team-technical-staff" tabindex="-1" aria-hidden="true"></a>
 
 ## Lab Team & Technical Staff
@@ -191,6 +205,8 @@ nav_order: 2.1
 {% endfor %}
 </div>
 
+{% endif %}
+
 ## Extended Lab Network
 
 <aside class="network-aside">
@@ -211,13 +227,12 @@ nav_order: 2.1
   </div>
 </aside>
 
+{% if site.data.people.alumni.size > 0 %}
 <a id="alumni" tabindex="-1" aria-hidden="true"></a>
 
 ## Alumni
 
 _Former Lab Graduate Students, Notable Undergraduates & Postdocs_
-
-{% if site.data.people.alumni.size > 0 %}
 
 {% assign alumni = site.data.people.alumni %}
 {% assign postdoc_alumni = alumni | where_exp: "p", "p.degree contains 'Postdoc'" %}

@@ -2,7 +2,7 @@
 layout: page
 title: news & press
 permalink: /news/
-nav: true
+nav: false
 nav_order: 3.15
 _styles: |
   .section-jump-nav { display: none !important; }

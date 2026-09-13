@@ -4,7 +4,7 @@ title: tools & data
 permalink: /resources/
 description: Open-source tools and databases from the Enquist Lab
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 ## Software & Open Data

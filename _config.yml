@@ -43,7 +43,7 @@ external_services:
 # Layout
 # -----------------------------------------------------------------------------
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true

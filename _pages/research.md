@@ -3,8 +3,8 @@ layout: page
 title: research
 permalink: /research/
 description: Current research themes and projects in the Enquist Macroecology Lab
-nav: false
-nav_order: 3
+nav: true
+nav_order: 2
 ---
 
 ## Research Program

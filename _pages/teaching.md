@@ -3,7 +3,7 @@ layout: page
 title: teaching
 permalink: /teaching/
 description: Courses, workshops, video lectures, and open training materials in plant ecology, macroecology, and biodiversity science
-nav: true
+nav: false
 nav_order: 5
 ---
 
