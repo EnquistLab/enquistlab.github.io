@@ -638,3 +638,11 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
     Authorization: Commit and push the reviewed website changes to main and verify the resulting GitHub Pages deployment. This supersedes the earlier local-only restriction for this website repository, not unrelated workspace projects.
     Pre-push validation: Re-read the current layout, responsive-image include/generator, publication filter changes and tests after the intervening-edit notice. All six publication tests, Ruby/Liquid checks, all 23 image derivative checks, whitespace checks and the full production Jekyll build including notebook content passed again. Fetch confirmed HEAD and origin/main had no divergence before committing.
     Scholarly review: PASS_WITH_NOTES for the changed design-only publication scope. Retained scientific claims, citations, classification rules and data are unchanged; redundant homepage summaries were removed. No certification of the unchanged bibliography or full WCAG compliance is claimed. Known legacy accessibility limitations from entry 71 remain. Deployment and live behavior verification will be checked after this commit is pushed; this pre-push entry does not claim deployment success.
+
+73. Date: 2026-09-30
+    Prompt: For my lab website. Let's add to the ### Former Graduate Students. Mich Pillet "Michiel (Mich) Pillet ..." who is listed on the website did his PhD in my lab. He should be added to the ### Former Graduate Students.
+    Outcome: Added Michiel (Mich) Pillet to the sync-safe alumni overrides so he appears in Former Graduate Students after people-sheet synchronization. Used 2017, the year his public profile says he began working with the Enquist lab, for the 2010s cohort; listed his degree as PhD without asserting an unverified completion year, and retained the existing Scholar, website, GitHub, email, and institution details.
+
+74. Date: 2026-09-30
+    Prompt: please push these changes
+    Outcome: Created commit cb8d04da on branch copilot/add-mich-pillet-alumni, based on the current origin/main tip, and pushed it to origin. No direct commit or push to main was made; the branch requires a pull request and merge before GitHub Pages can deploy the alumni update.
