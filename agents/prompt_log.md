@@ -197,3 +197,5 @@ Return concise evidence and overall PASS/FAIL."
 2026-08-11 | "If we can merge the SEFDP cross-links as well so that all projects are moving ahead at the same time" — Committed and pushed cross-links to the dedicated San Emilio Forest Dynamics Plot site from _pages/field-sites.md and _pages/research.md. Commit 0532761f pushed to origin/main.
 
 2026-09-30 | "For my lab website. Let's add to the ### Former Graduate Students. Mich Pillet \"Michiel (Mich) Pillet ...\" who is listed on the website did his PhD in my lab. He should be added to the ### Former Graduate Students." — Added Michiel (Mich) Pillet to the sync-safe alumni overrides with a 2017 lab start year based on his public profile, existing profile links and affiliation, and a PhD label without an unverified completion year.
+
+2026-09-30 | "please push these changes" — Committed the alumni update on `copilot/add-mich-pillet-alumni` based on the current `origin/main` tip and pushed that branch. `main` was not changed; a pull request and merge are required before GitHub Pages can deploy it.

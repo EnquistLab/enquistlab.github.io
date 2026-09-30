@@ -642,3 +642,7 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
 73. Date: 2026-09-30
     Prompt: For my lab website. Let's add to the ### Former Graduate Students. Mich Pillet "Michiel (Mich) Pillet ..." who is listed on the website did his PhD in my lab. He should be added to the ### Former Graduate Students.
     Outcome: Added Michiel (Mich) Pillet to the sync-safe alumni overrides so he appears in Former Graduate Students after people-sheet synchronization. Used 2017, the year his public profile says he began working with the Enquist lab, for the 2010s cohort; listed his degree as PhD without asserting an unverified completion year, and retained the existing Scholar, website, GitHub, email, and institution details.
+
+74. Date: 2026-09-30
+    Prompt: please push these changes
+    Outcome: Created commit cb8d04da on branch copilot/add-mich-pillet-alumni, based on the current origin/main tip, and pushed it to origin. No direct commit or push to main was made; the branch requires a pull request and merge before GitHub Pages can deploy the alumni update.
