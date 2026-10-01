@@ -646,3 +646,12 @@ Commit: 79373d6a → EnquistLab/enquistlab.github.io main.
 74. Date: 2026-09-30
     Prompt: please push these changes
     Outcome: Created commit cb8d04da on branch copilot/add-mich-pillet-alumni, based on the current origin/main tip, and pushed it to origin. No direct commit or push to main was made; the branch requires a pull request and merge before GitHub Pages can deploy the alumni update.
+
+75. Date: 2026-09-30
+    Prompt: Please do this for me; update
+    Outcome: PR #2 merged as 70ae061b2f1f27423862ac078a417b6baa08fffe. GitHub Pages deployment 36775144353 completed successfully. The live People page showed Michiel (Mich) Pillet under Former Graduate Students, cohort 2010-2019, labeled PhD; the graduate alumni count was 21. The named always agent was unavailable; full transcript archival remained unverified.
+
+76. Date: 2026-09-30
+    Prompt: Can you add his photo? His pohoto is on the website already as a lab affiliate
+    Outcome: Added an exact-name mapping in _data/alumni_photos.yml to /assets/img/team/michiel_mich_pillet.jpg, reusing the existing staff portrait without modifying the image, staff profile, biography, or degree information. The unrelated _pages/news.md changes were left untouched.
+    Validation: YAML uniqueness and image-existence assertions, scoped Prettier check, editor diagnostics, and actual graduate-card Liquid rendering passed. The first rendering harness lacked Jekyll's filter-cache context and failed; supplying that context resolved the test failure. Full local notebook build was not rerun. Publication of the photo remains pending at this entry.

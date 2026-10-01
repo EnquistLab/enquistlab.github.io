@@ -199,3 +199,7 @@ Return concise evidence and overall PASS/FAIL."
 2026-09-30 | "For my lab website. Let's add to the ### Former Graduate Students. Mich Pillet \"Michiel (Mich) Pillet ...\" who is listed on the website did his PhD in my lab. He should be added to the ### Former Graduate Students." — Added Michiel (Mich) Pillet to the sync-safe alumni overrides with a 2017 lab start year based on his public profile, existing profile links and affiliation, and a PhD label without an unverified completion year.
 
 2026-09-30 | "please push these changes" — Committed the alumni update on `copilot/add-mich-pillet-alumni` based on the current `origin/main` tip and pushed that branch. `main` was not changed; a pull request and merge are required before GitHub Pages can deploy it.
+
+2026-09-30 | "Please do this for me"; "update" — PR #2 merged as 70ae061b2f1f27423862ac078a417b6baa08fffe. Deployment 36775144353 succeeded; the public People page was verified to list Mich under Former Graduate Students with a PhD label and a total count of 21.
+
+2026-09-30 | "Can you add his photo? His pohoto is on the website already as a lab affiliate" — Added Mich's existing local team portrait to the alumni photo map. Exact-name lookup, image existence, YAML formatting, and actual graduate-card Liquid rendering passed. Photo publication remains pending at this entry.

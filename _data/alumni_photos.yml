@@ -155,6 +155,10 @@
   url: "/assets/img/team/jehova_lourenco_junior.jpg"
   source: "local_team_photo"
 
+- name: "Michiel (Mich) Pillet"
+  url: "/assets/img/team/michiel_mich_pillet.jpg"
+  source: "local_team_photo"
+
 - name: "Verónica Zepeda"
   url: "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=D5iGJvcAAAAJ"
   source: "google_scholar"
