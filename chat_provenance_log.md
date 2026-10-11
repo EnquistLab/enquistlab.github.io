@@ -675,3 +675,12 @@ Publication blocked: PR #4 deploy check (run 38131062536) was rejected before an
 Prompt: "please push them please. I approve the separate CI repair".
 Changes: Separated read-only PR builds from the dependent non-PR production deploy job, retaining the github-pages environment protections and isolating PR concurrency. Excluded exact append-only provenance logs and generated _data/people.yml from Prettier, consistent with the existing generated citations exclusion. Formatted four remaining flagged files without prose changes; no protected agent files rewritten.
 Validation: Workflow structure assertions and editor diagnostics passed; repository-wide Prettier check passed; production Jekyll build passed in 42.013 seconds using the previously verified native toolchain. Git diff --check passed. This entry records the repair and local verification; remote CI, merge, deployment, and live verification remain pending. Unrelated local provenance retained outside the commit. Full transcript archival remains unverified.
+
+## 2026-10-11 - Home mission wording
+Prompt: Replace the front-page mission sentence with Brian's supplied wording, adding "the mechanisms underlying how those patterns have and will shift".
+Outcome: Updated only the mission paragraph in _pages/home.md to the exact supplied sentence. Source and rendered production HTML assertions passed; scoped Prettier, editor diagnostics, production Jekyll build, and git diff --check passed. No commit, push, or deployment for this change. Existing local provenance preserved. Full-session transcript archival remains unverified.
+
+## 2026-10-11 - Home mission commit and push authorized
+Prompt: "commit and push it!"
+Outcome: Authorized committing the homepage mission wording and its associated provenance to the current website branch, then pushing that branch to EnquistLab/enquistlab.github.io. Earlier unrelated local publication records remain outside this commit.
+Validation: Production Jekyll build passed in 28.244 seconds; exact built-homepage/source text assertion and whitespace check passed. Scoped science-rigor-reviewer verdict: PASS for the mission wording. Commit and push follow this entry; public deployment is not verified. The named always agent is unavailable; full-session transcript archival remains unverified.
