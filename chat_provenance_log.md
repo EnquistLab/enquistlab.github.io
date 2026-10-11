@@ -664,3 +664,14 @@ Validation: Source DOM assertions passed for both links, dates, section placemen
 ## 2026-10-08 - Authorized news commit and push
 Prompt: "comit and push".
 Preparation: Created copilot/add-forest-news-20261008 from refreshed origin/main. Scoped scholarly review passed: press headlines, dates, and study citation verified; the unsupported monitoring claim is removed. Scoped Prettier check passed. Only the news page and its provenance entries are selected for this commit; the unrelated alumni publication follow-up remains outside this commit. This entry records authorization and preparation, not a completed push or deployment. Full session transcript archival remains unverified.
+
+## 2026-10-11 - Live news publication authorized
+Prompt: "Lets go with your reocmmendation. Lets update the live site".
+Action: Opened https://github.com/EnquistLab/enquistlab.github.io/pull/4 for branch commit 0794f98f240d2ac97a7a27498607b5437a15bce7, previously pushed and verified. CI is pending before merge. This local entry does not claim deployment or public-page verification; outcomes will be appended after execution. Unrelated local changes remain untouched.
+
+Publication blocked: PR #4 deploy check (run 38131062536) was rejected before any steps: Branch "refs/pull/4/merge" is not allowed to deploy to github-pages due to environment protection rules. Formatter run 38131062539 failed on _data/people.yml, _includes/cv/publications.liquid, _posts/2026-06-25-enquist-lab-research-identity.md, agents/prompt_log.md, chat_provenance_log.md, CUSTOMIZE.md, and google8589e3b602b5c62f.html. The news page was not flagged. No merge, deployment, environment-rule change, or unrelated formatting repair performed. Approval is required to expand scope to CI repair; protected agent-log rewrites additionally require explicit per-file permission.
+
+## 2026-10-11 - Authorized CI repair and publication retry
+Prompt: "please push them please. I approve the separate CI repair".
+Changes: Separated read-only PR builds from the dependent non-PR production deploy job, retaining the github-pages environment protections and isolating PR concurrency. Excluded exact append-only provenance logs and generated _data/people.yml from Prettier, consistent with the existing generated citations exclusion. Formatted four remaining flagged files without prose changes; no protected agent files rewritten.
+Validation: Workflow structure assertions and editor diagnostics passed; repository-wide Prettier check passed; production Jekyll build passed in 42.013 seconds using the previously verified native toolchain. Git diff --check passed. This entry records the repair and local verification; remote CI, merge, deployment, and live verification remain pending. Unrelated local provenance retained outside the commit. Full transcript archival remains unverified.
