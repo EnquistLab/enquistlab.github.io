@@ -36,7 +36,8 @@
             {% if entry.authors %}
               <p class="ml-1 ml-md-4 mb-1" style="font-size: 0.9rem;">
                 {% for author_line in entry.authors %}
-                  {{ author_line }}{% unless forloop.last %}<br>{% endunless %}
+                  {{ author_line -}}
+                  {%- unless forloop.last %}<br>{% endunless %}
                 {% endfor %}
               </p>
             {% endif %}
@@ -64,7 +65,8 @@
             {% if entry.authors %}
               <p class="ml-1 ml-md-4 mb-1" style="font-size: 0.9rem;">
                 {% for author_line in entry.authors %}
-                  {{ author_line }}{% unless forloop.last %}<br>{% endunless %}
+                  {{ author_line -}}
+                  {%- unless forloop.last %}<br>{% endunless %}
                 {% endfor %}
               </p>
             {% endif %}
