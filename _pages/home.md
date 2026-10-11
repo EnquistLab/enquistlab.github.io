@@ -15,7 +15,7 @@ nav_order: 1
 </div>
 
 <div class="home-mission">
-  <p>We study how biodiversity, traits, and ecosystem function scale from individual organisms to whole ecosystems — and how those patterns shift under climate change and land-use pressure.</p>
+  <p>We study how biodiversity, traits, and ecosystem function scale from individual organisms to whole ecosystems — and the mechanisms underlying how those patterns have and will shift under climate change and land-use pressure.</p>
 </div>
 
 <div class="home-recruitment-status">
