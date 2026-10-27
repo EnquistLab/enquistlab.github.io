@@ -684,3 +684,7 @@ Outcome: Updated only the mission paragraph in _pages/home.md to the exact suppl
 Prompt: "commit and push it!"
 Outcome: Authorized committing the homepage mission wording and its associated provenance to the current website branch, then pushing that branch to EnquistLab/enquistlab.github.io. Earlier unrelated local publication records remain outside this commit.
 Validation: Production Jekyll build passed in 28.244 seconds; exact built-homepage/source text assertion and whitespace check passed. Scoped science-rigor-reviewer verdict: PASS for the mission wording. Commit and push follow this entry; public deployment is not verified. The named always agent is unavailable; full-session transcript archival remains unverified.
+
+## 2026-10-27 - Link SEFDP opening label
+Prompt: Make the bold opening label in the Long-Term Ecology section link to the San Emilio Forest Dynamics Plot site.
+Outcome: Linked the existing bold label to https://benquist.github.io/SanEmilioForestDynamicsPlot.github.io/; paragraph content and existing links otherwise preserved. Published via PR from an isolated branch off main.
