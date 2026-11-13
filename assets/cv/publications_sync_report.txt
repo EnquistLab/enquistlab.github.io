@@ -1,16 +1,18 @@
-Publications Sync Report — 2026-11-12 12:17 UTC
+Publications Sync Report — 2026-11-13 11:56 UTC
 ============================================================
 
-CV entries parsed: 336
+CV entries parsed: 337
 In Press → published patches applied: 0
 Missing-paper insertions applied: 0
 Enforced override insertions applied: 1
-DOIs verified OK: 23
-DOI failures / anomalies: 3
+DOIs verified OK: 27
+DOI failures / anomalies: 5
 Papers in public Google Doc but NOT found in HTML: 0
 
 DOI FAILURES / ANOMALIES
 ----------------------------------------
+  10.1038/s41586-026-11265-1  →  Resolves OK but flagged: [NOTE: segment '026' in DOI looks anomalous — possibly a year-style typo for a 2-digit volume number]
+  10.1038/s41467-026-78677-5  →  Resolves OK but flagged: [NOTE: segment '026' in DOI looks anomalous — possibly a year-style typo for a 2-digit volume number]
   10.1038/s41467-026-69952-6  →  Resolves OK but flagged: [NOTE: segment '026' in DOI looks anomalous — possibly a year-style typo for a 2-digit volume number]
   10.1186/s40663-017-0120-0  →  Resolves OK but flagged: [NOTE: segment '017' in DOI looks anomalous — possibly a year-style typo for a 2-digit volume number]
   10.1130/2008.2435(03  →  404 Not Found
