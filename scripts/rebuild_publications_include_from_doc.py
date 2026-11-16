@@ -117,8 +117,15 @@ def item_identity_key(html_text):
 def normalize_li(html_text):
     html_text = html_text.replace("\xa0", " ")
     html_text = re.sub(r"\s+", " ", html_text)
-    html_text = re.sub(r">\s+", ">", html_text)
-    html_text = re.sub(r"\s+<", "<", html_text)
+    # Move whitespace at the edges of a link outside it, so the space that
+    # separates the citation text from the linked title survives.
+    html_text = re.sub(r"(<a [^>]*>)\s+", r" \1", html_text)
+    html_text = re.sub(r"\s+</a>", "</a> ", html_text)
+    # Trim only at the list-item boundaries. Stripping whitespace next to every
+    # tag glued "(2023). <a>Title" into "(2023).<a>Title" on the rendered page.
+    html_text = re.sub(r"<li>\s+", "<li>", html_text)
+    html_text = re.sub(r"\s+</li>", "</li>", html_text)
+    html_text = re.sub(r"\s{2,}", " ", html_text)
     html_text = re.sub(r"\s+([,.;:)])", r"\1", html_text)
     html_text = re.sub(r"([(" + "\[] )\s+", r"\1", html_text)
     return html_text.strip()

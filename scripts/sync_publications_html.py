@@ -83,7 +83,7 @@ MISSING_HTML_OVERRIDES = {
     "ai chatbots can boost scientific coding": {
         "html": (
             '<li>Merow, C., Serra-Diaz, J. M., Enquist, B. J., & Wilson, A. M. (2023). '
-            '<a href="https://www.nature.com/articles/s41559-023-02083-z" '
+            '<a href="https://doi.org/10.1038/s41559-023-02063-3" '
             'target="_blank" rel="noopener noreferrer">AI chatbots can boost scientific coding</a>. '
             'Nature Ecology & Evolution, 7(7), 960-962.</li>'
         ),
