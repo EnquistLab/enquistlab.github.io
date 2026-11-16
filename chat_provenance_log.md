@@ -688,3 +688,8 @@ Validation: Production Jekyll build passed in 28.244 seconds; exact built-homepa
 ## 2026-10-27 - Link SEFDP opening label
 Prompt: Make the bold opening label in the Long-Term Ecology section link to the San Emilio Forest Dynamics Plot site.
 Outcome: Linked the existing bold label to https://benquist.github.io/SanEmilioForestDynamicsPlot.github.io/; paragraph content and existing links otherwise preserved. Published via PR from an isolated branch off main.
+
+## 2026-11-16 - Publication list citation check and deploy repair
+Prompt: Check the literature cited in the publication list against the Google Doc CV; then update the live publications page with the 2026 papers and any other needed changes.
+Outcome: scripts/rebuild_publications_include_from_doc.py normalize_li() no longer strips whitespace next to every tag (313 of 328 entries rendered "(2023).Title"). Include regenerated from the 2026-11-16 Doc export: 327 entries; the duplicated Maurer et al. (2004) entry now de-duplicates. Merow et al. (2023) link corrected from s41559-023-02083-z (a stream-fish paper) to 10.1038/s41559-023-02063-3 in the include, the sync_publications_html.py override and _data/cv.yml. sync-google-doc-cv.yml now dispatches deploy.yml after a sync commit; no deploy had run since 2026-10-27 because GITHUB_TOKEN pushes do not trigger workflows. Ruby pin 3.3.5 -> 3.3 in deploy.yml and copilot-setup-steps.yml (ubuntu-latest is now 26.04); CUSTOMIZE.md Prettier fix.
+Validation: test_publication_filters.mjs 0 failures; PR #7 build, Prettier and copilot-setup-steps checks pass. Merge to main pending Brian's approval; public deployment not yet done.
