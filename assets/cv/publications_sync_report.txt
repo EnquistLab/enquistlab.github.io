@@ -1,7 +1,7 @@
-Publications Sync Report — 2026-11-23 14:08 UTC
+Publications Sync Report — 2026-11-24 14:37 UTC
 ============================================================
 
-CV entries parsed: 337
+CV entries parsed: 338
 In Press → published patches applied: 0
 Missing-paper insertions applied: 0
 Enforced override insertions applied: 1
